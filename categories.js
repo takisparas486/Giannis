@@ -1,4 +1,4 @@
-/* ==========================================
+﻿/* ==========================================
    PicDuel
    categories.js
 ========================================== */
@@ -969,7 +969,7 @@ const categories = {
 
     ],
 
-    snakes-reptiles-amphibians: [
+    "snakes-reptiles-amphibians": [
         {
             answers: ["βασιλική κόμπρα"],
             image: "images/snakes-reptiles-amphibians/king-cobra.jpg",
@@ -1449,7 +1449,7 @@ const categories = {
 
     ],
 
-    sea-animals: [
+    "sea-animals": [
         {
             answers: ["μεγάλος λευκός καρχαρίας"],
             image: "images/sea-animals/great-white-shark.jpg",
@@ -2413,7 +2413,7 @@ const categories = {
 
     ],
 
-    football-players: [
+    "football-players": [
         {
             answers: ["λιονέλ μέσι", "μέσι"],
             image: "images/football-players/lionel-messi.jpg",
@@ -2895,7 +2895,7 @@ const categories = {
 
     ],
 
-    basketball-clubs: [
+    "basketball-clubs": [
         {
             answers: ["λόσ άντζελες λέικερς", "λέικερς"],
             image: "images/basketball-clubs/los-angeles-lakers.png",
@@ -3742,7 +3742,7 @@ const categories = {
 
     ],
 
-    famous-cars: [
+    "famous-cars": [
 
         {
             answers: ["mercedes amg gt black series", "amg gt black series"],
@@ -4226,7 +4226,7 @@ const categories = {
 
     ],
 
-f1-drivers: [
+"f1-drivers": [
 
         {
             answers: ["lewis hamilton", "hamilton"],
@@ -4710,7 +4710,7 @@ f1-drivers: [
 
     ],
 
-car-logos: [
+"car-logos": [
 
         {
             answers: ["mercedes benz", "mercedes"],
@@ -5194,7 +5194,7 @@ car-logos: [
 
     ],
 
-football-clubs: [
+"football-clubs": [
 
         {
             answers: ["real madrid"],
@@ -5679,7 +5679,7 @@ football-clubs: [
     ],
 
 
-country-flags: [
+"country-flags": [
 
         {
             answers: ["greece"],
@@ -6648,7 +6648,7 @@ movies: [
     ],
 
 
-video-games: [
+"video-games": [
 
         {
             answers: ["minecraft"],
@@ -7132,7 +7132,7 @@ video-games: [
 
     ],
 
-basketball-players: [
+"basketball-players": [
 
          {
             answers: ["michael jordan", "jordan"],
@@ -8100,7 +8100,7 @@ basketball-players: [
 
 ],
 
-famous-people: [
+"famous-people": [
 
     {
         answers: ["albert einstein", "einstein"],
@@ -9069,7 +9069,7 @@ singers: [
 
 ],
 
-star-wars: [
+"star-wars": [
 
 {
     answers: ["luke skywalker", "skywalker"],
@@ -9551,5 +9551,7 @@ star-wars: [
     difficulty: "hard"
 }
 
-],
+]
+
+};
 

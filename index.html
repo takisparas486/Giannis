@@ -1,381 +1,112 @@
 <!DOCTYPE html>
-<html lang="el">
+<html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>PicDuel</title>
-
-    <link rel="icon" href="assets/logo/favicon.png">
-
+    <link rel="icon" href="images/football-players/football-icon.svg">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-
-    <!-- INTRO -->
-
     <section id="introScreen">
-
-        <img
-            id="introLogo"
-            src="assets/logo/logo.png"
-            alt="PicDuel Logo">
-
-        <h1 id="introTitle">
-            PicDuel
-        </h1>
-
+        <img id="introLogo" src="images/football-players/football-icon.svg" alt="PicDuel Logo">
+        <h1 id="introTitle">PicDuel</h1>
     </section>
 
-    <!-- MENU -->
-
     <section id="menuScreen" class="hidden">
-
         <div class="menuContainer">
-
-            <img
-                id="menuLogo"
-                src="assets/logo/logo.png"
-                alt="PicDuel Logo">
-
+            <img id="menuLogo" src="images/football-players/football-icon.svg" alt="PicDuel logo">
             <h1>PicDuel</h1>
 
             <div class="modeContainer">
-
-                <button id="classicModeButton">
-                    👥 Classic
-                </button>
-
-                <button id="tournamentModeButton">
-                    🏆 Tournament
-                </button>
-
+                <button id="classicModeButton" type="button">👥 Classic</button>
+                <button id="tournamentModeButton" type="button">🏆 Tournament</button>
             </div>
 
             <div class="playersContainer">
-
-                <input
-                    id="player1Input"
-                    type="text"
-                    maxlength="20"
-                    placeholder="Παίκτης 1">
-
-                <input
-                    id="player2Input"
-                    type="text"
-                    maxlength="20"
-                    placeholder="Παίκτης 2">
-
-            </div>
-
-            <div id="tournamentPlayers" class="hidden">
-
+                <input id="player1Input" type="text" maxlength="20" placeholder="Player 1">
+                <input id="player2Input" type="text" maxlength="20" placeholder="Player 2">
             </div>
 
             <div class="optionsContainer">
-
                 <label>
-
-                    Κατηγορία
-
-                    <select id="categorySelect">
-
-                    </select>
-
+                    Category
+                    <select id="categorySelect"></select>
                 </label>
 
                 <label>
-
-                    Δυσκολία
-
+                    Difficulty
                     <select id="difficultySelect">
-
-                        <option value="easy">
-                            Easy
-                        </option>
-
-                        <option value="medium">
-                            Medium
-                        </option>
-
-                        <option value="hard">
-                            Hard
-                        </option>
-
-                        <option value="mixed">
-                            Mixed
-                        </option>
-
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                        <option value="mixed">Mixed</option>
                     </select>
-
                 </label>
 
                 <label>
-
-                    Χρόνος
-
+                    Time
                     <select id="timeSelect">
-
-                        <option value="30">
-                            30"
-
-                        </option>
-
-                        <option value="45">
-                            45"
-
-                        </option>
-
-                        <option value="60" selected>
-                            60"
-
-                        </option>
-
-                        <option value="90">
-                            90"
-
-                        </option>
-
-                        <option value="120">
-                            120"
-
-                        </option>
-
+                        <option value="30">30"</option>
+                        <option value="45">45"</option>
+                        <option value="60" selected>60"</option>
+                        <option value="90">90"</option>
+                        <option value="120">120"</option>
                     </select>
-
                 </label>
-
             </div>
 
             <div class="buttonsContainer">
-
-                <button id="statisticsButton">
-                    📊 Statistics
-                </button>
-
-                <button id="achievementsButton">
-                    🏅 Achievements
-                </button>
-
-                <button id="settingsButton">
-                    ⚙️ Settings
-                </button>
-
+                <button id="statisticsButton" type="button">📊 Statistics</button>
+                <button id="achievementsButton" type="button">🏅 Achievements</button>
+                <button id="settingsButton" type="button">⚙️ Settings</button>
             </div>
 
-            <button id="startGameButton">
-                ▶ START GAME
-            </button>
-
+            <button id="startGameButton" type="button">▶ START GAME</button>
         </div>
-
     </section>
-    <!-- GAME -->
 
     <section id="gameScreen" class="hidden">
-
         <header id="gameHeader">
-
             <div id="player1Card" class="playerCard">
-
-                <h2 id="player1Name">Παίκτης 1</h2>
-
+                <h2 id="player1Name">Player 1</h2>
                 <span id="player1Timer">60</span>
-
             </div>
 
             <div id="categoryName">
-
-                <h2 id="currentCategory">
-                    Category
-                </h2>
-
+                <h2 id="currentCategory">Category</h2>
             </div>
 
             <div id="player2Card" class="playerCard">
-
-                <h2 id="player2Name">Παίκτης 2</h2>
-
+                <h2 id="player2Name">Player 2</h2>
                 <span id="player2Timer">60</span>
-
             </div>
-
         </header>
 
         <main id="gameMain">
+            <img id="gameImage" src="" alt="Football player image">
+            <div id="messageBox">Type the name of the player you see!</div>
 
-            <img
-                id="gameImage"
-                src=""
-                alt="Game Image">
+            <div id="answerForm"></div>
 
-            <div id="messageBox">
-
-                Πες αυτό που βλέπεις!
-
-            </div>
-
+            <p id="turnHint">Turn: Player 1</p>
         </main>
-
     </section>
-
-
-    <!-- WINNER -->
 
     <section id="winnerScreen" class="hidden">
-
         <div class="winnerContainer">
-
-            <h1 id="winnerTitle">
-                🏆 ΝΙΚΗΤΗΣ
-            </h1>
-
-            <h2 id="winnerName">
-
-            </h2>
-
-            <p id="winnerDescription">
-
-            </p>
-
-            <button id="playAgainButton">
-
-                🔄 Play Again
-
-            </button>
-
-            <button id="backToMenuButton">
-
-                🏠 Main Menu
-
-            </button>
-
+            <h1 id="winnerTitle">🏆 WINNER</h1>
+            <h2 id="winnerName"></h2>
+            <p id="winnerDescription"></p>
+            <button id="playAgainButton" type="button">🔄 Play Again</button>
+            <button id="backToMenuButton" type="button">🏠 Main Menu</button>
         </div>
-
     </section>
-
-
-    <!-- TOURNAMENT -->
-
-    <section id="tournamentScreen" class="hidden">
-
-        <div class="screenContainer">
-
-            <h1>
-
-                🏆 Tournament
-
-            </h1>
-
-            <div id="tournamentBracket">
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- STATISTICS -->
-
-    <section id="statisticsScreen" class="hidden">
-
-        <div class="screenContainer">
-
-            <h1>
-
-                📊 Statistics
-
-            </h1>
-
-            <div id="statisticsContent">
-
-            </div>
-
-            <button class="backButton">
-
-                ⬅ Back
-
-            </button>
-
-        </div>
-
-    </section>
-
-
-    <!-- ACHIEVEMENTS -->
-
-    <section id="achievementsScreen" class="hidden">
-
-        <div class="screenContainer">
-
-            <h1>
-
-                🏅 Achievements
-
-            </h1>
-
-            <div id="achievementsContent">
-
-            </div>
-
-            <button class="backButton">
-
-                ⬅ Back
-
-            </button>
-
-        </div>
-
-    </section>
-
-
-    <!-- SETTINGS -->
-
-    <section id="settingsScreen" class="hidden">
-
-        <div class="screenContainer">
-
-            <h1>
-
-                ⚙️ Settings
-
-            </h1>
-
-            <div id="settingsContent">
-
-            </div>
-
-            <button class="backButton">
-
-                ⬅ Back
-
-            </button>
-
-        </div>
-
-    </section>
-
 
     <script src="categories.js"></script>
-
-    <script src="js/sounds.js"></script>
-
-    <script src="js/animations.js"></script>
-
-    <script src="js/statistics.js"></script>
-
-    <script src="js/speech.js"></script>
-
-    <script src="js/tournament.js"></script>
-
-    <script src="js/game.js"></script>
-
+    <script src="game.js"></script>
 </body>
 
 </html>
