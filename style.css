@@ -1,0 +1,762 @@
+/* ==========================================
+   PicDuel II
+   style.css
+   Part 1
+========================================== */
+
+/* ---------- RESET ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ---------- BODY ---------- */
+
+body{
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    background:#111827;
+
+    color:white;
+
+    overflow:hidden;
+
+    user-select:none;
+
+}
+
+/* ---------- SCREENS ---------- */
+
+section{
+
+    width:100vw;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.hidden{
+
+    display:none;
+
+}
+
+/* ---------- BUTTONS ---------- */
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    border-radius:14px;
+
+    transition:.25s;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+button:active{
+
+    transform:scale(.97);
+
+}
+
+/* ---------- INPUTS ---------- */
+
+input{
+
+    border:none;
+
+    outline:none;
+
+    border-radius:12px;
+
+    padding:14px;
+
+    font-size:18px;
+
+}
+
+/* ---------- SELECT ---------- */
+
+select{
+
+    border:none;
+
+    outline:none;
+
+    border-radius:12px;
+
+    padding:12px;
+
+    font-size:17px;
+
+}
+
+/* ---------- LABEL ---------- */
+
+label{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:8px;
+
+    font-size:18px;
+
+}
+
+/* ---------- IMAGES ---------- */
+
+img{
+
+    user-drag:none;
+    -webkit-user-drag:none;
+
+    user-select:none;
+
+}
+
+/* ---------- SCROLLBAR ---------- */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#3b82f6;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#1f2937;
+
+}
+
+/* ==========================================
+   INTRO SCREEN
+========================================== */
+
+#introScreen{
+
+    flex-direction:column;
+
+    gap:30px;
+
+    background:linear-gradient(180deg,#0f172a,#111827);
+
+}
+
+#introLogo{
+
+    width:240px;
+
+    opacity:0;
+
+    animation:introLogo 1.2s forwards;
+
+}
+
+#introTitle{
+
+    font-size:70px;
+
+    letter-spacing:4px;
+
+    color:white;
+
+    opacity:0;
+
+    animation:introTitle 1.2s .5s forwards;
+
+}
+
+
+/* ==========================================
+   MENU
+========================================== */
+
+#menuScreen{
+
+    background:#111827;
+
+}
+
+.menuContainer{
+
+    width:min(900px,90vw);
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+#menuLogo{
+
+    width:170px;
+
+}
+
+.menuContainer h1{
+
+    font-size:54px;
+
+}
+
+.modeContainer{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+.modeContainer button{
+
+    width:220px;
+
+    height:60px;
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.playersContainer{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.playersContainer input{
+
+    width:250px;
+
+}
+
+.optionsContainer{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+    width:100%;
+
+}
+
+.buttonsContainer{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.buttonsContainer button{
+
+    background:#374151;
+
+    color:white;
+
+    padding:14px 24px;
+
+}
+
+#startGameButton{
+
+    width:340px;
+
+    height:70px;
+
+    font-size:26px;
+
+    background:#16a34a;
+
+    color:white;
+
+}
+
+
+/* ==========================================
+   ANIMATIONS
+========================================== */
+
+@keyframes introLogo{
+
+    from{
+
+        opacity:0;
+
+        transform:scale(.6);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:scale(1);
+
+    }
+
+}
+
+@keyframes introTitle{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ==========================================
+   GAME SCREEN
+========================================== */
+
+#gameScreen{
+
+    flex-direction:column;
+
+    background:#0f172a;
+
+}
+
+/* ---------- HEADER ---------- */
+
+#gameHeader{
+
+    width:100%;
+
+    height:100px;
+
+    padding:20px 35px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:#1e293b;
+
+    border-bottom:2px solid #334155;
+
+}
+
+/* ---------- PLAYER CARDS ---------- */
+
+.playerCard{
+
+    width:260px;
+
+    height:70px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 20px;
+
+    border-radius:18px;
+
+    background:#334155;
+
+}
+
+.playerCard h2{
+
+    font-size:24px;
+
+}
+
+.playerCard span{
+
+    font-size:34px;
+
+    font-weight:bold;
+
+    color:#22c55e;
+
+}
+
+/* ---------- CATEGORY ---------- */
+
+#categoryName{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+#currentCategory{
+
+    font-size:30px;
+
+    color:#facc15;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+}
+
+/* ---------- MAIN ---------- */
+
+#gameMain{
+
+    flex:1;
+
+    width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:35px;
+
+}
+
+/* ---------- IMAGE ---------- */
+
+#gameImage{
+
+    max-width:80vw;
+
+    max-height:55vh;
+
+    border-radius:22px;
+
+    border:5px solid white;
+
+    object-fit:contain;
+
+    background:#1f2937;
+
+    box-shadow:0 0 30px rgba(0,0,0,.45);
+
+}
+
+/* ---------- MESSAGE ---------- */
+
+#messageBox{
+
+    min-width:350px;
+
+    padding:18px 30px;
+
+    border-radius:18px;
+
+    background:#2563eb;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+}
+
+/* ==========================================
+   WINNER SCREEN
+========================================== */
+
+#winnerScreen{
+
+    background:#0f172a;
+
+}
+
+.winnerContainer{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:25px;
+
+}
+
+#winnerTitle{
+
+    font-size:70px;
+
+    color:#facc15;
+
+}
+
+#winnerName{
+
+    font-size:50px;
+
+    color:#22c55e;
+
+}
+
+#winnerDescription{
+
+    font-size:24px;
+
+    color:#d1d5db;
+
+}
+
+#winnerScreen button{
+
+    width:280px;
+
+    height:60px;
+
+    font-size:22px;
+
+}
+
+#playAgainButton{
+
+    background:#16a34a;
+
+    color:white;
+
+}
+
+#backToMenuButton{
+
+    background:#374151;
+
+    color:white;
+
+}
+
+/* ==========================================
+   TOURNAMENT / STATISTICS / SETTINGS /
+   ACHIEVEMENTS
+========================================== */
+
+.screenContainer{
+
+    width:min(1100px,90vw);
+
+    height:min(750px,90vh);
+
+    background:#1e293b;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+.screenContainer h1{
+
+    text-align:center;
+
+    font-size:42px;
+
+}
+
+#statisticsContent,
+#achievementsContent,
+#settingsContent,
+#tournamentBracket{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    background:#0f172a;
+
+    border-radius:18px;
+
+    padding:20px;
+
+}
+
+.backButton{
+
+    width:220px;
+
+    height:60px;
+
+    align-self:center;
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:900px){
+
+    .optionsContainer{
+
+        grid-template-columns:1fr;
+
+    }
+
+    #gameHeader{
+
+        flex-direction:column;
+
+        height:auto;
+
+        gap:15px;
+
+        padding:20px;
+
+    }
+
+    .playerCard{
+
+        width:100%;
+
+    }
+
+    #currentCategory{
+
+        font-size:22px;
+
+    }
+
+    #gameImage{
+
+        max-width:90vw;
+
+        max-height:45vh;
+
+    }
+
+    #messageBox{
+
+        width:90%;
+
+        min-width:auto;
+
+        font-size:22px;
+
+    }
+
+}
+
+/* ==========================================
+   FADE ANIMATIONS
+========================================== */
+
+.fadeIn{
+
+    animation:fadeIn .35s ease;
+
+}
+
+.fadeOut{
+
+    animation:fadeOut .35s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+@keyframes fadeOut{
+
+    from{
+
+        opacity:1;
+
+    }
+
+    to{
+
+        opacity:0;
+
+    }
+
+}
