@@ -1,11 +1,2838 @@
-﻿/* ==========================================
+/* ==========================================
    PicDuel
    categories.js
 ========================================== */
 
 const categories = {
 
-    animals: [
+chemicalElements: [
+
+{
+    answers: ["υδρογόνο", "hydrogen"],
+    image: "images/elements/hydrogen.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ήλιο", "helium"],
+    image: "images/elements/helium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λίθιο", "lithium"],
+    image: "images/elements/lithium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βηρύλλιο", "beryllium"],
+    image: "images/elements/beryllium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βόριο", "boron"],
+    image: "images/elements/boron.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άνθρακας", "carbon"],
+    image: "images/elements/carbon.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άζωτο", "nitrogen"],
+    image: "images/elements/nitrogen.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["οξυγόνο", "oxygen"],
+    image: "images/elements/oxygen.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["φθόριο", "fluorine"],
+    image: "images/elements/fluorine.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["νέον", "neon"],
+    image: "images/elements/neon.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["νάτριο", "sodium"],
+    image: "images/elements/sodium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μαγνήσιο", "magnesium"],
+    image: "images/elements/magnesium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αλουμίνιο", "aluminium", "aluminum"],
+    image: "images/elements/aluminium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πυρίτιο", "silicon"],
+    image: "images/elements/silicon.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["φώσφορος", "phosphorus"],
+    image: "images/elements/phosphorus.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["θείο", "sulfur", "sulphur"],
+    image: "images/elements/sulfur.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["χλώριο", "chlorine"],
+    image: "images/elements/chlorine.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αργό", "argon"],
+    image: "images/elements/argon.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κάλιο", "potassium"],
+    image: "images/elements/potassium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ασβέστιο", "calcium"],
+    image: "images/elements/calcium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σκάνδιο", "scandium"],
+    image: "images/elements/scandium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τιτάνιο", "titanium"],
+    image: "images/elements/titanium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βανάδιο", "vanadium"],
+    image: "images/elements/vanadium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χρώμιο", "chromium"],
+    image: "images/elements/chromium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μαγγάνιο", "manganese"],
+    image: "images/elements/manganese.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σίδηρος", "iron"],
+    image: "images/elements/iron.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κοβάλτιο", "cobalt"],
+    image: "images/elements/cobalt.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["νικέλιο", "nickel"],
+    image: "images/elements/nickel.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["χαλκός", "copper"],
+    image: "images/elements/copper.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ψευδάργυρος", "zinc"],
+    image: "images/elements/zinc.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["γάλλιο", "gallium"],
+    image: "images/elements/gallium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γερμάνιο", "germanium"],
+    image: "images/elements/germanium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αρσενικό", "arsenic"],
+    image: "images/elements/arsenic.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σελήνιο", "selenium"],
+    image: "images/elements/selenium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βρώμιο", "bromine"],
+    image: "images/elements/bromine.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κρυπτό", "krypton"],
+    image: "images/elements/krypton.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ρουβίδιο", "rubidium"],
+    image: "images/elements/rubidium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["στρόντιο", "strontium"],
+    image: "images/elements/strontium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ύττριο", "yttrium"],
+    image: "images/elements/yttrium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ζιρκόνιο", "zirconium"],
+    image: "images/elements/zirconium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νιόβιο", "niobium"],
+    image: "images/elements/niobium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μολυβδαίνιο", "molybdenum"],
+    image: "images/elements/molybdenum.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τεχνήτιο", "technetium"],
+    image: "images/elements/technetium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ρουθήνιο", "ruthenium"],
+    image: "images/elements/ruthenium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ρόδιο", "rhodium"],
+    image: "images/elements/rhodium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["παλλάδιο", "palladium"],
+    image: "images/elements/palladium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άργυρος", "silver"],
+    image: "images/elements/silver.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κάδμιο", "cadmium"],
+    image: "images/elements/cadmium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ίνδιο", "indium"],
+    image: "images/elements/indium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κασσίτερος", "tin"],
+    image: "images/elements/tin.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αντιμόνιο", "antimony"],
+    image: "images/elements/antimony.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τελλούριο", "tellurium"],
+    image: "images/elements/tellurium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ιώδιο", "iodine"],
+    image: "images/elements/iodine.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ξένο", "xenon"],
+    image: "images/elements/xenon.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["καίσιο", "caesium", "cesium"],
+    image: "images/elements/caesium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βάριο", "barium"],
+    image: "images/elements/barium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λανθάνιο", "lanthanum"],
+    image: "images/elements/lanthanum.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["δημήτριο", "cerium"],
+    image: "images/elements/cerium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πρασεοδύμιο", "praseodymium"],
+    image: "images/elements/praseodymium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νεοδύμιο", "neodymium"],
+    image: "images/elements/neodymium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["προμήθιο", "promethium"],
+    image: "images/elements/promethium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σαμάριο", "samarium"],
+    image: "images/elements/samarium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ευρώπιο", "europium"],
+    image: "images/elements/europium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γαδολίνιο", "gadolinium"],
+    image: "images/elements/gadolinium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τέρβιο", "terbium"],
+    image: "images/elements/terbium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["δυσπρόσιο", "dysprosium"],
+    image: "images/elements/dysprosium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["όλμιο", "holmium"],
+    image: "images/elements/holmium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["έρβιο", "erbium"],
+    image: "images/elements/erbium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["θούλιο", "thulium"],
+    image: "images/elements/thulium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["υττέρβιο", "ytterbium"],
+    image: "images/elements/ytterbium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λουτήτιο", "lutetium"],
+    image: "images/elements/lutetium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άφνιο", "hafnium"],
+    image: "images/elements/hafnium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ταντάλιο", "tantalum"],
+    image: "images/elements/tantalum.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βολφράμιο", "tungsten", "wolfram"],
+    image: "images/elements/tungsten.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ρήνιο", "rhenium"],
+    image: "images/elements/rhenium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["όσμιο", "osmium"],
+    image: "images/elements/osmium.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ιρίδιο", "iridium"],
+    image: "images/elements/iridium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πλατίνα", "platinum"],
+    image: "images/elements/platinum.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["χρυσός", "gold"],
+    image: "images/elements/gold.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["υδράργυρος", "mercury"],
+    image: "images/elements/mercury.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["θάλλιο", "thallium"],
+    image: "images/elements/thallium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μόλυβδος", "lead"],
+    image: "images/elements/lead.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βισμούθιο", "bismuth"],
+    image: "images/elements/bismuth.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πολώνιο", "polonium"],
+    image: "images/elements/polonium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["άστατο", "astatine"],
+    image: "images/elements/astatine.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ραδόνιο", "radon"],
+    image: "images/elements/radon.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["φράγκιο", "francium"],
+    image: "images/elements/francium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ράδιο", "radium"],
+    image: "images/elements/radium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ακτίνιο", "actinium"],
+    image: "images/elements/actinium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["θόριο", "thorium"],
+    image: "images/elements/thorium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πρωτακτίνιο", "protactinium"],
+    image: "images/elements/protactinium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ουράνιο", "uranium"],
+    image: "images/elements/uranium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ποσειδώνιο", "neptunium"],
+    image: "images/elements/neptunium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πλουτώνιο", "plutonium"],
+    image: "images/elements/plutonium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αμερίκιο", "americium"],
+    image: "images/elements/americium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κιούριο", "curium"],
+    image: "images/elements/curium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βερκέλιο", "berkelium"],
+    image: "images/elements/berkelium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["καλιφόρνιο", "californium"],
+    image: "images/elements/californium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["αϊνσταΐνιο", "einsteinium"],
+    image: "images/elements/einsteinium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["φέρμιο", "fermium"],
+    image: "images/elements/fermium.png",
+    difficulty: "hard"
+},
+ 
+{
+    answers: ["μεντελέβιο", "mendelevium"],
+    image: "images/elements/mendelevium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νοβέλιο", "nobelium"],
+    image: "images/elements/nobelium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λωρένσιο", "lawrencium"],
+    image: "images/elements/lawrencium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ράδερφορντιο", "rutherfordium"],
+    image: "images/elements/rutherfordium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ντούμπνιο", "dubnium"],
+    image: "images/elements/dubnium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σιμπόργκιο", "seaborgium"],
+    image: "images/elements/seaborgium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπόριο", "bohrium"],
+    image: "images/elements/bohrium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["χάσιο", "hassium"],
+    image: "images/elements/hassium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μάιτνεριο", "meitnerium"],
+    image: "images/elements/meitnerium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νταρμστάντιο", "darmstadtium"],
+    image: "images/elements/darmstadtium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ρέντγκενιο", "roentgenium"],
+    image: "images/elements/roentgenium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κοπερνίκιο", "copernicium"],
+    image: "images/elements/copernicium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νιχόνιο", "nihonium"],
+    image: "images/elements/nihonium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["φλερόβιο", "flerovium"],
+    image: "images/elements/flerovium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μοσκόβιο", "moscovium"],
+    image: "images/elements/moscovium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λιβερμόριο", "livermorium"],
+    image: "images/elements/livermorium.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τενέσσιο", "tennessine"],
+    image: "images/elements/tennessine.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ογκανεσόν", "oganesson"],
+    image: "images/elements/oganesson.png",
+    difficulty: "hard"
+}
+
+],
+
+
+
+pokemon: [
+
+{
+    answers: ["pikachu"],
+    image: "images/pokemon/pikachu.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["raichu"],
+    image: "images/pokemon/raichu.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["charmander"],
+    image: "images/pokemon/charmander.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["charmeleon"],
+    image: "images/pokemon/charmeleon.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["charizard"],
+    image: "images/pokemon/charizard.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["bulbasaur"],
+    image: "images/pokemon/bulbasaur.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ivysaur"],
+    image: "images/pokemon/ivysaur.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["venusaur"],
+    image: "images/pokemon/venusaur.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["squirtle"],
+    image: "images/pokemon/squirtle.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["wartortle"],
+    image: "images/pokemon/wartortle.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["blastoise"],
+    image: "images/pokemon/blastoise.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["eevee"],
+    image: "images/pokemon/eevee.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["vaporeon"],
+    image: "images/pokemon/vaporeon.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jolteon"],
+    image: "images/pokemon/jolteon.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["flareon"],
+    image: "images/pokemon/flareon.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["snorlax"],
+    image: "images/pokemon/snorlax.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["gengar"],
+    image: "images/pokemon/gengar.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["gastly"],
+    image: "images/pokemon/gastly.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["haunter"],
+    image: "images/pokemon/haunter.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jigglypuff"],
+    image: "images/pokemon/jigglypuff.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["meowth"],
+    image: "images/pokemon/meowth.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["psyduck"],
+    image: "images/pokemon/psyduck.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["magikarp"],
+    image: "images/pokemon/magikarp.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["gyarados"],
+    image: "images/pokemon/gyarados.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["dragonite"],
+    image: "images/pokemon/dragonite.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["lapras"],
+    image: "images/pokemon/lapras.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["onix"],
+    image: "images/pokemon/onix.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["geodude"],
+    image: "images/pokemon/geodude.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["machop"],
+    image: "images/pokemon/machop.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["machoke"],
+    image: "images/pokemon/machoke.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["machamp"],
+    image: "images/pokemon/machamp.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["abra"],
+    image: "images/pokemon/abra.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["kadabra"],
+    image: "images/pokemon/kadabra.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["alakazam"],
+    image: "images/pokemon/alakazam.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["cubone"],
+    image: "images/pokemon/cubone.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ditto"],
+    image: "images/pokemon/ditto.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["lucario"],
+    image: "images/pokemon/lucario.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["riolu"],
+    image: "images/pokemon/riolu.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["mew"],
+    image: "images/pokemon/mew.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["mewtwo"],
+    image: "images/pokemon/mewtwo.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["greninja"],
+    image: "images/pokemon/greninja.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["froakie"],
+    image: "images/pokemon/froakie.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["frogadier"],
+    image: "images/pokemon/frogadier.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["blaziken"],
+    image: "images/pokemon/blaziken.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["torchic"],
+    image: "images/pokemon/torchic.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["combusken"],
+    image: "images/pokemon/combusken.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["sceptile"],
+    image: "images/pokemon/sceptile.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["treecko"],
+    image: "images/pokemon/treecko.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["grovyle"],
+    image: "images/pokemon/grovyle.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["swampert"],
+    image: "images/pokemon/swampert.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["mudkip"],
+    image: "images/pokemon/mudkip.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["marshtomp"],
+    image: "images/pokemon/marshtomp.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["gardevoir"],
+    image: "images/pokemon/gardevoir.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["gallade"],
+    image: "images/pokemon/gallade.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ralts"],
+    image: "images/pokemon/ralts.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["kirlia"],
+    image: "images/pokemon/kirlia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["tyranitar"],
+    image: "images/pokemon/tyranitar.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["larvitar"],
+    image: "images/pokemon/larvitar.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["salamence"],
+    image: "images/pokemon/salamence.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["metagross"],
+    image: "images/pokemon/metagross.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["rayquaza"],
+    image: "images/pokemon/rayquaza.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["kyogre"],
+    image: "images/pokemon/kyogre.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["groudon"],
+    image: "images/pokemon/groudon.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["lugia"],
+    image: "images/pokemon/lugia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ho-oh", "ho oh", "hooh"],
+    image: "images/pokemon/ho-oh.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["darkrai"],
+    image: "images/pokemon/darkrai.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["dialga"],
+    image: "images/pokemon/dialga.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["palkia"],
+    image: "images/pokemon/palkia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["giratina"],
+    image: "images/pokemon/giratina.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["zekrom"],
+    image: "images/pokemon/zekrom.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["reshiram"],
+    image: "images/pokemon/reshiram.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["kyurem"],
+    image: "images/pokemon/kyurem.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["xerneas"],
+    image: "images/pokemon/xerneas.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["yveltal"],
+    image: "images/pokemon/yveltal.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["zoroark"],
+    image: "images/pokemon/zoroark.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["arceus"],
+    image: "images/pokemon/arceus.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["deoxys"],
+    image: "images/pokemon/deoxys.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["genesect"],
+    image: "images/pokemon/genesect.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["regigigas"],
+    image: "images/pokemon/regigigas.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["eternatus"],
+    image: "images/pokemon/eternatus.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["necrozma"],
+    image: "images/pokemon/necrozma.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["calyrex"],
+    image: "images/pokemon/calyrex.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["keldeo"],
+    image: "images/pokemon/keldeo.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["cobalion"],
+    image: "images/pokemon/cobalion.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["terrakion"],
+    image: "images/pokemon/terrakion.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["virizion"],
+    image: "images/pokemon/virizion.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["entei"],
+    image: "images/pokemon/entei.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["raikou"],
+    image: "images/pokemon/raikou.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["suicune"],
+    image: "images/pokemon/suicune.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["latias"],
+    image: "images/pokemon/latias.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["latios"],
+    image: "images/pokemon/latios.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["hoopa"],
+    image: "images/pokemon/hoopa.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["zygarde"],
+    image: "images/pokemon/zygarde.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["solgaleo"],
+    image: "images/pokemon/solgaleo.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["lunala"],
+    image: "images/pokemon/lunala.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["zacian"],
+    image: "images/pokemon/zacian.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["zamazenta"],
+    image: "images/pokemon/zamazenta.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["koraidon"],
+    image: "images/pokemon/koraidon.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["miraidon"],
+    image: "images/pokemon/miraidon.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["nihilego"],
+    image: "images/pokemon/nihilego.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["buzzwole"],
+    image: "images/pokemon/buzzwole.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["pheromosa"],
+    image: "images/pokemon/pheromosa.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["xurkitree"],
+    image: "images/pokemon/xurkitree.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["celesteela"],
+    image: "images/pokemon/celesteela.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["kartana"],
+    image: "images/pokemon/kartana.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["guzzlord"],
+    image: "images/pokemon/guzzlord.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["poipole"],
+    image: "images/pokemon/poipole.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["naganadel"],
+    image: "images/pokemon/naganadel.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["stakataka"],
+    image: "images/pokemon/stakataka.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["blacephalon"],
+    image: "images/pokemon/blacephalon.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["tapu koko"],
+    image: "images/pokemon/tapu-koko.png",
+    difficulty: "hard"
+}
+
+],
+
+mythology: [
+
+{
+    answers: ["δίας", "zeus"],
+    image: "images/mythology/zeus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ποσειδώνας", "poseidon"],
+    image: "images/mythology/poseidon.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άδης", "hades"],
+    image: "images/mythology/hades.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αθηνά", "athena"],
+    image: "images/mythology/athena.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άρης", "ares"],
+    image: "images/mythology/ares.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["απόλλωνας", "apollo"],
+    image: "images/mythology/apollo.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άρτεμις", "artemis"],
+    image: "images/mythology/artemis.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ήρα", "hera"],
+    image: "images/mythology/hera.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ερμής", "hermes"],
+    image: "images/mythology/hermes.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αφροδίτη", "aphrodite"],
+    image: "images/mythology/aphrodite.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ήφαιστος", "hephaestus"],
+    image: "images/mythology/hephaestus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["δήμητρα", "demeter"],
+    image: "images/mythology/demeter.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["περσεφόνη", "persephone"],
+    image: "images/mythology/persephone.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["έρως", "eros", "cupid"],
+    image: "images/mythology/eros.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μέδουσα", "medusa"],
+    image: "images/mythology/medusa.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πήγασος", "pegasus"],
+    image: "images/mythology/pegasus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κέρβερος", "cerberus"],
+    image: "images/mythology/cerberus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μινώταυρος", "minotaur"],
+    image: "images/mythology/minotaur.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κύκλωπας", "cyclops"],
+    image: "images/mythology/cyclops.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κένταυρος", "centaur"],
+    image: "images/mythology/centaur.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σφίγγα", "sphinx"],
+    image: "images/mythology/sphinx.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ύδρα", "ύδρα της λέρνας", "lernaean hydra", "hydra"],
+    image: "images/mythology/hydra.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["χίμαιρα", "chimera"],
+    image: "images/mythology/chimera.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άτλας", "atlas"],
+    image: "images/mythology/atlas.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κρόνος", "cronus", "kronos"],
+    image: "images/mythology/cronus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ρέα", "rhea"],
+    image: "images/mythology/rhea.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ουρανός", "uranus"],
+    image: "images/mythology/uranus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["γαία", "gaia", "gaea"],
+    image: "images/mythology/gaia.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["θωρ", "thor"],
+    image: "images/mythology/thor.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λόκι", "loki"],
+    image: "images/mythology/loki.jpg",
+    difficulty: "easy"
+},
+
+
+{
+    answers: ["όντιν", "odin"],
+    image: "images/mythology/odin.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["φρέγια", "freya", "freyja"],
+    image: "images/mythology/freya.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τυρ", "tyr", "tir"],
+    image: "images/mythology/tyr.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χέιμνταλ", "heimdall"],
+    image: "images/mythology/heimdall.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["φενρίρ", "fenrir"],
+    image: "images/mythology/fenrir.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γιορμουνγκάντρ", "jormungandr", "jörmungandr"],
+    image: "images/mythology/jormungandr.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σλεϊπνιρ", "sleipnir"],
+    image: "images/mythology/sleipnir.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ανούβις", "anubis"],
+    image: "images/mythology/anubis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ρα", "ra"],
+    image: "images/mythology/ra.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ώρος", "horus"],
+    image: "images/mythology/horus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["όσιρις", "osiris"],
+    image: "images/mythology/osiris.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ίσιδα", "isis"],
+    image: "images/mythology/isis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σεθ", "set", "seth"],
+    image: "images/mythology/set.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["θωθ", "thoth"],
+    image: "images/mythology/thoth.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βάστιτ", "bastet"],
+    image: "images/mythology/bastet.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σομπέκ", "sobek"],
+    image: "images/mythology/sobek.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άμμων", "amon", "amun"],
+    image: "images/mythology/amun.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νίκη", "nike"],
+    image: "images/mythology/nike.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νέμεσις", "nemesis"],
+    image: "images/mythology/nemesis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χάροντας", "charon"],
+    image: "images/mythology/charon.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μοίρες", "the fates", "fates", "moirai"],
+    image: "images/mythology/fates.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νύξ", "nyx"],
+    image: "images/mythology/nyx.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["έριδα", "eris"],
+    image: "images/mythology/eris.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πάνας", "pan"],
+    image: "images/mythology/pan.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μορφέας", "morpheus"],
+    image: "images/mythology/morpheus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τύχη", "tyche"],
+    image: "images/mythology/tyche.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ηρακλής", "heracles", "hercules"],
+    image: "images/mythology/heracles.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αχιλλέας", "achilles"],
+    image: "images/mythology/achilles.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["οδυσσέας", "odysseus", "ulysses"],
+    image: "images/mythology/odysseus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["περσέας", "perseus"],
+    image: "images/mythology/perseus.jpg",
+    difficulty: "medium"
+},
+
+
+{
+    answers: ["κίρκη", "circe"],
+    image: "images/mythology/circe.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αιόλος", "aeolus"],
+    image: "images/mythology/aeolus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["προμηθέας", "prometheus"],
+    image: "images/mythology/prometheus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["επιμηθέας", "epimetheus"],
+    image: "images/mythology/epimetheus.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["διονύσος", "dionysus"],
+    image: "images/mythology/dionysus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["εστία", "hestia"],
+    image: "images/mythology/hestia.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σελήνη", "selene"],
+    image: "images/mythology/selene.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ηώς", "eos"],
+    image: "images/mythology/eos.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χάος", "chaos"],
+    image: "images/mythology/chaos.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["έκτωρας", "hector"],
+    image: "images/mythology/hector.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πάτροκλος", "patroclus"],
+    image: "images/mythology/patroclus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ιάσονας", "jason"],
+    image: "images/mythology/jason.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ορφέας", "orpheus"],
+    image: "images/mythology/orpheus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["δάδαλος", "daedalus"],
+    image: "images/mythology/daedalus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ίκαρος", "icarus"],
+    image: "images/mythology/icarus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["θησέας", "theseus"],
+    image: "images/mythology/theseus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ανδρομέδα", "andromeda"],
+    image: "images/mythology/andromeda.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κάστωρ", "castor"],
+    image: "images/mythology/castor.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πολυδεύκης", "polydeuces", "pollux"],
+    image: "images/mythology/polydeuces.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πανδώρα", "pandora"],
+    image: "images/mythology/pandora.jpg",
+    difficulty: "easy"
+},
+
+
+
+{
+    answers: ["κέρβερος", "cerberus"],
+    image: "images/mythology/cerberus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μέδουσα", "medusa"],
+    image: "images/mythology/medusa.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["γοργόνες", "gorgons"],
+    image: "images/mythology/gorgons.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μινώταυρος", "minotaur"],
+    image: "images/mythology/minotaur.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κύκλωπας", "cyclops"],
+    image: "images/mythology/cyclops.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κένταυρος", "centaur"],
+    image: "images/mythology/centaur.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σφίγγα", "sphinx"],
+    image: "images/mythology/sphinx.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λερναία ύδρα", "hydra", "lernaean hydra"],
+    image: "images/mythology/hydra.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["χίμαιρα", "chimera"],
+    image: "images/mythology/chimera.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πήγασος", "pegasus"],
+    image: "images/mythology/pegasus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σειρήνες", "sirens"],
+    image: "images/mythology/sirens.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άρπυιες", "harpies"],
+    image: "images/mythology/harpies.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σάτυρος", "satyr"],
+    image: "images/mythology/satyr.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νύμφη", "nymph"],
+    image: "images/mythology/nymph.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τυφώνας", "typhon"],
+    image: "images/mythology/typhon.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["εχίδνα", "echidna"],
+    image: "images/mythology/echidna.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σκύλλα", "scylla"],
+    image: "images/mythology/scylla.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χάρυβδη", "charybdis"],
+    image: "images/mythology/charybdis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["όρθρος", "orthrus", "orthos"],
+    image: "images/mythology/orthrus.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λάδων", "ladon"],
+    image: "images/mythology/ladon.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λερναίος καρκίνος", "carcinus"],
+    image: "images/mythology/carcinus.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τελχίνες", "telchines"],
+    image: "images/mythology/telchines.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ερινύες", "erinyes", "furies"],
+    image: "images/mythology/erinyes.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γίγαντες", "gigantes", "giants"],
+    image: "images/mythology/gigantes.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τιτάνες", "titans"],
+    image: "images/mythology/titans.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["δράκος", "dragon"],
+    image: "images/mythology/dragon.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["φοίνικας", "phoenix"],
+    image: "images/mythology/phoenix.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κράκεν", "kraken"],
+    image: "images/mythology/kraken.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γρύπας", "griffin", "gryphon"],
+    image: "images/mythology/griffin.jpg",
+    difficulty: "medium"
+}
+
+],
+
+
+    capitals: [
+
+{
+    answers: ["αθήνα", "athens"],
+    image: "images/countries/greece.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["παρίσι", "paris"],
+    image: "images/countries/france.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βερολίνο", "berlin"],
+    image: "images/countries/germany.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ρώμη", "rome", "roma"],
+    image: "images/countries/italy.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μαδρίτη", "madrid"],
+    image: "images/countries/spain.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λισαβόνα", "lisbon", "lisboa"],
+    image: "images/countries/portugal.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λονδίνο", "london"],
+    image: "images/countries/united-kingdom.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["δουβλίνο", "dublin"],
+    image: "images/countries/ireland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βρυξέλλες", "brussels"],
+    image: "images/countries/belgium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άμστερνταμ", "amsterdam"],
+    image: "images/countries/netherlands.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βέρνη", "bern"],
+    image: "images/countries/switzerland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βιέννη", "vienna"],
+    image: "images/countries/austria.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["στοκχόλμη", "stockholm"],
+    image: "images/countries/sweden.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["όσλο", "oslo"],
+    image: "images/countries/norway.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κοπεγχάγη", "copenhagen"],
+    image: "images/countries/denmark.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ελσίνκι", "helsinki"],
+    image: "images/countries/finland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βαρσοβία", "warsaw"],
+    image: "images/countries/poland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πράγα", "prague", "praha"],
+    image: "images/countries/czechia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βουδαπέστη", "budapest"],
+    image: "images/countries/hungary.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βουκουρέστι", "bucharest"],
+    image: "images/countries/romania.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σοφία", "sofia"],
+    image: "images/countries/bulgaria.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άγκυρα", "ankara"],
+    image: "images/countries/turkiye.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μόσχα", "moscow"],
+    image: "images/countries/russia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κίεβο", "κιεβο", "kyiv", "kiev"],
+    image: "images/countries/ukraine.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["οτάβα", "ottawa"],
+    image: "images/countries/canada.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ουάσινγκτον", "washington", "washington dc"],
+    image: "images/countries/united-states.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πόλη του μεξικού", "μεξικό σίτι", "mexico city"],
+    image: "images/countries/mexico.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μπραζίλια", "brasilia"],
+    image: "images/countries/brazil.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μπουένος άιρες", "buenos aires"],
+    image: "images/countries/argentina.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σαντιάγο", "santiago"],
+    image: "images/countries/chile.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λίμα", "lima"],
+    image: "images/countries/peru.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μπογκοτά", "bogota", "bogotá"],
+    image: "images/countries/colombia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["τόκιο", "tokyo"],
+    image: "images/countries/japan.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πεκίνο", "beijing"],
+    image: "images/countries/china.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σεούλ", "seoul"],
+    image: "images/countries/south-korea.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πιονγκγιάνγκ", "πιονγκ γιανγκ", "pyongyang"],
+    image: "images/countries/north-korea.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νέο δελχί", "new delhi"],
+    image: "images/countries/india.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ισλαμαμπάντ", "islamabad"],
+    image: "images/countries/pakistan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπανγκόκ", "bangkok"],
+    image: "images/countries/thailand.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ανόι", "hanoi"],
+    image: "images/countries/vietnam.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τζακάρτα", "jakarta"],
+    image: "images/countries/indonesia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μανίλα", "manila"],
+    image: "images/countries/philippines.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["καμπέρα", "canberra"],
+    image: "images/countries/australia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ουέλινγκτον", "wellington"],
+    image: "images/countries/new-zealand.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κάιρο", "cairo"],
+    image: "images/countries/egypt.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ραμπάτ", "rabat"],
+    image: "images/countries/morocco.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πρετόρια", "pretoria"],
+    image: "images/countries/south-africa.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ριάντ", "riyadh"],
+    image: "images/countries/saudi-arabia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αμπού ντάμπι", "abu dhabi"],
+    image: "images/countries/united-arab-emirates.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ιερουσαλήμ", "jerusalem"],
+    image: "images/countries/israel.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σιγκαπούρη", "singapore"],
+    image: "images/countries/singapore.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κουάλα λουμπούρ", "kuala lumpur"],
+    image: "images/countries/malaysia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ντόχα", "doha"],
+    image: "images/countries/qatar.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ζάγκρεμπ", "zagreb"],
+    image: "images/countries/croatia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βελιγράδι", "belgrade"],
+    image: "images/countries/serbia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λιουμπλιάνα", "ljubljana"],
+    image: "images/countries/slovenia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπρατισλάβα", "bratislava"],
+    image: "images/countries/slovakia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σαράγεβο", "sarajevo"],
+    image: "images/countries/bosnia-and-herzegovina.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ποντγκόριτσα", "podgorica"],
+    image: "images/countries/montenegro.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σκόπια", "skopje"],
+    image: "images/countries/north-macedonia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τίρανα", "tirana"],
+    image: "images/countries/albania.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λευκωσία", "nicosia"],
+    image: "images/countries/cyprus.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βίλνιους", "vilnius"],
+    image: "images/countries/lithuania.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ρίγα", "riga"],
+    image: "images/countries/latvia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τάλιν", "tallinn"],
+    image: "images/countries/estonia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μινσκ", "minsk"],
+    image: "images/countries/belarus.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κισινάου", "chisinau", "chișinău"],
+    image: "images/countries/moldova.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τιφλίδα", "tbilisi"],
+    image: "images/countries/georgia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γιερεβάν", "yerevan"],
+    image: "images/countries/armenia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπακού", "baku"],
+    image: "images/countries/azerbaijan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αστάνα", "astana"],
+    image: "images/countries/kazakhstan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τάσкент", "tashkent"],
+    image: "images/countries/uzbekistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ασγκαμπάτ", "ashgabat"],
+    image: "images/countries/turkmenistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπισκέκ", "bishkek"],
+    image: "images/countries/kyrgyzstan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ντουσάνμπε", "dushanbe"],
+    image: "images/countries/tajikistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κατμαντού", "kathmandu"],
+    image: "images/countries/nepal.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ντάκα", "dhaka"],
+    image: "images/countries/bangladesh.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σρι τζαγιαγουαρντενεπούρα κότε", "sri jayawardenepura kotte"],
+    image: "images/countries/sri-lanka.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ουλάν μπατόρ", "ulaanbaatar", "ulan bator"],
+    image: "images/countries/mongolia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ταϊπέι", "taipei"],
+    image: "images/countries/taiwan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πνομ πενχ", "phnom penh"],
+    image: "images/countries/cambodia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βιεντιάν", "vientiane"],
+    image: "images/countries/laos.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νεπιντό", "naypyidaw"],
+    image: "images/countries/myanmar.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπαντάρ σερί μπεγκαβάν", "bandar seri begawan"],
+    image: "images/countries/brunei.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πορτ μόρεσμπι", "port moresby"],
+    image: "images/countries/papua-new-guinea.png",
+    difficulty: "hard"
+},
+
+
+{
+    answers: ["ρέικιαβικ", "reykjavik"],
+    image: "images/countries/iceland.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λουξεμβούργο", "luxembourg"],
+    image: "images/countries/luxembourg.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βαντούζ", "vaduz"],
+    image: "images/countries/liechtenstein.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ανδόρα λα βέγια", "andorra la vella"],
+    image: "images/countries/andorra.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μονακό", "monaco"],
+    image: "images/countries/monaco.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άγιος μαρίνος", "san marino"],
+    image: "images/countries/san-marino.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πόλη του βατικανού", "vatican city"],
+    image: "images/countries/vatican-city.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βαλέτα", "valletta"],
+    image: "images/countries/malta.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τυνήσια", "tunis"],
+    image: "images/countries/tunisia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αλγέρι", "algiers"],
+    image: "images/countries/algeria.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τρίπολη", "tripoli"],
+    image: "images/countries/libya.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αμπούτζα", "abuja"],
+    image: "images/countries/nigeria.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ναϊρόμπι", "nairobi"],
+    image: "images/countries/kenya.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αντίς αμπέμπα", "addis ababa"],
+    image: "images/countries/ethiopia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ντοντόμα", "dodoma"],
+    image: "images/countries/tanzania.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["χαράρε", "harare"],
+    image: "images/countries/zimbabwe.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λουσάκα", "lusaka"],
+    image: "images/countries/zambia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βίντχουκ", "windhoek"],
+    image: "images/countries/namibia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γκαμπορόνε", "gaborone"],
+    image: "images/countries/botswana.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["καράκας", "caracas"],
+    image: "images/countries/venezuela.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κίτο", "quito"],
+    image: "images/countries/ecuador.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μοντεβιδέο", "montevideo"],
+    image: "images/countries/uruguay.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ασουνσιόν", "asuncion", "asunción"],
+    image: "images/countries/paraguay.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σούκρε", "sucre"],
+    image: "images/countries/bolivia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αβάνα", "havana"],
+    image: "images/countries/cuba.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κίνγκστον", "kingston"],
+    image: "images/countries/jamaica.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σάντο ντομίνγκο", "santo domingo"],
+    image: "images/countries/dominican-republic.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σαν χοσέ", "san jose", "san josé"],
+    image: "images/countries/costa-rica.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πόλη του παναμά", "παναμά σίτι", "panama city"],
+    image: "images/countries/panama.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τίμφου", "thimphu"],
+    image: "images/countries/bhutan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ανταναναρίβο", "antananarivo"],
+    image: "images/countries/madagascar.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πορτ λούις", "port louis"],
+    image: "images/countries/mauritius.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βικτώρια", "victoria"],
+    image: "images/countries/seychelles.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μαλέ", "male", "malé"],
+    image: "images/countries/maldives.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ντίλι", "dili"],
+    image: "images/countries/timor-leste.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νγκερουλμούντ", "ngerulmud"],
+    image: "images/countries/palau.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σούβα", "suva"],
+    image: "images/countries/fiji.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νουκουαλόφα", "nukuʻalofa", "nukualofa"],
+    image: "images/countries/tonga.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["απία", "apia"],
+    image: "images/countries/samoa.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πορτ βίλα", "port vila"],
+    image: "images/countries/vanuatu.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γιάρεν", "yaren"],
+    image: "images/countries/nauru.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["φουναφούτι", "funafuti"],
+    image: "images/countries/tuvalu.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ταραουά", "tarawa"],
+    image: "images/countries/kiribati.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ματζούρο", "majuro"],
+    image: "images/countries/marshall-islands.png",
+    difficulty: "hard"
+}
+
+],
+
+      
+ animals: [
 
         {
             answers: ["λιοντάρι"],
@@ -969,7 +3796,7 @@ const categories = {
 
     ],
 
-    "snakes-reptiles-amphibians": [
+    snakes-reptiles-amphibians: [
         {
             answers: ["βασιλική κόμπρα"],
             image: "images/snakes-reptiles-amphibians/king-cobra.jpg",
@@ -1449,7 +4276,7 @@ const categories = {
 
     ],
 
-    "sea-animals": [
+    sea-animals: [
         {
             answers: ["μεγάλος λευκός καρχαρίας"],
             image: "images/sea-animals/great-white-shark.jpg",
@@ -2413,7 +5240,7 @@ const categories = {
 
     ],
 
-    "football-players": [
+    football-players: [
         {
             answers: ["λιονέλ μέσι", "μέσι"],
             image: "images/football-players/lionel-messi.jpg",
@@ -2895,7 +5722,7 @@ const categories = {
 
     ],
 
-    "basketball-clubs": [
+    basketball-clubs: [
         {
             answers: ["λόσ άντζελες λέικερς", "λέικερς"],
             image: "images/basketball-clubs/los-angeles-lakers.png",
@@ -3742,7 +6569,7 @@ const categories = {
 
     ],
 
-    "famous-cars": [
+    famous-cars: [
 
         {
             answers: ["mercedes amg gt black series", "amg gt black series"],
@@ -4226,7 +7053,7 @@ const categories = {
 
     ],
 
-"f1-drivers": [
+f1-drivers: [
 
         {
             answers: ["lewis hamilton", "hamilton"],
@@ -4710,7 +7537,7 @@ const categories = {
 
     ],
 
-"car-logos": [
+car-logos: [
 
         {
             answers: ["mercedes benz", "mercedes"],
@@ -5194,7 +8021,7 @@ const categories = {
 
     ],
 
-"football-clubs": [
+football-clubs: [
 
         {
             answers: ["real madrid"],
@@ -5679,7 +8506,7 @@ const categories = {
     ],
 
 
-"country-flags": [
+country-flags: [
 
         {
             answers: ["greece"],
@@ -6648,7 +9475,7 @@ movies: [
     ],
 
 
-"video-games": [
+video-games: [
 
         {
             answers: ["minecraft"],
@@ -7132,7 +9959,7 @@ movies: [
 
     ],
 
-"basketball-players": [
+basketball-players: [
 
          {
             answers: ["michael jordan", "jordan"],
@@ -8100,7 +10927,7 @@ movies: [
 
 ],
 
-"famous-people": [
+famous-people: [
 
     {
         answers: ["albert einstein", "einstein"],
@@ -9069,7 +11896,7 @@ singers: [
 
 ],
 
-"star-wars": [
+star-wars: [
 
 {
     answers: ["luke skywalker", "skywalker"],
@@ -9550,8 +12377,2482 @@ singers: [
     image: "images/star-wars/order-66.jpg",
     difficulty: "hard"
 }
+],
+
+horror: [
+
+{
+    answers: ["michael myers", "michael"],
+    image: "images/horror/michael-myers.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jason voorhees", "jason"],
+    image: "images/horror/jason-voorhees.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["freddy krueger", "freddy"],
+    image: "images/horror/freddy-krueger.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ghostface", "ghost face"],
+    image: "images/horror/ghostface.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["chucky", "charles lee ray"],
+    image: "images/horror/chucky.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["pennywise"],
+    image: "images/horror/pennywise.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["leatherface", "leather face"],
+    image: "images/horror/leatherface.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jigsaw", "john kramer"],
+    image: "images/horror/jigsaw.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["billy", "billy the puppet"],
+    image: "images/horror/billy-the-puppet.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["pinhead", "pin head", "hellraiser"],
+    image: "images/horror/pinhead.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["annabelle", "annabelle doll"],
+    image: "images/horror/annabelle.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["valak", "the nun", "nun"],
+    image: "images/horror/valak.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["samara", "samara morgan"],
+    image: "images/horror/samara-morgan.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["candyman", "candy man"],
+    image: "images/horror/candyman.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["hannibal lecter", "hannibal"],
+    image: "images/horror/hannibal-lecter.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["art the clown", "art"],
+    image: "images/horror/art-the-clown.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["freddy fazbear", "freddy"],
+    image: "images/horror/freddy-fazbear.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["bonnie"],
+    image: "images/horror/bonnie.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["chica"],
+    image: "images/horror/chica.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["foxy"],
+    image: "images/horror/foxy.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["huggy wuggy", "huggy"],
+    image: "images/horror/huggy-wuggy.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["slender man", "slenderman"],
+    image: "images/horror/slender-man.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["siren head"],
+    image: "images/horror/siren-head.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["pyramid head"],
+    image: "images/horror/pyramid-head.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["nemesis"],
+    image: "images/horror/nemesis.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["mr x", "mr. x", "tyrant"],
+    image: "images/horror/mr-x.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["lady dimitrescu", "dimitrescu"],
+    image: "images/horror/lady-dimitrescu.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["alien", "xenomorph"],
+    image: "images/horror/xenomorph.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["predator"],
+    image: "images/horror/predator.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["demogorgon"],
+    image: "images/horror/demogorgon.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["vecna"],
+    image: "images/horror/vecna.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["m3gan", "megan"],
+    image: "images/horror/m3gan.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jeff the killer", "jeff"],
+    image: "images/horror/jeff-the-killer.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["norman bates", "norman"],
+    image: "images/horror/norman-bates.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["esther"],
+    image: "images/horror/esther.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["springtrap"],
+    image: "images/horror/springtrap.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["golden freddy"],
+    image: "images/horror/golden-freddy.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["puppet", "marionette", "the puppet"],
+    image: "images/horror/puppet.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["circus baby", "baby"],
+    image: "images/horror/circus-baby.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["glamrock freddy"],
+    image: "images/horror/glamrock-freddy.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["mommy long legs", "mommy"],
+    image: "images/horror/mommy-long-legs.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["catnap", "cat nap"],
+    image: "images/horror/catnap.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["bendy"],
+    image: "images/horror/bendy.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ink demon", "the ink demon"],
+    image: "images/horror/ink-demon.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["jack baker"],
+    image: "images/horror/jack-baker.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["the creeper", "creeper", "jeepers creepers"],
+    image: "images/horror/the-creeper.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["the babadook", "babadook"],
+    image: "images/horror/the-babadook.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["longlegs"],
+    image: "images/horror/longlegs.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["tiffany", "tiffany valentine"],
+    image: "images/horror/tiffany-valentine.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ryuk"],
+    image: "images/horror/ryuk.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["robert the doll", "robert"],
+    image: "images/horror/robert-the-doll.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["kayako", "kayako saeki"],
+    image: "images/horror/kayako-saeki.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["roxanne wolf", "roxanne", "roxy"],
+    image: "images/horror/roxanne-wolf.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["montgomery gator", "monty"],
+    image: "images/horror/montgomery-gator.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["pumpkinhead"],
+    image: "images/horror/pumpkinhead.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["the thing"],
+    image: "images/horror/the-thing.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["the bride", "bride"],
+    image: "images/horror/the-bride.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["the ferryman", "ferryman"],
+    image: "images/horror/the-ferryman.jpg",
+    difficulty: "hard"
+}
+ 
+ ],
+
+disney: [
+
+{
+    answers: ["mickey mouse", "mickey"],
+    image: "images/disney/mickey-mouse.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["minnie mouse", "minnie"],
+    image: "images/disney/minnie-mouse.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["donald duck", "donald"],
+    image: "images/disney/donald-duck.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["daisy duck", "daisy"],
+    image: "images/disney/daisy-duck.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["goofy"],
+    image: "images/disney/goofy.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["pluto"],
+    image: "images/disney/pluto.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["stitch"],
+    image: "images/disney/stitch.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["lilo"],
+    image: "images/disney/lilo.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["simba"],
+    image: "images/disney/simba.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["mufasa"],
+    image: "images/disney/mufasa.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["scar"],
+    image: "images/disney/scar.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["timon"],
+    image: "images/disney/timon.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["pumbaa", "pumba"],
+    image: "images/disney/pumbaa.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["elsa"],
+    image: "images/disney/elsa.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["anna"],
+    image: "images/disney/anna.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["olaf"],
+    image: "images/disney/olaf.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["kristoff"],
+    image: "images/disney/kristoff.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["sven"],
+    image: "images/disney/sven.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["moana"],
+    image: "images/disney/moana.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["maui"],
+    image: "images/disney/maui.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ariel"],
+    image: "images/disney/ariel.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["flounder"],
+    image: "images/disney/flounder.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["sebastian"],
+    image: "images/disney/sebastian.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ursula"],
+    image: "images/disney/ursula.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["aladdin"],
+    image: "images/disney/aladdin.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["genie"],
+    image: "images/disney/genie.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jasmine"],
+    image: "images/disney/jasmine.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jafar"],
+    image: "images/disney/jafar.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["hercules"],
+    image: "images/disney/hercules.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["hades"],
+    image: "images/disney/hades.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["peter pan"],
+    image: "images/disney/peter-pan.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["captain hook", "hook"],
+    image: "images/disney/captain-hook.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["tinker bell", "tinkerbell"],
+    image: "images/disney/tinker-bell.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["winnie the pooh", "pooh", "winnie"],
+    image: "images/disney/winnie-the-pooh.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["tigger"],
+    image: "images/disney/tigger.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["piglet"],
+    image: "images/disney/piglet.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["eeyore"],
+    image: "images/disney/eeyore.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["buzz lightyear", "buzz"],
+    image: "images/disney/buzz-lightyear.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["woody"],
+    image: "images/disney/woody.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jessie"],
+    image: "images/disney/jessie.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["lightning mcqueen", "mcqueen"],
+    image: "images/disney/lightning-mcqueen.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["mater", "tow mater"],
+    image: "images/disney/mater.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["sulley", "james p. sullivan"],
+    image: "images/disney/sulley.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["mike wazowski", "mike"],
+    image: "images/disney/mike-wazowski.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["nemo"],
+    image: "images/disney/nemo.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["dory"],
+    image: "images/disney/dory.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["wall-e", "walle"],
+    image: "images/disney/wall-e.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["eve", "eva"],
+    image: "images/disney/eve.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["belle"],
+    image: "images/disney/belle.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["beast", "the beast"],
+    image: "images/disney/beast.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["snow white"],
+    image: "images/disney/snow-white.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["cinderella"],
+    image: "images/disney/cinderella.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["pinocchio"],
+    image: "images/disney/pinocchio.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jiminy cricket", "jiminy"],
+    image: "images/disney/jiminy-cricket.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["alice"],
+    image: "images/disney/alice.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["cheshire cat", "cheshire"],
+    image: "images/disney/cheshire-cat.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["baymax"],
+    image: "images/disney/baymax.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["mirabel"],
+    image: "images/disney/mirabel.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["tiana"],
+    image: "images/disney/tiana.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ralph", "wreck-it ralph"],
+    image: "images/disney/ralph.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["gaston"],
+    image: "images/disney/gaston.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["lumiere"],
+    image: "images/disney/lumiere.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["cogsworth"],
+    image: "images/disney/cogsworth.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["rapunzel"],
+    image: "images/disney/rapunzel.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["flynn rider", "flynn", "eugene fitzherbert", "eugene"],
+    image: "images/disney/flynn-rider.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["pascal"],
+    image: "images/disney/pascal.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["maximus"],
+    image: "images/disney/maximus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["merida"],
+    image: "images/disney/merida.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["pocahontas"],
+    image: "images/disney/pocahontas.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["mulan"],
+    image: "images/disney/mulan.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["mushu"],
+    image: "images/disney/mushu.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["tarzan"],
+    image: "images/disney/tarzan.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["jane", "jane porter"],
+    image: "images/disney/jane.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["baloo"],
+    image: "images/disney/baloo.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["bagheera"],
+    image: "images/disney/bagheera.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["king louie"],
+    image: "images/disney/king-louie.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["dumbo"],
+    image: "images/disney/dumbo.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["bambi"],
+    image: "images/disney/bambi.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["thumper"],
+    image: "images/disney/thumper.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["lady"],
+    image: "images/disney/lady.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["sally carrera", "sally"],
+    image: "images/disney/sally-carrera.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["doc hudson", "doc"],
+    image: "images/disney/doc-hudson.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["chick hicks", "chick"],
+    image: "images/disney/chick-hicks.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["cruella de vil", "cruella"],
+    image: "images/disney/cruella-de-vil.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["fairy godmother", "godmother"],
+    image: "images/disney/fairy-godmother.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["the evil queen", "evil queen", "queen grimhilde", "grimhilde"],
+    image: "images/disney/evil-queen.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["maleficent"],
+    image: "images/disney/maleficent.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["aurora", "sleeping beauty"],
+    image: "images/disney/aurora.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["prince phillip", "phillip"],
+    image: "images/disney/prince-phillip.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["vanellope", "vanellope von schweetz"],
+    image: "images/disney/vanellope.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["dr facilier", "facilier", "doctor facilier"],
+    image: "images/disney/dr-facilier.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["kuzco"],
+    image: "images/disney/kuzco.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["yzma"],
+    image: "images/disney/yzma.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["kronk"],
+    image: "images/disney/kronk.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["carl fredricksen", "carl"],
+    image: "images/disney/carl-fredricksen.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["russell"],
+    image: "images/disney/russell.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["dug"],
+    image: "images/disney/dug.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["kevin"],
+    image: "images/disney/kevin.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["remy"],
+    image: "images/disney/remy.jpg",
+    difficulty: "hard"
+}, 
+
+{
+    answers: ["mother gothel", "gothel"],
+    image: "images/disney/mother-gothel.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["rex"],
+    image: "images/disney/rex.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["forky"],
+    image: "images/disney/forky.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["lotso"],
+    image: "images/disney/lotso.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["marlin"],
+    image: "images/disney/marlin.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["crush"],
+    image: "images/disney/crush.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["boo"],
+    image: "images/disney/boo.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["randall", "randall boggs"],
+    image: "images/disney/randall.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["mr incredible"],
+    image: "images/disney/mr-incredible.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["elastigirl", "helen parr"],
+    image: "images/disney/elastigirl.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["jack-jack", "jack jack"],
+    image: "images/disney/jack-jack.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["joy"],
+    image: "images/disney/joy.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["sadness"],
+    image: "images/disney/sadness.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["anxiety"],
+    image: "images/disney/anxiety.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["miguel", "miguel rivera"],
+    image: "images/disney/miguel.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["hector", "hector rivera"],
+    image: "images/disney/hector.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ember", "ember lumen"],
+    image: "images/disney/ember.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["wade", "wade ripple"],
+    image: "images/disney/wade.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["luca", "luca paguro"],
+    image: "images/disney/luca.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["alberto", "alberto scorfano"],
+    image: "images/disney/alberto.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["luigi"],
+    image: "images/disney/luigi.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["guido"],
+    image: "images/disney/guido.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ramone"],
+    image: "images/disney/ramone.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["sheriff"],
+    image: "images/disney/sheriff.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["flo"],
+    image: "images/disney/flo.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["the king", "king"],
+    image: "images/disney/the-king.jpg",
+    difficulty: "hard"
+}
+],
+
+monuments: [
+
+{
+    answers: ["πύργος του άιφελ", "άιφελ", "eiffel tower", "eiffel"],
+    image: "images/monuments/eiffel-tower.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άγαλμα της ελευθερίας", "statue of liberty"],
+    image: "images/monuments/statue-of-liberty.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μπιγκ μπεν", "big ben"],
+    image: "images/monuments/big-ben.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κολοσσαίο", "colosseum"],
+    image: "images/monuments/colosseum.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κεκλιμένος πύργος της πίζας", "πύργος της πίζας", "leaning tower of pisa", "tower of pisa"],
+    image: "images/monuments/leaning-tower-of-pisa.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μεγάλη πυραμίδα της γκίζας", "πυραμίδα της γκίζας", "great pyramid of giza", "pyramid of giza"],
+    image: "images/monuments/great-pyramid-of-giza.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σφίγγα", "μεγάλη σφίγγα", "great sphinx", "sphinx"],
+    image: "images/monuments/sphinx.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ταζ μαχάλ", "taj mahal"],
+    image: "images/monuments/taj-mahal.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["όπερα του σίδνεϊ", "sydney opera house"],
+    image: "images/monuments/sydney-opera-house.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["χριστός λυτρωτής", "christ the redeemer"],
+    image: "images/monuments/christ-the-redeemer.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αψίδα του θριάμβου", "arc de triomphe"],
+    image: "images/monuments/arc-de-triomphe.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["όρος ράσμορ", "mount rushmore"],
+    image: "images/monuments/mount-rushmore.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πύλη του βρανδεμβούργου", "brandenburg gate"],
+    image: "images/monuments/brandenburg-gate.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["στόουνχεντζ", "stonehenge"],
+    image: "images/monuments/stonehenge.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μάτσου πίτσου", "machu picchu"],
+    image: "images/monuments/machu-picchu.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["παρθενώνας", "parthenon"],
+    image: "images/monuments/parthenon.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["γέφυρα γκόλντεν γκέιτ", "golden gate bridge"],
+    image: "images/monuments/golden-gate-bridge.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μπουρτζ χαλίφα", "burj khalifa"],
+    image: "images/monuments/burj-khalifa.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["τάουερ μπριτζ", "tower bridge"],
+    image: "images/monuments/tower-bridge.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πυραμίδα του λούβρου", "louvre pyramid"],
+    image: "images/monuments/louvre-pyramid.jpg",
+    difficulty: "easy"
+},
+
+
+{
+    answers: ["κάστρο νοϊσβανστάιν", "neuschwanstein castle"],
+    image: "images/monuments/neuschwanstein-castle.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ανγκόρ βατ", "angkor wat"],
+    image: "images/monuments/angkor-wat.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πέτρα", "petra"],
+    image: "images/monuments/petra.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τσιτσέν ιτζά", "chichen itza"],
+    image: "images/monuments/chichen-itza.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μοάι", "αγάλματα μοάι", "moai", "easter island statues"],
+    image: "images/monuments/moai.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κρήνη ντι τρέβι", "fontana di trevi", "trevi fountain"],
+    image: "images/monuments/trevi-fountain.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πάνθεον", "pantheon"],
+    image: "images/monuments/pantheon.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σακρέ κερ", "sacre coeur", "sacré-cœur"],
+    image: "images/monuments/sacre-coeur.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σαγραδα φαμίλια", "sagrada familia"],
+    image: "images/monuments/sagrada-familia.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["απαγορευμένη πόλη", "forbidden city"],
+    image: "images/monuments/forbidden-city.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κρεμλίνο", "kremlin"],
+    image: "images/monuments/kremlin.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπλε τζαμί", "blue mosque"],
+    image: "images/monuments/blue-mosque.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αγία σοφία", "hagia sophia"],
+    image: "images/monuments/hagia-sophia.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μνημείο λίνκολν", "lincoln memorial"],
+    image: "images/monuments/lincoln-memorial.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["cn tower", "πύργος cn"],
+    image: "images/monuments/cn-tower.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πύργος του τόκιο", "tokyo tower"],
+    image: "images/monuments/tokyo-tower.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["marina bay sands"],
+    image: "images/monuments/marina-bay-sands.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ατόμιουμ", "atomium"],
+    image: "images/monuments/atomium.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αλάμπρα", "alhambra"],
+    image: "images/monuments/alhambra.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ακρόπολη", "ακρόπολη αθηνών", "acropolis", "acropolis of athens"],
+    image: "images/monuments/acropolis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βορομπουντούρ", "borobudur"],
+    image: "images/monuments/borobudur.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ναοί του μπαγκάν", "bagan temples", "bagan"],
+    image: "images/monuments/bagan.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ναός του ουρανού", "temple of heaven"],
+    image: "images/monuments/temple-of-heaven.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μον σεν μισέλ", "mont saint-michel"],
+    image: "images/monuments/mont-saint-michel.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κάστρο χιμέτζι", "himeji castle"],
+    image: "images/monuments/himeji-castle.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μεγάλο τζαμί σεΐχη ζαγιέντ", "sheikh zayed grand mosque"],
+    image: "images/monuments/sheikh-zayed-grand-mosque.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["παλάτι του γουέστμινστερ", "palace of westminster"],
+    image: "images/monuments/palace-of-westminster.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πραμπανάν", "prambanan"],
+    image: "images/monuments/prambanan.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μοναστήρι της ρίλα", "rila monastery"],
+    image: "images/monuments/rila-monastery.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κάστρο σαντ' άντζελο", "castel sant'angelo"],
+    image: "images/monuments/castel-santangelo.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["καθεδρικός της νοτρ νταμ", "notre dame", "notre-dame cathedral"],
+    image: "images/monuments/notre-dame.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["empire state building", "εμπάιαρ στέιτ"],
+    image: "images/monuments/empire-state-building.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["one world trade center", "world trade center"],
+    image: "images/monuments/one-world-trade-center.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γέφυρα του μπρούκλιν", "brooklyn bridge"],
+    image: "images/monuments/brooklyn-bridge.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["gateway arch"],
+    image: "images/monuments/gateway-arch.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["space needle"],
+    image: "images/monuments/space-needle.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["καθεδρικός του αγίου βασιλείου", "st basil's cathedral"],
+    image: "images/monuments/st-basils-cathedral.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπουρτζ αλ αράμπ", "burj al arab"],
+    image: "images/monuments/burj-al-arab.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ναός του λωτού", "lotus temple"],
+    image: "images/monuments/lotus-temple.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["δίδυμοι πυργοι", "petronas twin towers", "petronas towers"],
+    image: "images/monuments/petronas-towers.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πύργος της κουάλα λουμπούρ", "kl tower", "kuala lumpur tower"],
+    image: "images/monuments/kl-tower.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["παλάτι γκιονγκμποκ", "gyeongbokgung palace"],
+    image: "images/monuments/gyeongbokgung-palace.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πύργος της σεούλ", "n seoul tower"],
+    image: "images/monuments/n-seoul-tower.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["φουσίμι ινάρι", "fushimi inari"],
+    image: "images/monuments/fushimi-inari.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κινκακού τζι", "golden pavilion", "kinkaku-ji"],
+    image: "images/monuments/kinkaku-ji.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ιερό ιτσουκουσίμα", "itsukushima shrine"],
+    image: "images/monuments/itsukushima-shrine.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["καθεδρικός του μιλάνου", "duomo di milano", "milan cathedral"],
+    image: "images/monuments/milan-cathedral.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["καθεδρικός της φλωρεντίας", "florence cathedral"],
+    image: "images/monuments/florence-cathedral.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βασιλική του αγίου πέτρου", "st peter's basilica"],
+    image: "images/monuments/st-peters-basilica.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["καπέλα σιστίνα", "sistine chapel"],
+    image: "images/monuments/sistine-chapel.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γέφυρα του καρόλου", "charles bridge"],
+    image: "images/monuments/charles-bridge.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κάστρο της πράγας", "prague castle"],
+    image: "images/monuments/prague-castle.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πύργος του μπελέμ", "belem tower"],
+    image: "images/monuments/belem-tower.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μοναστήρι των ιερονυμιτών", "jeronimos monastery"],
+    image: "images/monuments/jeronimos-monastery.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κάστρο του εδιμβούργου", "edinburgh castle"],
+    image: "images/monuments/edinburgh-castle.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γίγαντας του δρόμου", "giant's causeway"],
+    image: "images/monuments/giants-causeway.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["παλάτι πένα", "pena palace"],
+    image: "images/monuments/pena-palace.jpg",
+    difficulty: "medium"
+}
+
+],
+
+
+countries: [
+
+{
+    answers: ["ελλάδα", "greece"],
+    image: "images/countries/greece.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["γαλλία", "france"],
+    image: "images/countries/france.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["γερμανία", "germany"],
+    image: "images/countries/germany.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ιταλία", "italy"],
+    image: "images/countries/italy.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ισπανία", "spain"],
+    image: "images/countries/spain.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πορτογαλία", "portugal"],
+    image: "images/countries/portugal.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ηνωμένο βασίλειο", "αγγλία", "united kingdom", "uk", "england"],
+    image: "images/countries/united-kingdom.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ιρλανδία", "ireland"],
+    image: "images/countries/ireland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βελγιο", "βέλγιο", "belgium"],
+    image: "images/countries/belgium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ολλανδία", "κάτω χώρες", "netherlands"],
+    image: "images/countries/netherlands.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ελβετία", "switzerland"],
+    image: "images/countries/switzerland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αυστρία", "austria"],
+    image: "images/countries/austria.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σουηδία", "sweden"],
+    image: "images/countries/sweden.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["νορβηγία", "norway"],
+    image: "images/countries/norway.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["δανία", "denmark"],
+    image: "images/countries/denmark.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["φινλανδία", "finland"],
+    image: "images/countries/finland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πολωνία", "poland"],
+    image: "images/countries/poland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["τσεχία", "czech republic", "czechia"],
+    image: "images/countries/czechia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ουγγαρία", "hungary"],
+    image: "images/countries/hungary.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ρουμανία", "romania"],
+    image: "images/countries/romania.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βουλγαρία", "bulgaria"],
+    image: "images/countries/bulgaria.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["τουρκία", "turkey", "türkiye"],
+    image: "images/countries/turkiye.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ρωσία", "russia"],
+    image: "images/countries/russia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ουκρανία", "ukraine"],
+    image: "images/countries/ukraine.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["καναδάς", "canada"],
+    image: "images/countries/canada.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ηνωμένες πολιτείες", "ηπα", "αμερική", "united states", "usa", "us", "america"],
+    image: "images/countries/united-states.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μεξικό", "mexico"],
+    image: "images/countries/mexico.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βραζιλία", "brazil"],
+    image: "images/countries/brazil.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αργεντινή", "argentina"],
+    image: "images/countries/argentina.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["χιλή", "chile"],
+    image: "images/countries/chile.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["περού", "peru"],
+    image: "images/countries/peru.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κολομβία", "colombia"],
+    image: "images/countries/colombia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ιαπωνία", "japan"],
+    image: "images/countries/japan.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κίνα", "china"],
+    image: "images/countries/china.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["νότια κορέα", "κορέα", "south korea"],
+    image: "images/countries/south-korea.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βόρεια κορέα", "north korea"],
+    image: "images/countries/north-korea.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ινδία", "india"],
+    image: "images/countries/india.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πακιστάν", "pakistan"],
+    image: "images/countries/pakistan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ταϊλάνδη", "thailand"],
+    image: "images/countries/thailand.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βιετνάμ", "vietnam"],
+    image: "images/countries/vietnam.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ινδονησία", "indonesia"],
+    image: "images/countries/indonesia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["φιλιππίνες", "philippines"],
+    image: "images/countries/philippines.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αυστραλία", "australia"],
+    image: "images/countries/australia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["νέα ζηλανδία", "new zealand"],
+    image: "images/countries/new-zealand.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αιγυπτος", "αιγυπτος", "egypt"],
+    image: "images/countries/egypt.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μαρόκο", "morocco"],
+    image: "images/countries/morocco.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νότια αφρική", "south africa"],
+    image: "images/countries/south-africa.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σαουδική αραβία", "saudi arabia"],
+    image: "images/countries/saudi-arabia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ηνωμένα αραβικά εμιράτα", "uae", "united arab emirates"],
+    image: "images/countries/united-arab-emirates.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ισραήλ", "israel"],
+    image: "images/countries/israel.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σιγκαπούρη", "singapore"],
+    image: "images/countries/singapore.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μαλαισία", "malaysia"],
+    image: "images/countries/malaysia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κατάρ", "qatar"],
+    image: "images/countries/qatar.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κροατία", "croatia"],
+    image: "images/countries/croatia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σερβία", "serbia"],
+    image: "images/countries/serbia.png",
+    difficulty: "medium"
+},
+
+
+{
+    answers: ["σλοβενία", "slovenia"],
+    image: "images/countries/slovenia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σλοβακία", "slovakia"],
+    image: "images/countries/slovakia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βοσνία και ερζεγοβίνη", "bosnia and herzegovina", "bosnia"],
+    image: "images/countries/bosnia-and-herzegovina.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μαυροβούνιο", "montenegro"],
+    image: "images/countries/montenegro.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βόρεια μακεδονία", "north macedonia"],
+    image: "images/countries/north-macedonia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αλβανία", "albania"],
+    image: "images/countries/albania.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κύπρος", "cyprus"],
+    image: "images/countries/cyprus.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λιθουανία", "lithuania"],
+    image: "images/countries/lithuania.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λετονία", "latvia"],
+    image: "images/countries/latvia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["εσθονία", "estonia"],
+    image: "images/countries/estonia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λευκορωσία", "belarus"],
+    image: "images/countries/belarus.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μολδαβία", "moldova"],
+    image: "images/countries/moldova.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γεωργία", "georgia"],
+    image: "images/countries/georgia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αρμενία", "armenia"],
+    image: "images/countries/armenia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αζερμπαϊτζάν", "azerbaijan"],
+    image: "images/countries/azerbaijan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["καζακστάν", "kazakhstan"],
+    image: "images/countries/kazakhstan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ουζμπεκιστάν", "uzbekistan"],
+    image: "images/countries/uzbekistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τουρκμενιστάν", "turkmenistan"],
+    image: "images/countries/turkmenistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κιργιζιστάν", "kyrgyzstan"],
+    image: "images/countries/kyrgyzstan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τατζικιστάν", "tajikistan"],
+    image: "images/countries/tajikistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νεπάλ", "nepal"],
+    image: "images/countries/nepal.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπανγκλαντές", "bangladesh"],
+    image: "images/countries/bangladesh.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σρι λάνκα", "sri lanka"],
+    image: "images/countries/sri-lanka.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μογγολία", "mongolia"],
+    image: "images/countries/mongolia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ταϊβάν", "taiwan"],
+    image: "images/countries/taiwan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["καμπότζη", "cambodia"],
+    image: "images/countries/cambodia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λάος", "laos"],
+    image: "images/countries/laos.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μιανμάρ", "myanmar", "burma"],
+    image: "images/countries/myanmar.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπρουνέι", "brunei"],
+    image: "images/countries/brunei.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["παπούα νέα γουινέα", "papua new guinea"],
+    image: "images/countries/papua-new-guinea.png",
+    difficulty: "hard"
+},
+
+
+{
+    answers: ["ισλανδία", "iceland"],
+    image: "images/countries/iceland.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λουξεμβούργο", "luxembourg"],
+    image: "images/countries/luxembourg.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λιχτενστάιν", "liechtenstein"],
+    image: "images/countries/liechtenstein.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ανδόρα", "andorra"],
+    image: "images/countries/andorra.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μονακό", "monaco"],
+    image: "images/countries/monaco.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άγιος μαρίνος", "san marino"],
+    image: "images/countries/san-marino.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βατικανό", "vatican", "vatican city"],
+    image: "images/countries/vatican-city.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μαλτα", "μάλτα", "malta"],
+    image: "images/countries/malta.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τυνησία", "tunisia"],
+    image: "images/countries/tunisia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αλγερία", "algeria"],
+    image: "images/countries/algeria.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λιβύη", "libya"],
+    image: "images/countries/libya.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νιγηρία", "nigeria"],
+    image: "images/countries/nigeria.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κένυα", "kenya"],
+    image: "images/countries/kenya.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αιθιοπία", "ethiopia"],
+    image: "images/countries/ethiopia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τανζανία", "tanzania"],
+    image: "images/countries/tanzania.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ζιμπάμπουε", "zimbabwe"],
+    image: "images/countries/zimbabwe.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ζάμπια", "zambia"],
+    image: "images/countries/zambia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ναμίμπια", "namibia"],
+    image: "images/countries/namibia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μποτσουάνα", "botswana"],
+    image: "images/countries/botswana.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βενεζουέλα", "venezuela"],
+    image: "images/countries/venezuela.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["εκουαδόρ", "ecuador"],
+    image: "images/countries/ecuador.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ουρουγουάη", "uruguay"],
+    image: "images/countries/uruguay.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["παραγουάη", "paraguay"],
+    image: "images/countries/paraguay.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βολιβία", "bolivia"],
+    image: "images/countries/bolivia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κούβα", "cuba"],
+    image: "images/countries/cuba.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τζαμάικα", "jamaica"],
+    image: "images/countries/jamaica.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["δομινικανή δημοκρατία", "dominican republic"],
+    image: "images/countries/dominican-republic.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κοστα ρίκα", "costa rica"],
+    image: "images/countries/costa-rica.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["παναμάς", "panama"],
+    image: "images/countries/panama.png",
+    difficulty: "medium"
+},
+
+
+{
+    answers: ["κομόρες", "comoros"],
+    image: "images/countries/comoros.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τζιμπουτί", "djibouti"],
+    image: "images/countries/djibouti.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ερυθραία", "eritrea"],
+    image: "images/countries/eritrea.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["εσουατίνι", "eswatini", "swaziland"],
+    image: "images/countries/eswatini.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λεσότο", "lesotho"],
+    image: "images/countries/lesotho.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γκάμπια", "gambia"],
+    image: "images/countries/gambia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γκουινέα", "guinea"],
+    image: "images/countries/guinea.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γκουινέα μπισάου", "guinea-bissau", "guinea bissau"],
+    image: "images/countries/guinea-bissau.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ισημερινή γουινέα", "equatorial guinea"],
+    image: "images/countries/equatorial-guinea.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σάο τομέ και πρίνσιπε", "sao tome and principe"],
+    image: "images/countries/sao-tome-and-principe.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κεντροαφρικανική δημοκρατία", "central african republic"],
+    image: "images/countries/central-african-republic.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπουρκίνα φάσο", "burkina faso"],
+    image: "images/countries/burkina-faso.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπουρούντι", "burundi"],
+    image: "images/countries/burundi.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ρουάντα", "rwanda"],
+    image: "images/countries/rwanda.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σομαλία", "somalia"],
+    image: "images/countries/somalia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σουδάν", "sudan"],
+    image: "images/countries/sudan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νότιο σουδάν", "south sudan"],
+    image: "images/countries/south-sudan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μαυριτανία", "mauritania"],
+    image: "images/countries/mauritania.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νίγηρας", "niger"],
+    image: "images/countries/niger.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τσαντ", "chad"],
+    image: "images/countries/chad.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπουτάν", "bhutan"],
+    image: "images/countries/bhutan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μαδαγασκάρη", "madagascar"],
+    image: "images/countries/madagascar.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μαυρίκιος", "mauritius"],
+    image: "images/countries/mauritius.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σεϋχέλλες", "seychelles"],
+    image: "images/countries/seychelles.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μαλδίβες", "maldives"],
+    image: "images/countries/maldives.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ανατολικό τιμόρ", "timor-leste", "east timor"],
+    image: "images/countries/timor-leste.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["παλάου", "palau"],
+    image: "images/countries/palau.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["φιτζι", "φίτζι", "fiji"],
+    image: "images/countries/fiji.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τόνγκα", "tonga"],
+    image: "images/countries/tonga.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σαμόα", "samoa"],
+    image: "images/countries/samoa.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βανουάτου", "vanuatu"],
+    image: "images/countries/vanuatu.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ναουρού", "nauru"],
+    image: "images/countries/nauru.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τουβαλού", "tuvalu"],
+    image: "images/countries/tuvalu.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κιριμπάτι", "kiribati"],
+    image: "images/countries/kiribati.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νησιά μάρσαλ", "marshall islands"],
+    image: "images/countries/marshall-islands.png",
+    difficulty: "hard"
+}
 
 ]
 
 };
 
+export default categories;

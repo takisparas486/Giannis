@@ -1,332 +1,882 @@
+/*=========================================
+            PIC DUEL
+            GAME.JS
+            PART 1
+=========================================*/
+
+/* ---------- SCREENS ---------- */
+
 const introScreen = document.getElementById("introScreen");
 const menuScreen = document.getElementById("menuScreen");
 const gameScreen = document.getElementById("gameScreen");
 const winnerScreen = document.getElementById("winnerScreen");
 
-const startGameButton = document.getElementById("startGameButton");
-const playAgainButton = document.getElementById("playAgainButton");
-const backToMenuButton = document.getElementById("backToMenuButton");
+/* ---------- MENU ---------- */
 
 const player1Input = document.getElementById("player1Input");
 const player2Input = document.getElementById("player2Input");
+
 const categorySelect = document.getElementById("categorySelect");
-const difficultySelect = document.getElementById("difficultySelect");
 const timeSelect = document.getElementById("timeSelect");
+
+const easyCheckbox = document.getElementById("easyDifficulty");
+const mediumCheckbox = document.getElementById("mediumDifficulty");
+const hardCheckbox = document.getElementById("hardDifficulty");
+
+const startGameButton = document.getElementById("startGameButton");
+
+/* ---------- GAME ---------- */
 
 const player1Name = document.getElementById("player1Name");
 const player2Name = document.getElementById("player2Name");
+
 const player1Timer = document.getElementById("player1Timer");
 const player2Timer = document.getElementById("player2Timer");
+
 const currentCategory = document.getElementById("currentCategory");
+
 const gameImage = document.getElementById("gameImage");
+
+const answerCaption = document.getElementById("answerCaption");
+
 const messageBox = document.getElementById("messageBox");
-const answerForm = document.getElementById("answerForm");
-const speakButton = document.getElementById("speakButton");
-const turnHint = document.getElementById("turnHint");
+
+/* ---------- WINNER ---------- */
+
 const winnerName = document.getElementById("winnerName");
 const winnerDescription = document.getElementById("winnerDescription");
+const continueButton = document.getElementById("continueButton");
+const statisticsScreen = document.getElementById("statisticsScreen");
+
+const statisticsPlayAgainButton =
+    document.getElementById("statisticsPlayAgainButton");
+
+const statisticsMenuButton =
+    document.getElementById("statisticsMenuButton");
+
+/* ---------- VARIABLES ---------- */
 
 let player1Time = 60;
 let player2Time = 60;
-let player1Score = 0;
-let player2Score = 0;
+
 let currentPlayer = 1;
+
 let timer = null;
+
 let gameRunning = false;
-let currentImages = [];
-let currentImage = null;
+
 let speechRecognition = null;
-let listeningForAnswer = false;
-let recognitionActive = false;
+
+let currentImage = null;
+
+let currentImages = [];
+
+let waitingAfterPass = false;
+
+/* ---------- PLAYER STATS ---------- */
+
+let player1Stats = {
+
+    correct: 0,
+
+    wrong: 0,
+
+    pass: 0,
+
+    streak: 0,
+
+    bestStreak: 0
+
+};
+
+let player2Stats = {
+
+    correct: 0,
+
+    wrong: 0,
+
+    pass: 0,
+
+    streak: 0,
+
+    bestStreak: 0
+
+};
+
+
+/*=========================================
+            PART 2
+=========================================*/
+
+/* ---------- INTRO ---------- */
 
 window.addEventListener("load", () => {
+
+    introScreen.classList.add("show");
+
     setTimeout(() => {
-        introScreen.classList.add("hidden");
-        menuScreen.classList.remove("hidden");
-    }, 1600);
+
+        introScreen.classList.add("hide");
+
+        setTimeout(() => {
+
+            introScreen.style.display = "none";
+
+            menuScreen.classList.add("show");
+
+        }, 800);
+
+    }, 2500);
+
 });
 
-function loadCategories() {
-    categorySelect.innerHTML = "";
 
-    Object.keys(categories).forEach((categoryKey) => {
-        const option = document.createElement("option");
-        option.value = categoryKey;
-
-        const displayName = categoryKey
-            .replaceAll("-", " ")
-            .replace(/\b\w/g, (letter) => letter.toUpperCase());
-
-        option.textContent = displayName;
-        categorySelect.appendChild(option);
-    });
-}
-
-loadCategories();
+/* ---------- START BUTTON ---------- */
 
 startGameButton.addEventListener("click", startGame);
-playAgainButton.addEventListener("click", startGame);
-backToMenuButton.addEventListener("click", () => {
-    winnerScreen.classList.add("hidden");
-    menuScreen.classList.remove("hidden");
+continueButton.addEventListener("click", openStatistics);
+
+statisticsPlayAgainButton.addEventListener(
+    "click",
+    playAgain
+);
+
+statisticsMenuButton.addEventListener(
+    "click",
+    backToMenu
+);
+
+continueButton.addEventListener("click", () => {
+
+    winnerScreen.classList.remove("show");
+
+    statisticsScreen.classList.add("show");
+
 });
-speakButton?.addEventListener("click", startVoiceRecognition);
+
+
+/* ---------- START GAME ---------- */
 
 function startGame() {
-    menuScreen.classList.add("hidden");
-    gameScreen.classList.remove("hidden");
-    winnerScreen.classList.add("hidden");
-    listeningForAnswer = false;
 
-    player1Name.textContent = player1Input.value.trim() || "Player 1";
-    player2Name.textContent = player2Input.value.trim() || "Player 2";
+    if (
+        !easyCheckbox.checked &&
+        !mediumCheckbox.checked &&
+        !hardCheckbox.checked
+    ) {
+
+        alert("Επίλεξε τουλάχιστον μία δυσκολία.");
+
+        return;
+
+    }
+
+    if (player1Input.value.trim() === "") {
+
+        alert("Δώσε όνομα Παίκτη 1.");
+
+        return;
+
+    }
+
+    if (player2Input.value.trim() === "") {
+
+        alert("Δώσε όνομα Παίκτη 2.");
+
+        return;
+
+    }
+
+    player1Name.textContent = player1Input.value;
+
+    player2Name.textContent = player2Input.value;
+
 
     player1Time = Number(timeSelect.value);
+
     player2Time = Number(timeSelect.value);
-    player1Score = 0;
-    player2Score = 0;
+
 
     player1Timer.textContent = player1Time;
+
     player2Timer.textContent = player2Time;
 
+
     currentPlayer = 1;
+
+    currentCategory.textContent =
+        categorySelect.options[
+            categorySelect.selectedIndex
+        ].text;
+
+
+    currentImages = [...categories[
+        categorySelect.value
+    ]];
+
+
+    menuScreen.classList.remove("show");
+
+    gameScreen.classList.add("show");
+
+
     gameRunning = true;
 
-    messageBox.textContent = "Microphone is on. Say the name!";
-    currentCategory.textContent = categorySelect.options[categorySelect.selectedIndex].text;
-    currentImages = [...categories[categorySelect.value]];
 
-    showRandomImage();
-    startVoiceRecognition();
-}
+    loadNextImage();
 
-function initSpeechRecognition() {
-    if (speechRecognition || !("SpeechRecognition" in window || "webkitSpeechRecognition" in window)) {
-        return;
-    }
-
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    speechRecognition = new SpeechRecognition();
-    speechRecognition.lang = "en-US";
-    speechRecognition.continuous = true;
-    speechRecognition.interimResults = false;
-
-    speechRecognition.onresult = (event) => {
-        const transcript = Array.from(event.results)
-            .map((result) => result[0].transcript)
-            .join(" ")
-            .trim();
-
-        listeningForAnswer = false;
-        if (transcript) {
-            handleVoiceAnswer(transcript);
-        }
-    };
-
-    speechRecognition.onerror = (event) => {
-        listeningForAnswer = false;
-        recognitionActive = false;
-
-        if (event.error === "not-allowed") {
-            messageBox.textContent = "Microphone access was blocked. Please allow it once and try again.";
-        } else {
-            messageBox.textContent = "Microphone is unavailable right now.";
-        }
-    };
-
-    speechRecognition.onend = () => {
-        listeningForAnswer = false;
-        recognitionActive = false;
-
-        if (gameRunning) {
-            startVoiceRecognition();
-        }
-    };
-}
-
-function startVoiceRecognition() {
-    initSpeechRecognition();
-
-    if (!speechRecognition) {
-        messageBox.textContent = "Voice input is not supported in this browser.";
-        return;
-    }
-
-    if (listeningForAnswer || recognitionActive) {
-        return;
-    }
-
-    listeningForAnswer = true;
-    recognitionActive = true;
-    messageBox.textContent = "Microphone is on. Say the name.";
-
-    try {
-        speechRecognition.start();
-    } catch (error) {
-        listeningForAnswer = false;
-        recognitionActive = false;
-        messageBox.textContent = "Please allow microphone access and try again.";
-    }
-}
-
-function showRandomImage() {
-    if (!gameRunning) return;
-
-    const availableImages = currentImages.filter((item) => {
-        if (difficultySelect.value === "mixed") return true;
-        return item.difficulty === difficultySelect.value;
-    });
-
-    if (availableImages.length === 0) {
-        finishGame();
-        return;
-    }
-
-    const randomImage = availableImages[Math.floor(Math.random() * availableImages.length)];
-    currentImage = randomImage;
-    currentImages = currentImages.filter((item) => item !== randomImage);
-
-    gameImage.src = randomImage.image;
-    turnHint.textContent = `Turn: ${currentPlayer === 1 ? player1Name.textContent : player2Name.textContent}`;
     startTimer();
+
+startSpeechRecognition();
+
 }
 
-function startTimer() {
-    clearInterval(timer);
-    timer = setInterval(() => {
-        if (!gameRunning) return;
+/*=========================================
+            PART 3
+=========================================*/
 
-        if (currentPlayer === 1) {
-            player1Time -= 1;
-            player1Timer.textContent = player1Time;
+function loadNextImage() {
 
-            if (player1Time <= 0) {
-                handleTurnTimeout();
-            }
-        } else {
-            player2Time -= 1;
-            player2Timer.textContent = player2Time;
-
-            if (player2Time <= 0) {
-                handleTurnTimeout();
-            }
-        }
-    }, 1000);
-}
-
-function handleTurnTimeout() {
     if (!gameRunning) return;
 
-    messageBox.textContent = "Time is up! Switching turn.";
-    switchTurn();
-    showRandomImage();
-}
+    const selectedDifficulties = [];
 
-function handleVoiceAnswer(transcript) {
-    if (!gameRunning || !currentImage) return;
+    if (easyCheckbox.checked) {
 
-    const guess = (transcript || "").trim().toLowerCase();
-    if (!guess) {
-        messageBox.textContent = "I didn't catch that. Try again.";
-        return;
+        selectedDifficulties.push("easy");
+
     }
 
-    const acceptedAnswers = currentImage.answers.map((answer) => answer.toLowerCase());
-    const isCorrect = acceptedAnswers.some((answer) =>
-        guess === answer || answer.includes(guess) || guess.includes(answer)
+    if (mediumCheckbox.checked) {
+
+        selectedDifficulties.push("medium");
+
+    }
+
+    if (hardCheckbox.checked) {
+
+        selectedDifficulties.push("hard");
+
+    }
+
+    const availableImages = currentImages.filter(image =>
+
+        selectedDifficulties.includes(image.difficulty)
+
     );
 
-    if (isCorrect) {
-        if (currentPlayer === 1) {
-            player1Score += 1;
-        } else {
-            player2Score += 1;
-        }
+    if (availableImages.length === 0) {
 
-        const activePlayerName = currentPlayer === 1 ? player1Name.textContent : player2Name.textContent;
-        showFeedbackOverlay(`✅ Correct, ${activePlayerName}!`, "feedbackCorrect");
-        messageBox.textContent = `✅ Correct, ${activePlayerName}!`;
-        messageBox.style.color = "#2ecc71";
-        messageBox.style.fontWeight = "700";
-        setTimeout(() => {
-            showRandomImage();
-        }, 900);
-    } else {
-        const acceptedAnswer = currentImage.answers[0];
-        showFeedbackOverlay(`❌ Wrong. ${acceptedAnswer}`, "feedbackWrong");
-        messageBox.textContent = `❌ Wrong. The answer was: ${acceptedAnswer}`;
-        messageBox.style.color = "#e74c3c";
-        messageBox.style.fontWeight = "700";
+        finishGame();
 
-        if (currentPlayer === 1) {
-            player1Time = Math.max(0, player1Time - 5);
-            player1Timer.textContent = player1Time;
-        } else {
-            player2Time = Math.max(0, player2Time - 5);
-            player2Timer.textContent = player2Time;
-        }
+        return;
 
-        switchTurn();
-
-        setTimeout(() => {
-            if (player1Time <= 0 || player2Time <= 0) {
-                finishGame();
-            } else {
-                messageBox.style.color = "";
-                messageBox.style.fontWeight = "";
-                showRandomImage();
-            }
-        }, 1400);
     }
-}
 
-function showFeedbackOverlay(text, typeClass) {
-    const overlay = document.createElement("div");
-    overlay.className = `feedbackOverlay ${typeClass}`;
-    overlay.textContent = text;
-    document.body.appendChild(overlay);
+    const randomIndex = Math.floor(
+
+        Math.random() * availableImages.length
+
+    );
+
+    currentImage = availableImages[randomIndex];
+
+    gameImage.classList.remove("imageVisible");
+
+    gameImage.classList.add("imageHidden");
 
     setTimeout(() => {
-        overlay.remove();
-    }, 900);
+
+        gameImage.src = currentImage.image;
+
+        gameImage.classList.remove("imageHidden");
+
+        gameImage.classList.add("imageVisible");
+
+    }, 250);
+
+    currentImages = currentImages.filter(
+
+        image => image !== currentImage
+
+    );
+
 }
 
-function switchTurn() {
-    currentPlayer = currentPlayer === 1 ? 2 : 1;
-}
+/*=========================================
+            PART 4
+=========================================*/
 
-function finishGame() {
+/* ---------- TIMER ---------- */
+
+function startTimer(){
+
     clearInterval(timer);
-    gameRunning = false;
-    recognitionActive = false;
-    listeningForAnswer = false;
 
-    if (speechRecognition) {
-        speechRecognition.stop();
-    }
+    timer = setInterval(() => {
 
-    gameScreen.classList.add("hidden");
-    winnerScreen.classList.remove("hidden");
+        if(!gameRunning) return;
 
-    const player1Label = player1Name.textContent.trim() || "Player 1";
-    const player2Label = player2Name.textContent.trim() || "Player 2";
+        if(waitingAfterPass) return;
 
-    let winnerText = player1Label;
-    let descriptionText = `${player1Label} scored ${player1Score} points and ${player2Label} scored ${player2Score} points.`;
+        if(currentPlayer === 1){
 
-    if (player2Score > player1Score) {
-        winnerText = player2Label;
-        descriptionText = `${player2Label} scored ${player2Score} points and ${player1Label} scored ${player1Score} points.`;
-    } else if (player1Score === player2Score) {
-        if (player1Time > player2Time) {
-            winnerText = player1Label;
-        } else if (player2Time > player1Time) {
-            winnerText = player2Label;
-        } else {
-            winnerText = "It is a draw!";
-        }
-    }
+            player1Time--;
 
-    winnerName.textContent = winnerText;
-    winnerDescription.textContent = descriptionText;
+            player1Timer.textContent = player1Time;
+
+if(player1Time <= 10){
+
+    playSound("tick");
+
+    player1Timer.classList.add("danger");
+
 }
+
+            if(player1Time <= 0){
+
+                finishGame(2);
+
+            }
+
+        }
+
+        else{
+
+            player2Time--;
+
+            player2Timer.textContent = player2Time;
+
+
+if(player2Time <= 10){
+
+    playSound("tick");
+
+    player2Timer.classList.add("danger");
+
+}
+
+            if(player2Time <= 0){
+
+                finishGame(1);
+
+            }
+
+        }
+
+    },1000);
+
+}
+
+/* ---------- CHANGE PLAYER ---------- */
+
+function switchPlayer(){
+
+    currentPlayer = currentPlayer === 1 ? 2 : 1;
+
+    updatePlayerLights();
+
+}
+
+/* ---------- PLAYER LIGHTS ---------- */
+
+function updatePlayerLights(){
+
+    const leftLight = document.getElementById("leftPlayerLight");
+    const rightLight = document.getElementById("rightPlayerLight");
+
+    if(leftLight) leftLight.classList.remove("active");
+    if(rightLight) rightLight.classList.remove("active");
+
+    if(currentPlayer === 1){
+
+        if(leftLight) leftLight.classList.add("active");
+
+    }
+
+    else{
+
+        if(rightLight) rightLight.classList.add("active");
+
+    }
+
+}
+
+}
+
+/*=========================================
+            PART 5
+        VOICE RECOGNITION
+=========================================*/
+
+/* ---------- SPEECH ---------- */
+
+function startSpeechRecognition(){
+
+    if(
+        !("webkitSpeechRecognition" in window) &&
+        !("SpeechRecognition" in window)
+    ){
+
+        alert("Η συσκευή δεν υποστηρίζει Speech Recognition.");
+
+        return;
+
+    }
+
+    const SpeechRecognition =
+        window.SpeechRecognition ||
+        window.webkitSpeechRecognition;
+
+    speechRecognition = new SpeechRecognition();
+
+    speechRecognition.lang = "el-GR";
+
+    speechRecognition.continuous = true;
+
+    speechRecognition.interimResults = false;
+
+    speechRecognition.onresult = handleSpeechResult;
+
+    speechRecognition.onerror = () => {};
+
+    speechRecognition.onend = () => {
+
+        if(gameRunning){
+
+            speechRecognition.start();
+
+        }
+
+    };
+
+    speechRecognition.start();
+
+}
+
+/* ---------- RESULT ---------- */
+
+function handleSpeechResult(event){
+
+    if(waitingAfterPass) return;
+
+    const spokenText = event.results[
+        event.results.length - 1
+    ][0].transcript
+    .trim()
+    .toLowerCase();
+
+    if(
+        spokenText === "πάσο" ||
+        spokenText === "πασο" ||
+        spokenText === "pass"
+    ){
+
+        handlePass();
+
+        return;
+
+    }
+
+    checkAnswer(spokenText);
+
+}
+
+/*=========================================
+            PART 6
+        ANSWER CHECK
+=========================================*/
+
+function checkAnswer(spokenText){
+
+    if(!currentImage) return;
+
+    let answers = [];
+
+if(currentImage.answer){
+
+    answers = [currentImage.answer];
+
+}
+
+else if(currentImage.answers){
+
+    answers = currentImage.answers;
+
+}
+
+answers = answers.map(answer =>
+
+    answer.trim().toLowerCase()
+
+);
+
+spokenText = spokenText.trim().toLowerCase();
+
+if(answers.includes(spokenText)){
+
+        playSound("correct");
+
+        messageBox.textContent = "✔ Σωστό!";
+
+        if(currentPlayer === 1){
+
+            player1Stats.correct++;
+
+            player1Stats.streak++;
+
+            player1Stats.bestStreak = Math.max(
+
+                player1Stats.bestStreak,
+
+                player1Stats.streak
+
+            );
+
+        }
+
+        else{
+
+            player2Stats.correct++;
+
+            player2Stats.streak++;
+
+            player2Stats.bestStreak = Math.max(
+
+                player2Stats.bestStreak,
+
+                player2Stats.streak
+
+            );
+
+        }
+
+        switchPlayer();
+
+        loadNextImage();
+
+        return;
+
+    }
+
+    if(currentPlayer === 1){
+
+        player1Stats.wrong++;
+
+        player1Stats.streak = 0;
+
+    }
+
+    else{
+
+        player2Stats.wrong++;
+
+        player2Stats.streak = 0;
+
+    }
+
+}
+
+/*=========================================
+            PART 7
+            PASS
+=========================================*/
+
+function handlePass(){
+
+    if(waitingAfterPass) return;
+
+    waitingAfterPass = true;
+
+    playSound("pass");
+
+    messageBox.textContent = "ΠΑΣΟ";
+
+    if(currentPlayer === 1){
+
+        player1Stats.pass++;
+
+        player1Stats.streak = 0;
+
+    }
+
+    else{
+
+        player2Stats.pass++;
+
+        player2Stats.streak = 0;
+
+    }
+
+    answerCaption.textContent = currentImage.answer;
+
+    answerCaption.classList.add("show");
+
+    const iceOverlay = document.getElementById("iceOverlay");
+
+    if(iceOverlay){
+
+        iceOverlay.classList.add("show");
+
+    }
+
+    setTimeout(() => {
+
+        answerCaption.classList.remove("show");
+
+        if(iceOverlay){
+
+            iceOverlay.classList.remove("show");
+
+        }
+
+        waitingAfterPass = false;
+
+        switchPlayer();
+
+        loadNextImage();
+
+    },3000);
+
+}
+
+/*=========================================
+            PART 8
+        SOUNDS & FINISH
+=========================================*/
+
+/* ---------- SOUNDS ---------- */
+
+const sounds = {
+
+    intro: new Audio("sounds/intro.mp3"),
+
+    menu: new Audio("sounds/menu.mp3"),
+
+    tick: new Audio("sounds/tick.mp3"),
+
+    correct: new Audio("sounds/correct.mp3"),
+
+    wrong: new Audio("sounds/wrong.mp3"),
+
+    pass: new Audio("sounds/pass.mp3"),
+
+    timeout: new Audio("sounds/timeout.mp3"),
+
+    victory: new Audio("sounds/victory.mp3")
+
+};
+
+function playSound(sound){
+
+    if(!sounds[sound]) return;
+
+    sounds[sound].currentTime = 0;
+
+    sounds[sound].play();
+
+}
+
+/* ---------- FINISH ---------- */
+
+function finishGame(winnerPlayer){
+
+    gameRunning = false;
+
+    clearInterval(timer);
+
+    if(speechRecognition){
+
+        speechRecognition.stop();
+
+    }
+
+    gameScreen.classList.remove("show");
+
+    winnerScreen.classList.add("show");
+
+    const winner =
+
+        winnerPlayer === 1 ?
+
+        player1Input.value :
+
+        player2Input.value;
+
+    winnerName.textContent = winner;
+
+    winnerDescription.textContent =
+
+        "🏆 Νικητής του Pic Duel";
+
+    playSound("victory");
+
+}
+
+function finishGame(winnerPlayer){
+
+    gameRunning = false;
+
+    ...
+
+    playSound("victory");
+
+}
+
+/* ---------- OPEN STATISTICS ---------- */
+
+function openStatistics(){
+
+    winnerScreen.classList.remove("show");
+
+    statisticsScreen.classList.add("show");
+
+    document.getElementById("statsPlayer1Name").textContent =
+        player1Input.value;
+
+    document.getElementById("statsPlayer2Name").textContent =
+        player2Input.value;
+
+    document.getElementById("player1Correct").textContent =
+        player1Stats.correct;
+
+    document.getElementById("player1Wrong").textContent =
+        player1Stats.wrong;
+
+    document.getElementById("player1Pass").textContent =
+        player1Stats.pass;
+
+    document.getElementById("player1BestStreak").textContent =
+        player1Stats.bestStreak;
+
+    document.getElementById("player1TimeLeft").textContent =
+        player1Time;
+
+    document.getElementById("player2Correct").textContent =
+        player2Stats.correct;
+
+    document.getElementById("player2Wrong").textContent =
+        player2Stats.wrong;
+
+    document.getElementById("player2Pass").textContent =
+        player2Stats.pass;
+
+    document.getElementById("player2BestStreak").textContent =
+        player2Stats.bestStreak;
+
+    document.getElementById("player2TimeLeft").textContent =
+        player2Time;
+
+    const player1Total =
+        player1Stats.correct + player1Stats.wrong;
+
+    const player2Total =
+        player2Stats.correct + player2Stats.wrong;
+
+    document.getElementById("player1Accuracy").textContent =
+        player1Total === 0
+        ? "0%"
+        : Math.round(player1Stats.correct / player1Total * 100) + "%";
+
+    document.getElementById("player2Accuracy").textContent =
+        player2Total === 0
+        ? "0%"
+        : Math.round(player2Stats.correct / player2Total * 100) + "%";
+
+}
+
+
+/*=========================================
+        SCREEN NAVIGATION
+=========================================*/
+
+function openStatistics(){
+
+    winnerScreen.classList.remove("show");
+
+    statisticsScreen.classList.add("show");
+
+    fillStatistics();
+
+}
+
+function playAgain(){
+
+    location.reload();
+
+}
+
+function backToMenu(){
+
+    statisticsScreen.classList.remove("show");
+
+    menuScreen.classList.add("show");
+
+}
+
+/*=========================================
+        FILL STATISTICS
+=========================================*/
+
+function fillStatistics(){
+
+    document.getElementById("statsPlayer1Name").textContent =
+        player1Input.value;
+
+    document.getElementById("statsPlayer2Name").textContent =
+        player2Input.value;
+
+    document.getElementById("player1Correct").textContent =
+        player1Stats.correct;
+
+    document.getElementById("player1Wrong").textContent =
+        player1Stats.wrong;
+
+    document.getElementById("player1Pass").textContent =
+        player1Stats.pass;
+
+    document.getElementById("player1BestStreak").textContent =
+        player1Stats.bestStreak;
+
+    document.getElementById("player1TimeLeft").textContent =
+        player1Time + "s";
+
+    document.getElementById("player2Correct").textContent =
+        player2Stats.correct;
+
+    document.getElementById("player2Wrong").textContent =
+        player2Stats.wrong;
+
+    document.getElementById("player2Pass").textContent =
+        player2Stats.pass;
+
+    document.getElementById("player2BestStreak").textContent =
+        player2Stats.bestStreak;
+
+    document.getElementById("player2TimeLeft").textContent =
+        player2Time + "s";
+
+    const player1Attempts =
+        player1Stats.correct + player1Stats.wrong;
+
+    const player2Attempts =
+        player2Stats.correct + player2Stats.wrong;
+
+    document.getElementById("player1Accuracy").textContent =
+        player1Attempts === 0
+        ? "0%"
+        : Math.round(
+            player1Stats.correct /
+            player1Attempts * 100
+        ) + "%";
+
+    document.getElementById("player2Accuracy").textContent =
+        player2Attempts === 0
+        ? "0%"
+        : Math.round(
+            player2Stats.correct /
+            player2Attempts * 100
+        ) + "%";
+
+}
+
