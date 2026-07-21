@@ -1,798 +1,316 @@
 <!DOCTYPE html>
 <html lang="el">
-
 <head>
-
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
-
-    <title>Pic Duel</title>
-
-    <link
-        rel="stylesheet"
-        href="style.css"
-    >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIC DUEL</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
+<!-- PIC DUEL DYNAMIC STUDIO BACKGROUND GRID -->
+<div class="floor-studio-grid"></div>
+<div class="floor-ambient-glow"></div>
 
 <!-- ===================================== -->
 <!-- INTRO SCREEN -->
 <!-- ===================================== -->
-
-<section
-    id="introScreen"
-    class="screen active"
->
-
-    <div class="introBackground"></div>
-
-    <div class="introLogoContainer">
-
-        <img
-            src="https://img.icons8.com/ios-filled/200/ffffff/game-controller.png"
-            id="introLogo"
-            alt="Pic Duel Logo"
-        >
-
-        <h1 id="introTitle">
-
-            PIC DUEL
-
-        </h1>
-
+<section id="introScreen" class="screen active">
+    <div class="introContainer">
+        <div class="floor-tv-logo">
+            <span class="logo-main">PIC DUEL</span>
+        </div>
+        <p class="studio-tagline">ΚΑΤΑΚΤΗΣΕ ΟΛΟ ΤΟ ΤΑΜΠΛΟ</p>
+        <div class="loading-bar-container">
+            <div class="loading-bar-fill"></div>
+        </div>
     </div>
-
 </section>
 
 <!-- ===================================== -->
-<!-- MAIN MENU -->
+<!-- MAIN MENU (TOURNAMENT SETUP) -->
 <!-- ===================================== -->
-
-<section
-    id="menuScreen"
-    class="screen"
->
-
-    <div class="menuBackground"></div>
-    <div id="menuGlobe"></div>
+<section id="menuScreen" class="screen">
     <div class="menuContainer">
+        <div class="floor-tv-logo-mini">
+            <span class="logo-main">PIC DUEL</span>
+        </div>
+        
+        <p class="menuNote">Διαχειριστείτε το ταμπλό. Επιλέξτε τον αρχικό Challenger και τον Αντίπαλό του για να ξεκινήσει η πρώτη μεγάλη μάχη.</p>
 
-        <h1 class="gameTitle">
-
-            PIC DUEL
-
-        </h1>
-
-        <input
-            id="player1Input"
-            type="text"
-            maxlength="20"
-            placeholder="Player 1"
-        >
-
-        <input
-            id="player2Input"
-            type="text"
-            maxlength="20"
-            placeholder="Player 2"
-        >
-
-        <select id="categorySelect">
-
-        </select>
-
-        <div class="difficultyContainer">
-
-            <h2>
-
-                Difficulty
-
-            </h2>
-
-            <label>
-
-                <input
-                    id="easyDifficulty"
-                    type="checkbox"
-                    checked
-                >
-
-                Easy
-
-            </label>
-
-            <label>
-
-                <input
-                    id="mediumDifficulty"
-                    type="checkbox"
-                    checked
-                >
-
-                Medium
-
-            </label>
-
-            <label>
-
-                <input
-                    id="hardDifficulty"
-                    type="checkbox"
-                    checked
-                >
-
-                Hard
-
-            </label>
-
+        <div class="modeNote">
+            <p><strong>ΚΑΝΟΝΑΣ ΜΟΝΟΜΑΧΙΑΣ:</strong> Ο Challenger παίζει πάντα στην αγαπημένη κατηγορία του Αντιπάλου που επιλέγει. Αν ο Challenger νικήσει, παραμένει Challenger. Αν χάσει, ο Αντίπαλος γίνεται ο νέος Challenger!</p>
         </div>
 
-        <select id="timeSelect">
+        <section id="tournamentSection" class="tournamentSection">
+            <div id="tournamentSetup" class="tournamentSetup">
+<div class="select-wrapper">
+    <select id="categorySelect" class="native-hidden"></select>
+</div>
+                <h3 class="tournament-section-title">ΡΥΘΜΙΣΗ ΑΡΧΙΚΗΣ ΜΟΝΟΜΑΧΙΑΣ</h3>
 
-            <option value="30">
+                <div class="challengerSetup">
+                    <div class="challengerField">
+                        <label for="initialChallengerSelect">ΑΡΧΙΚΟΣ CHALLENGER (ΚΟΚΚΙΝΟΣ)</label>
+                        <div class="select-wrapper wrapper-challenger">
+                            <select id="initialChallengerSelect"></select>
+                        </div>
+                    </div>
+                    <div class="challengerField">
+                        <label for="initialOpponentSelect">ΑΝΤΙΠΑΛΟΣ (ΜΠΛΕ - ΠΑΙΖΕΙ Η ΚΑΤΗΓΟΡΙΑ ΤΟΥ)</label>
+                        <div class="select-wrapper wrapper-opponent">
+                            <select id="initialOpponentSelect"></select>
+                        </div>
+                    </div>
+                </div>
 
-                30 Seconds
+                <div class="playerCountWrapper">
+                    <label for="tournamentPlayerCount" class="setupLabel">ΑΡΙΘΜΟΣ ΠΑΙΚΤΩΝ ΣΤΟ ΤΑΜΠΛΟ (2-15)</label>
+                    <div class="select-wrapper">
+                        <select id="tournamentPlayerCount">
+                            <option value="2">2 ΠΑΙΚΤΕΣ</option>
+                            <option value="3">3 ΠΑΙΚΤΕΣ</option>
+                            <option value="4">4 ΠΑΙΚΤΕΣ</option>
+                            <option value="5">5 ΠΑΙΚΤΕΣ</option>
+                            <option value="6">6 ΠΑΙΚΤΕΣ</option>
+                            <option value="7">7 ΠΑΙΚΤΕΣ</option>
+                            <option value="8" selected>8 ΠΑΙΚΤΕΣ</option>
+                            <option value="9">9 ΠΑΙΚΤΕΣ</option>
+                            <option value="10">10 ΠΑΙΚΤΕΣ</option>
+                            <option value="11">11 ΠΑΙΚΤΕΣ</option>
+                            <option value="12">12 ΠΑΙΚΤΕΣ</option>
+                            <option value="13">13 ΠΑΙΚΤΕΣ</option>
+                            <option value="14">14 ΠΑΙΚΤΕΣ</option>
+                            <option value="15">15 ΠΑΙΚΤΕΣ</option>
+                        </select>
+                    </div>
+                </div>
 
-            </option>
+                <div class="tournamentTitle">ΛΙΣΤΑ ΜΟΝΟΜΑΧΩΝ & ΑΓΑΠΗΜΕΝΕΣ ΚΑΤΗΓΟΡΙΕΣ</div>
+                <div id="tournamentPlayerInputs" class="tournamentPlayerInputs"></div>
 
-            <option
-                value="60"
-                selected
-            >
+                <div class="tournamentExtras">
+                    <div class="difficultyContainer">
+                        <h2>ΕΠΙΠΕΔΟ ΔΥΣΚΟΛΙΑΣ</h2>
+                        <div class="checkboxGroup">
+                            <label>
+                                <input id="easyDifficulty" type="checkbox" checked>
+                                Εύκολο
+                            </label>
+                            <label>
+                                <input id="mediumDifficulty" type="checkbox" checked>
+                                Μέτριο
+                            </label>
+                            <label>
+                                <input id="hardDifficulty" type="checkbox" checked>
+                                Δύσκολο
+                            </label>
+                        </div>
+                    </div>
+                    <div class="timeWrapper">
+                        <label for="timeSelect">ΧΡΟΝΟΣ ΜΟΝΟΜΑΧΙΑΣ (DECK)</label>
+                        <div class="select-wrapper">
+                            <select id="timeSelect">
+                                <option value="30">30 Δευτερόλεπτα</option>
+                                <option value="45">45 Δευτερόλεπτα</option>
+                                <option value="60" selected>60 Δευτερόλεπτα</option>
+                                <option value="90">90 Δευτερόλεπτα</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
 
-                60 Seconds
+                <div id="tournamentBracket" class="tournamentBracket hidden"></div>
+            </div>
+        </section>
 
-            </option>
-
-            <option value="90">
-
-                90 Seconds
-
-            </option>
-
-            <option value="120">
-
-                120 Seconds
-
-            </option>
-
-        </select>
-
-        <div class="modeButtons">
-
-            <button id="classicModeButton">
-
-                Classic
-
-            </button>
-
-            <button id="tournamentModeButton">
-
-                Tournament
-
-            </button>
-
-        </div>
-
-        <button id="startGameButton">
-
-            START GAME
-
-        </button>
-
+        <button id="startGameButton">ΕΝΑΡΞΗ ΜΟΝΟΜΑΧΙΑΣ</button>
     </div>
-
 </section>
 
 <!-- ===================================== -->
-<!-- GAME SCREEN -->
+<!-- GAME SCREEN (THE DUEL ARENA) -->
 <!-- ===================================== -->
-
-<section
-    id="gameScreen"
-    class="screen"
->
-
-    <!-- PLAYER LED LIGHTS -->
-
-    <div
-        id="leftPlayerLight"
-        class="player-light left-light"
-    ></div>
-
-    <div
-        id="rightPlayerLight"
-        class="player-light right-light"
-    ></div>
-
-    <!-- ICE EFFECT -->
-
+<section id="gameScreen" class="screen">
+    <!-- STUDIO WALL LED LIGHTS -->
+    <div id="leftPlayerLight" class="player-light left-light"></div>
+    <div id="rightPlayerLight" class="player-light right-light"></div>
     <div id="iceOverlay"></div>
-
-    <!-- GLOW EFFECT -->
-
     <div id="screenGlow"></div>
 
-    <!-- TOP HUD -->
-
+    <!-- TV HUD -->
     <header class="gameHeader">
-
-        <div class="playerSide left">
-
+        <div class="playerSide left-podium">
+            <div class="podium-graphics"></div>
             <div class="playerAvatar">
-                <img
-                    id="player1Avatar"
-                    src="https://img.icons8.com/ios-filled/100/ffffff/user-male-circle.png"
-                    alt="Player 1 Photo"
-                >
+                <img id="player1Avatar" src="https://img.icons8.com/ios-filled/100/ffffff/user-male-circle.png" alt="Challenger">
             </div>
-
-            <h2 id="player1Name">
-
-                Player 1
-
-            </h2>
-
-            <div
-                id="player1Timer"
-                class="timer"
-            >
-
-                60
-
+            <div class="playerInfoBlock">
+                <span class="role-badge badge-red">CHALLENGER</span>
+                <h2 id="player1Name">Παίκτης 1</h2>
             </div>
-
-        </div>
-
-        <div class="playerSide right">
-
-            <div class="playerAvatar">
-                <img
-                    id="player2Avatar"
-                    src="https://img.icons8.com/ios-filled/100/ffffff/user-female-circle.png"
-                    alt="Player 2 Photo"
-                >
-            </div>
-
-            <h2 id="player2Name">
-
-                Player 2
-
-            </h2>
-
-            <div
-                id="player2Timer"
-                class="timer"
-            >
-
-                60
-
-            </div>
-
+            <div id="player1Timer" class="floor-timer timer-red">45</div>
         </div>
 
         <div class="categoryContainer centeredCategory">
-
-            <span>
-
-                CATEGORY
-
-            </span>
-
-            <h2 id="currentCategory">
-
-                Animals
-
-            </h2>
-
+            <span class="category-indicator">ΚΑΤΗΓΟΡΙΑ ΑΝΤΙΠΑΛΟΥ</span>
+            <h2 id="currentCategory">ΕΙΚΟΝΕΣ</h2>
         </div>
 
+        <div class="playerSide right-podium">
+            <div class="podium-graphics"></div>
+            <div class="playerAvatar">
+                <img id="player2Avatar" src="https://img.icons8.com/ios-filled/100/ffffff/user-female-circle.png" alt="Opponent">
+            </div>
+            <div class="playerInfoBlock">
+                <span class="role-badge badge-blue">OPPONENT</span>
+                <h2 id="player2Name">Παίκτης 2</h2>
+            </div>
+            <div id="player2Timer" class="floor-timer timer-blue">45</div>
+        </div>
     </header>
 
-    <!-- MAIN GAME -->
-
+    <!-- CORE SCREEN GRAPHIC -->
     <main class="gameMain">
-
-        <div class="imageFrame">
-
-            <img
-                id="gameImage"
-                src=""
-                alt="Game Image"
-            >
-
-            <div id="answerCaption">
-
-            </div>
-
+        <div class="imageFrame TV-frame">
+            <img id="gameImage" src="" alt="Pic Duel Image">
+            <div id="answerCaption"></div>
         </div>
-
     </main>
 
-    <!-- VOICE WAVE -->
-
-    <div
-        id="voiceWave"
-        class="voiceWave"
-    >
-
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-
+    <!-- VOICE / AUDIO WAVE -->
+    <div id="voiceWave" class="voiceWave">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
     </div>
 
-    <!-- MESSAGE -->
+    <!-- LIVE SUBTITLE / MESSAGE -->
+    <div id="messageBox"></div>
 
-    <div id="messageBox">
-
+    <!-- FOOTER SYSTEMS -->
+    <div class="gameFooterInfo">
+        <div id="micStatus" class="mic-status off">
+            <span class="status-dot"></span>
+            <span class="status-text">ΣΥΣΤΗΜΑ ΑΝΑΓΝΩΡΙΣΗΣ ΦΩΝΗΣ</span>
+        </div>
+        <div id="debugLog" class="debug-log">SYSTEM ACTIVE</div>
     </div>
 
-    <div id="micStatus" class="mic-status off">
-        <span class="status-dot"></span>
-        <span class="status-text">Μικρόφωνο: περιμένει</span>
-    </div>
-
-    <!-- COMBO -->
-
-    <div id="comboBox">
-
-    </div>
-
-    <!-- COUNTDOWN -->
-
-    <div id="countdownOverlay">
-
-    </div>
-
+    <div id="comboBox"></div>
+    <div id="countdownOverlay"></div>
 </section>
 
 <!-- ===================================== -->
 <!-- WINNER SCREEN -->
 <!-- ===================================== -->
-
-<section
-    id="winnerScreen"
-    class="screen"
->
-
-    <div class="winnerBackground"></div>
-
+<section id="winnerScreen" class="screen">
     <canvas id="confettiCanvas"></canvas>
-
     <div class="winnerContainer">
-
         <div class="winnerGlow"></div>
-
-        <img
-            id="winnerTrophy"
-            src="images/trophy.png"
-            alt="Winner Trophy"
-        >
-
-        <h1 id="winnerName">
-
-            Player
-
-        </h1>
-
-        <p id="winnerDescription">
-
-            Champion of Pic Duel
-
-        </p>
-
-        <button id="continueButton">
-
-            CONTINUE
-
-        </button>
-
+        <div class="trophy-wrapper">🏆</div>
+        <h1 id="winnerName">ΝΙΚΗΤΗΣ</h1>
+        <p id="winnerDescription">ΚΑΤΕΚΤΗΣΕ ΟΛΟ ΤΟ ΤΑΜΠΛΟ</p>
+        <button id="continueButton" type="button">ΕΠΙΣΤΡΟΦΗ ΣΤΟ ΜΕΝΟΥ</button>
     </div>
-
 </section>
 
 <!-- ===================================== -->
 <!-- STATISTICS SCREEN -->
 <!-- ===================================== -->
-
-<section
-    id="statisticsScreen"
-    class="screen"
->
-
+<section id="statisticsScreen" class="screen">
     <div class="statisticsContainer">
-
-        <h1>
-
-            Match Statistics
-
-        </h1>
-
+        <h1 class="stats-main-title">ΣΤΑΤΙΣΤΙΚΑ ΜΟΝΟΜΑΧΙΑΣ</h1>
+        
         <div class="statisticsCards">
-
-            <div class="statisticsCard">
-
-                <h2 id="statsPlayer1Name">
-
-                    Player 1
-
-                </h2>
-
-                <p>
-
-                    ✔ Correct:
-                    <span id="player1Correct">
-
-                        0
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    ✖ Wrong:
-                    <span id="player1Wrong">
-
-                        0
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    ⏭ Pass:
-                    <span id="player1Pass">
-
-                        0
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    🎯 Accuracy:
-                    <span id="player1Accuracy">
-
-                        0%
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    🔥 Best Streak:
-                    <span id="player1BestStreak">
-
-                        0
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    ⏱ Time Left:
-                    <span id="player1TimeLeft">
-
-                        0
-
-                    </span>
-
-                </p>
-
+            <div class="statisticsCard player1-card">
+                <span class="card-badge badge-red">CHALLENGER</span>
+                <h2 id="statsPlayer1Name">-</h2>
+                <div class="stat-rows">
+                    <p><span>✔ Σωστές Απαντήσεις:</span> <span id="player1Correct" class="stat-val correct">0</span></p>
+                    <p><span>✖ Λάθη:</span> <span id="player1Wrong" class="stat-val wrong">0</span></p>
+                    <p><span>⏭ Πάσο:</span> <span id="player1Pass" class="stat-val pass">0</span></p>
+                    <p><span>🎯 Ακρίβεια:</span> <span id="player1Accuracy" class="stat-val">0%</span></p>
+                    <p><span>🔥 Σερί:</span> <span id="player1BestStreak" class="stat-val streak">0</span></p>
+                    <p><span>⏱ Χρόνος που απέμεινε:</span> <span id="player1TimeLeft" class="stat-val">0s</span></p>
+                </div>
             </div>
 
-            <div class="statisticsCard">
-
-                <h2 id="statsPlayer2Name">
-
-                    Player 2
-
-                </h2>
-
-                <p>
-
-                    ✔ Correct:
-                    <span id="player2Correct">
-
-                        0
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    ✖ Wrong:
-                    <span id="player2Wrong">
-
-                        0
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    ⏭ Pass:
-                    <span id="player2Pass">
-
-                        0
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    🎯 Accuracy:
-                    <span id="player2Accuracy">
-
-                        0%
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    🔥 Best Streak:
-                    <span id="player2BestStreak">
-
-                        0
-
-                    </span>
-
-                </p>
-
-                <p>
-
-                    ⏱ Time Left:
-                    <span id="player2TimeLeft">
-
-                        0
-
-                    </span>
-
-                </p>
-
+            <div class="statisticsCard player2-card">
+                <span class="card-badge badge-blue">OPPONENT</span>
+                <h2 id="statsPlayer2Name">-</h2>
+                <div class="stat-rows">
+                    <p><span>✔ Σωστές Απαντήσεις:</span> <span id="player2Correct" class="stat-val correct">0</span></p>
+                    <p><span>✖ Λάθη:</span> <span id="player2Wrong" class="stat-val wrong">0</span></p>
+                    <p><span>⏭ Πάσο:</span> <span id="player2Pass" class="stat-val pass">0</span></p>
+                    <p><span>🎯 Ακρίβεια:</span> <span id="player2Accuracy" class="stat-val">0%</span></p>
+                    <p><span>🔥 Σερί:</span> <span id="player2BestStreak" class="stat-val streak">0</span></p>
+                    <p><span>⏱ Χρόνος που απέμεινε:</span> <span id="player2TimeLeft" class="stat-val">0s</span></p>
+                </div>
             </div>
-
         </div>
 
         <div class="statisticsButtons">
-
-            <button id="statisticsPlayAgainButton">
-
-                Play Again
-
-            </button>
-
-            <button id="statisticsMenuButton">
-
-                Main Menu
-
-            </button>
-
+            <button id="statisticsPlayAgainButton">ΕΠΟΜΕΝΗ ΜΟΝΟΜΑΧΙΑ</button>
+            <button id="statisticsMenuButton">ΚΕΝΤΡΙΚΟ ΜΕΝΟΥ</button>
         </div>
-
     </div>
-
 </section>
 
 <!-- ===================================== -->
-<!-- TOURNAMENT SCREEN -->
+<!-- ADDITIONAL SCREENS -->
 <!-- ===================================== -->
-
-<section
-    id="tournamentScreen"
-    class="screen"
->
-
+<section id="tournamentScreen" class="screen">
     <div class="tournamentContainer">
-
-        <h1>
-
-            Tournament
-
-        </h1>
-
-        <div id="tournamentBracket">
-
-        </div>
-
-        <button id="startTournamentButton">
-
-            Start Tournament
-
-        </button>
-
-        <button id="tournamentBackButton">
-
-            Back
-
-        </button>
-
+        <h1>ΤΟ ΤΑΜΠΛΟ ΤΩΝ ΜΟΝΟΜΑΧΩΝ</h1>
+        <div id="tournamentBracket"></div>
+        <button id="tournamentBackButton">ΠΙΣΩ</button>
     </div>
-
 </section>
 
-<!-- ===================================== -->
-<!-- ACHIEVEMENTS SCREEN -->
-<!-- ===================================== -->
-
-<section
-    id="achievementsScreen"
-    class="screen"
->
-
+<section id="achievementsScreen" class="screen">
     <div class="achievementsContainer">
-
-        <h1>
-
-            Achievements
-
-        </h1>
-
-        <div id="achievementList">
-
-        </div>
-
-        <button id="achievementsBackButton">
-
-            Back
-
-        </button>
-
+        <h1>ΔΙΑΚΡΙΣΕΙΣ ΠΑΙΚΤΩΝ</h1>
+        <div id="achievementList"></div>
+        <button id="achievementsBackButton">ΠΙΣΩ</button>
     </div>
-
 </section>
 
-<!-- ===================================== -->
-<!-- SETTINGS SCREEN -->
-<!-- ===================================== -->
-
-<section
-    id="settingsScreen"
-    class="screen"
->
-
+<section id="settingsScreen" class="screen">
     <div class="settingsContainer">
-
-        <h1>
-
-            Settings
-
-        </h1>
-
-        <label>
-
-            Music
-
-            <input
-                id="musicToggle"
-                type="checkbox"
-                checked
-            >
-
-        </label>
-
-        <label>
-
-            Sound Effects
-
-            <input
-                id="soundToggle"
-                type="checkbox"
-                checked
-            >
-
-        </label>
-
-        <label>
-
-            Animations
-
-            <input
-                id="animationToggle"
-                type="checkbox"
-                checked
-            >
-
-        </label>
-
-        <button id="settingsBackButton">
-
-            Back
-
-        </button>
-
+        <h1>ΡΥΘΜΙΣΕΙΣ ΚΟΝΣΟΛΑΣ</h1>
+        <div class="settingsOptions">
+            <label class="setting-toggle">
+                <span>Μουσική Πλατό</span>
+                <input id="musicToggle" type="checkbox" checked>
+                <span class="custom-checkbox"></span>
+            </label>
+            <label class="setting-toggle">
+                <span>Ηχητικά Εφέ</span>
+                <input id="soundToggle" type="checkbox" checked>
+                <span class="custom-checkbox"></span>
+            </label>
+            <label class="setting-toggle">
+                <span>Φωτισμοί LED (Animations)</span>
+                <input id="animationToggle" type="checkbox" checked>
+                <span class="custom-checkbox"></span>
+            </label>
+        </div>
+        <button id="settingsBackButton">ΠΙΣΩ</button>
     </div>
-
 </section>
 
-<!-- ===================================== -->
-<!-- AUDIO -->
-<!-- ===================================== -->
-
-<audio
-    id="introSound"
-    preload="auto"
-></audio>
-
-<audio
-    id="menuMusic"
-    loop
-    preload="auto"
-></audio>
-
-<audio
-    id="gameMusic"
-    loop
-    preload="auto"
-></audio>
-
-<audio
-    id="clockTickSound"
-    loop
-    preload="auto"
-></audio>
-
-<audio
-    id="heartbeatSound"
-    preload="auto"
-></audio>
-
-<audio
-    id="correctSound"
-    preload="auto"
-></audio>
-
-<audio
-    id="wrongSound"
-    preload="auto"
-></audio>
-
-<audio
-    id="passSound"
-    preload="auto"
-></audio>
-
-<audio
-    id="victorySound"
-    preload="auto"
-></audio>
-
-<audio
-    id="confettiSound"
-    preload="auto"
-></audio>
-
-<!-- ===================================== -->
-<!-- JAVASCRIPT -->
-<!-- ===================================== -->
+<!-- AUDIO SOURCES -->
+<audio id="introSound" preload="auto"></audio>
+<audio id="menuMusic" loop preload="auto"></audio>
+<audio id="gameMusic" loop preload="auto"></audio>
+<audio id="clockTickSound" loop preload="auto"></audio>
+<audio id="heartbeatSound" preload="auto"></audio>
+<audio id="correctSound" preload="auto"></audio>
+<audio id="wrongSound" preload="auto"></audio>
+<audio id="passSound" preload="auto"></audio>
+<audio id="victorySound" preload="auto"></audio>
+<audio id="confettiSound" preload="auto"></audio>
 
 <script src="categories.js"></script>
-
 <script src="game.js"></script>
-
 </body>
-
 </html>
-

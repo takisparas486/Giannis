@@ -1190,7 +1190,7 @@ pokemon: [
 },
 
 {
-    answers: ["regigigas"],
+    answers: ["regigigas", "re gigigas", "re giggigas", "rejijigas"],
     image: "images/pokemon/regigigas.png",
     difficulty: "hard"
 },
@@ -1392,13 +1392,13 @@ pokemon: [
 mythology: [
 
 {
-    answers: ["δίας", "zeus"],
+    answers: ["δίας", "ζευς", "zeus", "dias", "zevs"],
     image: "images/mythology/zeus.jpg",
     difficulty: "easy"
 },
 
 {
-    answers: ["ποσειδώνας", "poseidon"],
+    answers: ["ποσειδώνας", "poseidon", "poseidonas"],
     image: "images/mythology/poseidon.jpg",
     difficulty: "easy"
 },
@@ -1410,7 +1410,7 @@ mythology: [
 },
 
 {
-    answers: ["αθηνά", "athena"],
+    answers: ["αθηνά", "athena", "athina"],
     image: "images/mythology/athena.jpg",
     difficulty: "easy"
 },
@@ -1874,66 +1874,12 @@ mythology: [
 },
 
 
-
-{
-    answers: ["κέρβερος", "cerberus"],
-    image: "images/mythology/cerberus.jpg",
-    difficulty: "easy"
-},
-
-{
-    answers: ["μέδουσα", "medusa"],
-    image: "images/mythology/medusa.jpg",
-    difficulty: "easy"
-},
-
 {
     answers: ["γοργόνες", "gorgons"],
     image: "images/mythology/gorgons.jpg",
     difficulty: "medium"
 },
 
-{
-    answers: ["μινώταυρος", "minotaur"],
-    image: "images/mythology/minotaur.jpg",
-    difficulty: "easy"
-},
-
-{
-    answers: ["κύκλωπας", "cyclops"],
-    image: "images/mythology/cyclops.jpg",
-    difficulty: "easy"
-},
-
-{
-    answers: ["κένταυρος", "centaur"],
-    image: "images/mythology/centaur.jpg",
-    difficulty: "easy"
-},
-
-{
-    answers: ["σφίγγα", "sphinx"],
-    image: "images/mythology/sphinx.jpg",
-    difficulty: "easy"
-},
-
-{
-    answers: ["λερναία ύδρα", "hydra", "lernaean hydra"],
-    image: "images/mythology/hydra.jpg",
-    difficulty: "easy"
-},
-
-{
-    answers: ["χίμαιρα", "chimera"],
-    image: "images/mythology/chimera.jpg",
-    difficulty: "easy"
-},
-
-{
-    answers: ["πήγασος", "pegasus"],
-    image: "images/mythology/pegasus.jpg",
-    difficulty: "easy"
-},
 
 {
     answers: ["σειρήνες", "sirens"],
@@ -2014,7 +1960,7 @@ mythology: [
 },
 
 {
-    answers: ["γίγαντες", "gigantes", "giants"],
+    answers: ["γίγαντες", "gigantes", "giants","γίγαντας","giant",],
     image: "images/mythology/gigantes.jpg",
     difficulty: "medium"
 },
