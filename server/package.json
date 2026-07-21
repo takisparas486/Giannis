@@ -1,0 +1,14 @@
+{
+  "name": "pic-duel-speech-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket proxy for Google Cloud Speech-to-Text for Pic Duel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^5.4.0",
+    "express": "^4.18.4",
+    "ws": "^8.13.0"
+  }
+}

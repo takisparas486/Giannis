@@ -40,6 +40,41 @@ const gameImage = document.getElementById("gameImage");
 const answerCaption = document.getElementById("answerCaption");
 
 const messageBox = document.getElementById("messageBox");
+const micStatus = document.getElementById("micStatus");
+
+function setMicStatus(status) {
+    if (!micStatus) return;
+    micStatus.className = `mic-status ${status}`;
+    const textSpan = micStatus.querySelector(".status-text");
+    if (!textSpan) return;
+    switch (status) {
+        case "listening":
+            textSpan.textContent = "Μικρόφωνο: ανοιχτό";
+            break;
+        case "retry":
+            textSpan.textContent = "Μικρόφωνο: επανασύνδεση...";
+            break;
+        case "error":
+            textSpan.textContent = "Μικρόφωνο: σφάλμα";
+            break;
+        case "off":
+            textSpan.textContent = "Μικρόφωνο: περιμένει";
+            break;
+        default:
+            textSpan.textContent = "Μικρόφωνο: αδρανές";
+    }
+}
+
+function setMessageFeedback(type) {
+    if (!messageBox) return;
+    messageBox.classList.remove("correct", "wrong");
+    if (type === "correct") {
+        messageBox.classList.add("correct");
+    }
+    if (type === "wrong") {
+        messageBox.classList.add("wrong");
+    }
+}
 
 /* ---------- WINNER ---------- */
 
@@ -54,6 +89,14 @@ const statisticsPlayAgainButton =
 const statisticsMenuButton =
     document.getElementById("statisticsMenuButton");
 
+const screens = [
+    introScreen,
+    menuScreen,
+    gameScreen,
+    winnerScreen,
+    statisticsScreen
+];
+
 /* ---------- VARIABLES ---------- */
 
 let player1Time = 60;
@@ -66,12 +109,144 @@ let timer = null;
 let gameRunning = false;
 
 let speechRecognition = null;
+let speechRecognitionPermissionDenied = false;
+let speechRecognitionRestartTimer = null;
+let wsStream = null;
+let mediaStream = null;
+let audioCtx = null;
+let sourceNode = null;
+let processor = null;
 
 let currentImage = null;
 
 let currentImages = [];
 
 let waitingAfterPass = false;
+
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+let tickToggle = false;
+let confettiParticles = [];
+let confettiAnimationFrame = null;
+let confettiCanvas = null;
+let confettiCtx = null;
+
+function ensureAudio() {
+    if (!audioContext) return;
+    if (audioContext.state === "suspended") {
+        audioContext.resume().catch(() => {});
+    }
+}
+
+function playTone(frequency, type = "sine", duration = 0.12, volume = 0.2) {
+    if (!audioContext) return;
+    ensureAudio();
+    const oscillator = audioContext.createOscillator();
+    const gain = audioContext.createGain();
+    oscillator.type = type;
+    oscillator.frequency.setValueAtTime(frequency, audioContext.currentTime);
+    gain.gain.setValueAtTime(volume, audioContext.currentTime);
+    oscillator.connect(gain);
+    gain.connect(audioContext.destination);
+    oscillator.start();
+    gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + duration);
+    oscillator.stop(audioContext.currentTime + duration + 0.02);
+}
+
+function playSound(sound) {
+    switch (sound) {
+        case "tick":
+            tickToggle = !tickToggle;
+            playTone(tickToggle ? 520 : 440, "square", 0.06, 0.14);
+            break;
+        case "ice":
+            playTone(380, "triangle", 0.18, 0.12);
+            setTimeout(() => playTone(460, "triangle", 0.12, 0.08), 80);
+            break;
+        case "correct":
+            playTone(880, "triangle", 0.18, 0.22);
+            playTone(1320, "triangle", 0.12, 0.18);
+            break;
+        case "buzzer":
+            playTone(180, "sawtooth", 0.32, 0.24);
+            break;
+        case "pass":
+            playTone(260, "sawtooth", 0.18, 0.18);
+            break;
+        case "timeout":
+            playTone(120, "square", 0.28, 0.22);
+            break;
+        case "victory":
+            playTone(880, "triangle", 0.18, 0.2);
+            playTone(1100, "triangle", 0.16, 0.18);
+            startConfetti();
+            break;
+        default:
+            break;
+    }
+}
+
+function setupConfettiCanvas() {
+    confettiCanvas = document.getElementById("confettiCanvas");
+    if (!confettiCanvas) return;
+    confettiCtx = confettiCanvas.getContext("2d");
+    window.addEventListener("resize", resizeConfettiCanvas);
+    resizeConfettiCanvas();
+}
+
+function resizeConfettiCanvas() {
+    if (!confettiCanvas) return;
+    confettiCanvas.width = confettiCanvas.clientWidth;
+    confettiCanvas.height = confettiCanvas.clientHeight;
+}
+
+function startConfetti() {
+    if (!confettiCtx) return;
+    confettiParticles = Array.from({ length: 80 }, () => ({
+        x: Math.random() * confettiCanvas.width,
+        y: Math.random() * confettiCanvas.height - confettiCanvas.height,
+        size: Math.random() * 8 + 6,
+        speed: Math.random() * 2 + 2,
+        angle: Math.random() * Math.PI * 2,
+        color: `hsl(${Math.random() * 360}, 90%, 70%)`,
+        tilt: Math.random() * 10 - 10,
+        tiltSpeed: Math.random() * 0.08 + 0.06
+    }));
+    if (confettiAnimationFrame) {
+        cancelAnimationFrame(confettiAnimationFrame);
+    }
+    function updateConfetti() {
+        confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+        confettiParticles.forEach(particle => {
+            particle.y += particle.speed;
+            particle.x += Math.sin(particle.angle) * 2;
+            particle.tilt += particle.tiltSpeed;
+            if (particle.y > confettiCanvas.height + particle.size) {
+                particle.y = -particle.size;
+                particle.x = Math.random() * confettiCanvas.width;
+            }
+            confettiCtx.fillStyle = particle.color;
+            confettiCtx.fillRect(
+                particle.x + particle.tilt,
+                particle.y,
+                particle.size,
+                particle.size * 0.35
+            );
+        });
+        confettiAnimationFrame = requestAnimationFrame(updateConfetti);
+    }
+    updateConfetti();
+    setTimeout(stopConfetti, 3500);
+}
+
+function stopConfetti() {
+    if (confettiAnimationFrame) {
+        cancelAnimationFrame(confettiAnimationFrame);
+        confettiAnimationFrame = null;
+    }
+    if (confettiCtx && confettiCanvas) {
+        confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+    }
+}
 
 /* ---------- PLAYER STATS ---------- */
 
@@ -110,21 +285,61 @@ let player2Stats = {
 
 /* ---------- INTRO ---------- */
 
+function showScreen(targetScreen) {
+
+    screens.forEach(screen => {
+
+        screen.classList.remove("active");
+
+    });
+
+    if (targetScreen) {
+
+        targetScreen.classList.add("active");
+
+    }
+
+}
+
+function populateCategorySelect() {
+
+    if (!categorySelect) return;
+
+    categorySelect.innerHTML = "";
+
+    Object.entries(categories).forEach(([key, items]) => {
+
+        if (!Array.isArray(items)) return;
+
+        const option = document.createElement("option");
+
+        option.value = key;
+        option.textContent = key
+            .split("-")
+            .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+            .join(" ");
+
+        categorySelect.appendChild(option);
+
+    });
+
+    if (categorySelect.options.length > 0) {
+
+        categorySelect.selectedIndex = 0;
+
+    }
+
+}
+
 window.addEventListener("load", () => {
 
-    introScreen.classList.add("show");
+    populateCategorySelect();
+    setupConfettiCanvas();
+    showScreen(introScreen);
 
     setTimeout(() => {
 
-        introScreen.classList.add("hide");
-
-        setTimeout(() => {
-
-            introScreen.style.display = "none";
-
-            menuScreen.classList.add("show");
-
-        }, 800);
+        showScreen(menuScreen);
 
     }, 2500);
 
@@ -145,14 +360,6 @@ statisticsMenuButton.addEventListener(
     "click",
     backToMenu
 );
-
-continueButton.addEventListener("click", () => {
-
-    winnerScreen.classList.remove("show");
-
-    statisticsScreen.classList.add("show");
-
-});
 
 
 /* ---------- START GAME ---------- */
@@ -215,10 +422,9 @@ function startGame() {
     ]];
 
 
-    menuScreen.classList.remove("show");
+    showScreen(gameScreen);
 
-    gameScreen.classList.add("show");
-
+    updatePlayerLights();
 
     gameRunning = true;
 
@@ -227,7 +433,7 @@ function startGame() {
 
     startTimer();
 
-startSpeechRecognition();
+    startSpeechRecognition();
 
 }
 
@@ -285,6 +491,11 @@ function loadNextImage() {
 
     gameImage.classList.add("imageHidden");
 
+    const imageFrame = document.querySelector(".imageFrame");
+    if (imageFrame) {
+        imageFrame.classList.add("changeAnim");
+    }
+
     setTimeout(() => {
 
         gameImage.src = currentImage.image;
@@ -294,6 +505,12 @@ function loadNextImage() {
         gameImage.classList.add("imageVisible");
 
     }, 250);
+
+    setTimeout(() => {
+        if (imageFrame) {
+            imageFrame.classList.remove("changeAnim");
+        }
+    }, 600);
 
     currentImages = currentImages.filter(
 
@@ -317,7 +534,6 @@ function startTimer(){
 
         if(!gameRunning) return;
 
-        if(waitingAfterPass) return;
 
         if(currentPlayer === 1){
 
@@ -402,8 +618,6 @@ function updatePlayerLights(){
 
 }
 
-}
-
 /*=========================================
             PART 5
         VOICE RECOGNITION
@@ -411,50 +625,123 @@ function updatePlayerLights(){
 
 /* ---------- SPEECH ---------- */
 
-function startSpeechRecognition(){
-
-    if(
-        !("webkitSpeechRecognition" in window) &&
-        !("SpeechRecognition" in window)
-    ){
-
-        alert("Η συσκευή δεν υποστηρίζει Speech Recognition.");
-
+async function startSpeechRecognition(){
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        alert("Η συσκευή δεν υποστηρίζει καταγραφή ήχου.");
         return;
-
     }
 
-    const SpeechRecognition =
-        window.SpeechRecognition ||
-        window.webkitSpeechRecognition;
+    if (speechRecognitionPermissionDenied) {
+        setMicStatus("error");
+        return;
+    }
 
-    speechRecognition = new SpeechRecognition();
+    try {
+        mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    } catch (error) {
+        console.error("Mic permission denied", error);
+        speechRecognitionPermissionDenied = true;
+        setMicStatus("error");
+        return;
+    }
 
-    speechRecognition.lang = "el-GR";
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    sourceNode = audioCtx.createMediaStreamSource(mediaStream);
+    processor = audioCtx.createScriptProcessor(4096, 1, 1);
 
-    speechRecognition.continuous = true;
-
-    speechRecognition.interimResults = false;
-
-    speechRecognition.onresult = handleSpeechResult;
-
-    speechRecognition.onerror = () => {};
-
-    speechRecognition.onend = () => {
-
-        if(gameRunning){
-
-            speechRecognition.start();
-
+    processor.onaudioprocess = (event) => {
+        const inputBuffer = event.inputBuffer.getChannelData(0);
+        const int16Buffer = floatTo16BitPCM(inputBuffer);
+        if (wsStream && wsStream.readyState === WebSocket.OPEN) {
+            wsStream.send(int16Buffer);
         }
-
     };
 
-    speechRecognition.start();
+    sourceNode.connect(processor);
+    processor.connect(audioCtx.destination);
 
+    const host = window.location.hostname || 'localhost';
+    wsStream = new WebSocket(`ws://${host}:3000/ws`);
+    wsStream.binaryType = "arraybuffer";
+
+    wsStream.onopen = () => {
+        setMicStatus("listening");
+    };
+
+    wsStream.onmessage = (event) => {
+        if (!event.data) return;
+        try {
+            const data = JSON.parse(event.data);
+            if (data.type === 'transcript' && typeof data.transcript === 'string') {
+                if (data.isFinal) {
+                    handleRemoteTranscript(data.transcript);
+                }
+            }
+        } catch (e) {
+            console.warn('Invalid transcript message', e);
+        }
+    };
+
+    wsStream.onerror = () => {
+        setMicStatus("error");
+    };
+
+    wsStream.onclose = () => {
+        setMicStatus("off");
+    };
+}
+
+function stopSpeechRecognition() {
+    if (wsStream) {
+        try {
+            wsStream.send(JSON.stringify({ type: 'stop' }));
+        } catch (e) {}
+        wsStream.close();
+        wsStream = null;
+    }
+
+    if (processor) {
+        processor.disconnect();
+        processor = null;
+    }
+    if (sourceNode) {
+        sourceNode.disconnect();
+        sourceNode = null;
+    }
+    if (audioCtx) {
+        audioCtx.close().catch(() => {});
+        audioCtx = null;
+    }
+    if (mediaStream) {
+        mediaStream.getTracks().forEach(track => track.stop());
+        mediaStream = null;
+    }
+    if (speechRecognitionRestartTimer) {
+        clearTimeout(speechRecognitionRestartTimer);
+        speechRecognitionRestartTimer = null;
+    }
 }
 
 /* ---------- RESULT ---------- */
+
+function handleRemoteTranscript(transcript) {
+    if (waitingAfterPass) return;
+    const normalizedText = normalizeSpokenText(transcript);
+    if (/(?:\b|^)(πάσο|πασο|pass)(?:\b|$)/u.test(normalizedText)) {
+        handlePass();
+        return;
+    }
+    checkAnswer(normalizedText);
+}
+
+function normalizeSpokenText(text) {
+    return text
+        .normalize("NFD")
+        .replace(/\p{M}/gu, "")
+        .replace(/[^\p{L}\p{N}\s]/gu, "")
+        .trim()
+        .toLowerCase();
+}
 
 function handleSpeechResult(event){
 
@@ -463,14 +750,11 @@ function handleSpeechResult(event){
     const spokenText = event.results[
         event.results.length - 1
     ][0].transcript
-    .trim()
-    .toLowerCase();
+    .trim();
 
-    if(
-        spokenText === "πάσο" ||
-        spokenText === "πασο" ||
-        spokenText === "pass"
-    ){
+    const normalizedText = normalizeSpokenText(spokenText);
+
+    if(/(?:\b|^)(πάσο|πασο|pass)(?:\b|$)/u.test(normalizedText)){
 
         handlePass();
 
@@ -478,7 +762,7 @@ function handleSpeechResult(event){
 
     }
 
-    checkAnswer(spokenText);
+    checkAnswer(normalizedText);
 
 }
 
@@ -486,6 +770,33 @@ function handleSpeechResult(event){
             PART 6
         ANSWER CHECK
 =========================================*/
+
+function normalizeAnswerText(text) {
+    return text
+        .normalize("NFD")
+        .replace(/\p{M}/gu, "")
+        .replace(/[^\p{L}\p{N}\s]/gu, "")
+        .trim()
+        .toLowerCase();
+}
+
+function answerMatches(answerText, spokenText) {
+    const normalizedAnswer = normalizeAnswerText(answerText);
+    const normalizedSpoken = normalizeAnswerText(spokenText);
+    if (!normalizedAnswer || !normalizedSpoken) return false;
+    if (normalizedSpoken === normalizedAnswer) return true;
+    if (normalizedSpoken.includes(normalizedAnswer)) return true;
+    if (normalizedAnswer.includes(normalizedSpoken)) return true;
+    const answerWords = normalizedAnswer.split(/\s+/).filter(w => w.length > 1);
+    const spokenWords = normalizedSpoken.split(/\s+/).filter(w => w.length > 1);
+    if (answerWords.length > 0 && answerWords.every(word => spokenWords.includes(word))) {
+        return true;
+    }
+    if (spokenWords.some(word => answerWords.includes(word))) {
+        return true;
+    }
+    return false;
+}
 
 function checkAnswer(spokenText){
 
@@ -505,19 +816,16 @@ else if(currentImage.answers){
 
 }
 
-answers = answers.map(answer =>
+const normalizedSpoken = normalizeAnswerText(spokenText);
 
-    answer.trim().toLowerCase()
+const matched = answers.some(answer => answerMatches(answer, normalizedSpoken));
 
-);
-
-spokenText = spokenText.trim().toLowerCase();
-
-if(answers.includes(spokenText)){
+if(matched){
 
         playSound("correct");
 
         messageBox.textContent = "✔ Σωστό!";
+        setMessageFeedback("correct");
 
         if(currentPlayer === 1){
 
@@ -551,6 +859,8 @@ if(answers.includes(spokenText)){
 
         }
 
+        messageBox.textContent = "✔ Σωστό!";
+        setMessageFeedback("correct");
         switchPlayer();
 
         loadNextImage();
@@ -575,6 +885,10 @@ if(answers.includes(spokenText)){
 
     }
 
+    messageBox.textContent = "✖ Λάθος";
+    setMessageFeedback("wrong");
+
+    playSound("buzzer");
 }
 
 /*=========================================
@@ -588,9 +902,11 @@ function handlePass(){
 
     waitingAfterPass = true;
 
+    playSound("ice");
     playSound("pass");
 
-    messageBox.textContent = "ΠΑΣΟ";
+    messageBox.textContent = "ΠΑΣΟ - νέα εικόνα";
+    setMessageFeedback("wrong");
 
     if(currentPlayer === 1){
 
@@ -608,9 +924,9 @@ function handlePass(){
 
     }
 
-    answerCaption.textContent = currentImage.answer;
-
-    answerCaption.classList.add("show");
+    if (gameScreen) {
+        gameScreen.classList.add("frozen");
+    }
 
     const iceOverlay = document.getElementById("iceOverlay");
 
@@ -622,18 +938,17 @@ function handlePass(){
 
     setTimeout(() => {
 
-        answerCaption.classList.remove("show");
-
         if(iceOverlay){
 
             iceOverlay.classList.remove("show");
 
         }
 
+        if (gameScreen) {
+            gameScreen.classList.remove("frozen");
+        }
+
         waitingAfterPass = false;
-
-        switchPlayer();
-
         loadNextImage();
 
     },3000);
@@ -647,34 +962,123 @@ function handlePass(){
 
 /* ---------- SOUNDS ---------- */
 
-const sounds = {
 
-    intro: new Audio("sounds/intro.mp3"),
+function ensureAudio() {
+    if (!audioContext) return;
+    if (audioContext.state === "suspended") {
+        audioContext.resume().catch(() => {});
+    }
+}
 
-    menu: new Audio("sounds/menu.mp3"),
+function playTone(frequency, type = "sine", duration = 0.12, volume = 0.2) {
+    if (!audioContext) return;
+    ensureAudio();
+    const oscillator = audioContext.createOscillator();
+    const gain = audioContext.createGain();
+    oscillator.type = type;
+    oscillator.frequency.setValueAtTime(frequency, audioContext.currentTime);
+    gain.gain.setValueAtTime(volume, audioContext.currentTime);
+    oscillator.connect(gain);
+    gain.connect(audioContext.destination);
+    oscillator.start();
+    gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + duration);
+    oscillator.stop(audioContext.currentTime + duration + 0.02);
+}
 
-    tick: new Audio("sounds/tick.mp3"),
+function playSound(sound) {
+    switch (sound) {
+        case "tick":
+            tickToggle = !tickToggle;
+            playTone(tickToggle ? 520 : 440, "square", 0.06, 0.14);
+            break;
+        case "ice":
+            playTone(380, "triangle", 0.18, 0.12);
+            setTimeout(() => playTone(460, "triangle", 0.12, 0.08), 80);
+            break;
+        case "correct":
+            playTone(880, "triangle", 0.18, 0.22);
+            playTone(1320, "triangle", 0.12, 0.18);
+            break;
+        case "buzzer":
+            playTone(180, "sawtooth", 0.32, 0.24);
+            break;
+        case "pass":
+            playTone(260, "sawtooth", 0.18, 0.18);
+            break;
+        case "timeout":
+            playTone(120, "square", 0.28, 0.22);
+            break;
+        case "victory":
+            playTone(880, "triangle", 0.18, 0.2);
+            playTone(1100, "triangle", 0.16, 0.18);
+            startConfetti();
+            break;
+        default:
+            break;
+    }
+}
 
-    correct: new Audio("sounds/correct.mp3"),
+function setupConfettiCanvas() {
+    confettiCanvas = document.getElementById("confettiCanvas");
+    if (!confettiCanvas) return;
+    confettiCtx = confettiCanvas.getContext("2d");
+    window.addEventListener("resize", resizeConfettiCanvas);
+    resizeConfettiCanvas();
+}
 
-    wrong: new Audio("sounds/wrong.mp3"),
+function resizeConfettiCanvas() {
+    if (!confettiCanvas) return;
+    confettiCanvas.width = confettiCanvas.clientWidth;
+    confettiCanvas.height = confettiCanvas.clientHeight;
+}
 
-    pass: new Audio("sounds/pass.mp3"),
+function startConfetti() {
+    if (!confettiCtx) return;
+    confettiParticles = Array.from({ length: 80 }, () => ({
+        x: Math.random() * confettiCanvas.width,
+        y: Math.random() * confettiCanvas.height - confettiCanvas.height,
+        size: Math.random() * 8 + 6,
+        speed: Math.random() * 2 + 2,
+        angle: Math.random() * Math.PI * 2,
+        color: `hsl(${Math.random() * 360}, 90%, 70%)`,
+        tilt: Math.random() * 10 - 10,
+        tiltSpeed: Math.random() * 0.08 + 0.06
+    }));
+    if (confettiAnimationFrame) {
+        cancelAnimationFrame(confettiAnimationFrame);
+    }
+    function updateConfetti() {
+        confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+        confettiParticles.forEach(particle => {
+            particle.y += particle.speed;
+            particle.x += Math.sin(particle.angle) * 2;
+            particle.tilt += particle.tiltSpeed;
+            if (particle.y > confettiCanvas.height + particle.size) {
+                particle.y = -particle.size;
+                particle.x = Math.random() * confettiCanvas.width;
+            }
+            confettiCtx.fillStyle = particle.color;
+            confettiCtx.fillRect(
+                particle.x + particle.tilt,
+                particle.y,
+                particle.size,
+                particle.size * 0.35
+            );
+        });
+        confettiAnimationFrame = requestAnimationFrame(updateConfetti);
+    }
+    updateConfetti();
+    setTimeout(stopConfetti, 3500);
+}
 
-    timeout: new Audio("sounds/timeout.mp3"),
-
-    victory: new Audio("sounds/victory.mp3")
-
-};
-
-function playSound(sound){
-
-    if(!sounds[sound]) return;
-
-    sounds[sound].currentTime = 0;
-
-    sounds[sound].play();
-
+function stopConfetti() {
+    if (confettiAnimationFrame) {
+        cancelAnimationFrame(confettiAnimationFrame);
+        confettiAnimationFrame = null;
+    }
+    if (confettiCtx && confettiCanvas) {
+        confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);
+    }
 }
 
 /* ---------- FINISH ---------- */
@@ -685,15 +1089,9 @@ function finishGame(winnerPlayer){
 
     clearInterval(timer);
 
-    if(speechRecognition){
+    stopSpeechRecognition();
 
-        speechRecognition.stop();
-
-    }
-
-    gameScreen.classList.remove("show");
-
-    winnerScreen.classList.add("show");
+    showScreen(winnerScreen);
 
     const winner =
 
@@ -713,75 +1111,13 @@ function finishGame(winnerPlayer){
 
 }
 
-function finishGame(winnerPlayer){
-
-    gameRunning = false;
-
-    ...
-
-    playSound("victory");
-
-}
-
 /* ---------- OPEN STATISTICS ---------- */
 
 function openStatistics(){
 
-    winnerScreen.classList.remove("show");
+    showScreen(statisticsScreen);
 
-    statisticsScreen.classList.add("show");
-
-    document.getElementById("statsPlayer1Name").textContent =
-        player1Input.value;
-
-    document.getElementById("statsPlayer2Name").textContent =
-        player2Input.value;
-
-    document.getElementById("player1Correct").textContent =
-        player1Stats.correct;
-
-    document.getElementById("player1Wrong").textContent =
-        player1Stats.wrong;
-
-    document.getElementById("player1Pass").textContent =
-        player1Stats.pass;
-
-    document.getElementById("player1BestStreak").textContent =
-        player1Stats.bestStreak;
-
-    document.getElementById("player1TimeLeft").textContent =
-        player1Time;
-
-    document.getElementById("player2Correct").textContent =
-        player2Stats.correct;
-
-    document.getElementById("player2Wrong").textContent =
-        player2Stats.wrong;
-
-    document.getElementById("player2Pass").textContent =
-        player2Stats.pass;
-
-    document.getElementById("player2BestStreak").textContent =
-        player2Stats.bestStreak;
-
-    document.getElementById("player2TimeLeft").textContent =
-        player2Time;
-
-    const player1Total =
-        player1Stats.correct + player1Stats.wrong;
-
-    const player2Total =
-        player2Stats.correct + player2Stats.wrong;
-
-    document.getElementById("player1Accuracy").textContent =
-        player1Total === 0
-        ? "0%"
-        : Math.round(player1Stats.correct / player1Total * 100) + "%";
-
-    document.getElementById("player2Accuracy").textContent =
-        player2Total === 0
-        ? "0%"
-        : Math.round(player2Stats.correct / player2Total * 100) + "%";
+    fillStatistics();
 
 }
 
@@ -789,16 +1125,6 @@ function openStatistics(){
 /*=========================================
         SCREEN NAVIGATION
 =========================================*/
-
-function openStatistics(){
-
-    winnerScreen.classList.remove("show");
-
-    statisticsScreen.classList.add("show");
-
-    fillStatistics();
-
-}
 
 function playAgain(){
 
@@ -808,9 +1134,7 @@ function playAgain(){
 
 function backToMenu(){
 
-    statisticsScreen.classList.remove("show");
-
-    menuScreen.classList.add("show");
+    showScreen(menuScreen);
 
 }
 
