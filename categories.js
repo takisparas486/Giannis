@@ -1,0 +1,11633 @@
+/* ==========================================
+   PicDuel
+   categories.js
+========================================== */
+
+window.categories = {
+
+chemicalElements: [
+
+    {
+        "answers": ["υδρογόνο", "hydrogen", "το υδρογόνο", "στοιχείο υδρογόνο"],
+        "image": "images/elements/hydrogen.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ήλιο", "helium", "το ήλιο", "στοιχείο ήλιο"],
+        "image": "images/elements/helium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["λίθιο", "lithium", "το λίθιο", "στοιχείο λίθιο"],
+        "image": "images/elements/lithium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βηρύλλιο", "beryllium", "το βηρύλλιο", "στοιχείο βηρύλλιο"],
+        "image": "images/elements/beryllium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βόριο", "boron", "το βόριο", "στοιχείο βόριο"],
+        "image": "images/elements/boron.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άνθρακας", "carbon", "ο άνθρακας", "στοιχείο άνθρακας"],
+        "image": "images/elements/carbon.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άζωτο", "nitrogen", "το άζωτο", "στοιχείο άζωτο"],
+        "image": "images/elements/nitrogen.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["οξυγόνο", "oxygen", "το οξυγόνο", "στοιχείο οξυγόνο"],
+        "image": "images/elements/oxygen.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φθόριο", "fluorine", "το φθόριο", "στοιχείο φθόριο"],
+        "image": "images/elements/fluorine.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νέον", "neon", "το νέον", "στοιχείο νέον"],
+        "image": "images/elements/neon.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νάτριο", "sodium", "το νάτριο", "στοιχείο νάτριο"],
+        "image": "images/elements/sodium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μαγνήσιο", "magnesium", "το μαγνήσιο", "στοιχείο μαγνήσιο"],
+        "image": "images/elements/magnesium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αλουμίνιο", "aluminium", "aluminum", "το αλουμίνιο", "στοιχείο αλουμίνιο"],
+        "image": "images/elements/aluminium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πυρίτιο", "silicon", "το πυρίτιο", "στοιχείο πυρίτιο"],
+        "image": "images/elements/silicon.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φώσφορος", "phosphorus", "ο φώσφορος", "στοιχείο φώσφορος"],
+        "image": "images/elements/phosphorus.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["θείο", "sulfur", "sulphur", "το θείο", "στοιχείο θείο"],
+        "image": "images/elements/sulfur.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χλώριο", "chlorine", "το χλώριο", "στοιχείο χλώριο"],
+        "image": "images/elements/chlorine.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αργό", "argon", "το αργό", "στοιχείο αργό"],
+        "image": "images/elements/argon.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κάλιο", "potassium", "το κάλιο", "στοιχείο κάλιο"],
+        "image": "images/elements/potassium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ασβέστιο", "calcium", "το ασβέστιο", "στοιχείο ασβέστιο"],
+        "image": "images/elements/calcium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σκάνδιο", "scandium", "το σκάνδιο", "στοιχείο σκάνδιο"],
+        "image": "images/elements/scandium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τιτάνιο", "titanium", "το τιτάνιο", "στοιχείο τιτάνιο"],
+        "image": "images/elements/titanium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βανάδιο", "vanadium", "το βανάδιο", "στοιχείο βανάδιο"],
+        "image": "images/elements/vanadium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["χρώμιο", "chromium", "το χρώμιο", "στοιχείο χρώμιο"],
+        "image": "images/elements/chromium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μαγγάνιο", "manganese", "το μαγγάνιο", "στοιχείο μαγγάνιο"],
+        "image": "images/elements/manganese.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σίδηρος", "iron", "ο σίδηρος", "στοιχείο σίδηρος"],
+        "image": "images/elements/iron.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κοβάλτιο", "cobalt", "το κοβάλτιο", "στοιχείο κοβάλτιο"],
+        "image": "images/elements/cobalt.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νικέλιο", "nickel", "το νικέλιο", "στοιχείο νικέλιο"],
+        "image": "images/elements/nickel.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χαλκός", "copper", "ο χαλκός", "στοιχείο χαλκός"],
+        "image": "images/elements/copper.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ψευδάργυρος", "zinc", "ο ψευδάργυρος", "στοιχείο ψευδάργυρος"],
+        "image": "images/elements/zinc.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γάλλιο", "gallium", "το γάλλιο", "στοιχείο γάλλιο"],
+        "image": "images/elements/gallium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γερμάνιο", "germanium", "το γερμάνιο", "στοιχείο γερμάνιο"],
+        "image": "images/elements/germanium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αρσενικό", "arsenic", "το αρσενικό", "στοιχείο αρσενικό"],
+        "image": "images/elements/arsenic.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σελήνιο", "selenium", "το σελήνιο", "στοιχείο σελήνιο"],
+        "image": "images/elements/selenium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βρώμιο", "bromine", "το βρώμιο", "στοιχείο βρώμιο"],
+        "image": "images/elements/bromine.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κρυπτό", "krypton", "το κρυπτό", "στοιχείο κρυπτό"],
+        "image": "images/elements/krypton.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρουβίδιο", "rubidium", "το ρουβίδιο", "στοιχείο ρουβίδιο"],
+        "image": "images/elements/rubidium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["στρόντιο", "strontium", "το στρόντιο", "στοιχείο στρόντιο"],
+        "image": "images/elements/strontium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ύττριο", "yttrium", "το ύττριο", "στοιχείο ύττριο"],
+        "image": "images/elements/yttrium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ζιρκόνιο", "zirconium", "το ζιρκόνιο", "στοιχείο ζιρκόνιο"],
+        "image": "images/elements/zirconium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["νιόβιο", "niobium", "το νιόβιο", "στοιχείο νιόβιο"],
+        "image": "images/elements/niobium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μολυβδαίνιο", "molybdenum", "το μολυβδαίνιο", "στοιχείο μολυβδαίνιο"],
+        "image": "images/elements/molybdenum.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τεχνήτιο", "technetium", "το τεχνήτιο", "στοιχείο τεχνήτιο"],
+        "image": "images/elements/technetium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρουθήνιο", "ruthenium", "το ρουθήνιο", "στοιχείο ρουθήνιο"],
+        "image": "images/elements/ruthenium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρόδιο", "rhodium", "το ρόδιο", "στοιχείο ρόδιο"],
+        "image": "images/elements/rhodium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["παλλάδιο", "palladium", "το παλλάδιο", "στοιχείο παλλάδιο"],
+        "image": "images/elements/palladium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["άργυρος", "silver", "ο άργυρος", "ασήμι", "στοιχείο άργυρος"],
+        "image": "images/elements/silver.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κάδμιο", "cadmium", "το κάδμιο", "στοιχείο κάδμιο"],
+        "image": "images/elements/cadmium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ίνδιο", "indium", "το ίνδιο", "στοιχείο ίνδιο"],
+        "image": "images/elements/indium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κασσίτερος", "tin", "ο κασσίτερος", "στοιχείο κασσίτερος"],
+        "image": "images/elements/tin.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αντιμόνιο", "antimony", "το αντιμόνιο", "στοιχείο αντιμόνιο"],
+        "image": "images/elements/antimony.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τελλούριο", "tellurium", "το τελλούριο", "στοιχείο τελλούριο"],
+        "image": "images/elements/tellurium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ιώδιο", "iodine", "το ιώδιο", "στοιχείο ιώδιο"],
+        "image": "images/elements/iodine.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ξένο", "xenon", "το ξένο", "στοιχείο ξένο"],
+        "image": "images/elements/xenon.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["καίσιο", "caesium", "cesium", "το καίσιο", "στοιχείο καίσιο"],
+        "image": "images/elements/caesium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βάριο", "barium", "το βάριο", "στοιχείο βάριο"],
+        "image": "images/elements/barium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λανθάνιο", "lanthanum", "το λανθάνιο", "στοιχείο λανθάνιο"],
+        "image": "images/elements/lanthanum.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["δημήτριο", "cerium", "το δημήτριο", "στοιχείο δημήτριο"],
+        "image": "images/elements/cerium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πρασεοδύμιο", "praseodymium", "το πρασεοδύμιο", "στοιχείο πρασεοδύμιο"],
+        "image": "images/elements/praseodymium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νεοδύμιο", "neodymium", "το νεοδύμιο", "στοιχείο νεοδύμιο"],
+        "image": "images/elements/neodymium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["προμήθιο", "promethium", "το προμήθιο", "στοιχείο προμήθιο"],
+        "image": "images/elements/promethium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σαμάριο", "samarium", "το σαμάριο", "στοιχείο σαμάριο"],
+        "image": "images/elements/samarium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ευρώπιο", "europium", "το ευρώπιο", "στοιχείο ευρώπιο"],
+        "image": "images/elements/europium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γαδολίνιο", "gadolinium", "το γαδολίνιο", "στοιχείο γαδολίνιο"],
+        "image": "images/elements/gadolinium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τέρβιο", "terbium", "το τέρβιο", "στοιχείο τέρβιο"],
+        "image": "images/elements/terbium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["δυσπρόσιο", "dysprosium", "το δυσπρόσιο", "στοιχείο δυσπρόσιο"],
+        "image": "images/elements/dysprosium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["όλμιο", "holmium", "το όλμιο", "στοιχείο όλμιο"],
+        "image": "images/elements/holmium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["έρβιο", "erbium", "το έρβιο", "στοιχείο έρβιο"],
+        "image": "images/elements/erbium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["θούλιο", "thulium", "το θούλιο", "στοιχείο θούλιο"],
+        "image": "images/elements/thulium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["υττέρβιο", "ytterbium", "το υττέρβιο", "στοιχείο υττέρβιο"],
+        "image": "images/elements/ytterbium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λουτήτιο", "lutetium", "το λουτήτιο", "στοιχείο λουτήτιο"],
+        "image": "images/elements/lutetium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["άφνιο", "hafnium", "το άφνιο", "στοιχείο άφνιο"],
+        "image": "images/elements/hafnium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ταντάλιο", "tantalum", "το ταντάλιο", "στοιχείο ταντάλιο"],
+        "image": "images/elements/tantalum.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βολφράμιο", "tungsten", "wolfram", "το βολφράμιο", "στοιχείο βολφράμιο"],
+        "image": "images/elements/tungsten.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρήνιο", "rhenium", "το ρήνιο", "στοιχείο ρήνιο"],
+        "image": "images/elements/rhenium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["όσμιο", "osmium", "το όσμιο", "στοιχείο όσμιο"],
+        "image": "images/elements/osmium.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ιρίδιο", "iridium", "το ιρίδιο", "στοιχείο ιρίδιο"],
+        "image": "images/elements/iridium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["πλατίνα", "platinum", "η πλατίνα", "στοιχείο πλατίνα"],
+        "image": "images/elements/platinum.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χρυσός", "gold", "ο χρυσός", "στοιχείο χρυσός"],
+        "image": "images/elements/gold.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["υδράργυρος", "mercury", "ο υδράργυρος", "στοιχείο υδράργυρος"],
+        "image": "images/elements/mercury.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["θάλλιο", "thallium", "το θάλλιο", "στοιχείο θάλλιο"],
+        "image": "images/elements/thallium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μόλυβδος", "lead", "ο μόλυβδος", "στοιχείο μόλυβδος"],
+        "image": "images/elements/lead.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βισμούθιο", "bismuth", "το βισμούθιο", "στοιχείο βισμούθιο"],
+        "image": "images/elements/bismuth.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["πολώνιο", "polonium", "το πολώνιο", "στοιχείο πολώνιο"],
+        "image": "images/elements/polonium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["άστατο", "astatine", "το άστατο", "στοιχείο άστατο"],
+        "image": "images/elements/astatine.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ραδόνιο", "radon", "το ραδόνιο", "στοιχείο ραδόνιο"],
+        "image": "images/elements/radon.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["φράγκιο", "francium", "το φράγκιο", "στοιχείο φράγκιο"],
+        "image": "images/elements/francium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ράδιο", "radium", "το ράδιο", "στοιχείο ράδιο"],
+        "image": "images/elements/radium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ακτίνιο", "actinium", "το ακτίνιο", "στοιχείο ακτίνιο"],
+        "image": "images/elements/actinium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["θόριο", "thorium", "το θόριο", "στοιχείο θόριο"],
+        "image": "images/elements/thorium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["πρωτακτίνιο", "protactinium", "το πρωτακτίνιο", "στοιχείο πρωτακτίνιο"],
+        "image": "images/elements/protactinium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ουράνιο", "uranium", "το ουράνιο", "στοιχείο ουράνιο"],
+        "image": "images/elements/uranium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ποσειδώνιο", "neptunium", "το ποσειδώνιο", "στοιχείο ποσειδώνιο"],
+        "image": "images/elements/neptunium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["πλουτώνιο", "plutonium", "το πλουτώνιο", "στοιχείο πλουτώνιο"],
+        "image": "images/elements/plutonium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αμερίκιο", "americium", "το αμερίκιο", "στοιχείο αμερίκιο"],
+        "image": "images/elements/americium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κιούριο", "curium", "το κιούριο", "στοιχείο κιούριο"],
+        "image": "images/elements/curium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["βερκέλιο", "berkelium", "το βερκέλιο", "στοιχείο βερκέλιο"],
+        "image": "images/elements/berkelium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["καλιφόρνιο", "californium", "το καλιφόρνιο", "στοιχείο καλιφόρνιο"],
+        "image": "images/elements/californium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["αϊνσταΐνιο", "einsteinium", "το αϊνσταΐνιο", "στοιχείο αϊνσταΐνιο"],
+        "image": "images/elements/einsteinium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["φέρμιο", "fermium", "το φέρμιο", "στοιχείο φέρμιο"],
+        "image": "images/elements/fermium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μεντελέβιο", "mendelevium", "το μεντελέβιο", "στοιχείο μεντελέβιο"],
+        "image": "images/elements/mendelevium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νοβέλιο", "nobelium", "το νοβέλιο", "στοιχείο νοβέλιο"],
+        "image": "images/elements/nobelium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["λωρένσιο", "lawrencium", "το λωρένσιο", "στοιχείο λωρένσιο"],
+        "image": "images/elements/lawrencium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ράδερφορντιο", "rutherfordium", "το ράδερφορντιο", "στοιχείο ράδερφορντιο"],
+        "image": "images/elements/rutherfordium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ντούμπνιο", "dubnium", "το ντούμπνιο", "στοιχείο ντούμπνιο"],
+        "image": "images/elements/dubnium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σιμπόργκιο", "seaborgium", "το σιμπόργκιο", "στοιχείο σιμπόργκιο"],
+        "image": "images/elements/seaborgium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπόριο", "bohrium", "το μπόριο", "στοιχείο μπόριο"],
+        "image": "images/elements/bohrium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["χάσιο", "hassium", "το χάσιο", "στοιχείο χάσιο"],
+        "image": "images/elements/hassium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μάιτνεριο", "meitnerium", "το μάιτνεριο", "στοιχείο μάιτνεριο"],
+        "image": "images/elements/meitnerium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νταρμστάντιο", "darmstadtium", "το νταρμστάντιο", "στοιχείο νταρμστάντιο"],
+        "image": "images/elements/darmstadtium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ρέντγκενιο", "roentgenium", "το ρέντγκενιο", "στοιχείο ρέντγκενιο"],
+        "image": "images/elements/roentgenium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κοπερνίκιο", "copernicium", "το κοπερνίκιο", "στοιχείο κοπερνίκιο"],
+        "image": "images/elements/copernicium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νιχόνιο", "nihonium", "το νιχόνιο", "στοιχείο νιχόνιο"],
+        "image": "images/elements/nihonium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["φλερόβιο", "flerovium", "το φλερόβιο", "στοιχείο φλερόβιο"],
+        "image": "images/elements/flerovium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μοσκόβιο", "moscovium", "το μοσκόβιο", "στοιχείο μοσκόβιο"],
+        "image": "images/elements/moscovium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["λιβερμόριο", "livermorium", "το λιβερμόριο", "στοιχείο λιβερμόριο"],
+        "image": "images/elements/livermorium.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τενέσσιο", "tennessine", "το τενέσσιο", "στοιχείο τενέσσιο"],
+        "image": "images/elements/tennessine.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ογκανεσόν", "oganesson", "το ογκανεσόν", "στοιχείο ογκανεσόν"],
+        "image": "images/elements/oganesson.png",
+        "difficulty": "hard"
+    }
+],
+
+
+
+pokemon: [
+    {
+        "answers": ["πικατσού", "pikachu"],
+        "image": "images/pokemon/pikachu.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ράιτσου", "raichu"],
+        "image": "images/pokemon/raichu.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τσαρμάντερ", "charmander"],
+        "image": "images/pokemon/charmander.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τσαρμέλεον", "charmeleon"],
+        "image": "images/pokemon/charmeleon.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τσαρίζαρντ", "charizard"],
+        "image": "images/pokemon/charizard.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπαλμπασάουρ", "bulbasaur"],
+        "image": "images/pokemon/bulbasaur.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άιβισαουρ", "ivysaur"],
+        "image": "images/pokemon/ivysaur.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βενουσάουρ", "venusaur"],
+        "image": "images/pokemon/venusaur.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σκουίρτλ", "squirtle"],
+        "image": "images/pokemon/squirtle.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γουόρτορλ", "wartortle"],
+        "image": "images/pokemon/wartortle.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπλάστοιζ", "blastoise"],
+        "image": "images/pokemon/blastoise.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["eevee", "ιβί"],
+        "image": "images/pokemon/eevee.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βαπορέον", "vaporeon"],
+        "image": "images/pokemon/vaporeon.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζόλτεον", "jolteon"],
+        "image": "images/pokemon/jolteon.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φλάρεον", "flareon"],
+        "image": "images/pokemon/flareon.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σνόρλαξ", "snorlax"],
+        "image": "images/pokemon/snorlax.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γκένγκαρ", "gengar"],
+        "image": "images/pokemon/gengar.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γκάστλι", "gastly"],
+        "image": "images/pokemon/gastly.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χόντερ", "haunter"],
+        "image": "images/pokemon/haunter.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ζιγκλιπάφ", "jigglypuff"],
+        "image": "images/pokemon/jigglypuff.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μιάουθ", "meowth"],
+        "image": "images/pokemon/meowth.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ψάιντακ", "psyduck"],
+        "image": "images/pokemon/psyduck.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μάτζικαρπ", "magikarp"],
+        "image": "images/pokemon/magikarp.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γκιαράντος", "gyarados"],
+        "image": "images/pokemon/gyarados.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["δραγοναΐτ", "dragonite"],
+        "image": "images/pokemon/dragonite.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["λάπρας", "lapras"],
+        "image": "images/pokemon/lapras.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["όνιξ", "onix"],
+        "image": "images/pokemon/onix.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζεόντιουντ", "geodude"],
+        "image": "images/pokemon/geodude.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μάτσοπ", "machop"],
+        "image": "images/pokemon/machop.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ματσόουκ", "machoke"],
+        "image": "images/pokemon/machoke.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ματσάμπ", "machamp"],
+        "image": "images/pokemon/machamp.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άμπρα", "abra"],
+        "image": "images/pokemon/abra.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["καντάμπρα", "kadabra"],
+        "image": "images/pokemon/kadabra.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αλακαζάμ", "alakazam"],
+        "image": "images/pokemon/alakazam.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κιουμπόουν", "cubone"],
+        "image": "images/pokemon/cubone.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ντίτο", "ditto"],
+        "image": "images/pokemon/ditto.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["λουκάριο", "lucario"],
+        "image": "images/pokemon/lucario.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ριούλου", "riolu"],
+        "image": "images/pokemon/riolu.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μιου", "mew"],
+        "image": "images/pokemon/mew.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μιουτού", "mewtwo"],
+        "image": "images/pokemon/mewtwo.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γκρενίντζα", "greninja"],
+        "image": "images/pokemon/greninja.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["φροάκι", "froakie"],
+        "image": "images/pokemon/froakie.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["φρογκαδιέ", "frogadier"],
+        "image": "images/pokemon/frogadier.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπλέζικεν", "blaziken"],
+        "image": "images/pokemon/blaziken.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τόρτσικ", "torchic"],
+        "image": "images/pokemon/torchic.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κομπάσκεν", "combusken"],
+        "image": "images/pokemon/combusken.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σέπταιλ", "sceptile"],
+        "image": "images/pokemon/sceptile.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τρίκο", "treecko"],
+        "image": "images/pokemon/treecko.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκροβίλ", "grovyle"],
+        "image": "images/pokemon/grovyle.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σγουάμπερτ", "swampert"],
+        "image": "images/pokemon/swampert.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μάντκιπ", "mudkip"],
+        "image": "images/pokemon/mudkip.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μάρστομπ", "marshtomp"],
+        "image": "images/pokemon/marshtomp.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκαρντεβουάρ", "gardevoir"],
+        "image": "images/pokemon/gardevoir.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκαλάντ", "gallade"],
+        "image": "images/pokemon/gallade.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ραλτς", "ralts"],
+        "image": "images/pokemon/ralts.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κίρλια", "kirlia"],
+        "image": "images/pokemon/kirlia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τιρανιτάρ", "tyranitar"],
+        "image": "images/pokemon/tyranitar.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λαρβιτάρ", "larvitar"],
+        "image": "images/pokemon/larvitar.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σαλαμάνς", "salamence"],
+        "image": "images/pokemon/salamence.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μεταγκρός", "metagross"],
+        "image": "images/pokemon/metagross.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρεϊκουάζα", "rayquaza"],
+        "image": "images/pokemon/rayquaza.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κυόγρε", "kyogre"],
+        "image": "images/pokemon/kyogre.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκρούντον", "groudon"],
+        "image": "images/pokemon/groudon.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λούγκια", "lugia"],
+        "image": "images/pokemon/lugia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["χο-όου", "ho-oh", "ho oh", "hooh"],
+        "image": "images/pokemon/ho-oh.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ντάρκραι", "darkrai"],
+        "image": "images/pokemon/darkrai.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ντιάλγκα", "dialga"],
+        "image": "images/pokemon/dialga.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πάλκια", "palkia"],
+        "image": "images/pokemon/palkia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γιρατίνα", "giratina"],
+        "image": "images/pokemon/giratina.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ζεκρόμ", "zekrom"],
+        "image": "images/pokemon/zekrom.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρεσίραμ", "reshiram"],
+        "image": "images/pokemon/reshiram.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κιουρέμ", "kyurem"],
+        "image": "images/pokemon/kyurem.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ζέρνεας", "xerneas"],
+        "image": "images/pokemon/xerneas.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ιβέλνταλ", "yveltal"],
+        "image": "images/pokemon/yveltal.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ζορόαρκ", "zoroark"],
+        "image": "images/pokemon/zoroark.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αρκέους", "arceus"],
+        "image": "images/pokemon/arceus.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ντεόξις", "deoxys"],
+        "image": "images/pokemon/deoxys.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τζενέσεκτ", "genesect"],
+        "image": "images/pokemon/genesect.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ρεγικίγκας", "regigigas", "re gigigas", "re giggigas", "rejijigas"],
+        "image": "images/pokemon/regigigas.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ετερνάτους", "eternatus"],
+        "image": "images/pokemon/eternatus.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νεκρόζμα", "necrozma"],
+        "image": "images/pokemon/necrozma.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["καλίρεξ", "calyrex"],
+        "image": "images/pokemon/calyrex.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κελντέο", "keldeo"],
+        "image": "images/pokemon/keldeo.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κομπαλιόν", "cobalion"],
+        "image": "images/pokemon/cobalion.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τερακιόν", "terrakion"],
+        "image": "images/pokemon/terrakion.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["βιριζιόν", "virizion"],
+        "image": "images/pokemon/virizion.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["εντέι", "entei"],
+        "image": "images/pokemon/entei.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ραϊκού", "raikou"],
+        "image": "images/pokemon/raikou.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σούικουν", "suicune"],
+        "image": "images/pokemon/suicune.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["λάτιας", "latias"],
+        "image": "images/pokemon/latias.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["λάτιος", "latios"],
+        "image": "images/pokemon/latios.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["χούπα", "hoopa"],
+        "image": "images/pokemon/hoopa.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ζιγκάρντ", "zygarde"],
+        "image": "images/pokemon/zygarde.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σονγκαλέο", "solgaleo"],
+        "image": "images/pokemon/solgaleo.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["λούνالا", "lunala", "λούναλα"],
+        "image": "images/pokemon/lunala.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ζάσιαν", "zacian"],
+        "image": "images/pokemon/zacian.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ζαμαζέντα", "zamazenta"],
+        "image": "images/pokemon/zamazenta.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κοραϊντόν", "koraidon", "κοραϊντον"],
+        "image": "images/pokemon/koraidon.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μιραϊντόν", "miraidon", "μιραϊντον"],
+        "image": "images/pokemon/miraidon.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νιχίλεγκο", "nihilego"],
+        "image": "images/pokemon/nihilego.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπάζγουολ", "buzzwole"],
+        "image": "images/pokemon/buzzwole.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["φερομόσα", "pheromosa"],
+        "image": "images/pokemon/pheromosa.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ζουρκίτρι", "xurkitree"],
+        "image": "images/pokemon/xurkitree.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σελεστίλα", "celesteela"],
+        "image": "images/pokemon/celesteela.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κάρτανα", "kartana"],
+        "image": "images/pokemon/kartana.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["γκάζλοντ", "guzzlord"],
+        "image": "images/pokemon/guzzlord.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ποιπόλ", "poipole"],
+        "image": "images/pokemon/poipole.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ναγκαναδέλ", "naganadel"],
+        "image": "images/pokemon/naganadel.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["στακατάκα", "stakataka"],
+        "image": "images/pokemon/stakataka.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπλισέφαλον", "blacephalon"],
+        "image": "images/pokemon/blacephalon.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τάπου κόκο", "tapu koko"],
+        "image": "images/pokemon/tapu-koko.png",
+        "difficulty": "hard"
+    }
+],
+
+mythology: [
+
+{
+    answers: ["δίας", "ζευς", "zeus", "dias", "zevs"],
+    image: "images/mythology/zeus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ποσειδώνας", "poseidon", "poseidonas"],
+    image: "images/mythology/poseidon.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άδης", "hades"],
+    image: "images/mythology/hades.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αθηνά", "athena", "athina"],
+    image: "images/mythology/athena.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άρης", "ares"],
+    image: "images/mythology/ares.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["απόλλωνας", "apollo"],
+    image: "images/mythology/apollo.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άρτεμις", "artemis"],
+    image: "images/mythology/artemis.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ήρα", "hera"],
+    image: "images/mythology/hera.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ερμής", "hermes"],
+    image: "images/mythology/hermes.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["αφροδίτη", "aphrodite"],
+    image: "images/mythology/aphrodite.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ήφαιστος", "hephaestus"],
+    image: "images/mythology/hephaestus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["δήμητρα", "demeter"],
+    image: "images/mythology/demeter.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["περσεφόνη", "persephone"],
+    image: "images/mythology/persephone.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["έρως", "eros", "cupid"],
+    image: "images/mythology/eros.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μέδουσα", "medusa"],
+    image: "images/mythology/medusa.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πήγασος", "pegasus"],
+    image: "images/mythology/pegasus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κέρβερος", "cerberus"],
+    image: "images/mythology/cerberus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μινώταυρος", "minotaur"],
+    image: "images/mythology/minotaur.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κύκλωπας", "cyclops"],
+    image: "images/mythology/cyclops.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κένταυρος", "centaur"],
+    image: "images/mythology/centaur.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σφίγγα", "sphinx"],
+    image: "images/mythology/sphinx.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ύδρα", "ύδρα της λέρνας", "lernaean hydra", "hydra"],
+    image: "images/mythology/hydra.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["χίμαιρα", "chimera"],
+    image: "images/mythology/chimera.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άτλας", "atlas"],
+    image: "images/mythology/atlas.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κρόνος", "cronus", "kronos"],
+    image: "images/mythology/cronus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ρέα", "rhea"],
+    image: "images/mythology/rhea.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ουρανός", "uranus"],
+    image: "images/mythology/uranus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["γαία", "gaia", "gaea"],
+    image: "images/mythology/gaia.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["θωρ", "thor"],
+    image: "images/mythology/thor.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λόκι", "loki"],
+    image: "images/mythology/loki.jpg",
+    difficulty: "easy"
+},
+
+
+{
+    answers: ["όντιν", "odin"],
+    image: "images/mythology/odin.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["φρέγια", "freya", "freyja"],
+    image: "images/mythology/freya.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τυρ", "tyr", "tir"],
+    image: "images/mythology/tyr.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χέιμνταλ", "heimdall"],
+    image: "images/mythology/heimdall.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["φενρίρ", "fenrir"],
+    image: "images/mythology/fenrir.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γιορμουνγκάντρ", "jormungandr", "jörmungandr"],
+    image: "images/mythology/jormungandr.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σλεϊπνιρ", "sleipnir"],
+    image: "images/mythology/sleipnir.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ανούβις", "anubis"],
+    image: "images/mythology/anubis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ρα", "ra"],
+    image: "images/mythology/ra.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ώρος", "horus"],
+    image: "images/mythology/horus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["όσιρις", "osiris"],
+    image: "images/mythology/osiris.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ίσιδα", "isis"],
+    image: "images/mythology/isis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σεθ", "set", "seth"],
+    image: "images/mythology/set.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["θωθ", "thoth"],
+    image: "images/mythology/thoth.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βάστιτ", "bastet"],
+    image: "images/mythology/bastet.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σομπέκ", "sobek"],
+    image: "images/mythology/sobek.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άμμων", "amon", "amun"],
+    image: "images/mythology/amun.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νίκη", "nike"],
+    image: "images/mythology/nike.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νέμεσις", "nemesis"],
+    image: "images/mythology/nemesis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χάροντας", "charon"],
+    image: "images/mythology/charon.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μοίρες", "the fates", "fates", "moirai"],
+    image: "images/mythology/fates.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νύξ", "nyx"],
+    image: "images/mythology/nyx.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["έριδα", "eris"],
+    image: "images/mythology/eris.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πάνας", "pan"],
+    image: "images/mythology/pan.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μορφέας", "morpheus"],
+    image: "images/mythology/morpheus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τύχη", "tyche"],
+    image: "images/mythology/tyche.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ηρακλής", "heracles", "hercules"],
+    image: "images/mythology/heracles.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αχιλλέας", "achilles"],
+    image: "images/mythology/achilles.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["οδυσσέας", "odysseus", "ulysses"],
+    image: "images/mythology/odysseus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["περσέας", "perseus"],
+    image: "images/mythology/perseus.jpg",
+    difficulty: "medium"
+},
+
+
+{
+    answers: ["κίρκη", "circe"],
+    image: "images/mythology/circe.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αιόλος", "aeolus"],
+    image: "images/mythology/aeolus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["προμηθέας", "prometheus"],
+    image: "images/mythology/prometheus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["επιμηθέας", "epimetheus"],
+    image: "images/mythology/epimetheus.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["διονύσος", "dionysus"],
+    image: "images/mythology/dionysus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["εστία", "hestia"],
+    image: "images/mythology/hestia.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σελήνη", "selene"],
+    image: "images/mythology/selene.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ηώς", "eos"],
+    image: "images/mythology/eos.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χάος", "chaos"],
+    image: "images/mythology/chaos.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["έκτωρας", "hector"],
+    image: "images/mythology/hector.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πάτροκλος", "patroclus"],
+    image: "images/mythology/patroclus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ιάσονας", "jason"],
+    image: "images/mythology/jason.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ορφέας", "orpheus"],
+    image: "images/mythology/orpheus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["δάδαλος", "daedalus"],
+    image: "images/mythology/daedalus.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ίκαρος", "icarus"],
+    image: "images/mythology/icarus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["θησέας", "theseus"],
+    image: "images/mythology/theseus.jpg",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ανδρομέδα", "andromeda"],
+    image: "images/mythology/andromeda.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κάστωρ", "castor"],
+    image: "images/mythology/castor.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πολυδεύκης", "polydeuces", "pollux"],
+    image: "images/mythology/polydeuces.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πανδώρα", "pandora"],
+    image: "images/mythology/pandora.jpg",
+    difficulty: "easy"
+},
+
+
+{
+    answers: ["γοργόνες", "gorgons"],
+    image: "images/mythology/gorgons.jpg",
+    difficulty: "medium"
+},
+
+
+{
+    answers: ["σειρήνες", "sirens"],
+    image: "images/mythology/sirens.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άρπυιες", "harpies"],
+    image: "images/mythology/harpies.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σάτυρος", "satyr"],
+    image: "images/mythology/satyr.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νύμφη", "nymph"],
+    image: "images/mythology/nymph.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τυφώνας", "typhon"],
+    image: "images/mythology/typhon.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["εχίδνα", "echidna"],
+    image: "images/mythology/echidna.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σκύλλα", "scylla"],
+    image: "images/mythology/scylla.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["χάρυβδη", "charybdis"],
+    image: "images/mythology/charybdis.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["όρθρος", "orthrus", "orthos"],
+    image: "images/mythology/orthrus.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λάδων", "ladon"],
+    image: "images/mythology/ladon.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λερναίος καρκίνος", "carcinus"],
+    image: "images/mythology/carcinus.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["τελχίνες", "telchines"],
+    image: "images/mythology/telchines.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ερινύες", "erinyes", "furies"],
+    image: "images/mythology/erinyes.jpg",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γίγαντες", "gigantes", "giants","γίγαντας","giant",],
+    image: "images/mythology/gigantes.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τιτάνες", "titans"],
+    image: "images/mythology/titans.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["δράκος", "dragon"],
+    image: "images/mythology/dragon.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["φοίνικας", "phoenix"],
+    image: "images/mythology/phoenix.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κράκεν", "kraken"],
+    image: "images/mythology/kraken.jpg",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γρύπας", "griffin", "gryphon"],
+    image: "images/mythology/griffin.jpg",
+    difficulty: "medium"
+}
+
+],
+
+
+    capitals: [
+
+{
+    answers: ["αθήνα", "athens"],
+    image: "images/capitals/greece.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["παρίσι", "paris"],
+    image: "images/capitals/france.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βερολίνο", "berlin"],
+    image: "images/capitals/germany.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ρώμη", "rome", "roma"],
+    image: "images/capitals/italy.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μαδρίτη", "madrid"],
+    image: "images/capitals/spain.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λισαβόνα", "lisbon", "lisboa"],
+    image: "images/capitals/portugal.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λονδίνο", "london"],
+    image: "images/capitals/united-kingdom.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["δουβλίνο", "dublin"],
+    image: "images/capitals/ireland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βρυξέλλες", "brussels"],
+    image: "images/capitals/belgium.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άμστερνταμ", "amsterdam"],
+    image: "images/capitals/netherlands.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βέρνη", "bern"],
+    image: "images/capitals/switzerland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βιέννη", "vienna"],
+    image: "images/capitals/austria.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["στοκχόλμη", "stockholm"],
+    image: "images/capitals/sweden.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["όσλο", "oslo"],
+    image: "images/capitals/norway.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κοπεγχάγη", "copenhagen"],
+    image: "images/capitals/denmark.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ελσίνκι", "helsinki"],
+    image: "images/capitals/finland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βαρσοβία", "warsaw"],
+    image: "images/capitals/poland.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πράγα", "prague", "praha"],
+    image: "images/capitals/czechia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βουδαπέστη", "budapest"],
+    image: "images/capitals/hungary.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βουκουρέστι", "bucharest"],
+    image: "images/capitals/romania.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σοφία", "sofia"],
+    image: "images/capitals/bulgaria.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["άγκυρα", "ankara"],
+    image: "images/capitals/turkiye.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μόσχα", "moscow"],
+    image: "images/capitals/russia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["κίεβο", "κιεβο", "kyiv", "kiev"],
+    image: "images/capitals/ukraine.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["οτάβα", "ottawa"],
+    image: "images/capitals/canada.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ουάσινγκτον", "washington", "washington dc"],
+    image: "images/capitals/united-states.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πόλη του μεξικού", "μεξικό σίτι", "mexico city"],
+    image: "images/capitals/mexico.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μπραζίλια", "brasilia"],
+    image: "images/capitals/brazil.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μπουένος άιρες", "buenos aires"],
+    image: "images/capitals/argentina.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σαντιάγο", "santiago"],
+    image: "images/capitals/chile.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λίμα", "lima"],
+    image: "images/capitals/peru.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["μπογκοτά", "bogota", "bogotá"],
+    image: "images/capitals/colombia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["τόκιο", "tokyo"],
+    image: "images/capitals/japan.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πεκίνο", "beijing"],
+    image: "images/capitals/china.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["σεούλ", "seoul"],
+    image: "images/capitals/south-korea.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["πιονγκγιάνγκ", "πιονγκ γιανγκ", "pyongyang"],
+    image: "images/capitals/north-korea.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["νέο δελχί", "new delhi"],
+    image: "images/capitals/india.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ισλαμαμπάντ", "islamabad"],
+    image: "images/capitals/pakistan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπανγκόκ", "bangkok"],
+    image: "images/capitals/thailand.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ανόι", "hanoi"],
+    image: "images/capitals/vietnam.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τζακάρτα", "jakarta"],
+    image: "images/capitals/indonesia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μανίλα", "manila"],
+    image: "images/capitals/philippines.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["καμπέρα", "canberra"],
+    image: "images/capitals/australia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ουέλινγκτον", "wellington"],
+    image: "images/capitals/new-zealand.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κάιρο", "cairo"],
+    image: "images/capitals/egypt.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["ραμπάτ", "rabat"],
+    image: "images/capitals/morocco.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πρετόρια", "pretoria"],
+    image: "images/capitals/south-africa.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ριάντ", "riyadh"],
+    image: "images/capitals/saudi-arabia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αμπού ντάμπι", "abu dhabi"],
+    image: "images/capitals/united-arab-emirates.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ιερουσαλήμ", "jerusalem"],
+    image: "images/capitals/israel.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σιγκαπούρη", "singapore"],
+    image: "images/capitals/singapore.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κουάλα λουμπούρ", "kuala lumpur"],
+    image: "images/capitals/malaysia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ντόχα", "doha"],
+    image: "images/capitals/qatar.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ζάγκρεμπ", "zagreb"],
+    image: "images/capitals/croatia.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βελιγράδι", "belgrade"],
+    image: "images/capitals/serbia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λιουμπλιάνα", "ljubljana"],
+    image: "images/capitals/slovenia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπρατισλάβα", "bratislava"],
+    image: "images/capitals/slovakia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σαράγεβο", "sarajevo"],
+    image: "images/capitals/bosnia-and-herzegovina.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ποντγκόριτσα", "podgorica"],
+    image: "images/capitals/montenegro.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σκόπια", "skopje"],
+    image: "images/capitals/north-macedonia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τίρανα", "tirana"],
+    image: "images/capitals/albania.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["λευκωσία", "nicosia"],
+    image: "images/capitals/cyprus.png",
+    difficulty: "easy"
+},
+
+{
+    answers: ["βίλνιους", "vilnius"],
+    image: "images/capitals/lithuania.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ρίγα", "riga"],
+    image: "images/capitals/latvia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τάλιν", "tallinn"],
+    image: "images/capitals/estonia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μινσκ", "minsk"],
+    image: "images/capitals/belarus.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κισινάου", "chisinau", "chișinău"],
+    image: "images/capitals/moldova.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τιφλίδα", "tbilisi"],
+    image: "images/capitals/georgia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γιερεβάν", "yerevan"],
+    image: "images/capitals/armenia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπακού", "baku"],
+    image: "images/capitals/azerbaijan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αστάνα", "astana"],
+    image: "images/capitals/kazakhstan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τάσкент", "tashkent"],
+    image: "images/capitals/uzbekistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ασγκαμπάτ", "ashgabat"],
+    image: "images/capitals/turkmenistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπισκέκ", "bishkek"],
+    image: "images/capitals/kyrgyzstan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ντουσάνμπε", "dushanbe"],
+    image: "images/capitals/tajikistan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["κατμαντού", "kathmandu"],
+    image: "images/capitals/nepal.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ντάκα", "dhaka"],
+    image: "images/capitals/bangladesh.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σρι τζαγιαγουαρντενεπούρα κότε", "sri jayawardenepura kotte"],
+    image: "images/capitals/sri-lanka.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ουλάν μπατόρ", "ulaanbaatar", "ulan bator"],
+    image: "images/capitals/mongolia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ταϊπέι", "taipei"],
+    image: "images/capitals/taiwan.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πνομ πενχ", "phnom penh"],
+    image: "images/capitals/cambodia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βιεντιάν", "vientiane"],
+    image: "images/capitals/laos.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νεπιντό", "naypyidaw"],
+    image: "images/capitals/myanmar.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μπαντάρ σερί μπεγκαβάν", "bandar seri begawan"],
+    image: "images/capitals/brunei.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πορτ μόρεσμπι", "port moresby"],
+    image: "images/capitals/papua-new-guinea.png",
+    difficulty: "hard"
+},
+
+
+{
+    answers: ["ρέικιαβικ", "reykjavik"],
+    image: "images/capitals/iceland.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["λουξεμβούργο", "luxembourg"],
+    image: "images/capitals/luxembourg.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βαντούζ", "vaduz"],
+    image: "images/capitals/liechtenstein.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ανδόρα λα βέγια", "andorra la vella"],
+    image: "images/capitals/andorra.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μονακό", "monaco"],
+    image: "images/capitals/monaco.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["άγιος μαρίνος", "san marino"],
+    image: "images/capitals/san-marino.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πόλη του βατικανού", "vatican city"],
+    image: "images/capitals/vatican-city.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["βαλέτα", "valletta"],
+    image: "images/capitals/malta.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τυνήσια", "tunis"],
+    image: "images/capitals/tunisia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αλγέρι", "algiers"],
+    image: "images/capitals/algeria.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τρίπολη", "tripoli"],
+    image: "images/capitals/libya.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αμπούτζα", "abuja"],
+    image: "images/capitals/nigeria.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ναϊρόμπι", "nairobi"],
+    image: "images/capitals/kenya.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αντίς αμπέμπα", "addis ababa"],
+    image: "images/capitals/ethiopia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ντοντόμα", "dodoma"],
+    image: "images/capitals/tanzania.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["χαράρε", "harare"],
+    image: "images/capitals/zimbabwe.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λουσάκα", "lusaka"],
+    image: "images/capitals/zambia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βίντχουκ", "windhoek"],
+    image: "images/capitals/namibia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γκαμπορόνε", "gaborone"],
+    image: "images/capitals/botswana.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["καράκας", "caracas"],
+    image: "images/capitals/venezuela.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κίτο", "quito"],
+    image: "images/capitals/ecuador.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μοντεβιδέο", "montevideo"],
+    image: "images/capitals/uruguay.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ασουνσιόν", "asuncion", "asunción"],
+    image: "images/capitals/paraguay.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σούκρε", "sucre"],
+    image: "images/capitals/bolivia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["αβάνα", "havana"],
+    image: "images/capitals/cuba.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["κίνγκστον", "kingston"],
+    image: "images/capitals/jamaica.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σάντο ντομίνγκο", "santo domingo"],
+    image: "images/capitals/dominican-republic.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σαν χοσέ", "san jose", "san josé"],
+    image: "images/capitals/costa-rica.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πόλη του παναμά", "παναμά σίτι", "panama city"],
+    image: "images/capitals/panama.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τίμφου", "thimphu"],
+    image: "images/capitals/bhutan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ανταναναρίβο", "antananarivo"],
+    image: "images/capitals/madagascar.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πορτ λούις", "port louis"],
+    image: "images/capitals/mauritius.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βικτώρια", "victoria"],
+    image: "images/capitals/seychelles.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μαλέ", "male", "malé"],
+    image: "images/capitals/maldives.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ντίλι", "dili"],
+    image: "images/capitals/timor-leste.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νγκερουλμούντ", "ngerulmud"],
+    image: "images/capitals/palau.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σούβα", "suva"],
+    image: "images/capitals/fiji.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νουκουαλόφα", "nukuʻalofa", "nukualofa"],
+    image: "images/capitals/tonga.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["απία", "apia"],
+    image: "images/capitals/samoa.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πορτ βίλα", "port vila"],
+    image: "images/capitals/vanuatu.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γιάρεν", "yaren"],
+    image: "images/capitals/nauru.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["φουναφούτι", "funafuti"],
+    image: "images/capitals/tuvalu.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ταραουά", "tarawa"],
+    image: "images/capitals/kiribati.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ματζούρο", "majuro"],
+    image: "images/capitals/marshall-islands.png",
+    difficulty: "hard"
+}
+
+],
+superheroes: [
+    {
+        "answers": ["σπάιντερ-μαν", "spider-man", "σπάιντερμαν"],
+        "image": "images/superheroes/spiderman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άιρον μάν", "iron man", "αϊρον μαν"],
+        "image": "images/superheroes/ironman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κάπτεν αμέρικα", "captain america"],
+        "image": "images/superheroes/captain-america.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["θορ", "thor"],
+        "image": "images/superheroes/thor.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χαλκ", "hulk"],
+        "image": "images/superheroes/hulk.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπλακ γουίντοου", "black widow"],
+        "image": "images/superheroes/black-widow.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χόουκϊ", "hawkeye"],
+        "image": "images/superheroes/hawkeye.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["δρ. στρέιντζ", "doctor strange", "ντόκτορ στρέιντζ"],
+        "image": "images/superheroes/doctor-strange.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σκάρλετ γουίτς", "scarlet witch"],
+        "image": "images/superheroes/scarlet-witch.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπλακ πάνθερ", "black panther"],
+        "image": "images/superheroes/black-panther.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άντ-μαν", "ant-man", "αντμαν"],
+        "image": "images/superheroes/ant-man.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κάπτεν μάρβελ", "captain marvel"],
+        "image": "images/superheroes/captain-marvel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["στάρ-λόρντ", "star-lord", "σταρ λοντ"],
+        "image": "images/superheroes/star-lord.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γκρουτ", "groot"],
+        "image": "images/superheroes/groot.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ρόκετ ρακούν", "rocket raccoon"],
+        "image": "images/superheroes/rocket-raccoon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["λόκι", "loki"],
+        "image": "images/superheroes/loki.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["θάνος", "thanos"],
+        "image": "images/superheroes/thanos.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ντεντπουλ", "deadpool"],
+        "image": "images/superheroes/deadpool.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γουλβεሪ", "wolverine", "γουουλβεριν"],
+        "image": "images/superheroes/wolverine.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βενόμ", "venom"],
+        "image": "images/superheroes/venom.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πράσινος γκόμπλιν", "green goblin"],
+        "image": "images/superheroes/green-goblin.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["δρ. οκτώπους", "doctor octopus", "δοκτορ οκτωπους"],
+        "image": "images/superheroes/doctor-octopus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σάντμαν", "sandman"],
+        "image": "images/superheroes/sandman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπάτμαν", "batman"],
+        "image": "images/superheroes/batman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σούπερμαν", "superman"],
+        "image": "images/superheroes/superman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γούοντερ γούμαν", "wonder woman", "γουοντερ γουμαν"],
+        "image": "images/superheroes/wonder-woman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φλας", "flash"],
+        "image": "images/superheroes/flash.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ακουαμάν", "aquaman"],
+        "image": "images/superheroes/aquaman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζόκερ", "joker"],
+        "image": "images/superheroes/joker.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χάρλεϊ κουίν", "harley quinn"],
+        "image": "images/superheroes/harley-quinn.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ρόμπιν", "robin"],
+        "image": "images/superheroes/robin.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κάτγουμαν", "catwoman"],
+        "image": "images/superheroes/catwoman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σάζαμ", "shazam"],
+        "image": "images/superheroes/shazam.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπλακ άدام", "black adam", "μπλακ ανταμ"],
+        "image": "images/superheroes/black-adam.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βίζιον", "vision"],
+        "image": "images/superheroes/vision.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γουόσπ", "wasp"],
+        "image": "images/superheroes/wasp.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["φάνκον", "falcon", "φαλκον"],
+        "image": "images/superheroes/falcon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γίντερ σόλντιερ", "winter soldier"],
+        "image": "images/superheroes/winter-soldier.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκαμόρα", "gamora"],
+        "image": "images/superheroes/gamora.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μουν νάιτ", "moon knight"],
+        "image": "images/superheroes/moon-knight.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ντραξ", "drax"],
+        "image": "images/superheroes/drax.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κάρνεϊτζ", "carnage"],
+        "image": "images/superheroes/carnage.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μυστερίο", "mysterio"],
+        "image": "images/superheroes/mysterio.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκόουστ ράιντερ", "ghost rider"],
+        "image": "images/superheroes/ghost-rider.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ντέρντεβιλ", "daredevil"],
+        "image": "images/superheroes/daredevil.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πάνισερ", "punisher"],
+        "image": "images/superheroes/punisher.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μάγινετο", "magneto"],
+        "image": "images/superheroes/magneto.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["καθηγητής χ", "professor x"],
+        "image": "images/superheroes/professor-x.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["δρ. ντουμ", "doctor doom"],
+        "image": "images/superheroes/doctor-doom.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μίστερ φάνταστικ", "mr. fantastic"],
+        "image": "images/superheroes/mr-fantastic.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αόρατη γυναίκα", "invisible woman"],
+        "image": "images/superheroes/invisible-woman.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["χόουμαν τόρτς", "human torch"],
+        "image": "images/superheroes/human-torch.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["θα πινγκ", "the thing"],
+        "image": "images/superheroes/the-thing.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πράσινος φανός", "green lantern"],
+        "image": "images/superheroes/green-lantern.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κίμποργκ", "cyborg"],
+        "image": "images/superheroes/cyborg.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["νάιτγουινγκ", "nightwing"],
+        "image": "images/superheroes/nightwing.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπάτγερλ", "batgirl"],
+        "image": "images/superheroes/batgirl.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λεξ λούθορ", "lex luthor"],
+        "image": "images/superheroes/lex-luthor.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπέιν", "bane"],
+        "image": "images/superheroes/bane.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρίδλερ", "riddler"],
+        "image": "images/superheroes/riddler.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σίλβερ σέρφερ", "silver surfer"],
+        "image": "images/superheroes/silver-surfer.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πόιζον άιβι", "poison ivy"],
+        "image": "images/superheroes/poison-ivy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σκίαρκροου", "scarecrow"],
+        "image": "images/superheroes/scarecrow.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τού-φεϊς", "two-face"],
+        "image": "images/superheroes/two-face.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πράσινος βέλος", "green arrow"],
+        "image": "images/superheroes/green-arrow.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σούπεργκερλ", "supergirl"],
+        "image": "images/superheroes/supergirl.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μίστερ φριζ", "mr. freeze"],
+        "image": "images/superheroes/mr-freeze.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ράβεν", "raven"],
+        "image": "images/superheroes/raven.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["στάρφαϊρ", "starfire"],
+        "image": "images/superheroes/starfire.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κλέιφες", "clayface"],
+        "image": "images/superheroes/clayface.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ντούμσντεϊ", "doomsday"],
+        "image": "images/superheroes/doomsday.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ζατάνα", "zatanna"],
+        "image": "images/superheroes/zatanna.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τσίτα", "cheetah"],
+        "image": "images/superheroes/cheetah.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σίνεστρο", "sinestro"],
+        "image": "images/superheroes/sinestro.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κονσταντάιν", "constantine"],
+        "image": "images/superheroes/constantine.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπλε σκαθάρι", "blue beetle"],
+        "image": "images/superheroes/blue-beetle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μάρσιαν μάνχααντερ", "martian manhunter"],
+        "image": "images/superheroes/martian-manhunter.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπρέινιακ", "brainiac"],
+        "image": "images/superheroes/brainiac.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ρεντ χουντ", "red hood"],
+        "image": "images/superheroes/red-hood.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ντεθστρόουκ", "deathstroke"],
+        "image": "images/superheroes/deathstroke.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ντάρκσαιντ", "darkseid"],
+        "image": "images/superheroes/darkseid.jpg",
+        "difficulty": "hard"
+    }
+],
+      
+ animals: [
+    {
+        "answers": ["lion", "λιοντάρι"],
+        "image": "images/animals/lion.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["tiger", "τίγρης"],
+        "image": "images/animals/tiger.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["elephant", "ελέφαντας"],
+        "image": "images/animals/elephant.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["giraffe", "καμηλοπάρδαλη"],
+        "image": "images/animals/giraffe.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["zebra", "ζέβρα"],
+        "image": "images/animals/zebra.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["panda", "πάντα"],
+        "image": "images/animals/panda.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["koala", "κοάλα"],
+        "image": "images/animals/koala.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["wolf", "λύκος"],
+        "image": "images/animals/wolf.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["fox", "αλεπού"],
+        "image": "images/animals/fox.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kangaroo", "καγκουρό"],
+        "image": "images/animals/kangaroo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["hippopotamus", "hippo", "ιπποπόταμος"],
+        "image": "images/animals/hippopotamus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rhinoceros", "rhino", "ρινόκερος"],
+        "image": "images/animals/rhinoceros.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cheetah", "τσίτα"],
+        "image": "images/animals/cheetah.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["leopard", "λεοπάρδαλη"],
+        "image": "images/animals/leopard.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["gorilla", "γορίλας"],
+        "image": "images/animals/gorilla.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chimpanzee", "chimp", "χιμπατζής"],
+        "image": "images/animals/chimpanzee.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["buffalo", "βούβαλος", "βουβάλι"],
+        "image": "images/animals/buffalo.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["camel", "καμήλα"],
+        "image": "images/animals/camel.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["polar bear", "πολική αρκούδα"],
+        "image": "images/animals/polar-bear.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bison", "βίσονας"],
+        "image": "images/animals/bison.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["reindeer", "τάρανδος"],
+        "image": "images/animals/reindeer.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["deer", "ελάφι"],
+        "image": "images/animals/deer.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["moose", "άλκη"],
+        "image": "images/animals/moose.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["wild boar", "αγριογούρουνο"],
+        "image": "images/animals/wild-boar.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pig", "γουρούνι"],
+        "image": "images/animals/pig.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["cow", "αγελάδα"],
+        "image": "images/animals/cow.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bull", "ταύρος"],
+        "image": "images/animals/bull.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["horse", "άλογο"],
+        "image": "images/animals/horse.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["donkey", "γάιδαρος"],
+        "image": "images/animals/donkey.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mule", "μουλάρι"],
+        "image": "images/animals/mule.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sheep", "πρόβατο"],
+        "image": "images/animals/sheep.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["goat", "κατσίκα"],
+        "image": "images/animals/goat.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["llama", "λάμα"],
+        "image": "images/animals/llama.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["alpaca", "αλπάκα"],
+        "image": "images/animals/alpaca.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["otter", "βίδρα"],
+        "image": "images/animals/otter.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["beaver", "κάστορας"],
+        "image": "images/animals/beaver.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["squirrel", "σκίουρος"],
+        "image": "images/animals/squirrel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["hedgehog", "σκαντζόχοιρος"],
+        "image": "images/animals/hedgehog.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["raccoon", "ρακούν"],
+        "image": "images/animals/raccoon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sloth", "βραδύπους"],
+        "image": "images/animals/sloth.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["monkey", "μαϊμού"],
+        "image": "images/animals/monkey.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["orangutan", "ουρακοτάγκος"],
+        "image": "images/animals/orangutan.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mandrill", "μανδρίλος"],
+        "image": "images/animals/mandrill.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["baboon", "μπαμπουίνος"],
+        "image": "images/animals/baboon.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["hyena", "ύαινα"],
+        "image": "images/animals/hyena.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["coyote", "κογιότ"],
+        "image": "images/animals/coyote.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jackal", "τσακάλι"],
+        "image": "images/animals/jackal.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["armadillo", "αρμαντίλο"],
+        "image": "images/animals/armadillo.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["anteater", "μυρμηγκοφάγος"],
+        "image": "images/animals/anteater.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["pangolin", "παγκολίνος"],
+        "image": "images/animals/pangolin.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["wallaby", "γουάλαμπι"],
+        "image": "images/animals/wallaby.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["wombat", "γουόμπατ"],
+        "image": "images/animals/wombat.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tapir", "τάπιρος"],
+        "image": "images/animals/tapir.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["okapi", "οκάπι"],
+        "image": "images/animals/okapi.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["lemur", "λεμούριος"],
+        "image": "images/animals/lemur.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["meerkat", "σουρικάτα"],
+        "image": "images/animals/meerkat.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bat", "νυχτερίδα"],
+        "image": "images/animals/bat.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["rabbit", "κουνέλι"],
+        "image": "images/animals/rabbit.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mouse", "ποντικός"],
+        "image": "images/animals/mouse.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["rat", "αρουραίος"],
+        "image": "images/animals/rat.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dog", "σκύλος"],
+        "image": "images/animals/dog.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["cat", "γάτα"],
+        "image": "images/animals/cat.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bear", "αρκούδα"],
+        "image": "images/animals/bear.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["panther", "πάνθηρας"],
+        "image": "images/animals/panther.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jaguar", "ιαγουάρος"],
+        "image": "images/animals/jaguar.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["puma", "πούμα"],
+        "image": "images/animals/puma.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lynx", "λύγκας"],
+        "image": "images/animals/lynx.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["red panda", "κόκκινο πάντα"],
+        "image": "images/animals/red-panda.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["seal", "φώκια"],
+        "image": "images/animals/seal.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["elephant seal", "θαλάσσιος ελέφαντας"],
+        "image": "images/animals/elephant-seal.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sea lion", "θαλάσσιο λιοντάρι"],
+        "image": "images/animals/sea-lion.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["walrus", "θαλάσσιος ίππος"],
+        "image": "images/animals/walrus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["badger", "ασβός"],
+        "image": "images/animals/badger.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ferret", "κουνάβι"],
+        "image": "images/animals/ferret.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["vicuna", "βίκουνα"],
+        "image": "images/animals/vicuna.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["yak", "γιάκ"],
+        "image": "images/animals/yak.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["gazelle", "γαζέλα"],
+        "image": "images/animals/gazelle.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["antelope", "αντιλόπη"],
+        "image": "images/animals/antelope.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["slow loris", "λόρις"],
+        "image": "images/animals/slow-loris.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["caracal", "καρακάλ"],
+        "image": "images/animals/caracal.jpg",
+        "difficulty": "hard"
+    }
+],
+
+    birds: [
+    {
+        "answers": ["eagle", "αετός"],
+        "image": "images/birds/eagle.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["hawk", "γεράκι"],
+        "image": "images/birds/hawk.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["owl", "κουκουβάγια"],
+        "image": "images/birds/owl.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["parrot", "παπαγάλος"],
+        "image": "images/birds/parrot.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["flamingo", "φλαμίνγκο"],
+        "image": "images/birds/flamingo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["peacock", "παγώνι"],
+        "image": "images/birds/peacock.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["swan", "κύκνος"],
+        "image": "images/birds/swan.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pelican", "πελεκάνος"],
+        "image": "images/birds/pelican.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["penguin", "πιγκουίνος"],
+        "image": "images/birds/penguin.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ostrich", "στρουθοκάμηλος"],
+        "image": "images/birds/ostrich.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["seagull", "γλάρος"],
+        "image": "images/birds/seagull.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["raven", "κόρακας"],
+        "image": "images/birds/raven.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["crow", "κοράκι"],
+        "image": "images/birds/crow.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["vulture", "γύπας"],
+        "image": "images/birds/vulture.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["goldfinch", "καρδερίνα"],
+        "image": "images/birds/goldfinch.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["canary", "καναρίνι"],
+        "image": "images/birds/canary.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["swallow", "χελιδόνι"],
+        "image": "images/birds/swallow.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pigeon", "περιστέρι"],
+        "image": "images/birds/pigeon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["rooster", "κόκορας"],
+        "image": "images/birds/rooster.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chicken", "κότα", "κοτόπουλο"],
+        "image": "images/birds/chicken.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["duck", "πάπια"],
+        "image": "images/birds/duck.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["goose", "χήνα"],
+        "image": "images/birds/goose.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["turkey", "γαλοπούλα"],
+        "image": "images/birds/turkey.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["quail", "ορτύκι"],
+        "image": "images/birds/quail.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pheasant", "φασιανός"],
+        "image": "images/birds/pheasant.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["heron", "ερωδιός"],
+        "image": "images/birds/heron.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["egret", "λευκοτσικνιάς"],
+        "image": "images/birds/egret.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["stork", "πελαργός"],
+        "image": "images/birds/stork.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kingfisher", "αλκυόνη"],
+        "image": "images/birds/kingfisher.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["woodpecker", "δρυοκολάπτης"],
+        "image": "images/birds/woodpecker.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sparrow", "σπουργίτι"],
+        "image": "images/birds/sparrow.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["robin", "κοκκινολαίμης"],
+        "image": "images/birds/robin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["magpie", "κίσσα"],
+        "image": "images/birds/magpie.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jay", "καρακάξα"],
+        "image": "images/birds/jay.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["starling", "ψαρόνι"],
+        "image": "images/birds/starling.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lark", "κορυδαλλός"],
+        "image": "images/birds/lark.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["scops owl", "γκιώνης"],
+        "image": "images/birds/scops-owl.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["eleonoras falcon", "μαυροπετρίτης"],
+        "image": "images/birds/eleonoras-falcon.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["black-winged stilt", "καλαμοκανάς"],
+        "image": "images/birds/black-winged-stilt.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["glossy ibis", "χαλκόκοτα", "χαλκόκοτας"],
+        "image": "images/birds/glossy-ibis.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["cockatoo", "κακατούα"],
+        "image": "images/birds/cockatoo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["macaw", "μακάο"],
+        "image": "images/birds/macaw.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["toucan", "τουκάν"],
+        "image": "images/birds/toucan.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["hummingbird", "κολιμπρί"],
+        "image": "images/birds/hummingbird.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["emu", "εμού"],
+        "image": "images/birds/emu.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cassowary", "κασοβάριος"],
+        "image": "images/birds/cassowary.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["crane", "γερανός"],
+        "image": "images/birds/crane.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["partridge", "πέρδικα"],
+        "image": "images/birds/partridge.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["woodcock", "μπεκάτσα"],
+        "image": "images/birds/woodcock.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["snipe", "μπεκατσίνι"],
+        "image": "images/birds/snipe.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["cormorant", "λαγγόνα"],
+        "image": "images/birds/cormorant.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["frigatebird", "φρεγάτα"],
+        "image": "images/birds/frigatebird.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["albatross", "άλμπατρος"],
+        "image": "images/birds/albatross.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["shag", "θαλασσοκόρακας"],
+        "image": "images/birds/shag.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["cardinal", "καρδινάλιος"],
+        "image": "images/birds/cardinal.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["blue jay", "μπλε τζέι"],
+        "image": "images/birds/blue-jay.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tawny owl", "καφετιά κουκουβάγια"],
+        "image": "images/birds/tawny-owl.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["snowy owl", "χιονόκουκου", "χιονόκουκουβαγια"],
+        "image": "images/birds/snowy-owl.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["harpy eagle", "αρπυία"],
+        "image": "images/birds/harpy-eagle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sea eagle", "θαλασσαετός"],
+        "image": "images/birds/sea-eagle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["linnet", "καναβούρι"],
+        "image": "images/birds/linnet.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["chaffinch", "σπίνος"],
+        "image": "images/birds/chaffinch.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["greenfinch", "φλώρος"],
+        "image": "images/birds/greenfinch.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["crossbill", "σταυρομύτης"],
+        "image": "images/birds/crossbill.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["kestrel", "κιρκινέζι"],
+        "image": "images/birds/kestrel.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["peregrine falcon", "πετρίτης"],
+        "image": "images/birds/peregrine-falcon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["goshawk", "σαΐνι"],
+        "image": "images/birds/goshawk.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["short-toed eagle", "φιδαετός"],
+        "image": "images/birds/short-toed-eagle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["bee-eater", "μελισσοφάγος"],
+        "image": "images/birds/bee-eater.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["hoopoe", "τσαλαπετεινός"],
+        "image": "images/birds/hoopoe.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["moorhen", "νερόκοτα"],
+        "image": "images/birds/moorhen.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["coot", "φαλαρίδα"],
+        "image": "images/birds/coot.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tern", "γλαρόνι"],
+        "image": "images/birds/tern.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["spotted eagle", "στικταετός"],
+        "image": "images/birds/spotted-eagle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ferruginous duck", "βαλτόπαπια"],
+        "image": "images/birds/ferruginous-duck.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["dalmatian pelican", "αργυροπελεκάνος"],
+        "image": "images/birds/dalmatian-pelican.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["great white pelican", "ροδοπελεκάνος"],
+        "image": "images/birds/great-white-pelican.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["black stork", "μαυροπελαργός"],
+        "image": "images/birds/black-stork.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["white stork", "λευκοπελαργός"],
+        "image": "images/birds/white-stork.jpg",
+        "difficulty": "medium"
+    }
+],
+
+    "snakes-reptiles-amphibians": [
+    {
+        "answers": ["king cobra", "βασιλική κόμπρα"],
+        "image": "images/snakes-reptiles-amphibians/king-cobra.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["black mamba", "μαύρη μάμπα"],
+        "image": "images/snakes-reptiles-amphibians/black-mamba.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["python", "πύθωνας"],
+        "image": "images/snakes-reptiles-amphibians/python.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["anaconda", "ανακόντα"],
+        "image": "images/snakes-reptiles-amphibians/anaconda.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["rattlesnake", "κροταλίας"],
+        "image": "images/snakes-reptiles-amphibians/rattlesnake.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["cobra", "κόμπρα"],
+        "image": "images/snakes-reptiles-amphibians/cobra.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["viper", "οχιά"],
+        "image": "images/snakes-reptiles-amphibians/viper.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["boa", "βόας"],
+        "image": "images/snakes-reptiles-amphibians/boa.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["coral snake", "κοραλλιογενές φίδι"],
+        "image": "images/snakes-reptiles-amphibians/coral-snake.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sea snake", "θαλάσσιο φίδι"],
+        "image": "images/snakes-reptiles-amphibians/sea-snake.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["taipan", "ταϊπάν"],
+        "image": "images/snakes-reptiles-amphibians/taipan.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["boomslang", "μπουμσλανγκ"],
+        "image": "images/snakes-reptiles-amphibians/boomslang.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tree snake", "δενδρόφιδο"],
+        "image": "images/snakes-reptiles-amphibians/tree-snake.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["green mamba", "πράσινη μάμπα"],
+        "image": "images/snakes-reptiles-amphibians/green-mamba.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["cat snake", "γάτα φίδι"],
+        "image": "images/snakes-reptiles-amphibians/cat-snake.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["gaboon viper", "φίδι γκαμπούν", "οχιά γκαμπούν"],
+        "image": "images/snakes-reptiles-amphibians/gaboon-viper.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["indigo snake", "ίντιγκο φίδι"],
+        "image": "images/snakes-reptiles-amphibians/indigo-snake.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["corn snake", "φίδι καλαμποκιού"],
+        "image": "images/snakes-reptiles-amphibians/corn-snake.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["kingsnake", "βασιλόφιδο"],
+        "image": "images/snakes-reptiles-amphibians/kingsnake.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["milk snake", "γάλα φίδι"],
+        "image": "images/snakes-reptiles-amphibians/milk-snake.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["crocodile", "κροκόδειλος"],
+        "image": "images/snakes-reptiles-amphibians/crocodile.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["alligator", "αλιγάτορας"],
+        "image": "images/snakes-reptiles-amphibians/alligator.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["caiman", "καϊμάν"],
+        "image": "images/snakes-reptiles-amphibians/caiman.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["gharial", "γάβιαλος"],
+        "image": "images/snakes-reptiles-amphibians/gharial.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["komodo dragon", "δράκος του κομόντο"],
+        "image": "images/snakes-reptiles-amphibians/komodo-dragon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["iguana", "ιγκουάνα"],
+        "image": "images/snakes-reptiles-amphibians/iguana.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chameleon", "χαμαιλέοντας"],
+        "image": "images/snakes-reptiles-amphibians/chameleon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["gecko", "γκέκο"],
+        "image": "images/snakes-reptiles-amphibians/gecko.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["salamander", "σαλαμάνδρα"],
+        "image": "images/snakes-reptiles-amphibians/salamander.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["newt", "τρίτωνας"],
+        "image": "images/snakes-reptiles-amphibians/newt.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["frog", "βάτραχος"],
+        "image": "images/snakes-reptiles-amphibians/frog.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["toad", "φρύνος"],
+        "image": "images/snakes-reptiles-amphibians/toad.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["tree frog", "δενδροβάτραχος"],
+        "image": "images/snakes-reptiles-amphibians/tree-frog.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tortoise", "χελώνα"],
+        "image": "images/snakes-reptiles-amphibians/tortoise.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sea turtle", "θαλάσσια χελώνα"],
+        "image": "images/snakes-reptiles-amphibians/sea-turtle.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["leatherback turtle", "δερματοχελώνα"],
+        "image": "images/snakes-reptiles-amphibians/leatherback-turtle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["softshell turtle", "μαλακή χελώνα"],
+        "image": "images/snakes-reptiles-amphibians/softshell-turtle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["lizard", "σαύρα"],
+        "image": "images/snakes-reptiles-amphibians/lizard.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["skink", "σκίγκος"],
+        "image": "images/snakes-reptiles-amphibians/skink.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["agama", "αγκάμα"],
+        "image": "images/snakes-reptiles-amphibians/agama.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["basilisk lizard", "βασιλίσκος"],
+        "image": "images/snakes-reptiles-amphibians/basilisk-lizard.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["bearded dragon", "γενειοφόρος δράκος"],
+        "image": "images/snakes-reptiles-amphibians/bearded-dragon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["monitor lizard", "μονίτορ σαύρα"],
+        "image": "images/snakes-reptiles-amphibians/monitor-lizard.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tegu", "τέγκου"],
+        "image": "images/snakes-reptiles-amphibians/tegu.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["gila monster", "γκίλα τέρας"],
+        "image": "images/snakes-reptiles-amphibians/gila-monster.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mexican beaded lizard", "μεξικανική σαύρα με χάντρες"],
+        "image": "images/snakes-reptiles-amphibians/mexican-beaded-lizard.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tree lizard", "δενδροσαύρα"],
+        "image": "images/snakes-reptiles-amphibians/tree-lizard.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["anole", "ανόλη"],
+        "image": "images/snakes-reptiles-amphibians/anole.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["blind snake", "τυφλόφιδο"],
+        "image": "images/snakes-reptiles-amphibians/blind-snake.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["copperhead", "χάλκινο φίδι"],
+        "image": "images/snakes-reptiles-amphibians/copperhead.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cottonmouth", "μοκασίνι του νερού"],
+        "image": "images/snakes-reptiles-amphibians/cottonmouth.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["horned viper", "οχιά με κέρατα"],
+        "image": "images/snakes-reptiles-amphibians/horned-viper.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["marine iguana", "θαλάσσια ιγκουάνα"],
+        "image": "images/snakes-reptiles-amphibians/marine-iguana.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["leopard gecko", "γκέκο λεοπάρδαλη"],
+        "image": "images/snakes-reptiles-amphibians/leopard-gecko.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["blue-tongue skink", "μπλε γλώσσα σκίγκος"],
+        "image": "images/snakes-reptiles-amphibians/blue-tongue-skink.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["axolotl", "αξολότλ"],
+        "image": "images/snakes-reptiles-amphibians/axolotl.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["poison dart frog", "δηλητηριώδης βάτραχος"],
+        "image": "images/snakes-reptiles-amphibians/poison-dart-frog.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bullfrog", "ταυροβάτραχος"],
+        "image": "images/snakes-reptiles-amphibians/bullfrog.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["caecilian", "καικίλιος"],
+        "image": "images/snakes-reptiles-amphibians/caecilian.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["green tree snake", "πράσινο δενδρόφιδο"],
+        "image": "images/snakes-reptiles-amphibians/green-tree-snake.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["vine snake", "φίδι αμπελιού"],
+        "image": "images/snakes-reptiles-amphibians/vine-snake.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["kukri snake", "δίκρωμο φίδι"],
+        "image": "images/snakes-reptiles-amphibians/kukri-snake.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["black python", "μαύρος πύθωνας"],
+        "image": "images/snakes-reptiles-amphibians/black-python.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["green tree python", "πράσινος πύθωνας"],
+        "image": "images/snakes-reptiles-amphibians/green-tree-python.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rock python", "βραχώδης πύθωνας"],
+        "image": "images/snakes-reptiles-amphibians/rock-python.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["red-tail boa", "ερυθρός βόας"],
+        "image": "images/snakes-reptiles-amphibians/red-tail-boa.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["alligator snapping turtle", "χελώνα αλιγάτορας"],
+        "image": "images/snakes-reptiles-amphibians/alligator-snapping-turtle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["map turtle", "χαρτοχελώνα"],
+        "image": "images/snakes-reptiles-amphibians/map-turtle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["green sea turtle", "πράσινη θαλάσσια χελώνα"],
+        "image": "images/snakes-reptiles-amphibians/green-sea-turtle.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["red-footed tortoise", "ερυθροπόδαρη χελώνα"],
+        "image": "images/snakes-reptiles-amphibians/red-footed-tortoise.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["leopard tortoise", "λεοπάρ χελώνα"],
+        "image": "images/snakes-reptiles-amphibians/leopard-tortoise.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["frilled lizard", "σαύρα με λοφίο"],
+        "image": "images/snakes-reptiles-amphibians/frilled-lizard.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["glass lizard", "γυάλινη σαύρα"],
+        "image": "images/snakes-reptiles-amphibians/glass-lizard.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["horned frog", "κερασφόρος βάτραχος"],
+        "image": "images/snakes-reptiles-amphibians/horned-frog.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["african bullfrog", "βάτραχος ταύρος αφρικής"],
+        "image": "images/snakes-reptiles-amphibians/african-bullfrog.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["fire salamander", "πυριτόσαυρα"],
+        "image": "images/snakes-reptiles-amphibians/fire-salamander.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tiger salamander", "τίγρης σαλαμάνδρα"],
+        "image": "images/snakes-reptiles-amphibians/tiger-salamander.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["chinese giant salamander", "κινέζικη γιγάντια σαλαμάνδρα"],
+        "image": "images/snakes-reptiles-amphibians/chinese-giant-salamander.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["japanese giant salamander", "ιαπωνική γιγάντια σαλαμάνδρα"],
+        "image": "images/snakes-reptiles-amphibians/japanese-giant-salamander.jpg",
+        "difficulty": "hard"
+    }
+],
+    "sea-animals": [
+    {
+        "answers": ["great white shark", "μεγάλος λευκός καρχαρίας"],
+        "image": "images/sea-animals/great-white-shark.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["tiger shark", "καρχαρίας τίγρης"],
+        "image": "images/sea-animals/tiger-shark.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["hammerhead shark", "σφυροκέφαλος καρχαρίας"],
+        "image": "images/sea-animals/hammerhead-shark.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["whale", "φάλαινα"],
+        "image": "images/sea-animals/whale.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["blue whale", "γαλάζια φάλαινα"],
+        "image": "images/sea-animals/blue-whale.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["orca", "όρκα"],
+        "image": "images/sea-animals/orca.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["dolphin", "δελφίνι"],
+        "image": "images/sea-animals/dolphin.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sperm whale", "φυσητήρας"],
+        "image": "images/sea-animals/sperm-whale.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["beluga", "μπελούγκα"],
+        "image": "images/sea-animals/beluga.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["narwhal", "ναρβάλ"],
+        "image": "images/sea-animals/narwhal.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["false killer whale", "φάλαινα όρκα ψευδής"],
+        "image": "images/sea-animals/false-killer-whale.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["seal", "φώκια"],
+        "image": "images/sea-animals/seal.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sea lion", "θαλάσσιο λιοντάρι"],
+        "image": "images/sea-animals/sea-lion.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["walrus", "θαλάσσιος ίππος"],
+        "image": "images/sea-animals/walrus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["manatee", "μανάτι"],
+        "image": "images/sea-animals/manatee.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dugong", "δουγκόνγκος"],
+        "image": "images/sea-animals/dugong.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["octopus", "χταπόδι"],
+        "image": "images/sea-animals/octopus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["giant pacific octopus", "γιγάντιο χταπόδι του ειρηνικού"],
+        "image": "images/sea-animals/giant-pacific-octopus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["squid", "καλαμάρι"],
+        "image": "images/sea-animals/squid.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["giant squid", "γιγάντιο καλαμάρι"],
+        "image": "images/sea-animals/giant-squid.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cuttlefish", "σουπιά"],
+        "image": "images/sea-animals/cuttlefish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nautilus", "ναυτίλος"],
+        "image": "images/sea-animals/nautilus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["lobster", "αστακός"],
+        "image": "images/sea-animals/lobster.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["crab", "καβούρι"],
+        "image": "images/sea-animals/crab.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["king crab", "βασιλικό καβούρι"],
+        "image": "images/sea-animals/king-crab.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["shrimp", "γαρίδα"],
+        "image": "images/sea-animals/shrimp.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mantis shrimp", "γαρίδα μάντις"],
+        "image": "images/sea-animals/mantis-shrimp.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["crayfish", "καραβίδα"],
+        "image": "images/sea-animals/crayfish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sea urchin", "αχινός"],
+        "image": "images/sea-animals/sea-urchin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["starfish", "αστερίας"],
+        "image": "images/sea-animals/starfish.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sea cucumber", "αγγούρι της θάλασσας"],
+        "image": "images/sea-animals/sea-cucumber.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jellyfish", "μέδουσα"],
+        "image": "images/sea-animals/jellyfish.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["portuguese man-of-war", "πορτογαλική καραβέλα"],
+        "image": "images/sea-animals/portuguese-man-of-war.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["coral", "κοράλλι"],
+        "image": "images/sea-animals/coral.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sea sponge", "σφουγγάρι"],
+        "image": "images/sea-animals/sea-sponge.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chiton", "χιτώνας"],
+        "image": "images/sea-animals/chiton.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["clam", "αχιβάδα"],
+        "image": "images/sea-animals/clam.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["oyster", "στρείδι"],
+        "image": "images/sea-animals/oyster.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mussel", "μύδι"],
+        "image": "images/sea-animals/mussel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["scallop", "χτένι"],
+        "image": "images/sea-animals/scallop.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["stingray", "σαλάχι"],
+        "image": "images/sea-animals/stingray.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["manta ray", "σαλάχι μάντα"],
+        "image": "images/sea-animals/manta-ray.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["electric ray", "ηλεκτρικό σαλάχι"],
+        "image": "images/sea-animals/electric-ray.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sawfish", "πριονόψαρο"],
+        "image": "images/sea-animals/sawfish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["swordfish", "ξιφίας"],
+        "image": "images/sea-animals/swordfish.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sailfish", "ιστιοφόρο ψάρι"],
+        "image": "images/sea-animals/sailfish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["marlin", "μάρλιν"],
+        "image": "images/sea-animals/marlin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tuna", "τόνος"],
+        "image": "images/sea-animals/tuna.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["salmon", "σολομός"],
+        "image": "images/sea-animals/salmon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["barracuda", "μπαρακούντα"],
+        "image": "images/sea-animals/barracuda.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["eel", "χέλι"],
+        "image": "images/sea-animals/eel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["electric eel", "ηλεκτρικό χέλι"],
+        "image": "images/sea-animals/electric-eel.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["seahorse", "ιππόκαμπος"],
+        "image": "images/sea-animals/seahorse.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["clownfish", "ψάρι κλόουν"],
+        "image": "images/sea-animals/clownfish.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["blue tang", "μπλε χειρουργός"],
+        "image": "images/sea-animals/blue-tang.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lionfish", "λεοντόψαρο"],
+        "image": "images/sea-animals/lionfish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["stonefish", "πέτρινο ψάρι"],
+        "image": "images/sea-animals/stonefish.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["pufferfish", "ψάρι μπαλόνι"],
+        "image": "images/sea-animals/pufferfish.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["porcupinefish", "ψάρι σκαντζόχοιρος"],
+        "image": "images/sea-animals/porcupinefish.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["moray eel", "μορφήνα"],
+        "image": "images/sea-animals/moray-eel.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["goby", "γοβιός"],
+        "image": "images/sea-animals/goby.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["discus fish", "δίσκος"],
+        "image": "images/sea-animals/discus-fish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["angelfish", "αγγελόψαρο"],
+        "image": "images/sea-animals/angelfish.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["butterflyfish", "πεταλούδα ψάρι"],
+        "image": "images/sea-animals/butterflyfish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["parrotfish", "παπαγάλος ψάρι"],
+        "image": "images/sea-animals/parrotfish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["leafy seadragon", "δράκος της θάλασσας"],
+        "image": "images/sea-animals/leafy-seadragon.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["flying fish", "ιπτάμενο ψάρι"],
+        "image": "images/sea-animals/flying-fish.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["whale shark", "καρχαρίας φάλαινα"],
+        "image": "images/sea-animals/whale-shark.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["basking shark", "καρχαρίας προσκυνητής"],
+        "image": "images/sea-animals/basking-shark.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bull shark", "καρχαρίας ταύρος"],
+        "image": "images/sea-animals/bull-shark.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mako shark", "καρχαρίας μάκο"],
+        "image": "images/sea-animals/mako-shark.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["thresher shark", "καρχαρίας αλεπού"],
+        "image": "images/sea-animals/thresher-shark.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nurse shark", "καρχαρίας νοσοκόμος"],
+        "image": "images/sea-animals/nurse-shark.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["leopard shark", "καρχαρίας λεοπάρδαλη"],
+        "image": "images/sea-animals/leopard-shark.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["zebra shark", "καρχαρίας ζέβρα"],
+        "image": "images/sea-animals/zebra-shark.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["goblin shark", "καρχαρίας γκόμπλιν"],
+        "image": "images/sea-animals/goblin-shark.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["frilled shark", "καρχαρίας με φραμπαλά"],
+        "image": "images/sea-animals/frilled-shark.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["angel shark", "καρχαρίας αγγελούδι"],
+        "image": "images/sea-animals/angel-shark.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["lemon shark", "καρχαρίας λεμόνι"],
+        "image": "images/sea-animals/lemon-shark.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["blacktip shark", "καρχαρίας μαυροπτέρυγος"],
+        "image": "images/sea-animals/blacktip-shark.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sea otter", "θαλάσσια ενυδρίδα"],
+        "image": "images/sea-animals/sea-otter.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["penguin", "πιγκουίνος"],
+        "image": "images/sea-animals/penguin.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["puffin", "φράτερκουλα"],
+        "image": "images/sea-animals/puffin.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["pelican", "πελεκάνος"],
+        "image": "images/sea-animals/pelican.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["seagull", "γλάρος"],
+        "image": "images/sea-animals/seagull.jpg",
+        "difficulty": "easy"
+    }
+],
+
+    dinosaurs: [
+    {
+        "answers": ["tyrannosaurus rex", "τυραννόσαυρος ρεξ"],
+        "image": "images/dinosaurs/tyrannosaurus-rex.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["velociraptor", "βελοσιράπτορας"],
+        "image": "images/dinosaurs/velociraptor.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["triceratops", "τρικεράτωπας"],
+        "image": "images/dinosaurs/triceratops.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["stegosaurus", "στεγόσαυρος"],
+        "image": "images/dinosaurs/stegosaurus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["brachiosaurus", "βραχιόσαυρος"],
+        "image": "images/dinosaurs/brachiosaurus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["diplodocus", "διπλόδοκος"],
+        "image": "images/dinosaurs/diplodocus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["spinosaurus", "σπινόσαυρος"],
+        "image": "images/dinosaurs/spinosaurus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ankylosaurus", "αγκυλόσαυρος"],
+        "image": "images/dinosaurs/ankylosaurus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pachycephalosaurus", "παχυκεφαλόσαυρος"],
+        "image": "images/dinosaurs/pachycephalosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["parasaurolophus", "παρασαυρόλοφος"],
+        "image": "images/dinosaurs/parasaurolophus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["allosaurus", "αλλόσαυρος"],
+        "image": "images/dinosaurs/allosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["carnotaurus", "καρνόταυρος"],
+        "image": "images/dinosaurs/carnotaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["giganotosaurus", "γιγαντόσαυρος"],
+        "image": "images/dinosaurs/giganotosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ceratosaurus", "σερατόσαυρος"],
+        "image": "images/dinosaurs/ceratosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["iguanodon", "ιγκουανόδοντας"],
+        "image": "images/dinosaurs/iguanodon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["corythosaurus", "κορυθόσαυρος"],
+        "image": "images/dinosaurs/corythosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["maiasaura", "μαγιασαύρα"],
+        "image": "images/dinosaurs/maiasaura.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["compsognathus", "κομψόγναθος"],
+        "image": "images/dinosaurs/compsognathus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["deinonychus", "δεϊνόνυχος"],
+        "image": "images/dinosaurs/deinonychus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["utahraptor", "ουταράπτορας"],
+        "image": "images/dinosaurs/utahraptor.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["apatosaurus", "απατόσαυρος"],
+        "image": "images/dinosaurs/apatosaurus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["camarasaurus", "καμαράσαυρος"],
+        "image": "images/dinosaurs/camarasaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["albertosaurus", "αλβερτόσαυρος"],
+        "image": "images/dinosaurs/albertosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["acrocanthosaurus", "ακροκανθόσαυρος"],
+        "image": "images/dinosaurs/acrocanthosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["monolophosaurus", "μονολόφοσαυρος"],
+        "image": "images/dinosaurs/monolophosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["oviraptor", "οβιράπτορας"],
+        "image": "images/dinosaurs/oviraptor.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["gallimimus", "γκαλιμίμος"],
+        "image": "images/dinosaurs/gallimimus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["therizinosaurus", "θηριζινόσαυρος"],
+        "image": "images/dinosaurs/therizinosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sauschenia", "σαυχένια"],
+        "image": "images/dinosaurs/sauschenia.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["euoplocephalus", "ευοπλόκεφαλος"],
+        "image": "images/dinosaurs/euoplocephalus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["protoceratops", "προτοκεράτωπας"],
+        "image": "images/dinosaurs/protoceratops.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["styracosaurus", "στυρακόσαυρος"],
+        "image": "images/dinosaurs/styracosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pentaceratops", "πεντακεράτωπας"],
+        "image": "images/dinosaurs/pentaceratops.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["centrosaurus", "κεντρόσαυρος"],
+        "image": "images/dinosaurs/centrosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sauropelta", "σαουρόπελτα"],
+        "image": "images/dinosaurs/sauropelta.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["edmontosaurus", "εδμοντοσαυρος"],
+        "image": "images/dinosaurs/edmontosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["leaellynasaura", "ληαελλυνάσαυρα"],
+        "image": "images/dinosaurs/leaellynasaura.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["muttaburrasaurus", "μουτταμπούρασαυρος"],
+        "image": "images/dinosaurs/muttaburrasaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["plateosaurus", "πλατεόσαυρος"],
+        "image": "images/dinosaurs/plateosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["coelophysis", "κοελοφύσις"],
+        "image": "images/dinosaurs/coelophysis.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["daspletosaurus", "δασπλητόσαυρος"],
+        "image": "images/dinosaurs/daspletosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tarbosaurus", "ταρβόσαυρος"],
+        "image": "images/dinosaurs/tarbosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mapusaurus", "μαπουσάυρος"],
+        "image": "images/dinosaurs/mapusaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["carcharodontosaurus", "καρχαροδοντόσαυρος"],
+        "image": "images/dinosaurs/carcharodontosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["rugops", "ρουγκόπς"],
+        "image": "images/dinosaurs/rugops.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["majungasaurus", "μαζουνγκάσαυρος"],
+        "image": "images/dinosaurs/majungasaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["baryonyx", "βαρυόνυχος"],
+        "image": "images/dinosaurs/baryonyx.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["suchomimus", "σουχομίμος"],
+        "image": "images/dinosaurs/suchomimus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["irritator", "ιριτάτορας"],
+        "image": "images/dinosaurs/irritator.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["amargasaurus", "αμαργάσαυρος"],
+        "image": "images/dinosaurs/amargasaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["saltasaurus", "σαλτασαυρος"],
+        "image": "images/dinosaurs/saltasaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["argentinosaurus", "αργεντινόσαυρος"],
+        "image": "images/dinosaurs/argentinosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["patagotitan", "παταγοτιτάνας"],
+        "image": "images/dinosaurs/patagotitan.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nothosaurus", "νοτόσαυρος"],
+        "image": "images/dinosaurs/nothosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["cryolophosaurus", "κρυολοφόσαυρος"],
+        "image": "images/dinosaurs/cryolophosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["dilophosaurus", "διλοφόσαυρος"],
+        "image": "images/dinosaurs/dilophosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["eoraptor", "εοραπτόρας"],
+        "image": "images/dinosaurs/eoraptor.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["herrerasaurus", "ερρέραςαυρος"],
+        "image": "images/dinosaurs/herrerasaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mussaurus", "μουσσαύρος"],
+        "image": "images/dinosaurs/mussaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["microraptor", "μικροραπτόρας"],
+        "image": "images/dinosaurs/microraptor.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["archaeopteryx", "αρχαιοπτέρυξ"],
+        "image": "images/dinosaurs/archaeopteryx.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["gigantoraptor", "γιγαντοράπτορας"],
+        "image": "images/dinosaurs/gigantoraptor.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sinosauropteryx", "σινόσαυροπτερυξ"],
+        "image": "images/dinosaurs/sinosauropteryx.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["troodon", "τροόδοντας"],
+        "image": "images/dinosaurs/troodon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tropeognathus", "τροοπεόγναθος"],
+        "image": "images/dinosaurs/tropeognathus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["pterodactylus", "πτεροδάκτυλος"],
+        "image": "images/dinosaurs/pterodactylus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pteranodon", "πτερανόδοντας"],
+        "image": "images/dinosaurs/pteranodon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["quetzalcoatlus", "κετζαλκοάτλους"],
+        "image": "images/dinosaurs/quetzalcoatlus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rhamphorhynchus", "ραμφορύγχος"],
+        "image": "images/dinosaurs/rhamphorhynchus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tupandactylus", "ταπεγιάρα"],
+        "image": "images/dinosaurs/tupandactylus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["dimorphodon", "διμορφόδοντας"],
+        "image": "images/dinosaurs/dimorphodon.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["kronosaurus", "κρόνόσαυρος"],
+        "image": "images/dinosaurs/kronosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mosasaurus", "μοσάσαυρος"],
+        "image": "images/dinosaurs/mosasaurus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["plesiosaurus", "πλεισιόσαυρος"],
+        "image": "images/dinosaurs/plesiosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["elasmosaurus", "ελασμόσαυρος"],
+        "image": "images/dinosaurs/elasmosaurus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ichthyosaurus", "ιχθυόσαυρος"],
+        "image": "images/dinosaurs/ichthyosaurus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["liopleurodon", "λιοπλευρόδοντας"],
+        "image": "images/dinosaurs/liopleurodon.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["placodus", "πλακόδους"],
+        "image": "images/dinosaurs/placodus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tanystropheus", "τανυστρόφεας"],
+        "image": "images/dinosaurs/tanystropheus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["stupendemys", "στουπεντέμις"],
+        "image": "images/dinosaurs/stupendemys.jpg",
+        "difficulty": "hard"
+    }
+],
+
+    "football-players": [
+        {
+            answers: ["λιονέλ μέσι", "μέσι"],
+            image: "images/football-players/lionel-messi.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["κριστιάνο ρονάλντο", "ρονάλντο"],
+            image: "images/football-players/cristiano-ronaldo.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["κιλιάν εμπαπέ", "εμπαπέ"],
+            image: "images/football-players/kylian-mbappe.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["έρλινγκ χάαλαντ", "χάαλαντ"],
+            image: "images/football-players/erling-haaland.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["λαμίν γιαμάλ", "γιαμάλ"],
+            image: "images/football-players/lamine-yamal.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["τζουντ μπέλιγχαμ", "μπέλιγχαμ"],
+            image: "images/football-players/jude-bellingham.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["βινίσιους τζούνιορ", "βινίσιους"],
+            image: "images/football-players/vinicius-junior.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["ροδρί"],
+            image: "images/football-players/rodri.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μοχάμεντ σαλάχ", "σαλάχ"],
+            image: "images/football-players/mohamed-salah.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["χάρι κέιν", "κέιν"],
+            image: "images/football-players/harry-kane.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["ρομπέρτ λεβαντόφσκι", "λεβαντόφσκι"],
+            image: "images/football-players/robert-lewandowski.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["νεϊμάρ", "νεϊμαρ"],
+            image: "images/football-players/neymar.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["κεβιν ντε μπρόινε", "ντε μπρόινε"],
+            image: "images/football-players/kevin-de-bruyne.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["λουίς σουάρες", "σουάρες"],
+            image: "images/football-players/luis-suarez.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["αντουάν γκριεζμάν", "γκριεζμάν"],
+            image: "images/football-players/antoine-griezmann.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μπουκάγιο σάκα", "σάκα"],
+            image: "images/football-players/bukayo-saka.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["φιλ φόντεν", "φόντεν"],
+            image: "images/football-players/phil-foden.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["τζαμάλ μουσιάλα", "μουσιάλα"],
+            image: "images/football-players/jamal-musiala.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["κολ παλμερ", "πάλμερ"],
+            image: "images/football-players/cole-palmer.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["βίκτορ γκιόκερες", "γκιόκερες"],
+            image: "images/football-players/viktor-gyokeres.jpg",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["ραφίνια"],
+            image: "images/football-players/raphinha.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ουσμάν ντεμπελέ", "ντεμπελέ"],
+            image: "images/football-players/ousmane-dembele.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["χβίτσα κβαρατσχέλια", "κβαρατσχέλια"],
+            image: "images/football-players/khvicha-kvaratskhelia.jpg",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["τζιανλουίτζι ντοναρούμα", "ντοναρούμα"],
+            image: "images/football-players/gianluigi-donnarumma.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["τιμπό κουρτουά", "κουρτουά"],
+            image: "images/football-players/thibaut-courtois.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μαρκ Αντρέ τερ στέγκεν", "τερ στέγκεν"],
+            image: "images/football-players/marc-andre-ter-stegen.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["βίρτζιλ φαν ντάικ", "φαν ντάικ"],
+            image: "images/football-players/virgil-van-dijk.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ρουμπέν ντίας"],
+            image: "images/football-players/ruben-dias.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["αλεξάντερ Άρνολντ", "Άρνολντ"],
+            image: "images/football-players/trent-alexander-arnold.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ασράφ χακίμι", "χακίμι"],
+            image: "images/football-players/achraf-hakimi.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["φεδερίκο βαλβέρδε", "βαλβέρδε"],
+            image: "images/football-players/federico-valverde.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["πεντρί"],
+            image: "images/football-players/pedri.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["γκάβι"],
+            image: "images/football-players/gavi.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μπρούνο φερνάντες"],
+            image: "images/football-players/bruno-fernandes.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μπερνάρντο σίλβα"],
+            image: "images/football-players/bernardo-silva.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["καζεμίρο"],
+            image: "images/football-players/casemiro.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["τόνι κρόος", "κρόος"],
+            image: "images/football-players/toni-kroos.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["λούκα μόντριτς", "μόντριτς"],
+            image: "images/football-players/luka-modric.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["σέρχιο ράμος", "ράμος"],
+            image: "images/football-players/sergio-ramos.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["ζλάταν ιμπραΐμοβιτς", "ιμπραΐμοβιτς"],
+            image: "images/football-players/zlatan-ibrahimovic.jpg",
+            difficulty: "easy"
+        },
+        {
+            answers: ["αντρές ινιέστα", "ινιέστα"],
+            image: "images/football-players/andres-iniesta.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["τσάβι", "τσάβι ερνάντεθ"],
+            image: "images/football-players/xavi.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["ροναλντίνιο"],
+            image: "images/football-players/ronaldinho.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["κακά"],
+            image: "images/football-players/kaka.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["ζινεντίν ζιντάν", "ζιντάν"],
+            image: "images/football-players/zinedine-zidane.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["πελέ"],
+            image: "images/football-players/pele.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["ντιέγκο μαραντόνα", "μαραντόνα"],
+            image: "images/football-players/diego-maradona.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["γιόχαν κρόιφ", "κρόιφ"],
+            image: "images/football-players/johan-cruyff.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["φραντς μπεκενμπάουερ", "μπεκενμπάουερ"],
+            image: "images/football-players/franz-beckenbauer.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["πάολο μαλντίνι", "μαλντίνι"],
+            image: "images/football-players/paolo-maldini.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ρομπέρτο μπάτζιο", "μπάτζιο"],
+            image: "images/football-players/roberto-baggio.jpg",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["τζιανλουίτζι μπουφόν", "μπουφόν"],
+            image: "images/football-players/gianluigi-buffon.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["μανουέλ νοϊερ", "νοϊερ"],
+            image: "images/football-players/manuel-neuer.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["τσαβι σίμονς"],
+            image: "images/football-players/xavi-simons.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ντέκλαν ράις", "ράις"],
+            image: "images/football-players/declan-rice.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μαρτιν όντεγκααρντ", "όντεγκααρντ"],
+            image: "images/football-players/martin-odegaard.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["βίκτορ οσιμέν", "οσιμέν"],
+            image: "images/football-players/victor-osimhen.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["λάουταρο μαρτίνες", "λάουταρο"],
+            image: "images/football-players/lautaro-martinez.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["τζιανλουίτζι ντοναρούμα"],
+            image: "images/football-players/gianluigi-donnarumma.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["σον χέουνγκ μιν", "σον"],
+            image: "images/football-players/son-heung-min.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ριγιάντ μαχρέζ", "μαχρέζ"],
+            image: "images/football-players/riyad-mahrez.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["σάντι καθόρλα"],
+            image: "images/football-players/santi-cazorla.jpg",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["ανχελ ντι μαρία", "ντι μαρία"],
+            image: "images/football-players/angel-di-maria.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ντάβιντ βίγια", "βίγια"],
+            image: "images/football-players/david-villa.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["φερνάντο τόρες", "τόρες"],
+            image: "images/football-players/fernando-torres.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["γουέιν ρούνεϊ", "ρούνεϊ"],
+            image: "images/football-players/wayne-rooney.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["Ντέιβιντ Μπέκαμ", "μπέκαμ"],
+            image: "images/football-players/david-beckham.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["Ρίο Φέρντιναντ", "φέρντιναντ"],
+            image: "images/football-players/rio-ferdinand.jpg",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["Κάρλες Πουγιόλ", "πουγιόλ"],
+            image: "images/football-players/carles-puyol.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["Ρομπέρτο Κάρλος"],
+            image: "images/football-players/roberto-carlos.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["Καφού"],
+            image: "images/football-players/cafu.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["Ρονάλντο Ναζάριο", "το φαινόμενο", "ρονάλντο ναζάριο"],
+            image: "images/football-players/ronaldo-nazario.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["Ριβάλντο"],
+            image: "images/football-players/rivaldo.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["Ρομάριο"],
+            image: "images/football-players/romario.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["Τιερί Ανρί", "ανρί"],
+            image: "images/football-players/thierry-henry.jpg",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["Ντένις Μπέργκαμπ", "μπέργκαμπ"],
+            image: "images/football-players/dennis-bergkamp.jpg",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["Τζορτζ Μπεστ", "μπεστ"],
+            image: "images/football-players/george-best.jpg",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["Λουίς Φίγκο", "φίγκο"],
+            image: "images/football-players/luis-figo.jpg",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["Μίκαελ Λάουντρουπ", "λάουντρουπ"],
+            image: "images/football-players/michael-laudrup.jpg",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["Λόταρ Ματέους", "ματέους"],
+            image: "images/football-players/lothar-matthaus.jpg",
+            difficulty: "hard"
+        }
+
+    ],
+
+    "basketball-clubs": [
+        {
+            answers: ["λόσ άντζελες λέικερς", "λέικερς"],
+            image: "images/basketball-clubs/los-angeles-lakers.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["γκόλντεν στέιτ γουόριορς", "γουόριορς"],
+            image: "images/basketball-clubs/golden-state-warriors.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["μπόστον σέλτικς", "σέλτικς"],
+            image: "images/basketball-clubs/boston-celtics.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["σιικάγο μπουλς", "μπουλς"],
+            image: "images/basketball-clubs/chicago-bulls.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["μιλγουόκι μπακς", "μπακς"],
+            image: "images/basketball-clubs/milwaukee-bucks.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["κλίβελαντ καβαλίερς", "καβαλίερς"],
+            image: "images/basketball-clubs/cleveland-cavaliers.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ντένβερ νάγκετς", "νάγκετς"],
+            image: "images/basketball-clubs/denver-nuggets.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["οκλαχόμα σίτι θάντερ", "θάντερ"],
+            image: "images/basketball-clubs/oklahoma-city-thunder.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["φοίνιξ σανς", "σανς"],
+            image: "images/basketball-clubs/phoenix-suns.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ντάλας μάβερικς", "μάβερικς"],
+            image: "images/basketball-clubs/dallas-mavericks.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["μεμφις γκρίζλις", "γκρίζλις"],
+            image: "images/basketball-clubs/memphis-grizzlies.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μιάμι χιτ", "χιτ"],
+            image: "images/basketball-clubs/miami-heat.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["φιλαδέλφεια 76ερς", "76ερς", "σίξερς"],
+            image: "images/basketball-clubs/philadelphia-76ers.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["νιου γιορκ νικς", "νικς"],
+            image: "images/basketball-clubs/new-york-knicks.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["σαν αντόνιο σπερς", "σπερς"],
+            image: "images/basketball-clubs/san-antonio-spurs.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["σακραμέντο κινγκς", "κινγκς"],
+            image: "images/basketball-clubs/sacramento-kings.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["πορτλαντ τρέιλ μπλέιζερς", "μπλέιζερς"],
+            image: "images/basketball-clubs/portland-trail-blazers.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ιντιάνα πέισερς", "πέισερς"],
+            image: "images/basketball-clubs/indiana-pacers.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ορλάντο μάτζικ", "μάτζικ"],
+            image: "images/basketball-clubs/orlando-magic.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["τορόντο ράπτορς", "ράπτορς"],
+            image: "images/basketball-clubs/toronto-raptors.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ολυμπιακός"],
+            image: "images/basketball-clubs/olympiacos.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["παναθηναϊκός"],
+            image: "images/basketball-clubs/panathinaikos.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["ρεάλ μαδρίτης"],
+            image: "images/basketball-clubs/real-madrid.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["μπαρτσελόνα"],
+            image: "images/basketball-clubs/barcelona.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["φενέρμπαχτσε"],
+            image: "images/basketball-clubs/fenerbahce.png",
+            difficulty: "easy"
+        },
+
+        {
+            answers: ["ανατολού εφές", "εφές"],
+            image: "images/basketball-clubs/anadolu-efes.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μακάμπι τελ αβίβ", "μακάμπι"],
+            image: "images/basketball-clubs/maccabi-tel-aviv.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μονακό"],
+            image: "images/basketball-clubs/monaco.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["παρτίζαν"],
+            image: "images/basketball-clubs/partizan.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ερυθρός αστέρας"],
+            image: "images/basketball-clubs/crvena-zvezda.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ζάλγκιρις"],
+            image: "images/basketball-clubs/zalgiris-kaunas.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["βίρτους μπολόνια"],
+            image: "images/basketball-clubs/virtus-bologna.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μπασκόνια"],
+            image: "images/basketball-clubs/baskonia.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["βιλερμπάν"],
+            image: "images/basketball-clubs/asvel.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["άλμπα βερολίνου"],
+            image: "images/basketball-clubs/alba-berlin.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["πάρις μπάσκετ"],
+            image: "images/basketball-clubs/paris-basketball.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["βαλένθια"],
+            image: "images/basketball-clubs/valencia-basket.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["μπάγερν μονάχου"],
+            image: "images/basketball-clubs/bayern-munich.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["αρμάνι μιλάνο"],
+            image: "images/basketball-clubs/olimpia-milano.png",
+            difficulty: "medium"
+        },
+
+        {
+            answers: ["ντουμπάι μπάσκετ"],
+            image: "images/basketball-clubs/dubai-basketball.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["τσσκα μόσχας", "τσσκα", "cska moscow", "cska"],
+            image: "images/basketball-clubs/cska-moscow.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["χιμκί", "khimki"],
+            image: "images/basketball-clubs/khimki.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["ούνικς καζάν", "ούνικς", "unics kazan", "unics"],
+            image: "images/basketball-clubs/unics-kazan.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["ζενίτ αγίας πετρούπολης", "ζενίτ", "zenit st petersburg", "zenit"],
+            image: "images/basketball-clubs/zenit-st-petersburg.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["λοκομοτίβ κουμπάν", "lokomotiv kuban"],
+            image: "images/basketball-clubs/lokomotiv-kuban.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["μοντεπάσκι σιένα", "σιένα", "montepaschi siena"],
+            image: "images/basketball-clubs/montepaschi-siena.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["μπενετόν τρεβίζο", "μπενετόν", "benetton treviso"],
+            image: "images/basketball-clubs/benetton-treviso.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["φορτιτούντο μπολόνια", "fortitudo bologna"],
+            image: "images/basketball-clubs/fortitudo-bologna.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["τσιμπόνα ζάγκρεμπ", "τσιμπόνα", "cibona zagreb", "cibona"],
+            image: "images/basketball-clubs/cibona-zagreb.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["ρίτας βίλνιους", "ρίτας", "lietuvos rytas", "rytas vilnius"],
+            image: "images/basketball-clubs/rytas-vilnius.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["ντιναμό σάσαρι", "dinamo sassari", "sassari"],
+            image: "images/basketball-clubs/dinamo-sassari.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["μπουντούτσνοστ", "buducnost"],
+            image: "images/basketball-clubs/buducnost.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["γαλατασαράι"],
+            image: "images/basketball-clubs/galatasaray.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["νταρουσάφακα", "darussafaka"],
+            image: "images/basketball-clubs/darussafaka.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["ουνικάχα μαλάγα", "ουνικάχα", "unicaja malaga", "unicaja"],
+            image: "images/basketball-clubs/unicaja-malaga.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["χοβεντούτ μπανταλόνα", "χοβεντούτ", "joventut badalona", "joventut"],
+            image: "images/basketball-clubs/joventut-badalona.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["μπρόουζ μπάμπεργκ", "μπάμπεργκ", "brose bamberg"],
+            image: "images/basketball-clubs/brose-bamberg.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["λιμόζ", "limoges csp", "limoges"],
+            image: "images/basketball-clubs/limoges-csp.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["κκ σπλιτ", "kk split", "σπλιτ"],
+            image: "images/basketball-clubs/kk-split.png",
+            difficulty: "hard"
+        },
+
+        {
+            answers: ["ντιναμό τιφλίδας", "dinamo tbilisi"],
+            image: "images/basketball-clubs/dinamo-tbilisi.png",
+            difficulty: "hard"
+        }
+
+        ],
+
+    actors: [
+    {
+        "answers": ["λεονάρντο ντι κάπριο", "ντι κάπριο", "leonardo dicaprio", "dicaprio"],
+        "image": "images/actors/leonardo-dicaprio.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τομ κρουζ", "tom cruise"],
+        "image": "images/actors/tom-cruise.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ντουέιν τζόνσον", "the rock", "ροκ", "dwayne johnson"],
+        "image": "images/actors/dwayne-johnson.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπραντ πιτ", "brad pitt"],
+        "image": "images/actors/brad-pitt.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζόνι ντεπ", "johnny depp"],
+        "image": "images/actors/johnny-depp.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ρόμπερτ ντάουνι τζούνιορ", "robert downey jr", "robert downey junior"],
+        "image": "images/actors/robert-downey-jr.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κιάνου ριβς", "keanu reeves"],
+        "image": "images/actors/keanu-reeves.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μόργκαν φρίμαν", "morgan freeman"],
+        "image": "images/actors/morgan-freeman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γουίλ σμιθ", "will smith"],
+        "image": "images/actors/will-smith.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζιμ κάρεϊ", "jim carrey"],
+        "image": "images/actors/jim-carrey.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χιου τζάκμαν", "hugh jackman"],
+        "image": "images/actors/hugh-jackman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κρίστιαν μπέιλ", "christian bale"],
+        "image": "images/actors/christian-bale.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ματ ντέιμον", "matt damon"],
+        "image": "images/actors/matt-damon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπεν άφλεκ", "ben affleck"],
+        "image": "images/actors/ben-affleck.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κρις εβανς", "chris evans"],
+        "image": "images/actors/chris-evans.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κρις χέμσγουορθ", "chris hemsworth"],
+        "image": "images/actors/chris-hemsworth.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μαρκ ράφαλο", "mark ruffalo"],
+        "image": "images/actors/mark-ruffalo.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σάμιουελ λ. τζάκσον", "samuel l. jackson", "samuel l jackson"],
+        "image": "images/actors/samuel-l-jackson.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τομ χανκς", "tom hanks"],
+        "image": "images/actors/tom-hanks.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αλ πατσίνο", "al pacino"],
+        "image": "images/actors/al-pacino.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ρόμπερτ ντε νίρο", "robert de niro"],
+        "image": "images/actors/robert-de-niro.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άντονι χόπκινς", "anthony hopkins"],
+        "image": "images/actors/anthony-hopkins.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["χοακίν φίνιξ", "joaquin phoenix"],
+        "image": "images/actors/joaquin-phoenix.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κίλιαν μέρφι", "cillian murphy"],
+        "image": "images/actors/cillian-murphy.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ράιαν γκόσλινγκ", "ryan gosling"],
+        "image": "images/actors/ryan-gosling.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ράιαν ρέινολντς", "ryan reynolds"],
+        "image": "images/actors/ryan-reynolds.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["όρλαντο μπλουμ", "orlando bloom"],
+        "image": "images/actors/orlando-bloom.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ιαν μακκέлен", "ian mckellen"],
+        "image": "images/actors/ian-mckellen.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["βίγκο μόρτενσεν", "viggo mortensen"],
+        "image": "images/actors/viggo-mortensen.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ελάιτζα γουντ", "elijah wood"],
+        "image": "images/actors/elijah-wood.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["άντριου γκάρφιλντ", "andrew garfield"],
+        "image": "images/actors/andrew-garfield.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τόμπι μαγκουάιρ", "tobey maguire"],
+        "image": "images/actors/tobey-maguire.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τομ χόλαντ", "tom holland"],
+        "image": "images/actors/tom-holland.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χένρι κάβιλ", "henry cavill"],
+        "image": "images/actors/henry-cavill.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζέισον στέιθαμ", "jason statham"],
+        "image": "images/actors/jason-statham.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άρνολντ σβαρτσενέγκερ", "arnold schwarzenegger"],
+        "image": "images/actors/arnold-schwarzenegger.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σιλβέστερ σταλόνε", "sylvester stallone"],
+        "image": "images/actors/sylvester-stallone.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζάκι τσαν", "jackie chan"],
+        "image": "images/actors/jackie-chan.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζετ λι", "jet li"],
+        "image": "images/actors/jet-li.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["νίκολας κέιτζ", "nicolas cage"],
+        "image": "images/actors/nicolas-cage.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρασελ κρόου", "russell crowe"],
+        "image": "images/actors/russell-crowe.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["έντουαρντ νόρτον", "edward norton"],
+        "image": "images/actors/edward-norton.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ρέιφ φάινς", "ralph fiennes"],
+        "image": "images/actors/ralph-fiennes.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκάρι όλντμαν", "gary oldman"],
+        "image": "images/actors/gary-oldman.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ντάνιελ ράντκλιφ", "daniel radcliffe"],
+        "image": "images/actors/daniel-radcliffe.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ρούπερτ γκριντ", "rupert grint"],
+        "image": "images/actors/rupert-grint.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["έμα γουότσον", "emma watson"],
+        "image": "images/actors/emma-watson.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["έμα στόουν", "emma stone"],
+        "image": "images/actors/emma-stone.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σκάρλετ γιόχανσον", "scarlett johansson"],
+        "image": "images/actors/scarlett-johansson.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζένιφερ λόρενς", "jennifer lawrence"],
+        "image": "images/actors/jennifer-lawrence.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μάργκοτ ρόμπι", "margot robbie"],
+        "image": "images/actors/margot-robbie.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γκαλ γκαντότ", "gal gadot"],
+        "image": "images/actors/gal-gadot.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νάταλι πόρτμαν", "natalie portman"],
+        "image": "images/actors/natalie-portman.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αν χάθαγουεϊ", "anne hathaway"],
+        "image": "images/actors/anne-hathaway.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σαρλίζ θερόν", "charlize theron"],
+        "image": "images/actors/charlize-theron.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["νικόλ κίντμαν", "nicole kidman"],
+        "image": "images/actors/nicole-kidman.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κέιτ γουίνσλετ", "kate winslet"],
+        "image": "images/actors/kate-winslet.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μέριλ στριπ", "meryl streep"],
+        "image": "images/actors/meryl-streep.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τζούλια ρόμπερτς", "julia roberts"],
+        "image": "images/actors/julia-roberts.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σάντρα μπούλοκ", "sandra bullock"],
+        "image": "images/actors/sandra-bullock.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ζεντάγια", "zendaya"],
+        "image": "images/actors/zendaya.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φλόρενς πιου", "florence pugh"],
+        "image": "images/actors/florence-pugh.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μίλι μπόμπι μπράουν", "millie bobby brown"],
+        "image": "images/actors/millie-bobby-brown.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["άνια τέιλορ τζόι", "anya taylor-joy", "anya taylor joy"],
+        "image": "images/actors/anya-taylor-joy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πέδρο πασκάλ", "pedro pascal"],
+        "image": "images/actors/pedro-pascal.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["όσκαρ άιζακ", "oscar isaac"],
+        "image": "images/actors/oscar-isaac.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["άνταμ ντράιβερ", "adam driver"],
+        "image": "images/actors/adam-driver.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπένεντικτ κάμπερμπατς", "benedict cumberbatch"],
+        "image": "images/actors/benedict-cumberbatch.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μάικλ φασμπέντερ", "michael fassbender"],
+        "image": "images/actors/michael-fassbender.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ίντρις έλμπα", "idris elba"],
+        "image": "images/actors/idris-elba.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ντάνζελ ουάσινγκτον", "denzel washington"],
+        "image": "images/actors/denzel-washington.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζέιμι φοξ", "jamie foxx"],
+        "image": "images/actors/jamie-foxx.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["χάρισον φορντ", "harrison ford"],
+        "image": "images/actors/harrison-ford.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γιούαν μακγκρέγκορ", "ewan mcgregor"],
+        "image": "images/actors/ewan-mcgregor.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λίαμ νίσον", "liam neeson"],
+        "image": "images/actors/liam-neeson.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τιμοτέ σαλαμέ", "timothee chalamet", "timothée chalamet"],
+        "image": "images/actors/timothee-chalamet.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["όστιν μπάτλερ", "austin butler"],
+        "image": "images/actors/austin-butler.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκλεν πάουελ", "glen powell"],
+        "image": "images/actors/glen-powell.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["πολ μέσκαλ", "paul mescal"],
+        "image": "images/actors/paul-mescal.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κόλιν φάρελ", "colin farrell"],
+        "image": "images/actors/colin-farrell.jpg",
+        "difficulty": "medium"
+    }
+],
+
+    "famous-cars": [
+    {
+        "answers": ["mercedes amg gt black series", "amg gt black series", "μερσεντές αμγκ γι τι μπλακ σιρις", "αμγκ γι τι μπλακ σιρις"],
+        "image": "images/famous-cars/mercedes-amg-gt-black-series.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bugatti chiron", "μπουγκάτι σιρόν"],
+        "image": "images/famous-cars/bugatti-chiron.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bugatti bolide", "μπουγκάτι μπολίντ"],
+        "image": "images/famous-cars/bugatti-bolide.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["koenigsegg jesko", "jesko", "κένιγκσεγκ γιέσκο", "γιέσκο"],
+        "image": "images/famous-cars/koenigsegg-jesko.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["koenigsegg jesko absolut", "jesko absolut", "κένιγκσεγκ γιέσκο απσολουτ", "γιέσκο απσολουτ"],
+        "image": "images/famous-cars/koenigsegg-jesko-absolut.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["koenigsegg regera", "κένιγκσεγκ ρεγκέρα"],
+        "image": "images/famous-cars/koenigsegg-regera.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["koenigsegg agera rs", "κένιγκσεγκ αγέρα ρς"],
+        "image": "images/famous-cars/koenigsegg-agera-rs.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["hennessey venom f5", "χένεσιν βένομ ες 5", "χένεσιν βένομ φ5"],
+        "image": "images/famous-cars/hennessey-venom-f5.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rimac nevera", "ρίμακ νεβέρα"],
+        "image": "images/famous-cars/rimac-nevera.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lamborghini aventador", "λαμποργκίνι αβενταντόρ"],
+        "image": "images/famous-cars/lamborghini-aventador.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lamborghini revuelto", "λαμποργκίνι ρεβουέλτο"],
+        "image": "images/famous-cars/lamborghini-revuelto.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lamborghini veneno", "λαμποργκίνι βενένο"],
+        "image": "images/famous-cars/lamborghini-veneno.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ferrari laferrari", "φερράρι λαφερράρι"],
+        "image": "images/famous-cars/ferrari-laferrari.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ferrari f40", "φερράρι ες 40", "φερράρι φ40"],
+        "image": "images/famous-cars/ferrari-f40.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ferrari enzo", "φερράρι ένζο"],
+        "image": "images/famous-cars/ferrari-enzo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mclaren p1", "μακλάρεν πι 1"],
+        "image": "images/famous-cars/mclaren-p1.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mclaren senna", "μακλάρεν σέννα"],
+        "image": "images/famous-cars/mclaren-senna.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mclaren speedtail", "μακλάρεν σπίττειλ"],
+        "image": "images/famous-cars/mclaren-speedtail.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["aston martin valkyrie", "άستون μάρτιν βαλκίρι"],
+        "image": "images/famous-cars/aston-martin-valkyrie.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["aston martin valkyrie amr pro", "άستون μάρτιν βαλκίρι αμρ προ"],
+        "image": "images/famous-cars/aston-martin-valkyrie-amr-pro.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["pagani huayra bc", "παγκάνι ουάιρα μπι σι"],
+        "image": "images/famous-cars/pagani-huayra-bc.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pagani zonda r", "παγκάνι ζόντα αρ"],
+        "image": "images/famous-cars/pagani-zonda-r.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["apollo intensa emozione", "apollo ie", "απόλο ιντένσα εμοτσιονέ", "απόλο ι ε"],
+        "image": "images/famous-cars/apollo-intensa-emozione.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["porsche 911 gt3 rs", "πόρσε 911 γι τι 3 ρς"],
+        "image": "images/famous-cars/porsche-911-gt3-rs.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["porsche taycan turbo gt", "πόρσε ταϊκάν τέρμπο γι τι"],
+        "image": "images/famous-cars/porsche-taycan-turbo-gt.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["porsche 918 spyder", "πόρσε 918 σπάιντερ"],
+        "image": "images/famous-cars/porsche-918-spyder.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bugatti veyron", "μπουγκάτι βεϊρόν"],
+        "image": "images/famous-cars/bugatti-veyron.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bugatti mistral", "μπουγκάτι μιστράλ"],
+        "image": "images/famous-cars/bugatti-mistral.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chevrolet corvette zr1x", "σεβρολέ κορβέτ ζετ αρ 1 ες"],
+        "image": "images/famous-cars/chevrolet-corvette-zr1x.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ford gt", "φορντ γι τι"],
+        "image": "images/famous-cars/ford-gt.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ford mustang shelby gt500", "φορντ μούστανγκ σέλμπι γι τι 500"],
+        "image": "images/famous-cars/ford-mustang-shelby-gt500.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nissan gt-r", "nissan gtr", "gt-r", "gtr", "νισάν γι τι αρ", "νισάν γι τι αρ 35", "γι τι αρ"],
+        "image": "images/famous-cars/nissan-gtr-r35.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["toyota supra mk4", "toyota supra", "supra mk4", "τογιότα σούπρα", "σούπρα μκ4"],
+        "image": "images/famous-cars/toyota-supra-mk4.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mazda rx-7", "mazda rx7", "μάσντα ρεξ 7", "μάζντα ρεξ 7"],
+        "image": "images/famous-cars/mazda-rx7.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dodge challenger srt demon 170", "ντόντζ τσάλιντζερ ες αρ τι δαίμων 170"],
+        "image": "images/famous-cars/dodge-challenger-srt-demon-170.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bmw m4 competition", "μπι εμ νταμπλγιου εμ 4 κομπιτισιον", "μπμω εμ 4"],
+        "image": "images/famous-cars/bmw-m4-competition.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bmw m5 cs", "μπμω εμ 5 σι ες"],
+        "image": "images/famous-cars/bmw-m5-cs.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mercedes amg one", "μερσεντές αμγκ γουάν"],
+        "image": "images/famous-cars/mercedes-amg-one.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mercedes benz 300 slr uhlenhaut coupe", "300 slr uhlenhaut coupe", "μερσεντές μπενζ 300 σλρ ουλενχαουτ κουπέ"],
+        "image": "images/famous-cars/mercedes-300-slr-uhlenhaut-coupe.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mercedes vision avtr", "vision avtr", "μερσεντές βίζιον αβτρ"],
+        "image": "images/famous-cars/mercedes-vision-avtr.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mercedes slr mclaren", "μερσεντές σλρ μακλάρεν"],
+        "image": "images/famous-cars/mercedes-slr-mclaren.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mercedes amg gt r", "μερσεντές αμγκ γι τι αρ"],
+        "image": "images/famous-cars/mercedes-amg-gt-r.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mercedes g63 amg", "g63 amg", "g wagon", "g-class", "τζι βαγκον", "τζι κλας", "μερσεντές τζι 63 αμγκ"],
+        "image": "images/famous-cars/mercedes-g63-amg.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mercedes cls 63 amg", "μερσεντές σι ελ ες 63 αμγκ"],
+        "image": "images/famous-cars/mercedes-cls63-amg.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["bmw m3 gtr", "μπμω εμ 3 γι τι αρ"],
+        "image": "images/famous-cars/bmw-m3-gtr.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bmw i8", "μπμω ι 8"],
+        "image": "images/famous-cars/bmw-i8.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bmw m8 competition", "μπμω εμ 8 κομπιτισιον"],
+        "image": "images/famous-cars/bmw-m8-competition.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["audi r8", "άουντι αρ 8"],
+        "image": "images/famous-cars/audi-r8.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["audi rs6 avant", "άουντι αρ ες 6 αβάντ"],
+        "image": "images/famous-cars/audi-rs6-avant.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["audi rs7", "άουντι αρ ες 7"],
+        "image": "images/famous-cars/audi-rs7.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lexus lfa", "λέξους λφα"],
+        "image": "images/famous-cars/lexus-lfa.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["honda nsx", "χόντα εν ες ιξ"],
+        "image": "images/famous-cars/honda-nsx.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mitsubishi lancer evolution x", "lancer evo x", "evo x", "μιτσουμπίσι λάνσερ εβόλουσιον ιξ", "λάνσερ εβο 10", "εβο 10"],
+        "image": "images/famous-cars/mitsubishi-lancer-evo-x.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["subaru impreza wrx sti", "wrx sti", "σουμπαρού ιμπρέζα νταμπλ αρ ιξ στι", "νταμπλ αρ ιξ στι"],
+        "image": "images/famous-cars/subaru-impreza-wrx-sti.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nissan silvia s15", "νισάν σίλβια σ 15"],
+        "image": "images/famous-cars/nissan-silvia-s15.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["toyota ae86", "τογιότα αε 86"],
+        "image": "images/famous-cars/toyota-ae86.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["dodge viper acr", "ντόντζ βάιπερ ακιρ"],
+        "image": "images/famous-cars/dodge-viper-acr.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chevrolet camaro zl1", "σεβρολέ καμάρο ζετ ελ 1"],
+        "image": "images/famous-cars/chevrolet-camaro-zl1.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chevrolet corvette c8", "σεβρολέ κορβέτ σι 8"],
+        "image": "images/famous-cars/chevrolet-corvette-c8.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ford mustang dark horse", "φορντ μούστανγκ δαρκ χορς"],
+        "image": "images/famous-cars/ford-mustang-dark-horse.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["aston martin db5", "άستون μάρτιν ντι βι 5"],
+        "image": "images/famous-cars/aston-martin-db5.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["aston martin dbs superleggera", "άستون μάρτιν ντι βι ες σουπερλετζέρα"],
+        "image": "images/famous-cars/aston-martin-dbs-superleggera.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ferrari sf90 stradale", "φερράρι ες φ 90 στρατάλε"],
+        "image": "images/famous-cars/ferrari-sf90-stradale.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ferrari 812 superfast", "φερράρι 812 σούπερφαστ"],
+        "image": "images/famous-cars/ferrari-812-superfast.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lamborghini huracan", "λαμποργκίνι ουρακαν"],
+        "image": "images/famous-cars/lamborghini-huracan.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lamborghini sian", "λαμποργκίνι σιάν"],
+        "image": "images/famous-cars/lamborghini-sian.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pagani utopia", "παγκάνι ουτόπια"],
+        "image": "images/famous-cars/pagani-utopia.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["koenigsegg cc850", "κένιγκσεγκ σι σι 850"],
+        "image": "images/famous-cars/koenigsegg-cc850.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["koenigsegg gemera", "κένιγκσεγκ γεμέρα"],
+        "image": "images/famous-cars/koenigsegg-gemera.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bugatti tourbillon", "μπουγκάτι τουρμπιόν"],
+        "image": "images/famous-cars/bugatti-tourbillon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mclaren 720s", "μακλάρεν 720 ες"],
+        "image": "images/famous-cars/mclaren-720s.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mclaren 765lt", "μακλάρεν 765 λτ"],
+        "image": "images/famous-cars/mclaren-765lt.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rolls royce phantom", "ρολς ρόις φάντομ"],
+        "image": "images/famous-cars/rolls-royce-phantom.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["rolls royce ghost", "ρολς ρόις γκωσ", "ρολς ρόις γκονστ"],
+        "image": "images/famous-cars/rolls-royce-ghost.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bentley continental gt", "μπέντλεϊ κοντινένταλ γι τι"],
+        "image": "images/famous-cars/bentley-continental-gt.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["porsche carrera gt", "πόρσε καρέρα γι τι"],
+        "image": "images/famous-cars/porsche-carrera-gt.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["porsche 959", "πόρσε 959"],
+        "image": "images/famous-cars/porsche-959.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jaguar xj220", "τζάγκουαρ ες τζι 220"],
+        "image": "images/famous-cars/jaguar-xj220.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ssc tuatara", "εσ ες σι τουατάρα"],
+        "image": "images/famous-cars/ssc-tuatara.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["de tomaso p72", "ντε τομάσο πι 72"],
+        "image": "images/famous-cars/de-tomaso-p72.jpg",
+        "difficulty": "hard"
+    }
+],
+
+"f1-drivers": [
+    {
+        "answers": ["lewis hamilton", "hamilton", "λύις χάμιλτον", "χάμιλτον"],
+        "image": "images/f1-drivers/lewis-hamilton.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["max verstappen", "verstappen", "μαξ φερστάπεν", "φερστάπεν"],
+        "image": "images/f1-drivers/max-verstappen.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["charles leclerc", "leclerc", "σαρλ λεκλέρ", "λεκλέρ"],
+        "image": "images/f1-drivers/charles-leclerc.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lando norris", "norris", "λάντο νόρις", "νόρις"],
+        "image": "images/f1-drivers/lando-norris.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["oscar piastri", "piastri", "όσκαρ πιάστρι", "πιάστρι"],
+        "image": "images/f1-drivers/oscar-piastri.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["george russell", "russell", "τζόρτζ ρασέλ", "ρασέλ"],
+        "image": "images/f1-drivers/george-russell.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["carlos sainz", "sainz", "κάρλος σάινθ", "σάινθ"],
+        "image": "images/f1-drivers/carlos-sainz.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["fernando alonso", "alonso", "φερνάντο αλόνσο", "αλόνσο"],
+        "image": "images/f1-drivers/fernando-alonso.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sebastian vettel", "vettel", "σεμπάστιαν φέτελ", "φέτελ"],
+        "image": "images/f1-drivers/sebastian-vettel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["michael schumacher", "schumacher", "μιχαήλ σουμάχερ", "σουμάχερ"],
+        "image": "images/f1-drivers/michael-schumacher.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ayrton senna", "senna", "αΐρτον σένα", "σένα"],
+        "image": "images/f1-drivers/ayrton-senna.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["alain prost", "prost", "αλάν προστ", "προστ"],
+        "image": "images/f1-drivers/alain-prost.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["niki lauda", "lauda", "νίκι λάουντα", "λάουντα"],
+        "image": "images/f1-drivers/niki-lauda.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jenson button", "button", "τζένσον μπάτον", "μπάτον"],
+        "image": "images/f1-drivers/jenson-button.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["kimi raikkonen", "raikkonen", "kimi", "κίμι ραϊκόνεν", "ραϊκόνεν", "κίμι"],
+        "image": "images/f1-drivers/kimi-raikkonen.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["nico rosberg", "rosberg", "νίκο ρόσμπεργκ", "ρόσμπεργκ"],
+        "image": "images/f1-drivers/nico-rosberg.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["daniel ricciardo", "ricciardo", "ντάνιελ ρικιάρντο", "ρικιάρντο"],
+        "image": "images/f1-drivers/daniel-ricciardo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sergio perez", "perez", "checo perez", "σέρτζιο πέρεζ", "πέρεζ", "τσέκο πέρεζ"],
+        "image": "images/f1-drivers/sergio-perez.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["valtteri bottas", "bottas", "βάλτερι μπότας", "μπότας"],
+        "image": "images/f1-drivers/valtteri-bottas.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["felipe massa", "massa", "φελίπε μάσα", "μάσα"],
+        "image": "images/f1-drivers/felipe-massa.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jacques villeneuve", "villeneuve", "ζακ βιλνέβ", "βιλνέβ"],
+        "image": "images/f1-drivers/jacques-villeneuve.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mika hakkinen", "hakkinen", "μίκα χάκινεν", "χάκινεν"],
+        "image": "images/f1-drivers/mika-hakkinen.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["damon hill", "hill", "ντέιμον χιλ", "χιλ"],
+        "image": "images/f1-drivers/damon-hill.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nelson piquet", "piquet", "νέλσον پیکέ", "νέλσον πικέ", "πικέ"],
+        "image": "images/f1-drivers/nelson-piquet.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nigel mansell", "mansell", "νάιτζελ μάνσελ", "μάνσελ"],
+        "image": "images/f1-drivers/nigel-mansell.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["emerson fittipaldi", "fittipaldi", "έμερσον φιτιπάλντι", "φιτιπάλντι"],
+        "image": "images/f1-drivers/emerson-fittipaldi.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jackie stewart", "stewart", "τζάκι στίουαρτ", "στίουαρτ"],
+        "image": "images/f1-drivers/jackie-stewart.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jim clark", "clark", "τζιμ κλαρκ", "κλαρκ"],
+        "image": "images/f1-drivers/jim-clark.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["gilles villeneuve", "ζιλ βιλνέβ"],
+        "image": "images/f1-drivers/gilles-villeneuve.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ronnie peterson", "ρόνι πέτερσον"],
+        "image": "images/f1-drivers/ronnie-peterson.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mark webber", "μαρκ γουέμπερ"],
+        "image": "images/f1-drivers/mark-webber.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rubens barrichello", "ρούμπενς μπαρικέλο"],
+        "image": "images/f1-drivers/rubens-barrichello.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["david coulthard", "ντέιβιντ κούλθαρντ"],
+        "image": "images/f1-drivers/david-coulthard.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ralf schumacher", "ραλφ σουμάχερ"],
+        "image": "images/f1-drivers/ralf-schumacher.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["juan pablo montoya", "montoya", "χουάν πάμπλο μοντόγια", "μοντόγια"],
+        "image": "images/f1-drivers/juan-pablo-montoya.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jarno trulli", "γιάρνο τρούλι"],
+        "image": "images/f1-drivers/jarno-trulli.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["giancarlo fisichella", "τζιανκάρλο φυσικέλα"],
+        "image": "images/f1-drivers/giancarlo-fisichella.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["heikki kovalainen", "χέικη κοβαλάινεν"],
+        "image": "images/f1-drivers/heikki-kovalainen.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["yuki tsunoda", "γούκι τσουνόντα", "γιούκι τσουνόντα"],
+        "image": "images/f1-drivers/yuki-tsunoda.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["alex albon", "άλεξ άλμπον"],
+        "image": "images/f1-drivers/alex-albon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["liam lawson", "λίαμ λόوسον"],
+        "image": "images/f1-drivers/liam-lawson.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["andrea kimi antonelli", "kimi antonelli", "antonelli", "αντρέα κίμι αντονέλι", "κίμι αντονέλι", "αντονέλι"],
+        "image": "images/f1-drivers/kimi-antonelli.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["oliver bearman", "bearman", "όλιβερ μπίρμαν", "μπίρμαν"],
+        "image": "images/f1-drivers/oliver-bearman.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["gabriel bortoleto", "bortoleto", "γκαμπριέλ μπορτολέτο", "μπορτολέτο"],
+        "image": "images/f1-drivers/gabriel-bortoleto.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["isack hadjar", "hadjar", "ισάκ χατζάρ", "χατζάρ"],
+        "image": "images/f1-drivers/isack-hadjar.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["esteban ocon", "ocon", "εστεμπάν οκόν", "οκόν"],
+        "image": "images/f1-drivers/esteban-ocon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pierre gasly", "gasly", "πιερ γκασλί", "γκασλί"],
+        "image": "images/f1-drivers/pierre-gasly.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lance stroll", "stroll", "λανς στρολ", "στρολ"],
+        "image": "images/f1-drivers/lance-stroll.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nico hulkenberg", "hulkenberg", "νίκο χούλκενμπεργκ", "χούλκενμπεργκ"],
+        "image": "images/f1-drivers/nico-hulkenberg.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["kevin magnussen", "magnussen", "κέβιν μάγκνουσεν", "μάγκνουσεν"],
+        "image": "images/f1-drivers/kevin-magnussen.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["romain grosjean", "grosjean", "ρομέν γκροζάν", "γκροζάν"],
+        "image": "images/f1-drivers/romain-grosjean.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["pastor maldonado", "maldonado", "πάστορ μαλντονάδο", "μαλντονάδο"],
+        "image": "images/f1-drivers/pastor-maldonado.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jean alesi", "alesi", "ζαν αλεζί", "αλεζί"],
+        "image": "images/f1-drivers/jean-alesi.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["gerhard berger", "berger", "γκέραρντ μπέργκερ", "μπέργκερ"],
+        "image": "images/f1-drivers/gerhard-berger.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["rene arnoux", "ρενέ αρνού"],
+        "image": "images/f1-drivers/rene-arnoux.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["carlos reutemann", "κάρλος ρόιτεμαν"],
+        "image": "images/f1-drivers/carlos-reutemann.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["john surtees", "τζον σόρτις"],
+        "image": "images/f1-drivers/john-surtees.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["graham hill", "γράφας χιλ", "γκράχαμ χιλ"],
+        "image": "images/f1-drivers/graham-hill.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jochen rindt", "γίοχεν ριντ"],
+        "image": "images/f1-drivers/jochen-rindt.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jody schekter", "ζόντι σέκτερ", "τζόντι σέκτερ"],
+        "image": "images/f1-drivers/jody-scheckter.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["alan jones", "άλαν τζόουνς"],
+        "image": "images/f1-drivers/alan-jones.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["keke rosberg", "κέκε ρόσμπεργκ"],
+        "image": "images/f1-drivers/keke-rosberg.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["alan prost", "αλάν προστ"],
+        "image": "images/f1-drivers/alain-prost.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jacques laffite", "ζακ λαφίτ"],
+        "image": "images/f1-drivers/jacques-laffite.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["didier pironi", "ντιντιέ πιρονί"],
+        "image": "images/f1-drivers/didier-pironi.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["riccardo patrese", "ρικάρντο πατρίζε"],
+        "image": "images/f1-drivers/riccardo-patrese.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["eddie irvine", "έντι ιρβάιν"],
+        "image": "images/f1-drivers/eddie-irvine.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["heinz harald frentzen", "χάιντς χάραλντ φρέντσεν"],
+        "image": "images/f1-drivers/heinz-harald-frentzen.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["felipe drugovich", "φελίπε ντρουγκόβιτς"],
+        "image": "images/f1-drivers/felipe-drugovich.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["theo pourchaire", "τεό πουρσέρ"],
+        "image": "images/f1-drivers/theo-pourchaire.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["franco colapinto", "φράνκο κολαπίντο"],
+        "image": "images/f1-drivers/franco-colapinto.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jack doohan", "τζακ ντούχαν"],
+        "image": "images/f1-drivers/jack-doohan.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["logan sargeant", "λόγκαν σάρτζεντ"],
+        "image": "images/f1-drivers/logan-sargeant.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nyck de vries", "νικ ντε φρις"],
+        "image": "images/f1-drivers/nyck-de-vries.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["antonio giovinazzi", "αντόνιο τζοβινάτσι"],
+        "image": "images/f1-drivers/antonio-giovinazzi.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["robert kubica", "ρόμπερτ κουμπίτσα"],
+        "image": "images/f1-drivers/robert-kubica.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["kamui kobayashi", "καμούι κομπαγιάσι"],
+        "image": "images/f1-drivers/kamui-kobayashi.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["brendon hartley", "πρέντον χάρτλεϊ", "μπρέντον χάρτλεϊ"],
+        "image": "images/f1-drivers/brendon-hartley.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["stoffel vandoorne", "στόφελ βανντόρν"],
+        "image": "images/f1-drivers/stoffel-vandoorne.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["felipe nasr", "φελίπε νασρ"],
+        "image": "images/f1-drivers/felipe-nasr.jpg",
+        "difficulty": "hard"
+    }
+],
+
+"car-logos": [
+    {
+        "answers": ["byd"],
+        "image": "images/car-logos/byd.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["geely"],
+        "image": "images/car-logos/geely.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["chery"],
+        "image": "images/car-logos/chery.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["great wall", "gwm"],
+        "image": "images/car-logos/great-wall.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mg"],
+        "image": "images/car-logos/mg.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["roewe"],
+        "image": "images/car-logos/roewe.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["haval"],
+        "image": "images/car-logos/haval.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["li auto"],
+        "image": "images/car-logos/li-auto.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["zeekr"],
+        "image": "images/car-logos/zeekr.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lotus"],
+        "image": "images/car-logos/lotus.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pagani"],
+        "image": "images/car-logos/pagani.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bugatti"],
+        "image": "images/car-logos/bugatti.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lamborghini"],
+        "image": "images/car-logos/lamborghini.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mclaren"],
+        "image": "images/car-logos/mclaren.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["koenigsegg"],
+        "image": "images/car-logos/koenigsegg.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rimac"],
+        "image": "images/car-logos/rimac.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["smart"],
+        "image": "images/car-logos/smart.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["alpine"],
+        "image": "images/car-logos/alpine.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ds automobiles", "ds"],
+        "image": "images/car-logos/ds.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ram"],
+        "image": "images/car-logos/ram.png",
+        "difficulty": "medium"
+    }
+],
+
+"football-clubs": [
+    {
+        "answers": ["bayer leverkusen", "leverkusen"],
+        "image": "images/football-clubs/bayer-leverkusen.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rb leipzig", "leipzig"],
+        "image": "images/football-clubs/rb-leipzig.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["eintracht frankfurt", "frankfurt"],
+        "image": "images/football-clubs/eintracht-frankfurt.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["everton"],
+        "image": "images/football-clubs/everton.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["newcastle united", "newcastle"],
+        "image": "images/football-clubs/newcastle.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["aston villa", "villa"],
+        "image": "images/football-clubs/aston-villa.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["west ham united", "west ham"],
+        "image": "images/football-clubs/west-ham.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["leeds united", "leeds"],
+        "image": "images/football-clubs/leeds.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nottingham forest", "forest"],
+        "image": "images/football-clubs/nottingham-forest.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["feyenoord"],
+        "image": "images/football-clubs/feyenoord.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["az alkmaar", "az"],
+        "image": "images/football-clubs/az-alkmaar.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["torino"],
+        "image": "images/football-clubs/torino.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sampdoria"],
+        "image": "images/football-clubs/sampdoria.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["genoa"],
+        "image": "images/football-clubs/genoa.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["parma"],
+        "image": "images/football-clubs/parma.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nice", "ogc nice"],
+        "image": "images/football-clubs/nice.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["rennes", "stade rennais"],
+        "image": "images/football-clubs/rennes.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["aris thessaloniki", "aris"],
+        "image": "images/football-clubs/aris.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["independiente"],
+        "image": "images/football-clubs/independiente.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["penarol", "peñarol"],
+        "image": "images/football-clubs/penarol.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nacional"],
+        "image": "images/football-clubs/nacional.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["colo colo", "colo-colo"],
+        "image": "images/football-clubs/colo-colo.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["al ahly"],
+        "image": "images/football-clubs/al-ahly.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["zamalek"],
+        "image": "images/football-clubs/zamalek.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["urawa red diamonds", "urawa reds"],
+        "image": "images/football-clubs/urawa-reds.png",
+        "difficulty": "hard"
+    }
+],
+
+
+"country-flags": 
+       [
+    {
+        "answers": ["ελλάδα", "greece"],
+        "image": "images/country-flags/greece.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κύπρος", "cyprus"],
+        "image": "images/country-flags/cyprus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γερμανία", "germany"],
+        "image": "images/country-flags/germany.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γαλλία", "france"],
+        "image": "images/country-flags/france.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ιταλία", "italy"],
+        "image": "images/country-flags/italy.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ισπανία", "spain"],
+        "image": "images/country-flags/spain.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πορτογαλία", "portugal"],
+        "image": "images/country-flags/portugal.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ηνωμένο βασίλειο", "αγγλία", "uk", "united kingdom"],
+        "image": "images/country-flags/united-kingdom.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ηνωμένες πολιτείες", "αμερική", "usa", "united states"],
+        "image": "images/country-flags/united-states.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["καναδάς", "canada"],
+        "image": "images/country-flags/canada.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μεξικό", "mexico"],
+        "image": "images/country-flags/mexico.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βραζιλία", "brazil"],
+        "image": "images/country-flags/brazil.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αργεντινή", "argentina"],
+        "image": "images/country-flags/argentina.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ολλανδία", "netherlands"],
+        "image": "images/country-flags/netherlands.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βέλγιο", "belgium"],
+        "image": "images/country-flags/belgium.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ελβετία", "switzerland"],
+        "image": "images/country-flags/switzerland.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αυστρία", "austria"],
+        "image": "images/country-flags/austria.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σουηδία", "sweden"],
+        "image": "images/country-flags/sweden.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νορβηγία", "norway"],
+        "image": "images/country-flags/norway.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φινλανδία", "finland"],
+        "image": "images/country-flags/finland.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["δανία", "denmark"],
+        "image": "images/country-flags/denmark.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ιρλανδία", "ireland"],
+        "image": "images/country-flags/ireland.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πολωνία", "poland"],
+        "image": "images/country-flags/poland.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τουρκία", "turkey"],
+        "image": "images/country-flags/turkey.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ιαπωνία", "japan"],
+        "image": "images/country-flags/japan.jpg",
+        "difficulty": "easy"
+    }
+],
+movies: [
+    {
+        "answers": ["avatar", "αβατάρ"],
+        "image": "images/movies/avatar.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["titanic", "τιτανικός"],
+        "image": "images/movies/titanic.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["the lion king", "ο βασιλιάς των λιονταριών", "lion king"],
+        "image": "images/movies/the-lion-king.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["frozen", "ψυχra και ανάποδα"],
+        "image": "images/movies/frozen.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["toy story", "τόι στόρι"],
+        "image": "images/movies/toy-story.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["cars", "αμάξια"],
+        "image": "images/movies/cars.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["finding nemo", "ψάχνοντας τον νέμο", "nemo"],
+        "image": "images/movies/finding-nemo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["inside out", "τα μυalά που κουβαλάς"],
+        "image": "images/movies/inside-out.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["up", "ψηλά στον ουρανό"],
+        "image": "images/movies/up.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["coco", "κόκο"],
+        "image": "images/movies/coco.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["shrek", "σρεκ"],
+        "image": "images/movies/shrek.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kung fu panda", "κουνγκ φου πάνδα"],
+        "image": "images/movies/kung-fu-panda.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["madagascar", "μαδαγασκάρη"],
+        "image": "images/movies/madagascar.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ice age", "η εποχή των παγετώνων"],
+        "image": "images/movies/ice-age.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["despicable me", "εγω ο απαισιότατος"],
+        "image": "images/movies/despicable-me.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["minions", "μιόνιονς"],
+        "image": "images/movies/minions.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["moana", "μοάνα"],
+        "image": "images/movies/moana.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["zootopia", "ζωούπολη"],
+        "image": "images/movies/zootopia.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["encanto", "ενκάντο"],
+        "image": "images/movies/encanto.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["the incredibles", "οι απίθανοι"],
+        "image": "images/movies/the-incredibles.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["harry potter", "χάρι πότερ"],
+        "image": "images/movies/harry-potter.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["the lord of the rings", "ο άρχοντας των δαχτυλιδιών", "lord of the rings"],
+        "image": "images/movies/the-lord-of-the-rings.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["the hobbit", "χόμπιτ", "hobbit"],
+        "image": "images/movies/the-hobbit.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["star wars", "πόλεμος των άστρων"],
+        "image": "images/movies/star-wars.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["jurassic park", "τζουράσικ παρκ"],
+        "image": "images/movies/jurassic-park.jpg",
+        "difficulty": "easy"
+    }
+],
+
+
+"video-games": [
+    {
+        "answers": ["minecraft", "μαϊνκραφτ"],
+        "image": "images/video-games/minecraft.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["fortnite", "φορτναϊτ"],
+        "image": "images/video-games/fortnite.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["roblox", "ρομπλοξ"],
+        "image": "images/video-games/roblox.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["grand theft auto v", "gta v", "gta 5", "γκτα 5"],
+        "image": "images/video-games/gta-v.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["red dead redemption 2", "rdr2"],
+        "image": "images/video-games/red-dead-redemption-2.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["call of duty", "κολ οφ ντιουτι"],
+        "image": "images/video-games/call-of-duty.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["counter strike 2", "cs2", "καουντερ στραικ 2"],
+        "image": "images/video-games/counter-strike-2.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["valorant", "βαλοραντ"],
+        "image": "images/video-games/valorant.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["league of legends", "lol", "λιγκ οφ λετζεντς", "λολ"],
+        "image": "images/video-games/league-of-legends.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["dota 2", "ντοτα 2"],
+        "image": "images/video-games/dota-2.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rocket league", "ροκετ λιγκ"],
+        "image": "images/video-games/rocket-league.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ea sports fc 26", "fc 26", "φιφα 26"],
+        "image": "images/video-games/fc-26.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ea sports fc 25", "fc 25", "φιφα 25"],
+        "image": "images/video-games/fc-25.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["efootball", "ιφουτμπολ"],
+        "image": "images/video-games/efootball.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["among us", "αμονγκ ασ"],
+        "image": "images/video-games/among-us.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["fall guys", "φολ γκαις"],
+        "image": "images/video-games/fall-guys.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["the sims 4", "σιμς 4", "sims 4"],
+        "image": "images/video-games/the-sims-4.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["terraria", "τεραρια"],
+        "image": "images/video-games/terraria.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["stardew valley", "νταρντιου βαλει"],
+        "image": "images/video-games/stardew-valley.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["subnautica", "σαμπναουτικα"],
+        "image": "images/video-games/subnautica.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["elden ring", "ελντεν ρινγκ"],
+        "image": "images/video-games/elden-ring.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dark souls", "νταρκ σουλς"],
+        "image": "images/video-games/dark-souls.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bloodborne", "μπλαντμπορν"],
+        "image": "images/video-games/bloodborne.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sekiro", "σεκιρο"],
+        "image": "images/video-games/sekiro.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["cyberpunk 2077", "κυμπερπανκ 2077"],
+        "image": "images/video-games/cyberpunk-2077.jpg",
+        "difficulty": "medium"
+    }
+],
+
+"basketball-players": [
+    {
+        "answers": ["kyle clyburn", "clyburn"],
+        "image": "images/basketball-players/will-clyburn.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nigel hayes davis", "nigel hayes", "hayes davis"],
+        "image": "images/basketball-players/nigel-hayes-davis.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["wade baldwin", "baldwin"],
+        "image": "images/basketball-players/wade-baldwin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["kevin punter", "punter"],
+        "image": "images/basketball-players/kevin-punter.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mario hezonja", "hezonja"],
+        "image": "images/basketball-players/mario-hezonja.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["donta hall", "hall"],
+        "image": "images/basketball-players/donta-hall.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jan vesely", "vesely"],
+        "image": "images/basketball-players/jan-vesely.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tomas satoransky", "satoransky"],
+        "image": "images/basketball-players/tomas-satoransky.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jabari parker", "parker"],
+        "image": "images/basketball-players/jabari-parker.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["willy hernangomez", "hernangomez"],
+        "image": "images/basketball-players/willy-hernangomez.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["juancho hernangomez", "hernangomez"],
+        "image": "images/basketball-players/juancho-hernangomez.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lorenzo brown", "brown"],
+        "image": "images/basketball-players/lorenzo-brown.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sterling brown", "brown"],
+        "image": "images/basketball-players/sterling-brown.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["carsen edwards", "edwards"],
+        "image": "images/basketball-players/carsen-edwards.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dwayne bacon", "bacon"],
+        "image": "images/basketball-players/dwayne-bacon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jordan loyd", "loyd"],
+        "image": "images/basketball-players/jordan-loyd.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["el okobo", "elie okobo"],
+        "image": "images/basketball-players/elie-okobo.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mike james", "james"],
+        "image": "images/basketball-players/mike-james.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["donatas motiejunas", "motiejunas"],
+        "image": "images/basketball-players/donatas-motiejunas.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["kemba walker", "walker"],
+        "image": "images/basketball-players/kemba-walker.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["shabazz napier", "napier"],
+        "image": "images/basketball-players/shabazz-napier.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bryn forbes", "forbes"],
+        "image": "images/basketball-players/bryn-forbes.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["derrick williams", "williams"],
+        "image": "images/basketball-players/derrick-williams.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nikola kalinic", "kalinic"],
+        "image": "images/basketball-players/nikola-kalinic.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["stefan jovic", "jovic"],
+        "image": "images/basketball-players/stefan-jovic.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["vladimir lucic", "lucic"],
+        "image": "images/basketball-players/vladimir-lucic.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["oggnjen kuzmic", "kuzmic"],
+        "image": "images/basketball-players/ognjen-kuzmic.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nemanjia bjelica", "bjelica"],
+        "image": "images/basketball-players/nemanja-bjelica.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bogdan bogdanovic", "bogdanovic"],
+        "image": "images/basketball-players/bogdan-bogdanovic.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["boban marjanovic", "marjanovic"],
+        "image": "images/basketball-players/boban-marjanovic.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["aleksej pokusevski", "pokusevski"],
+        "image": "images/basketball-players/aleksej-pokusevski.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["vasilije micic", "micic"],
+        "image": "images/basketball-players/vasilije-micic.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["furkan korkmaz", "korkmaz"],
+        "image": "images/basketball-players/furkan-korkmaz.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cedi osman", "osman"],
+        "image": "images/basketball-players/cedi-osman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["alperen sengun", "sengun"],
+        "image": "images/basketball-players/alperen-sengun.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["omer yurtseven", "yurtseven"],
+        "image": "images/basketball-players/omer-yurtseven.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["deni avdija", "avdija"],
+        "image": "images/basketball-players/deni-avdija.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jonas valanciunas", "valanciunas"],
+        "image": "images/basketball-players/jonas-valanciunas.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["domantas sabonis", "sabonis"],
+        "image": "images/basketball-players/domantas-sabonis.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["arvidas sabonis", "sabonis"],
+        "image": "images/basketball-players/vydmantas-sabonis.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lauri markkanen", "markkanen"],
+        "image": "images/basketball-players/lauri-markkanen.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["franz wagner", "wagner"],
+        "image": "images/basketball-players/franz-wagner.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["moritz wagner", "wagner"],
+        "image": "images/basketball-players/moritz-wagner.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dennis schroder", "schroder"],
+        "image": "images/basketball-players/dennis-schroder.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["dirk nowitzki", "nowitzki"],
+        "image": "images/basketball-players/dirk-nowitzki.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["detlef schrempf", "schrempf"],
+        "image": "images/basketball-players/detlef-schrempf.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["gorgui dieng", "dieng"],
+        "image": "images/basketball-players/gorgui-dieng.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["pascal siakam", "siakam"],
+        "image": "images/basketball-players/pascal-siakam.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["og anunoby", "anunoby"],
+        "image": "images/basketball-players/og-anunoby.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bennedict mathurin", "mathurin"],
+        "image": "images/basketball-players/bennedict-mathurin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chris bosh", "bosh"],
+        "image": "images/basketball-players/chris-bosh.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["steve nash", "nash"],
+        "image": "images/basketball-players/steve-nash.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["vince carter", "carter"],
+        "image": "images/basketball-players/vince-carter.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["tracy mcgrady", "mcgrady"],
+        "image": "images/basketball-players/tracy-mcgrady.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["yao ming", "ming"],
+        "image": "images/basketball-players/yao-ming.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["manu ginobili", "ginobili"],
+        "image": "images/basketball-players/manu-ginobili.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["luis scola", "scola"],
+        "image": "images/basketball-players/luis-scola.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["andrea bargnani", "bargnani"],
+        "image": "images/basketball-players/andrea-bargnani.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["marco belinelli", "belinelli"],
+        "image": "images/basketball-players/marco-belinelli.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["danilo gallinari", "gallinari"],
+        "image": "images/basketball-players/danilo-gallinari.jpg",
+        "difficulty": "medium"
+    }
+],
+
+    brands: [
+    {
+        "answers": ["nike", "ναικ", "νικε"],
+        "image": "images/brands/nike.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["adidas", "αντιντας"],
+        "image": "images/brands/adidas.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["puma", "πουμα"],
+        "image": "images/brands/puma.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["under armour", "αντερ αρμουρ"],
+        "image": "images/brands/under-armour.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["new balance", "νιου μπαλανς"],
+        "image": "images/brands/new-balance.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["asics", "ασικς"],
+        "image": "images/brands/asics.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["anta", "αντα"],
+        "image": "images/brands/anta.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["reebok", "ριμποκ"],
+        "image": "images/brands/reebok.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["converse", "κονβερς", "σταρακια"],
+        "image": "images/brands/converse.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["vans", "βανς"],
+        "image": "images/brands/vans.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["gucci", "γκουτσι"],
+        "image": "images/brands/gucci.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["louis vuitton", "λουι βιτον", "lv"],
+        "image": "images/brands/louis-vuitton.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["prada", "πραντα"],
+        "image": "images/brands/prada.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chanel", "σανελ"],
+        "image": "images/brands/chanel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["dior", "ντιορ"],
+        "image": "images/brands/dior.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["versace", "βερσατσε"],
+        "image": "images/brands/versace.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["armani", "αρμανι"],
+        "image": "images/brands/armani.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dolce and gabbana", "dolce & gabbana", "d&g", "ντολτσε και γκαμπανα"],
+        "image": "images/brands/dolce-gabbana.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["balenciaga", "μπαλενσιαγκα"],
+        "image": "images/brands/balenciaga.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["burberry", "μπερμπερι"],
+        "image": "images/brands/burberry.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["fendi", "φεντι"],
+        "image": "images/brands/fendi.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["givenchy", "ζιβανσι"],
+        "image": "images/brands/givenchy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["valentino", "βαλεντινο"],
+        "image": "images/brands/valentino.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["moncler", "μονκλερ"],
+        "image": "images/brands/moncler.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["stone island", "στοουν αιλαντ"],
+        "image": "images/brands/stone-island.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["off white", "οφ γουαιτ"],
+        "image": "images/brands/off-white.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["supreme", "σουπριμ"],
+        "image": "images/brands/supreme.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["palm angels", "παλμ ειντζελς"],
+        "image": "images/brands/palm-angels.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["fear of god", "φιρ οφ γκοντ"],
+        "image": "images/brands/fear-of-god.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tommy hilfiger", "τομι χιλφιγκερ"],
+        "image": "images/brands/tommy-hilfiger.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["calvin klein", "καλβιν κλαιν", "ck"],
+        "image": "images/brands/calvin-klein.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["hugo boss", "boss", "χουγκο μπος", "μπος"],
+        "image": "images/brands/hugo-boss.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ralph lauren", "polo", "ραλφ λορεν", "πολο"],
+        "image": "images/brands/ralph-lauren.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lacoste", "λακοστ"],
+        "image": "images/brands/lacoste.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["cartier", "καρτιε"],
+        "image": "images/brands/cartier.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rolex", "ρολεξ"],
+        "image": "images/brands/rolex.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["tiffany and co", "tiffany & co", "τιφανι"],
+        "image": "images/brands/tiffany-co.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["hermes", "ερμες"],
+        "image": "images/brands/hermes.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["omega", "ωμεγα"],
+        "image": "images/brands/omega.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tag heuer", "ταγκ χογιερ"],
+        "image": "images/brands/tag-heuer.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["apple", "απλ"],
+        "image": "images/brands/apple.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["samsung", "σαμσουνγκ"],
+        "image": "images/brands/samsung.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["google", "γκουγκλ"],
+        "image": "images/brands/google.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["microsoft", "μαικροσοφτ"],
+        "image": "images/brands/microsoft.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["intel", "ιντελ"],
+        "image": "images/brands/intel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["amd", "εϊ εμ ντι", "αμντ"],
+        "image": "images/brands/amd.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nvidia", "ενβιντια"],
+        "image": "images/brands/nvidia.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["huawei", "χουαγουει"],
+        "image": "images/brands/huawei.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["xiaomi", "σιαομι", "ξιαομι"],
+        "image": "images/brands/xiaomi.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["oneplus", "ουανπλας"],
+        "image": "images/brands/oneplus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["playstation", "πλειστεισον", "ps"],
+        "image": "images/brands/playstation.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["xbox", "εξμποξ"],
+        "image": "images/brands/xbox.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["nintendo", "νιντεντο"],
+        "image": "images/brands/nintendo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["steam", "στιμ"],
+        "image": "images/brands/steam.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["epic games", "επικ γκειμς", "epic"],
+        "image": "images/brands/epic-games.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rockstar games", "rockstar", "ροκσταρ"],
+        "image": "images/brands/rockstar-games.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ubisoft", "γιουμπισοφτ"],
+        "image": "images/brands/ubisoft.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ea sports", "ea", "η ει σπορτς", "η ει"],
+        "image": "images/brands/ea-sports.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["riot games", "riot", "ραιοτ γκειμς", "ραιοτ"],
+        "image": "images/brands/riot-games.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["blizzard", "μπλιζαρντ"],
+        "image": "images/brands/blizzard.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["netflix", "νετφλιξ"],
+        "image": "images/brands/netflix.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["disney plus", "disney+", "ντισνει πλας", "ντισνει"],
+        "image": "images/brands/disney-plus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["youtube", "γιουτιουμπ"],
+        "image": "images/brands/youtube.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["instagram", "ινσταγκραμ", "ινστα"],
+        "image": "images/brands/instagram.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["tiktok", "τικτοκ"],
+        "image": "images/brands/tiktok.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["spotify", "σποτιφαι"],
+        "image": "images/brands/spotify.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["twitch", "τουιτς"],
+        "image": "images/brands/twitch.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["amazon", "αμαζον"],
+        "image": "images/brands/amazon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ikea", "ικεα"],
+        "image": "images/brands/ikea.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lego", "λεγκο"],
+        "image": "images/brands/lego.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["coca cola", "κοκα κολα", "κοκα"],
+        "image": "images/brands/coca-cola.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pepsi", "πεπσι"],
+        "image": "images/brands/pepsi.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["red bull", "ρεντ μπουλ"],
+        "image": "images/brands/red-bull.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["monster energy", "monster", "μονστερ"],
+        "image": "images/brands/monster-energy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["starbucks", "σταρμπακς"],
+        "image": "images/brands/starbucks.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mcdonalds", "mcdonald's", "μακντοναλντς", "μακ"],
+        "image": "images/brands/mcdonalds.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kfc", "κεϊ εφ σι"],
+        "image": "images/brands/kfc.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["burger king", "μπεργκερ κινγκ"],
+        "image": "images/brands/burger-king.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["dominos", "domino's", "ντομινος", "ντομινο"],
+        "image": "images/brands/dominos.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pizza hut", "πιτσα χατ"],
+        "image": "images/brands/pizza-hut.jpg",
+        "difficulty": "easy"
+    }
+],
+
+"famous-people": [
+    {
+        "answers": ["albert einstein", "einstein", "αλμπερτ αινσταιν", "αινσταιν"],
+        "image": "images/famous-people/albert-einstein.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["isaac newton", "newton", "ισαακ νευτων", "νευτων"],
+        "image": "images/famous-people/isaac-newton.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["nikola tesla", "tesla", "νικολα τεσλα", "τεσλα"],
+        "image": "images/famous-people/nikola-tesla.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["stephen hawking", "hawking", "στιβεν χοκινγκ", "χοκινγκ"],
+        "image": "images/famous-people/stephen-hawking.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["marie curie", "curie", "μαρι κιουρι", "κιουρι"],
+        "image": "images/famous-people/marie-curie.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["galileo galilei", "galilei", "γαλιλαιος", "γαλιλεο γαλιλεϊ"],
+        "image": "images/famous-people/galileo-galilei.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["charles darwin", "darwin", "καρολος δαρβινος", "δαρβινος"],
+        "image": "images/famous-people/charles-darwin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["leonardo da vinci", "da vinci", "λεοναρντο ντα βιντσι", "ντα βιντσι"],
+        "image": "images/famous-people/leonardo-da-vinci.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["elon musk", "musk", "ελον μασκ", "μασκ"],
+        "image": "images/famous-people/elon-musk.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bill gates", "gates", "μπιλ γเกητς", "γκειτς"],
+        "image": "images/famous-people/bill-gates.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["steve jobs", "jobs", "στιβ τζομπς", "τζομπς"],
+        "image": "images/famous-people/steve-jobs.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mark zuckerberg", "zuckerberg", "μαρκ ζουκερμπεργκ", "ζουκερμπεργκ"],
+        "image": "images/famous-people/mark-zuckerberg.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["jeff bezos", "bezos", "τζεφ μπεζος", "μπεζος"],
+        "image": "images/famous-people/jeff-bezos.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["warren buffett", "buffett", "γουορεν μπαφετ", "μπαφετ"],
+        "image": "images/famous-people/warren-buffett.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tim cook", "cook", "τιμ κουκ", "κουκ"],
+        "image": "images/famous-people/tim-cook.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["barack obama", "obama", "μπαρακ ομπαμα", "ομπαμα"],
+        "image": "images/famous-people/barack-obama.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["donald trump", "trump", "ντοναλντ τραμπ", "τραμπ"],
+        "image": "images/famous-people/donald-trump.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["joe biden", "biden", "ζο μπαϊντεν", "μπαιντεν"],
+        "image": "images/famous-people/joe-biden.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["vladimir putin", "putin", "βλαντιμιρ πουτιν", "πουτιν"],
+        "image": "images/famous-people/vladimir-putin.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["volodymyr zelenskyy", "zelenskyy", "βολοντιμιρ ζελενσκι", "ζελενσκι"],
+        "image": "images/famous-people/volodymyr-zelenskyy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["queen elizabeth ii", "queen elizabeth", "elizabeth", "βασιλισσα ελισαβετ", "ελισαβετ"],
+        "image": "images/famous-people/queen-elizabeth-ii.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["king charles iii", "king charles", "charles", "βασιλιας καρολος", "καρολος γ"],
+        "image": "images/famous-people/king-charles-iii.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mahatma gandhi", "gandhi", "μαχατμα γκαντι", "γκαντι"],
+        "image": "images/famous-people/mahatma-gandhi.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nelson mandela", "mandela", "νελσον μαντελα", "μαντελα"],
+        "image": "images/famous-people/nelson-mandela.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["martin luther king jr", "martin luther king", "μαρτιν λουθερ κινγκ"],
+        "image": "images/famous-people/martin-luther-king-jr.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["napoleon bonaparte", "napoleon", "ναπολεων", "ναπολεων βοναπαρτης"],
+        "image": "images/famous-people/napoleon-bonaparte.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["julius caesar", "caesar", "ιουλιος καισαρας", "καισαρας"],
+        "image": "images/famous-people/julius-caesar.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cleopatra", "κλεοπατρα"],
+        "image": "images/famous-people/cleopatra.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["christopher columbus", "columbus", "χριστοφορος κολωμβος", "κολωμβος"],
+        "image": "images/famous-people/christopher-columbus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["neil armstrong", "armstrong", "νειλ αρμστρονγκ", "αρμστρονγκ"],
+        "image": "images/famous-people/neil-armstrong.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["buzz aldrin", "aldrin", "μπαζ αλντριν", "αλντριν"],
+        "image": "images/famous-people/buzz-aldrin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["yuri gagarin", "gagarin", "γιουρι γγκαγκαριν", "γαγκαριν"],
+        "image": "images/famous-people/yuri-gagarin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mrbeast", "μιντιμπιστ", "μιρμπιστ"],
+        "image": "images/famous-people/mrbeast.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ksi", "κσι"],
+        "image": "images/famous-people/ksi.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["logan paul", "paul", "λογκαν ποουλ", "ποουλ"],
+        "image": "images/famous-people/logan-paul.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jake paul", "paul", "ζεικ ποουλ"],
+        "image": "images/famous-people/jake-paul.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["khaby lame", "lame", "χαμπι λεϊμ", "λεϊμ"],
+        "image": "images/famous-people/khaby-lame.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kim kardashian", "kardashian", "κιμ καρδασιαν", "καρδασιαν"],
+        "image": "images/famous-people/kim-kardashian.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["princess diana", "diana", "πριγκιπισσα διανα", "διανα"],
+        "image": "images/famous-people/princess-diana.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mother teresa", "teresa", "μητερα τερεζα", "τερεζα"],
+        "image": "images/famous-people/mother-teresa.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sigmund freud", "freud", "σιγκμουντ φρονιντ", "φροιντ"],
+        "image": "images/famous-people/sigmund-freud.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pablo picasso", "picasso", "παμπλο πικασο", "πικασο"],
+        "image": "images/famous-people/pablo-picasso.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["vincent van gogh", "van gogh", "βινσεντ βαν γκογκ", "βαν γκογκ"],
+        "image": "images/famous-people/vincent-van-gogh.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["wolfgang amadeus mozart", "mozart", "μοτσαρτ"],
+        "image": "images/famous-people/wolfgang-amadeus-mozart.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ludwig van beethoven", "beethoven", "μπετοβεν"],
+        "image": "images/famous-people/ludwig-van-beethoven.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["william shakespeare", "shakespeare", "ουιλλιαμ σαιξπηρ", "σαιξπηρ"],
+        "image": "images/famous-people/william-shakespeare.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["johannes gutenberg", "gutenberg", "γουτεμβεργιος", "γουτεμβεργκ"],
+        "image": "images/famous-people/johannes-gutenberg.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ferdinand magellan", "magellan", "φερδινανδος μαγελλανος", "μαγελλανος"],
+        "image": "images/famous-people/ferdinand-magellan.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["marco polo", "polo", "μαρκο πολο"],
+        "image": "images/famous-people/marco-polo.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["thomas edison", "edison", "τομας εντισον", "εντισον"],
+        "image": "images/famous-people/thomas-edison.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["alexander graham bell", "bell", "αλεξαντερ γκραιαμ μπελ", "μπελ"],
+        "image": "images/famous-people/alexander-graham-bell.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["wright brothers", "wright", "αδελφοι ραϊτ", "ραιτ"],
+        "image": "images/famous-people/wright-brothers.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["alan turing", "turing", "αλαν τινουρινγκ", "τουρινγκ"],
+        "image": "images/famous-people/alan-turing.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["edward snowden", "snowden", "εντβαρντ σνουντεν", "σνουντεν"],
+        "image": "images/famous-people/edward-snowden.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["julian assange", "assange", "τζουλιαν ασανζ", "ασανζ"],
+        "image": "images/famous-people/julian-assange.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["george washington", "washington", "γεςργιος ουασιγκτον", "ουασιγκτον"],
+        "image": "images/famous-people/george-washington.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["abraham lincoln", "lincoln", "αβρααμ λινκολν", "λινκολν"],
+        "image": "images/famous-people/abraham-lincoln.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["john f kennedy", "kennedy", "τζον φ κενεντι", "κενεντι"],
+        "image": "images/famous-people/john-f-kennedy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["winston churchill", "churchill", "γουινστον τσερτσιλ", "τσερτσιλ"],
+        "image": "images/famous-people/winston-churchill.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["margaret thatcher", "thatcher", "μαργκαρετ θατσερ", "θατσερ"],
+        "image": "images/famous-people/margaret-thatcher.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pope francis", "francis", "παπας φραγκισκος", "φραγκισκος"],
+        "image": "images/famous-people/pope-francis.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["dalai lama", "lama", "δαλαι λαμα"],
+        "image": "images/famous-people/dalai-lama.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["osama bin laden", "bin laden", "οσαμα μπιν λαντεν", "μπιν λαντεν"],
+        "image": "images/famous-people/osama-bin-laden.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["che guevara", "guevara", "τσε γκεβαρα", "γκεβαρα"],
+        "image": "images/famous-people/che-guevara.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["julian alvarez", "alvarez", "χουλιαν αλβαρες", "αλβαρες"],
+        "image": "images/famous-people/julian-alvarez.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["andrew tate", "tate", "αντριου τεϊτ", "τεϊτ"],
+        "image": "images/famous-people/andrew-tate.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["greta thunberg", "thunberg", "γκρετα τουνμπεργκ", "τουνμπεργκ"],
+        "image": "images/famous-people/greta-thunberg.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["markiplier", "μαρκιπλιερ"],
+        "image": "images/famous-people/markiplier.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["pewdiepie", "πουντιπι", "πουντιπνται"],
+        "image": "images/famous-people/pewdiepie.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ishowspeed", "speed", "αι σω σπιντ", "σπιντ"],
+        "image": "images/famous-people/ishowspeed.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kai cenat", "cenat", "και σενατ", "σενατ"],
+        "image": "images/famous-people/kai-cenat.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["xqc"],
+        "image": "images/famous-people/xqc.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["charli damelio", "damelio", "τσαρλι δαμελιο", "δαμελιο"],
+        "image": "images/famous-people/charli-damelio.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["addison rae", "rae", "αντισον ρει", "ρει"],
+        "image": "images/famous-people/addison-rae.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["george soros", "soros", "τζορτζ σορος", "σορος"],
+        "image": "images/famous-people/george-soros.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["bernard arnault", "arnault", "μπερναρ αρνο", "αρνο"],
+        "image": "images/famous-people/bernard-arnault.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sam altman", "altman", "σαμ αλτμαν", "αλτμαν"],
+        "image": "images/famous-people/sam-altman.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jensen huang", "huang", "τζενσεν χουανγκ", "χουανγκ"],
+        "image": "images/famous-people/jensen-huang.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["larry page", "page", "λαρι πειτζ", "πειτζ"],
+        "image": "images/famous-people/larry-page.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sergey brin", "brin", "σεργκεϊ μπριν", "μπριν"],
+        "image": "images/famous-people/sergey-brin.jpg",
+        "difficulty": "hard"
+    }
+],
+
+
+singers:[
+    {
+        "answers": ["michael jackson", "jackson", "μιχαηλ τζακσον", "τζακσον"],
+        "image": "images/singers/michael-jackson.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["elvis presley", "presley", "ελβις πρισλεϊ", "πρισλεϊ"],
+        "image": "images/singers/elvis-presley.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["freddie mercury", "mercury", "φρεντι μερκουρι", "μερκουρι"],
+        "image": "images/singers/freddie-mercury.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["madonna", "μαντονι", "μαντονά"],
+        "image": "images/singers/madonna.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["adele", "αντελ"],
+        "image": "images/singers/adele.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["taylor swift", "swift", "τειλορ σουιφτ", "σουιφτ"],
+        "image": "images/singers/taylor-swift.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ed sheeran", "sheeran", "εντ σιραν", "σιραν"],
+        "image": "images/singers/ed-sheeran.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["justin bieber", "bieber", "τζαστιν μπιμπερ", "μπιμπερ"],
+        "image": "images/singers/justin-bieber.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bruno mars", "mars", "μπρουνο μαρς", "μαρς"],
+        "image": "images/singers/bruno-mars.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["the weeknd", "weeknd", "ζα γουικεντ", "γουικεντ"],
+        "image": "images/singers/the-weeknd.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["billie eilish", "eilish", "μπιλι αιλις", "αιλις"],
+        "image": "images/singers/billie-eilish.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["dua lipa", "lipa", "ντουα λιπα", "λιπα"],
+        "image": "images/singers/dua-lipa.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ariana grande", "grande", "αριανα γκραντε", "γκραντε"],
+        "image": "images/singers/ariana-grande.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["selena gomez", "gomez", "σελενα γκομεζ", "γκομεζ"],
+        "image": "images/singers/selena-gomez.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["rihanna", "ριχανά", "ριχαννα"],
+        "image": "images/singers/rihanna.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["beyonce", "μπεγιονσε"],
+        "image": "images/singers/beyonce.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lady gaga", "gaga", "λειντι γκαγκα", "γκαγκα"],
+        "image": "images/singers/lady-gaga.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["katy perry", "perry", "κεϊτι περυ", "περυ"],
+        "image": "images/singers/katy-perry.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["shakira", "σακιρα"],
+        "image": "images/singers/shakira.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sia", "σια"],
+        "image": "images/singers/sia.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["post malone", "malone", "ποστ μαλον", "μαλον"],
+        "image": "images/singers/post-malone.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["drake", "ντρεϊκ"],
+        "image": "images/singers/drake.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["eminem", "εμινεν"],
+        "image": "images/singers/eminem.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kendrick lamar", "lamar", "κεντρικ λαμαρ", "λαμαρ"],
+        "image": "images/singers/kendrick-lamar.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["travis scott", "scott", "τραβις σκοτ", "σκοτ"],
+        "image": "images/singers/travis-scott.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["21 savage", "savage", "τουεντι γουαν σαβιτζ", "σαβιτζ"],
+        "image": "images/singers/21-savage.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["future", "φιουτσερ"],
+        "image": "images/singers/future.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lil wayne", "wayne", "λιλ γουεϊν", "γουεϊν"],
+        "image": "images/singers/lil-wayne.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["snoop dogg", "snoop", "σνουπ δογκ", "σνουπ"],
+        "image": "images/singers/snoop-dogg.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ice cube", "αις κιουμπ"],
+        "image": "images/singers/ice-cube.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["50 cent", "φιφτι σεντ"],
+        "image": "images/singers/50-cent.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["usher", "ασερ"],
+        "image": "images/singers/usher.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chris brown", "brown", "κρισ μπραουν", "μπραουν"],
+        "image": "images/singers/chris-brown.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pitbull", "πιτμπουλ"],
+        "image": "images/singers/pitbull.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["jennifer lopez", "lopez", "τζενιφερ λοπεζ", "λοπεζ"],
+        "image": "images/singers/jennifer-lopez.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["enrique iglesias", "iglesias", "ενρικε ιγκλεσιας", "ιγκλεσιας"],
+        "image": "images/singers/enrique-iglesias.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["charlie puth", "puth", "τσαρλι πουθ", "πουθ"],
+        "image": "images/singers/charlie-puth.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["shawn mendes", "mendes", "σον μεντες", "μεντες"],
+        "image": "images/singers/shawn-mendes.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["olivia rodrigo", "rodrigo", "ολιβια ροδριγκο", "ροδριγκο"],
+        "image": "images/singers/olivia-rodrigo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["sabrina carpenter", "carpenter", "σαμπρινα καρπεντερ", "καρπεντερ"],
+        "image": "images/singers/sabrina-carpenter.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["harry styles", "styles", "χαρι σταιλς", "σταιλς"],
+        "image": "images/singers/harry-styles.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["zayn malik", "zayn", "malik", "ζειν μαλικ", "ζειν", "μαλικ"],
+        "image": "images/singers/zayn-malik.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["louis tomlinson", "tomlinson", "λουις τομλινσον", "τομλινσον"],
+        "image": "images/singers/louis-tomlinson.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["niall horan", "horan", "νιαλ χοραν", "χοραν"],
+        "image": "images/singers/niall-horan.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["liam payne", "payne", "λιαμ πεϊν", "πεϊν"],
+        "image": "images/singers/liam-payne.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["camila cabello", "cabello", "καμιλα καμπεγιο", "καμπεγιο"],
+        "image": "images/singers/camila-cabello.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["halsey", "χολσι"],
+        "image": "images/singers/halsey.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["doja cat", "ντοτζα κατ"],
+        "image": "images/singers/doja-cat.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lizzo", "λιζο"],
+        "image": "images/singers/lizzo.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ava max", "αβα μαξ"],
+        "image": "images/singers/ava-max.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bebe rexha", "rexha", "μπεμπε ρεξα", "ρεξα"],
+        "image": "images/singers/bebe-rexha.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["alan walker", "walker", "αλαν γουοκερ", "γουοκερ"],
+        "image": "images/singers/alan-walker.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["avicii", "αβιτσι"],
+        "image": "images/singers/avicii.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["david guetta", "guetta", "ντεβιντ γκετα", "γκετα"],
+        "image": "images/singers/david-guetta.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["martin garrix", "garrix", "μαρτιν γκαρικς", "γκαρικς"],
+        "image": "images/singers/martin-garrix.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["marshmello", "μαρσμελο"],
+        "image": "images/singers/marshmello.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["calvin harris", "harris", "καλβιν χαρρις", "χαρρις"],
+        "image": "images/singers/calvin-harris.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["steve aoki", "aoki", "στιβ αοκι", "αοκι"],
+        "image": "images/singers/steve-aoki.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dj snake", "snake", "ντι τζει σνεικ", "σνεικ"],
+        "image": "images/singers/dj-snake.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tiesto", "τιεστο"],
+        "image": "images/singers/tiesto.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bono", "μπονο"],
+        "image": "images/singers/bono.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sting", "στινγκ"],
+        "image": "images/singers/sting.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["phil collins", "collins", "φιλ κολινς", "κολινς"],
+        "image": "images/singers/phil-collins.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["george michael", "michael", "τζορτζ μιχαηλ", "μιχαηλ"],
+        "image": "images/singers/george-michael.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["whitney houston", "houston", "γουιτνι χουστον", "χουστον"],
+        "image": "images/singers/whitney-houston.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["celine dion", "dion", "σελιν ντιον", "ντιον"],
+        "image": "images/singers/celine-dion.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mariah carey", "carey", "μαραια καρεϊ", "καρεϊ"],
+        "image": "images/singers/mariah-carey.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["janet jackson", "janet", "jackson", "τζανετ τζακσον", "τζανετ"],
+        "image": "images/singers/janet-jackson.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["prince", "πρινς"],
+        "image": "images/singers/prince.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bob marley", "marley", "μπομπ μαρλεϊ", "μαρλεϊ"],
+        "image": "images/singers/bob-marley.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["john lennon", "lennon", "τζον λεννον", "λεννον"],
+        "image": "images/singers/john-lennon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["paul mccartney", "mccartney", "πολ μακαρτνι", "μακαρτνι"],
+        "image": "images/singers/paul-mccartney.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ozzy osbourne", "osbourne", "οζι οσμπορν", "οσμπορν"],
+        "image": "images/singers/ozzy-osbourne.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["kurt cobain", "cobain", "κουρτ κομπεϊν", "κομπεϊν"],
+        "image": "images/singers/kurt-cobain.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chester bennington", "bennington", "τσεστερ μπενινγκτον", "μπενινγκτον"],
+        "image": "images/singers/chester-bennington.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["amy winehouse", "winehouse", "εμι γουαϊνχαους", "γουαϊνχαους"],
+        "image": "images/singers/amy-winehouse.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tina turner", "turner", "τινα τερνερ", "τερνερ"],
+        "image": "images/singers/tina-turner.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rod stewart", "stewart", "ροντ στιουαρτ", "στιουαρτ"],
+        "image": "images/singers/rod-stewart.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["seal", "σιλ"],
+        "image": "images/singers/seal.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["lenny kravitz", "kravitz", "λενι κραβιτς", "κραβιτς"],
+        "image": "images/singers/lenny-kravitz.jpg",
+        "difficulty": "medium"
+    }
+],
+
+"star-wars": [
+    {
+        "answers": ["luke skywalker", "skywalker", "λουκ σκαϊγουοκερ", "σκαϊγουοκερ"],
+        "image": "images/star-wars/luke-skywalker.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["darth vader", "vader", "νταρθ βειντερ", "νταρτ βειντερ", "βειντερ"],
+        "image": "images/star-wars/darth-vader.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["anakin skywalker", "anakin", "ανακιν σκαϊγουοκερ", "ανακιν"],
+        "image": "images/star-wars/anakin-skywalker.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["obi wan kenobi", "obi wan", "kenobi", "ομπι-γουαν κενομπι", "ομπι γουαν", "κενομπι"],
+        "image": "images/star-wars/obi-wan-kenobi.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["yoda", "γιοντα"],
+        "image": "images/star-wars/yoda.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["emperor palpatine", "palpatine", "darth sidious", "sidious", "αυτοκρατορας παλπατιν", "παλπατιν", "νταρθ σιντιους", "σιντιους"],
+        "image": "images/star-wars/palpatine.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["han solo", "solo", "χαν σολo", "σολo"],
+        "image": "images/star-wars/han-solo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["princess leia", "leia organa", "leia", "πριγκιπισσα λεια", "λεια οργανα", "λεια"],
+        "image": "images/star-wars/princess-leia.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chewbacca", "chewbacca", "τσεουμπακα", "τσεουι"],
+        "image": "images/star-wars/chewbacca.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["r2 d2", "r2d2", "αρ2ντι2", "αρ-ντι-ντι-του"],
+        "image": "images/star-wars/r2-d2.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["c3po", "c 3po", "c3 po", "σι-θρι-πι-ο"],
+        "image": "images/star-wars/c3po.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bb8", "bb 8", "μπι-μπι-8"],
+        "image": "images/star-wars/bb8.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["rey", "ρει"],
+        "image": "images/star-wars/rey.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kylo ren", "kylo", "καϊλο ρεν", "καϊλο"],
+        "image": "images/star-wars/kylo-ren.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["darth maul", "maul", "νταρθ μολ", "μολ"],
+        "image": "images/star-wars/darth-maul.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["general grievous", "grievous", "στρατηγος γκριβους", "γκριβους"],
+        "image": "images/star-wars/general-grievous.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["boba fett", "boba", "μπομπα φετ", "μπομπα"],
+        "image": "images/star-wars/boba-fett.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["the mandalorian", "din djarin", "mandalorian", "μανταλοριανος", "ντιν ττζαριν"],
+        "image": "images/star-wars/the-mandalorian.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["grogu", "baby yoda", "γκρογκου", "μπεμπη γιοντα"],
+        "image": "images/star-wars/grogu.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["jabba the hutt", "jabba", "ζαμπα ο χατ", "ζαμπα"],
+        "image": "images/star-wars/jabba-the-hutt.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["stormtrooper", "στορμτρουπερ"],
+        "image": "images/star-wars/stormtrooper.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["finn", "φιν"],
+        "image": "images/star-wars/finn.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["poe dameron", "poe", "ποε νταμερον", "ποε"],
+        "image": "images/star-wars/poe-dameron.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["padme amidala", "padme", "παντμε αμινταλα", "παντμε"],
+        "image": "images/star-wars/padme-amidala.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mace windu", "windu", "μεϊς γουιντου", "γουιντου"],
+        "image": "images/star-wars/mace-windu.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["qui gon jinn", "qui gon", "κουι-γκον τζιν", "κονι γκον"],
+        "image": "images/star-wars/qui-gon-jinn.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["count dooku", "dooku", "κομης ντουκου", "ντουκου"],
+        "image": "images/star-wars/count-dooku.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jango fett", "jango", "τζανγκο φετ", "τζανγκο"],
+        "image": "images/star-wars/jango-fett.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ahsoka tano", "ahsoka", "αζοκα τανο", "αζοκα"],
+        "image": "images/star-wars/ahsoka-tano.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["captain rex", "rex", "λοχαγος ρεξ", "ρεξ"],
+        "image": "images/star-wars/captain-rex.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["commander cody", "cody", "διοικητης κοιντι", "κοιντι", "κοουντι"],
+        "image": "images/star-wars/commander-cody.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["clone trooper", "κλωνος στρατιωτης", "κλωνος"],
+        "image": "images/star-wars/clone-trooper.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["royal guard", "imperial royal guard", "βασιλικη φρουρα"],
+        "image": "images/star-wars/royal-guard.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lando calrissian", "lando", "λαντο καλρισιαν", "λαντο"],
+        "image": "images/star-wars/lando-calrissian.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["admiral ackbar", "ackbar", "ναυαρχος ακμπαρ", "ακμπαρ"],
+        "image": "images/star-wars/admiral-ackbar.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["moff gideon", "gideon", "μοφ γκιντεον", "γκιντεον"],
+        "image": "images/star-wars/moff-gideon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["wicket", "γουικετ"],
+        "image": "images/star-wars/wicket.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cad bane", "καντ μπεϊν"],
+        "image": "images/star-wars/cad-bane.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["asajj ventress", "ventress", "ασατζ βεντρες", "βεντρες"],
+        "image": "images/star-wars/asajj-ventress.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["grand admiral thrawn", "thrawn", "μεγας ναυαρχος θρον", "θρον"],
+        "image": "images/star-wars/grand-admiral-thrawn.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ezra bridger", "ezra", "εζρα μπριτζερ", "εζρα"],
+        "image": "images/star-wars/ezra-bridger.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["sabine wren", "sabine", "σαμπιν ρεν", "σαμπιν"],
+        "image": "images/star-wars/sabine-wren.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["kanan jarrus", "kanan", "καναν τζαρους", "καναν"],
+        "image": "images/star-wars/kanan-jarrus.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["hera syndulla", "hera", "ηρα συντουλα", "ηρα"],
+        "image": "images/star-wars/hera-syndulla.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["chopper", "c1 10p", "c1-10p", "τσοπερ"],
+        "image": "images/star-wars/chopper.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["director krennic", "krennic", "διευθυντης κρενικ", "κρενικ"],
+        "image": "images/star-wars/director-krennic.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ig11", "ig-11", "αι-τζι-11"],
+        "image": "images/star-wars/ig-11.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["captain phasma", "phasma", "λοχαγος φασμα", "φασμα"],
+        "image": "images/star-wars/captain-phasma.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nute gunray", "gunray", "νουτ γκανρει", "γκανρει"],
+        "image": "images/star-wars/nute-gunray.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["wat tambor", "tambor", "γουατ ταμπορ", "ταμπορ"],
+        "image": "images/star-wars/wat-tambor.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["plo koon", "πλο κουν"],
+        "image": "images/star-wars/plo-koon.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["kit fisto", "κιτ φιστο"],
+        "image": "images/star-wars/kit-fisto.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ki adi mundi", "ki-adi-mundi", "κι-αντι-μουντι"],
+        "image": "images/star-wars/ki-adi-mundi.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["shaak ti", "σαακ τι"],
+        "image": "images/star-wars/shaak-ti.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["savage opress", "opress", "σαβατζ οπρες", "οπρες"],
+        "image": "images/star-wars/savage-opress.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mother talzin", "talzin", "μητερα ταλζιν", "ταλζιν"],
+        "image": "images/star-wars/mother-talzin.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["bail organa", "bail", "μπελ οργανα", "μπελ"],
+        "image": "images/star-wars/bail-organa.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["millennium falcon", "μιλενιουμ φαλκον"],
+        "image": "images/star-wars/millennium-falcon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["x wing", "x-wing", "εξ-γουινγκ"],
+        "image": "images/star-wars/x-wing.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["tie fighter", "tie", "ται φαϊτερ"],
+        "image": "images/star-wars/tie-fighter.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["death star", "αστρος του θανατου"],
+        "image": "images/star-wars/death-star.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["at at", "at-at", "ατ-ατ"],
+        "image": "images/star-wars/at-at.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["at st", "at-st", "ατ-στ"],
+        "image": "images/star-wars/at-st.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["star destroyer", "imperial star destroyer", "αστρικος καταστροφεας"],
+        "image": "images/star-wars/star-destroyer.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["slave i", "slave 1", "σλειβ 1"],
+        "image": "images/star-wars/slave-1.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["executor", "εξεκουτορ"],
+        "image": "images/star-wars/executor.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["lambda shuttle", "imperial shuttle", "σατλ λαμδα"],
+        "image": "images/star-wars/lambda-shuttle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["landspeeder", "λαντ-σπιτερ"],
+        "image": "images/star-wars/landspeeder.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["podracer", "ποντ-ρεισερ"],
+        "image": "images/star-wars/podracer.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["death watch", "ντιθ γουοτς"],
+        "image": "images/star-wars/death-watch.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["darksaber", "σκοτεινο σπαθι", "νταρκσεϊμπερ"],
+        "image": "images/star-wars/darksaber.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["grogu pod", "grogu pram", "pram", "καροτσι γκρογκου"],
+        "image": "images/star-wars/grogu-pram.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["mustafar", "μουσταφαρ"],
+        "image": "images/star-wars/mustafar.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["endor", "εντορ"],
+        "image": "images/star-wars/endor.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tattooine", "tatooine", "τατουιν"],
+        "image": "images/star-wars/tatooine.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["coruscant", "κορουσκαντ"],
+        "image": "images/star-wars/coruscant.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["kamino", "καμινο"],
+        "image": "images/star-wars/kamino.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mustafar duel", "μονομαχια στο μουσταφαρ"],
+        "image": "images/star-wars/mustafar-duel.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jedi temple", "ναος των τζεντι"],
+        "image": "images/star-wars/jedi-temple.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["order 66", "ταγμα 66", "εντολη 66"],
+        "image": "images/star-wars/order-66.jpg",
+        "difficulty": "hard"
+    }
+],
+
+horror: [
+    {
+        "answers": ["michael myers", "michael", "μαικλ μαγιερς", "μαικλ"],
+        "image": "images/horror/michael-myers.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["jason voorhees", "jason", "τζησον βουρχις", "τζησον"],
+        "image": "images/horror/jason-voorhees.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["freddy krueger", "freddy", "φρεντι κρουγκερ", "φρεντι"],
+        "image": "images/horror/freddy-krueger.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ghostface", "ghost face", "γκοστφειντ"],
+        "image": "images/horror/ghostface.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chucky", "charles lee ray", "τσακι", "τσαρλς λι ρει"],
+        "image": "images/horror/chucky.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pennywise", "πενιγουαϊζ"],
+        "image": "images/horror/pennywise.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["leatherface", "leather face", "λεδερφειντ"],
+        "image": "images/horror/leatherface.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["jigsaw", "john kramer", "τζιγκσο", "τζον κραιμερ"],
+        "image": "images/horror/jigsaw.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["billy", "billy the puppet", "μπιλι", "η μαριονετα"],
+        "image": "images/horror/billy-the-puppet.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pinhead", "pin head", "hellraiser", "πινχεντ"],
+        "image": "images/horror/pinhead.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["annabelle", "annabelle doll", "αναμπελ"],
+        "image": "images/horror/annabelle.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["valak", "the nun", "nun", "βαλακ", "η καλογρια"],
+        "image": "images/horror/valak.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["samara", "samara morgan", "σαμαρα", "σαμαρα μοργκαν"],
+        "image": "images/horror/samara-morgan.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["candyman", "candy man", "καντιμαν"],
+        "image": "images/horror/candyman.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["hannibal lecter", "hannibal", "χανιμπαλ λεκτερ", "χανιμπαλ"],
+        "image": "images/horror/hannibal-lecter.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["art the clown", "art", "αρτ ο κλαουν", "αρτ"],
+        "image": "images/horror/art-the-clown.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["freddy fazbear", "freddy", "φρεντι φαζμπερ"],
+        "image": "images/horror/freddy-fazbear.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bonnie", "μπονι"],
+        "image": "images/horror/bonnie.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chica", "τσικα"],
+        "image": "images/horror/chica.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["foxy", "φοξι"],
+        "image": "images/horror/foxy.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["huggy wuggy", "huggy", "χαγκι βαγκι", "χαγκι"],
+        "image": "images/horror/huggy-wuggy.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["slender man", "slenderman", "σλεντερμαν"],
+        "image": "images/horror/slender-man.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["siren head", "σειρεν χεντ"],
+        "image": "images/horror/siren-head.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pyramid head", "πυραμινδοκεφαλος"],
+        "image": "images/horror/pyramid-head.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["nemesis", "νεμεσις"],
+        "image": "images/horror/nemesis.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mr x", "mr. x", "tyrant", "μιζτερ χ", "τυραννος"],
+        "image": "images/horror/mr-x.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lady dimitrescu", "dimitrescu", "κυρια δημητρεσκου", "δημητρεσκου"],
+        "image": "images/horror/lady-dimitrescu.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["alien", "xenomorph", "αλλοδαπος", "ξενομορφος"],
+        "image": "images/horror/xenomorph.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["predator", "πρενιτορ"],
+        "image": "images/horror/predator.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["demogorgon", "δημογοργονας"],
+        "image": "images/horror/demogorgon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["vecna", "βεκνα"],
+        "image": "images/horror/vecna.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["m3gan", "megan", "μεγκαν"],
+        "image": "images/horror/m3gan.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["jeff the killer", "jeff", "τζεφ ο δολοφονος", "τζεφ"],
+        "image": "images/horror/jeff-the-killer.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["norman bates", "norman", "νορμαν μπεϊτς", "νορμαν"],
+        "image": "images/horror/norman-bates.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["esther", "εστερ"],
+        "image": "images/horror/esther.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["springtrap", "σπρινγκτραπ"],
+        "image": "images/horror/springtrap.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["golden freddy", "χρυσος φρεντι"],
+        "image": "images/horror/golden-freddy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["puppet", "marionette", "the puppet", "μαριονετα"],
+        "image": "images/horror/puppet.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["circus baby", "baby", "σιρκασ μπεμπη"],
+        "image": "images/horror/circus-baby.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["glamrock freddy", "γλαμροκ φρεντι"],
+        "image": "images/horror/glamrock-freddy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mommy long legs", "mommy", "μαμα μακρυποδαρη"],
+        "image": "images/horror/mommy-long-legs.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["catnap", "cat nap", "κατναπ"],
+        "image": "images/horror/catnap.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bendy", "μπεντι"],
+        "image": "images/horror/bendy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ink demon", "the ink demon", "δαίμονας με μελανι"],
+        "image": "images/horror/ink-demon.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["jack baker", "τζακ μπεικερ"],
+        "image": "images/horror/jack-baker.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["the creeper", "creeper", "jeepers creepers", "κριπερ"],
+        "image": "images/horror/the-creeper.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["the babadook", "babadook", "μπαμπατουκ"],
+        "image": "images/horror/the-babadook.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["longlegs", "λονγκλεγκς"],
+        "image": "images/horror/longlegs.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tiffany", "tiffany valentine", "τιφανι"],
+        "image": "images/horror/tiffany-valentine.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ryuk", "ριουκ"],
+        "image": "images/horror/ryuk.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["robert the doll", "robert", "ρομπερτ η κουκλα"],
+        "image": "images/horror/robert-the-doll.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["kayako", "kayako saeki", "καγιακο"],
+        "image": "images/horror/kayako-saeki.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["roxanne wolf", "roxanne", "roxy", "ροξαν γουλφ", "ροξι"],
+        "image": "images/horror/roxanne-wolf.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["montgomery gator", "monty", "μοντγκομερι γκεϊτορ", "μοντι"],
+        "image": "images/horror/montgomery-gator.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["pumpkinhead", "παμπκινχεντ"],
+        "image": "images/horror/pumpkinhead.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["the thing", "το πραγμα"],
+        "image": "images/horror/the-thing.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["the bride", "bride", "η νυφη"],
+        "image": "images/horror/the-bride.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["the ferryman", "ferryman", "ο πορθμεας"],
+        "image": "images/horror/the-ferryman.jpg",
+        "difficulty": "hard"
+    }
+],
+
+disney: 
+
+[
+    {
+        "answers": ["μάικι μάους", "μάικι", "mickey mouse", "mickey", "ποντικός μάικι"],
+        "image": "images/disney/mickey-mouse.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μίνι μάους", "μίνι", "minnie mouse", "minnie", "ποντικίνα μίνι"],
+        "image": "images/disney/minnie-mouse.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ντόναλντ πάπιας", "ντόναλντ", "donald duck", "donald", "παπιοντόναλντ"],
+        "image": "images/disney/donald-duck.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ντεϊζι ντακ", "ντεϊζι", "daisy duck", "daisy", "παπιοντεϊζι"],
+        "image": "images/disney/daisy-duck.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γκούφι", "goofy", "γκούφυ", "σκύλος γκούφι", "ο γκούφι"],
+        "image": "images/disney/goofy.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πλούτο", "pluto", "σκύλος πλούτο", "ο πλούτο", "πλουτο"],
+        "image": "images/disney/pluto.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["στιτς", "stitch", "εξωγήινος στιτς", "ο στιτς", "εξωγήινος 626"],
+        "image": "images/disney/stitch.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["λίλο", "lilo", "λίλο πελεκί", "η λίλο", "lilo pelekai"],
+        "image": "images/disney/lilo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σίμπα", "simba", "λιονταράκι σίμπα", "βασιλιάς σίμπα", "ο σίμπα"],
+        "image": "images/disney/simba.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μουφάσα", "mufasa", "βασιλιάς μουφάσα", "ο μουφάσα", "πατέρας σίμπα"],
+        "image": "images/disney/mufasa.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σκαρ", "scar", "κακός σκαρ", "θείος σκαρ", "ο σκαρ"],
+        "image": "images/disney/scar.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τιμόν", "timon", "τιμόν και πούμπα", "ηχολόγος τιμόν", "ο τιμόν"],
+        "image": "images/disney/timon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πούμπα", "pumbaa", "pumba", "αγριογούρουνο πούμπα", "ο πούμπα"],
+        "image": "images/disney/pumbaa.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["έλσα", "elsa", "βασίλισσα έλσα", "η έλσα", "πριγκίπισσα έλσα"],
+        "image": "images/disney/elsa.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άννα", "anna", "πριγκίπισσα άννα", "η άννα", "anna of arendelle"],
+        "image": "images/disney/anna.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["όλαφ", "olaf", "χιονάνθρωπος όλαφ", "ο όλαφ", "olaf the snowman"],
+        "image": "images/disney/olaf.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κρίστοφ", "kristoff", "ο κρίστοφ", "kristoff bjorgman", "φίλος της άννας"],
+        "image": "images/disney/kristoff.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σβεν", "sven", "τάρανδος σβεν", "ο σβεν", "sven the reindeer"],
+        "image": "images/disney/sven.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μοάνα", "moana", "vaiana", "πριγκίπισσα μοάνα", "η μοάνα"],
+        "image": "images/disney/moana.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μάουι", "maui", "ημίθεος μάουι", "ο μάουι", "demigod maui"],
+        "image": "images/disney/maui.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αριέλ", "ariel", "μικρή γοργόνα", "η αριέλ", "princess ariel"],
+        "image": "images/disney/ariel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φλόντερ", "flounder", "ψάρι φλόντερ", "ο φλόντερ", "φλάντερ"],
+        "image": "images/disney/flounder.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σεβαστιαν", "sebastian", "κάβουρας σεβαστιαν", "ο σεβαστιαν", "καβούρας"],
+        "image": "images/disney/sebastian.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ούρσουula", "ursula", "κακιά ούρσουλα", "η ούρσουλα", "μαγική ούρσουλα"],
+        "image": "images/disney/ursula.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αλαντίν", "aladdin", "αλαντίν", "ο αλαντίν", "prince ali"],
+        "image": "images/disney/aladdin.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζίνι", "genie", "λύχνος τζίνι", "ο τζίνι", "genie of the lamp"],
+        "image": "images/disney/genie.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γιασμίν", "jasmine", "πριγκίπισσα γιασμίν", "η γιασμίν", "princess jasmine"],
+        "image": "images/disney/jasmine.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζαφάρ", "jafar", "βεζίρης τζαφάρ", "ο τζαφάρ", "evil jafar"],
+        "image": "images/disney/jafar.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ηρακλής", "hercules", "ο ηρακλής", "herkules", "young hercules"],
+        "image": "images/disney/hercules.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αδης", "hades", "θεός άδης", "ο άδης", "lord hades"],
+        "image": "images/disney/hades.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πήτερ παν", "peter pan", "ο πήτερ παν", "peter", "the boy who wouldn't grow up"],
+        "image": "images/disney/peter-pan.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κάπτεν χουκ", "captain hook", "hook", "καπετάνιος χουκ", "ο χουκ"],
+        "image": "images/disney/captain-hook.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τινκερμπελ", "tinker bell", "tinkerbell", "νεράιδα τίνκερμπελ", "η τίνκερμπελ"],
+        "image": "images/disney/tinker-bell.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γουίνι το αρκουδάκι", "winnie the pooh", "pooh", "winnie", "αρκουδάκι γουίνι"],
+        "image": "images/disney/winnie-the-pooh.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τίγρης", "tigger", "ο τίγρης", "tigger the tiger", "τιγράκι"],
+        "image": "images/disney/tigger.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πίδγλετ", "piglet", "γουρουνάκι πίδγλετ", "ο πίδγλετ", "piglet the pig"],
+        "image": "images/disney/piglet.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ινιόρ", "eeyore", "γαϊδουράκι ινιόρ", "ο ινιόρ", "eeyore the donkey"],
+        "image": "images/disney/eeyore.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπας λάιτγイヤー", "buzz lightyear", "buzz", "μπας", "διαστημικός φρουρός μπας"],
+        "image": "images/disney/buzz-lightyear.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γούντι", "woody", "σερίφης γούντι", "ο γούντι", "sheriff woody"],
+        "image": "images/disney/woody.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζέσι", "jessie", "κούκλα τζέσι", "η τζέσι", "jessie the cowgirl"],
+        "image": "images/disney/jessie.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κεραυνός μακουίν", "lightning mcqueen", "mcqueen", "κεραυνός", "αγωνιστικό μακουίν"],
+        "image": "images/disney/lightning-mcqueen.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπαρμπά σουβλάκος", "mater", "tow mater", "ματέρ", "γερανός ματέρ"],
+        "image": "images/disney/mater.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σάλεϊ", "sulley", "james p. sullivan", "τζέιμς σάλιβαν", "τερατάκι σάλεϊ"],
+        "image": "images/sea-animals/../disney/sulley.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μάικ βαζόφσκι", "mike wazowski", "mike", "μάικ", "πράσινο τερατάκι μάικ"],
+        "image": "images/disney/mike-wazowski.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νέμο", "nemo", "ψαράκι νέμο", "ο νέμο", "finding nemo"],
+        "image": "images/disney/nemo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ντόρι", "dory", "ψάρι ντόρι", "η ντόρι", "dory the fish"],
+        "image": "images/disney/dory.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γουόλι", "wall-e", "walle", "ρομπότ γουόλι", "ο γουόλι"],
+        "image": "images/disney/wall-e.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ηύα", "eve", "eva", "ρομπότ ηύα", "η ηύα"],
+        "image": "images/disney/eve.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πεντάμορφη", "belle", "μπεντ", "πριγκίπισσα μπελ", "η μπελ"],
+        "image": "images/disney/belle.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τέρας", "beast", "the beast", "το τέρας", "prince adam"],
+        "image": "images/disney/beast.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χιονάτη", "snow white", "η χιονάτη", "princess snow white", "σνόου γουάιτ"],
+        "image": "images/disney/snow-white.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σταχτοπούτα", "cinderella", "η σταχτοπούτα", "cindy", "princes cinderella"],
+        "image": "images/disney/cinderella.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πινόκιο", "pinocchio", "ξύλινος πινόκιο", "ο πινόκιο", "little wooden boy"],
+        "image": "images/disney/pinocchio.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τζιμίνι κρίκετ", "jiminy cricket", "jiminy", "γρύλος τζιμίνι", "ο τζιμίνι"],
+        "image": "images/disney/jiminy-cricket.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αλίκη", "alice", "αλίκη στη χώρα των θαυμάτων", "η αλίκη", "alice in wonderland"],
+        "image": "images/disney/alice.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γάτος τσεσάιρ", "cheshire cat", "cheshire", "χαμογελαστός γάτος", "ο γάτος τσεσάιρ"],
+        "image": "images/disney/cheshire-cat.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπέιμαξ", "baymax", "ρομπότ μπέιμαξ", "ο μπέιμαξ", "big hero 6 baymax"],
+        "image": "images/disney/baymax.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μιράμπελ", "mirabel", "μιράμπελ μάντριγκαλ", "η μιράμπελ", "encanto mirabel"],
+        "image": "images/disney/mirabel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τιάνα", "tiana", "πριγκίπισσα τιάνα", "η τιάνα", "princess tiana"],
+        "image": "images/disney/tiana.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ραλφ", "ralph", "wreck-it ralph", "καταστροφέας ραλφ", "ο ραλφ"],
+        "image": "images/disney/ralph.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γαστὼν", "gaston", "κακός γαστών", "ο γαστών", "gaston legume"],
+        "image": "images/disney/gaston.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λυμιέρ", "lumiere", "κηροπήγιο λυμιέρ", "ο λυμιέρ", "lumiere the candelabra"],
+        "image": "images/disney/lumiere.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κόγσγουορθ", "cogsworth", "ρολόι κόγσγουορθ", "ο κόγσγουορθ", "cogsworth the clock"],
+        "image": "images/disney/cogsworth.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ραπουνζέλ", "rapunzel", "πριγκίπισσα ραπουνζέλ", "η ραπουνζέλ", "tangled rapunzel"],
+        "image": "images/disney/rapunzel.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["φλιν ράιντερ", "flynn rider", "flynn", "eugene fitzherbert", "eugene"],
+        "image": "images/disney/flynn-rider.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πασκάλ", "pascal", "χαμαιλέοντας πασκάλ", "ο πασκάλ", "pascal the chameleon"],
+        "image": "images/disney/pascal.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μάξιμους", "maximus", "άλογο μάξιμους", "ο μάξιμους", "maximus the horse"],
+        "image": "images/disney/maximus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μερίντα", "merida", "πριγκίπισσα μερίντα", "η μερίντα", "brave merida"],
+        "image": "images/disney/merida.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ποκαχόντας", "pocahontas", "ινδιάνα ποκαχόντας", "η ποκαχόντας", "princess pocahontas"],
+        "image": "images/disney/pocahontas.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μουλάν", "mulan", "πολεμίστρια μουσάν", "η μουσάν", "fa mulan"],
+        "image": "images/disney/mulan.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μούσου", "mushu", "δράκος μούσου", "ο μούσου", "mushu the dragon"],
+        "image": "images/disney/mushu.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ταρζάν", "tarzan", "ο ταρζάν", "lord of the jungle", "tarzan of the apes"],
+        "image": "images/disney/tarzan.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τζέιν", "jane", "jane porter", "η τζέιν", "lady jane"],
+        "image": "images/disney/jane.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπαλού", "baloo", "αρκούδος μπαλού", "ο μπαλού", "baloo the bear"],
+        "image": "images/disney/baloo.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπαγκήρα", "bagheera", "πάνθηρας μπαγκήρα", "ο μπαγκήρα", "bagheera the panther"],
+        "image": "images/disney/bagheera.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κινγκ λούις", "king louie", "βασιλιάς λούις", "ο κινγκ λούις", "king louie the orangutan"],
+        "image": "images/disney/king-louie.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ντάμπο", "dumbo", "ελεφαντάκι ντάμπο", "ο ντάμπο", "dumbo the elephant"],
+        "image": "images/disney/dumbo.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπάμπι", "bambi", "ελαφάκι μπάμπι", "ο μπάμπι", "bambi the deer"],
+        "image": "images/disney/bambi.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["θάμππερ", "thumper", "λαγός θάμππερ", "ο θάμππερ", "thumper the rabbit"],
+        "image": "images/disney/thumper.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λάιντι", "lady", "σκυλίτσα λάιντι", "η λάιντι", "lady and the tramp"],
+        "image": "images/disney/lady.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σάλεϊ καρέρα", "sally carrera", "sally", "αυτοκίνητο σάλεϊ", "η σάλεϊ"],
+        "image": "images/disney/sally-carrera.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ντοκ χάτσον", "doc hudson", "doc", "δάσκαλος ντοκ", "ο ντοκ χάτσον"],
+        "image": "images/disney/doc-hudson.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τσικ χικς", "chick hicks", "chick", "αντίπαλος τσικ", "ο τσικ χικς"],
+        "image": "images/disney/chick-hicks.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κρουέλα ντε βιλ", "cruella de vil", "cruella", "κακιά κρουέλα", "η κρουέλα"],
+        "image": "images/disney/cruella-de-vil.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["νεράιδα νονά", "fairy godmother", "godmother", "καλή νεράιδα", "η νεράιδα νονά"],
+        "image": "images/disney/fairy-godmother.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κακιά βασίλισσα", "the evil queen", "evil queen", "queen grimhilde", "grimhilde"],
+        "image": "images/disney/evil-queen.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μαλέφισεντ", "maleficent", "κακιά μαλέφισεντ", "η μαλέφισεντ", "mistress of all evil"],
+        "image": "images/disney/maleficent.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αυρόρα", "aurora", "sleeping beauty", "ωραία κοιμωμένη", "η αυρόρα"],
+        "image": "images/disney/aurora.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πρίγκιπας φίλιππος", "prince phillip", "phillip", "ο φίλιππος", "prince philip"],
+        "image": "images/disney/prince-phillip.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βανέλοπε", "vanellope", "vanellope von schweetz", "η βανέλοπε", "princess vanellope"],
+        "image": "images/disney/vanellope.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["δρ φαμσιλιέ", "dr facilier", "facilier", "doctor facilier", "shadow man"],
+        "image": "images/disney/dr-facilier.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κούσκο", "kuzco", "αυτοκράτορας κούσκο", "ο κούσκο", "emperor kuzco"],
+        "image": "images/disney/kuzco.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ύζμα", "yzma", "κακιά ύζμα", "η ύζμα", "yzma the sorceress"],
+        "image": "images/disney/yzma.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κρονκ", "kronk", "βοηθός κρονκ", "ο κρονκ", "kronk pepikrankenitz"],
+        "image": "images/disney/kronk.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["καρλ φρέντρικσεν", "carl fredricksen", "carl", "παππούς καρλ", "ο καρλ"],
+        "image": "images/disney/carl-fredricksen.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ράσσελ", "russell", "πρόσκοπος ράσσελ", "ο ράσσελ", "russell the wilderness explorer"],
+        "image": "images/disney/russell.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νταγκ", "dug", "σκύλος νταγκ", "ο νταγκ", "dug the dog"],
+        "image": "images/disney/dug.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κεβίν", "kevin", "πουλί κεβίν", "η κεβίν", "kevin the bird"],
+        "image": "images/disney/kevin.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ρεμί", "remy", "ποντικός ρεμί", "ο ρεμί", "remy the chef"],
+        "image": "images/disney/remy.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μητέρα γκόθελ", "mother gothel", "gothel", "κακιά γκόθελ", "η γκόθελ"],
+        "image": "images/disney/mother-gothel.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ρεξ", "rex", "δεινόσαυρος ρεξ", "ο ρεξ", "rex the dinosaur"],
+        "image": "images/disney/rex.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φόρκι", "forky", "πιρούνι φόρκι", "ο φόρκι", "forky the spork"],
+        "image": "images/disney/forky.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λότσο", "lotso", "αρκουδάκι λότσο", "ο λότσο", "lotso huggin bear"],
+        "image": "images/disney/lotso.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μάρλιν", "marlin", "ψάρι μάρλιν", "ο μάρλιν", "marlin the clownfish"],
+        "image": "images/disney/marlin.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κρας", "crush", "χελώνα κρας", "ο κρας", "crush the turtle"],
+        "image": "images/disney/crush.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπού", "boo", "κοριτσάκι μπού", "η μπού", "boo from monsters inc"],
+        "image": "images/disney/boo.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ράνταλ", "randall", "randall boggs", "σαύρα ράνταλ", "ο ράνταλ"],
+        "image": "images/disney/randall.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κύριος απίθανος", "mr incredible", "mister incredible", "μπαμπάς απίθανος", "ο κύριος απίθανος"],
+        "image": "images/disney/mr-incredible.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ελαστικρίνα", "elastigirl", "helen parr", "ελένη παρ", "η ελαστικρίνα"],
+        "image": "images/disney/elastigirl.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ζακ ζακ", "jack-jack", "jack jack", "μωρό ζακ ζακ", "ο ζακ ζακ"],
+        "image": "images/disney/jack-jack.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["χαρά", "joy", "συναίσθημα χαρά", "η χαρά", "joy from inside out"],
+        "image": "images/disney/joy.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["λύπη", "sadness", "συναίσθημα λύπη", "η λύπη", "sadness from inside out"],
+        "image": "images/disney/sadness.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άγχος", "anxiety", "συναίσθημα άγχος", "το άγχος", "anxiety from inside out"],
+        "image": "images/disney/anxiety.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μιγκέλ", "miguel", "miguel rivera", "ο μιγκέλ", "miguel from coco"],
+        "image": "images/disney/miguel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["έκτορ", "hector", "hector rivera", "ο έκτορ", "hector from coco"],
+        "image": "images/disney/hector.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["έμπερ", "ember", "ember lumen", "η έμπερ", "ember from elemental"],
+        "image": "images/disney/ember.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γουέιντ", "wade", "wade ripple", "ο γουέιντ", "wade from elemental"],
+        "image": "images/disney/wade.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["λούκα", "luca", "luca paguro", "ο λούκα", "luca the sea monster"],
+        "image": "images/disney/luca.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αλμπέρτο", "alberto", "alberto scorfano", "ο αλμπέρτο", "alberto from luca"],
+        "image": "images/disney/alberto.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λουίτζι", "luigi", "αυτοκίνητο λουίτζι", "ο λουίτζι", "luigi from cars"],
+        "image": "images/disney/luigi.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γκουίντο", "guido", "μικρό αυτοκίνητο γκουίντο", "ο γκουίντο", "guido from cars"],
+        "image": "images/disney/guido.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ραμόν", "ramone", "βαμμένος ραμόν", "ο ραμόν", "ramone from cars"],
+        "image": "images/disney/ramone.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σερίφης", "sheriff", "αστυνομικός σερίφης", "ο σερίφης", "sheriff from cars"],
+        "image": "images/disney/sheriff.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["φλο", "flo", "βενζινάδικο φλο", "η φλο", "flo from cars"],
+        "image": "images/disney/flo.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ο βασιλιάς", "the king", "king", "striwe dinoco", "ο τσικ και ο βασιλιάς"],
+        "image": "images/disney/the-king.jpg",
+        "difficulty": "hard"
+    }
+],
+
+monuments: [
+    {
+        "answers": ["πύργος του άιφελ", "άιφελ", "eiffel tower", "eiffel", "πύργος άιφελ στο παρίσι", "ο πύργος του άιφελ"],
+        "image": "images/monuments/eiffel-tower.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["άγαλμα της ελευθερίας", "statue of liberty", "lady liberty", "άγαλμα ελευθερίας", "η κυρία της ελευθερίας"],
+        "image": "images/monuments/statue-of-liberty.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπιγκ μπεν", "big ben", "πύργος του ρολογιού μπιγκ μπεν", "ο μπιγκ μπεν", "elizabeth tower"],
+        "image": "images/monuments/big-ben.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κολοσσαίο", "colosseum", "ρωμαϊκό κολοσσαίο", "flavian amphitheatre", "το κολοσσαίο"],
+        "image": "images/monuments/colosseum.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κεκλιμένος πύργος της πίζας", "πύργος της πίζας", "leaning tower of pisa", "tower of pisa", "ο πύργος της πίζας"],
+        "image": "images/monuments/leaning-tower-of-pisa.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μεγάλη πυραμίδα της γκίζας", "πυραμίδα της γκίζας", "great pyramid of giza", "pyramid of giza", "πυραμίδα του χέοπα"],
+        "image": "images/monuments/great-pyramid-of-giza.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σφίγγα", "μεγάλη σφίγγα", "great sphinx", "sphinx", "η μεγάλη σφίγγα της γκίζας"],
+        "image": "images/monuments/sphinx.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ταζ μαχάλ", "taj mahal", "το ταζ μαχάλ", "μαυσωλείο ταζ μαχάλ", "taj"],
+        "image": "images/monuments/taj-mahal.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["όπερα του σίδνεϊ", "sydney opera house", "sydney opera", "το θέατρο του σίδνεϊ", "κτίριο όπερας σίδνεϊ"],
+        "image": "images/monuments/sydney-opera-house.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χριστός λυτρωτής", "christ the redeemer", "cristo redentor", "άγαλμα χριστός λυτρωτής", "ο χριστός του ριό"],
+        "image": "images/monuments/christ-the-redeemer.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αψίδα του θριάμβου", "arc de triomphe", "αψίδα θριάμβου παρισιού", "arc de triomphe de l'étoile", "η αψίδα του θριάμβου"],
+        "image": "images/monuments/arc-de-triomphe.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["όρος ράσμορ", "mount rushmore", "mt rushmore", "μνημείο όρος ράσμορ", "οι πρόεδροι στο όρος ράσμορ"],
+        "image": "images/monuments/mount-rushmore.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πύλη του βρανδεμβούργου", "brandenburg gate", "brandenburger tor", "η πύλη του βρανδεμβούργου", "βρανδεμβούργο"],
+        "image": "images/monuments/brandenburg-gate.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["στόουνχεντζ", "stonehenge", "αρχαίο στόουνχεντζ", "οι λίθοι του στόουνχεντζ", "stone henge"],
+        "image": "images/monuments/stonehenge.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μάτσου πίτσου", "machu picchu", "η πόλη μάτσου πίτσου", "inča city machu picchu", "αρχαία πόλη μάτσου πίτσου"],
+        "image": "images/monuments/machu-picchu.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["παρθενώνας", "parthenon", "ο παρθενώνας", "temple of parthenon", "ναός του παρθενώνα"],
+        "image": "images/monuments/parthenon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γέφυρα γκόλντεν γκέιτ", "golden gate bridge", "golden gate", "η κόκκινη γέφυρα γκόλντεν γκέιτ", "γέφυρα του σαν φρανσίσκο"],
+        "image": "images/monuments/golden-gate-bridge.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μπουρτζ χαλίφα", "burj khalifa", "burj", "ο πύργος μπουρτζ χαλίφα", "ψηλότερος πύργος στο ντουμπάι"],
+        "image": "images/monuments/burj-khalifa.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τάουερ μπριτζ", "tower bridge", "γέφυρα του Λονδίνου", "η γέφυρα τάουερ μπριτζ", "tower bridge london"],
+        "image": "images/monuments/tower-bridge.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πυραμίδα του λούβρου", "louvre pyramid", "glass pyramid louvre", "η πυραμίδα του λούβρου", "pyramide du louvre"],
+        "image": "images/monuments/louvre-pyramid.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κάστρο νοϊσβανστάιν", "neuschwanstein castle", "neuschwanstein", "το παραμυθένιο κάστρο νοϊσβανστάιν", "schloss neuschwanstein"],
+        "image": "images/monuments/neuschwanstein-castle.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ανγκόρ βατ", "angkor wat", "ναός ανγκόρ βατ", "angkor", "το συγκρότημα ανγκόρ βατ"],
+        "image": "images/monuments/angkor-wat.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πέτρα", "petra", "η αρχαία πόλη πέτρα", "petra jordan", "η ροδίνη πόλη πέτρα"],
+        "image": "images/monuments/petra.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τσιτσέν ιτζά", "chichen itza", "πυραμίδα τσιτσέν ιτζά", "chichén itzá", "αρχαία πόλη τσιτσέν ιτζά"],
+        "image": "images/monuments/chichen-itza.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μοάι", "αγάλματα μοάι", "moai", "easter island statues", "τα αγάλματα του νησιού του Πάσχα"],
+        "image": "images/monuments/moai.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κρήνη ντι τρέβι", "fontana di trevi", "trevi fountain", "συντριβάνι ντι τρέβι", "η κρήνη της ρώμης"],
+        "image": "images/monuments/trevi-fountain.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πάνθεον", "pantheon", "το πάνθεον της ρώμης", "roman pantheon", "panteon"],
+        "image": "images/monuments/pantheon.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σακρέ κερ", "sacre coeur", "sacré-cœur", "βασιλική σακρέ κερ", "sacre-coeur paris"],
+        "image": "images/monuments/sacre-coeur.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σαγραδα φαμίλια", "sagrada familia", "basilica sagrada familia", "ναός σαγραδα φαμίλια", "η εκκλησία του γκαουντί"],
+        "image": "images/monuments/sagrada-familia.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["απαγορευμένη πόλη", "forbidden city", "the forbidden city", "ο τόπος των αυτοκρατόρων", "απαγορευμένη πόλη πεκίνου"],
+        "image": "images/monuments/forbidden-city.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κρεμλίνο", "kremlin", "moscow kremlin", "το κρεμλίνο της μόσχας", "moskovskij kreml'"],
+        "image": "images/monuments/kremlin.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπλε τζαμί", "blue mosque", "sultan ahmed mosque", "το μπλε τζαμί της Κωνσταντινούπολης", "sultanahmet camii"],
+        "image": "images/monuments/blue-mosque.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αγία σοφία", "hagia sophia", "ayasofya", "ναός της αγίας σοφίας", "η αγία σοφία στην κωνσταντινούπολη"],
+        "image": "images/monuments/hagia-sophia.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μνημείο λίνκολν", "lincoln memorial", "abraham lincoln memorial", "το μνημείο του αβραάμ λίνκολν", "lincoln memorial washington"],
+        "image": "images/monuments/lincoln-memorial.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cn tower", "πύργος cn", "cn tower toronto", "ο πύργος cn στον καναδά", "canadian national tower"],
+        "image": "images/monuments/cn-tower.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πύργος του τόκιο", "tokyo tower", "tokyo tower japan", "ο πύργος του τόκιο", "tokyo sky tower"],
+        "image": "images/monuments/tokyo-tower.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["marina bay sands", "μαρίνα μπέι σάντς", "το ξενοδοχείο marina bay sands", "marina bay sands singapore", "κτίριο marina bay sands"],
+        "image": "images/monuments/marina-bay-sands.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ατόμιουμ", "atomium", "το άτομο στις Βρυξέλλες", "atomium brussels", "ατόμιουμ βελγίου"],
+        "image": "images/monuments/atomium.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αλάμπρα", "alhambra", "το παλάτι αλάμπρα", "palacio de la alhambra", "alhambra granada"],
+        "image": "images/monuments/alhambra.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ακρόπολη", "ακρόπολη αθηνών", "acropolis", "acropolis of athens", "ο ιερός βράχος της ακρόπολης"],
+        "image": "images/monuments/acropolis.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βορομπουντούρ", "borobudur", "ναός βορομπουντούρ", "candi borobudur", "βουδιστικός ναός βορομπουντούρ"],
+        "image": "images/monuments/borobudur.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ναοί του μπαγκάν", "bagan temples", "bagan", "οι ναοί του bagan", "pagan temples myanmar"],
+        "image": "images/monuments/bagan.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ναός του ουρανού", "temple of heaven", "tiantan", "ο ναός του ουρανού στο πεκίνο", "imperial vault of heaven"],
+        "image": "images/monuments/temple-of-heaven.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μον σεν μισέλ", "mont saint-michel", "mont-saint-michel", "το νησί μον σεν μισέλ", "mont saint michel abbey"],
+        "image": "images/monuments/mont-saint-michel.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κάστρο χιμέτζι", "himeji castle", "himeji-jo", "το λευκό κάστρο χιμέτζι", "himeji jō"],
+        "image": "images/monuments/himeji-castle.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μεγάλο τζαμί σεΐχη ζαγιέντ", "sheikh zayed grand mosque", "sheikh zayed mosque", "το τζαμί σεΐχη ζαγιέντ", "abu dhabi grand mosque"],
+        "image": "images/monuments/sheikh-zayed-grand-mosque.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["παλάτι του γουέστμινστερ", "palace of westminster", "houses of parliament", "το κοινοβούλιο του Λονδίνου", "westminster palace"],
+        "image": "images/monuments/palace-of-westminster.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["πραμπανάν", "prambanan", "ναός πραμπανάν", "candi prambanan", "hindu temple prambanan"],
+        "image": "images/monuments/prambanan.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μοναστήρι της ρίλα", "rila monastery", "rilski manastir", "το μοναστήρι της ρίλα στη βουλγαρία", "holy mother of god monastery"],
+        "image": "images/monuments/rila-monastery.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κάστρο σαντ' άντζελο", "castel sant'angelo", "mausoleum of hadrian", "το κάστρο σαντ άντζελο", "castel sant angelo rome"],
+        "image": "images/monuments/castel-santangelo.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["καθεδρικός της νοτρ νταμ", "notre dame", "notre-dame cathedral", "παναγία των παρισίων", "cathedrale de notre dame de paris"],
+        "image": "images/monuments/notre-dame.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["empire state building", "εμπάιαρ στέιτ", "ο ουρανοξύστης empire state", "empire state building new york", "εμπάιαρ στέιτ μπίλντινγκ"],
+        "image": "images/monuments/empire-state-building.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["one world trade center", "world trade center", "freedom tower", "πύργος ελευθερίας νεας υόρκης", "one wtc"],
+        "image": "images/monuments/one-world-trade-center.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γέφυρα του μπρούκλιν", "brooklyn bridge", "η γέφυρα του μπρούκλιν", "brooklyn bridge new york", "η κρεμαστή γέφυρα μπρούκλιν"],
+        "image": "images/monuments/brooklyn-bridge.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["gateway arch", "η αψίδα του σαιντ λούις", "st louis arch", "the gateway arch missouri", "gateway arch st louis"],
+        "image": "images/monuments/gateway-arch.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["space needle", "σπεισ νιντλ", "ο πύργος space needle στο σιάτλ", "space needle seattle", "ο πύργος με τη βελόνα"],
+        "image": "images/monuments/space-needle.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["καθεδρικός του αγίου βασιλείου", "st basil's cathedral", "saint basil's cathedral", "ναός αγίου βασιλείου μόσχας", "ο καθεδρικός ναός στην κόκκινη πλατεία"],
+        "image": "images/monuments/st-basils-cathedral.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπουρτζ αλ αράμπ", "burj al arab", "το ξενοδοχείο ιστίο", "burj al arab dubai", "ο πύργος των αράβων"],
+        "image": "images/monuments/burj-al-arab.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ναός του λωτού", "lotus temple", "lotus temple delhi", "ο ναός σε σχήμα λουλουδιού", "bahai lotus temple"],
+        "image": "images/monuments/lotus-temple.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["δίδυμοι πύργοι", "petronas twin towers", "petronas towers", "οι πύργοι πετρόνας", "peteornas towers kuala lumpur"],
+        "image": "images/monuments/petronas-towers.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πύργος της κουάλα λουμπούρ", "kl tower", "kuala lumpur tower", "menara kuala lumpur", "ο πύργος kl"],
+        "image": "images/monuments/kl-tower.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["παλάτι γκιονγκμποκ", "gyeongbokgung palace", "gyeongbokgung", "το βασιλικό παλάτι γκιονγκμποκ", "gyeongbokgung seoul"],
+        "image": "images/monuments/gyeongbokgung-palace.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πύργος της σεούλ", "n seoul tower", "namsan tower", "ο πύργος n seoul", "seoul tower"],
+        "image": "images/monuments/n-seoul-tower.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["φουσίμι ινάρι", "fushimi inari", "fushimi inari taisha", "ιερό φουσίμι ινάρι με τις κόκκινες πύλες", "fushimi inari shrine"],
+        "image": "images/monuments/fushimi-inari.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κινκακού τζι", "golden pavilion", "kinkaku-ji", "ο χρυσός ναός στο κιότο", "temple of the golden pavilion"],
+        "image": "images/monuments/kinkaku-ji.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ιερό ιτσουκουσίμα", "itsukushima shrine", "miyajima shrine", "το πλωτό ιερό ιτσουκουσίμα", "itsukushima jinja"],
+        "image": "images/monuments/itsukushima-shrine.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["καθεδρικός του μιλάνου", "duomo di milano", "milan cathedral", "ντουόμο του μιλάνου", "il duomo milan"],
+        "image": "images/monuments/milan-cathedral.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["καθεδρικός της φλωρεντίας", "florence cathedral", "cattedrale di santa maria del fiore", "το ντουόμο της φλωρεντίας", "duomo di firenze"],
+        "image": "images/monuments/florence-cathedral.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βασιλική του αγίου πέτρου", "st peter's basilica", "basilica di san pietro", "η βασιλική του αγίου πέτρου στο βατικανό", "saint peter's basilica"],
+        "image": "images/monuments/st-peters-basilica.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["καπέλα σιστίνα", "sistine chapel", "capella sistina", "η σιστινα", "sistine chapel vatican"],
+        "image": "images/monuments/sistine-chapel.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γέφυρα του καρόλου", "charles bridge", "karlův můst", "η ιστορική γέφυρα του καρόλου στην πράγα", "prague charles bridge"],
+        "image": "images/monuments/charles-bridge.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κάστρο της πράγας", "prague castle", "pražský hrad", "το κάστρο της πράγας στην τσεχία", "hradcany castle"],
+        "image": "images/monuments/prague-castle.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["πύργος του μπελέμ", "belem tower", "torre de belem", "ο πύργος του μπελέμ στη λισαβόνα", "tower of belem"],
+        "image": "images/monuments/belem-tower.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μοναστήρι των ιερονυμιτών", "jeronimos monastery", "mosteiro dos jeronimos", "το μοναστήρι των ιερωνυμιτών στη λισαβόνα", "jerónimos monastery"],
+        "image": "images/monuments/jeronimos-monastery.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κάστρο του εδιμβούργου", "edinburgh castle", "edinburgh castle scotland", "το κάστρο του εδιμβούργου στη σκωτία", "castle of edinburgh"],
+        "image": "images/monuments/edinburgh-castle.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γίγαντας του δρόμου", "giant's causeway", "giants causeway", "το μονοπάτι του γίγαντα", "the giant's causeway northern ireland"],
+        "image": "images/monuments/giants-causeway.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["παλάτι πένα", "pena palace", "palacio da pena", "το πολύχρωμο παλάτι πένα στην πορτογαλία", "pena national palace"],
+        "image": "images/monuments/pena-palace.jpg",
+        "difficulty": "medium"
+    }
+],
+
+
+countries: [
+    {
+        "answers": ["ελλάδα", "greece"],
+        "image": "images/countries/greece.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γαλλία", "france"],
+        "image": "images/countries/france.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["γερμανία", "germany"],
+        "image": "images/countries/germany.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ιταλία", "italy"],
+        "image": "images/countries/italy.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ισπανία", "spain"],
+        "image": "images/countries/spain.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πορτογαλία", "portugal"],
+        "image": "images/countries/portugal.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ηνωμένο βασίλειο", "αγγλία", "united kingdom", "uk", "england"],
+        "image": "images/countries/united-kingdom.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ιρλανδία", "ireland"],
+        "image": "images/countries/ireland.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βελγιο", "βέλγιο", "belgium"],
+        "image": "images/countries/belgium.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ολλανδία", "κάτω χώρες", "netherlands"],
+        "image": "images/countries/netherlands.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ελβετία", "switzerland"],
+        "image": "images/countries/switzerland.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αυστρία", "austria"],
+        "image": "images/countries/austria.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σουηδία", "sweden"],
+        "image": "images/countries/sweden.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νορβηγία", "norway"],
+        "image": "images/countries/norway.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["δανία", "denmark"],
+        "image": "images/countries/denmark.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["φινλανδία", "finland"],
+        "image": "images/countries/finland.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πολωνία", "poland"],
+        "image": "images/countries/poland.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τσεχία", "czech republic", "czechia"],
+        "image": "images/countries/czechia.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ουγγαρία", "hungary"],
+        "image": "images/countries/hungary.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ρουμανία", "romania"],
+        "image": "images/countries/romania.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βουλγαρία", "bulgaria"],
+        "image": "images/countries/bulgaria.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["τουρκία", "turkey", "türkiye"],
+        "image": "images/countries/turkiye.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ρωσία", "russia"],
+        "image": "images/countries/russia.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ουκρανία", "ukraine"],
+        "image": "images/countries/ukraine.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["καναδάς", "canada"],
+        "image": "images/countries/canada.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ηνωμένες πολιτείες", "ηπα", "αμερική", "united states", "usa", "us", "america"],
+        "image": "images/countries/usa.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μεξικό", "mexico"],
+        "image": "images/countries/mexico.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βραζιλία", "brazil"],
+        "image": "images/countries/brazil.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["αργεντινή", "argentina"],
+        "image": "images/countries/argentina.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["χιλή", "chile"],
+        "image": "images/countries/chile.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["περού", "peru"],
+        "image": "images/countries/peru.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κολομβία", "colombia"],
+        "image": "images/countries/colombia.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ιαπωνία", "japan"],
+        "image": "images/countries/japan.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κίνα", "china"],
+        "image": "images/countries/china.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νότια κορέα", "κορέα", "south korea"],
+        "image": "images/countries/south-korea.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["βόρεια κορέα", "north korea"],
+        "image": "images/countries/north-korea.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ινδία", "india"],
+        "image": "images/countries/india.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["πακιστάν", "pakistan"],
+        "image": "images/countries/pakistan.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ταϊλάνδη", "thailand"],
+        "image": "images/countries/thailand.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βιετνάμ", "vietnam"],
+        "image": "images/countries/vietnam.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ινδονησία", "indonesia"],
+        "image": "images/countries/indonesia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["φιλιππίνες", "philippines"],
+        "image": "images/countries/philippines.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αυστραλία", "australia"],
+        "image": "images/countries/australia.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["νέα ζηλανδία", "new zealand"],
+        "image": "images/countries/new-zealand.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αιγυπτος", "αίγυπτος", "egypt"],
+        "image": "images/countries/egypt.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["μαρόκο", "morocco"],
+        "image": "images/countries/morocco.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["νότια αφρική", "south africa"],
+        "image": "images/countries/south-africa.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σαουδική αραβία", "saudi arabia"],
+        "image": "images/countries/saudi-arabia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ηνωμένα αραβικά εμιράτα", "uae", "united arab emirates"],
+        "image": "images/countries/united-arab-emirates.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ισραήλ", "israel"],
+        "image": "images/countries/israel.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σιγκαπούρη", "singapore"],
+        "image": "images/countries/singapore.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μαλαισία", "malaysia"],
+        "image": "images/countries/malaysia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κατάρ", "qatar"],
+        "image": "images/countries/qatar.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κροατία", "croatia"],
+        "image": "images/countries/croatia.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["σερβία", "serbia"],
+        "image": "images/countries/serbia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σλοβενία", "slovenia"],
+        "image": "images/countries/slovenia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σλοβακία", "slovakia"],
+        "image": "images/countries/slovakia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βοσνία και ερζεγοβίνη", "bosnia and herzegovina", "bosnia"],
+        "image": "images/countries/bosnia-and-herzegovina.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μαυροβούνιο", "montenegro"],
+        "image": "images/countries/montenegro.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βόρεια μακεδονία", "north macedonia"],
+        "image": "images/countries/north-macedonia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αλβανία", "albania"],
+        "image": "images/countries/albania.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["κύπρος", "cyprus"],
+        "image": "images/countries/cyprus.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["λιθουανία", "lithuania"],
+        "image": "images/countries/lithuania.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λετονία", "latvia"],
+        "image": "images/countries/latvia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["εσθονία", "estonia"],
+        "image": "images/countries/estonia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λευκορωσία", "belarus"],
+        "image": "images/countries/belarus.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μολδαβία", "moldova"],
+        "image": "images/countries/moldova.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["γεωργία", "georgia"],
+        "image": "images/countries/georgia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αρμενία", "armenia"],
+        "image": "images/countries/armenia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αζερμπαϊτζάν", "azerbaijan"],
+        "image": "images/countries/azerbaijan.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["καζακστάν", "kazakhstan"],
+        "image": "images/countries/kazakhstan.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ουζμπεκιστάν", "uzbekistan"],
+        "image": "images/countries/uzbekistan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τουρκμενιστάν", "turkmenistan"],
+        "image": "images/countries/turkmenistan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κιργιζιστάν", "kyrgyzstan"],
+        "image": "images/countries/kyrgyzstan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τατζικιστάν", "tajikistan"],
+        "image": "images/countries/tajikistan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νεπάλ", "nepal"],
+        "image": "images/countries/nepal.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μπανγκλαντές", "bangladesh"],
+        "image": "images/countries/bangladesh.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["σρι λάνκα", "sri lanka"],
+        "image": "images/countries/sri-lanka.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μογγολία", "mongolia"],
+        "image": "images/countries/mongolia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ταϊβάν", "taiwan"],
+        "image": "images/countries/taiwan.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["καμπότζη", "cambodia"],
+        "image": "images/countries/cambodia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λάος", "laos"],
+        "image": "images/countries/laos.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μιανμάρ", "myanmar", "burma"],
+        "image": "images/countries/myanmar.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπρουνέι", "brunei"],
+        "image": "images/countries/brunei.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["παπούα νέα γουινέα", "papua new guinea"],
+        "image": "images/countries/papua-new-guinea.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ισλανδία", "iceland"],
+        "image": "images/countries/iceland.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λουξεμβούργο", "luxembourg"],
+        "image": "images/countries/luxembourg.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λιχτενστάιν", "liechtenstein"],
+        "image": "images/countries/liechtenstein.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ανδόρα", "andorra"],
+        "image": "images/countries/andorra.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μονακό", "monaco"],
+        "image": "images/countries/monaco.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["άγιος μαρίνος", "san marino"],
+        "image": "images/countries/san-marino.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["βατικανό", "vatican", "vatican city"],
+        "image": "images/countries/vatican-city.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["μαλτα", "μάλτα", "malta"],
+        "image": "images/countries/malta.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τυνησία", "tunisia"],
+        "image": "images/countries/tunisia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αλγερία", "algeria"],
+        "image": "images/countries/algeria.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["λιβύη", "libya"],
+        "image": "images/countries/libya.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["νιγηρία", "nigeria"],
+        "image": "images/countries/nigeria.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κένυα", "kenya"],
+        "image": "images/countries/kenya.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["αιθιοπία", "ethiopia"],
+        "image": "images/countries/ethiopia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τανζανία", "tanzania"],
+        "image": "images/countries/tanzania.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ζιμπάμπουε", "zimbabwe"],
+        "image": "images/countries/zimbabwe.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ζάμπια", "zambia"],
+        "image": "images/countries/zambia.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ναμίμπια", "namibia"],
+        "image": "images/countries/namibia.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μποτσουάνα", "botswana"],
+        "image": "images/countries/botswana.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["βενεζουέλα", "venezuela"],
+        "image": "images/countries/venezuela.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["εκουαδόρ", "ecuador"],
+        "image": "images/countries/ecuador.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ουρουγουάη", "uruguay"],
+        "image": "images/countries/uruguay.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["παραγουάη", "paraguay"],
+        "image": "images/countries/paraguay.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["βολιβία", "bolivia"],
+        "image": "images/countries/bolivia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κούβα", "cuba"],
+        "image": "images/countries/cuba.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["τζαμάικα", "jamaica"],
+        "image": "images/countries/jamaica.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["δομινικανή δημοκρατία", "dominican republic"],
+        "image": "images/countries/dominican-republic.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κοστα ρίκα", "costa rica"],
+        "image": "images/countries/costa-rica.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["παναμάς", "panama"],
+        "image": "images/countries/panama.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["κομόρες", "comoros"],
+        "image": "images/countries/comoros.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τζιμπουτί", "djibouti"],
+        "image": "images/countries/djibouti.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ερυθραία", "eritrea"],
+        "image": "images/countries/eritrea.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["εσουατίνι", "eswatini", "swaziland"],
+        "image": "images/countries/eswatini.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["λεσότο", "lesotho"],
+        "image": "images/countries/lesotho.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["γκάμπια", "gambia"],
+        "image": "images/countries/gambia.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["γκουινέα", "guinea"],
+        "image": "images/countries/guinea.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["γκουινέα μπισάου", "guinea-bissau", "guinea bissau"],
+        "image": "images/countries/guinea-bissau.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ισημερινή γουινέα", "equatorial guinea"],
+        "image": "images/countries/equatorial-guinea.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σάο τομέ και πρίνσιπε", "sao tome and principe"],
+        "image": "images/countries/sao-tome-and-principe.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κεντροαφρικανική δημοκρατία", "central african republic"],
+        "image": "images/countries/central-african-republic.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπουρκίνα φάσο", "burkina faso"],
+        "image": "images/countries/burkina-faso.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπουρούντι", "burundi"],
+        "image": "images/countries/burundi.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ρουάντα", "rwanda"],
+        "image": "images/countries/rwanda.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σομαλία", "somalia"],
+        "image": "images/countries/somalia.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σουδάν", "sudan"],
+        "image": "images/countries/sudan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νότιο σουδάν", "south sudan"],
+        "image": "images/countries/south-sudan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μαυριτανία", "mauritania"],
+        "image": "images/countries/mauritania.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νίγηρας", "niger"],
+        "image": "images/countries/niger.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τσαντ", "chad"],
+        "image": "images/countries/chad.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μπουτάν", "bhutan"],
+        "image": "images/countries/bhutan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μαδαγασκάρη", "madagascar"],
+        "image": "images/countries/madagascar.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μαυρίκιος", "mauritius"],
+        "image": "images/countries/mauritius.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σεϋχέλλες", "seychelles"],
+        "image": "images/countries/seychelles.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["μαλδίβες", "maldives"],
+        "image": "images/countries/maldives.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ανατολικό τιμόρ", "timor-leste", "east timor"],
+        "image": "images/countries/timor-leste.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["παλάου", "palau"],
+        "image": "images/countries/palau.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["φιτζι", "φίτζι", "fiji"],
+        "image": "images/countries/fiji.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τόνγκα", "tonga"],
+        "image": "images/countries/tonga.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["σαμόα", "samoa"],
+        "image": "images/countries/samoa.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["βανουάτου", "vanuatu"],
+        "image": "images/countries/vanuatu.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ναουρού", "nauru"],
+        "image": "images/countries/nauru.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["τουβαλού", "tuvalu"],
+        "image": "images/countries/tuvalu.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["κιριμπάτι", "kiribati"],
+        "image": "images/countries/kiribati.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["νησιά μάρσαλ", "marshall islands"],
+        "image": "images/countries/marshall-islands.png",
+        "difficulty": "hard"
+    }
+]
+
+};
