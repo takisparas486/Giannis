@@ -802,6 +802,11 @@ function beginMatch(player1NameText, player2NameText, categoryKey) {
 function loadNextImage() {
     if (!gameRunning) return;
 
+    if (answerCaption) {
+        answerCaption.classList.remove("show", "pass");
+        answerCaption.textContent = "";
+    }
+
     const selectedDifficulties = [];
     if (easyCheckbox.checked) selectedDifficulties.push("easy");
     if (mediumCheckbox.checked) selectedDifficulties.push("medium");
@@ -1009,7 +1014,7 @@ function stopBrowserSpeechRecognition() {
     usingBrowserSpeechFallback = false;
 }
 
-function handleRemoteTranscript(transcript, isFinal = true) {
+function handleRemoteTranscript(transcript, isFinal = false) {
     logDebug(`Transcript received: ${transcript}`);
     console.log("handleRemoteTranscript", transcript, isFinal);
     if (waitingAfterPass) return;
@@ -1021,6 +1026,7 @@ function handleRemoteTranscript(transcript, isFinal = true) {
     const cleanedTranscript = normalizedText.replace(/[.!,;:]/g, "").trim();
     const shortTranscript = cleanedTranscript.replace(/\s+/g, "").length;
 
+    // Αγνοούμε λέξεις μικρότερες από 2 γράμματα (εκτός από το πάσο)
     if (shortTranscript <= 2 && cleanedTranscript !== "πασο" && cleanedTranscript !== "πασου") {
         return;
     }
@@ -1029,25 +1035,41 @@ function handleRemoteTranscript(transcript, isFinal = true) {
     if (cleanedTranscript && cleanedTranscript === lastProcessedTranscript && now - lastProcessedTranscriptTime < 1500) {
         return;
     }
-    lastProcessedTranscript = cleanedTranscript;
-    lastProcessedTranscriptTime = now;
-
+    
+    // 🚀 ΔΙΟΡΘΩΣΗ ΓΙΑ ΤΟ ΠΑΣΟ: Απαιτούμε πλέον isFinal === true ή να είναι σίγουρη εντολή
+    // ώστε να μην πιάνει ψίχουλα ομιλίας από την τηλεόραση.
     if (isPassCommand(cleanedTranscript)) {
-        console.log("detected pass command", cleanedTranscript);
+        if (!isFinal) return;
+        
+        lastProcessedTranscript = cleanedTranscript;
+        lastProcessedTranscriptTime = now;
         handlePass();
         return;
     }
 
+    // Για οτιδήποτε άλλο, απαιτούμε οπωσδήποτε τελικό αποτέλεσμα
     if (!isFinal) {
-        if (checkAnswer(cleanedTranscript, false)) {
-            return;
-        }
         return;
     }
 
+    // 🚀 ΕΠΙπΛΕΟΝ ΦΙΛΤΡΟ (ΠΡΟΑΙΡΕΤΙΚΟ ΑΛΛΑ ΠΟΛΥ ΧΡΗΣΙΜΟ):
+    // Έλεγχος αν η απάντηση ταιριάζει με κάποια από τις έγκυρες απαντήσεις του τρέχοντος αντικειμένου
+    // (υποθέτοντας ότι έχεις μια μεταβλητή όπως currentItem που κρατάει το τρέχον στοιχείο από το categories.js)
+    if (typeof currentItem !== 'undefined' && currentItem && currentItem.answers) {
+        const isValidAnswer = currentItem.answers.some(ans => 
+            normalizeSpokenText(ans) === cleanedTranscript
+        );
+        if (!isValidAnswer) {
+            console.log("Ignored background noise / invalid answer for this item:", cleanedTranscript);
+            return;
+        }
+    }
+
+    lastProcessedTranscript = cleanedTranscript;
+    lastProcessedTranscriptTime = now;
+
     checkAnswer(cleanedTranscript, isFinal);
 }
-
 function isPassCommand(normalizedText) {
     const cleaned = (normalizedText || "").toLowerCase().trim();
     if (!cleaned) return false;
@@ -1067,6 +1089,40 @@ function isPassCommand(normalizedText) {
 
 function normalizeSpokenText(text) {
     return normalizeAnswerText(text);
+}
+
+// Συνάρτηση που καλείται όταν τελειώνει το παιχνίδι
+function onGameEnd() {
+    console.log("Το παιχνίδι τελείωσε!");
+    
+    // 1. Επιλογή τυχαίου επόμενου αντιπάλου / παίκτη
+    selectRandomNextOpponent();
+
+    // 2. Εμφάνιση του κουμπιού έναρξης αντί για αυτόματη συνέχιση
+    const startBtn = document.getElementById("startGameBtn");
+    if (startBtn) {
+        startBtn.style.display = "block";
+        // Αφαιρούμε τυχόν παλιά events και βάζουμε νέο listener
+        startBtn.onclick = function() {
+            startBtn.style.display = "none"; // Κρύβουμε το κουμπί
+            startNewGame(); // Ξεκινάει ο επόμενος γύρος
+        };
+    }
+}
+
+// Συνάρτηση τυχαίας επιλογής (Παράδειγμα)
+function selectRandomNextOpponent() {
+    if (typeof opponentsList !== 'undefined' && opponentsList.length > 0) {
+        const randomIndex = Math.floor(Math.random() * opponentsList.length);
+        currentOpponent = opponentsList[randomIndex];
+        console.log("Επιλέχθηκε τυχαίος αντίπαλος:", currentOpponent);
+    }
+}
+
+function startNewGame() {
+    // Εδώ βάζεις τον κώδικα που μηδενίζει το σκορ/γύρο και ξεκινάει τη δράση
+    resetBoard();
+    nextRound();
 }
 
 function pickBestTranscript(result, isFinal) {
@@ -1635,10 +1691,13 @@ function finishGame(winnerPlayer) {
 
         const resolvedWinner = winnerText || (winnerPlayer === 1 ? player1Name.textContent : player2Name.textContent);
         const challengerWon = resolvedWinner === tournamentCurrentMatch.challenger.name;
-
         if (!challengerWon) {
             currentChallenger = tournamentCurrentMatch.opponent;
         }
+
+        // Είτε κερδίσει είτε χάσει ο Challenger, ο αντίπαλος που μόλις έπαιξε 
+        // πρέπει να φεύγει από την ουρά των επόμενων αντιπάλων!
+        tournamentOpponentQueue.shift();
 
         tournamentCurrentMatch = null;
         updateTournamentBracket(resolvedWinner, true);

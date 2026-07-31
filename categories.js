@@ -7039,231 +7039,806 @@ superheroes: [
 
 "car-logos": [
     {
-        "answers": ["byd"],
+        "answers": ["byd", "μπι και ντι"],
         "image": "images/car-logos/byd.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["geely"],
+        "answers": ["geely", "τζιλι"],
         "image": "images/car-logos/geely.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["chery"],
+        "answers": ["chery", "τσερι"],
         "image": "images/car-logos/chery.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["great wall", "gwm"],
+        "answers": ["great wall", "gwm", "γκρέιτ γουόλ"],
         "image": "images/car-logos/great-wall.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["mg"],
+        "answers": ["mg", "εμ τζι"],
         "image": "images/car-logos/mg.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["roewe"],
+        "answers": ["roewe", "ροεβέ"],
         "image": "images/car-logos/roewe.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["haval"],
+        "answers": ["haval", "χαβαλ"],
         "image": "images/car-logos/haval.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["li auto"],
+        "answers": ["li auto", "λι οτο"],
         "image": "images/car-logos/li-auto.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["zeekr"],
+        "answers": ["zeekr", "ζικρ"],
         "image": "images/car-logos/zeekr.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["lotus"],
+        "answers": ["lotus", "λότεσ", "λότους"],
         "image": "images/car-logos/lotus.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["pagani"],
+        "answers": ["pagani", "παγκάνι"],
         "image": "images/car-logos/pagani.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["bugatti"],
+        "answers": ["bugatti", "μπουγκάτι"],
         "image": "images/car-logos/bugatti.png",
         "difficulty": "easy"
     },
     {
-        "answers": ["lamborghini"],
+        "answers": ["lamborghini", "λαμπεργκίνι"],
         "image": "images/car-logos/lamborghini.png",
         "difficulty": "easy"
     },
     {
-        "answers": ["mclaren"],
+        "answers": ["mclaren", "μακλάρεν"],
         "image": "images/car-logos/mclaren.png",
         "difficulty": "easy"
     },
     {
-        "answers": ["koenigsegg"],
+        "answers": ["koenigsegg", "κένιγκσεγκ"],
         "image": "images/car-logos/koenigsegg.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["rimac"],
+        "answers": ["rimac", "ρίμακ"],
         "image": "images/car-logos/rimac.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["smart"],
+        "answers": ["smart", "σμαρτ"],
         "image": "images/car-logos/smart.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["alpine"],
+        "answers": ["alpine", "αλπίν"],
         "image": "images/car-logos/alpine.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["ds automobiles", "ds"],
+        "answers": ["ds automobiles", "ds", "ντι ες"],
         "image": "images/car-logos/ds.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["ram"],
+        "answers": ["ram", "ραμ"],
         "image": "images/car-logos/ram.png",
         "difficulty": "medium"
+    },
+    {
+        "answers": ["toyota", "τογιότα"],
+        "image": "images/car-logos/toyota.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["honda", "χόντα"],
+        "image": "images/car-logos/honda.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ford", "φορντ"],
+        "image": "images/car-logos/ford.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chevrolet", "σεβρολέτ"],
+        "image": "images/car-logos/chevrolet.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bmw", "μπι εμ νταμπליו"],
+        "image": "images/car-logos/bmw.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mercedes-benz", "mercedes", "μερσεντές", "μερτσέντες"],
+        "image": "images/car-logos/mercedes.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["audi", "άουντι"],
+        "image": "images/car-logos/audi.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["volkswagen", "vw", "φολκσβάγκεν"],
+        "image": "images/car-logos/volkswagen.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["porsche", "πόρσε"],
+        "image": "images/car-logos/porsche.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ferrari", "φεράρι"],
+        "image": "images/car-logos/ferrari.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["nissan", "νισάν"],
+        "image": "images/car-logos/nissan.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["hyundai", "χουντάι", "χιουντάι"],
+        "image": "images/car-logos/hyundai.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kia", "κία"],
+        "image": "images/car-logos/kia.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mazda", "μάσντα", "μάζντα"],
+        "image": "images/car-logos/mazda.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["subaru", "σουμπάρου"],
+        "image": "images/car-logos/subaru.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lexus", "λέξους"],
+        "image": "images/car-logos/lexus.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tesla", "τέσλα"],
+        "image": "images/car-logos/tesla.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["volvo", "βόλβο"],
+        "image": "images/car-logos/volvo.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["peugeot", "πεζώ"],
+        "image": "images/car-logos/peugeot.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["renault", "ρενό"],
+        "image": "images/car-logos/renault.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["fiat", "φίατ"],
+        "image": "images/car-logos/fiat.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["alfa romeo", "άλφα ρόμεο"],
+        "image": "images/car-logos/alfa-romeo.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["maserati", "μαζεράτι"],
+        "image": "images/car-logos/maserati.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jeep", "τζιπ"],
+        "image": "images/car-logos/jeep.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["land rover", "λαντ ρόβερ"],
+        "image": "images/car-logos/land-rover.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["jaguar", "τζάγουαρ"],
+        "image": "images/car-logos/jaguar.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mini", "μίνι"],
+        "image": "images/car-logos/mini.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["skoda", "σκόντα", "σκοντα"],
+        "image": "images/car-logos/skoda.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["seat", "σέατ"],
+        "image": "images/car-logos/seat.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["citroen", "σιτροέν"],
+        "image": "images/car-logos/citroen.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["opel", "όπελ"],
+        "image": "images/car-logos/opel.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["mitsubishi", "μιτσουμπίσι"],
+        "image": "images/car-logos/mitsubishi.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["suzuki", "σουζούκι"],
+        "image": "images/car-logos/suzuki.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["infiniti", "ινφινίτι"],
+        "image": "images/car-logos/infiniti.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["acura", "ακούρα"],
+        "image": "images/car-logos/acura.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["genesis", "τζένεσις"],
+        "image": "images/car-logos/genesis.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["cadillac", "καντίλακ"],
+        "image": "images/car-logos/cadillac.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lincoln", "λίνκολν"],
+        "image": "images/car-logos/lincoln.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["buick", "μπιούικ"],
+        "image": "images/car-logos/buick.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["gmc", "τζι εμ σι"],
+        "image": "images/car-logos/gmc.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dodge", "ντόντζ"],
+        "image": "images/car-logos/dodge.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["chrysler", "κράισλερ"],
+        "image": "images/car-logos/chrysler.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["polestar", "πόλσταρ"],
+        "image": "images/car-logos/polestar.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["nio", "νίο"],
+        "image": "images/car-logos/nio.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["xpeng", "ξπενγκ"],
+        "image": "images/car-logos/xpeng.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ora", "όρα"],
+        "image": "images/car-logos/ora.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["ssangyong", "kg mobility", "σανγκγιονγκ"],
+        "image": "images/car-logos/ssangyong.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["daihatsu", "νταϊχάτσου"],
+        "image": "images/car-logos/daihatsu.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["isuzu", "ισούζου"],
+        "image": "images/car-logos/isuzu.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["bentley", "μπέντλεϊ"],
+        "image": "images/car-logos/bentley.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rolls royce", "ρολς ρόις"],
+        "image": "images/car-logos/rolls-royce.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["aston martin", "άστον μάρτιν"],
+        "image": "images/car-logos/aston-martin.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["caterham", "κάτερχαμ"],
+        "image": "images/car-logos/caterham.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["morgan", "μόργκαν"],
+        "image": "images/car-logos/morgan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["abarth", "άμπαρθ"],
+        "image": "images/car-logos/abarth.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["cupra", "κούπρα"],
+        "image": "images/car-logos/cupra.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lancia", "λάντσια"],
+        "image": "images/car-logos/lancia.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["saab", "σάαμπ"],
+        "image": "images/car-logos/saab.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["vinfast", "βίνφαστ"],
+        "image": "images/car-logos/vinfast.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["buggy", "πάγκι", "μπαγκί"],
+        "image": "images/car-logos/buggy.png",
+        "difficulty": "hard"
     }
 ],
 
-"football-clubs": [
+"football-stadium": [
     {
-        "answers": ["bayer leverkusen", "leverkusen"],
-        "image": "images/football-clubs/bayer-leverkusen.png",
+        "answers": ["bayer leverkusen", "leverkusen", "μπαγερ λεβερκουζεν", "λεβερκουζεν"],
+        "image": "images/football-stadium/bayer-leverkusen.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["rb leipzig", "leipzig"],
-        "image": "images/football-clubs/rb-leipzig.png",
+        "answers": ["rb leipzig", "leipzig", "ρμπ λειψια", "λειψια"],
+        "image": "images/football-stadium/rb-leipzig.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["eintracht frankfurt", "frankfurt"],
-        "image": "images/football-clubs/eintracht-frankfurt.png",
+        "answers": ["eintracht frankfurt", "frankfurt", "αιντραχτ φρανκφουρτης", "φρανκφουρτη"],
+        "image": "images/football-stadium/eintracht-frankfurt.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["everton"],
-        "image": "images/football-clubs/everton.png",
+        "answers": ["everton", "εβερτον"],
+        "image": "images/football-stadium/everton.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["newcastle united", "newcastle"],
-        "image": "images/football-clubs/newcastle.png",
+        "answers": ["newcastle united", "newcastle", "νιουκαστλ"],
+        "image": "images/football-stadium/newcastle.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["aston villa", "villa"],
-        "image": "images/football-clubs/aston-villa.png",
+        "answers": ["aston villa", "villa", "αστον βιλα", "βιλα"],
+        "image": "images/football-stadium/aston-villa.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["west ham united", "west ham"],
-        "image": "images/football-clubs/west-ham.png",
+        "answers": ["west ham united", "west ham", "γουεστ χαμ"],
+        "image": "images/football-stadium/west-ham.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["leeds united", "leeds"],
-        "image": "images/football-clubs/leeds.png",
+        "answers": ["leeds united", "leeds", "λιντς"],
+        "image": "images/football-stadium/leeds.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["nottingham forest", "forest"],
-        "image": "images/football-clubs/nottingham-forest.png",
+        "answers": ["nottingham forest", "forest", "νοτιγχαμ φορεστ", "φορεστ"],
+        "image": "images/football-stadium/nottingham-forest.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["feyenoord"],
-        "image": "images/football-clubs/feyenoord.png",
+        "answers": ["feyenoord", "φεγενορντ"],
+        "image": "images/football-stadium/feyenoord.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["az alkmaar", "az"],
-        "image": "images/football-clubs/az-alkmaar.png",
+        "answers": ["az alkmaar", "az", "αζ αλκμααρ"],
+        "image": "images/football-stadium/az-alkmaar.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["torino"],
-        "image": "images/football-clubs/torino.png",
+        "answers": ["torino", "τορινο"],
+        "image": "images/football-stadium/torino.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["sampdoria"],
-        "image": "images/football-clubs/sampdoria.png",
+        "answers": ["sampdoria", "σαμπντορια"],
+        "image": "images/football-stadium/sampdoria.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["genoa"],
-        "image": "images/football-clubs/genoa.png",
+        "answers": ["genoa", "τζενοα"],
+        "image": "images/football-stadium/genoa.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["parma"],
-        "image": "images/football-clubs/parma.png",
+        "answers": ["parma", "παρμα"],
+        "image": "images/football-stadium/parma.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["nice", "ogc nice"],
-        "image": "images/football-clubs/nice.png",
+        "answers": ["nice", "ogc nice", "νις"],
+        "image": "images/football-stadium/nice.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["rennes", "stade rennais"],
-        "image": "images/football-clubs/rennes.png",
+        "answers": ["rennes", "stade rennais", "ρεν"],
+        "image": "images/football-stadium/rennes.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["aris thessaloniki", "aris"],
-        "image": "images/football-clubs/aris.png",
+        "answers": ["aris thessaloniki", "aris", "αρης", "αρης θεσσαλονικης"],
+        "image": "images/football-stadium/aris.png",
         "difficulty": "medium"
     },
     {
-        "answers": ["independiente"],
-        "image": "images/football-clubs/independiente.png",
+        "answers": ["independiente", "ιντεπεντιεντε"],
+        "image": "images/football-stadium/independiente.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["penarol", "peñarol"],
-        "image": "images/football-clubs/penarol.png",
+        "answers": ["penarol", "peñarol", "πενιαρολ"],
+        "image": "images/football-stadium/penarol.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["nacional"],
-        "image": "images/football-clubs/nacional.png",
+        "answers": ["nacional", "νασιοναλ"],
+        "image": "images/football-stadium/nacional.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["colo colo", "colo-colo"],
-        "image": "images/football-clubs/colo-colo.png",
+        "answers": ["colo colo", "colo-colo", "κολο κολο"],
+        "image": "images/football-stadium/colo-colo.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["al ahly"],
-        "image": "images/football-clubs/al-ahly.png",
+        "answers": ["al ahly", "αλ αχλι"],
+        "image": "images/football-stadium/al-ahly.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["zamalek"],
-        "image": "images/football-clubs/zamalek.png",
+        "answers": ["zamalek", "ζαμαλεκ"],
+        "image": "images/football-stadium/zamalek.png",
         "difficulty": "hard"
     },
     {
-        "answers": ["urawa red diamonds", "urawa reds"],
-        "image": "images/football-clubs/urawa-reds.png",
+        "answers": ["urawa red diamonds", "urawa reds", "ουραβα ριντ διαμοντς"],
+        "image": "images/football-stadium/urawa-reds.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["real madrid", "ρεαλ μαδριτης"],
+        "image": "images/football-stadium/real-madrid.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["barcelona", "μπαρτσελονα"],
+        "image": "images/football-stadium/barcelona.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["manchester united", "man utd", "μαντσεστερ γιουναιτεντ"],
+        "image": "images/football-stadium/manchester-united.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["manchester city", "man city", "μαντσεστερ σιτι"],
+        "image": "images/football-stadium/manchester-city.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["liverpool", "λιβερπουλ"],
+        "image": "images/football-stadium/liverpool.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["arsenal", "αρσεναλ"],
+        "image": "images/football-stadium/arsenal.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chelsea", "τσελσι"],
+        "image": "images/football-stadium/chelsea.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["bayern munich", "μπαγερν μοναχου"],
+        "image": "images/football-stadium/bayern-munich.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["borussia dortmund", "dortmund", "ντορτμουντ"],
+        "image": "images/football-stadium/dortmund.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["juventus", "γιουβεντους"],
+        "image": "images/football-stadium/juventus.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ac milan", "milan", "μιλαν"],
+        "image": "images/football-stadium/ac-milan.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["inter milan", "inter", "ιντερ"],
+        "image": "images/football-stadium/inter-milan.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["paris saint germain", "psg", "παρισ σεν ζερμεν"],
+        "image": "images/football-stadium/psg.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ajax", "αγιαξ"],
+        "image": "images/football-stadium/ajax.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["porto", "πορτο"],
+        "image": "images/football-stadium/porto.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["benfica", "μπενφικα"],
+        "image": "images/football-stadium/benfica.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sporting cp", "σπορτινγκ λισαβονας"],
+        "image": "images/football-stadium/sporting.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["atletico madrid", "ατλετικο μαδριτης"],
+        "image": "images/football-stadium/atletico-madrid.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["tottenham hotspur", "tottenham", "τοτεναμ"],
+        "image": "images/football-stadium/tottenham.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["napoli", "ναπολι"],
+        "image": "images/football-stadium/napoli.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["roma", "ρομα"],
+        "image": "images/football-stadium/roma.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lazio", "λατσιο"],
+        "image": "images/football-stadium/lazio.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["olympiacos", "ολυμπιακος"],
+        "image": "images/football-stadium/olympiacos.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["panathinaikos", "παναθηναικος"],
+        "image": "images/football-stadium/panathinaikos.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["aek", "αεκ"],
+        "image": "images/football-stadium/aek.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["paok", "ΠΑΟΚ", "παοκ"],
+        "image": "images/football-stadium/paok.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["galatasaray", "γαλατασαραϊ"],
+        "image": "images/football-stadium/galatasaray.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["fenerbahce", "φενερμπαχτσε"],
+        "image": "images/football-stadium/fenerbahce.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["besiktas", "μπεσικτας"],
+        "image": "images/football-stadium/besiktas.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["celtic", "σελτικ"],
+        "image": "images/football-stadium/celtic.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rangers", "ρειντζερς"],
+        "image": "images/football-stadium/rangers.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sevilla", "σεβιλλη"],
+        "image": "images/football-stadium/sevilla.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["valencia", "βαλενθια"],
+        "image": "images/football-stadium/valencia.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["villarreal", "βιγιαρεαλ"],
+        "image": "images/football-stadium/villarreal.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["real sociedad", "ρεαλ σοσιεδαδ"],
+        "image": "images/football-stadium/real-sociedad.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["athletic bilbao", "ατλετικ μπιλμπαο"],
+        "image": "images/football-stadium/athletic-bilbao.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["psv eindhoven", "psv", "πσβ"],
+        "image": "images/football-stadium/psv.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["flamengo", "φλαμενγκο"],
+        "image": "images/football-stadium/flamengo.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["palmeiras", "παλμειρας"],
+        "image": "images/football-stadium/palmeiras.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["santos", "σαντος"],
+        "image": "images/football-stadium/santos.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["sao paulo", "σαο παουλο"],
+        "image": "images/football-stadium/sao-paulo.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["boca juniors", "μποκα τζουνιορς"],
+        "image": "images/football-stadium/boca-juniors.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["river plate", "ριβερ πλειτ"],
+        "image": "images/football-stadium/river-plate.png",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["marseille", "ολιμπικ μαρσειγ"],
+        "image": "images/football-stadium/marseille.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["lyon", "λιων"],
+        "image": "images/football-stadium/lyon.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["monaco", "μονακο"],
+        "image": "images/football-stadium/monaco.png",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["shakhtar donetsk", "σαχταρ ντονετσκ"],
+        "image": "images/football-stadium/shakhtar.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["dynamo kyiv", "δυναμο κιβου"],
+        "image": "images/football-stadium/dynamo-kyiv.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["red star belgrade", "crvena zvezda", "ερυθρος αστερας"],
+        "image": "images/football-stadium/red-star.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["partizan", "παρτιζαν"],
+        "image": "images/football-stadium/partizan.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["dinamo zagreb", "δυναμο ζαγρεμπ"],
+        "image": "images/football-stadium/dinamo-zagreb.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["copenhagen", "κοπεγχαγη"],
+        "image": "images/football-stadium/copenhagen.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["salzburg", "σαλτσμπουργκ"],
+        "image": "images/football-stadium/salzburg.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["basel", "βασιλεια"],
+        "image": "images/football-stadium/basel.png",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["club brugge", "μπρυζ"],
+        "image": "images/football-stadium/club-brugge.png",
         "difficulty": "hard"
     }
 ],
