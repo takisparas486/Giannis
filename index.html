@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIC DUEL</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20260911">
+    <link rel="stylesheet" href="opponent-selector.css?v=20260911">
+    <link rel="stylesheet" href="tournament-setup.css?v=20260911">
+    <link rel="stylesheet" href="tournament-setup-override.css?v=20260911">
 </head>
 <body>
 
@@ -30,6 +33,9 @@
 <!-- ===================================== -->
 <!-- MAIN MENU (TOURNAMENT SETUP) -->
 <!-- ===================================== -->
+<!-- ===================================== -->
+<!-- MAIN MENU (TOURNAMENT SETUP) -->
+<!-- ===================================== -->
 <section id="menuScreen" class="screen">
     <div class="menuContainer">
         <div class="floor-tv-logo-mini">
@@ -42,86 +48,101 @@
             <p><strong>ΚΑΝΟΝΑΣ ΜΟΝΟΜΑΧΙΑΣ:</strong> Ο Challenger παίζει πάντα στην αγαπημένη κατηγορία του Αντιπάλου που επιλέγει. Αν ο Challenger νικήσει, παραμένει Challenger. Αν χάσει, ο Αντίπαλος γίνεται ο νέος Challenger!</p>
         </div>
 
-        <section id="tournamentSection" class="tournamentSection">
-            <div id="tournamentSetup" class="tournamentSetup">
-<div class="select-wrapper">
-    <select id="categorySelect" class="native-hidden"></select>
-</div>
-                <h3 class="tournament-section-title">ΡΥΘΜΙΣΗ ΑΡΧΙΚΗΣ ΜΟΝΟΜΑΧΙΑΣ</h3>
+        <!-- NEW MODERN CARD DESIGN -->
+        <section id="tournamentSection" class="ts-card">
+            
+            <header class="ts-header">
+                <h3 class="ts-title">Ρυθμιση Αρχικης Μονομαχιας</h3>
+                <p class="ts-subtitle">Επιλέξτε τους πρώτους μονομάχους και παραμετροποιήστε το τουρνουά</p>
+            </header>
 
-                <div class="challengerSetup">
-                    <div class="challengerField">
-                        <label for="initialChallengerSelect">ΑΡΧΙΚΟΣ CHALLENGER (ΚΟΚΚΙΝΟΣ)</label>
-                        <div class="select-wrapper wrapper-challenger">
-                            <select id="initialChallengerSelect"></select>
-                        </div>
+            <!-- Hidden Selector preserved for JS compatibility -->
+            <div class="native-hidden" style="display:none;">
+                <select id="categorySelect"></select>
+            </div>
+
+            <!-- Initial Matchup Grid -->
+            <div class="ts-duo-grid">
+                <div class="ts-field-group">
+                    <label for="initialChallengerSelect" class="ts-label ts-label-red">Αρχικος Challenger (Κοκκινος)</label>
+                    <div class="ts-select-wrapper ts-wrapper-red">
+                        <select id="initialChallengerSelect" class="ts-select"></select>
                     </div>
-                    <div class="challengerField">
-                        <label for="initialOpponentSelect">ΑΝΤΙΠΑΛΟΣ (ΜΠΛΕ - ΠΑΙΖΕΙ Η ΚΑΤΗΓΟΡΙΑ ΤΟΥ)</label>
-                        <div class="select-wrapper wrapper-opponent">
-                            <select id="initialOpponentSelect"></select>
+                </div>
+
+                <div class="ts-field-group">
+                    <label for="initialOpponentSelect" class="ts-label ts-label-blue">Αντιπαλος (Μπλε - Κατηγορια του)</label>
+                    <div class="ts-select-wrapper ts-wrapper-blue">
+                        <select id="initialOpponentSelect" class="ts-select"></select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Player Count Selection -->
+            <div class="ts-field-group" style="margin-bottom: 20px;">
+                <label for="tournamentPlayerCount" class="ts-label">Αριθμος Παικτων στο Ταμπλο</label>
+                <div class="ts-select-wrapper">
+                    <select id="tournamentPlayerCount" class="ts-select">
+                        <option value="2">2 ΠΑΙΚΤΕΣ</option>
+                        <option value="3">3 ΠΑΙΚΤΕΣ</option>
+                        <option value="4">4 ΠΑΙΚΤΕΣ</option>
+                        <option value="5">5 ΠΑΙΚΤΕΣ</option>
+                        <option value="6">6 ΠΑΙΚΤΕΣ</option>
+                        <option value="7">7 ΠΑΙΚΤΕΣ</option>
+                        <option value="8" selected>8 ΠΑΙΚΤΕΣ</option>
+                        <option value="9">9 ΠΑΙΚΤΕΣ</option>
+                        <option value="10">10 ΠΑΙΚΤΕΣ</option>
+                        <option value="11">11 ΠΑΙΚΤΕΣ</option>
+                        <option value="12">12 ΠΑΙΚΤΕΣ</option>
+                        <option value="13">13 ΠΑΙΚΤΕΣ</option>
+                        <option value="14">14 ΠΑΙΚΤΕΣ</option>
+                        <option value="15">15 ΠΑΙΚΤΕΣ</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Players & Categories Title -->
+            <div class="ts-section-title">Λιστα Μονομαχων & Αγαπημενες Κατηγοριες</div>
+            
+            <!-- Dynamic Players Container -->
+            <div id="tournamentPlayerInputs" class="ts-player-inputs-container"></div>
+
+            <!-- Extras (Difficulty & Timer) -->
+            <div class="ts-extras-grid">
+                
+                <div class="ts-field-group">
+                    <span class="ts-label">Επιπεδο Δυσκολιας</span>
+                    <div class="ts-checkbox-group">
+                        <div class="ts-chip-checkbox">
+                            <input id="easyDifficulty" type="checkbox" checked>
+                            <label for="easyDifficulty" class="ts-chip-label">Εύκολο</label>
+                        </div>
+                        <div class="ts-chip-checkbox">
+                            <input id="mediumDifficulty" type="checkbox" checked>
+                            <label for="mediumDifficulty" class="ts-chip-label">Μέτριο</label>
+                        </div>
+                        <div class="ts-chip-checkbox">
+                            <input id="hardDifficulty" type="checkbox" checked>
+                            <label for="hardDifficulty" class="ts-chip-label">Δύσκολο</label>
                         </div>
                     </div>
                 </div>
 
-                <div class="playerCountWrapper">
-                    <label for="tournamentPlayerCount" class="setupLabel">ΑΡΙΘΜΟΣ ΠΑΙΚΤΩΝ ΣΤΟ ΤΑΜΠΛΟ (2-15)</label>
-                    <div class="select-wrapper">
-                        <select id="tournamentPlayerCount">
-                            <option value="2">2 ΠΑΙΚΤΕΣ</option>
-                            <option value="3">3 ΠΑΙΚΤΕΣ</option>
-                            <option value="4">4 ΠΑΙΚΤΕΣ</option>
-                            <option value="5">5 ΠΑΙΚΤΕΣ</option>
-                            <option value="6">6 ΠΑΙΚΤΕΣ</option>
-                            <option value="7">7 ΠΑΙΚΤΕΣ</option>
-                            <option value="8" selected>8 ΠΑΙΚΤΕΣ</option>
-                            <option value="9">9 ΠΑΙΚΤΕΣ</option>
-                            <option value="10">10 ΠΑΙΚΤΕΣ</option>
-                            <option value="11">11 ΠΑΙΚΤΕΣ</option>
-                            <option value="12">12 ΠΑΙΚΤΕΣ</option>
-                            <option value="13">13 ΠΑΙΚΤΕΣ</option>
-                            <option value="14">14 ΠΑΙΚΤΕΣ</option>
-                            <option value="15">15 ΠΑΙΚΤΕΣ</option>
+                <div class="ts-field-group">
+                    <label for="timeSelect" class="ts-label">Χρονος Μονομαχιας (Deck)</label>
+                    <div class="ts-select-wrapper">
+                        <select id="timeSelect" class="ts-select">
+                            <option value="30">30 Δευτερόλεπτα</option>
+                            <option value="45">45 Δευτερόλεπτα</option>
+                            <option value="60" selected>60 Δευτερόλεπτα</option>
+                            <option value="90">90 Δευτερόλεπτα</option>
                         </select>
                     </div>
                 </div>
 
-                <div class="tournamentTitle">ΛΙΣΤΑ ΜΟΝΟΜΑΧΩΝ & ΑΓΑΠΗΜΕΝΕΣ ΚΑΤΗΓΟΡΙΕΣ</div>
-                <div id="tournamentPlayerInputs" class="tournamentPlayerInputs"></div>
-
-                <div class="tournamentExtras">
-                    <div class="difficultyContainer">
-                        <h2>ΕΠΙΠΕΔΟ ΔΥΣΚΟΛΙΑΣ</h2>
-                        <div class="checkboxGroup">
-                            <label>
-                                <input id="easyDifficulty" type="checkbox" checked>
-                                Εύκολο
-                            </label>
-                            <label>
-                                <input id="mediumDifficulty" type="checkbox" checked>
-                                Μέτριο
-                            </label>
-                            <label>
-                                <input id="hardDifficulty" type="checkbox" checked>
-                                Δύσκολο
-                            </label>
-                        </div>
-                    </div>
-                    <div class="timeWrapper">
-                        <label for="timeSelect">ΧΡΟΝΟΣ ΜΟΝΟΜΑΧΙΑΣ (DECK)</label>
-                        <div class="select-wrapper">
-                            <select id="timeSelect">
-                                <option value="30">30 Δευτερόλεπτα</option>
-                                <option value="45">45 Δευτερόλεπτα</option>
-                                <option value="60" selected>60 Δευτερόλεπτα</option>
-                                <option value="90">90 Δευτερόλεπτα</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="tournamentBracket" class="tournamentBracket hidden"></div>
             </div>
+
+            <div id="tournamentBracketMenu" class="tournamentBracket hidden"></div>
         </section>
 
         <button id="startGameButton">ΕΝΑΡΞΗ ΜΟΝΟΜΑΧΙΑΣ</button>
@@ -152,10 +173,14 @@
             <div id="player1Timer" class="floor-timer timer-red">45</div>
         </div>
 
-        <div class="categoryContainer centeredCategory">
-            <span class="category-indicator">ΚΑΤΗΓΟΡΙΑ ΑΝΤΙΠΑΛΟΥ</span>
-            <h2 id="currentCategory">ΕΙΚΟΝΕΣ</h2>
-        </div>
+       <div class="categoryContainer centeredCategory">
+    <span class="category-indicator">ΚΑΤΗΓΟΡΙA ΑΝΤΙΠΑΛΟΥ</span>
+    <h2 id="currentCategory">ΕΙΚΟΝΕΣ</h2>
+    <div class="hud-controls">
+        <button id="pauseButton" class="pause-btn" aria-label="Pause game">Παύση</button>
+        <button id="quitButton" class="quit-btn" aria-label="Quit game">Έξοδος</button>
+    </div>
+</div>
 
         <div class="playerSide right-podium">
             <div class="podium-graphics"></div>
@@ -193,10 +218,46 @@
             <span class="status-text">ΣΥΣΤΗΜΑ ΑΝΑΓΝΩΡΙΣΗΣ ΦΩΝΗΣ</span>
         </div>
         <div id="debugLog" class="debug-log">SYSTEM ACTIVE</div>
+        <div id="liveTranscript" class="live-transcript">Αναμονή φωνής...</div>
     </div>
 
     <div id="comboBox"></div>
     <div id="countdownOverlay"></div>
+</section>
+
+<!-- ===================================== -->
+<!-- OPPONENT SELECTOR SCREEN / MODAL -->
+<!-- ===================================== -->
+<section id="opponentSelectorScreen" class="screen pd-opp-overlay">
+    <div class="pd-opp-modal">
+        
+        <header class="pd-opp-header">
+            <span class="pd-opp-badge">ΕΠΟΜΕΝΗ ΜΑΧΗ</span>
+            <h2 class="pd-opp-title">ΕΠΙΛΟΓΗ ΑΝΤΙΠΑΛΟΥ</h2>
+            <p class="pd-opp-subtitle">Επιλέξτε ποιον μονομάχο θέλετε να προκαλέσετε στην κατηγορία του</p>
+        </header>
+
+        <div class="pd-opp-champion-bar">
+            <div class="pd-opp-champion-info">
+                <img id="pdCurrentChallengerAvatar" src="https://img.icons8.com/ios-filled/100/ffffff/user-male-circle.png" class="pd-opp-champion-avatar" alt="Challenger">
+                <div class="pd-opp-champion-text">
+                    <span>CURRENT CHALLENGER</span>
+                    <h4 id="pdCurrentChallengerName">-</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="pd-opp-grid-container">
+            <div id="pdOpponentGrid" class="pd-opp-grid">
+                <!-- Οι κάρτες των αντιπάλων παράγονται δυναμικά μέσω JavaScript -->
+            </div>
+        </div>
+
+        <footer class="pd-opp-footer">
+            <button id="pdConfirmOpponentBtn" class="pd-opp-btn-confirm" disabled>ΕΝΑΡΞΗ ΜΟΝΟΜΑΧΙΑΣ</button>
+        </footer>
+
+    </div>
 </section>
 
 <!-- ===================================== -->

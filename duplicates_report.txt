@@ -1,0 +1,23 @@
+TOTAL_CATEGORIES 393
+TOTAL_IMAGE_REFERENCES 2611
+TOTAL_UNIQUE_IMAGES 2528
+
+DUPLICATE_IMAGES_ACROSS_CATEGORIES: 8
+images/basketball-clubs/alba-berlin.png -> pokemon[12], pokemon[51], pokemon[98]
+images/superheroes/the-thing.jpg -> superheroes[52], horror[55]
+images/birds/pelican.jpg -> birds[7], birds[241]
+images/birds/penguin.jpg -> birds[8], birds[239]
+images/birds/seagull.jpg -> birds[10], birds[242]
+images/sea-animals/marlin.jpg -> birds[204], disney[103]
+images/actors/adam-driver.jpg -> birds[238], birds[240], actors[66], actors[201], actors[204], actors[229], actors[401], actors[408], movies[84], movies[105]
+images/f1-drivers/alain-prost.jpg -> actors[171], actors[222]
+
+PER_CATEGORY_IMAGE_DUPLICATES: 5
+pokemon -> images/basketball-clubs/alba-berlin.png, images/basketball-clubs/alba-berlin.png
+birds -> images/birds/penguin.jpg, images/actors/adam-driver.jpg, images/birds/pelican.jpg, images/birds/seagull.jpg
+actors -> images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/f1-drivers/alain-prost.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg
+movies -> images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg
+singers -> images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg, images/actors/adam-driver.jpg
+
+PER_CATEGORY_ANSWER_DUPLICATES: 1
+birds -> penguin, pelican, seagull

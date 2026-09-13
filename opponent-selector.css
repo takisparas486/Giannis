@@ -1,0 +1,369 @@
+/* ==========================================================================
+   PIC DUEL - OPPONENT SELECTOR MODAL & SELECTION BOARD (ISOLATED CSS)
+   ========================================================================== */
+
+/* 1. OVERLAY & CONTAINER */
+.pd-opp-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(5, 7, 15, 0.88);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.pd-opp-overlay.pd-opp-active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.pd-opp-modal {
+    background: linear-gradient(145deg, rgba(20, 24, 40, 0.95), rgba(10, 12, 22, 0.98));
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7),
+                0 0 30px rgba(0, 210, 255, 0.15);
+    width: 100%;
+    max-width: 1100px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: pdOppSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes pdOppSlideUp {
+    from {
+        transform: translateY(30px) scale(0.95);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+/* 2. HEADER SECTION */
+.pd-opp-header {
+    padding: 1.5rem 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    text-align: center;
+}
+
+.pd-opp-badge {
+    display: inline-block;
+    padding: 0.35rem 1rem;
+    background: linear-gradient(90deg, #ff0055, #ff5500);
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    box-shadow: 0 0 12px rgba(ff, 0, 85, 0.4);
+    margin-bottom: 0.5rem;
+}
+
+.pd-opp-title {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.pd-opp-subtitle {
+    color: #a0aec0;
+    font-size: 0.9rem;
+    margin: 0.4rem 0 0 0;
+}
+
+/* 3. CURRENT CHALLENGER BANNER */
+.pd-opp-champion-bar {
+    margin: 1rem 2rem 0 2rem;
+    padding: 0.8rem 1.2rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.pd-opp-champion-info {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.pd-opp-champion-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #ffd700;
+}
+
+.pd-opp-champion-text span {
+    display: block;
+    font-size: 0.75rem;
+    color: #ffd700;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.pd-opp-champion-text h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* 4. GRID CONTAINER (RESPONSIVE CARDS) */
+.pd-opp-grid-container {
+    padding: 1.5rem 2rem;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+/* Custom Scrollbar */
+.pd-opp-grid-container::-webkit-scrollbar {
+    width: 6px;
+}
+.pd-opp-grid-container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+.pd-opp-grid-container::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.pd-opp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.25rem;
+}
+
+/* 5. INDIVIDUAL PLAYER CARD */
+.pd-opp-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+}
+
+.pd-opp-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #00d2ff;
+    box-shadow: 0 10px 25px rgba(0, 210, 255, 0.25);
+}
+
+.pd-opp-card.pd-opp-selected {
+    background: linear-gradient(180deg, rgba(0, 210, 255, 0.15), rgba(0, 85, 255, 0.15));
+    border-color: #00d2ff;
+    box-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
+}
+
+/* Card Elements */
+.pd-opp-card-avatar-wrapper {
+    position: relative;
+    margin-bottom: 0.8rem;
+}
+
+.pd-opp-card-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    background: #101424;
+    transition: border-color 0.25s ease;
+}
+
+.pd-opp-card:hover .pd-opp-card-avatar {
+    border-color: #00d2ff;
+}
+
+.pd-opp-card-territory {
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    background: #00d2ff;
+    color: #000;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 2px 6px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.pd-opp-card-name {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0 0.4rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.pd-opp-card-category {
+    font-size: 0.8rem;
+    color: #00d2ff;
+    background: rgba(0, 210, 255, 0.1);
+    border: 1px solid rgba(0, 210, 255, 0.2);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Disabled State (Already Eliminated / Champion) */
+.pd-opp-card.pd-opp-disabled {
+    opacity: 0.4;
+    pointer-events: none;
+    filter: grayscale(80%);
+}
+
+/* 6. FOOTER ACTION AREA */
+.pd-opp-footer {
+    padding: 1.2rem 2rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pd-opp-btn-confirm {
+    background: linear-gradient(90deg, #00d2ff, #0055ff);
+    color: #ffffff;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 15px rgba(0, 210, 255, 0.3);
+}
+
+.pd-opp-btn-confirm:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 210, 255, 0.5);
+    background: linear-gradient(90deg, #00e5ff, #0066ff);
+}
+
+.pd-opp-btn-confirm:disabled {
+    background: #2a324b;
+    color: #6c7a9c;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* ==========================================================================
+   RESPONSIVE BREAKPOINTS (MOBILE & TABLET OPTIMIZATIONS)
+   ========================================================================== */
+
+/* Tablets / Medium Displays */
+@media (max-width: 768px) {
+    .pd-opp-modal {
+        max-height: 95vh;
+        border-radius: 16px;
+    }
+
+    .pd-opp-header {
+        padding: 1rem 1.2rem;
+    }
+
+    .pd-opp-title {
+        font-size: 1.3rem;
+    }
+
+    .pd-opp-champion-bar {
+        margin: 0.8rem 1.2rem 0 1.2rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .pd-opp-grid-container {
+        padding: 1rem 1.2rem;
+    }
+
+    .pd-opp-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 0.8rem;
+    }
+
+    .pd-opp-card {
+        padding: 0.9rem;
+    }
+
+    .pd-opp-card-avatar {
+        width: 55px;
+        height: 55px;
+    }
+
+    .pd-opp-card-name {
+        font-size: 0.95rem;
+    }
+
+    .pd-opp-card-category {
+        font-size: 0.75rem;
+    }
+
+    .pd-opp-footer {
+        padding: 1rem 1.2rem;
+    }
+
+    .pd-opp-btn-confirm {
+        width: 100%;
+        text-align: center;
+        padding: 0.9rem;
+    }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+    .pd-opp-overlay {
+        padding: 0.5rem;
+    }
+
+    .pd-opp-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on small mobile */
+        gap: 0.6rem;
+    }
+
+    .pd-opp-champion-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+    }
+}

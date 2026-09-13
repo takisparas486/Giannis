@@ -1,0 +1,209 @@
+/* ==========================================================================
+   PIC DUEL - TOURNAMENT SETUP (RADICAL REDESIGN)
+   ========================================================================== */
+
+:root {
+    --ts-accent-red: #ff2a5f;
+    --ts-accent-blue: #00d2ff;
+    --ts-accent-gold: #ffc837;
+    --ts-text-main: #ffffff;
+    --ts-text-sub: #8c9ba5;
+    --ts-panel: rgba(7, 11, 20, 0.92);
+    --ts-panel-soft: rgba(13, 20, 31, 0.9);
+    --ts-line: rgba(255, 255, 255, 0.08);
+    --ts-field: rgba(13, 18, 28, 0.72);
+    --ts-radius-md: 12px;
+    --ts-radius-lg: 18px;
+    --ts-transition: all 0.18s ease;
+}
+
+#tournamentSection {
+    background: linear-gradient(180deg, rgba(8, 12, 19, 0.96), rgba(6, 10, 15, 0.96));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 22px;
+    padding: 24px 20px 18px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.35);
+}
+
+.ts-header {
+    text-align: left;
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.ts-title {
+    font-size: 1.05rem;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 0 6px 0;
+}
+
+.ts-subtitle {
+    font-size: 0.72rem;
+    color: var(--ts-text-sub);
+    margin: 0;
+    letter-spacing: 0.04em;
+}
+
+.ts-duo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.ts-field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ts-label {
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.ts-label-red { color: var(--ts-accent-red); }
+.ts-label-blue { color: var(--ts-accent-blue); }
+
+.ts-section-title {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.72);
+    margin: 20px 0 12px;
+    padding-top: 4px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#tournamentPlayerInputs,
+.ts-player-inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 18px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+#tournamentPlayerInputs .playerRow {
+    display: grid;
+    grid-template-columns: minmax(120px, 1.2fr) minmax(140px, 1fr);
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    padding: 10px 12px;
+    transition: var(--ts-transition);
+}
+
+#tournamentPlayerInputs .playerRow:hover {
+    border-color: rgba(255, 200, 55, 0.3);
+    background: rgba(255, 255, 255, 0.025);
+}
+
+#tournamentPlayerInputs .tournamentNameInput,
+#tournamentPlayerInputs select {
+    width: 100%;
+    min-height: 38px;
+    background: rgba(17, 24, 36, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 9px 12px;
+    box-sizing: border-box;
+    outline: none;
+    transition: var(--ts-transition);
+}
+
+#tournamentPlayerInputs .tournamentNameInput:focus,
+#tournamentPlayerInputs select:focus {
+    border-color: rgba(255, 200, 55, 0.7);
+    box-shadow: 0 0 0 2px rgba(255, 200, 55, 0.12);
+}
+
+#tournamentPlayerInputs select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.7) 50%), linear-gradient(135deg, rgba(255,255,255,0.7) 50%, transparent 50%);
+    background-position: calc(100% - 16px) calc(50% - 2px), calc(100% - 12px) calc(50% - 2px);
+    background-size: 4px 4px, 4px 4px;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+}
+
+#tournamentPlayerInputs select option {
+    background: #0d1727;
+    color: white;
+}
+
+.ts-extras-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 8px;
+}
+
+.ts-checkbox-group {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.ts-chip-checkbox {
+    flex: 1 1 0;
+    min-width: 80px;
+}
+
+.ts-chip-checkbox input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ts-chip-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    background: rgba(17, 24, 36, 0.82);
+    color: rgba(255,255,255,0.82);
+    font-size: 0.78rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: var(--ts-transition);
+}
+
+.ts-chip-checkbox input:checked + .ts-chip-label {
+    background: rgba(0, 210, 255, 0.12);
+    border-color: rgba(0, 210, 255, 0.8);
+    color: #ffffff;
+    box-shadow: inset 0 0 0 1px rgba(0, 210, 255, 0.2);
+}
+
+@media (max-width: 640px) {
+    .ts-duo-grid,
+    .ts-extras-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #tournamentPlayerInputs .playerRow {
+        grid-template-columns: 1fr;
+    }
+}

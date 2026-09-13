@@ -1,0 +1,16 @@
+﻿REFERENCES_IN_CATEGORIES: 70
+FILES_IN_FOLDER: 159
+
+MISSING_REFERENCED_FILES:
+
+UNREFERENCED_NONIMG_FILES:
+ant-man.jpg
+ashoka-tano.jpg
+cad-banne.jpg
+corusant.jpg
+jabba-the-hat.jpg
+jar-jar-binks.jpg
+lando-calriccian.jpg
+nyte-gunray.jpg
+sebulba.jpg
+tattooine.jpg

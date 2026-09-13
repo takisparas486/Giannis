@@ -1,0 +1,248 @@
+/* --------------------------------------------------------------------------
+   PIC DUEL - TOURNAMENT SETUP OVERRIDE
+   This file is intentionally loaded after the older CSS files so these rules win.
+   -------------------------------------------------------------------------- */
+
+#menuScreen .menuContainer {
+    background: linear-gradient(180deg, rgba(9, 14, 22, 0.98), rgba(4, 7, 12, 0.98)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 28px !important;
+    padding: 22px 22px 18px !important;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55) !important;
+    max-width: 760px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+#tournamentSection {
+    background: linear-gradient(180deg, rgba(11, 17, 26, 0.98), rgba(6, 10, 16, 0.98)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.09) !important;
+    border-radius: 22px !important;
+    padding: 20px 18px 18px !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.04), 0 18px 40px rgba(0,0,0,0.38) !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+#menuScreen .menuNote,
+#menuScreen .modeNote p {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+#menuScreen .modeNote {
+    background: rgba(255, 204, 0, 0.05) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-left: 4px solid #ffc837 !important;
+    border-radius: 14px !important;
+    padding: 12px 16px !important;
+}
+
+#tournamentSection .ts-header {
+    text-align: left !important;
+    margin-bottom: 18px !important;
+    padding-bottom: 12px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
+}
+
+#tournamentSection .ts-title {
+    font-size: 1.18rem !important;
+    font-weight: 900 !important;
+    letter-spacing: 0.14em !important;
+    text-transform: uppercase !important;
+    color: #f6f8ff !important;
+    margin: 0 0 6px 0 !important;
+}
+
+#tournamentSection .ts-subtitle {
+    font-size: 0.7rem !important;
+    color: #8ea0b1 !important;
+    margin: 0 !important;
+    letter-spacing: 0.06em !important;
+}
+
+#tournamentSection .ts-duo-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 14px !important;
+    margin-bottom: 18px !important;
+}
+
+#tournamentSection .ts-field-group {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+}
+
+#tournamentSection .ts-label {
+    font-size: 0.66rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+    color: rgba(255, 255, 255, 0.72) !important;
+}
+
+#tournamentSection .ts-label-red { color: #ff4a6a !important; }
+#tournamentSection .ts-label-blue { color: #46d2ff !important; }
+
+#tournamentSection .ts-section-title {
+    font-size: 0.7rem !important;
+    font-weight: 900 !important;
+    letter-spacing: 0.16em !important;
+    text-transform: uppercase !important;
+    color: rgba(255,255,255,0.7) !important;
+    margin: 18px 0 12px !important;
+    padding-top: 6px !important;
+    border-top: 1px solid rgba(255,255,255,0.05) !important;
+}
+
+#tournamentPlayerInputs,
+#tournamentSection .ts-player-inputs-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-bottom: 18px !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    max-height: 260px !important;
+    overflow-y: auto !important;
+}
+
+#tournamentPlayerInputs .playerRow {
+    display: grid !important;
+    grid-template-columns: minmax(130px, 1.2fr) minmax(150px, 1fr) !important;
+    align-items: center !important;
+    gap: 10px !important;
+    background: rgba(255, 255, 255, 0.015) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 12px !important;
+    padding: 10px 12px !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+}
+
+#tournamentPlayerInputs .tournamentNameInput,
+#tournamentPlayerInputs select,
+#initialChallengerSelect,
+#initialOpponentSelect,
+#tournamentPlayerCount,
+#timeSelect {
+    width: 100% !important;
+    min-height: 40px !important;
+    background: rgba(13, 20, 30, 0.98) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 12px !important;
+    color: #ffffff !important;
+    font-size: 0.82rem !important;
+    font-weight: 700 !important;
+    padding: 9px 12px !important;
+    box-sizing: border-box !important;
+    outline: none !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.02) !important;
+}
+
+#tournamentPlayerInputs .tournamentNameInput:focus,
+#tournamentPlayerInputs select:focus,
+#initialChallengerSelect:focus,
+#initialOpponentSelect:focus,
+#tournamentPlayerCount:focus,
+#timeSelect:focus {
+    border-color: rgba(255, 208, 61, 0.8) !important;
+    box-shadow: 0 0 0 2px rgba(255, 208, 61, 0.12) !important;
+}
+
+#tournamentPlayerInputs select,
+#initialChallengerSelect,
+#initialOpponentSelect,
+#tournamentPlayerCount,
+#timeSelect {
+    background-image: linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.72) 50%), linear-gradient(135deg, rgba(255,255,255,0.72) 50%, transparent 50%) !important;
+    background-position: calc(100% - 16px) calc(50% - 2px), calc(100% - 12px) calc(50% - 2px) !important;
+    background-size: 4px 4px, 4px 4px !important;
+    background-repeat: no-repeat !important;
+    padding-right: 30px !important;
+}
+
+#tournamentPlayerInputs select option,
+#initialChallengerSelect option,
+#initialOpponentSelect option,
+#tournamentPlayerCount option,
+#timeSelect option {
+    background: #0d1727 !important;
+    color: white !important;
+}
+
+#tournamentSection .ts-extras-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 18px !important;
+    margin-top: 8px !important;
+}
+
+#tournamentSection .ts-checkbox-group {
+    display: flex !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+}
+
+#tournamentSection .ts-chip-checkbox {
+    flex: 1 1 0 !important;
+    min-width: 80px !important;
+    position: relative !important;
+}
+
+#tournamentSection .ts-chip-checkbox input {
+    position: absolute !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+#tournamentSection .ts-chip-label {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-height: 42px !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 10px !important;
+    background: rgba(17, 24, 36, 0.82) !important;
+    color: rgba(255,255,255,0.82) !important;
+    font-size: 0.78rem !important;
+    font-weight: 800 !important;
+    cursor: pointer !important;
+    transition: all 0.18s ease !important;
+}
+
+#tournamentSection .ts-chip-checkbox input:checked + .ts-chip-label {
+    background: rgba(0, 210, 255, 0.12) !important;
+    border-color: rgba(0, 210, 255, 0.8) !important;
+    color: #ffffff !important;
+    box-shadow: inset 0 0 0 1px rgba(0, 210, 255, 0.2) !important;
+}
+
+#startGameButton {
+    background: linear-gradient(180deg, #ffdd57, #ffc837) !important;
+    color: #0a0d12 !important;
+    border: none !important;
+    border-radius: 14px !important;
+    box-shadow: 0 14px 28px rgba(255, 200, 55, 0.25) !important;
+    letter-spacing: 0.15em !important;
+    font-weight: 900 !important;
+    font-size: 1.08rem !important;
+    padding: 18px 16px !important;
+    margin-top: 20px !important;
+}
+
+@media (max-width: 640px) {
+    #tournamentSection .ts-duo-grid,
+    #tournamentSection .ts-extras-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    #tournamentPlayerInputs .playerRow {
+        grid-template-columns: 1fr !important;
+    }
+}

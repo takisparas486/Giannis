@@ -285,6 +285,17 @@ const answerCaption = document.getElementById("answerCaption");
 
 const messageBox = document.getElementById("messageBox");
 const micStatus = document.getElementById("micStatus");
+const liveTranscript = document.getElementById("liveTranscript");
+
+function updateLiveTranscript(text, isFinal = false) {
+    if (!liveTranscript) return;
+    const value = (text || "").trim();
+    liveTranscript.textContent = value || (isFinal ? "" : "Αναμονή φωνής...");
+    liveTranscript.classList.toggle("final", Boolean(isFinal && value));
+    liveTranscript.classList.toggle("is-live", Boolean(value));
+    liveTranscript.setAttribute("aria-live", "polite");
+    liveTranscript.setAttribute("aria-atomic", "true");
+}
 
 function setMicStatus(status) {
     if (!micStatus) return;
@@ -314,14 +325,40 @@ const debugLog = document.getElementById("debugLog");
 function setMessageFeedback(type) {
     if (!messageBox) return;
     messageBox.classList.remove("correct", "wrong", "pass");
+    // clear any previous hide timers
+    if (messageHideTimeout) {
+        clearTimeout(messageHideTimeout);
+        messageHideTimeout = null;
+    }
     if (type === "correct") {
         messageBox.classList.add("correct");
+        // auto-hide after 1.5s
+        messageHideTimeout = setTimeout(() => {
+            if (!messageBox) return;
+            messageBox.textContent = "";
+            messageBox.classList.remove("correct", "wrong", "pass");
+            messageHideTimeout = null;
+        }, 1500);
     }
     if (type === "wrong") {
         messageBox.classList.add("wrong");
+        // auto-hide wrong messages after 1s
+        messageHideTimeout = setTimeout(() => {
+            if (!messageBox) return;
+            messageBox.textContent = "";
+            messageBox.classList.remove("correct", "wrong", "pass");
+            messageHideTimeout = null;
+        }, 1000);
     }
     if (type === "pass") {
         messageBox.classList.add("pass");
+        // auto-hide pass messages after 1s
+        messageHideTimeout = setTimeout(() => {
+            if (!messageBox) return;
+            messageBox.textContent = "";
+            messageBox.classList.remove("correct", "wrong", "pass");
+            messageHideTimeout = null;
+        }, 1000);
     }
 }
 
@@ -368,12 +405,22 @@ let browserSpeechRecognition = null;
 let usingBrowserSpeechFallback = false;
 let lastProcessedTranscript = "";
 let lastProcessedTranscriptTime = 0;
+let speechEvaluationLock = false;
+let audioReadyForPlayback = false;
 
 let currentImage = null;
 
 let currentImages = [];
 
+let messageHideTimeout = null;
+let paused = false;
+let winnerAutoReturnTimer = null;
+
 let waitingAfterPass = false;
+let backendCaptureInProgress = false;
+let backendAudioRecorder = null;
+let backendAudioStream = null;
+let backendCaptureTimer = null;
 let tournamentPlayers = [];
 let tournamentOpponentQueue = [];
 let currentChallenger = null;
@@ -382,7 +429,18 @@ let tournamentAutoAdvanceTimeout = null;
 let tournamentPaused = false;
 let tournamentPauseTimer = null;
 
-const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+let audioContext = null;
+
+function ensureAudioContext() {
+    if (!audioContext && (window.AudioContext || window.webkitAudioContext)) {
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioContext && audioContext.state === 'suspended') {
+        audioContext.resume().catch(() => {});
+    }
+    return audioContext;
+}
+
 let tickToggle = false;
 let confettiParticles = [];
 let confettiAnimationFrame = null;
@@ -479,10 +537,31 @@ function renderTournamentInputs() {
 
 // Διορθωμένο: Διαβάζει πλέον 100% σωστά το Pokémon από το custom select[cite: 1]
 function collectTournamentPlayers() {
-    // Επειδή πλέον αποθηκεύουμε τα δεδομένα απευθείας στο tournamentPlayers array 
-    // real-time μέσω των event listeners, επιστρέφουμε απλά το φιλτραρισμένο array!
-    const activePlayers = tournamentPlayers.filter(p => p && p.name.trim() !== "");
-    console.log("🚀 Real-time collected players:", activePlayers);
+    const count = parseInt(tournamentPlayerCount ? tournamentPlayerCount.value : 2, 10) || 2;
+    
+    // Παίρνουμε μόνο όσους παίκτες αντιστοιχούν στον αριθμό που επέλεξε ο χρήστης
+    let activePlayers = [];
+    if (tournamentPlayers && tournamentPlayers.length > 0) {
+        activePlayers = tournamentPlayers.slice(0, count);
+    } else {
+        activePlayers = Array.from({ length: count }, (_, i) => ({
+            name: `Player ${i + 1}`,
+            category: categorySelect?.value || "animals"
+        }));
+    }
+
+    // Φιλτράρισμα για να έχουν έγκυρα ονόματα
+    activePlayers = activePlayers.filter(p => p && p.name && p.name.trim() !== "");
+    
+    // Αν για κάποιο λόγο είναι λιγότεροι, συμπληρώνουμε τα ονόματα βάσει του count
+    while (activePlayers.length < count) {
+        activePlayers.push({
+            name: `Player ${activePlayers.length + 1}`,
+            category: categorySelect?.value || "animals"
+        });
+    }
+
+    console.log("🚀 Collected active players (Strict Count):", activePlayers);
     return activePlayers;
 }
 
@@ -802,6 +881,9 @@ function beginMatch(player1NameText, player2NameText, categoryKey) {
 function loadNextImage() {
     if (!gameRunning) return;
 
+    resetSpeechRecognition();
+    speechEvaluationLock = false;
+
     if (answerCaption) {
         answerCaption.classList.remove("show", "pass");
         answerCaption.textContent = "";
@@ -824,25 +906,15 @@ function loadNextImage() {
     const randomIndex = Math.floor(Math.random() * availableImages.length);
     currentImage = availableImages[randomIndex];
 
-    gameImage.classList.remove("imageVisible");
-    gameImage.classList.add("imageHidden");
+    // Show the next image immediately without the extra transition delay.
+    gameImage.src = currentImage.image;
+    gameImage.classList.remove("imageHidden");
+    gameImage.classList.add("imageVisible");
 
     const imageFrame = document.querySelector(".imageFrame");
     if (imageFrame) {
-        imageFrame.classList.add("changeAnim");
+        imageFrame.classList.remove("changeAnim");
     }
-
-    setTimeout(() => {
-        gameImage.src = currentImage.image;
-        gameImage.classList.remove("imageHidden");
-        gameImage.classList.add("imageVisible");
-    }, 250);
-
-    setTimeout(() => {
-        if (imageFrame) {
-            imageFrame.classList.remove("changeAnim");
-        }
-    }, 600);
 
     currentImages = currentImages.filter(image => image !== currentImage);
 }
@@ -908,11 +980,80 @@ function updatePlayerLights() {
         VOICE RECOGNITION
 =========================================*/
 
+function floatTo16BitPCM(output, offset, input) {
+    for (let i = 0; i < input.length; i++, offset += 2) {
+        const s = Math.max(-1, Math.min(1, input[i]));
+        output.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7fff, true);
+    }
+}
+
+function audioBufferToWav(audioBuffer) {
+    const channels = 1;
+    const sampleRate = audioBuffer.sampleRate;
+    const format = 1;
+    const bitDepth = 16;
+    const samples = audioBuffer.getChannelData(0);
+    const bytesPerSample = bitDepth / 8;
+    const blockAlign = channels * bytesPerSample;
+    const dataLength = samples.length * bytesPerSample;
+    const buffer = new ArrayBuffer(44 + dataLength);
+    const view = new DataView(buffer);
+
+    function writeString(offset, value) {
+        for (let i = 0; i < value.length; i++) {
+            view.setUint8(offset + i, value.charCodeAt(i));
+        }
+    }
+
+    writeString(0, 'RIFF');
+    view.setUint32(4, 36 + dataLength, true);
+    writeString(8, 'WAVE');
+    writeString(12, 'fmt ');
+    view.setUint32(16, 16, true);
+    view.setUint16(20, format, true);
+    view.setUint16(22, channels, true);
+    view.setUint32(24, sampleRate, true);
+    view.setUint32(28, sampleRate * blockAlign, true);
+    view.setUint16(32, blockAlign, true);
+    view.setUint16(34, bitDepth, true);
+    writeString(36, 'data');
+    view.setUint32(40, dataLength, true);
+
+    const sampleView = new Int16Array(buffer, 44, samples.length);
+    floatTo16BitPCM(new DataView(buffer, 44), 0, samples);
+    return new Blob([buffer], { type: 'audio/wav' });
+}
+
+async function convertWebmToWav(blob) {
+    const arrayBuffer = await blob.arrayBuffer();
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    try {
+        const audioBuffer = await audioContext.decodeAudioData(arrayBuffer.slice(0));
+        const samples = audioBuffer.getChannelData(0);
+        let sum = 0;
+        for (let i = 0; i < samples.length; i++) {
+            sum += samples[i] * samples[i];
+        }
+        const rms = Math.sqrt(sum / samples.length);
+        if (rms < 0.02) {
+            console.warn('[speech] captured audio is too quiet or empty, skipping backend STT');
+            return null;
+        }
+        return audioBufferToWav(audioBuffer);
+    } finally {
+        try {
+            await audioContext.close();
+        } catch (e) {}
+    }
+}
+
 async function startSpeechRecognition() {
+    // Prefer the browser speech API by default. The local backend STT adds extra
+    // capture/convert/upload latency and often makes the voice response feel worse.
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
         setMicStatus("error");
-        messageBox.textContent = "Το browser δεν υποστηρίζει αναγνώριση ομιλίας.";
+        if (messageBox) messageBox.textContent = "Το browser δεν υποστηρίζει αναγνώριση ομιλίας.";
         console.warn("Browser speech recognition unavailable");
         return;
     }
@@ -921,17 +1062,181 @@ async function startSpeechRecognition() {
     startBrowserSpeechRecognition();
 }
 
+function cleanupBackendCapture() {
+    if (backendCaptureTimer) {
+        clearTimeout(backendCaptureTimer);
+        backendCaptureTimer = null;
+    }
+
+    if (backendAudioRecorder && backendAudioRecorder.state !== 'inactive') {
+        try {
+            backendAudioRecorder.stop();
+        } catch (e) {}
+    }
+
+    if (backendAudioStream) {
+        backendAudioStream.getTracks().forEach(track => track.stop());
+        backendAudioStream = null;
+    }
+
+    backendAudioRecorder = null;
+    backendCaptureInProgress = false;
+    setMicStatus('off');
+}
+
+async function sendAudioToBackend(blob, backendUrl) {
+    const formData = new FormData();
+    formData.append('audio', blob, 'answer.wav');
+    console.log('[speech] sending audio to backend', backendUrl);
+
+    try {
+        const response = await fetch(`${backendUrl}/api/stt`, {
+            method: 'POST',
+            body: formData
+        });
+
+        if (!response.ok) {
+            const errText = await response.text();
+            console.warn('Backend STT failed:', response.status, errText);
+            throw new Error(`Backend STT failed: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const transcript = (data && data.transcript ? String(data.transcript).trim() : '').trim();
+        if (!transcript) {
+            console.warn('[speech] Backend STT returned empty transcript');
+            cleanupBackendCapture();
+            scheduleSpeechRestart(600);
+            return;
+        }
+
+        console.log('[speech] backend transcript ->', transcript);
+        handleRemoteTranscript(transcript, true);
+    } catch (error) {
+        console.warn('Unable to process backend transcription:', error);
+        setMicStatus('error');
+        if (messageBox) messageBox.textContent = 'Το STT backend δεν είναι διαθέσιμο.';
+    } finally {
+        cleanupBackendCapture();
+    }
+}
+
+async function startBackendSpeechRecognition(backendUrl) {
+    if (backendCaptureInProgress) {
+        console.log('[speech] backend capture already in progress, skipping');
+        return;
+    }
+    backendCaptureInProgress = true;
+    console.log('[speech] startBackendSpeechRecognition()', backendUrl);
+
+    const stream = await navigator.mediaDevices.getUserMedia({
+        audio: {
+            channelCount: 1,
+            echoCancellation: true,
+            noiseSuppression: true,
+            autoGainControl: true
+        }
+    });
+
+    backendAudioStream = stream;
+
+    const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+        ? 'audio/webm;codecs=opus'
+        : 'audio/webm';
+
+    const recorder = new MediaRecorder(stream, { mimeType, audioBitsPerSecond: 128000 });
+    const chunks = [];
+
+    recorder.ondataavailable = (event) => {
+        if (event.data && event.data.size > 0) {
+            chunks.push(event.data);
+        }
+    };
+
+    recorder.onstop = async () => {
+        const originalBlob = new Blob(chunks, { type: mimeType });
+        try {
+            const wavBlob = await convertWebmToWav(originalBlob);
+            if (!wavBlob) {
+                cleanupBackendCapture();
+                scheduleSpeechRestart(500);
+                return;
+            }
+            sendAudioToBackend(wavBlob, backendUrl).catch(() => {});
+        } catch (error) {
+            console.warn('[speech] failed to convert captured audio to WAV:', error);
+            setMicStatus('error');
+            if (messageBox) messageBox.textContent = 'Το ηχητικό αρχείο δεν μπόρεσε να μετατραπεί για αναγνώριση.';
+            cleanupBackendCapture();
+        }
+    };
+
+    backendAudioRecorder = recorder;
+    setMicStatus('listening');
+    recorder.start();
+
+    // Short capture window: react as soon as speech is heard instead of waiting 5 seconds.
+    backendCaptureTimer = setTimeout(() => {
+        if (recorder && recorder.state !== 'inactive') {
+            recorder.stop();
+        }
+    }, 1200);
+}
+function normalizeText(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // Αφαίρεση τόνων
+    .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "") // Αφαίρεση στίξης
+    .trim();
+}
 function stopSpeechRecognition() {
+    cleanupBackendCapture();
     stopBrowserSpeechRecognition();
 }
 
+function scheduleSpeechRestart(delay = 700) {
+    if (!gameRunning) return;
+    console.log('[speech] scheduling restart in', delay, 'ms');
+    setTimeout(() => {
+        if (!gameRunning || waitingAfterPass) {
+            console.log('[speech] restart skipped because gameRunning=', gameRunning, 'waitingAfterPass=', waitingAfterPass);
+            return;
+        }
+        speechEvaluationLock = false;
+        try {
+            console.log('[speech] restarting recognition for next round');
+            startSpeechRecognition();
+        } catch (e) {
+            console.warn('[speech] restart failed:', e);
+        }
+    }, delay);
+}
+
+const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
+
+recognition.lang = 'el-GR';
+recognition.continuous = true;       // Δεν σταματάει μετά από μία λέξη
+recognition.interimResults = true;  // Στέλνει τη λέξη ΑΜΕΣΩΣ μόλις ακουστεί!
+
+function resetSpeechRecognition() {
+    console.log('[speech] resetSpeechRecognition()');
+    lastProcessedTranscript = "";
+    lastProcessedTranscriptTime = 0;
+    speechEvaluationLock = false;
+    if (browserSpeechRecognition && browserSpeechRecognition.state !== 'inactive') {
+        try {
+            browserSpeechRecognition.stop();
+        } catch (e) {}
+    }
+    cleanupBackendCapture();
+}
+
 function startBrowserSpeechRecognition() {
-    console.log('Starting browser speech recognition fallback');
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
-        console.warn('Browser speech recognition not supported');
         setMicStatus('error');
-        messageBox.textContent = "Το browser δεν υποστηρίζει αναγνώριση ομιλίας.";
+        if (messageBox) messageBox.textContent = "Το browser δεν υποστηρίζει αναγνώριση ομιλίας.";
         return;
     }
 
@@ -942,107 +1247,127 @@ function startBrowserSpeechRecognition() {
     browserSpeechRecognition.interimResults = true;
     browserSpeechRecognition.maxAlternatives = 1;
 
+    browserSpeechRecognition.onstart = () => {
+        setMicStatus('listening');
+    };
+
     browserSpeechRecognition.onresult = (event) => {
-        for (let i = event.resultIndex; i < event.results.length; i++) {
-            const result = event.results[i];
-            if (!result || !result[0]) continue;
-            const transcript = pickBestTranscript(result, result.isFinal);
-            if (!transcript) continue;
+        const startIndex = typeof event.resultIndex === 'number' ? event.resultIndex : 0;
+        const newestResult = event.results && event.results[startIndex] ? event.results[startIndex] : null;
+        if (!newestResult || !newestResult[0]) return;
 
-            const isFinal = result.isFinal;
-            logDebug(`${isFinal ? 'Final' : 'Interim'}: ${transcript}`);
+        const transcript = pickBestTranscript(newestResult, newestResult.isFinal);
+        if (!transcript) return;
 
-            handleRemoteTranscript(transcript, isFinal);
+        const normalized = normalizeAnswerText(transcript);
+        const cleaned = (normalized || '').replace(/[.!,;:]/g, '').trim();
+        const now = Date.now();
+        if (cleaned && cleaned === lastProcessedTranscript && now - lastProcessedTranscriptTime < 800) {
+            return;
         }
+
+        handleRemoteTranscript(transcript, newestResult.isFinal);
     };
 
     browserSpeechRecognition.onerror = (event) => {
-        const errorMessage = event.error || event.message || 'unknown';
-        console.error('Browser SpeechRecognition error', event);
-        logDebug(`SpeechRecognition error: ${errorMessage}`);
-
+        console.warn('SpeechRecognition error:', event.error);
         if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
             setMicStatus('error');
-            messageBox.textContent = "Δεν επιτρέπεται η χρήση μικροφώνου.";
-            return;
-        }
-
-        if (event.error === 'aborted') {
-            return;
-        }
-
-        if (gameRunning) {
-            setMicStatus('retry');
-            messageBox.textContent = "Προσπάθεια επανασύνδεσης ομιλίας...";
-        } else {
-            setMicStatus('error');
+            if (messageBox) messageBox.textContent = "Δεν επιτρέπεται η χρήση μικροφώνου.";
         }
     };
 
     browserSpeechRecognition.onend = () => {
         if (gameRunning && usingBrowserSpeechFallback && !waitingAfterPass) {
-            setTimeout(() => {
-                if (browserSpeechRecognition && !waitingAfterPass) {
-                    try {
-                        browserSpeechRecognition.start();
-                        logDebug('SpeechRecognition restarted after end');
-                    } catch (e) {
-                        console.warn('Browser recognition restart failed', e);
-                    }
-                }
-            }, 500);
+            setMicStatus('off');
         }
     };
 
     try {
         browserSpeechRecognition.start();
-        setMicStatus('listening');
-        logDebug('Browser speech recognition started.');
     } catch (error) {
-        console.error('Browser SpeechRecognition start failed', error);
-        setMicStatus('error');
-        logDebug('Browser speech recognition failed to start.');
+        console.error('SpeechRecognition start error:', error);
     }
 }
+
+document.getElementById('quitButton')?.addEventListener('click', () => {
+    if (confirm('Είστε σίγουροι ότι θέλετε να εγκαταλείψετε τη μονομαχία;')) {
+        // 1. Σταμάτημα όλων των ενεργών timers (προάρμοσε τα ονόματα αν διαφέρουν στο JS σου)
+        if (typeof stopTimers === 'function') stopTimers();
+        if (typeof clearInterval === 'function') {
+            // Καθαρισμός τυχόν τρέχοντος interval
+            clearInterval(window.gameTimer);
+        }
+
+        // 2. Σταμάτημα ήχων/μουσικής παιχνιδιού
+        const gameMusic = document.getElementById('gameMusic');
+        const clockTick = document.getElementById('clockTickSound');
+        if (gameMusic) { gameMusic.pause(); gameMusic.currentTime = 0; }
+        if (clockTick) { clockTick.pause(); clockTick.currentTime = 0; }
+
+        // 3. Ενεργοποίηση Menu Screen & Απενεργοποίηση Game Screen
+        document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+        document.getElementById('menuScreen').classList.add('active');
+
+        // 4. Επανεκκίνηση μουσικής μενού (προαιρετικά)
+        const menuMusic = document.getElementById('menuMusic');
+        if (menuMusic) menuMusic.play().catch(() => {});
+    }
+});
 
 function stopBrowserSpeechRecognition() {
     if (!browserSpeechRecognition) return;
     try {
-        browserSpeechRecognition.abort();
+        browserSpeechRecognition.stop();
     } catch (e) {}
     browserSpeechRecognition = null;
     usingBrowserSpeechFallback = false;
+    setMicStatus('off');
 }
-
 function handleRemoteTranscript(transcript, isFinal = false) {
     logDebug(`Transcript received: ${transcript}`);
-    console.log("handleRemoteTranscript", transcript, isFinal);
-    if (waitingAfterPass) return;
+    console.log('[speech] handleRemoteTranscript()', { transcript, isFinal, waitingAfterPass, currentPlayer });
+    if (speechEvaluationLock) {
+        console.log('[speech] ignoring transcript while speech evaluation is locked');
+        return;
+    }
+    if (waitingAfterPass) {
+        console.log('[speech] ignoring transcript because waitingAfterPass is true');
+        return;
+    }
 
     const normalizedText = normalizeSpokenText(transcript);
     if (!normalizedText) return;
-    console.log("normalized transcript", normalizedText);
+    console.log('[speech] normalized transcript:', normalizedText);
 
     const cleanedTranscript = normalizedText.replace(/[.!,;:]/g, "").trim();
     const shortTranscript = cleanedTranscript.replace(/\s+/g, "").length;
 
+    // Show live partial input immediately, without blocking the recognition loop.
+    if (!isFinal && cleanedTranscript && shortTranscript > 2) {
+        updateLiveTranscript(cleanedTranscript, false);
+        return;
+    }
+
     // Αγνοούμε λέξεις μικρότερες από 2 γράμματα (εκτός από το πάσο)
     if (shortTranscript <= 2 && cleanedTranscript !== "πασο" && cleanedTranscript !== "πασου") {
+        updateLiveTranscript(cleanedTranscript, false);
         return;
     }
 
     const now = Date.now();
-    if (cleanedTranscript && cleanedTranscript === lastProcessedTranscript && now - lastProcessedTranscriptTime < 1500) {
+    if (cleanedTranscript && cleanedTranscript === lastProcessedTranscript && now - lastProcessedTranscriptTime < 1200) {
         return;
     }
-    
-    // 🚀 ΔΙΟΡΘΩΣΗ ΓΙΑ ΤΟ ΠΑΣΟ: Απαιτούμε πλέον isFinal === true ή να είναι σίγουρη εντολή
-    // ώστε να μην πιάνει ψίχουλα ομιλίας από την τηλεόραση.
+
+    // Το πάσο είναι ξεκάθαρη εντολή και πρέπει να ενεργοποιείται άμεσα.
+    // Δεν περιμένουμε το τελικό αποτέλεσμα αν η λέξη είναι ήδη ξεκάθαρη
+    // και δεν έχει ξαναυπάρξει πρόσφατα.
     if (isPassCommand(cleanedTranscript)) {
-        if (!isFinal) return;
-        
+        console.log('[speech] PASS command detected:', cleanedTranscript);
         lastProcessedTranscript = cleanedTranscript;
         lastProcessedTranscriptTime = now;
+        updateLiveTranscript(cleanedTranscript, true);
         handlePass();
         return;
     }
@@ -1052,23 +1377,37 @@ function handleRemoteTranscript(transcript, isFinal = false) {
         return;
     }
 
-    // 🚀 ΕΠΙπΛΕΟΝ ΦΙΛΤΡΟ (ΠΡΟΑΙΡΕΤΙΚΟ ΑΛΛΑ ΠΟΛΥ ΧΡΗΣΙΜΟ):
-    // Έλεγχος αν η απάντηση ταιριάζει με κάποια από τις έγκυρες απαντήσεις του τρέχοντος αντικειμένου
-    // (υποθέτοντας ότι έχεις μια μεταβλητή όπως currentItem που κρατάει το τρέχον στοιχείο από το categories.js)
-    if (typeof currentItem !== 'undefined' && currentItem && currentItem.answers) {
-        const isValidAnswer = currentItem.answers.some(ans => 
-            normalizeSpokenText(ans) === cleanedTranscript
-        );
-        if (!isValidAnswer) {
-            console.log("Ignored background noise / invalid answer for this item:", cleanedTranscript);
-            return;
-        }
+    // Μην απορρίπτουμε αμέσως κάθε τελική φωνητική είσοδο ως "άκυρη":
+    // το λάθος είναι επίσης έγκυρη φωνητική απάντηση και πρέπει να μετρηθεί ως λάθος.
+    // Το φιλτράρισμα συμβαίνει μόνο σε πολύ μικρές/θορυβώδεις λέξεις, όχι σε πλήρη απάντηση.
+    if (!cleanedTranscript || cleanedTranscript.length < 2) {
+        console.log("Ignored too-short transcript:", cleanedTranscript);
+        updateLiveTranscript(cleanedTranscript, false);
+        return;
     }
 
     lastProcessedTranscript = cleanedTranscript;
     lastProcessedTranscriptTime = now;
+    updateLiveTranscript(cleanedTranscript, true);
+    console.log('[speech] evaluating answer:', cleanedTranscript, 'isFinal=', isFinal);
 
     checkAnswer(cleanedTranscript, isFinal);
+}
+
+// Παράδειγμα δημιουργίας κάρτας αντιπάλου στο JS:
+function renderOpponentCard(player) {
+    const card = document.createElement('div');
+    card.className = 'pd-custom-card';
+    card.dataset.playerId = player.id;
+
+    card.innerHTML = `
+        <img src="${player.avatar}" class="pd-custom-avatar" alt="${player.name}">
+        <div class="pd-custom-player-name">${player.name}</div>
+        <div class="pd-custom-category-tag">${player.category}</div>
+    `;
+
+    card.addEventListener('click', () => selectOpponent(card));
+    return card;
 }
 function isPassCommand(normalizedText) {
     const cleaned = (normalizedText || "").toLowerCase().trim();
@@ -1144,6 +1483,33 @@ function pickBestTranscript(result, isFinal) {
     return (best.transcript || '').trim();
 }
 
+
+const STRICT_VOICE_MODE = true;
+
+function isLikelyNoiseTranscript(text) {
+    const value = normalizeAnswerText(text || "");
+    if (!value) return true;
+    if (value.length < 2) return true;
+
+    const exactNoisePhrases = [
+        "παιζω","παίζω","ναι","οχι","γεια","καλημερα","καλημερα σας","ευχαριστω","ενταξει","οκ","ok",
+        "τι ειναι","τι είναι","τι","ποια","ποιος","ποια είναι","εισαι","εσυ","εγω","γεια σου",
+        "παιζουμε","συνεχισε","παμε","ετοιμος","έτοιμος","ετερο"
+    ];
+
+    const normalizedSentences = [value.toLowerCase(), value.replace(/\s+/g, " ").trim().toLowerCase()];
+    const tokens = value.toLowerCase().split(/\s+/).filter(Boolean);
+
+    if (exactNoisePhrases.some(phrase => normalizedSentences.includes(phrase))) {
+        return true;
+    }
+
+    if (tokens.some(token => exactNoisePhrases.includes(token))) {
+        return true;
+    }
+
+    return false;
+}
 
 /*=========================================
             ANSWER CHECK
@@ -1228,6 +1594,11 @@ function normalizeAnswerText(text) {
     if (text == null) return "";
     let value = repairSpeechText(text);
     value = value.replace(/\b(το|η|ο|τη|την|τον|στο|στη|στον|και|θα|να|εγω|εσύ|εσυ|είναι|ειναι|είμαι|ειμαι|σε)\b/gi, " ");
+    value = value.replace(/^tzip$/i, "jeep");
+    value = value.replace(/^tzip$/i, "jeep");
+    value = value.replace(/^τζιπ$/i, "jeep");
+    value = value.replace(/\b([a-z0-9]+)(?:\s+\1)+\b/gi, "$1");
+    value = value.replace(/\b([a-z0-9]+)\s+([a-z0-9]+)\s+\2\b/gi, "$1 $2");
     return value.replace(/\s+/g, " ").trim();
 }
 
@@ -1308,6 +1679,37 @@ function answerMatches(answerText, spokenText, isFinal = true) {
     const normalizedAnswer = normalizeAnswerText(answerText);
     const normalizedSpoken = normalizeAnswerText(spokenText);
     if (!normalizedAnswer || !normalizedSpoken) return false;
+
+    if (STRICT_VOICE_MODE && isLikelyNoiseTranscript(normalizedSpoken)) {
+        return false;
+    }
+
+    if (STRICT_VOICE_MODE) {
+        const exact = normalizedSpoken === normalizedAnswer;
+        const compactExact = normalizedSpoken.replace(/\s+/g, "") === normalizedAnswer.replace(/\s+/g, "");
+        if (exact || compactExact) return true;
+
+        const answerWords = normalizedAnswer.split(/\s+/).filter(Boolean);
+        const spokenWords = normalizedSpoken.split(/\s+/).filter(Boolean);
+
+        const uniqueAnswerWords = [...new Set(answerWords)];
+        const uniqueSpokenWords = [...new Set(spokenWords)];
+
+        if (uniqueAnswerWords.some(word => uniqueSpokenWords.includes(word))) return true;
+
+        if (answerWords.length === 1 && spokenWords.length === 1) {
+            const singleWordSimilarity = wordSimilarity(answerWords[0], spokenWords[0]);
+            const phoneticSingleWordSimilarity = wordSimilarity(phoneticKey(answerWords[0]), phoneticKey(spokenWords[0]));
+            if (singleWordSimilarity >= 0.78 || phoneticSingleWordSimilarity >= 0.78) return true;
+        }
+
+        if (answerWords.length > 1 || spokenWords.length > 1) {
+            const phraseSimilarity = similarity(normalizedAnswer, normalizedSpoken);
+            if (phraseSimilarity >= 0.8) return true;
+        }
+
+        return false;
+    }
 
     const compactAnswer = normalizedAnswer.replace(/\s+/g, "");
     const compactSpoken = normalizedSpoken.replace(/\s+/g, "");
@@ -1449,7 +1851,10 @@ function levenshteinDistance(a, b) {
 }
 
 function checkAnswer(spokenText, isFinal = true) {
-    if (!currentImage) return false;
+    if (!currentImage) {
+        console.log('[speech] checkAnswer() aborted: no currentImage');
+        return false;
+    }
 
     let answers = [];
     if (currentImage.answer) {
@@ -1459,9 +1864,17 @@ function checkAnswer(spokenText, isFinal = true) {
     }
 
     const normalizedSpoken = normalizeAnswerText(spokenText);
+    if (STRICT_VOICE_MODE && isLikelyNoiseTranscript(normalizedSpoken)) {
+        console.log('[speech] ignored likely noise transcript in strict mode:', normalizedSpoken);
+        return false;
+    }
+
     const matched = answers.some(answer => answerMatches(answer, normalizedSpoken, isFinal));
+    console.log('[speech] answer check:', { spokenText, normalizedSpoken, isFinal, matched, answers });
 
     if (matched) {
+        console.log('[speech] correct answer matched');
+        speechEvaluationLock = true;
         playSound("correct");
         messageBox.textContent = "✔ Σωστό!";
         setMessageFeedback("correct");
@@ -1476,8 +1889,14 @@ function checkAnswer(spokenText, isFinal = true) {
             player2Stats.bestStreak = Math.max(player2Stats.bestStreak, player2Stats.streak);
         }
 
+        resetSpeechRecognition();
+        cleanupBackendCapture();
+        stopBrowserSpeechRecognition();
         switchPlayer();
         loadNextImage();
+        if (gameRunning && !waitingAfterPass) {
+            try { startSpeechRecognition(); } catch (e) {}
+        }
         return true;
     }
 
@@ -1485,6 +1904,7 @@ function checkAnswer(spokenText, isFinal = true) {
         return false;
     }
 
+    speechEvaluationLock = true;
     if (currentPlayer === 1) {
         player1Stats.wrong++;
         player1Stats.streak = 0;
@@ -1496,6 +1916,12 @@ function checkAnswer(spokenText, isFinal = true) {
     messageBox.textContent = "✖ Λάθος";
     setMessageFeedback("wrong");
     playSound("buzzer");
+    resetSpeechRecognition();
+    cleanupBackendCapture();
+    stopBrowserSpeechRecognition();
+    if (gameRunning && !waitingAfterPass) {
+        try { startSpeechRecognition(); } catch (e) {}
+    }
     return false;
 }
 
@@ -1504,8 +1930,17 @@ function checkAnswer(spokenText, isFinal = true) {
 =========================================*/
 
 function handlePass() {
-    if (waitingAfterPass) return;
+    if (waitingAfterPass) {
+        console.log('[speech] handlePass() ignored because waitingAfterPass is already true');
+        return;
+    }
     waitingAfterPass = true;
+    console.log('[speech] handlePass() triggered for player', currentPlayer);
+    resetSpeechRecognition();
+    cleanupBackendCapture();
+    stopBrowserSpeechRecognition();
+    lastProcessedTranscript = "";
+    lastProcessedTranscriptTime = 0;
 
     playSound("ice");
     playSound("pass");
@@ -1549,8 +1984,12 @@ function handlePass() {
             gameScreen.classList.remove("frozen");
         }
         waitingAfterPass = false;
+        resetSpeechRecognition();
         loadNextImage();
-    }, 3200);
+        if (gameRunning) {
+            try { startSpeechRecognition(); } catch (e) {}
+        }
+    }, 1200);
 }
 
 /*=========================================
@@ -1558,6 +1997,7 @@ function handlePass() {
 =========================================*/
 
 function ensureAudio() {
+    ensureAudioContext();
     if (!audioContext) return;
     if (audioContext.state === "suspended") {
         audioContext.resume().catch(() => {});
@@ -1675,6 +2115,30 @@ function stopConfetti() {
     }
 }
 
+function resetGameToHomeState() {
+    // Καθαρισμός μεταβλητών τουρνουά και παιχνιδιού
+    tournamentCurrentMatch = null;
+    tournamentOpponentQueue = [];
+    currentChallenger = null;
+    gameRunning = false;
+    
+    // Απόκρυψη καρτών επιλογής αντιπάλου αν υπάρχουν
+    const cardsGrid = document.getElementById("opponentCardsGrid");
+    if (cardsGrid) {
+        cardsGrid.remove();
+    }
+
+    // Επιστροφή στην αρχική οθόνη μενού (π.χ. startScreen ή mainScreen)
+    if (typeof startScreen !== 'undefined' && startScreen) {
+        showScreen(startScreen);
+    } else if (typeof continueToMenu === 'function') {
+        continueToMenu();
+    } else {
+        // Εναλλακτικά, αν δεν υπάρχει έτοιμη συνάρτηση, κάνε ένα απαλό reload με ελαφρά καθυστέρηση
+        window.location.reload();
+    }
+}
+
 /*=========================================
             FINISH GAME
 =========================================*/
@@ -1685,33 +2149,51 @@ function finishGame(winnerPlayer) {
     stopSpeechRecognition();
 
     if (tournamentCurrentMatch) {
-        const winnerText = winnerPlayer === 1
+        // Βρίσκουμε ποιος κέρδισε βάσει του ονόματος στο match
+        const winnerNameText = winnerPlayer === 1
             ? tournamentCurrentMatch.player1
             : tournamentCurrentMatch.player2;
 
-        const resolvedWinner = winnerText || (winnerPlayer === 1 ? player1Name.textContent : player2Name.textContent);
-        const challengerWon = resolvedWinner === tournamentCurrentMatch.challenger.name;
-        if (!challengerWon) {
-            currentChallenger = tournamentCurrentMatch.opponent;
-        }
+        const loserNameText = winnerPlayer === 1
+            ? tournamentCurrentMatch.player2
+            : tournamentCurrentMatch.player1;
 
-        // Είτε κερδίσει είτε χάσει ο Challenger, ο αντίπαλος που μόλις έπαιξε 
-        // πρέπει να φεύγει από την ουρά των επόμενων αντιπάλων!
-        tournamentOpponentQueue.shift();
+        console.log(`Match Ended. Winner: ${winnerNameText}, Loser: ${loserNameText}`);
+
+        // Αφαιρούμε τον ηττημένο ΑΜΕΣΑ από την ουρά των διαθέσιμων παικτών/αντιπάλων
+        tournamentOpponentQueue = tournamentOpponentQueue.filter(p => p.name !== loserNameText);
+
+        // Επίσης φροντίζουμε να μην περιέχει ούτε τον νικητή αν είναι τρέχων challenger, ώστε να μένουν μόνο οι επόμενοι
+        tournamentOpponentQueue = tournamentOpponentQueue.filter(p => p.name !== winnerNameText);
 
         tournamentCurrentMatch = null;
-        updateTournamentBracket(resolvedWinner, true);
+        updateTournamentBracket(winnerNameText, true);
 
-        const nextOpponent = tournamentOpponentQueue[0];
-        if (!nextOpponent) {
-            finishTournament(currentChallenger ? currentChallenger.name : resolvedWinner);
+        // 🏆 ΕΛΕΓΧΟΣ: Αν δεν έχουν μείνει άλλοι αντίπαλοι στην ουρά
+        if (tournamentOpponentQueue.length === 0) {
+            showScreen(winnerScreen);
+            if (winnerName) {
+                // show plain winner name without the large tournament banner (helps small screens)
+                winnerName.textContent = winnerNameText;
+            }
+            if (winnerDescription) {
+                winnerDescription.textContent = "Κατέκτησε ολόκληρο το τουρνουά και νίκησε όλους τους αντιπάλους!";
+            }
+            if (continueButton) {
+                continueButton.textContent = "ΕΠΙΣΤΡΟΦΗ ΣΤΗΝ ΑΡΧΙΚΗ";
+                continueButton.onclick = (e) => {
+                    resetGameToHomeState();
+                };
+            }
+            playSound("victory");
             return;
         }
 
-        const nextCategory = currentChallenger && currentChallenger.category
-            ? currentChallenger.category
-            : nextOpponent.category || getRandomCategoryKey();
-        showTournamentPauseScreen(resolvedWinner, nextCategory);
+        // Ο νικητής συνεχίζει ως challenger για το επόμενο ματς
+        currentChallenger = { name: winnerNameText, category: categorySelect?.value || "animals" };
+
+        // Εμφάνιση της πεντακάθαρης οθόνης επιλογής αντιπάλου με τους εναπομείναντες
+        showOpponentSelectionScreen(currentChallenger, tournamentOpponentQueue, loserNameText);
         return;
     }
 
@@ -1720,6 +2202,80 @@ function finishGame(winnerPlayer) {
     winnerName.textContent = winner;
     winnerDescription.textContent = "🏆 Νικητής του Pic Duel";
     playSound("victory");
+    // schedule auto-return to menu after a short delay
+    if (winnerAutoReturnTimer) clearTimeout(winnerAutoReturnTimer);
+    winnerAutoReturnTimer = setTimeout(() => {
+        continueToMenu();
+    }, 5000);
+}
+function showOpponentSelectionScreen(challenger, availableOpponents, defeatedPlayerName) {
+    showScreen(winnerScreen);
+    
+    if (winnerName) {
+        winnerName.innerHTML = `<span style="color: #e63946;">👑 ${challenger.name}</span> - ΕΠΙΛΟΓΗ ΑΝΤΙΠΑΛΟΥ`;
+    }
+    
+    if (winnerDescription) {
+        winnerDescription.innerHTML = `Ο/Η <strong>${defeatedPlayerName}</strong> αποκλείστηκε. Διάλεξε ποιος παίκτης θα μονομαχήσει στη συνέχεια:`;
+    }
+
+    // Δημιουργία δυναμικού grid με κάρτες αντιπάλων μέσα στο winnerContainer (ή δίπλα στο κουμπί)
+    const winnerContainer = document.querySelector(".winnerContainer");
+    let cardsGrid = document.getElementById("opponentCardsGrid");
+    
+    if (!cardsGrid) {
+        cardsGrid = document.createElement("div");
+        cardsGrid.id = "opponentCardsGrid";
+        cardsGrid.className = "opponent-cards-grid";
+        // Τοποθετούμε το grid πριν από το κουμπί συνέχισης
+        if (continueButton && continueButton.parentNode) {
+            continueButton.parentNode.insertBefore(cardsGrid, continueButton);
+        } else {
+            winnerContainer.appendChild(cardsGrid);
+        }
+    }
+    
+    cardsGrid.innerHTML = "";
+
+    availableOpponents.forEach(opponent => {
+        const card = document.createElement("div");
+        card.className = "opponent-card";
+        
+        const avatar = document.createElement("div");
+        avatar.className = "opponent-card-avatar";
+        avatar.textContent = opponent.name.charAt(0).toUpperCase();
+
+        const nameEl = document.createElement("div");
+        nameEl.className = "opponent-card-name";
+        nameEl.textContent = opponent.name;
+
+        const catEl = document.createElement("div");
+        catEl.className = "opponent-card-category";
+        const formattedCat = opponent.category 
+            ? opponent.category.split("-").map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(" ") 
+            : "Κατηγορία";
+        catEl.textContent = `🎯 ${formattedCat}`;
+
+        card.appendChild(avatar);
+        card.appendChild(nameEl);
+        card.appendChild(catEl);
+
+        // Όταν ο παίκτης κάνει κλικ σε μια κάρτα αντιπάλου
+        card.addEventListener("click", () => {
+            cardsGrid.innerHTML = ""; // Καθαρισμός καρτών
+            // Φέρνουμε τον επιλεγμένο αντίπαλο πρώτο στην ουρά
+            tournamentOpponentQueue = [opponent, ...availableOpponents.filter(o => o.name !== opponent.name)];
+            startNextTournamentMatch();
+        });
+
+        cardsGrid.appendChild(card);
+    });
+
+    // Απόκρυψη ή μετατροπή του continueButton σε κουμπί επιστροφής/ακύρωσης αν χρειάζεται
+    if (continueButton) {
+        continueButton.textContent = "ΤΕΡΜΑΤΙΣΜΟΣ / ΑΡΧΙΚΗ";
+        continueButton.onclick = (e) => continueToMenu(e);
+    }
 }
 
 function continueToMenu(event) {
@@ -1786,6 +2342,32 @@ function resetGameState() {
     logDebug("Επιστροφή στο μενού για νέο παιχνίδι.");
 }
 
+/* ---------- PAUSE / RESUME ---------- */
+
+function pauseGame() {
+    if (paused) return;
+    paused = true;
+    gameRunning = false;
+    clearInterval(timer);
+    stopSpeechRecognition();
+    if (gameScreen) gameScreen.classList.add('paused');
+    const btn = document.getElementById('pauseButton');
+    if (btn) btn.textContent = 'Συνέχεια';
+    logDebug('Game paused');
+}
+
+function resumeGame() {
+    if (!paused) return;
+    paused = false;
+    gameRunning = true;
+    startTimer();
+    try { startSpeechRecognition(); } catch (e) {}
+    if (gameScreen) gameScreen.classList.remove('paused');
+    const btn = document.getElementById('pauseButton');
+    if (btn) btn.textContent = 'Παύση';
+    logDebug('Game resumed');
+}
+
 /*=========================================
         FILL STATISTICS
 =========================================*/
@@ -1823,6 +2405,31 @@ function fillStatistics() {
 function openStatistics() {
     showScreen(statisticsScreen);
     fillStatistics();
+}
+
+// Παράδειγμα JS συνάρτησης που δημιουργεί τη λίστα μονομάχων
+function createPlayerRow(index, categoriesList) {
+  const card = document.createElement('div');
+  card.className = 'pd-setup-card';
+
+  // Δημιουργία των Options για τις Κατηγορίες
+  let optionsHTML = `<option value="" disabled selected hidden>ΔΙΑΛΕΞΤΕ ΚΑΤΗΓΟΡΙA</option>`;
+  
+  categoriesList.forEach(cat => {
+    optionsHTML += `<option value="${cat}">${cat}</option>`;
+  });
+
+  card.innerHTML = `
+    <input type="text" class="pd-player-input" value="Player ${index + 1}" placeholder="Όνομα Παίκτη">
+    
+    <div class="pd-select-wrapper">
+      <select class="pd-cat-select" id="playerCat_${index}">
+        ${optionsHTML}
+      </select>
+    </div>
+  `;
+
+  return card;
 }
 
 function startGame() {
@@ -1877,8 +2484,8 @@ window.addEventListener("load", () => {
     renderTournamentInputs();
     showTournamentSetup(true);
 
-    try { initAllCustomSelects(); } catch (e) { console.warn('initAllCustomSelects failed', e); }
-
+// ΑΛΛΑΓΗ: Από initAllCustomSelects() σε initCustomSelects()
+try { initCustomSelects(); } catch (e) { console.warn('initCustomSelects failed', e); }
     if (continueButton) {
         continueButton.addEventListener("click", (event) => {
             event.preventDefault();
@@ -1918,5 +2525,17 @@ window.addEventListener("load", () => {
 
     if (statisticsMenuButton) {
         statisticsMenuButton.addEventListener("click", backToMenu);
+    }
+    // Pause button handling
+    const pauseBtn = document.getElementById('pauseButton');
+    if (pauseBtn) {
+        pauseBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (!gameRunning && !paused) {
+                // if game not started, ignore
+                return;
+            }
+            if (paused) resumeGame(); else pauseGame();
+        });
     }
 });

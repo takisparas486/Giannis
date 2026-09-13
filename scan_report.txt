@@ -1,0 +1,31 @@
+TOTAL_REFERENCES 2611
+TOTAL_REFERENCED_UNIQUE 2528
+TOTAL_ACTUAL_FILES 2524
+MISSING_REFERENCES 0
+UNREFERENCED_FILES 0
+
+TOP 20 REFERENCED CATEGORIES
+actors: 155 refs; actual files: 80
+countries: 149 refs; actual files: 149
+capitals: 129 refs; actual files: 129
+elements: 124 refs; actual files: 121
+disney: 123 refs; actual files: 123
+pokemon: 111 refs; actual files: 111
+mythology: 99 refs; actual files: 99
+car-logos: 94 refs; actual files: 94
+superheroes: 86 refs; actual files: 85
+video-games: 84 refs; actual files: 84
+birds: 82 refs; actual files: 79
+sea-animals: 82 refs; actual files: 80
+animals: 80 refs; actual files: 80
+dinosaurs: 80 refs; actual files: 80
+famous-cars: 80 refs; actual files: 80
+football-stadium: 80 refs; actual files: 80
+movies: 80 refs; actual files: 80
+basketball-players: 80 refs; actual files: 80
+brands: 80 refs; actual files: 80
+famous-people: 80 refs; actual files: 80
+
+MISSING_REFERENCES_LIST
+
+UNREFERENCED_FILES_LIST

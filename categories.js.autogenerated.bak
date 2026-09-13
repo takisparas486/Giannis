@@ -846,7 +846,12 @@ pokemon: [
         "image": "images/pokemon/mudkip.png",
         "difficulty": "medium"
     },
-        {
+    {
+        "answers": ["μάρστομπ", "marshtomp"],
+        "image": "images/pokemon/marshtomp.png",
+        "difficulty": "medium"
+    },
+    {
         "answers": ["γκαρντεβουάρ", "gardevoir"],
         "image": "images/pokemon/gardevoir.png",
         "difficulty": "medium"
@@ -1611,594 +1616,778 @@ mythology: [
 
 {
     answers: ["αθήνα", "athens"],
-    image: "images/country-flags/greece.jpg",
+    image: "images/capitals/greece.png",
     difficulty: "easy"
 },
 
 {
     answers: ["παρίσι", "paris"],
-    image: "images/country-flags/france.jpg",
+    image: "images/capitals/france.png",
     difficulty: "easy"
 },
 
 {
     answers: ["βερολίνο", "berlin"],
-    image: "images/country-flags/germany.jpg",
+    image: "images/capitals/germany.png",
     difficulty: "easy"
 },
 
 {
     answers: ["ρώμη", "rome", "roma"],
-    image: "images/country-flags/italy.jpg",
+    image: "images/capitals/italy.png",
     difficulty: "easy"
 },
 
 {
     answers: ["μαδρίτη", "madrid"],
-    image: "images/country-flags/spain.jpg",
+    image: "images/capitals/spain.png",
     difficulty: "easy"
 },
 
 {
     answers: ["λισαβόνα", "lisbon", "lisboa"],
-    image: "images/country-flags/portugal.jpg",
+    image: "images/capitals/portugal.png",
     difficulty: "easy"
 },
 
 {
     answers: ["λονδίνο", "london"],
-    image: "images/country-flags/united-kingdom.jpg",
+    image: "images/capitals/united-kingdom.png",
     difficulty: "easy"
 },
 
 {
     answers: ["δουβλίνο", "dublin"],
-    image: "images/country-flags/ireland.jpg",
+    image: "images/capitals/ireland.png",
     difficulty: "easy"
 },
 
 {
     answers: ["βρυξέλλες", "brussels"],
-    image: "images/country-flags/belgium.jpg",
+    image: "images/capitals/belgium.png",
     difficulty: "easy"
 },
 
 {
     answers: ["άμστερνταμ", "amsterdam"],
-    image: "images/country-flags/netherlands.jpg",
+    image: "images/capitals/netherlands.png",
     difficulty: "easy"
 },
 
 {
     answers: ["βέρνη", "bern"],
-    image: "images/country-flags/switzerland.jpg",
+    image: "images/capitals/switzerland.png",
     difficulty: "easy"
 },
 
 {
     answers: ["βιέννη", "vienna"],
-    image: "images/country-flags/austria.jpg",
+    image: "images/capitals/austria.png",
     difficulty: "easy"
 },
 
 {
     answers: ["στοκχόλμη", "stockholm"],
-    image: "images/country-flags/sweden.jpg",
+    image: "images/capitals/sweden.png",
     difficulty: "easy"
 },
 
 {
     answers: ["όσλο", "oslo"],
-    image: "images/country-flags/norway.jpg",
+    image: "images/capitals/norway.png",
     difficulty: "easy"
 },
 
 {
     answers: ["κοπεγχάγη", "copenhagen"],
-    image: "images/country-flags/denmark.jpg",
+    image: "images/capitals/denmark.png",
     difficulty: "easy"
 },
 
 {
     answers: ["ελσίνκι", "helsinki"],
-    image: "images/country-flags/finland.jpg",
+    image: "images/capitals/finland.png",
     difficulty: "easy"
 },
 
 {
     answers: ["βαρσοβία", "warsaw"],
-    image: "images/country-flags/poland.jpg",
+    image: "images/capitals/poland.png",
     difficulty: "easy"
 },
 
+{
+    answers: ["πράγα", "prague", "praha"],
+    image: "images/capitals/czechia.png",
+    difficulty: "easy"
+},
 
 {
     answers: ["βουδαπέστη", "budapest"],
-    image: "images/country-flags/hungary.jpg",
+    image: "images/capitals/hungary.png",
     difficulty: "easy"
 },
 
 {
     answers: ["βουκουρέστι", "bucharest"],
-    image: "images/country-flags/romania.jpg",
+    image: "images/capitals/romania.png",
     difficulty: "easy"
 },
 
 {
     answers: ["σοφία", "sofia"],
-    image: "images/country-flags/bulgaria.jpg",
+    image: "images/capitals/bulgaria.png",
     difficulty: "easy"
 },
 
 {
     answers: ["άγκυρα", "ankara"],
-    image: "images/country-flags/turkey.jpg",
+    image: "images/capitals/turkiye.png",
     difficulty: "easy"
 },
 
 {
     answers: ["μόσχα", "moscow"],
-    image: "images/country-flags/russia.jpg",
+    image: "images/capitals/russia.png",
     difficulty: "easy"
 },
 
 {
     answers: ["κίεβο", "κιεβο", "kyiv", "kiev"],
-    image: "images/country-flags/ukraine.jpg",
+    image: "images/capitals/ukraine.png",
     difficulty: "easy"
 },
 
 {
     answers: ["οτάβα", "ottawa"],
-    image: "images/country-flags/canada.jpg",
+    image: "images/capitals/canada.png",
     difficulty: "easy"
 },
 
 {
     answers: ["ουάσινγκτον", "washington", "washington dc"],
-    image: "images/country-flags/united-states.jpg",
+    image: "images/capitals/united-states.png",
     difficulty: "easy"
 },
 
 {
     answers: ["πόλη του μεξικού", "μεξικό σίτι", "mexico city"],
-    image: "images/country-flags/mexico.jpg",
+    image: "images/capitals/mexico.png",
     difficulty: "easy"
 },
 
 {
     answers: ["μπραζίλια", "brasilia"],
-    image: "images/country-flags/brazil.jpg",
+    image: "images/capitals/brazil.png",
     difficulty: "easy"
 },
 
 {
     answers: ["μπουένος άιρες", "buenos aires"],
-    image: "images/country-flags/argentina.jpg",
+    image: "images/capitals/argentina.png",
     difficulty: "easy"
 },
 
 {
     answers: ["σαντιάγο", "santiago"],
-    image: "images/country-flags/chile.jpg",
+    image: "images/capitals/chile.png",
     difficulty: "easy"
 },
 
 {
     answers: ["λίμα", "lima"],
-    image: "images/country-flags/peru.jpg",
+    image: "images/capitals/peru.png",
     difficulty: "easy"
 },
 
 {
     answers: ["μπογκοτά", "bogota", "bogotá"],
-    image: "images/country-flags/colombia.jpg",
+    image: "images/capitals/colombia.png",
     difficulty: "easy"
 },
 
 {
     answers: ["τόκιο", "tokyo"],
-    image: "images/country-flags/japan.jpg",
+    image: "images/capitals/japan.png",
     difficulty: "easy"
 },
 
 {
     answers: ["πεκίνο", "beijing"],
-    image: "images/country-flags/china.jpg",
+    image: "images/capitals/china.png",
     difficulty: "easy"
 },
 
 {
     answers: ["σεούλ", "seoul"],
-    image: "images/country-flags/south-korea.jpg",
+    image: "images/capitals/south-korea.png",
     difficulty: "easy"
 },
 
 {
     answers: ["πιονγκγιάνγκ", "πιονγκ γιανγκ", "pyongyang"],
-    image: "images/country-flags/north-korea.jpg",
+    image: "images/capitals/north-korea.png",
     difficulty: "medium"
 },
 
 {
     answers: ["νέο δελχί", "new delhi"],
-    image: "images/country-flags/india.jpg",
+    image: "images/capitals/india.png",
     difficulty: "easy"
 },
 
 {
     answers: ["ισλαμαμπάντ", "islamabad"],
-    image: "images/country-flags/pakistan.jpg",
+    image: "images/capitals/pakistan.png",
     difficulty: "medium"
 },
 
 {
     answers: ["μπανγκόκ", "bangkok"],
-    image: "images/country-flags/thailand.jpg",
+    image: "images/capitals/thailand.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ανόι", "hanoi"],
-    image: "images/country-flags/vietnam.jpg",
+    image: "images/capitals/vietnam.png",
     difficulty: "medium"
 },
 
 {
     answers: ["τζακάρτα", "jakarta"],
-    image: "images/country-flags/indonesia.jpg",
+    image: "images/capitals/indonesia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["μανίλα", "manila"],
-    image: "images/country-flags/philippines.jpg",
+    image: "images/capitals/philippines.png",
     difficulty: "medium"
 },
 
 {
     answers: ["καμπέρα", "canberra"],
-    image: "images/country-flags/australia.jpg",
+    image: "images/capitals/australia.png",
     difficulty: "easy"
 },
 
 {
     answers: ["ουέλινγκτον", "wellington"],
-    image: "images/country-flags/new-zealand.jpg",
+    image: "images/capitals/new-zealand.png",
     difficulty: "medium"
 },
 
 {
     answers: ["κάιρο", "cairo"],
-    image: "images/country-flags/egypt.jpg",
+    image: "images/capitals/egypt.png",
     difficulty: "easy"
 },
 
 {
     answers: ["ραμπάτ", "rabat"],
-    image: "images/country-flags/morocco.jpg",
+    image: "images/capitals/morocco.png",
     difficulty: "medium"
 },
 
 {
     answers: ["πρετόρια", "pretoria"],
-    image: "images/country-flags/south-africa.jpg",
+    image: "images/capitals/south-africa.png",
     difficulty: "hard"
 },
 
 {
     answers: ["ριάντ", "riyadh"],
-    image: "images/country-flags/saudi-arabia.jpg",
+    image: "images/capitals/saudi-arabia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["αμπού ντάμπι", "abu dhabi"],
-    image: "images/country-flags/united-arab-emirates.jpg",
+    image: "images/capitals/united-arab-emirates.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ιερουσαλήμ", "jerusalem"],
-    image: "images/country-flags/israel.jpg",
+    image: "images/capitals/israel.png",
     difficulty: "medium"
 },
 
 {
     answers: ["σιγκαπούρη", "singapore"],
-    image: "images/country-flags/singapore.jpg",
+    image: "images/capitals/singapore.png",
     difficulty: "medium"
 },
 
 {
     answers: ["κουάλα λουμπούρ", "kuala lumpur"],
-    image: "images/country-flags/malaysia.jpg",
+    image: "images/capitals/malaysia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ντόχα", "doha"],
-    image: "images/country-flags/qatar.jpg",
+    image: "images/capitals/qatar.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ζάγκρεμπ", "zagreb"],
-    image: "images/country-flags/croatia.jpg",
+    image: "images/capitals/croatia.png",
     difficulty: "easy"
 },
 
 {
     answers: ["βελιγράδι", "belgrade"],
-    image: "images/country-flags/serbia.jpg",
+    image: "images/capitals/serbia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["λιουμπλιάνα", "ljubljana"],
-    image: "images/country-flags/slovenia.jpg",
+    image: "images/capitals/slovenia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["μπρατισλάβα", "bratislava"],
-    image: "images/country-flags/slovakia.jpg",
+    image: "images/capitals/slovakia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["σαράγεβο", "sarajevo"],
-    image: "images/country-flags/bosnia-and-herzegovina.jpg",
+    image: "images/capitals/bosnia-and-herzegovina.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ποντγκόριτσα", "podgorica"],
-    image: "images/country-flags/montenegro.jpg",
+    image: "images/capitals/montenegro.png",
     difficulty: "medium"
 },
 
 {
     answers: ["σκόπια", "skopje"],
-    image: "images/country-flags/north-macedonia.jpg",
+    image: "images/capitals/north-macedonia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["τίρανα", "tirana"],
-    image: "images/country-flags/albania.jpg",
+    image: "images/capitals/albania.png",
     difficulty: "easy"
 },
 
 {
     answers: ["λευκωσία", "nicosia"],
-    image: "images/country-flags/cyprus.jpg",
+    image: "images/capitals/cyprus.png",
     difficulty: "easy"
 },
 
 {
     answers: ["βίλνιους", "vilnius"],
-    image: "images/country-flags/lithuania.jpg",
+    image: "images/capitals/lithuania.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ρίγα", "riga"],
-    image: "images/country-flags/latvia.jpg",
+    image: "images/capitals/latvia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["τάλιν", "tallinn"],
-    image: "images/country-flags/estonia.jpg",
+    image: "images/capitals/estonia.png",
     difficulty: "medium"
 },
 
+{
+    answers: ["μινσκ", "minsk"],
+    image: "images/capitals/belarus.png",
+    difficulty: "medium"
+},
 
+{
+    answers: ["κισινάου", "chisinau", "chișinău"],
+    image: "images/capitals/moldova.png",
+    difficulty: "medium"
+},
 
+{
+    answers: ["τιφλίδα", "tbilisi"],
+    image: "images/capitals/georgia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["γιερεβάν", "yerevan"],
+    image: "images/capitals/armenia.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["μπακού", "baku"],
+    image: "images/capitals/azerbaijan.png",
+    difficulty: "medium"
+},
 
 {
     answers: ["αστάνα", "astana"],
-    image: "images/country-flags/kazakhstan.jpg",
+    image: "images/capitals/kazakhstan.png",
     difficulty: "medium"
 },
 
 {
     answers: ["τάσкент", "tashkent"],
-    image: "images/country-flags/uzbekistan.jpg",
+    image: "images/capitals/uzbekistan.png",
     difficulty: "hard"
 },
 
 {
     answers: ["ασγκαμπάτ", "ashgabat"],
-    image: "images/country-flags/turkmenistan.jpg",
+    image: "images/capitals/turkmenistan.png",
     difficulty: "hard"
 },
 
+{
+    answers: ["μπισκέκ", "bishkek"],
+    image: "images/capitals/kyrgyzstan.png",
+    difficulty: "hard"
+},
 
 {
     answers: ["ντουσάνμπε", "dushanbe"],
-    image: "images/country-flags/tajikistan.jpg",
+    image: "images/capitals/tajikistan.png",
     difficulty: "hard"
 },
 
 {
     answers: ["κατμαντού", "kathmandu"],
-    image: "images/country-flags/nepal.jpg",
+    image: "images/capitals/nepal.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ντάκα", "dhaka"],
-    image: "images/country-flags/bangladesh.jpg",
+    image: "images/capitals/bangladesh.png",
     difficulty: "medium"
 },
 
 {
     answers: ["σρι τζαγιαγουαρντενεπούρα κότε", "sri jayawardenepura kotte"],
-    image: "images/country-flags/sri-lanka.jpg",
+    image: "images/capitals/sri-lanka.png",
     difficulty: "hard"
 },
 
 {
     answers: ["ουλάν μπατόρ", "ulaanbaatar", "ulan bator"],
-    image: "images/country-flags/mongolia.jpg",
+    image: "images/capitals/mongolia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ταϊπέι", "taipei"],
-    image: "images/country-flags/taiwan.jpg",
+    image: "images/capitals/taiwan.png",
     difficulty: "medium"
 },
 
 {
     answers: ["πνομ πενχ", "phnom penh"],
-    image: "images/country-flags/cambodia.jpg",
+    image: "images/capitals/cambodia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["βιεντιάν", "vientiane"],
-    image: "images/country-flags/laos.jpg",
+    image: "images/capitals/laos.png",
     difficulty: "hard"
 },
 
 {
     answers: ["νεπιντό", "naypyidaw"],
-    image: "images/country-flags/myanmar.jpg",
+    image: "images/capitals/myanmar.png",
     difficulty: "hard"
 },
 
 {
     answers: ["μπαντάρ σερί μπεγκαβάν", "bandar seri begawan"],
-    image: "images/country-flags/brunei.jpg",
+    image: "images/capitals/brunei.png",
     difficulty: "hard"
 },
 
 {
     answers: ["πορτ μόρεσμπι", "port moresby"],
-    image: "images/country-flags/papua-new-guinea.jpg",
+    image: "images/capitals/papua-new-guinea.png",
     difficulty: "hard"
 },
 
 
 {
     answers: ["ρέικιαβικ", "reykjavik"],
-    image: "images/country-flags/iceland.jpg",
+    image: "images/capitals/iceland.png",
     difficulty: "medium"
 },
 
 {
     answers: ["λουξεμβούργο", "luxembourg"],
-    image: "images/country-flags/luxembourg.jpg",
+    image: "images/capitals/luxembourg.png",
     difficulty: "medium"
 },
 
 {
     answers: ["βαντούζ", "vaduz"],
-    image: "images/country-flags/liechtenstein.jpg",
+    image: "images/capitals/liechtenstein.png",
     difficulty: "hard"
 },
 
 {
     answers: ["ανδόρα λα βέγια", "andorra la vella"],
-    image: "images/country-flags/andorra.jpg",
+    image: "images/capitals/andorra.png",
     difficulty: "hard"
 },
 
 {
     answers: ["μονακό", "monaco"],
-    image: "images/country-flags/monaco.jpg",
+    image: "images/capitals/monaco.png",
     difficulty: "medium"
 },
 
 {
     answers: ["άγιος μαρίνος", "san marino"],
-    image: "images/country-flags/san-marino.jpg",
+    image: "images/capitals/san-marino.png",
     difficulty: "hard"
 },
 
 {
     answers: ["πόλη του βατικανού", "vatican city"],
-    image: "images/country-flags/vatican-city.png",
+    image: "images/capitals/vatican-city.png",
     difficulty: "medium"
 },
 
 {
     answers: ["βαλέτα", "valletta"],
-    image: "images/country-flags/malta.jpg",
+    image: "images/capitals/malta.png",
     difficulty: "medium"
 },
 
 {
     answers: ["τυνήσια", "tunis"],
-    image: "images/country-flags/tunisia.jpg",
+    image: "images/capitals/tunisia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["αλγέρι", "algiers"],
-    image: "images/country-flags/algeria.jpg",
+    image: "images/capitals/algeria.png",
     difficulty: "medium"
 },
 
 {
     answers: ["τρίπολη", "tripoli"],
-    image: "images/country-flags/libya.jpg",
+    image: "images/capitals/libya.png",
     difficulty: "medium"
 },
 
 {
     answers: ["αμπούτζα", "abuja"],
-    image: "images/country-flags/nigeria.jpg",
+    image: "images/capitals/nigeria.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ναϊρόμπι", "nairobi"],
-    image: "images/country-flags/kenya.jpg",
+    image: "images/capitals/kenya.png",
     difficulty: "medium"
 },
 
 {
     answers: ["αντίς αμπέμπα", "addis ababa"],
-    image: "images/country-flags/ethiopia.png",
+    image: "images/capitals/ethiopia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ντοντόμα", "dodoma"],
-    image: "images/country-flags/tanzania.jpg",
+    image: "images/capitals/tanzania.png",
     difficulty: "hard"
 },
 
+{
+    answers: ["χαράρε", "harare"],
+    image: "images/capitals/zimbabwe.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["λουσάκα", "lusaka"],
+    image: "images/capitals/zambia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βίντχουκ", "windhoek"],
+    image: "images/capitals/namibia.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γκαμπορόνε", "gaborone"],
+    image: "images/capitals/botswana.png",
+    difficulty: "hard"
+},
 
 {
     answers: ["καράκας", "caracas"],
-    image: "images/country-flags/venezuela.jpg",
+    image: "images/capitals/venezuela.png",
     difficulty: "medium"
 },
 
 {
     answers: ["κίτο", "quito"],
-    image: "images/country-flags/ecuador.jpg",
+    image: "images/capitals/ecuador.png",
     difficulty: "medium"
 },
 
 {
     answers: ["μοντεβιδέο", "montevideo"],
-    image: "images/country-flags/uruguay.jpg",
+    image: "images/capitals/uruguay.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["ασουνσιόν", "asuncion", "asunción"],
+    image: "images/capitals/paraguay.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σούκρε", "sucre"],
+    image: "images/capitals/bolivia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["αβάνα", "havana"],
-    image: "images//cuba.png",
+    image: "images/capitals/cuba.png",
     difficulty: "medium"
 },
 
+{
+    answers: ["κίνγκστον", "kingston"],
+    image: "images/capitals/jamaica.png",
+    difficulty: "medium"
+},
 
+{
+    answers: ["σάντο ντομίνγκο", "santo domingo"],
+    image: "images/capitals/dominican-republic.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["σαν χοσέ", "san jose", "san josé"],
+    image: "images/capitals/costa-rica.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["πόλη του παναμά", "παναμά σίτι", "panama city"],
+    image: "images/capitals/panama.png",
+    difficulty: "medium"
+},
+
+{
+    answers: ["τίμφου", "thimphu"],
+    image: "images/capitals/bhutan.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ανταναναρίβο", "antananarivo"],
+    image: "images/capitals/madagascar.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πορτ λούις", "port louis"],
+    image: "images/capitals/mauritius.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["βικτώρια", "victoria"],
+    image: "images/capitals/seychelles.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["μαλέ", "male", "malé"],
+    image: "images/capitals/maldives.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ντίλι", "dili"],
+    image: "images/capitals/timor-leste.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νγκερουλμούντ", "ngerulmud"],
+    image: "images/capitals/palau.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["σούβα", "suva"],
+    image: "images/capitals/fiji.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["νουκουαλόφα", "nukuʻalofa", "nukualofa"],
+    image: "images/capitals/tonga.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["απία", "apia"],
+    image: "images/capitals/samoa.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["πορτ βίλα", "port vila"],
+    image: "images/capitals/vanuatu.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["γιάρεν", "yaren"],
+    image: "images/capitals/nauru.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["φουναφούτι", "funafuti"],
+    image: "images/capitals/tuvalu.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ταραουά", "tarawa"],
+    image: "images/capitals/kiribati.png",
+    difficulty: "hard"
+},
+
+{
+    answers: ["ματζούρο", "majuro"],
+    image: "images/capitals/marshall-islands.png",
+    difficulty: "hard"
+}
 
 ],
 "superheroes": [
@@ -4208,12 +4397,22 @@ mythology: [
         "image": "images/sea-animals/blacktip-shark.jpg",
         "difficulty": "medium"
     },
-        {
+    {
+        "answers": ["sea otter", "θαλάσσια ενυδρίδα"],
+        "image": "images/sea-animals/sea-otter.jpg",
+        "difficulty": "medium"
+    },
+    {
         "answers": ["penguin", "πιγκουίνος"],
         "image": "images/birds/penguin.jpg",
         "difficulty": "easy"
     },
-        {
+    {
+        "answers": ["puffin", "φράτερκουλα"],
+        "image": "images/sea-animals/puffin.jpg",
+        "difficulty": "hard"
+    },
+    {
         "answers": ["pelican", "πελεκάνος"],
         "image": "images/birds/pelican.jpg",
         "difficulty": "medium"
@@ -4653,7 +4852,12 @@ mythology: [
             difficulty: "easy"
         },
 
-        
+        {
+            answers: ["λαμίν γιαμάλ", "γιαμάλ"],
+            image: "images/football-players/lamine-yamal.jpg",
+            difficulty: "easy"
+        },
+
         {
             answers: ["τζουντ μπέλιγχαμ", "μπέλιγχαμ"],
             image: "images/football-players/jude-bellingham.jpg",
@@ -4756,7 +4960,12 @@ mythology: [
             difficulty: "medium"
         },
 
-        
+        {
+            answers: ["χβίτσα κβαρατσχέλια", "κβαρατσχέλια"],
+            image: "images/football-players/khvicha-kvaratskhelia.jpg",
+            difficulty: "hard"
+        },
+
         {
             answers: ["τζιανλουίτζι ντοναρούμα", "ντοναρούμα"],
             image: "images/football-players/gianluigi-donnarumma.jpg",
@@ -4799,7 +5008,12 @@ mythology: [
             difficulty: "medium"
         },
 
-        
+        {
+            answers: ["φεδερίκο βαλβέρδε", "βαλβέρδε"],
+            image: "images/football-players/federico-valverde.jpg",
+            difficulty: "medium"
+        },
+
         {
             answers: ["πεντρί"],
             image: "images/football-players/pedri.jpg",
@@ -4818,7 +5032,12 @@ mythology: [
             difficulty: "medium"
         },
 
-        
+        {
+            answers: ["μπερνάρντο σίλβα"],
+            image: "images/football-players/bernardo-silva.jpg",
+            difficulty: "medium"
+        },
+
         {
             answers: ["καζεμίρο"],
             image: "images/football-players/casemiro.jpg",
@@ -4837,7 +5056,12 @@ mythology: [
             difficulty: "easy"
         },
 
-        
+        {
+            answers: ["σέρχιο ράμος", "ράμος"],
+            image: "images/football-players/sergio-ramos.jpg",
+            difficulty: "easy"
+        },
+
         {
             answers: ["ζλάταν ιμπραΐμοβιτς", "ιμπραΐμοβιτς"],
             image: "images/football-players/zlatan-ibrahimovic.jpg",
@@ -4963,7 +5187,12 @@ mythology: [
             difficulty: "medium"
         },
 
-        
+        {
+            answers: ["ριγιάντ μαχρέζ", "μαχρέζ"],
+            image: "images/football-players/riyad-mahrez.jpg",
+            difficulty: "medium"
+        },
+
         {
             answers: ["σάντι καθόρλα"],
             image: "images/football-players/santi-cazorla.jpg",
@@ -5079,489 +5308,6 @@ mythology: [
         }
 
     ],
-    "football-clubs": [
-  {
-    "answers": ["αεκ", "aek", "aek athens", "αεκ αθηνων"],
-    "image": "images/football-clubs/aek.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["psv", "psv eindhoven", "αιντχοφεν", "αιτχοφεν"],
-    "image": "images/football-clubs/aitxofen.jpg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["ajax", "αγιαξ"],
-    "image": "images/football-clubs/ajax.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["al hilal", "αλ χιλαλ"],
-    "image": "images/football-clubs/al-hilal.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["al nassr", "αλ νασρ"],
-    "image": "images/football-clubs/al-nassr.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["almeria", "αλμερια"],
-    "image": "images/football-clubs/almeria.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["arsenal", "αρσεναλ"],
-    "image": "images/football-clubs/arsenal.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["aston villa", "αστον βιλα"],
-    "image": "images/football-clubs/aston-villa.jpeg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["athletic bilbao", "athletic", "αθλετικ μπιλμπαο", "αθλετικ"],
-    "image": "images/football-clubs/athletic.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["atletico madrid", "atletico", "ατλετικο μαδριτης", "ατλετικο"],
-    "image": "images/football-clubs/atletico-madrid.jpg",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["barcelona", "μπαρτσελονα", "μπαρτσα", "barca"],
-    "image": "images/football-clubs/barcelona.jpeg",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["bayern munich", "bayern", "μπαγερν μοναχου", "μπαγερν"],
-    "image": "images/football-clubs/bayern-munich.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["benfica", "μπενφικα"],
-    "image": "images/football-clubs/benfica-alt.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["bologna", "μπολονια"],
-    "image": "images/football-clubs/bologna.jpg",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["borussia dortmund", "dortmund", "ντορτμουντ", "μπορουσια ντορτμουντ"],
-    "image": "images/football-clubs/borussia-dortmund.webp",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["braga", "μπραγκα"],
-    "image": "images/football-clubs/braga.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["brighton", "μπραιτον"],
-    "image": "images/football-clubs/brighton.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["celta vigo", "celta", "θελτα", "θελτα βιγκο"],
-    "image": "images/football-clubs/celta-vigo.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["celtic", "σελτικ"],
-    "image": "images/football-clubs/celtic.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["chelsea", "τσελσι"],
-    "image": "images/football-clubs/chelsea.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["club brugge", "brugge", "κλαμπ μπριζ", "μπριζ"],
-    "image": "images/football-clubs/club-brugge.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["crystal palace", "κρισταλ παλας"],
-    "image": "images/football-clubs/crystal-palace.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["eintracht frankfurt", "frankfurt", "αιντραχτ φρανκφουρτης", "φρανκφουρτη"],
-    "image": "images/football-clubs/eintracht-frankfurt.webp",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["everton", "εβερτον"],
-    "image": "images/football-clubs/everton.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["fenerbahce", "fenerbace", "φενερμπαχτσε", "φενερ"],
-    "image": "images/football-clubs/fenerbace.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["feyenoord", "feyenord", "φεγενορντ"],
-    "image": "images/football-clubs/feyenord.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["fiorentina", "φιορεντινα"],
-    "image": "images/football-clubs/fiorentina.jpg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["dinamo kiev", "dynamo kyiv", "ντιναμο κιεβου"],
-    "image": "images/football-clubs/fk-dinamo-kijiv1.png_.jpg",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["flamengo", "φλαμενγκο"],
-    "image": "images/football-clubs/flamengo.jpg",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["fluminense", "φλουμινενσε"],
-    "image": "images/football-clubs/fluminense.jpeg",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["freiburg", "φραιμπουργκ"],
-    "image": "images/football-clubs/freiburg.webp",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["galatasaray", "γκαλατασαραι"],
-    "image": "images/football-clubs/galatasaray.jpg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["genoa", "τζενοα"],
-    "image": "images/football-clubs/genoa.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["getafe", "χεταφε"],
-    "image": "images/football-clubs/getafe.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["hoffenheim", "χοφενχαημ"],
-    "image": "images/football-clubs/hoffenheim.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["inter", "inter milan", "ιντερ"],
-    "image": "images/football-clubs/inter.jpg",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["juventus", "γιουβεντους"],
-    "image": "images/football-clubs/juventus.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["lazio", "λατσιο"],
-    "image": "images/football-clubs/lazio-alt.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["bayer leverkusen", "leverkusen", "leverkuzen", "λεβερκουζεν", "μπαγερ λεβερκουζεν"],
-    "image": "images/football-clubs/leverkuzen.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["lille", "λιλ"],
-    "image": "images/football-clubs/lille.webp",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["liverpool", "λιβερπουλ"],
-    "image": "images/football-clubs/liverpool.jpeg",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["mainz", "μαιντς"],
-    "image": "images/football-clubs/mainz.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["malmo", "μαλμε"],
-    "image": "images/football-clubs/malmo.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["manchester city", "man city", "μαντσεστερ σιτι", "σιτι"],
-    "image": "images/football-clubs/manchester-city.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["manchester united", "man united", "μαντσεστερ γιουναιτεντ", "γιουναιτεντ"],
-    "image": "images/football-clubs/manchester-united.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["marseille", "marseig", "μαρσειγ"],
-    "image": "images/football-clubs/marseig.jpg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["milan", "ac milan", "μιλαν"],
-    "image": "images/football-clubs/milan.jpg",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["monaco", "μονακο"],
-    "image": "images/football-clubs/monaco.jpeg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["borussia monchengladbach", "monchengladbach", "γκλαντμπαχ", "μπορουσια μενχενγκλαντμπαχ"],
-    "image": "images/football-clubs/monchengladbach.jpeg",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["napoli", "ναπολι"],
-    "image": "images/football-clubs/napoli.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["newcastle", "newcastle united", "νιουκαστλ"],
-    "image": "images/football-clubs/newcastle.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["nice", "νις"],
-    "image": "images/football-clubs/nice.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["nottingham forest", "nottingham", "νοτιγχαμ", "νοτιγχαμ φορεστ"],
-    "image": "images/football-clubs/nottingham-forest.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["olympiacos", "olympiakos", "ολυμπιακος"],
-    "image": "images/football-clubs/olympiacos.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["osasuna", "οσασουνα"],
-    "image": "images/football-clubs/osasuna.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["paok", "παοκ"],
-    "image": "images/football-clubs/paok.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["porto", "πορτο"],
-    "image": "images/football-clubs/porto.jpg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["psg", "paris saint germain", "παρι", "παρι σεν ζερμεν"],
-    "image": "images/football-clubs/psg.png",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["psv", "psv eindhoven", "αιντχοφεν"],
-    "image": "images/football-clubs/psv.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["rangers", "ρειντζερς"],
-    "image": "images/football-clubs/rangers.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["rb leipzig", "leipzig", "λειψια", "ρβ λειψια"],
-    "image": "images/football-clubs/rb-leipzi..png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["real betis", "betis", "ρεαλ μπετις", "μπετις"],
-    "image": "images/football-clubs/real-betis.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["real madrid", "ρεαλ μαδριτης", "ρεαλ"],
-    "image": "images/football-clubs/real-madrid.jpg",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["red star belgrade", "red star", "ερυθρος αστερας"],
-    "image": "images/football-clubs/red-star-belgrade.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["red star belgrade", "red star", "ερυθρος αστερας"],
-    "image": "images/football-clubs/red-star.jpg",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["roma", "ρωμη", "ρομα"],
-    "image": "images/football-clubs/roma.jpg",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["salzburg", "red bull salzburg", "σαλτσμπουργκ"],
-    "image": "images/football-clubs/saltsburg.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["sassuolo", "σασουολο"],
-    "image": "images/football-clubs/sassuolo.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["sevilla", "σεβιλλη", "σεβιγια"],
-    "image": "images/football-clubs/sevilla.jpg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["shakhtar donetsk", "shakhtar", "σαχταρ", "σαχταρ ντονετσκ"],
-    "image": "images/football-clubs/shakhtar-donetsk.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["sporting lisbon", "sporting", "σπορτινγκ", "σπορτινγκ λισαβονας"],
-    "image": "images/football-clubs/sporting.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["stuttgart", "stuttgard", "στουτγκαρδη"],
-    "image": "images/football-clubs/stuttgard.jpg",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["torino", "τορινο"],
-    "image": "images/football-clubs/torino.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["tottenham", "τοτεναμ"],
-    "image": "images/football-clubs/tottenham.jpeg",
-    "difficulty": "easy"
-  },
-  {
-    "answers": ["union berlin", "ουνιον βερολινου", "ουνιον"],
-    "image": "images/football-clubs/union-berlin.png",
-    "difficulty": "hard"
-  },
-  {
-    "answers": ["valencia", "βαλενθια"],
-    "image": "images/football-clubs/valencia.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["villarreal", "βιγιαρεαλ"],
-    "image": "images/football-clubs/villarreal.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["west ham", "γουεστ χαμ"],
-    "image": "images/football-clubs/west-ham.png",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["wolfsburg", "βολφσμπουργκ"],
-    "image": "images/football-clubs/wolfsburg.webp",
-    "difficulty": "medium"
-  },
-  {
-    "answers": ["young boys", "γιανγκ μποις"],
-    "image": "images/football-clubs/young-boys.png",
-    "difficulty": "hard"
-  }
-],
-
-"maps": [
-  { "answers": ["αλγερία"], "image": "images/maps/algeria.png", "difficulty": "medium" },
-  { "answers": ["αργεντινή"], "image": "images/maps/argentina.png", "difficulty": "easy" },
-  { "answers": ["αρμενία"], "image": "images/maps/armenia.png", "difficulty": "hard" },
-  { "answers": ["αυστραλία"], "image": "images/maps/australia.jpg", "difficulty": "easy" },
-  { "answers": ["αυστρία"], "image": "images/maps/austria.png", "difficulty": "medium" },
-  { "answers": ["αζερμπαϊτζάν"], "image": "images/maps/azerbaijan.png", "difficulty": "hard" },
-  { "answers": ["βέλγιο"], "image": "images/maps/belgium.png", "difficulty": "medium" },
-  { "answers": ["βραζιλία"], "image": "images/maps/brazil.png", "difficulty": "easy" },
-  { "answers": ["βουλγαρία"], "image": "images/maps/bulgaria.png", "difficulty": "medium" },
-  { "answers": ["καμερούν"], "image": "images/maps/cameroon.png", "difficulty": "hard" },
-  { "answers": ["καναδάς"], "image": "images/maps/canada.png", "difficulty": "easy" },
-  { "answers": ["χιλή"], "image": "images/maps/chile.jpg", "difficulty": "easy" },
-  { "answers": ["κίνα"], "image": "images/maps/china.png", "difficulty": "easy" },
-  { "answers": ["κολομβία"], "image": "images/maps/colombia.jpg", "difficulty": "medium" },
-  { "answers": ["κροατία"], "image": "images/maps/croatia.png", "difficulty": "medium" },
-  { "answers": ["κύπρος"], "image": "images/maps/cyprus.png", "difficulty": "easy" },
-  { "answers": ["τσεχία"], "image": "images/maps/czechia.png", "difficulty": "medium" },
-  { "answers": ["δανία"], "image": "images/maps/denmark.png", "difficulty": "medium" },
-  { "answers": ["εκουαδόρ", "ισημερινός"], "image": "images/maps/ecuador.jpg", "difficulty": "hard" },
-  { "answers": ["αίγυπτος"], "image": "images/maps/egypt.png", "difficulty": "easy" },
-  { "answers": ["αιθιοπία"], "image": "images/maps/ethiopia.png", "difficulty": "medium" },
-  { "answers": ["φινλανδία"], "image": "images/maps/finland.png", "difficulty": "easy" },
-  { "answers": ["γαλλία"], "image": "images/maps/france.png", "difficulty": "easy" },
-  { "answers": ["γεωργία"], "image": "images/maps/georgia.png", "difficulty": "hard" },
-  { "answers": ["γερμανία"], "image": "images/maps/germany.png", "difficulty": "easy" },
-  { "answers": ["γκάνα"], "image": "images/maps/ghana.png", "difficulty": "hard" },
-  { "answers": ["ελλάδα"], "image": "images/maps/greece.png", "difficulty": "easy" },
-  { "answers": ["ουγγαρία"], "image": "images/maps/hungary.png", "difficulty": "medium" },
-  { "answers": ["ισλανδία"], "image": "images/maps/iceland.png", "difficulty": "easy" },
-  { "answers": ["ινδία"], "image": "images/maps/india.png", "difficulty": "easy" },
-  { "answers": ["ινδονησία"], "image": "images/maps/indonesia.png", "difficulty": "medium" },
-  { "answers": ["ιράν"], "image": "images/maps/iran.png", "difficulty": "medium" },
-  { "answers": ["ιράκ"], "image": "images/maps/iraq.png", "difficulty": "medium" },
-  { "answers": ["ιρλανδία"], "image": "images/maps/ireland.png", "difficulty": "easy" },
-  { "answers": ["ισραήλ"], "image": "images/maps/israel.png", "difficulty": "medium" },
-  { "answers": ["ιταλία"], "image": "images/maps/italy.png", "difficulty": "easy" },
-  { "answers": ["ιαπωνία"], "image": "images/maps/japan.png", "difficulty": "easy" },
-  { "answers": ["ιορδανία"], "image": "images/maps/jordan.png", "difficulty": "hard" },
-  { "answers": ["καζακστάν"], "image": "images/maps/kazakhstan.png", "difficulty": "medium" },
-  { "answers": ["κένυα"], "image": "images/maps/kenya.png", "difficulty": "medium" },
-  { "answers": ["λίβανος"], "image": "images/maps/lebanon.png", "difficulty": "hard" },
-  { "answers": ["λίχτενσταϊν"], "image": "images/maps/liechtenstein.png", "difficulty": "hard" },
-  { "answers": ["μαλαισία"], "image": "images/maps/malaysia.jpg", "difficulty": "medium" },
-  { "answers": ["μάλτα"], "image": "images/maps/malta.png", "difficulty": "hard" },
-  { "answers": ["μεξικό"], "image": "images/maps/mexico.png", "difficulty": "easy" },
-  { "answers": ["μογγολία"], "image": "images/maps/mongolia.png", "difficulty": "medium" },
-  { "answers": ["μαρόκο"], "image": "images/maps/morocco.jpg", "difficulty": "medium" },
-  { "answers": ["νεπάλ"], "image": "images/maps/nepal.png", "difficulty": "hard" },
-  { "answers": ["ολλανδία"], "image": "images/maps/netherlands.png", "difficulty": "easy" },
-  { "answers": ["νέα ζηλανδία"], "image": "images/maps/new-zealand.jpg", "difficulty": "easy" },
-  { "answers": ["νιγηρία"], "image": "images/maps/nigeria.png", "difficulty": "medium" },
-  { "answers": ["βόρεια κορέα"], "image": "images/maps/north-korea.png", "difficulty": "medium" },
-  { "answers": ["νορβηγία"], "image": "images/maps/norway.png", "difficulty": "easy" },
-  { "answers": ["πακιστάν"], "image": "images/maps/pakistan.png", "difficulty": "medium" },
-  { "answers": ["περού"], "image": "images/maps/peru.png", "difficulty": "medium" },
-  { "answers": ["φιλιππίνες"], "image": "images/maps/philippines.png", "difficulty": "medium" },
-  { "answers": ["πολωνία"], "image": "images/maps/poland.png", "difficulty": "easy" },
-  { "answers": ["πορτογαλία"], "image": "images/maps/portugal.png", "difficulty": "easy" },
-  { "answers": ["κατάρ"], "image": "images/maps/qatar.png", "difficulty": "hard" },
-  { "answers": ["σαουδική αραβία"], "image": "images/maps/saudi-arabia.png", "difficulty": "easy" },
-  { "answers": ["σενεγάλη"], "image": "images/maps/senegal.png", "difficulty": "hard" },
-  { "answers": ["σερβία"], "image": "images/maps/serbia.png", "difficulty": "medium" },
-  { "answers": ["σιγκαπούρη"], "image": "images/maps/singapore.jpg", "difficulty": "hard" },
-  { "answers": ["σλοβακία"], "image": "images/maps/slovakia.png", "difficulty": "medium" },
-  { "answers": ["σλοβενία"], "image": "images/maps/slovenia.png", "difficulty": "hard" },
-  { "answers": ["νότια αφρική"], "image": "images/maps/south-africa.jpg", "difficulty": "easy" },
-  { "answers": ["ισπανία"], "image": "images/maps/spain.png", "difficulty": "easy" },
-  { "answers": ["σουηδία"], "image": "images/maps/sweden.png", "difficulty": "easy" },
-  { "answers": ["τατζικιστάν"], "image": "images/maps/tajikistan.png", "difficulty": "hard" },
-  { "answers": ["τανζανία"], "image": "images/maps/tanzania.png", "difficulty": "hard" },
-  { "answers": ["ταϊλάνδη"], "image": "images/maps/thailand.png", "difficulty": "medium" },
-  { "answers": ["τυνησία"], "image": "images/maps/tunisia.png", "difficulty": "hard" },
-  { "answers": ["τουρκία"], "image": "images/maps/turkey.png", "difficulty": "easy" },
-  { "answers": ["ουκρανία"], "image": "images/maps/ukraine.png", "difficulty": "easy" },
-  { "answers": ["ηνωμένο βασίλειο", "αγγλία", "μεγάλη βρετανία"], "image": "images/maps/united-kingdom.jpg", "difficulty": "easy" },
-  { "answers": ["ηνωμένες πολιτείες", "ηπα", "αμερική"], "image": "images/maps/united-states.png", "difficulty": "easy" },
-  { "answers": ["ουρουγουάη"], "image": "images/maps/uruguay.png", "difficulty": "hard" },
-  { "answers": ["βιετνάμ"], "image": "images/maps/vietnam.jpg", "difficulty": "medium" }
-],
 
  "basketball-clubs": [
         // --- NBA (30 Ομάδες) ---
@@ -5585,6 +5331,18 @@ mythology: [
         { "answers": ["ιντιάνα πέισερς", "πέισερς"], "image": "images/basketball-clubs/indiana-pacers.png", "difficulty": "medium" },
         { "answers": ["ορλάντο μάτζικ", "μάτζικ"], "image": "images/basketball-clubs/orlando-magic.png", "difficulty": "medium" },
         { "answers": ["τορόντο ράπτορς", "ράπτορς"], "image": "images/basketball-clubs/toronto-raptors.png", "difficulty": "medium" },
+        { "answers": ["λόσ άντζελες κλίπερς", "κλίπερς"], "image": "images/basketball-clubs/los-angeles-clippers.png", "difficulty": "medium" },
+        { "answers": ["μινεσότα τίμπεργουλβς", "τίμπεργουλβς", "γουλβς"], "image": "images/basketball-clubs/minnesota-timberwolves.png", "difficulty": "medium" },
+        { "answers": ["χιούστον ρόκετς", "ρόκετς"], "image": "images/basketball-clubs/houston-rockets.png", "difficulty": "medium" },
+        { "answers": ["ατλάντα χαουκς", "χόουκς"], "image": "images/basketball-clubs/atlanta-hawks.png", "difficulty": "medium" },
+        { "answers": ["μπρούκλιν νετς", "νετς"], "image": "images/basketball-clubs/brooklyn-nets.png", "difficulty": "medium" },
+        { "answers": ["ιουτά τζαζ", "τζαζ"], "image": "images/basketball-clubs/utah-jazz.png", "difficulty": "medium" },
+        { "answers": ["νου όρλεανς πέλικανς", "πέλικανς"], "image": "images/basketball-clubs/new-orleans-pelicans.png", "difficulty": "medium" },
+        { "answers": ["σάρλοτ χόρνετς", "χόρνετς"], "image": "images/basketball-clubs/charlotte-hornets.png", "difficulty": "hard" },
+        { "answers": ["ουάσινγκτον γουίζαρντς", "γουίζαρντς"], "image": "images/basketball-clubs/washington-wizards.png", "difficulty": "hard" },
+        { "answers": ["ντιτρόιτ πίστονς", "πίστονς"], "image": "images/basketball-clubs/detroit-pistons.png", "difficulty": "hard" },
+
+        // --- Ευρώπη & Λοιπές (50 Ομάδες) ---
         { "answers": ["ολυμπιακός"], "image": "images/basketball-clubs/olympiacos.png", "difficulty": "easy" },
         { "answers": ["παναθηναϊκός"], "image": "images/basketball-clubs/panathinaikos.png", "difficulty": "easy" },
         { "answers": ["ρεάλ μαδρίτης"], "image": "images/basketball-clubs/real-madrid.png", "difficulty": "easy" },
@@ -5604,7 +5362,37 @@ mythology: [
         { "answers": ["βαλένθια"], "image": "images/basketball-clubs/valencia-basket.png", "difficulty": "medium" },
         { "answers": ["μπάγερν μονάχου"], "image": "images/basketball-clubs/bayern-munich.png", "difficulty": "medium" },
         { "answers": ["αρμάνι μιλάνο"], "image": "images/basketball-clubs/olimpia-milano.png", "difficulty": "medium" },
-        { "answers": ["τσσκα μόσχας", "τσσκα"], "image": "images/basketball-clubs/cska-moscow.png", "difficulty": "hard" }
+        { "answers": ["ντουμπάι μπάσκετ"], "image": "images/basketball-clubs/dubai-basketball.png", "difficulty": "hard" },
+        { "answers": ["τσσκα μόσχας", "τσσκα"], "image": "images/basketball-clubs/cska-moscow.png", "difficulty": "hard" },
+        { "answers": ["χιμκί"], "image": "images/basketball-clubs/khimki.png", "difficulty": "hard" },
+        { "answers": ["ούνικς καζάν", "ούνικς"], "image": "images/basketball-clubs/unics-kazan.png", "difficulty": "hard" },
+        { "answers": ["ζενίτ αγίας πετρούπολης", "ζενίτ"], "image": "images/basketball-clubs/zenit-st-petersburg.png", "difficulty": "hard" },
+        { "answers": ["λοκομοτίβ κουμπάν"], "image": "images/basketball-clubs/lokomotiv-kuban.png", "difficulty": "hard" },
+        { "answers": ["μοντεπάσκι σιένα", "σιένα"], "image": "images/basketball-clubs/montepaschi-siena.png", "difficulty": "hard" },
+        { "answers": ["μπενετόν τρεβίζο", "μπενετόν"], "image": "images/basketball-clubs/benetton-treviso.png", "difficulty": "hard" },
+        { "answers": ["φορτιτούντο μπολόνια"], "image": "images/basketball-clubs/fortitudo-bologna.png", "difficulty": "hard" },
+        { "answers": ["τσιμπόνα ζάγκρεμπ", "τσιμπόνα"], "image": "images/basketball-clubs/cibona-zagreb.png", "difficulty": "hard" },
+        { "answers": ["ρίτας βίλνιους", "ρίτας"], "image": "images/basketball-clubs/rytas-vilnius.png", "difficulty": "hard" },
+        { "answers": ["ντιναμό σάσαρι"], "image": "images/basketball-clubs/dinamo-sassari.png", "difficulty": "hard" },
+        { "answers": ["μπουντούτσνοστ"], "image": "images/basketball-clubs/buducnost.png", "difficulty": "hard" },
+        { "answers": ["γαλατασαράι"], "image": "images/basketball-clubs/galatasaray.png", "difficulty": "hard" },
+        { "answers": ["νταρουσάφακα"], "image": "images/basketball-clubs/darussafaka.png", "difficulty": "hard" },
+        { "answers": ["ουνικάχα μαλάγα", "ουνικάχα"], "image": "images/basketball-clubs/unicaja-malaga.png", "difficulty": "hard" },
+        { "answers": ["χοβεντούτ μπανταλόνα", "χοβεντούτ"], "image": "images/basketball-clubs/joventut-badalona.png", "difficulty": "hard" },
+        { "answers": ["μπρόουζ μπάμπεργκ", "μπάμπεργκ"], "image": "images/basketball-clubs/brose-bamberg.png", "difficulty": "hard" },
+        { "answers": ["λιμόζ"], "image": "images/basketball-clubs/limoges-csp.png", "difficulty": "hard" },
+        { "answers": ["κκ σπλιτ", "σπλιτ"], "image": "images/basketball-clubs/kk-split.png", "difficulty": "hard" },
+        { "answers": ["ντιναμό τιφλίδας"], "image": "images/basketball-clubs/dinamo-tbilisi.png", "difficulty": "hard" },
+        { "answers": ["αεκ", "αεκ αθηνών"], "image": "images/basketball-clubs/aek.png", "difficulty": "medium" },
+        { "answers": ["άρης"], "image": "images/basketball-clubs/aris.png", "difficulty": "medium" },
+        { "answers": ["πάοκ"], "image": "images/basketball-clubs/paok.png", "difficulty": "medium" },
+        { "answers": ["περιστέρι"], "image": "images/basketball-clubs/peristeri.png", "difficulty": "hard" },
+        { "answers": ["προμηθέας πάτρας", "προμηθέας"], "image": "images/basketball-clubs/promitheas.png", "difficulty": "hard" },
+        { "answers": ["μπεσίκτας"], "image": "images/basketball-clubs/besiktas.png", "difficulty": "hard" },
+        { "answers": ["τουρκ τέλεκομ"], "image": "images/basketball-clubs/turk-telekom.png", "difficulty": "hard" },
+        { "answers": ["γκραν κανάρια"], "image": "images/basketball-clubs/gran-canaria.png", "difficulty": "hard" },
+        { "answers": ["τενερίφη"], "image": "images/basketball-clubs/tenerife.png", "difficulty": "hard" },
+        { "answers": ["χαπόελ τελ αβίβ"], "image": "images/basketball-clubs/hapoel-tel-aviv.png", "difficulty": "hard" }
     ],
 
     actors: [
@@ -6401,7 +6189,12 @@ mythology: [
         "image": "images/famous-cars/jaguar-xj220.jpg",
         "difficulty": "hard"
     },
-        {
+    {
+        "answers": ["bugatti-turbillon", "μπουγκάτι τουρμπιόν"],
+        "image": "images/famous-cars/bugatti-turbillon.jpg",
+        "difficulty": "hard"
+    },
+    {
         "answers": ["ssc tuatara", "εσ ες σι τουατάρα"],
         "image": "images/famous-cars/ssc-tuatara.jpg",
         "difficulty": "hard"
@@ -7033,7 +6826,7 @@ mythology: [
         "difficulty": "medium"
     },
     {
-        "answers": ["jeep", "τζιπ", "tzip", "tzip", "τζιπι"],
+        "answers": ["jeep", "τζιπ"],
         "image": "images/car-logos/jeep.png",
         "difficulty": "easy"
     },
@@ -7775,7 +7568,12 @@ mythology: [
         "image": "images/country-flags/croatia.jpg",
         "difficulty": "easy"
     },
-        {
+    {
+        "answers": ["κύπρος", "cyprus"],
+        "image": "images/country-flags/cyprus.jpg",
+        "difficulty": "easy"
+    },
+    {
         "answers": ["τσεχία", "czech republic", "czechia"],
         "image": "images/country-flags/czech-republic.jpg",
         "difficulty": "easy"
@@ -9300,15 +9098,35 @@ movies: [
         }
     ],
 
-   brands: [
+    brands: [
     {
-        "answers": ["amazon", "αμαζον"],
-        "image": "images/brands/amazon.jpg",
+        "answers": ["nike", "ναικ", "νικε"],
+        "image": "images/brands/nike.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["amd", "εϊ εμ ντι", "αμντ"],
-        "image": "images/brands/amd.jpg",
+        "answers": ["adidas", "αντιντας"],
+        "image": "images/brands/adidas.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["puma", "πουμα"],
+        "image": "images/brands/puma.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["under armour", "αντερ αρμουρ"],
+        "image": "images/brands/under-armour.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["new balance", "νιου μπαλανς"],
+        "image": "images/brands/new-balance.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["asics", "ασικς"],
+        "image": "images/brands/asics.jpg",
         "difficulty": "medium"
     },
     {
@@ -9317,63 +9135,38 @@ movies: [
         "difficulty": "medium"
     },
     {
-        "answers": ["apple", "απλ", "μπαπλ", "απλαι"],
-        "image": "images/brands/apple.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["armani", "αρμανι", "αρμάνι"],
-        "image": "images/brands/armani.jpg",
+        "answers": ["reebok", "ριμποκ"],
+        "image": "images/brands/reebok.jpg",
         "difficulty": "medium"
-    },
-    {
-        "answers": ["asics", "ασικς"],
-        "image": "images/brands/asics.jpg",
-        "difficulty": "medium"
-    },
-    {
-        "answers": ["balenciaga", "μπαλενσιαγκα", "μπαλεντσιαγκα"],
-        "image": "images/brands/balenciaga.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["blizzard", "μπλιζαρντ"],
-        "image": "images/brands/blizzard.jpg",
-        "difficulty": "medium"
-    },
-    {
-        "answers": ["burberry", "μπερμπερι"],
-        "image": "images/brands/burberry.jpg",
-        "difficulty": "medium"
-    },
-    {
-        "answers": ["burger king", "μπεργκερ κινγκ"],
-        "image": "images/brands/burger-king.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["calvin klein", "καλβιν κλαιν", "ck"],
-        "image": "images/brands/calvin-klein.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["cartier", "καρτιε"],
-        "image": "images/brands/cartier.jpg",
-        "difficulty": "medium"
-    },
-    {
-        "answers": ["chanel", "σανελ"],
-        "image": "images/brands/chanel.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["coca cola", "coca-cola", "κοκα κολα", "κοκακολα", "κοκα"],
-        "image": "images/brands/coca-cola.jpg",
-        "difficulty": "easy"
     },
     {
         "answers": ["converse", "κονβερς", "σταρακια"],
         "image": "images/brands/converse.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["vans", "βανς"],
+        "image": "images/brands/vans.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["gucci", "γκουτσι"],
+        "image": "images/brands/gucci.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["louis vuitton", "λουι βιτον", "lv"],
+        "image": "images/brands/louis-vuitton.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["prada", "πραντα"],
+        "image": "images/brands/prada.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["chanel", "σανελ"],
+        "image": "images/brands/chanel.jpg",
         "difficulty": "easy"
     },
     {
@@ -9382,14 +9175,29 @@ movies: [
         "difficulty": "easy"
     },
     {
-        "answers": ["dolce and gabbana", "dolce & gabbana", "d&g", "ντολτσε και γκαμπανα", "ντολτσε γκαμπάνα", "ντολτσε"],
+        "answers": ["versace", "βερσατσε"],
+        "image": "images/brands/versace.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["armani", "αρμανι"],
+        "image": "images/brands/armani.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["dolce and gabbana", "dolce & gabbana", "d&g", "ντολτσε και γκαμπανα"],
         "image": "images/brands/dolce-gabbana.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["dominos", "domino's", "ντομινος", "ντομινο"],
-        "image": "images/brands/dominos.jpg",
+        "answers": ["balenciaga", "μπαλενσιαγκα"],
+        "image": "images/brands/balenciaga.jpg",
         "difficulty": "easy"
+    },
+    {
+        "answers": ["burberry", "μπερμπερι"],
+        "image": "images/brands/burberry.jpg",
+        "difficulty": "medium"
     },
     {
         "answers": ["fendi", "φεντι"],
@@ -9402,44 +9210,9 @@ movies: [
         "difficulty": "medium"
     },
     {
-        "answers": ["google", "γκουγκλ"],
-        "image": "images/brands/google.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["gucci", "γκουτσι", "γκούτσι", "γουτσι"],
-        "image": "images/brands/gucci.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["huawei", "χουαγουει"],
-        "image": "images/brands/huawei.jpg",
+        "answers": ["valentino", "βαλεντινο"],
+        "image": "images/brands/valentino.jpg",
         "difficulty": "medium"
-    },
-    {
-        "answers": ["instagram", "ινσταγκραμ", "ινστα"],
-        "image": "images/brands/instagram.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["lacoste", "λακοστ"],
-        "image": "images/brands/lacoste.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["louis vuitton", "louis-vuitton", "λουι βιτον", "λουί βιτον", "lv"],
-        "image": "images/brands/louis-vuitton.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["mcdonalds", "mcdonald's", "μακντοναλντς", "μακ"],
-        "image": "images/brands/mcdonalds.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["microsoft", "μαικροσοφτ"],
-        "image": "images/brands/microsoft.jpg",
-        "difficulty": "easy"
     },
     {
         "answers": ["moncler", "μονκλερ"],
@@ -9447,63 +9220,43 @@ movies: [
         "difficulty": "medium"
     },
     {
-        "answers": ["monster energy", "monster", "μονστερ"],
-        "image": "images/brands/monster.jpg",
+        "answers": ["stone island", "στοουν αιλαντ"],
+        "image": "images/brands/stone-island.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["mastercard", "master card", "μαστερκαρντ", "μάστερκαρντ", "μαστερ καρντ"],
-        "image": "images/brands/mastercard.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["netflix", "νετφλιξ"],
-        "image": "images/brands/netflix.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["new balance", "νιου μπαλανς"],
-        "image": "images/brands/new-balance.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["nike", "ναικ", "νικε", "νικι"],
-        "image": "images/brands/nike.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["nvidia", "ενβιντια"],
-        "image": "images/brands/nvidia.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["off white", "off-white", "οφ γουαιτ", "οφγουαιτ", "οφ γουάιτ"],
+        "answers": ["off white", "οφ γουαιτ"],
         "image": "images/brands/off-white.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["oneplus", "ουανπλας"],
-        "image": "images/brands/oneplus.jpg",
+        "answers": ["supreme", "σουπριμ"],
+        "image": "images/brands/supreme.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["palm angels", "παλμ ειντζελς"],
+        "image": "images/brands/palm-angels.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["pepsi", "πεπσι", "πεψι"],
-        "image": "images/brands/pepsi.jpg",
+        "answers": ["fear of god", "φιρ οφ γκοντ"],
+        "image": "images/brands/fear-of-god.jpg",
+        "difficulty": "hard"
+    },
+    {
+        "answers": ["tommy hilfiger", "τομι χιλφιγκερ"],
+        "image": "images/brands/tommy-hilfiger.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["pizza hut", "πιτσα χατ"],
-        "image": "images/brands/pizza-hut.jpg",
+        "answers": ["calvin klein", "καλβιν κλαιν", "ck"],
+        "image": "images/brands/calvin-klein.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["playstation", "πλειστεισον", "πλέισσον", "ps"],
-        "image": "images/brands/playstation.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["puma", "πουμα"],
-        "image": "images/brands/puma.jpg",
+        "answers": ["hugo boss", "boss", "χουγκο μπος", "μπος"],
+        "image": "images/brands/hugo-boss.jpg",
         "difficulty": "easy"
     },
     {
@@ -9512,19 +9265,14 @@ movies: [
         "difficulty": "easy"
     },
     {
-        "answers": ["red bull", "red-bull", "ρεντ μπουλ"],
-        "image": "images/brands/red-bull.jpg",
+        "answers": ["lacoste", "λακοστ"],
+        "image": "images/brands/lacoste.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["reebok", "ριμποκ"],
-        "image": "images/brands/reebok.jpg",
+        "answers": ["cartier", "καρτιε"],
+        "image": "images/brands/cartier.jpg",
         "difficulty": "medium"
-    },
-    {
-        "answers": ["rockstar games", "rockstar", "ροκσταρ"],
-        "image": "images/brands/rockstar-games.jpg",
-        "difficulty": "easy"
     },
     {
         "answers": ["rolex", "ρολεξ"],
@@ -9532,53 +9280,78 @@ movies: [
         "difficulty": "easy"
     },
     {
-        "answers": ["spotify", "σποτιφαι", "σποτιφάι", "σποτίφαι"],
-        "image": "images/brands/spotify.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["starbucks", "σταρμπακς", "σκαρμπακς"],
-        "image": "images/brands/starbucks.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["steam", "στιμ"],
-        "image": "images/brands/steam.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["tiktok", "τικτοκ", "τικ τοκ"],
-        "image": "images/brands/tiktok.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["tommy hilfiger", "tommy-hilfiger", "τομι χιλφιγκερ", "χιλφιγκερ"],
-        "image": "images/brands/tommy-hilfiger.jpg",
-        "difficulty": "easy"
-    },
-    {
-        "answers": ["twitch", "τουιτς"],
-        "image": "images/brands/twitch.jpg",
+        "answers": ["tiffany and co", "tiffany & co", "τιφανι"],
+        "image": "images/brands/tiffany-co.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["ubisoft", "γιουμπισοφτ"],
-        "image": "images/brands/ubisoft.jpg",
+        "answers": ["hermes", "ερμες"],
+        "image": "images/brands/hermes.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["under armour", "αντερ αρμουρ"],
-        "image": "images/brands/under-armour.jpg",
+        "answers": ["omega", "ωμεγα"],
+        "image": "images/brands/omega.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["valentino", "βαλεντινο"],
-        "image": "images/brands/valentino.jpg",
+        "answers": ["tag heuer", "ταγκ χογιερ"],
+        "image": "images/brands/tag-heuer.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["vans", "βανς"],
-        "image": "images/brands/vans.jpg",
+        "answers": ["apple", "απλ"],
+        "image": "images/brands/apple.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["samsung", "σαμσουνγκ"],
+        "image": "images/brands/samsung.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["google", "γκουγκλ"],
+        "image": "images/brands/google.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["microsoft", "μαικροσοφτ"],
+        "image": "images/brands/microsoft.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["intel", "ιντελ"],
+        "image": "images/brands/intel.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["amd", "εϊ εμ ντι", "αμντ"],
+        "image": "images/brands/amd.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["nvidia", "ενβιντια"],
+        "image": "images/brands/nvidia.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["huawei", "χουαγουει"],
+        "image": "images/brands/huawei.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["xiaomi", "σιαομι", "ξιαομι"],
+        "image": "images/brands/xiaomi.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["oneplus", "ουανπλας"],
+        "image": "images/brands/oneplus.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["playstation", "πλειστεισον", "ps"],
+        "image": "images/brands/playstation.jpg",
         "difficulty": "easy"
     },
     {
@@ -9587,13 +9360,143 @@ movies: [
         "difficulty": "easy"
     },
     {
-        "answers": ["xiaomi", "σιαομι", "ξιαομι"],
-        "image": "images/brands/xiaomi.jpg",
+        "answers": ["nintendo", "νιντεντο"],
+        "image": "images/brands/nintendo.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["youtube", "γιουτιουμπ", "γιουτιούμπ"],
+        "answers": ["steam", "στιμ"],
+        "image": "images/brands/steam.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["epic games", "επικ γκειμς", "epic"],
+        "image": "images/brands/epic-games.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["rockstar games", "rockstar", "ροκσταρ"],
+        "image": "images/brands/rockstar-games.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ubisoft", "γιουμπισοφτ"],
+        "image": "images/brands/ubisoft.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["ea sports", "ea", "η ει σπορτς", "η ει"],
+        "image": "images/brands/ea-sports.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["riot games", "riot", "ραιοτ γκειμς", "ραιοτ"],
+        "image": "images/brands/riot-games.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["blizzard", "μπλιζαρντ"],
+        "image": "images/brands/blizzard.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["netflix", "νετφλιξ"],
+        "image": "images/brands/netflix.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["disney plus", "disney+", "ντισνει πλας", "ντισνει"],
+        "image": "images/brands/disney-plus.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["youtube", "γιουτιουμπ"],
         "image": "images/brands/youtube.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["instagram", "ινσταγκραμ", "ινστα"],
+        "image": "images/brands/instagram.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["tiktok", "τικτοκ"],
+        "image": "images/brands/tiktok.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["spotify", "σποτιφαι"],
+        "image": "images/brands/spotify.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["twitch", "τουιτς"],
+        "image": "images/brands/twitch.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["amazon", "αμαζον"],
+        "image": "images/brands/amazon.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["ikea", "ικεα"],
+        "image": "images/brands/ikea.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["lego", "λεγκο"],
+        "image": "images/brands/lego.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["coca cola", "κοκα κολα", "κοκα"],
+        "image": "images/brands/coca-cola.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pepsi", "πεπσι"],
+        "image": "images/brands/pepsi.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["red bull", "ρεντ μπουλ"],
+        "image": "images/brands/red-bull.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["monster energy", "monster", "μονστερ"],
+        "image": "images/brands/monster-energy.jpg",
+        "difficulty": "medium"
+    },
+    {
+        "answers": ["starbucks", "σταρμπακς"],
+        "image": "images/brands/starbucks.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["mcdonalds", "mcdonald's", "μακντοναλντς", "μακ"],
+        "image": "images/brands/mcdonalds.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["kfc", "κεϊ εφ σι"],
+        "image": "images/brands/kfc.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["burger king", "μπεργκερ κινγκ"],
+        "image": "images/brands/burger-king.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["dominos", "domino's", "ντομινος", "ντομινο"],
+        "image": "images/brands/dominos.jpg",
+        "difficulty": "easy"
+    },
+    {
+        "answers": ["pizza hut", "πιτσα χατ"],
+        "image": "images/brands/pizza-hut.jpg",
         "difficulty": "easy"
     }
 ],
@@ -12285,5 +12188,239 @@ monuments: [
         "difficulty": "medium"
     }
 ],
+
+
+countries: [
+  {
+    "answers": ["αφγανιστάν", "afghanistan"],
+    "image": "images/countries/afghanistan.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ανγκόλα", "angola"],
+    "image": "images/countries/angola.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["αντίγκουα και μπαρμπούντα", "antigua and barbuda"],
+    "image": "images/countries/antigua-and-barbuda.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["μπαχάμες", "bahamas"],
+    "image": "images/countries/bahamas.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["μπαχρέιν", "bahrain"],
+    "image": "images/countries/bahrain.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["μπαρμπάντος", "barbados"],
+    "image": "images/countries/barbados.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["μπελίζ", "belize"],
+    "image": "images/countries/belize.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["μπενίν", "benin"],
+    "image": "images/countries/benin.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["κάμπο βέρντε", "πράσινο ακρωτήριο", "cape verde", "cabo verde"],
+    "image": "images/countries/cape-verde.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["κονγκό", "δημοκρατία του κονγκό", "congo", "republic of the congo"],
+    "image": "images/countries/congo.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["δημοκρατία του κονγκό", "λαϊκή δημοκρατία του κονγκό", "drc", "democratic republic of the congo"],
+    "image": "images/countries/democratic-republic-of-the-congo.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["ντομίνικα", "dominica"],
+    "image": "images/countries/dominica.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["ελ σαλβαδόρ", "el salvador"],
+    "image": "images/countries/el-salvador.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["γκαμπόν", "gabon"],
+    "image": "images/countries/gabon.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["γκάνα", "ghana"],
+    "image": "images/countries/ghana.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["γρανάδα", "grenada"],
+    "image": "images/countries/grenada.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["γουατεμάλα", "guatemala"],
+    "image": "images/countries/guatemala.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["γουιάνα", "guyana"],
+    "image": "images/countries/guyana.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["αϊτή", "haiti"],
+    "image": "images/countries/haiti.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ονδούρα", "honduras"],
+    "image": "images/countries/honduras.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ιράν", "iran"],
+    "image": "images/countries/iran.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ιράκ", "iraq"],
+    "image": "images/countries/iraq.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ακτή ελεφαντοστού", "ivory coast", "côte d'ivoire"],
+    "image": "images/countries/ivory-coast.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ιορδανία", "jordan"],
+    "image": "images/countries/jordan.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["κουβέιτ", "kuwait"],
+    "image": "images/countries/kuwait.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["λίβανος", "lebanon"],
+    "image": "images/countries/lebanon.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["λιβερία", "liberia"],
+    "image": "images/countries/liberia.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["μαλάουι", "malawi"],
+    "image": "images/countries/malawi.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["μάλι", "mali"],
+    "image": "images/countries/mali.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["μικρονησία", "micronesia"],
+    "image": "images/countries/micronesia.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["μοζαμβίκη", "mozambique"],
+    "image": "images/countries/mozambique.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["νικαράγουα", "nicaragua"],
+    "image": "images/countries/nicaragua.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ομάν", "oman"],
+    "image": "images/countries/oman.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["παλαιστίνη", "palestine"],
+    "image": "images/countries/palestine.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["άγιος χριστόφορος και νέβις", "saint kitts and nevis"],
+    "image": "images/countries/saint-kitts-and-nevis.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["αγία λουκία", "saint lucia"],
+    "image": "images/countries/saint-lucia.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["άγιος βικέντιος και γρεναδίνες", "saint vincent and the grenadines"],
+    "image": "images/countries/saint-vincent-and-the-grenadines.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["σενεγάλη", "senegal"],
+    "image": "images/countries/senegal.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["σιέρα λεόνε", "sierra leone"],
+    "image": "images/countries/sierra-leone.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["νησιά σολομώντα", "solomon islands"],
+    "image": "images/countries/solomon-islands.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["σουρινάμ", "suriname"],
+    "image": "images/countries/suriname.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["συρία", "syria"],
+    "image": "images/countries/syria.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["τόγκο", "togo"],
+    "image": "images/countries/togo.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["τρινιντάντ και τομπάγκο", "trinidad and tobago"],
+    "image": "images/countries/trinidad-and-tobago.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["ουγκάντα", "uganda"],
+    "image": "images/countries/uganda.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["υεμένη", "yemen"],
+    "image": "images/countries/yemen.png",
+    "difficulty": "medium"
+  }
+]
 
 };
