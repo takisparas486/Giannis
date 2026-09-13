@@ -8,592 +8,592 @@ window.categories = {
 elements: [
     {
         "answers": ["υδρογόνο", "hydrogen", "το υδρογόνο", "στοιχείο υδρογόνο"],
-        "image": "images/elements/hydrogen.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/hydrogen.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ήλιο", "helium", "το ήλιο", "στοιχείο ήλιο"],
-        "image": "images/elements/helium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/helium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["λίθιο", "lithium", "το λίθιο", "στοιχείο λίθιο"],
-        "image": "images/elements/lithium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/lithium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["βηρύλλιο", "beryllium", "το βηρύλλιο", "στοιχείο βηρύλλιο"],
-        "image": "images/elements/beryllium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/beryllium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["βόριο", "boron", "το βόριο", "στοιχείο βόριο"],
-        "image": "images/elements/boron.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/boron.png",
         "difficulty": "easy"
     },
     {
         "answers": ["άνθρακας", "carbon", "ο άνθρακας", "στοιχείο άνθρακας"],
-        "image": "images/elements/carbon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/carbon.png",
         "difficulty": "easy"
     },
     {
         "answers": ["άζωτο", "nitrogen", "το άζωτο", "στοιχείο άζωτο"],
-        "image": "images/elements/nitrogen.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/nitrogen.png",
         "difficulty": "easy"
     },
     {
         "answers": ["οξυγόνο", "oxygen", "το οξυγόνο", "στοιχείο οξυγόνο"],
-        "image": "images/elements/oxygen.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/oxygen.png",
         "difficulty": "easy"
     },
     {
         "answers": ["φθόριο", "fluorine", "το φθόριο", "στοιχείο φθόριο"],
-        "image": "images/elements/fluorine.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/fluorine.png",
         "difficulty": "easy"
     },
     {
         "answers": ["νέον", "neon", "το νέον", "στοιχείο νέον"],
-        "image": "images/elements/neon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/neon.png",
         "difficulty": "easy"
     },
     {
         "answers": ["νάτριο", "sodium", "το νάτριο", "στοιχείο νάτριο"],
-        "image": "images/elements/sodium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/sodium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μαγνήσιο", "magnesium", "το μαγνήσιο", "στοιχείο μαγνήσιο"],
-        "image": "images/elements/magnesium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/magnesium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["αλουμίνιο", "aluminium", "aluminum", "το αλουμίνιο", "στοιχείο αλουμίνιο"],
-        "image": "images/elements/aluminium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/aluminium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["πυρίτιο", "silicon", "το πυρίτιο", "στοιχείο πυρίτιο"],
-        "image": "images/elements/silicon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/silicon.png",
         "difficulty": "easy"
     },
     {
         "answers": ["φώσφορος", "phosphorus", "ο φώσφορος", "στοιχείο φώσφορος"],
-        "image": "images/elements/phosphorus.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/phosphorus.png",
         "difficulty": "easy"
     },
     {
         "answers": ["θείο", "sulfur", "sulphur", "το θείο", "στοιχείο θείο"],
-        "image": "images/elements/sulfur.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/sulfur.png",
         "difficulty": "easy"
     },
     {
         "answers": ["χλώριο", "chlorine", "το χλώριο", "στοιχείο χλώριο"],
-        "image": "images/elements/chlorine.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/chlorine.png",
         "difficulty": "easy"
     },
     {
         "answers": ["αργό", "argon", "το αργό", "στοιχείο αργό"],
-        "image": "images/elements/argon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/argon.png",
         "difficulty": "easy"
     },
     {
         "answers": ["κάλιο", "potassium", "το κάλιο", "στοιχείο κάλιο"],
-        "image": "images/elements/potassium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/potassium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ασβέστιο", "calcium", "το ασβέστιο", "στοιχείο ασβέστιο"],
-        "image": "images/elements/calcium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/calcium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["σκάνδιο", "scandium", "το σκάνδιο", "στοιχείο σκάνδιο"],
-        "image": "images/elements/scandium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/scandium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["τιτάνιο", "titanium", "το τιτάνιο", "στοιχείο τιτάνιο"],
-        "image": "images/elements/titanium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/titanium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["βανάδιο", "vanadium", "το βανάδιο", "στοιχείο βανάδιο"],
-        "image": "images/elements/vanadium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/vanadium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["χρώμιο", "chromium", "το χρώμιο", "στοιχείο χρώμιο"],
-        "image": "images/elements/chromium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/chromium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μαγγάνιο", "manganese", "το μαγγάνιο", "στοιχείο μαγγάνιο"],
-        "image": "images/elements/manganese.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/manganese.png",
         "difficulty": "easy"
     },
     {
         "answers": ["σίδηρος", "iron", "ο σίδηρος", "στοιχείο σίδηρος"],
-        "image": "images/elements/iron.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/iron.png",
         "difficulty": "easy"
     },
     {
         "answers": ["κοβάλτιο", "cobalt", "το κοβάλτιο", "στοιχείο κοβάλτιο"],
-        "image": "images/elements/cobalt.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/cobalt.png",
         "difficulty": "easy"
     },
     {
         "answers": ["νικέλιο", "nickel", "το νικέλιο", "στοιχείο νικέλιο"],
-        "image": "images/elements/nickel.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/nickel.png",
         "difficulty": "easy"
     },
     {
         "answers": ["χαλκός", "copper", "ο χαλκός", "στοιχείο χαλκός"],
-        "image": "images/elements/copper.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/copper.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ψευδάργυρος", "zinc", "ο ψευδάργυρος", "στοιχείο ψευδάργυρος"],
-        "image": "images/elements/zinc.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/zinc.png",
         "difficulty": "easy"
     },
     {
         "answers": ["γάλλιο", "gallium", "το γάλλιο", "στοιχείο γάλλιο"],
-        "image": "images/elements/gallium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/gallium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["γερμάνιο", "germanium", "το γερμάνιο", "στοιχείο γερμάνιο"],
-        "image": "images/elements/germanium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/germanium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["αρσενικό", "arsenic", "το αρσενικό", "στοιχείο αρσενικό"],
-        "image": "images/elements/arsenic.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/arsenic.png",
         "difficulty": "medium"
     },
     {
         "answers": ["σελήνιο", "selenium", "το σελήνιο", "στοιχείο σελήνιο"],
-        "image": "images/elements/selenium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/selenium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["βρώμιο", "bromine", "το βρώμιο", "στοιχείο βρώμιο"],
-        "image": "images/elements/bromine.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/bromine.png",
         "difficulty": "easy"
     },
     {
         "answers": ["κρυπτό", "krypton", "το κρυπτό", "στοιχείο κρυπτό"],
-        "image": "images/elements/krypton.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/krypton.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ρουβίδιο", "rubidium", "το ρουβίδιο", "στοιχείο ρουβίδιο"],
-        "image": "images/elements/rubidium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/rubidium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["στρόντιο", "strontium", "το στρόντιο", "στοιχείο στρόντιο"],
-        "image": "images/elements/strontium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/strontium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ύττριο", "yttrium", "το ύττριο", "στοιχείο ύττριο"],
-        "image": "images/elements/yttrium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/yttrium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ζιρκόνιο", "zirconium", "το ζιρκόνιο", "στοιχείο ζιρκόνιο"],
-        "image": "images/elements/zirconium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/zirconium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["νιόβιο", "niobium", "το νιόβιο", "στοιχείο νιόβιο"],
-        "image": "images/elements/niobium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/niobium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["μολυβδαίνιο", "molybdenum", "το μολυβδαίνιο", "στοιχείο μολυβδαίνιο"],
-        "image": "images/elements/molybdenum.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/molybdenum.png",
         "difficulty": "medium"
     },
     {
         "answers": ["τεχνήτιο", "technetium", "το τεχνήτιο", "στοιχείο τεχνήτιο"],
-        "image": "images/elements/technetium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/technetium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ρουθήνιο", "ruthenium", "το ρουθήνιο", "στοιχείο ρουθήνιο"],
-        "image": "images/elements/ruthenium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/ruthenium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ρόδιο", "rhodium", "το ρόδιο", "στοιχείο ρόδιο"],
-        "image": "images/elements/rhodium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/rhodium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["παλλάδιο", "palladium", "το παλλάδιο", "στοιχείο παλλάδιο"],
-        "image": "images/elements/palladium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/palladium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["άργυρος", "silver", "ο άργυρος", "ασήμι", "στοιχείο άργυρος"],
-        "image": "images/elements/silver.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/silver.png",
         "difficulty": "easy"
     },
     {
         "answers": ["κάδμιο", "cadmium", "το κάδμιο", "στοιχείο κάδμιο"],
-        "image": "images/elements/cadmium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/cadmium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ίνδιο", "indium", "το ίνδιο", "στοιχείο ίνδιο"],
-        "image": "images/elements/indium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/indium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["κασσίτερος", "tin", "ο κασσίτερος", "στοιχείο κασσίτερος"],
-        "image": "images/elements/tin.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/tin.png",
         "difficulty": "easy"
     },
     {
         "answers": ["αντιμόνιο", "antimony", "το αντιμόνιο", "στοιχείο αντιμόνιο"],
-        "image": "images/elements/antimony.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/antimony.png",
         "difficulty": "medium"
     },
     {
         "answers": ["τελλούριο", "tellurium", "το τελλούριο", "στοιχείο τελλούριο"],
-        "image": "images/elements/tellurium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/tellurium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ιώδιο", "iodine", "το ιώδιο", "στοιχείο ιώδιο"],
-        "image": "images/elements/iodine.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/iodine.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ξένο", "xenon", "το ξένο", "στοιχείο ξένο"],
-        "image": "images/elements/xenon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/xenon.png",
         "difficulty": "medium"
     },
     {
         "answers": ["καίσιο", "caesium", "cesium", "το καίσιο", "στοιχείο καίσιο"],
-        "image": "images/elements/caesium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/caesium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["βάριο", "barium", "το βάριο", "στοιχείο βάριο"],
-        "image": "images/elements/barium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/barium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["λανθάνιο", "lanthanum", "το λανθάνιο", "στοιχείο λανθάνιο"],
-        "image": "images/elements/lanthanum.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/lanthanum.png",
         "difficulty": "medium"
     },
     {
         "answers": ["δημήτριο", "cerium", "το δημήτριο", "στοιχείο δημήτριο"],
-        "image": "images/elements/cerium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/cerium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["πρασεοδύμιο", "praseodymium", "το πρασεοδύμιο", "στοιχείο πρασεοδύμιο"],
-        "image": "images/elements/praseodymium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/praseodymium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["νεοδύμιο", "neodymium", "το νεοδύμιο", "στοιχείο νεοδύμιο"],
-        "image": "images/elements/neodymium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/neodymium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["προμήθιο", "promethium", "το προμήθιο", "στοιχείο προμήθιο"],
-        "image": "images/elements/promethium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/promethium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["σαμάριο", "samarium", "το σαμάριο", "στοιχείο σαμάριο"],
-        "image": "images/elements/samarium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/samarium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ευρώπιο", "europium", "το ευρώπιο", "στοιχείο ευρώπιο"],
-        "image": "images/elements/europium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/europium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["γαδολίνιο", "gadolinium", "το γαδολίνιο", "στοιχείο γαδολίνιο"],
-        "image": "images/elements/gadolinium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/gadolinium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["τέρβιο", "terbium", "το τέρβιο", "στοιχείο τέρβιο"],
-        "image": "images/elements/terbium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/terbium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["δυσπρόσιο", "dysprosium", "το δυσπρόσιο", "στοιχείο δυσπρόσιο"],
-        "image": "images/elements/dysprosium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/dysprosium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["όλμιο", "holmium", "το όλμιο", "στοιχείο όλμιο"],
-        "image": "images/elements/holmium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/holmium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["έρβιο", "erbium", "το έρβιο", "στοιχείο έρβιο"],
-        "image": "images/elements/erbium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/erbium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["θούλιο", "thulium", "το θούλιο", "στοιχείο θούλιο"],
-        "image": "images/elements/thulium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/thulium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["υττέρβιο", "ytterbium", "το υττέρβιο", "στοιχείο υττέρβιο"],
-        "image": "images/elements/ytterbium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/ytterbium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["λουτήτιο", "lutetium", "το λουτήτιο", "στοιχείο λουτήτιο"],
-        "image": "images/elements/lutetium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/lutetium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["άφνιο", "hafnium", "το άφνιο", "στοιχείο άφνιο"],
-        "image": "images/elements/hafnium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/hafnium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ταντάλιο", "tantalum", "το ταντάλιο", "στοιχείο ταντάλιο"],
-        "image": "images/elements/tantalum.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/tantalum.png",
         "difficulty": "medium"
     },
     {
         "answers": ["βολφράμιο", "tungsten", "wolfram", "το βολφράμιο", "στοιχείο βολφράμιο"],
-        "image": "images/elements/tungsten.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/tungsten.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ρήνιο", "rhenium", "το ρήνιο", "στοιχείο ρήνιο"],
-        "image": "images/elements/rhenium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/rhenium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["όσμιο", "osmium", "το όσμιο", "στοιχείο όσμιο"],
-        "image": "images/elements/osmium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/osmium.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ιρίδιο", "iridium", "το ιρίδιο", "στοιχείο ιρίδιο"],
-        "image": "images/elements/iridium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/iridium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["πλατίνα", "platinum", "η πλατίνα", "στοιχείο πλατίνα"],
-        "image": "images/elements/platinum.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/platinum.png",
         "difficulty": "easy"
     },
     {
         "answers": ["χρυσός", "gold", "ο χρυσός", "στοιχείο χρυσός"],
-        "image": "images/elements/gold.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/gold.png",
         "difficulty": "easy"
     },
     {
         "answers": ["υδράργυρος", "mercury", "ο υδράργυρος", "στοιχείο υδράργυρος"],
-        "image": "images/elements/mercury.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/mercury.png",
         "difficulty": "easy"
     },
     {
         "answers": ["θάλλιο", "thallium", "το θάλλιο", "στοιχείο θάλλιο"],
-        "image": "images/elements/thallium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/thallium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["μόλυβδος", "lead", "ο μόλυβδος", "στοιχείο μόλυβδος"],
-        "image": "images/elements/lead.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/lead.png",
         "difficulty": "easy"
     },
     {
         "answers": ["βισμούθιο", "bismuth", "το βισμούθιο", "στοιχείο βισμούθιο"],
-        "image": "images/elements/bismuth.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/bismuth.png",
         "difficulty": "hard"
     },
     {
         "answers": ["πολώνιο", "polonium", "το πολώνιο", "στοιχείο πολώνιο"],
-        "image": "images/elements/polonium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/polonium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["άστατο", "astatine", "το άστατο", "στοιχείο άστατο"],
-        "image": "images/elements/astatine.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/astatine.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ραδόνιο", "radon", "το ραδόνιο", "στοιχείο ραδόνιο"],
-        "image": "images/elements/radon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/radon.png",
         "difficulty": "hard"
     },
     {
         "answers": ["φράγκιο", "francium", "το φράγκιο", "στοιχείο φράγκιο"],
-        "image": "images/elements/francium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/francium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ράδιο", "radium", "το ράδιο", "στοιχείο ράδιο"],
-        "image": "images/elements/radium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/radium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ακτίνιο", "actinium", "το ακτίνιο", "στοιχείο ακτίνιο"],
-        "image": "images/elements/actinium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/actinium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["θόριο", "thorium", "το θόριο", "στοιχείο θόριο"],
-        "image": "images/elements/thorium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/thorium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["πρωτακτίνιο", "protactinium", "το πρωτακτίνιο", "στοιχείο πρωτακτίνιο"],
-        "image": "images/elements/protactinium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/protactinium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ουράνιο", "uranium", "το ουράνιο", "στοιχείο ουράνιο"],
-        "image": "images/elements/uranium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/uranium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ποσειδώνιο", "neptunium", "το ποσειδώνιο", "στοιχείο ποσειδώνιο"],
-        "image": "images/elements/neptunium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/neptunium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["πλουτώνιο", "plutonium", "το πλουτώνιο", "στοιχείο πλουτώνιο"],
-        "image": "images/elements/plutonium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/plutonium.png",
         "difficulty": "easy"
     },
     {
         "answers": ["αμερίκιο", "americium", "το αμερίκιο", "στοιχείο αμερίκιο"],
-        "image": "images/elements/americium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/americium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["κιούριο", "curium", "το κιούριο", "στοιχείο κιούριο"],
-        "image": "images/elements/curium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/curium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["βερκέλιο", "berkelium", "το βερκέλιο", "στοιχείο βερκέλιο"],
-        "image": "images/elements/berkelium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/berkelium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["καλιφόρνιο", "californium", "το καλιφόρνιο", "στοιχείο καλιφόρνιο"],
-        "image": "images/elements/californium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/californium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["αϊνσταΐνιο", "einsteinium", "το αϊνσταΐνιο", "στοιχείο αϊνσταΐνιο"],
-        "image": "images/elements/einsteinium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/einsteinium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["φέρμιο", "fermium", "το φέρμιο", "στοιχείο φέρμιο"],
-        "image": "images/elements/fermium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/fermium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["μεντελέβιο", "mendelevium", "το μεντελέβιο", "στοιχείο μεντελέβιο"],
-        "image": "images/elements/mendelevium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/mendelevium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["νοβέλιο", "nobelium", "το νοβέλιο", "στοιχείο νοβέλιο"],
-        "image": "images/elements/nobelium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/nobelium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["λωρένσιο", "lawrencium", "το λωρένσιο", "στοιχείο λωρένσιο"],
-        "image": "images/elements/lawrencium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/lawrencium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ράδερφορντιο", "rutherfordium", "το ράδερφορντιο", "στοιχείο ράδερφορντιο"],
-        "image": "images/elements/rutherfordium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/rutherfordium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ντούμπνιο", "dubnium", "το ντούμπνιο", "στοιχείο ντούμπνιο"],
-        "image": "images/elements/dubnium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/dubnium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["σιμπόργκιο", "seaborgium", "το σιμπόργκιο", "στοιχείο σιμπόργκιο"],
-        "image": "images/elements/seaborgium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/seaborgium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["μπόριο", "bohrium", "το μπόριο", "στοιχείο μπόριο"],
-        "image": "images/elements/bohrium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/bohrium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["χάσιο", "hassium", "το χάσιο", "στοιχείο χάσιο"],
-        "image": "images/elements/hassium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/hassium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["μάιτνεριο", "meitnerium", "το μάιτνεριο", "στοιχείο μάιτνεριο"],
-        "image": "images/elements/meitnerium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/meitnerium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["νταρμστάντιο", "darmstadtium", "το νταρμστάντιο", "στοιχείο νταρμστάντιο"],
-        "image": "images/elements/darmstadtium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/darmstadtium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ρέντγκενιο", "roentgenium", "το ρέντγκενιο", "στοιχείο ρέντγκενιο"],
-        "image": "images/elements/roentgenium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/roentgenium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["κοπερνίκιο", "copernicium", "το κοπερνίκιο", "στοιχείο κοπερνίκιο"],
-        "image": "images/elements/copernicium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/copernicium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["νιχόνιο", "nihonium", "το νιχόνιο", "στοιχείο νιχόνιο"],
-        "image": "images/elements/nihonium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/nihonium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["φλερόβιο", "flerovium", "το φλερόβιο", "στοιχείο φλερόβιο"],
-        "image": "images/elements/flerovium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/flerovium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["μοσκόβιο", "moscovium", "το μοσκόβιο", "στοιχείο μοσκόβιο"],
-        "image": "images/elements/moscovium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/moscovium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["λιβερμόριο", "livermorium", "το λιβερμόριο", "στοιχείο λιβερμόριο"],
-        "image": "images/elements/livermorium.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/livermorium.png",
         "difficulty": "hard"
     },
     {
         "answers": ["τενέσσιο", "tennessine", "το τενέσσιο", "στοιχείο τενέσσιο"],
-        "image": "images/elements/tennessine.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/tennessine.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ογκανεσόν", "oganesson", "το ογκανεσόν", "στοιχείο ογκανεσόν"],
-        "image": "images/elements/oganesson.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/elements/oganesson.png",
         "difficulty": "hard"
     }
 ],
@@ -603,397 +603,397 @@ elements: [
 pokemon: [
     {
         "answers": ["πικατσού", "pikachu"],
-        "image": "images/pokemon/pikachu.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/pikachu.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ράιτσου", "raichu"],
-        "image": "images/pokemon/raichu.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/raichu.png",
         "difficulty": "easy"
     },
     {
         "answers": ["τσαρμάντερ", "charmander"],
-        "image": "images/pokemon/charmander.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/charmander.png",
         "difficulty": "easy"
     },
     {
         "answers": ["τσαρμέλεον", "charmeleon"],
-        "image": "images/pokemon/charmeleon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/charmeleon.png",
         "difficulty": "easy"
     },
     {
         "answers": ["τσαρίζαρντ", "charizard"],
-        "image": "images/pokemon/charizard.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/charizard.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μπαλμπασάουρ", "bulbasaur"],
-        "image": "images/pokemon/bulbasaur.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/bulbasaur.png",
         "difficulty": "easy"
     },
     {
         "answers": ["άιβισαουρ", "ivysaur"],
-        "image": "images/pokemon/ivysaur.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/ivysaur.png",
         "difficulty": "easy"
     },
     {
         "answers": ["βενουσάουρ", "venusaur"],
-        "image": "images/pokemon/venusaur.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/venusaur.png",
         "difficulty": "easy"
     },
     {
         "answers": ["σκουίρτλ", "squirtle"],
-        "image": "images/pokemon/squirtle.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/squirtle.png",
         "difficulty": "easy"
     },
     {
         "answers": ["γουόρτορλ", "wartortle"],
-        "image": "images/pokemon/wartortle.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/wartortle.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μπλάστοιζ", "blastoise"],
-        "image": "images/pokemon/blastoise.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/blastoise.png",
         "difficulty": "easy"
     },
     {
         "answers": ["eevee", "ιβί"],
-        "image": "images/pokemon/eevee.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/eevee.png",
         "difficulty": "easy"
     },
     {
         "answers": ["τζόλτεον", "jolteon"],
-        "image": "images/pokemon/jolteon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/jolteon.png",
         "difficulty": "easy"
     },
     {
         "answers": ["φλάρεον", "flareon"],
-        "image": "images/pokemon/flareon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/flareon.png",
         "difficulty": "easy"
     },
     {
         "answers": ["σνόρλαξ", "snorlax"],
-        "image": "images/pokemon/snorlax.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/snorlax.png",
         "difficulty": "easy"
     },
     {
         "answers": ["γκένγκαρ", "gengar"],
-        "image": "images/pokemon/gengar.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/gengar.png",
         "difficulty": "easy"
     },
     {
         "answers": ["γκάστλι", "gastly"],
-        "image": "images/pokemon/gastly.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/gastly.png",
         "difficulty": "easy"
     },
     {
         "answers": ["χόντερ", "haunter"],
-        "image": "images/pokemon/haunter.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/haunter.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ζιγκλιπάφ", "jigglypuff"],
-        "image": "images/pokemon/jigglypuff.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/jigglypuff.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μιάουθ", "meowth"],
-        "image": "images/pokemon/meowth.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/meowth.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ψάιντακ", "psyduck"],
-        "image": "images/pokemon/psyduck.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/psyduck.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μάτζικαρπ", "magikarp"],
-        "image": "images/pokemon/magikarp.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/magikarp.png",
         "difficulty": "easy"
     },
     {
         "answers": ["γκιαράντος", "gyarados"],
-        "image": "images/pokemon/gyarados.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/gyarados.png",
         "difficulty": "easy"
     },
     {
         "answers": ["δραγοναΐτ", "dragonite"],
-        "image": "images/pokemon/dragonite.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/dragonite.png",
         "difficulty": "easy"
     },
     {
         "answers": ["λάπρας", "lapras"],
-        "image": "images/pokemon/lapras.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/lapras.png",
         "difficulty": "easy"
     },
     {
         "answers": ["όνιξ", "onix"],
-        "image": "images/pokemon/onix.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/onix.png",
         "difficulty": "easy"
     },
     {
         "answers": ["τζεόντιουντ", "geodude"],
-        "image": "images/pokemon/geodude.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/geodude.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μάτσοπ", "machop"],
-        "image": "images/pokemon/machop.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/machop.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ματσόουκ", "machoke"],
-        "image": "images/pokemon/machoke.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/machoke.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ματσάμπ", "machamp"],
-        "image": "images/pokemon/machamp.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/machamp.png",
         "difficulty": "easy"
     },
     {
         "answers": ["άμπρα", "abra"],
-        "image": "images/pokemon/abra.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/abra.png",
         "difficulty": "easy"
     },
     {
         "answers": ["καντάμπρα", "kadabra"],
-        "image": "images/pokemon/kadabra.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/kadabra.png",
         "difficulty": "easy"
     },
     {
         "answers": ["αλακαζάμ", "alakazam"],
-        "image": "images/pokemon/alakazam.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/alakazam.png",
         "difficulty": "easy"
     },
     {
         "answers": ["κιουμπόουν", "cubone"],
-        "image": "images/pokemon/cubone.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/cubone.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ντίτο", "ditto"],
-        "image": "images/pokemon/ditto.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/ditto.png",
         "difficulty": "easy"
     },
     {
         "answers": ["λουκάριο", "lucario"],
-        "image": "images/pokemon/lucario.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/lucario.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ριούλου", "riolu"],
-        "image": "images/pokemon/riolu.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/riolu.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μιου", "mew"],
-        "image": "images/pokemon/mew.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/mew.png",
         "difficulty": "easy"
     },
     {
         "answers": ["μιουτού", "mewtwo"],
-        "image": "images/pokemon/mewtwo.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/mewtwo.png",
         "difficulty": "easy"
     },
     {
         "answers": ["γκρενίντζα", "greninja"],
-        "image": "images/pokemon/greninja.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/greninja.png",
         "difficulty": "medium"
     },
     {
         "answers": ["φροάκι", "froakie"],
-        "image": "images/pokemon/froakie.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/froakie.png",
         "difficulty": "medium"
     },
     {
         "answers": ["φρογκαδιέ", "frogadier"],
-        "image": "images/pokemon/frogadier.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/frogadier.png",
         "difficulty": "medium"
     },
     {
         "answers": ["μπλέζικεν", "blaziken"],
-        "image": "images/pokemon/blaziken.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/blaziken.png",
         "difficulty": "medium"
     },
     {
         "answers": ["τόρτσικ", "torchic"],
-        "image": "images/pokemon/torchic.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/torchic.png",
         "difficulty": "medium"
     },
     {
         "answers": ["σέπταιλ", "sceptile"],
-        "image": "images/pokemon/sceptile.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/sceptile.png",
         "difficulty": "medium"
     },
     {
         "answers": ["τρίκο", "treecko"],
-        "image": "images/pokemon/treecko.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/treecko.png",
         "difficulty": "medium"
     },
     {
         "answers": ["γκροβίλ", "grovyle"],
-        "image": "images/pokemon/grovyle.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/grovyle.png",
         "difficulty": "medium"
     },
     {
         "answers": ["σγουάμπερτ", "swampert"],
-        "image": "images/pokemon/swampert.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/swampert.png",
         "difficulty": "medium"
     },
     {
         "answers": ["μάντκιπ", "mudkip"],
-        "image": "images/pokemon/mudkip.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/mudkip.png",
         "difficulty": "medium"
     },
         {
         "answers": ["γκαρντεβουάρ", "gardevoir"],
-        "image": "images/pokemon/gardevoir.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/gardevoir.png",
         "difficulty": "medium"
     },
     {
         "answers": ["γκαλάντ", "gallade"],
-        "image": "images/pokemon/gallade.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/gallade.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ραλτς", "ralts"],
-        "image": "images/pokemon/ralts.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/ralts.png",
         "difficulty": "medium"
     },
     {
         "answers": ["κίρλια", "kirlia"],
-        "image": "images/pokemon/kirlia.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/kirlia.png",
         "difficulty": "medium"
     },
     {
         "answers": ["τιρανιτάρ", "tyranitar"],
-        "image": "images/pokemon/tyranitar.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/tyranitar.png",
         "difficulty": "medium"
     },
     {
         "answers": ["λαρβιτάρ", "larvitar"],
-        "image": "images/pokemon/larvitar.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/larvitar.png",
         "difficulty": "medium"
     },
     {
         "answers": ["σαλαμάνς", "salamence"],
-        "image": "images/pokemon/salamence.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/salamence.png",
         "difficulty": "medium"
     },
     {
         "answers": ["μεταγκρός", "metagross"],
-        "image": "images/pokemon/metagross.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/metagross.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ρεϊκουάζα", "rayquaza"],
-        "image": "images/pokemon/rayquaza.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/rayquaza.png",
         "difficulty": "medium"
     },
     {
         "answers": ["κυόγρε", "kyogre"],
-        "image": "images/pokemon/kyogre.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/kyogre.png",
         "difficulty": "medium"
     },
     {
         "answers": ["γκρούντον", "groudon"],
-        "image": "images/pokemon/groudon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/groudon.png",
         "difficulty": "medium"
     },
     {
         "answers": ["λούγκια", "lugia"],
-        "image": "images/pokemon/lugia.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/lugia.png",
         "difficulty": "medium"
     },
     {
         "answers": ["χο-όου", "ho-oh", "ho oh", "hooh"],
-        "image": "images/pokemon/ho-oh.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/ho-oh.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ντάρκραι", "darkrai"],
-        "image": "images/pokemon/darkrai.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/darkrai.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ντιάλγκα", "dialga"],
-        "image": "images/pokemon/dialga.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/dialga.png",
         "difficulty": "medium"
     },
     {
         "answers": ["πάλκια", "palkia"],
-        "image": "images/pokemon/palkia.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/palkia.png",
         "difficulty": "medium"
     },
     {
         "answers": ["γιρατίνα", "giratina"],
-        "image": "images/pokemon/giratina.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/giratina.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ζεκρόμ", "zekrom"],
-        "image": "images/pokemon/zekrom.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/zekrom.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ρεσίραμ", "reshiram"],
-        "image": "images/pokemon/reshiram.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/reshiram.png",
         "difficulty": "medium"
     },
     {
         "answers": ["κιουρέμ", "kyurem"],
-        "image": "images/pokemon/kyurem.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/kyurem.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ζέρνεας", "xerneas"],
-        "image": "images/pokemon/xerneas.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/xerneas.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ιβέλνταλ", "yveltal"],
-        "image": "images/pokemon/yveltal.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/yveltal.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ζορόαρκ", "zoroark"],
-        "image": "images/pokemon/zoroark.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/zoroark.png",
         "difficulty": "medium"
     },
     {
         "answers": ["αρκέους", "arceus"],
-        "image": "images/pokemon/arceus.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/arceus.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ντεόξις", "deoxys"],
-        "image": "images/pokemon/deoxys.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/deoxys.png",
         "difficulty": "hard"
     },
     {
         "answers": ["τζενέσεκτ", "genesect"],
-        "image": "images/pokemon/genesect.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/genesect.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ρεγικίγκας", "regigigas", "re gigigas", "re giggigas", "rejijigas"],
-        "image": "images/pokemon/regigigas.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/regigigas.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ετερνάτους", "eternatus"],
-        "image": "images/pokemon/eternatus.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/eternatus.png",
         "difficulty": "hard"
     },
     {
         "answers": ["νекρόζμα", "necrozma"],
-        "image": "images/pokemon/necrozma.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/necrozma.png",
         "difficulty": "hard"
     },
     {
         "answers": ["καλίρεξ", "calyrex"],
-        "image": "images/pokemon/calyrex.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/pokemon/calyrex.png",
         "difficulty": "hard"
     }
 ],
@@ -1002,605 +1002,605 @@ mythology: [
 
 {
     answers: ["δίας", "ζευς", "zeus", "dias", "zevs"],
-    image: "images/mythology/zeus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/zeus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ποσειδώνας", "poseidon", "poseidonas"],
-    image: "images/mythology/poseidon.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/poseidon.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["άδης", "hades"],
-    image: "images/mythology/hades.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/hades.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["αθηνά", "athena", "athina"],
-    image: "images/mythology/athena.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/athena.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["άρης", "ares"],
-    image: "images/mythology/ares.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/ares.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["απόλλωνας", "apollo"],
-    image: "images/mythology/apollo.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/apollo.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["άρτεμις", "artemis"],
-    image: "images/mythology/artemis.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/artemis.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ήρα", "hera"],
-    image: "images/mythology/hera.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/hera.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ερμής", "hermes"],
-    image: "images/mythology/hermes.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/hermes.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["αφροδίτη", "aphrodite"],
-    image: "images/mythology/aphrodite.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/aphrodite.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ήφαιστος", "hephaestus"],
-    image: "images/mythology/hephaestus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/hephaestus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["δήμητρα", "demeter"],
-    image: "images/mythology/demeter.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/demeter.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["περσεφόνη", "persephone"],
-    image: "images/mythology/persephone.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/persephone.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["έρως", "eros", "cupid"],
-    image: "images/mythology/eros.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/eros.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["μέδουσα", "medusa"],
-    image: "images/mythology/medousa.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/medousa.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["πήγασος", "pegasus"],
-    image: "images/mythology/pegasus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/pegasus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["κέρβερος", "cerberus"],
-    image: "images/mythology/cerberus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/cerberus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["μινώταυρος", "minotaur"],
-    image: "images/mythology/minotaur.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/minotaur.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["κύκλωπας", "cyclops"],
-    image: "images/mythology/cyclops.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/cyclops.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["κένταυρος", "centaur"],
-    image: "images/mythology/centaur.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/centaur.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["σφίγγα", "sphinx"],
-    image: "images/mythology/sphinx.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/sphinx.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ύδρα", "ύδρα της λέρνας", "lernaean hydra", "hydra"],
-    image: "images/mythology/hydra.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/hydra.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["χίμαιρα", "chimera"],
-    image: "images/mythology/chimera.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/chimera.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["άτλας", "atlas"],
-    image: "images/mythology/atlas.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/atlas.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["κρόνος", "cronus", "kronos"],
-    image: "images/mythology/cronus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/cronus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ρέα", "rhea"],
-    image: "images/mythology/rhea.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/rhea.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ουρανός", "uranus"],
-    image: "images/mythology/uranus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/uranus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["γαία", "gaia", "gaea"],
-    image: "images/mythology/gaia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/gaia.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["θωρ", "thor"],
-    image: "images/mythology/thor.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/thor.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["λόκι", "loki"],
-    image: "images/mythology/loki.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/loki.jpg",
     difficulty: "easy"
 },
 
 
 {
     answers: ["όντιν", "odin"],
-    image: "images/mythology/odin.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/odin.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["φρέγια", "freya", "freyja"],
-    image: "images/mythology/freya.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/freya.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τυρ", "tyr", "tir"],
-    image: "images/mythology/tyr.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/tyr.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["χέιμνταλ", "heimdall"],
-    image: "images/mythology/heimdall.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/heimdall.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["φενρίρ", "fenrir"],
-    image: "images/mythology/fenrir.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/fenrir.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["γιορμουνγκάντρ", "jormungandr", "jörmungandr"],
-    image: "images/mythology/jormungandr.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/jormungandr.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["σλεϊπνιρ", "sleipnir"],
-    image: "images/mythology/sleipnir.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/sleipnir.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ανούβις", "anubis"],
-    image: "images/mythology/anubis.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/anubis.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ρα", "ra"],
-    image: "images/mythology/ra.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/ra.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ώρος", "horus"],
-    image: "images/mythology/horus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/horus.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["όσιρις", "osiris"],
-    image: "images/mythology/osiris.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/osiris.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ίσιδα", "isis"],
-    image: "images/mythology/isis.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/isis.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["σεθ", "set", "seth"],
-    image: "images/mythology/set.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/set.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["θωθ", "thoth"],
-    image: "images/mythology/thoth.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/thoth.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["βάστιτ", "bastet"],
-    image: "images/mythology/bastet.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/bastet.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["σομπέκ", "sobek"],
-    image: "images/mythology/sobek.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/sobek.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["άμμων", "amon", "amun"],
-    image: "images/mythology/amun.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/amun.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["νίκη", "nike"],
-    image: "images/mythology/nike.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/nike.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["νέμεσις", "nemesis"],
-    image: "images/mythology/nemesis.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/nemesis.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["χάροντας", "charon"],
-    image: "images/mythology/charon.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/charon.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["μοίρες", "the fates", "fates", "moirai"],
-    image: "images/mythology/fates.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/fates.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["νύξ", "nyx"],
-    image: "images/mythology/nyx.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/nyx.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["έριδα", "eris"],
-    image: "images/mythology/eris.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/eris.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["πάνας", "pan"],
-    image: "images/mythology/pan.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/pan.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["μορφέας", "morpheus"],
-    image: "images/mythology/morpheus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/morpheus.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τύχη", "tyche"],
-    image: "images/mythology/tyche.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/tyche.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ηρακλής", "heracles", "hercules"],
-    image: "images/mythology/heracles.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/heracles.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["αχιλλέας", "achilles"],
-    image: "images/mythology/achilles.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/achilles.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["οδυσσέας", "odysseus", "ulysses"],
-    image: "images/mythology/odysseus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/odysseus.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["περσέας", "perseus"],
-    image: "images/mythology/perseus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/perseus.jpg",
     difficulty: "medium"
 },
 
 
 {
     answers: ["κίρκη", "circe"],
-    image: "images/mythology/circe.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/circe.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["αιόλος", "aeolus"],
-    image: "images/mythology/aeolus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/aeolus.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["προμηθέας", "prometheus"],
-    image: "images/mythology/prometheus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/prometheus.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["επιμηθέας", "epimetheus"],
-    image: "images/mythology/epimetheus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/epimetheus.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["διονύσος", "dionysus"],
-    image: "images/mythology/dionysus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/dionysus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["εστία", "hestia"],
-    image: "images/mythology/hestia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/hestia.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["σελήνη", "selene"],
-    image: "images/mythology/selene.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/selene.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ηώς", "eos"],
-    image: "images/mythology/eos.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/eos.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["χάος", "chaos"],
-    image: "images/mythology/chaos.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/chaos.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["έκτωρας", "hector"],
-    image: "images/mythology/hector.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/hector.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["πάτροκλος", "patroclus"],
-    image: "images/mythology/patroclus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/patroclus.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ιάσονας", "jason"],
-    image: "images/mythology/jason.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/jason.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ορφέας", "orpheus"],
-    image: "images/mythology/orpheus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/orpheus.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["δάδαλος", "daedalus"],
-    image: "images/mythology/daedalus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/daedalus.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ίκαρος", "icarus"],
-    image: "images/mythology/icarus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/icarus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["θησέας", "theseus"],
-    image: "images/mythology/theseus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/theseus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ανδρομέδα", "andromeda"],
-    image: "images/mythology/andromeda.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/andromeda.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["κάστωρ", "castor"],
-    image: "images/mythology/castor.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/castor.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["πολυδεύκης", "polydeuces", "pollux"],
-    image: "images/mythology/polydeuces.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/polydeuces.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["πανδώρα", "pandora"],
-    image: "images/mythology/pandora.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/pandora.jpg",
     difficulty: "easy"
 },
 
 
 {
     answers: ["γοργόνες", "gorgons"],
-    image: "images/mythology/gorgons.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/gorgons.jpg",
     difficulty: "medium"
 },
 
 
 {
     answers: ["σειρήνες", "sirens"],
-    image: "images/mythology/sirens.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/sirens.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["άρπυιες", "harpies"],
-    image: "images/mythology/harpies.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/harpies.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["σάτυρος", "satyr"],
-    image: "images/mythology/satyr.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/satyr.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["νύμφη", "nymph"],
-    image: "images/mythology/nymph.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/nymph.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τυφώνας", "typhon"],
-    image: "images/mythology/typhon.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/typhon.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["εχίδνα", "echidna"],
-    image: "images/mythology/echidna.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/echidna.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["σκύλλα", "scylla"],
-    image: "images/mythology/scylla.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/scylla.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["χάρυβδη", "charybdis"],
-    image: "images/mythology/charybdis.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/charybdis.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["όρθρος", "orthrus", "orthos"],
-    image: "images/mythology/orthrus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/orthrus.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["λάδων", "ladon"],
-    image: "images/mythology/ladon.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/ladon.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["λερναίος καρκίνος", "carcinus"],
-    image: "images/mythology/carcinus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/carcinus.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["τελχίνες", "telchines"],
-    image: "images/mythology/telchines.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/telchines.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["ερινύες", "erinyes", "furies"],
-    image: "images/mythology/erinyes.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/erinyes.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["γίγαντες", "gigantes", "giants","γίγαντας","giant",],
-    image: "images/mythology/gigantes.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/gigantes.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τιτάνες", "titans"],
-    image: "images/mythology/titans.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/titans.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["δράκος", "dragon"],
-    image: "images/mythology/dragon.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/dragon.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["φοίνικας", "phoenix"],
-    image: "images/mythology/phoenix.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/phoenix.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["κράκεν", "kraken"],
-    image: "images/mythology/kraken.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/kraken.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["γρύπας", "griffin", "gryphon"],
-    image: "images/mythology/griffin.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/mythology/griffin.jpg",
     difficulty: "medium"
 }
 
@@ -1611,386 +1611,386 @@ mythology: [
 
 {
     answers: ["αθήνα", "athens"],
-    image: "images/country-flags/greece.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/greece.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["παρίσι", "paris"],
-    image: "images/country-flags/france.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/france.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["βερολίνο", "berlin"],
-    image: "images/country-flags/germany.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/germany.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ρώμη", "rome", "roma"],
-    image: "images/country-flags/italy.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/italy.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["μαδρίτη", "madrid"],
-    image: "images/country-flags/spain.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/spain.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["λισαβόνα", "lisbon", "lisboa"],
-    image: "images/country-flags/portugal.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/portugal.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["λονδίνο", "london"],
-    image: "images/country-flags/united-kingdom.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/united-kingdom.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["δουβλίνο", "dublin"],
-    image: "images/country-flags/ireland.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/ireland.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["βρυξέλλες", "brussels"],
-    image: "images/country-flags/belgium.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/belgium.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["άμστερνταμ", "amsterdam"],
-    image: "images/country-flags/netherlands.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/netherlands.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["βέρνη", "bern"],
-    image: "images/country-flags/switzerland.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/switzerland.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["βιέννη", "vienna"],
-    image: "images/country-flags/austria.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/austria.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["στοκχόλμη", "stockholm"],
-    image: "images/country-flags/sweden.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/sweden.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["όσλο", "oslo"],
-    image: "images/country-flags/norway.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/norway.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["κοπεγχάγη", "copenhagen"],
-    image: "images/country-flags/denmark.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/denmark.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ελσίνκι", "helsinki"],
-    image: "images/country-flags/finland.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/finland.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["βαρσοβία", "warsaw"],
-    image: "images/country-flags/poland.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/poland.jpg",
     difficulty: "easy"
 },
 
 
 {
     answers: ["βουδαπέστη", "budapest"],
-    image: "images/country-flags/hungary.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/hungary.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["βουκουρέστι", "bucharest"],
-    image: "images/country-flags/romania.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/romania.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["σοφία", "sofia"],
-    image: "images/country-flags/bulgaria.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/bulgaria.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["άγκυρα", "ankara"],
-    image: "images/country-flags/turkey.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/turkey.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["μόσχα", "moscow"],
-    image: "images/country-flags/russia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/russia.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["κίεβο", "κιεβο", "kyiv", "kiev"],
-    image: "images/country-flags/ukraine.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/ukraine.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["οτάβα", "ottawa"],
-    image: "images/country-flags/canada.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/canada.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ουάσινγκτον", "washington", "washington dc"],
-    image: "images/country-flags/united-states.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/united-states.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["πόλη του μεξικού", "μεξικό σίτι", "mexico city"],
-    image: "images/country-flags/mexico.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/mexico.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["μπραζίλια", "brasilia"],
-    image: "images/country-flags/brazil.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/brazil.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["μπουένος άιρες", "buenos aires"],
-    image: "images/country-flags/argentina.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/argentina.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["σαντιάγο", "santiago"],
-    image: "images/country-flags/chile.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/chile.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["λίμα", "lima"],
-    image: "images/country-flags/peru.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/peru.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["μπογκοτά", "bogota", "bogotá"],
-    image: "images/country-flags/colombia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/colombia.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["τόκιο", "tokyo"],
-    image: "images/country-flags/japan.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/japan.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["πεκίνο", "beijing"],
-    image: "images/country-flags/china.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/china.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["σεούλ", "seoul"],
-    image: "images/country-flags/south-korea.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/south-korea.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["πιονγκγιάνγκ", "πιονγκ γιανγκ", "pyongyang"],
-    image: "images/country-flags/north-korea.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/north-korea.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["νέο δελχί", "new delhi"],
-    image: "images/country-flags/india.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/india.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ισλαμαμπάντ", "islamabad"],
-    image: "images/country-flags/pakistan.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/pakistan.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["μπανγκόκ", "bangkok"],
-    image: "images/country-flags/thailand.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/thailand.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ανόι", "hanoi"],
-    image: "images/country-flags/vietnam.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/vietnam.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τζακάρτα", "jakarta"],
-    image: "images/country-flags/indonesia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/indonesia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["μανίλα", "manila"],
-    image: "images/country-flags/philippines.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/philippines.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["καμπέρα", "canberra"],
-    image: "images/country-flags/australia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/australia.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ουέλινγκτον", "wellington"],
-    image: "images/country-flags/new-zealand.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/new-zealand.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["κάιρο", "cairo"],
-    image: "images/country-flags/egypt.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/egypt.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["ραμπάτ", "rabat"],
-    image: "images/country-flags/morocco.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/morocco.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["πρετόρια", "pretoria"],
-    image: "images/country-flags/south-africa.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/south-africa.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["ριάντ", "riyadh"],
-    image: "images/country-flags/saudi-arabia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/saudi-arabia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["αμπού ντάμπι", "abu dhabi"],
-    image: "images/country-flags/united-arab-emirates.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/united-arab-emirates.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ιερουσαλήμ", "jerusalem"],
-    image: "images/country-flags/israel.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/israel.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["σιγκαπούρη", "singapore"],
-    image: "images/country-flags/singapore.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/singapore.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["κουάλα λουμπούρ", "kuala lumpur"],
-    image: "images/country-flags/malaysia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/malaysia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ντόχα", "doha"],
-    image: "images/country-flags/qatar.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/qatar.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ζάγκρεμπ", "zagreb"],
-    image: "images/country-flags/croatia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/croatia.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["βελιγράδι", "belgrade"],
-    image: "images/country-flags/serbia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/serbia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["λιουμπλιάνα", "ljubljana"],
-    image: "images/country-flags/slovenia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/slovenia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["μπρατισλάβα", "bratislava"],
-    image: "images/country-flags/slovakia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/slovakia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["σαράγεβο", "sarajevo"],
-    image: "images/country-flags/bosnia-and-herzegovina.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/bosnia-and-herzegovina.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ποντγκόριτσα", "podgorica"],
-    image: "images/country-flags/montenegro.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/montenegro.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["σκόπια", "skopje"],
-    image: "images/country-flags/north-macedonia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/north-macedonia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τίρανα", "tirana"],
-    image: "images/country-flags/albania.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/albania.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["λευκωσία", "nicosia"],
-    image: "images/country-flags/cyprus.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/cyprus.jpg",
     difficulty: "easy"
 },
 
 {
     answers: ["βίλνιους", "vilnius"],
-    image: "images/country-flags/lithuania.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/lithuania.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ρίγα", "riga"],
-    image: "images/country-flags/latvia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/latvia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τάλιν", "tallinn"],
-    image: "images/country-flags/estonia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/estonia.jpg",
     difficulty: "medium"
 },
 
@@ -1999,202 +1999,202 @@ mythology: [
 
 {
     answers: ["αστάνα", "astana"],
-    image: "images/country-flags/kazakhstan.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/kazakhstan.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τάσкент", "tashkent"],
-    image: "images/country-flags/uzbekistan.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/uzbekistan.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["ασγκαμπάτ", "ashgabat"],
-    image: "images/country-flags/turkmenistan.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/turkmenistan.jpg",
     difficulty: "hard"
 },
 
 
 {
     answers: ["ντουσάνμπε", "dushanbe"],
-    image: "images/country-flags/tajikistan.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/tajikistan.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["κατμαντού", "kathmandu"],
-    image: "images/country-flags/nepal.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/nepal.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ντάκα", "dhaka"],
-    image: "images/country-flags/bangladesh.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/bangladesh.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["σρι τζαγιαγουαρντενεπούρα κότε", "sri jayawardenepura kotte"],
-    image: "images/country-flags/sri-lanka.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/sri-lanka.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["ουλάν μπατόρ", "ulaanbaatar", "ulan bator"],
-    image: "images/country-flags/mongolia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/mongolia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ταϊπέι", "taipei"],
-    image: "images/country-flags/taiwan.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/taiwan.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["πνομ πενχ", "phnom penh"],
-    image: "images/country-flags/cambodia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/cambodia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["βιεντιάν", "vientiane"],
-    image: "images/country-flags/laos.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/laos.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["νεπιντό", "naypyidaw"],
-    image: "images/country-flags/myanmar.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/myanmar.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["μπαντάρ σερί μπεγκαβάν", "bandar seri begawan"],
-    image: "images/country-flags/brunei.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/brunei.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["πορτ μόρεσμπι", "port moresby"],
-    image: "images/country-flags/papua-new-guinea.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/papua-new-guinea.jpg",
     difficulty: "hard"
 },
 
 
 {
     answers: ["ρέικιαβικ", "reykjavik"],
-    image: "images/country-flags/iceland.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/iceland.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["λουξεμβούργο", "luxembourg"],
-    image: "images/country-flags/luxembourg.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/luxembourg.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["βαντούζ", "vaduz"],
-    image: "images/country-flags/liechtenstein.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/liechtenstein.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["ανδόρα λα βέγια", "andorra la vella"],
-    image: "images/country-flags/andorra.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/andorra.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["μονακό", "monaco"],
-    image: "images/country-flags/monaco.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/monaco.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["άγιος μαρίνος", "san marino"],
-    image: "images/country-flags/san-marino.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/san-marino.jpg",
     difficulty: "hard"
 },
 
 {
     answers: ["πόλη του βατικανού", "vatican city"],
-    image: "images/country-flags/vatican-city.png",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/vatican-city.png",
     difficulty: "medium"
 },
 
 {
     answers: ["βαλέτα", "valletta"],
-    image: "images/country-flags/malta.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/malta.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τυνήσια", "tunis"],
-    image: "images/country-flags/tunisia.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/tunisia.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["αλγέρι", "algiers"],
-    image: "images/country-flags/algeria.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/algeria.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["τρίπολη", "tripoli"],
-    image: "images/country-flags/libya.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/libya.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["αμπούτζα", "abuja"],
-    image: "images/country-flags/nigeria.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/nigeria.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["ναϊρόμπι", "nairobi"],
-    image: "images/country-flags/kenya.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/kenya.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["αντίς αμπέμπα", "addis ababa"],
-    image: "images/country-flags/ethiopia.png",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/ethiopia.png",
     difficulty: "medium"
 },
 
 {
     answers: ["ντοντόμα", "dodoma"],
-    image: "images/country-flags/tanzania.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/tanzania.jpg",
     difficulty: "hard"
 },
 
 
 {
     answers: ["καράκας", "caracas"],
-    image: "images/country-flags/venezuela.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/venezuela.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["κίτο", "quito"],
-    image: "images/country-flags/ecuador.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/ecuador.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["μοντεβιδέο", "montevideo"],
-    image: "images/country-flags/uruguay.jpg",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/uruguay.jpg",
     difficulty: "medium"
 },
 
 {
     answers: ["αβάνα", "havana"],
-    image: "images//cuba.png",
+    image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev//cuba.png",
     difficulty: "medium"
 },
 
@@ -2204,407 +2204,407 @@ mythology: [
 "superheroes": [
     {
         "answers": ["σπάιντερ-μαν", "spider-man", "σπάιντερμαν"],
-        "image": "images/superheroes/spiderman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/spiderman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["άιρον μάν", "iron man", "αϊρον μαν"],
-        "image": "images/superheroes/ironman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/ironman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κάπτεν αμέρικα", "captain america"],
-        "image": "images/superheroes/captain-america.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/captain-america.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["θορ", "thor"],
-        "image": "images/superheroes/thor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/thor.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["χαλκ", "hulk"],
-        "image": "images/superheroes/hulk.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/hulk.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπλακ γουίντοου", "black widow"],
-        "image": "images/superheroes/black-widow.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/black-widow.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["χόουκϊ", "hawkeye"],
-        "image": "images/superheroes/hawkeye.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/hawkeye.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["δρ. στρέιντζ", "doctor strange", "ντόκτορ στρέιντζ"],
-        "image": "images/superheroes/doctor-strange.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/doctor-strange.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σκάρλετ γουίτς", "scarlet witch"],
-        "image": "images/superheroes/scarlet-witch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/scarlet-witch.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπλακ πάνθερ", "black panther"],
-        "image": "images/superheroes/black-panther.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/black-panther.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["άντ-μαν", "ant-man", "αντμαν"],
-        "image": "images/superheroes/ant-man.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/ant-man.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κάπτεν μάρβελ", "captain marvel"],
-        "image": "images/superheroes/captain-marvel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/captain-marvel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["στάρ-λόρντ", "star-lord", "σταρ λοντ"],
-        "image": "images/superheroes/star-lord.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/star-lord.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γκρουτ", "groot"],
-        "image": "images/superheroes/groot.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/groot.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ρόκετ ρακούν", "rocket raccoon"],
-        "image": "images/superheroes/rocket-raccoon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/rocket-raccoon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["λόκι", "loki"],
-        "image": "images/superheroes/loki.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/loki.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["θάνος", "thanos"],
-        "image": "images/superheroes/thanos.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/thanos.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ντεντπουλ", "deadpool"],
-        "image": "images/superheroes/deadpool.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/deadpool.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γουλβεριν", "wolverine", "γουουλβεριν"],
-        "image": "images/superheroes/wolverine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/wolverine.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["βενόμ", "venom"],
-        "image": "images/superheroes/venom.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/venom.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πράσινος γκόμπλιν", "green goblin"],
-        "image": "images/superheroes/green-goblin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/green-goblin.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["δρ. οκτώπους", "doctor octopus", "δοκτορ οκτωπους"],
-        "image": "images/superheroes/doctor-octopus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/doctor-octopus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σάντμαν", "sandman"],
-        "image": "images/superheroes/sandman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/sandman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπάτμαν", "batman"],
-        "image": "images/superheroes/batman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/batman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σούπερμαν", "superman"],
-        "image": "images/superheroes/superman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/superman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γούοντερ γούμαν", "wonder woman", "γουοντερ γουμαν"],
-        "image": "images/superheroes/wonder-woman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/wonder-woman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["φλας", "flash"],
-        "image": "images/superheroes/flash.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/flash.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ακουαμάν", "aquaman"],
-        "image": "images/superheroes/aquaman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/aquaman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζόκερ", "joker"],
-        "image": "images/superheroes/joker.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/joker.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["χάρλεϊ κουίν", "harley quinn"],
-        "image": "images/superheroes/harley-quinn.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/harley-quinn.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ρόμπιν", "robin"],
-        "image": "images/superheroes/robin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/robin.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κάτγουμαν", "catwoman"],
-        "image": "images/superheroes/catwoman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/catwoman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σάζαμ", "shazam"],
-        "image": "images/superheroes/shazam.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/shazam.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπλακ άνταμ", "black adam"],
-        "image": "images/superheroes/black-adam.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/black-adam.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["βίζιον", "vision"],
-        "image": "images/superheroes/vision.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/vision.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γουόσπ", "wasp"],
-        "image": "images/superheroes/wasp.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/wasp.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["φάλκον", "falcon"],
-        "image": "images/superheroes/falcon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/falcon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γουίντερ σόλντιερ", "winter soldier"],
-        "image": "images/superheroes/winter-soldier.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/winter-soldier.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γκαμόρα", "gamora"],
-        "image": "images/superheroes/gamora.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/gamora.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μουν νάιτ", "moon knight"],
-        "image": "images/superheroes/moon-knight.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/moon-knight.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ντραξ", "drax"],
-        "image": "images/superheroes/drax.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/drax.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κάρνεϊτζ", "carnage"],
-        "image": "images/superheroes/carnage.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/carnage.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μυστερίο", "mysterio"],
-        "image": "images/superheroes/mysterio.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/mysterio.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γκόουστ ράιντερ", "ghost rider"],
-        "image": "images/superheroes/ghost-rider.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/ghost-rider.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ντέρντεβιλ", "daredevil"],
-        "image": "images/superheroes/daredevil.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/daredevil.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πάνισερ", "punisher"],
-        "image": "images/superheroes/punisher.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/punisher.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μάγκνετο", "magneto"],
-        "image": "images/superheroes/magneto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/magneto.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["καθηγητής χ", "professor x"],
-        "image": "images/superheroes/professor-x.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/professor-x.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["δρ. ντουμ", "doctor doom"],
-        "image": "images/superheroes/doctor-doom.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/doctor-doom.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μίστερ φάνταστικ", "mr. fantastic"],
-        "image": "images/superheroes/mr-fantastic.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/mr-fantastic.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["αόρατη γυναίκα", "invisible woman"],
-        "image": "images/superheroes/invisible-woman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/invisible-woman.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["χιούμαν τόρτς", "human torch"],
-        "image": "images/superheroes/human-torch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/human-torch.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["θε θινγκ", "the thing"],
-        "image": "images/superheroes/the-thing.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/the-thing.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πράσινος φανός", "green lantern"],
-        "image": "images/superheroes/green-lantern.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/green-lantern.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κίμποργκ", "cyborg"],
-        "image": "images/superheroes/cyborg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/cyborg.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["νάιτγουινγκ", "nightwing"],
-        "image": "images/superheroes/nightwing.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/nightwing.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπάτγκερλ", "batgirl"],
-        "image": "images/superheroes/batgirl.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/batgirl.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λεξ λούθορ", "lex luthor"],
-        "image": "images/superheroes/lex-luthor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/lex-luthor.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπέιν", "bane"],
-        "image": "images/superheroes/bane.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/bane.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ρίδλερ", "riddler"],
-        "image": "images/superheroes/riddler.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/riddler.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σίλβερ σέρφερ", "silver surfer"],
-        "image": "images/superheroes/silver-surfer.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/silver-surfer.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πόιζον άιβι", "poison ivy"],
-        "image": "images/superheroes/poison-ivy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/poison-ivy.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σκίαρκροου", "scarecrow"],
-        "image": "images/superheroes/scarecrow.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/scarecrow.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["τού-φεϊς", "two-face"],
-        "image": "images/superheroes/two-face.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/two-face.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πράσινο βέλος", "green arrow"],
-        "image": "images/superheroes/green-arrow.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/green-arrow.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σούπεργκερλ", "supergirl"],
-        "image": "images/superheroes/supergirl.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/supergirl.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μίστερ φριζ", "mr. freeze"],
-        "image": "images/superheroes/mr-freeze.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/mr-freeze.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ράβεν", "raven"],
-        "image": "images/superheroes/raven.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/raven.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["στάρφαϊρ", "starfire"],
-        "image": "images/superheroes/starfire.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/starfire.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κλέιφες", "clayface"],
-        "image": "images/superheroes/clayface.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/clayface.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ντούμσντεϊ", "doomsday"],
-        "image": "images/superheroes/doomsday.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/doomsday.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ζατάνα", "zatanna"],
-        "image": "images/superheroes/zatanna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/zatanna.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["τσίτα", "cheetah"],
-        "image": "images/superheroes/cheetah.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/cheetah.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["σίνεστρο", "sinestro"],
-        "image": "images/superheroes/sinestro.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/sinestro.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κονσταντάιν", "constantine"],
-        "image": "images/superheroes/constantine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/constantine.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["μπλε σκαθάρι", "blue beetle"],
-        "image": "images/superheroes/blue-beetle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/blue-beetle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["μάρσιαν μάνχαντερ", "martian manhunter"],
-        "image": "images/superheroes/martian-manhunter.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/martian-manhunter.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["μπρέινιακ", "brainiac"],
-        "image": "images/superheroes/brainiac.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/brainiac.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ρεντ χουντ", "red hood"],
-        "image": "images/superheroes/red-hood.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/red-hood.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ντεθστρόουκ", "deathstroke"],
-        "image": "images/superheroes/deathstroke.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/deathstroke.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ντάρκσαϊντ", "darkseid"],
-        "image": "images/superheroes/darkseid.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/superheroes/darkseid.jpg",
         "difficulty": "hard"
     }
 ],
@@ -2612,402 +2612,402 @@ mythology: [
  animals: [
     {
         "answers": ["lion", "λιοντάρι"],
-        "image": "images/animals/lion.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/lion.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["tiger", "τίγρης"],
-        "image": "images/animals/tiger.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/tiger.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["elephant", "ελέφαντας"],
-        "image": "images/animals/elephant.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/elephant.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["giraffe", "καμηλοπάρδαλη"],
-        "image": "images/animals/giraffe.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/giraffe.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["zebra", "ζέβρα"],
-        "image": "images/animals/zebra.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/zebra.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["panda", "πάντα"],
-        "image": "images/animals/panda.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/panda.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["koala", "κοάλα"],
-        "image": "images/animals/koala.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/koala.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["wolf", "λύκος"],
-        "image": "images/animals/wolf.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/wolf.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["fox", "αλεπού"],
-        "image": "images/animals/fox.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/fox.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["kangaroo", "καγκουρό"],
-        "image": "images/animals/kangaroo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/kangaroo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["hippopotamus", "hippo", "ιπποπόταμος"],
-        "image": "images/animals/hippopotamus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/hippopotamus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rhinoceros", "rhino", "ρινόκερος"],
-        "image": "images/animals/rhinoceros.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/rhinoceros.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cheetah", "τσίτα"],
-        "image": "images/animals/cheetah.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/cheetah.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["leopard", "λεοπάρδαλη"],
-        "image": "images/animals/leopard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/leopard.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["gorilla", "γορίλας"],
-        "image": "images/animals/gorilla.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/gorilla.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["chimpanzee", "chimp", "χιμπατζής"],
-        "image": "images/animals/chimpanzee.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/chimpanzee.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["buffalo", "βούβαλος", "βουβάλι"],
-        "image": "images/animals/buffalo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/buffalo.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["camel", "καμήλα"],
-        "image": "images/animals/camel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/camel.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["polar bear", "πολική αρκούδα"],
-        "image": "images/animals/polar-bear.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/polar-bear.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bison", "βίσονας"],
-        "image": "images/animals/bison.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/bison.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["reindeer", "τάρανδος"],
-        "image": "images/animals/reindeer.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/reindeer.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["deer", "ελάφι"],
-        "image": "images/animals/deer.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/deer.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["moose", "άλκη"],
-        "image": "images/animals/moose.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/moose.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["wild boar", "αγριογούρουνο"],
-        "image": "images/animals/wild-boar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/wild-boar.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pig", "γουρούνι"],
-        "image": "images/animals/pig.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/pig.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["cow", "αγελάδα"],
-        "image": "images/animals/cow.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/cow.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bull", "ταύρος"],
-        "image": "images/animals/bull.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/bull.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["horse", "άλογο"],
-        "image": "images/animals/horse.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/horse.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["donkey", "γάιδαρος"],
-        "image": "images/animals/donkey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/donkey.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mule", "μουλάρι"],
-        "image": "images/animals/mule.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/mule.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sheep", "πρόβατο"],
-        "image": "images/animals/sheep.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/sheep.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["goat", "κατσίκα"],
-        "image": "images/animals/goat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/goat.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["llama", "λάμα"],
-        "image": "images/animals/llama.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/llama.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["alpaca", "αλπάκα"],
-        "image": "images/animals/alpaca.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/alpaca.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["otter", "βίδρα"],
-        "image": "images/animals/otter.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/otter.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["beaver", "κάστορας"],
-        "image": "images/animals/beaver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/beaver.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["squirrel", "σκίουρος"],
-        "image": "images/animals/squirrel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/squirrel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["hedgehog", "σκαντζόχοιρος"],
-        "image": "images/animals/hedgehog.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/hedgehog.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["raccoon", "ρακούν"],
-        "image": "images/animals/raccoon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/raccoon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sloth", "βραδύπους"],
-        "image": "images/animals/sloth.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/sloth.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["monkey", "μαϊμού"],
-        "image": "images/animals/monkey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/monkey.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["orangutan", "ουρακοτάγκος"],
-        "image": "images/animals/orangutan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/orangutan.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mandrill", "μανδρίλος"],
-        "image": "images/animals/mandrill.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/mandrill.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["baboon", "μπαμπουίνος"],
-        "image": "images/animals/baboon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/baboon.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["hyena", "ύαινα"],
-        "image": "images/animals/hyena.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/hyena.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["coyote", "κογιότ"],
-        "image": "images/animals/coyote.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/coyote.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jackal", "τσακάλι"],
-        "image": "images/animals/jackal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/jackal.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["armadillo", "αρμαντίλο"],
-        "image": "images/animals/armadillo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/armadillo.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["anteater", "μυρμηγκοφάγος"],
-        "image": "images/animals/anteater.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/anteater.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["pangolin", "παγκολίνος"],
-        "image": "images/animals/pangolin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/pangolin.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["wallaby", "γουάλαμπι"],
-        "image": "images/animals/wallaby.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/wallaby.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["wombat", "γουόμπατ"],
-        "image": "images/animals/wombat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/wombat.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["tapir", "τάπιρος"],
-        "image": "images/animals/tapir.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/tapir.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["okapi", "οκάπι"],
-        "image": "images/animals/okapi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/okapi.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["lemur", "λεμούριος"],
-        "image": "images/animals/lemur.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/lemur.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["meerkat", "σουρικάτα"],
-        "image": "images/animals/meerkat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/meerkat.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bat", "νυχτερίδα"],
-        "image": "images/animals/bat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/bat.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rabbit", "κουνέλι"],
-        "image": "images/animals/rabbit.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/rabbit.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mouse", "ποντικός"],
-        "image": "images/animals/mouse.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/mouse.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rat", "αρουραίος"],
-        "image": "images/animals/rat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/rat.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["dog", "σκύλος"],
-        "image": "images/animals/dog.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/dog.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["cat", "γάτα"],
-        "image": "images/animals/cat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/cat.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bear", "αρκούδα"],
-        "image": "images/animals/bear.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/bear.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["panther", "πάνθηρας"],
-        "image": "images/animals/panther.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/panther.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jaguar", "ιαγουάρος"],
-        "image": "images/animals/jaguar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/jaguar.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["puma", "πούμα"],
-        "image": "images/animals/puma.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/puma.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lynx", "λύγκας"],
-        "image": "images/animals/lynx.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/lynx.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["red panda", "κόκκινο πάντα"],
-        "image": "images/animals/red-panda.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/red-panda.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["seal", "φώκια"],
-        "image": "images/animals/seal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/seal.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["elephant seal", "θαλάσσιος ελέφαντας"],
-        "image": "images/animals/elephant-seal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/elephant-seal.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sea lion", "θαλάσσιο λιοντάρι"],
-        "image": "images/animals/sea-lion.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/sea-lion.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["walrus", "θαλάσσιος ίππος"],
-        "image": "images/animals/walrus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/walrus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["badger", "ασβός"],
-        "image": "images/animals/badger.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/badger.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ferret", "κουνάβι"],
-        "image": "images/animals/ferret.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/ferret.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["vicuna", "βίκουνα"],
-        "image": "images/animals/vicuna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/vicuna.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["yak", "γιάκ"],
-        "image": "images/animals/yak.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/yak.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["gazelle", "γαζέλα"],
-        "image": "images/animals/gazelle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/gazelle.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["antelope", "αντιλόπη"],
-        "image": "images/animals/antelope.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/antelope.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["slow loris", "λόρις"],
-        "image": "images/animals/slow-loris.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/slow-loris.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["caracal", "καρακάλ"],
-        "image": "images/animals/caracal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/animals/caracal.jpg",
         "difficulty": "hard"
     }
 ],
@@ -3015,397 +3015,397 @@ mythology: [
     birds: [
     {
         "answers": ["eagle", "αετός"],
-        "image": "images/birds/eagle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/eagle.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["hawk", "γεράκι"],
-        "image": "images/birds/hawk.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/hawk.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["owl", "κουκουβάγια"],
-        "image": "images/birds/owl.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/owl.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["parrot", "παπαγάλος"],
-        "image": "images/birds/parrot.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/parrot.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["flamingo", "φλαμίνγκο"],
-        "image": "images/birds/flamingo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/flamingo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["peacock", "παγώνι"],
-        "image": "images/birds/peacock.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/peacock.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["swan", "κύκνος"],
-        "image": "images/birds/swan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/swan.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pelican", "πελεκάνος"],
-        "image": "images/birds/pelican.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/pelican.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["penguin", "πιγκουίνος"],
-        "image": "images/birds/penguin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/penguin.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ostrich", "στρουθοκάμηλος"],
-        "image": "images/birds/ostrich.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/ostrich.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["seagull", "γλάρος"],
-        "image": "images/birds/seagull.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/seagull.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["raven", "κόρακας"],
-        "image": "images/birds/raven.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/raven.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["crow", "κοράκι"],
-        "image": "images/birds/crow.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/crow.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["vulture", "γύπας"],
-        "image": "images/birds/vulture.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/vulture.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["goldfinch", "καρδερίνα"],
-        "image": "images/birds/goldfinch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/goldfinch.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["canary", "καναρίνι"],
-        "image": "images/birds/canary.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/canary.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["swallow", "χελιδόνι"],
-        "image": "images/birds/swallow.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/swallow.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pigeon", "περιστέρι"],
-        "image": "images/birds/pigeon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/pigeon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rooster", "κόκορας"],
-        "image": "images/birds/rooster.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/rooster.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["chicken", "κότα", "κοτόπουλο"],
-        "image": "images/birds/chicken.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/chicken.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["duck", "πάπια"],
-        "image": "images/birds/duck.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/duck.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["goose", "χήνα"],
-        "image": "images/birds/goose.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/goose.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["turkey", "γαλοπούλα"],
-        "image": "images/birds/turkey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/turkey.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["quail", "ορτύκι"],
-        "image": "images/birds/quail.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/quail.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pheasant", "φασιανός"],
-        "image": "images/birds/pheasant.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/pheasant.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["heron", "ερωδιός"],
-        "image": "images/birds/heron.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/heron.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["egret", "λευκοτσικνιάς"],
-        "image": "images/birds/egret.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/egret.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["stork", "πελαργός"],
-        "image": "images/birds/stork.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/stork.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["kingfisher", "αλκυόνη"],
-        "image": "images/birds/kingfisher.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/kingfisher.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["woodpecker", "δρυοκολάπτης"],
-        "image": "images/birds/woodpecker.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/woodpecker.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sparrow", "σπουργίτι"],
-        "image": "images/birds/sparrow.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/sparrow.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["robin", "κοκκινολαίμης"],
-        "image": "images/birds/robin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/robin.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["magpie", "κίσσα"],
-        "image": "images/birds/magpie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/magpie.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jay", "καρακάξα"],
-        "image": "images/birds/jay.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/jay.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["starling", "ψαρόνι"],
-        "image": "images/birds/starling.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/starling.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lark", "κορυδαλλός"],
-        "image": "images/birds/lark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/lark.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["scops owl", "γκιώνης"],
-        "image": "images/birds/scops-owl.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/scops-owl.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["eleonoras falcon", "μαυροπετρίτης"],
-        "image": "images/birds/eleonoras-falcon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/eleonoras-falcon.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["black-winged stilt", "καλαμοκανάς"],
-        "image": "images/birds/black-winged-stilt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/black-winged-stilt.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["glossy ibis", "χαλκόκοτα", "χαλκόκοτας"],
-        "image": "images/birds/glossy-ibis.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/glossy-ibis.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["cockatoo", "κακατούα"],
-        "image": "images/birds/cockatoo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/cockatoo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["macaw", "μακάο"],
-        "image": "images/birds/macaw.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/macaw.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["toucan", "τουκάν"],
-        "image": "images/birds/toucan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/toucan.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["hummingbird", "κολιμπρί"],
-        "image": "images/birds/hummingbird.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/hummingbird.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["emu", "εμού"],
-        "image": "images/birds/emu.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/emu.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cassowary", "κασοβάριος"],
-        "image": "images/birds/cassowary.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/cassowary.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["crane", "γερανός"],
-        "image": "images/birds/crane.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/crane.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["partridge", "πέρδικα"],
-        "image": "images/birds/partridge.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/partridge.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["woodcock", "μπεκάτσα"],
-        "image": "images/birds/woodcock.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/woodcock.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["snipe", "μπεκατσίνι"],
-        "image": "images/birds/snipe.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/snipe.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["cormorant", "λαγγόνα"],
-        "image": "images/birds/cormorant.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/cormorant.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["frigatebird", "φρεγάτα"],
-        "image": "images/birds/frigatebird.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/frigatebird.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["albatross", "άλμπατρος"],
-        "image": "images/birds/albatross.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/albatross.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["shag", "θαλασσοκόρακας"],
-        "image": "images/birds/shag.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/shag.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["cardinal", "καρδινάλιος"],
-        "image": "images/birds/cardinal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/cardinal.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["blue jay", "μπλε τζέι"],
-        "image": "images/birds/blue-jay.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/blue-jay.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tawny owl", "καφετιά κουκουβάγια"],
-        "image": "images/birds/tawny-owl.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/tawny-owl.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["snowy owl", "χιονόκουκου", "χιονόκουκουβαγια"],
-        "image": "images/birds/snowy-owl.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/snowy-owl.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["harpy eagle", "αρπυία"],
-        "image": "images/birds/harpy-eagle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/harpy-eagle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sea eagle", "θαλασσαετός"],
-        "image": "images/birds/sea-eagle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/sea-eagle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["linnet", "καναβούρι"],
-        "image": "images/birds/linnet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/linnet.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["chaffinch", "σπίνος"],
-        "image": "images/birds/chaffinch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/chaffinch.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["greenfinch", "φλώρος"],
-        "image": "images/birds/greenfinch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/greenfinch.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["crossbill", "σταυρομύτης"],
-        "image": "images/birds/crossbill.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/crossbill.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["kestrel", "κιρκινέζι"],
-        "image": "images/birds/kestrel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/kestrel.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["peregrine falcon", "πετρίτης"],
-        "image": "images/birds/peregrine-falcon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/peregrine-falcon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["goshawk", "σαΐνι"],
-        "image": "images/birds/goshawk.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/goshawk.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["short-toed eagle", "φιδαετός"],
-        "image": "images/birds/short-toed-eagle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/short-toed-eagle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["bee-eater", "μελισσοφάγος"],
-        "image": "images/birds/bee-eater.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/bee-eater.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["hoopoe", "τσαλαπετεινός"],
-        "image": "images/birds/hoopoe.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/hoopoe.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["moorhen", "νερόκοτα"],
-        "image": "images/birds/moorhen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/moorhen.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["coot", "φαλαρίδα"],
-        "image": "images/birds/coot.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/coot.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["tern", "γλαρόνι"],
-        "image": "images/birds/tern.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/tern.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["spotted eagle", "στικταετός"],
-        "image": "images/birds/spotted-eagle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/spotted-eagle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ferruginous duck", "βαλτόπαπια"],
-        "image": "images/birds/ferruginous-duck.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/ferruginous-duck.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["dalmatian pelican", "αργυροπελεκάνος"],
-        "image": "images/birds/dalmatian-pelican.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/dalmatian-pelican.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["great white pelican", "ροδοπελεκάνος"],
-        "image": "images/birds/great-white-pelican.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/great-white-pelican.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["black stork", "μαυροπελαργός"],
-        "image": "images/birds/black-stork.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/black-stork.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["white stork", "λευκοπελαργός"],
-        "image": "images/birds/white-stork.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/white-stork.jpg",
         "difficulty": "medium"
     }
 ],
@@ -3413,814 +3413,814 @@ mythology: [
     "snakes-reptiles-amphibians": [
     {
         "answers": ["king cobra", "βασιλική κόμπρα"],
-        "image": "images/snakes-reptiles-amphibians/king-cobra.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/king-cobra.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["black mamba", "μαύρη μάμπα"],
-        "image": "images/snakes-reptiles-amphibians/black-mamba.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/black-mamba.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["python", "πύθωνας"],
-        "image": "images/snakes-reptiles-amphibians/python.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/python.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["anaconda", "ανακόντα"],
-        "image": "images/snakes-reptiles-amphibians/anaconda.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/anaconda.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rattlesnake", "κροταλίας"],
-        "image": "images/snakes-reptiles-amphibians/rattlesnake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/rattlesnake.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["cobra", "κόμπρα"],
-        "image": "images/snakes-reptiles-amphibians/cobra.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/cobra.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["viper", "οχιά"],
-        "image": "images/snakes-reptiles-amphibians/viper.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/viper.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["boa", "βόας"],
-        "image": "images/snakes-reptiles-amphibians/boa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/boa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["coral snake", "κοραλλιογενές φίδι"],
-        "image": "images/snakes-reptiles-amphibians/coral-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/coral-snake.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sea snake", "θαλάσσιο φίδι"],
-        "image": "images/snakes-reptiles-amphibians/sea-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/sea-snake.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["taipan", "ταϊπάν"],
-        "image": "images/snakes-reptiles-amphibians/taipan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/taipan.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["boomslang", "μπουμσλανγκ"],
-        "image": "images/snakes-reptiles-amphibians/boomslang.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/boomslang.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["tree snake", "δενδρόφιδο"],
-        "image": "images/snakes-reptiles-amphibians/tree-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/tree-snake.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["green mamba", "πράσινη μάμπα"],
-        "image": "images/snakes-reptiles-amphibians/green-mamba.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/green-mamba.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["cat snake", "γάτα φίδι"],
-        "image": "images/snakes-reptiles-amphibians/cat-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/cat-snake.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["gaboon viper", "φίδι γκαμπούν", "οχιά γκαμπούν"],
-        "image": "images/snakes-reptiles-amphibians/gaboon-viper.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/gaboon-viper.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["indigo snake", "ίντιγκο φίδι"],
-        "image": "images/snakes-reptiles-amphibians/indigo-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/indigo-snake.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["corn snake", "φίδι καλαμποκιού"],
-        "image": "images/snakes-reptiles-amphibians/corn-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/corn-snake.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["kingsnake", "βασιλόφιδο"],
-        "image": "images/snakes-reptiles-amphibians/kingsnake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/kingsnake.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["milk snake", "γάλα φίδι"],
-        "image": "images/snakes-reptiles-amphibians/milk-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/milk-snake.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["crocodile", "κροκόδειλος"],
-        "image": "images/snakes-reptiles-amphibians/crocodile.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/crocodile.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["alligator", "αλιγάτορας"],
-        "image": "images/snakes-reptiles-amphibians/alligator.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/alligator.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["caiman", "καϊμάν"],
-        "image": "images/snakes-reptiles-amphibians/caiman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/caiman.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["gharial", "γάβιαλος"],
-        "image": "images/snakes-reptiles-amphibians/gharial.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/gharial.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["komodo dragon", "δράκος του κομόντο"],
-        "image": "images/snakes-reptiles-amphibians/komodo-dragon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/komodo-dragon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["iguana", "ιγκουάνα"],
-        "image": "images/snakes-reptiles-amphibians/iguana.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/iguana.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["chameleon", "χαμαιλέοντας"],
-        "image": "images/snakes-reptiles-amphibians/chameleon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/chameleon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["gecko", "γκέκο"],
-        "image": "images/snakes-reptiles-amphibians/gecko.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/gecko.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["salamander", "σαλαμάνδρα"],
-        "image": "images/snakes-reptiles-amphibians/salamander.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/salamander.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["newt", "τρίτωνας"],
-        "image": "images/snakes-reptiles-amphibians/newt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/newt.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["frog", "βάτραχος"],
-        "image": "images/snakes-reptiles-amphibians/frog.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/frog.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["toad", "φρύνος"],
-        "image": "images/snakes-reptiles-amphibians/toad.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/toad.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["tree frog", "δενδροβάτραχος"],
-        "image": "images/snakes-reptiles-amphibians/tree-frog.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/tree-frog.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tortoise", "χελώνα"],
-        "image": "images/snakes-reptiles-amphibians/tortoise.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/tortoise.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sea turtle", "θαλάσσια χελώνα"],
-        "image": "images/snakes-reptiles-amphibians/sea-turtle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/sea-turtle.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["leatherback turtle", "δερματοχελώνα"],
-        "image": "images/snakes-reptiles-amphibians/leatherback-turtle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/leatherback-turtle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["softshell turtle", "μαλακή χελώνα"],
-        "image": "images/snakes-reptiles-amphibians/softshell-turtle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/softshell-turtle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["lizard", "σαύρα"],
-        "image": "images/snakes-reptiles-amphibians/lizard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/lizard.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["skink", "σκίγκος"],
-        "image": "images/snakes-reptiles-amphibians/skink.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/skink.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["agama", "αγκάμα"],
-        "image": "images/snakes-reptiles-amphibians/agama.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/agama.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["basilisk lizard", "βασιλίσκος"],
-        "image": "images/snakes-reptiles-amphibians/basilisk-lizard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/basilisk-lizard.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["bearded dragon", "γενειοφόρος δράκος"],
-        "image": "images/snakes-reptiles-amphibians/bearded-dragon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/bearded-dragon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["monitor lizard", "μονίτορ σαύρα"],
-        "image": "images/snakes-reptiles-amphibians/monitor-lizard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/monitor-lizard.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tegu", "τέγκου"],
-        "image": "images/snakes-reptiles-amphibians/tegu.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/tegu.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["gila monster", "γκίλα τέρας"],
-        "image": "images/snakes-reptiles-amphibians/gila-monster.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/gila-monster.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mexican beaded lizard", "μεξικανική σαύρα με χάντρες"],
-        "image": "images/snakes-reptiles-amphibians/mexican-beaded-lizard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/mexican-beaded-lizard.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["tree lizard", "δενδροσαύρα"],
-        "image": "images/snakes-reptiles-amphibians/tree-lizard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/tree-lizard.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["anole", "ανόλη"],
-        "image": "images/snakes-reptiles-amphibians/anole.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/anole.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["blind snake", "τυφλόφιδο"],
-        "image": "images/snakes-reptiles-amphibians/blind-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/blind-snake.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["copperhead", "χάλκινο φίδι"],
-        "image": "images/snakes-reptiles-amphibians/copperhead.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/copperhead.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cottonmouth", "μοκασίνι του νερού"],
-        "image": "images/snakes-reptiles-amphibians/cottonmouth.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/cottonmouth.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["horned viper", "οχιά με κέρατα"],
-        "image": "images/snakes-reptiles-amphibians/horned-viper.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/horned-viper.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["marine iguana", "θαλάσσια ιγκουάνα"],
-        "image": "images/snakes-reptiles-amphibians/marine-iguana.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/marine-iguana.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["leopard gecko", "γκέκο λεοπάρδαλη"],
-        "image": "images/snakes-reptiles-amphibians/leopard-gecko.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/leopard-gecko.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["blue-tongue skink", "μπλε γλώσσα σκίγκος"],
-        "image": "images/snakes-reptiles-amphibians/blue-tongue-skink.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/blue-tongue-skink.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["axolotl", "αξολότλ"],
-        "image": "images/snakes-reptiles-amphibians/axolotl.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/axolotl.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["poison dart frog", "δηλητηριώδης βάτραχος"],
-        "image": "images/snakes-reptiles-amphibians/poison-dart-frog.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/poison-dart-frog.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bullfrog", "ταυροβάτραχος"],
-        "image": "images/snakes-reptiles-amphibians/bullfrog.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/bullfrog.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["caecilian", "καικίλιος"],
-        "image": "images/snakes-reptiles-amphibians/caecilian.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/caecilian.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["green tree snake", "πράσινο δενδρόφιδο"],
-        "image": "images/snakes-reptiles-amphibians/green-tree-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/green-tree-snake.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["vine snake", "φίδι αμπελιού"],
-        "image": "images/snakes-reptiles-amphibians/vine-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/vine-snake.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["kukri snake", "δίκρωμο φίδι"],
-        "image": "images/snakes-reptiles-amphibians/kukri-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/kukri-snake.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["black python", "μαύρος πύθωνας"],
-        "image": "images/snakes-reptiles-amphibians/black-python.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/black-python.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["green tree python", "πράσινος πύθωνας"],
-        "image": "images/snakes-reptiles-amphibians/green-tree-python.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/green-tree-python.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rock python", "βραχώδης πύθωνας"],
-        "image": "images/snakes-reptiles-amphibians/rock-python.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/rock-python.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["red-tail boa", "ερυθρός βόας"],
-        "image": "images/snakes-reptiles-amphibians/red-tail-boa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/red-tail-boa.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["alligator snapping turtle", "χελώνα αλιγάτορας"],
-        "image": "images/snakes-reptiles-amphibians/alligator-snapping-turtle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/alligator-snapping-turtle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["map turtle", "χαρτοχελώνα"],
-        "image": "images/snakes-reptiles-amphibians/map-turtle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/map-turtle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["green sea turtle", "πράσινη θαλάσσια χελώνα"],
-        "image": "images/snakes-reptiles-amphibians/green-sea-turtle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/green-sea-turtle.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["red-footed tortoise", "ερυθροπόδαρη χελώνα"],
-        "image": "images/snakes-reptiles-amphibians/red-footed-tortoise.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/red-footed-tortoise.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["leopard tortoise", "λεοπάρ χελώνα"],
-        "image": "images/snakes-reptiles-amphibians/leopard-tortoise.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/leopard-tortoise.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["frilled lizard", "σαύρα με λοφίο"],
-        "image": "images/snakes-reptiles-amphibians/frilled-lizard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/frilled-lizard.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["glass lizard", "γυάλινη σαύρα"],
-        "image": "images/snakes-reptiles-amphibians/glass-lizard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/glass-lizard.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["horned frog", "κερασφόρος βάτραχος"],
-        "image": "images/snakes-reptiles-amphibians/horned-frog.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/horned-frog.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["african bullfrog", "βάτραχος ταύρος αφρικής"],
-        "image": "images/snakes-reptiles-amphibians/african-bullfrog.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/african-bullfrog.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["fire salamander", "πυριτόσαυρα"],
-        "image": "images/snakes-reptiles-amphibians/fire-salamander.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/fire-salamander.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tiger salamander", "τίγρης σαλαμάνδρα"],
-        "image": "images/snakes-reptiles-amphibians/tiger-salamander.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/tiger-salamander.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["chinese giant salamander", "κινέζικη γιγάντια σαλαμάνδρα"],
-        "image": "images/snakes-reptiles-amphibians/chinese-giant-salamander.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/chinese-giant-salamander.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["japanese giant salamander", "ιαπωνική γιγάντια σαλαμάνδρα"],
-        "image": "images/snakes-reptiles-amphibians/japanese-giant-salamander.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/snakes-reptiles-amphibians/japanese-giant-salamander.jpg",
         "difficulty": "hard"
     }
 ],
     "sea-animals": [
     {
         "answers": ["great white shark", "μεγάλος λευκός καρχαρίας"],
-        "image": "images/sea-animals/great-white-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/great-white-shark.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["tiger shark", "καρχαρίας τίγρης"],
-        "image": "images/sea-animals/tiger-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/tiger-shark.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["hammerhead shark", "σφυροκέφαλος καρχαρίας"],
-        "image": "images/sea-animals/hammerhead-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/hammerhead-shark.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["whale", "φάλαινα"],
-        "image": "images/sea-animals/whale.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/whale.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["blue whale", "γαλάζια φάλαινα"],
-        "image": "images/sea-animals/blue-whale.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/blue-whale.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["orca", "όρκα"],
-        "image": "images/sea-animals/orca.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/orca.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["dolphin", "δελφίνι"],
-        "image": "images/sea-animals/dolphin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/dolphin.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sperm whale", "φυσητήρας"],
-        "image": "images/sea-animals/sperm-whale.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/sperm-whale.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["beluga", "μπελούγκα"],
-        "image": "images/sea-animals/beluga.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/beluga.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["narwhal", "ναρβάλ"],
-        "image": "images/sea-animals/narwhal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/narwhal.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["false killer whale", "φάλαινα όρκα ψευδής"],
-        "image": "images/sea-animals/false-killer-whale.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/false-killer-whale.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["seal", "φώκια"],
-        "image": "images/sea-animals/seal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/seal.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sea lion", "θαλάσσιο λιοντάρι"],
-        "image": "images/sea-animals/sea-lion.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/sea-lion.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["walrus", "θαλάσσιος ίππος"],
-        "image": "images/sea-animals/walrus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/walrus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["manatee", "μανάτι"],
-        "image": "images/sea-animals/manatee.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/manatee.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["dugong", "δουγκόνγκος"],
-        "image": "images/sea-animals/dugong.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/dugong.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["octopus", "χταπόδι"],
-        "image": "images/sea-animals/octopus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/octopus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["giant pacific octopus", "γιγάντιο χταπόδι του ειρηνικού"],
-        "image": "images/sea-animals/giant-pacific-octopus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/giant-pacific-octopus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["squid", "καλαμάρι"],
-        "image": "images/sea-animals/squid.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/squid.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["giant squid", "γιγάντιο καλαμάρι"],
-        "image": "images/sea-animals/giant-squid.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/giant-squid.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cuttlefish", "σουπιά"],
-        "image": "images/sea-animals/cuttlefish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/cuttlefish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["nautilus", "ναυτίλος"],
-        "image": "images/sea-animals/nautilus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/nautilus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["lobster", "αστακός"],
-        "image": "images/sea-animals/lobster.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/lobster.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["crab", "καβούρι"],
-        "image": "images/sea-animals/crab.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/crab.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["king crab", "βασιλικό καβούρι"],
-        "image": "images/sea-animals/king-crab.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/king-crab.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["shrimp", "γαρίδα"],
-        "image": "images/sea-animals/shrimp.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/shrimp.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mantis shrimp", "γαρίδα μάντις"],
-        "image": "images/sea-animals/mantis-shrimp.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/mantis-shrimp.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["crayfish", "καραβίδα"],
-        "image": "images/sea-animals/crayfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/crayfish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sea urchin", "αχινός"],
-        "image": "images/sea-animals/sea-urchin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/sea-urchin.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["starfish", "αστερίας"],
-        "image": "images/sea-animals/starfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/starfish.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sea cucumber", "αγγούρι της θάλασσας"],
-        "image": "images/sea-animals/sea-cucumber.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/sea-cucumber.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jellyfish", "μέδουσα"],
-        "image": "images/sea-animals/jellyfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/jellyfish.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["portuguese man-of-war", "πορτογαλική καραβέλα"],
-        "image": "images/sea-animals/portuguese-man-of-war.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/portuguese-man-of-war.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["coral", "κοράλλι"],
-        "image": "images/sea-animals/coral.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/coral.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sea sponge", "σφουγγάρι"],
-        "image": "images/sea-animals/sea-sponge.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/sea-sponge.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["chiton", "χιτώνας"],
-        "image": "images/sea-animals/chiton.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/chiton.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["clam", "αχιβάδα"],
-        "image": "images/sea-animals/clam.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/clam.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["oyster", "στρείδι"],
-        "image": "images/sea-animals/oyster.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/oyster.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mussel", "μύδι"],
-        "image": "images/sea-animals/mussel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/mussel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["scallop", "χτένι"],
-        "image": "images/sea-animals/scallop.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/scallop.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["stingray", "σαλάχι"],
-        "image": "images/sea-animals/stingray.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/stingray.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["manta ray", "σαλάχι μάντα"],
-        "image": "images/sea-animals/manta-ray.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/manta-ray.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["electric ray", "ηλεκτρικό σαλάχι"],
-        "image": "images/sea-animals/electric-ray.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/electric-ray.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sawfish", "πριονόψαρο"],
-        "image": "images/sea-animals/sawfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/sawfish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["swordfish", "ξιφίας"],
-        "image": "images/sea-animals/swordfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/swordfish.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sailfish", "ιστιοφόρο ψάρι"],
-        "image": "images/sea-animals/sailfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/sailfish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["marlin", "μάρλιν"],
-        "image": "images/sea-animals/marlin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/marlin.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tuna", "τόνος"],
-        "image": "images/sea-animals/tuna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/tuna.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["salmon", "σολομός"],
-        "image": "images/sea-animals/salmon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/salmon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["barracuda", "μπαρακούντα"],
-        "image": "images/sea-animals/barracuda.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/barracuda.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["eel", "χέλι"],
-        "image": "images/sea-animals/eel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/eel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["electric eel", "ηλεκτρικό χέλι"],
-        "image": "images/sea-animals/electric-eel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/electric-eel.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["seahorse", "ιππόκαμπος"],
-        "image": "images/sea-animals/seahorse.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/seahorse.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["clownfish", "ψάρι κλόουν"],
-        "image": "images/sea-animals/clownfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/clownfish.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["blue tang", "μπλε χειρουργός"],
-        "image": "images/sea-animals/blue-tang.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/blue-tang.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lionfish", "λεοντόψαρο"],
-        "image": "images/sea-animals/lionfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/lionfish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["stonefish", "πέτρινο ψάρι"],
-        "image": "images/sea-animals/stonefish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/stonefish.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["pufferfish", "ψάρι μπαλόνι"],
-        "image": "images/sea-animals/pufferfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/pufferfish.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["porcupinefish", "ψάρι σκαντζόχοιρος"],
-        "image": "images/sea-animals/porcupinefish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/porcupinefish.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["moray eel", "μορφήνα"],
-        "image": "images/sea-animals/moray-eel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/moray-eel.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["goby", "γοβιός"],
-        "image": "images/sea-animals/goby.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/goby.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["discus fish", "δίσκος"],
-        "image": "images/sea-animals/discus-fish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/discus-fish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["angelfish", "αγγελόψαρο"],
-        "image": "images/sea-animals/angelfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/angelfish.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["butterflyfish", "πεταλούδα ψάρι"],
-        "image": "images/sea-animals/butterflyfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/butterflyfish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["parrotfish", "παπαγάλος ψάρι"],
-        "image": "images/sea-animals/parrotfish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/parrotfish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["leafy seadragon", "δράκος της θάλασσας"],
-        "image": "images/sea-animals/leafy-seadragon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/leafy-seadragon.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["flying fish", "ιπτάμενο ψάρι"],
-        "image": "images/sea-animals/flying-fish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/flying-fish.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["whale shark", "καρχαρίας φάλαινα"],
-        "image": "images/sea-animals/whale-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/whale-shark.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["basking shark", "καρχαρίας προσκυνητής"],
-        "image": "images/sea-animals/basking-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/basking-shark.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bull shark", "καρχαρίας ταύρος"],
-        "image": "images/sea-animals/bull-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/bull-shark.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mako shark", "καρχαρίας μάκο"],
-        "image": "images/sea-animals/mako-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/mako-shark.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["thresher shark", "καρχαρίας αλεπού"],
-        "image": "images/sea-animals/thresher-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/thresher-shark.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["nurse shark", "καρχαρίας νοσοκόμος"],
-        "image": "images/sea-animals/nurse-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/nurse-shark.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["leopard shark", "καρχαρίας λεοπάρδαλη"],
-        "image": "images/sea-animals/leopard-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/leopard-shark.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["zebra shark", "καρχαρίας ζέβρα"],
-        "image": "images/sea-animals/zebra-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/zebra-shark.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["goblin shark", "καρχαρίας γκόμπλιν"],
-        "image": "images/sea-animals/goblin-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/goblin-shark.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["frilled shark", "καρχαρίας με φραμπαλά"],
-        "image": "images/sea-animals/frilled-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/frilled-shark.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["angel shark", "καρχαρίας αγγελούδι"],
-        "image": "images/sea-animals/angel-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/angel-shark.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["lemon shark", "καρχαρίας λεμόνι"],
-        "image": "images/sea-animals/lemon-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/lemon-shark.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["blacktip shark", "καρχαρίας μαυροπτέρυγος"],
-        "image": "images/sea-animals/blacktip-shark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/sea-animals/blacktip-shark.jpg",
         "difficulty": "medium"
     },
         {
         "answers": ["penguin", "πιγκουίνος"],
-        "image": "images/birds/penguin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/penguin.jpg",
         "difficulty": "easy"
     },
         {
         "answers": ["pelican", "πελεκάνος"],
-        "image": "images/birds/pelican.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/pelican.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["seagull", "γλάρος"],
-        "image": "images/birds/seagull.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/birds/seagull.jpg",
         "difficulty": "easy"
     }
 ],
@@ -4228,402 +4228,402 @@ mythology: [
     dinosaurs: [
     {
         "answers": ["tyrannosaurus rex", "τυραννόσαυρος ρεξ"],
-        "image": "images/dinosaurs/tyrannosaurus-rex.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/tyrannosaurus-rex.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["velociraptor", "βελοσιράπτορας"],
-        "image": "images/dinosaurs/velociraptor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/velociraptor.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["triceratops", "τρικεράτωπας"],
-        "image": "images/dinosaurs/triceratops.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/triceratops.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["stegosaurus", "στεγόσαυρος"],
-        "image": "images/dinosaurs/stegosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/stegosaurus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["brachiosaurus", "βραχιόσαυρος"],
-        "image": "images/dinosaurs/brachiosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/brachiosaurus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["diplodocus", "διπλόδοκος"],
-        "image": "images/dinosaurs/diplodocus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/diplodocus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["spinosaurus", "σπινόσαυρος"],
-        "image": "images/dinosaurs/spinosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/spinosaurus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ankylosaurus", "αγκυλόσαυρος"],
-        "image": "images/dinosaurs/ankylosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/ankylosaurus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pachycephalosaurus", "παχυκεφαλόσαυρος"],
-        "image": "images/dinosaurs/pachycephalosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/pachycephalosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["parasaurolophus", "παρασαυρόλοφος"],
-        "image": "images/dinosaurs/parasaurolophus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/parasaurolophus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["allosaurus", "αλλόσαυρος"],
-        "image": "images/dinosaurs/allosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/allosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["carnotaurus", "καρνόταυρος"],
-        "image": "images/dinosaurs/carnotaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/carnotaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["giganotosaurus", "γιγαντόσαυρος"],
-        "image": "images/dinosaurs/giganotosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/giganotosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ceratosaurus", "σερατόσαυρος"],
-        "image": "images/dinosaurs/ceratosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/ceratosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["iguanodon", "ιγκουανόδοντας"],
-        "image": "images/dinosaurs/iguanodon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/iguanodon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["corythosaurus", "κορυθόσαυρος"],
-        "image": "images/dinosaurs/corythosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/corythosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["maiasaura", "μαγιασαύρα"],
-        "image": "images/dinosaurs/maiasaura.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/maiasaura.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["compsognathus", "κομψόγναθος"],
-        "image": "images/dinosaurs/compsognathus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/compsognathus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["deinonychus", "δεϊνόνυχος"],
-        "image": "images/dinosaurs/deinonychus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/deinonychus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["utahraptor", "ουταράπτορας"],
-        "image": "images/dinosaurs/utahraptor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/utahraptor.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["apatosaurus", "απατόσαυρος"],
-        "image": "images/dinosaurs/apatosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/apatosaurus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["camarasaurus", "καμαράσαυρος"],
-        "image": "images/dinosaurs/camarasaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/camarasaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["albertosaurus", "αλβερτόσαυρος"],
-        "image": "images/dinosaurs/albertosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/albertosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["acrocanthosaurus", "ακροκανθόσαυρος"],
-        "image": "images/dinosaurs/acrocanthosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/acrocanthosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["monolophosaurus", "μονολόφοσαυρος"],
-        "image": "images/dinosaurs/monolophosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/monolophosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["oviraptor", "οβιράπτορας"],
-        "image": "images/dinosaurs/oviraptor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/oviraptor.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["gallimimus", "γκαλιμίμος"],
-        "image": "images/dinosaurs/gallimimus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/gallimimus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["therizinosaurus", "θηριζινόσαυρος"],
-        "image": "images/dinosaurs/therizinosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/therizinosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sauschenia", "σαυχένια"],
-        "image": "images/dinosaurs/sauschenia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/sauschenia.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["euoplocephalus", "ευοπλόκεφαλος"],
-        "image": "images/dinosaurs/euoplocephalus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/euoplocephalus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["protoceratops", "προτοκεράτωπας"],
-        "image": "images/dinosaurs/protoceratops.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/protoceratops.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["styracosaurus", "στυρακόσαυρος"],
-        "image": "images/dinosaurs/styracosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/styracosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pentaceratops", "πεντακεράτωπας"],
-        "image": "images/dinosaurs/pentaceratops.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/pentaceratops.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["centrosaurus", "κεντρόσαυρος"],
-        "image": "images/dinosaurs/centrosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/centrosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sauropelta", "σαουρόπελτα"],
-        "image": "images/dinosaurs/sauropelta.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/sauropelta.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["edmontosaurus", "εδμοντοσαυρος"],
-        "image": "images/dinosaurs/edmontosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/edmontosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["leaellynasaura", "ληαελλυνάσαυρα"],
-        "image": "images/dinosaurs/leaellynasaura.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/leaellynasaura.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["muttaburrasaurus", "μουτταμπούρασαυρος"],
-        "image": "images/dinosaurs/muttaburrasaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/muttaburrasaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["plateosaurus", "πλατεόσαυρος"],
-        "image": "images/dinosaurs/plateosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/plateosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["coelophysis", "κοελοφύσις"],
-        "image": "images/dinosaurs/coelophysis.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/coelophysis.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["daspletosaurus", "δασπλητόσαυρος"],
-        "image": "images/dinosaurs/daspletosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/daspletosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["tarbosaurus", "ταρβόσαυρος"],
-        "image": "images/dinosaurs/tarbosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/tarbosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mapusaurus", "μαπουσάυρος"],
-        "image": "images/dinosaurs/mapusaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/mapusaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["carcharodontosaurus", "καρχαροδοντόσαυρος"],
-        "image": "images/dinosaurs/carcharodontosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/carcharodontosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["rugops", "ρουγκόπς"],
-        "image": "images/dinosaurs/rugops.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/rugops.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["majungasaurus", "μαζουνγκάσαυρος"],
-        "image": "images/dinosaurs/majungasaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/majungasaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["baryonyx", "βαρυόνυχος"],
-        "image": "images/dinosaurs/baryonyx.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/baryonyx.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["suchomimus", "σουχομίμος"],
-        "image": "images/dinosaurs/suchomimus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/suchomimus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["irritator", "ιριτάτορας"],
-        "image": "images/dinosaurs/irritator.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/irritator.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["amargasaurus", "αμαργάσαυρος"],
-        "image": "images/dinosaurs/amargasaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/amargasaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["saltasaurus", "σαλτασαυρος"],
-        "image": "images/dinosaurs/saltasaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/saltasaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["argentinosaurus", "αργεντινόσαυρος"],
-        "image": "images/dinosaurs/argentinosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/argentinosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["patagotitan", "παταγοτιτάνας"],
-        "image": "images/dinosaurs/patagotitan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/patagotitan.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["nothosaurus", "νοτόσαυρος"],
-        "image": "images/dinosaurs/nothosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/nothosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["cryolophosaurus", "κρυολοφόσαυρος"],
-        "image": "images/dinosaurs/cryolophosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/cryolophosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["dilophosaurus", "διλοφόσαυρος"],
-        "image": "images/dinosaurs/dilophosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/dilophosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["eoraptor", "εοραπτόρας"],
-        "image": "images/dinosaurs/eoraptor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/eoraptor.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["herrerasaurus", "ερρέραςαυρος"],
-        "image": "images/dinosaurs/herrerasaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/herrerasaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mussaurus", "μουσσαύρος"],
-        "image": "images/dinosaurs/mussaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/mussaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["microraptor", "μικροραπτόρας"],
-        "image": "images/dinosaurs/microraptor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/microraptor.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["archaeopteryx", "αρχαιοπτέρυξ"],
-        "image": "images/dinosaurs/archaeopteryx.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/archaeopteryx.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["gigantoraptor", "γιγαντοράπτορας"],
-        "image": "images/dinosaurs/gigantoraptor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/gigantoraptor.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sinosauropteryx", "σινόσαυροπτερυξ"],
-        "image": "images/dinosaurs/sinosauropteryx.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/sinosauropteryx.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["troodon", "τροόδοντας"],
-        "image": "images/dinosaurs/troodon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/troodon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tropeognathus", "τροοπεόγναθος"],
-        "image": "images/dinosaurs/tropeognathus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/tropeognathus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["pterodactylus", "πτεροδάκτυλος"],
-        "image": "images/dinosaurs/pterodactylus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/pterodactylus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pteranodon", "πτερανόδοντας"],
-        "image": "images/dinosaurs/pteranodon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/pteranodon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["quetzalcoatlus", "κετζαλκοάτλους"],
-        "image": "images/dinosaurs/quetzalcoatlus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/quetzalcoatlus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rhamphorhynchus", "ραμφορύγχος"],
-        "image": "images/dinosaurs/rhamphorhynchus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/rhamphorhynchus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["tupandactylus", "ταπεγιάρα"],
-        "image": "images/dinosaurs/tupandactylus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/tupandactylus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["dimorphodon", "διμορφόδοντας"],
-        "image": "images/dinosaurs/dimorphodon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/dimorphodon.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["kronosaurus", "κρόνόσαυρος"],
-        "image": "images/dinosaurs/kronosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/kronosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mosasaurus", "μοσάσαυρος"],
-        "image": "images/dinosaurs/mosasaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/mosasaurus.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["plesiosaurus", "πλεισιόσαυρος"],
-        "image": "images/dinosaurs/plesiosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/plesiosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["elasmosaurus", "ελασμόσαυρος"],
-        "image": "images/dinosaurs/elasmosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/elasmosaurus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ichthyosaurus", "ιχθυόσαυρος"],
-        "image": "images/dinosaurs/ichthyosaurus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/ichthyosaurus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["liopleurodon", "λιοπλευρόδοντας"],
-        "image": "images/dinosaurs/liopleurodon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/liopleurodon.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["placodus", "πλακόδους"],
-        "image": "images/dinosaurs/placodus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/placodus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["tanystropheus", "τανυστρόφεας"],
-        "image": "images/dinosaurs/tanystropheus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/tanystropheus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["stupendemys", "στουπεντέμις"],
-        "image": "images/dinosaurs/stupendemys.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/dinosaurs/stupendemys.jpg",
         "difficulty": "hard"
     }
 ],
@@ -4631,450 +4631,450 @@ mythology: [
     "football-players": [
         {
             answers: ["λιονέλ μέσι", "μέσι"],
-            image: "images/football-players/lionel-messi.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/lionel-messi.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["κριστιάνο ρονάλντο", "ρονάλντο"],
-            image: "images/football-players/cristiano-ronaldo.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/cristiano-ronaldo.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["κιλιάν εμπαπέ", "εμπαπέ"],
-            image: "images/football-players/kylian-mbappe.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/kylian-mbappe.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["έρλινγκ χάαλαντ", "χάαλαντ"],
-            image: "images/football-players/erling-haaland.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/erling-haaland.jpg",
             difficulty: "easy"
         },
 
         
         {
             answers: ["τζουντ μπέλιγχαμ", "μπέλιγχαμ"],
-            image: "images/football-players/jude-bellingham.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/jude-bellingham.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["βινίσιους τζούνιορ", "βινίσιους"],
-            image: "images/football-players/vinicius-junior.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/vinicius-junior.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["ροδρί"],
-            image: "images/football-players/rodri.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/rodri.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["μοχάμεντ σαλάχ", "σαλάχ"],
-            image: "images/football-players/mohamed-salah.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/mohamed-salah.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["χάρι κέιν", "κέιν"],
-            image: "images/football-players/harry-kane.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/harry-kane.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["ρομπέρτ λεβαντόφσκι", "λεβαντόφσκι"],
-            image: "images/football-players/robert-lewandowski.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/robert-lewandowski.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["νεϊμάρ", "νεϊμαρ"],
-            image: "images/football-players/neymar.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/neymar.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["κεβιν ντε μπρόινε", "ντε μπρόινε"],
-            image: "images/football-players/kevin-de-bruyne.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/kevin-de-bruyne.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["λουίς σουάρες", "σουάρες"],
-            image: "images/football-players/luis-suarez.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/luis-suarez.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["αντουάν γκριεζμάν", "γκριεζμάν"],
-            image: "images/football-players/antoine-griezmann.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/antoine-griezmann.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["μπουκάγιο σάκα", "σάκα"],
-            image: "images/football-players/bukayo-saka.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/bukayo-saka.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["φιλ φόντεν", "φόντεν"],
-            image: "images/football-players/phil-foden.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/phil-foden.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["τζαμάλ μουσιάλα", "μουσιάλα"],
-            image: "images/football-players/jamal-musiala.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/jamal-musiala.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["κολ παλμερ", "πάλμερ"],
-            image: "images/football-players/cole-palmer.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/cole-palmer.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["βίκτορ γκιόκερες", "γκιόκερες"],
-            image: "images/football-players/viktor-gyokeres.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/viktor-gyokeres.jpg",
             difficulty: "hard"
         },
 
         {
             answers: ["ραφίνια"],
-            image: "images/football-players/raphinha.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/raphinha.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["ουσμάν ντεμπελέ", "ντεμπελέ"],
-            image: "images/football-players/ousmane-dembele.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/ousmane-dembele.jpg",
             difficulty: "medium"
         },
 
         
         {
             answers: ["τζιανλουίτζι ντοναρούμα", "ντοναρούμα"],
-            image: "images/football-players/gianluigi-donnarumma.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/gianluigi-donnarumma.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["τιμπό κουρτουά", "κουρτουά"],
-            image: "images/football-players/thibaut-courtois.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/thibaut-courtois.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["μαρκ Αντρέ τερ στέγκεν", "τερ στέγκεν"],
-            image: "images/football-players/marc-andre-ter-stegen.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/marc-andre-ter-stegen.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["βίρτζιλ φαν ντάικ", "φαν ντάικ"],
-            image: "images/football-players/virgil-van-dijk.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/virgil-van-dijk.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["ρουμπέν ντίας"],
-            image: "images/football-players/ruben-dias.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/ruben-dias.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["αλεξάντερ Άρνολντ", "Άρνολντ"],
-            image: "images/football-players/trent-alexander-arnold.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/trent-alexander-arnold.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["ασράφ χακίμι", "χακίμι"],
-            image: "images/football-players/achraf-hakimi.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/achraf-hakimi.jpg",
             difficulty: "medium"
         },
 
         
         {
             answers: ["πεντρί"],
-            image: "images/football-players/pedri.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/pedri.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["γκάβι"],
-            image: "images/football-players/gavi.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/gavi.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["μπρούνο φερνάντες"],
-            image: "images/football-players/bruno-fernandes.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/bruno-fernandes.jpg",
             difficulty: "medium"
         },
 
         
         {
             answers: ["καζεμίρο"],
-            image: "images/football-players/casemiro.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/casemiro.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["τόνι κρόος", "κρόος"],
-            image: "images/football-players/toni-kroos.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/toni-kroos.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["λούκα μόντριτς", "μόντριτς"],
-            image: "images/football-players/luka-modric.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/luka-modric.jpg",
             difficulty: "easy"
         },
 
         
         {
             answers: ["ζλάταν ιμπραΐμοβιτς", "ιμπραΐμοβιτς"],
-            image: "images/football-players/zlatan-ibrahimovic.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/zlatan-ibrahimovic.jpg",
             difficulty: "easy"
         },
         {
             answers: ["αντρές ινιέστα", "ινιέστα"],
-            image: "images/football-players/andres-iniesta.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/andres-iniesta.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["τσάβι", "τσάβι ερνάντεθ"],
-            image: "images/football-players/xavi.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/xavi.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["ροναλντίνιο"],
-            image: "images/football-players/ronaldinho.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/ronaldinho.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["κακά"],
-            image: "images/football-players/kaka.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/kaka.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["ζινεντίν ζιντάν", "ζιντάν"],
-            image: "images/football-players/zinedine-zidane.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/zinedine-zidane.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["πελέ"],
-            image: "images/football-players/pele.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/pele.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["ντιέγκο μαραντόνα", "μαραντόνα"],
-            image: "images/football-players/diego-maradona.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/diego-maradona.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["γιόχαν κρόιφ", "κρόιφ"],
-            image: "images/football-players/johan-cruyff.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/johan-cruyff.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["φραντς μπεκενμπάουερ", "μπεκενμπάουερ"],
-            image: "images/football-players/franz-beckenbauer.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/franz-beckenbauer.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["πάολο μαλντίνι", "μαλντίνι"],
-            image: "images/football-players/paolo-maldini.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/paolo-maldini.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["ρομπέρτο μπάτζιο", "μπάτζιο"],
-            image: "images/football-players/roberto-baggio.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/roberto-baggio.jpg",
             difficulty: "hard"
         },
 
         {
             answers: ["τζιανλουίτζι μπουφόν", "μπουφόν"],
-            image: "images/football-players/gianluigi-buffon.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/gianluigi-buffon.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["μανουέλ νοϊερ", "νοϊερ"],
-            image: "images/football-players/manuel-neuer.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/manuel-neuer.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["τσαβι σίμονς"],
-            image: "images/football-players/xavi-simons.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/xavi-simons.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["ντέκλαν ράις", "ράις"],
-            image: "images/football-players/declan-rice.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/declan-rice.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["μαρτιν όντεγκααρντ", "όντεγκααρντ"],
-            image: "images/football-players/martin-odegaard.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/martin-odegaard.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["βίκτορ οσιμέν", "οσιμέν"],
-            image: "images/football-players/victor-osimhen.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/victor-osimhen.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["λάουταρο μαρτίνες", "λάουταρο"],
-            image: "images/football-players/lautaro-martinez.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/lautaro-martinez.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["τζιανλουίτζι ντοναρούμα"],
-            image: "images/football-players/gianluigi-donnarumma.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/gianluigi-donnarumma.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["σον χέουνγκ μιν", "σον"],
-            image: "images/football-players/son-heung-min.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/son-heung-min.jpg",
             difficulty: "medium"
         },
 
         
         {
             answers: ["σάντι καθόρλα"],
-            image: "images/football-players/santi-cazorla.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/santi-cazorla.jpg",
             difficulty: "hard"
         },
 
         {
             answers: ["ανχελ ντι μαρία", "ντι μαρία"],
-            image: "images/football-players/angel-di-maria.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/angel-di-maria.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["ντάβιντ βίγια", "βίγια"],
-            image: "images/football-players/david-villa.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/david-villa.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["φερνάντο τόρες", "τόρες"],
-            image: "images/football-players/fernando-torres.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/fernando-torres.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["γουέιν ρούνεϊ", "ρούνεϊ"],
-            image: "images/football-players/wayne-rooney.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/wayne-rooney.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["Ντέιβιντ Μπέκαμ", "μπέκαμ"],
-            image: "images/football-players/david-beckham.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/david-beckham.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["Ρίο Φέρντιναντ", "φέρντιναντ"],
-            image: "images/football-players/rio-ferdinand.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/rio-ferdinand.jpg",
             difficulty: "hard"
         },
 
         {
             answers: ["Κάρλες Πουγιόλ", "πουγιόλ"],
-            image: "images/football-players/carles-puyol.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/carles-puyol.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["Ρομπέρτο Κάρλος"],
-            image: "images/football-players/roberto-carlos.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/roberto-carlos.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["Καφού"],
-            image: "images/football-players/cafu.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/cafu.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["Ρονάλντο Ναζάριο", "το φαινόμενο", "ρονάλντο ναζάριο"],
-            image: "images/football-players/ronaldo-nazario.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/ronaldo-nazario.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["Ριβάλντο"],
-            image: "images/football-players/rivaldo.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/rivaldo.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["Ρομάριο"],
-            image: "images/football-players/romario.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/romario.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["Τιερί Ανρί", "ανρί"],
-            image: "images/football-players/thierry-henry.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/thierry-henry.jpg",
             difficulty: "easy"
         },
 
         {
             answers: ["Ντένις Μπέργκαμπ", "μπέργκαμπ"],
-            image: "images/football-players/dennis-bergkamp.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/dennis-bergkamp.jpg",
             difficulty: "hard"
         },
 
         {
             answers: ["Τζορτζ Μπεστ", "μπεστ"],
-            image: "images/football-players/george-best.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/george-best.jpg",
             difficulty: "hard"
         },
 
         {
             answers: ["Λουίς Φίγκο", "φίγκο"],
-            image: "images/football-players/luis-figo.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/luis-figo.jpg",
             difficulty: "medium"
         },
 
         {
             answers: ["Μίκαελ Λάουντρουπ", "λάουντρουπ"],
-            image: "images/football-players/michael-laudrup.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/michael-laudrup.jpg",
             difficulty: "hard"
         },
 
         {
             answers: ["Λόταρ Ματέους", "ματέους"],
-            image: "images/football-players/lothar-matthaus.jpg",
+            image: "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-players/lothar-matthaus.jpg",
             difficulty: "hard"
         }
 
@@ -5082,930 +5082,930 @@ mythology: [
     "football-clubs": [
   {
     "answers": ["αεκ", "aek", "aek athens", "αεκ αθηνων"],
-    "image": "images/football-clubs/aek.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/aek.png",
     "difficulty": "easy"
   },
   {
     "answers": ["psv", "psv eindhoven", "αιντχοφεν", "αιτχοφεν"],
-    "image": "images/football-clubs/aitxofen.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/aitxofen.jpg",
     "difficulty": "medium"
   },
   {
     "answers": ["ajax", "αγιαξ"],
-    "image": "images/football-clubs/ajax.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/ajax.png",
     "difficulty": "easy"
   },
   {
     "answers": ["al hilal", "αλ χιλαλ"],
-    "image": "images/football-clubs/al-hilal.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/al-hilal.png",
     "difficulty": "medium"
   },
   {
     "answers": ["al nassr", "αλ νασρ"],
-    "image": "images/football-clubs/al-nassr.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/al-nassr.png",
     "difficulty": "medium"
   },
   {
     "answers": ["almeria", "αλμερια"],
-    "image": "images/football-clubs/almeria.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/almeria.png",
     "difficulty": "hard"
   },
   {
     "answers": ["arsenal", "αρσεναλ"],
-    "image": "images/football-clubs/arsenal.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/arsenal.png",
     "difficulty": "easy"
   },
   {
     "answers": ["aston villa", "αστον βιλα"],
-    "image": "images/football-clubs/aston-villa.jpeg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/aston-villa.jpeg",
     "difficulty": "medium"
   },
   {
     "answers": ["athletic bilbao", "athletic", "αθλετικ μπιλμπαο", "αθλετικ"],
-    "image": "images/football-clubs/athletic.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/athletic.png",
     "difficulty": "medium"
   },
   {
     "answers": ["atletico madrid", "atletico", "ατλετικο μαδριτης", "ατλετικο"],
-    "image": "images/football-clubs/atletico-madrid.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/atletico-madrid.jpg",
     "difficulty": "easy"
   },
   {
     "answers": ["barcelona", "μπαρτσελονα", "μπαρτσα", "barca"],
-    "image": "images/football-clubs/barcelona.jpeg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/barcelona.jpeg",
     "difficulty": "easy"
   },
   {
     "answers": ["bayern munich", "bayern", "μπαγερν μοναχου", "μπαγερν"],
-    "image": "images/football-clubs/bayern-munich.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/bayern-munich.png",
     "difficulty": "easy"
   },
   {
     "answers": ["benfica", "μπενφικα"],
-    "image": "images/football-clubs/benfica-alt.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/benfica-alt.png",
     "difficulty": "easy"
   },
   {
     "answers": ["bologna", "μπολονια"],
-    "image": "images/football-clubs/bologna.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/bologna.jpg",
     "difficulty": "hard"
   },
   {
     "answers": ["borussia dortmund", "dortmund", "ντορτμουντ", "μπορουσια ντορτμουντ"],
-    "image": "images/football-clubs/borussia-dortmund.webp",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/borussia-dortmund.webp",
     "difficulty": "easy"
   },
   {
     "answers": ["braga", "μπραγκα"],
-    "image": "images/football-clubs/braga.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/braga.png",
     "difficulty": "hard"
   },
   {
     "answers": ["brighton", "μπραιτον"],
-    "image": "images/football-clubs/brighton.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/brighton.png",
     "difficulty": "medium"
   },
   {
     "answers": ["celta vigo", "celta", "θελτα", "θελτα βιγκο"],
-    "image": "images/football-clubs/celta-vigo.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/celta-vigo.png",
     "difficulty": "hard"
   },
   {
     "answers": ["celtic", "σελτικ"],
-    "image": "images/football-clubs/celtic.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/celtic.png",
     "difficulty": "medium"
   },
   {
     "answers": ["chelsea", "τσελσι"],
-    "image": "images/football-clubs/chelsea.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/chelsea.png",
     "difficulty": "easy"
   },
   {
     "answers": ["club brugge", "brugge", "κλαμπ μπριζ", "μπριζ"],
-    "image": "images/football-clubs/club-brugge.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/club-brugge.png",
     "difficulty": "medium"
   },
   {
     "answers": ["crystal palace", "κρισταλ παλας"],
-    "image": "images/football-clubs/crystal-palace.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/crystal-palace.png",
     "difficulty": "medium"
   },
   {
     "answers": ["eintracht frankfurt", "frankfurt", "αιντραχτ φρανκφουρτης", "φρανκφουρτη"],
-    "image": "images/football-clubs/eintracht-frankfurt.webp",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/eintracht-frankfurt.webp",
     "difficulty": "medium"
   },
   {
     "answers": ["everton", "εβερτον"],
-    "image": "images/football-clubs/everton.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/everton.png",
     "difficulty": "medium"
   },
   {
     "answers": ["fenerbahce", "fenerbace", "φενερμπαχτσε", "φενερ"],
-    "image": "images/football-clubs/fenerbace.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/fenerbace.png",
     "difficulty": "medium"
   },
   {
     "answers": ["feyenoord", "feyenord", "φεγενορντ"],
-    "image": "images/football-clubs/feyenord.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/feyenord.png",
     "difficulty": "medium"
   },
   {
     "answers": ["fiorentina", "φιορεντινα"],
-    "image": "images/football-clubs/fiorentina.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/fiorentina.jpg",
     "difficulty": "medium"
   },
   {
     "answers": ["dinamo kiev", "dynamo kyiv", "ντιναμο κιεβου"],
-    "image": "images/football-clubs/fk-dinamo-kijiv1.png_.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/fk-dinamo-kijiv1.png_.jpg",
     "difficulty": "hard"
   },
   {
     "answers": ["flamengo", "φλαμενγκο"],
-    "image": "images/football-clubs/flamengo.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/flamengo.jpg",
     "difficulty": "hard"
   },
   {
     "answers": ["fluminense", "φλουμινενσε"],
-    "image": "images/football-clubs/fluminense.jpeg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/fluminense.jpeg",
     "difficulty": "hard"
   },
   {
     "answers": ["freiburg", "φραιμπουργκ"],
-    "image": "images/football-clubs/freiburg.webp",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/freiburg.webp",
     "difficulty": "hard"
   },
   {
     "answers": ["galatasaray", "γκαλατασαραι"],
-    "image": "images/football-clubs/galatasaray.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/galatasaray.jpg",
     "difficulty": "medium"
   },
   {
     "answers": ["genoa", "τζενοα"],
-    "image": "images/football-clubs/genoa.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/genoa.png",
     "difficulty": "hard"
   },
   {
     "answers": ["getafe", "χεταφε"],
-    "image": "images/football-clubs/getafe.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/getafe.png",
     "difficulty": "hard"
   },
   {
     "answers": ["hoffenheim", "χοφενχαημ"],
-    "image": "images/football-clubs/hoffenheim.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/hoffenheim.png",
     "difficulty": "hard"
   },
   {
     "answers": ["inter", "inter milan", "ιντερ"],
-    "image": "images/football-clubs/inter.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/inter.jpg",
     "difficulty": "easy"
   },
   {
     "answers": ["juventus", "γιουβεντους"],
-    "image": "images/football-clubs/juventus.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/juventus.png",
     "difficulty": "easy"
   },
   {
     "answers": ["lazio", "λατσιο"],
-    "image": "images/football-clubs/lazio-alt.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/lazio-alt.png",
     "difficulty": "medium"
   },
   {
     "answers": ["bayer leverkusen", "leverkusen", "leverkuzen", "λεβερκουζεν", "μπαγερ λεβερκουζεν"],
-    "image": "images/football-clubs/leverkuzen.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/leverkuzen.png",
     "difficulty": "easy"
   },
   {
     "answers": ["lille", "λιλ"],
-    "image": "images/football-clubs/lille.webp",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/lille.webp",
     "difficulty": "hard"
   },
   {
     "answers": ["liverpool", "λιβερπουλ"],
-    "image": "images/football-clubs/liverpool.jpeg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/liverpool.jpeg",
     "difficulty": "easy"
   },
   {
     "answers": ["mainz", "μαιντς"],
-    "image": "images/football-clubs/mainz.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/mainz.png",
     "difficulty": "hard"
   },
   {
     "answers": ["malmo", "μαλμε"],
-    "image": "images/football-clubs/malmo.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/malmo.png",
     "difficulty": "hard"
   },
   {
     "answers": ["manchester city", "man city", "μαντσεστερ σιτι", "σιτι"],
-    "image": "images/football-clubs/manchester-city.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/manchester-city.png",
     "difficulty": "easy"
   },
   {
     "answers": ["manchester united", "man united", "μαντσεστερ γιουναιτεντ", "γιουναιτεντ"],
-    "image": "images/football-clubs/manchester-united.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/manchester-united.png",
     "difficulty": "easy"
   },
   {
     "answers": ["marseille", "marseig", "μαρσειγ"],
-    "image": "images/football-clubs/marseig.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/marseig.jpg",
     "difficulty": "medium"
   },
   {
     "answers": ["milan", "ac milan", "μιλαν"],
-    "image": "images/football-clubs/milan.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/milan.jpg",
     "difficulty": "easy"
   },
   {
     "answers": ["monaco", "μονακο"],
-    "image": "images/football-clubs/monaco.jpeg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/monaco.jpeg",
     "difficulty": "medium"
   },
   {
     "answers": ["borussia monchengladbach", "monchengladbach", "γκλαντμπαχ", "μπορουσια μενχενγκλαντμπαχ"],
-    "image": "images/football-clubs/monchengladbach.jpeg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/monchengladbach.jpeg",
     "difficulty": "hard"
   },
   {
     "answers": ["napoli", "ναπολι"],
-    "image": "images/football-clubs/napoli.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/napoli.png",
     "difficulty": "easy"
   },
   {
     "answers": ["newcastle", "newcastle united", "νιουκαστλ"],
-    "image": "images/football-clubs/newcastle.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/newcastle.png",
     "difficulty": "medium"
   },
   {
     "answers": ["nice", "νις"],
-    "image": "images/football-clubs/nice.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/nice.png",
     "difficulty": "hard"
   },
   {
     "answers": ["nottingham forest", "nottingham", "νοτιγχαμ", "νοτιγχαμ φορεστ"],
-    "image": "images/football-clubs/nottingham-forest.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/nottingham-forest.png",
     "difficulty": "medium"
   },
   {
     "answers": ["olympiacos", "olympiakos", "ολυμπιακος"],
-    "image": "images/football-clubs/olympiacos.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/olympiacos.png",
     "difficulty": "easy"
   },
   {
     "answers": ["osasuna", "οσασουνα"],
-    "image": "images/football-clubs/osasuna.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/osasuna.png",
     "difficulty": "hard"
   },
   {
     "answers": ["paok", "παοκ"],
-    "image": "images/football-clubs/paok.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/paok.png",
     "difficulty": "easy"
   },
   {
     "answers": ["porto", "πορτο"],
-    "image": "images/football-clubs/porto.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/porto.jpg",
     "difficulty": "medium"
   },
   {
     "answers": ["psg", "paris saint germain", "παρι", "παρι σεν ζερμεν"],
-    "image": "images/football-clubs/psg.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/psg.png",
     "difficulty": "easy"
   },
   {
     "answers": ["psv", "psv eindhoven", "αιντχοφεν"],
-    "image": "images/football-clubs/psv.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/psv.png",
     "difficulty": "medium"
   },
   {
     "answers": ["rangers", "ρειντζερς"],
-    "image": "images/football-clubs/rangers.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/rangers.png",
     "difficulty": "medium"
   },
   {
     "answers": ["rb leipzig", "leipzig", "λειψια", "ρβ λειψια"],
-    "image": "images/football-clubs/rb-leipzi..png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/rb-leipzi..png",
     "difficulty": "medium"
   },
   {
     "answers": ["real betis", "betis", "ρεαλ μπετις", "μπετις"],
-    "image": "images/football-clubs/real-betis.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/real-betis.png",
     "difficulty": "medium"
   },
   {
     "answers": ["real madrid", "ρεαλ μαδριτης", "ρεαλ"],
-    "image": "images/football-clubs/real-madrid.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/real-madrid.jpg",
     "difficulty": "easy"
   },
   {
     "answers": ["red star belgrade", "red star", "ερυθρος αστερας"],
-    "image": "images/football-clubs/red-star-belgrade.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/red-star-belgrade.png",
     "difficulty": "hard"
   },
   {
     "answers": ["red star belgrade", "red star", "ερυθρος αστερας"],
-    "image": "images/football-clubs/red-star.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/red-star.jpg",
     "difficulty": "hard"
   },
   {
     "answers": ["roma", "ρωμη", "ρομα"],
-    "image": "images/football-clubs/roma.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/roma.jpg",
     "difficulty": "easy"
   },
   {
     "answers": ["salzburg", "red bull salzburg", "σαλτσμπουργκ"],
-    "image": "images/football-clubs/saltsburg.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/saltsburg.png",
     "difficulty": "medium"
   },
   {
     "answers": ["sassuolo", "σασουολο"],
-    "image": "images/football-clubs/sassuolo.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/sassuolo.png",
     "difficulty": "hard"
   },
   {
     "answers": ["sevilla", "σεβιλλη", "σεβιγια"],
-    "image": "images/football-clubs/sevilla.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/sevilla.jpg",
     "difficulty": "medium"
   },
   {
     "answers": ["shakhtar donetsk", "shakhtar", "σαχταρ", "σαχταρ ντονετσκ"],
-    "image": "images/football-clubs/shakhtar-donetsk.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/shakhtar-donetsk.png",
     "difficulty": "medium"
   },
   {
     "answers": ["sporting lisbon", "sporting", "σπορτινγκ", "σπορτινγκ λισαβονας"],
-    "image": "images/football-clubs/sporting.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/sporting.png",
     "difficulty": "medium"
   },
   {
     "answers": ["stuttgart", "stuttgard", "στουτγκαρδη"],
-    "image": "images/football-clubs/stuttgard.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/stuttgard.jpg",
     "difficulty": "medium"
   },
   {
     "answers": ["torino", "τορινο"],
-    "image": "images/football-clubs/torino.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/torino.png",
     "difficulty": "hard"
   },
   {
     "answers": ["tottenham", "τοτεναμ"],
-    "image": "images/football-clubs/tottenham.jpeg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/tottenham.jpeg",
     "difficulty": "easy"
   },
   {
     "answers": ["union berlin", "ουνιον βερολινου", "ουνιον"],
-    "image": "images/football-clubs/union-berlin.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/union-berlin.png",
     "difficulty": "hard"
   },
   {
     "answers": ["valencia", "βαλενθια"],
-    "image": "images/football-clubs/valencia.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/valencia.png",
     "difficulty": "medium"
   },
   {
     "answers": ["villarreal", "βιγιαρεαλ"],
-    "image": "images/football-clubs/villarreal.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/villarreal.png",
     "difficulty": "medium"
   },
   {
     "answers": ["west ham", "γουεστ χαμ"],
-    "image": "images/football-clubs/west-ham.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/west-ham.png",
     "difficulty": "medium"
   },
   {
     "answers": ["wolfsburg", "βολφσμπουργκ"],
-    "image": "images/football-clubs/wolfsburg.webp",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/wolfsburg.webp",
     "difficulty": "medium"
   },
   {
     "answers": ["young boys", "γιανγκ μποις"],
-    "image": "images/football-clubs/young-boys.png",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-clubs/young-boys.png",
     "difficulty": "hard"
   }
 ],
 
 "maps": [
-  { "answers": ["αλγερία"], "image": "images/maps/algeria.png", "difficulty": "medium" },
-  { "answers": ["αργεντινή"], "image": "images/maps/argentina.png", "difficulty": "easy" },
-  { "answers": ["αρμενία"], "image": "images/maps/armenia.png", "difficulty": "hard" },
-  { "answers": ["αυστραλία"], "image": "images/maps/australia.jpg", "difficulty": "easy" },
-  { "answers": ["αυστρία"], "image": "images/maps/austria.png", "difficulty": "medium" },
-  { "answers": ["αζερμπαϊτζάν"], "image": "images/maps/azerbaijan.png", "difficulty": "hard" },
-  { "answers": ["βέλγιο"], "image": "images/maps/belgium.png", "difficulty": "medium" },
-  { "answers": ["βραζιλία"], "image": "images/maps/brazil.png", "difficulty": "easy" },
-  { "answers": ["βουλγαρία"], "image": "images/maps/bulgaria.png", "difficulty": "medium" },
-  { "answers": ["καμερούν"], "image": "images/maps/cameroon.png", "difficulty": "hard" },
-  { "answers": ["καναδάς"], "image": "images/maps/canada.png", "difficulty": "easy" },
-  { "answers": ["χιλή"], "image": "images/maps/chile.jpg", "difficulty": "easy" },
-  { "answers": ["κίνα"], "image": "images/maps/china.png", "difficulty": "easy" },
-  { "answers": ["κολομβία"], "image": "images/maps/colombia.jpg", "difficulty": "medium" },
-  { "answers": ["κροατία"], "image": "images/maps/croatia.png", "difficulty": "medium" },
-  { "answers": ["κύπρος"], "image": "images/maps/cyprus.png", "difficulty": "easy" },
-  { "answers": ["τσεχία"], "image": "images/maps/czechia.png", "difficulty": "medium" },
-  { "answers": ["δανία"], "image": "images/maps/denmark.png", "difficulty": "medium" },
-  { "answers": ["εκουαδόρ", "ισημερινός"], "image": "images/maps/ecuador.jpg", "difficulty": "hard" },
-  { "answers": ["αίγυπτος"], "image": "images/maps/egypt.png", "difficulty": "easy" },
-  { "answers": ["αιθιοπία"], "image": "images/maps/ethiopia.png", "difficulty": "medium" },
-  { "answers": ["φινλανδία"], "image": "images/maps/finland.png", "difficulty": "easy" },
-  { "answers": ["γαλλία"], "image": "images/maps/france.png", "difficulty": "easy" },
-  { "answers": ["γεωργία"], "image": "images/maps/georgia.png", "difficulty": "hard" },
-  { "answers": ["γερμανία"], "image": "images/maps/germany.png", "difficulty": "easy" },
-  { "answers": ["γκάνα"], "image": "images/maps/ghana.png", "difficulty": "hard" },
-  { "answers": ["ελλάδα"], "image": "images/maps/greece.png", "difficulty": "easy" },
-  { "answers": ["ουγγαρία"], "image": "images/maps/hungary.png", "difficulty": "medium" },
-  { "answers": ["ισλανδία"], "image": "images/maps/iceland.png", "difficulty": "easy" },
-  { "answers": ["ινδία"], "image": "images/maps/india.png", "difficulty": "easy" },
-  { "answers": ["ινδονησία"], "image": "images/maps/indonesia.png", "difficulty": "medium" },
-  { "answers": ["ιράν"], "image": "images/maps/iran.png", "difficulty": "medium" },
-  { "answers": ["ιράκ"], "image": "images/maps/iraq.png", "difficulty": "medium" },
-  { "answers": ["ιρλανδία"], "image": "images/maps/ireland.png", "difficulty": "easy" },
-  { "answers": ["ισραήλ"], "image": "images/maps/israel.png", "difficulty": "medium" },
-  { "answers": ["ιταλία"], "image": "images/maps/italy.png", "difficulty": "easy" },
-  { "answers": ["ιαπωνία"], "image": "images/maps/japan.png", "difficulty": "easy" },
-  { "answers": ["ιορδανία"], "image": "images/maps/jordan.png", "difficulty": "hard" },
-  { "answers": ["καζακστάν"], "image": "images/maps/kazakhstan.png", "difficulty": "medium" },
-  { "answers": ["κένυα"], "image": "images/maps/kenya.png", "difficulty": "medium" },
-  { "answers": ["λίβανος"], "image": "images/maps/lebanon.png", "difficulty": "hard" },
-  { "answers": ["λίχτενσταϊν"], "image": "images/maps/liechtenstein.png", "difficulty": "hard" },
-  { "answers": ["μαλαισία"], "image": "images/maps/malaysia.jpg", "difficulty": "medium" },
-  { "answers": ["μάλτα"], "image": "images/maps/malta.png", "difficulty": "hard" },
-  { "answers": ["μεξικό"], "image": "images/maps/mexico.png", "difficulty": "easy" },
-  { "answers": ["μογγολία"], "image": "images/maps/mongolia.png", "difficulty": "medium" },
-  { "answers": ["μαρόκο"], "image": "images/maps/morocco.jpg", "difficulty": "medium" },
-  { "answers": ["νεπάλ"], "image": "images/maps/nepal.png", "difficulty": "hard" },
-  { "answers": ["ολλανδία"], "image": "images/maps/netherlands.png", "difficulty": "easy" },
-  { "answers": ["νέα ζηλανδία"], "image": "images/maps/new-zealand.jpg", "difficulty": "easy" },
-  { "answers": ["νιγηρία"], "image": "images/maps/nigeria.png", "difficulty": "medium" },
-  { "answers": ["βόρεια κορέα"], "image": "images/maps/north-korea.png", "difficulty": "medium" },
-  { "answers": ["νορβηγία"], "image": "images/maps/norway.png", "difficulty": "easy" },
-  { "answers": ["πακιστάν"], "image": "images/maps/pakistan.png", "difficulty": "medium" },
-  { "answers": ["περού"], "image": "images/maps/peru.png", "difficulty": "medium" },
-  { "answers": ["φιλιππίνες"], "image": "images/maps/philippines.png", "difficulty": "medium" },
-  { "answers": ["πολωνία"], "image": "images/maps/poland.png", "difficulty": "easy" },
-  { "answers": ["πορτογαλία"], "image": "images/maps/portugal.png", "difficulty": "easy" },
-  { "answers": ["κατάρ"], "image": "images/maps/qatar.png", "difficulty": "hard" },
-  { "answers": ["σαουδική αραβία"], "image": "images/maps/saudi-arabia.png", "difficulty": "easy" },
-  { "answers": ["σενεγάλη"], "image": "images/maps/senegal.png", "difficulty": "hard" },
-  { "answers": ["σερβία"], "image": "images/maps/serbia.png", "difficulty": "medium" },
-  { "answers": ["σιγκαπούρη"], "image": "images/maps/singapore.jpg", "difficulty": "hard" },
-  { "answers": ["σλοβακία"], "image": "images/maps/slovakia.png", "difficulty": "medium" },
-  { "answers": ["σλοβενία"], "image": "images/maps/slovenia.png", "difficulty": "hard" },
-  { "answers": ["νότια αφρική"], "image": "images/maps/south-africa.jpg", "difficulty": "easy" },
-  { "answers": ["ισπανία"], "image": "images/maps/spain.png", "difficulty": "easy" },
-  { "answers": ["σουηδία"], "image": "images/maps/sweden.png", "difficulty": "easy" },
-  { "answers": ["τατζικιστάν"], "image": "images/maps/tajikistan.png", "difficulty": "hard" },
-  { "answers": ["τανζανία"], "image": "images/maps/tanzania.png", "difficulty": "hard" },
-  { "answers": ["ταϊλάνδη"], "image": "images/maps/thailand.png", "difficulty": "medium" },
-  { "answers": ["τυνησία"], "image": "images/maps/tunisia.png", "difficulty": "hard" },
-  { "answers": ["τουρκία"], "image": "images/maps/turkey.png", "difficulty": "easy" },
-  { "answers": ["ουκρανία"], "image": "images/maps/ukraine.png", "difficulty": "easy" },
-  { "answers": ["ηνωμένο βασίλειο", "αγγλία", "μεγάλη βρετανία"], "image": "images/maps/united-kingdom.jpg", "difficulty": "easy" },
-  { "answers": ["ηνωμένες πολιτείες", "ηπα", "αμερική"], "image": "images/maps/united-states.png", "difficulty": "easy" },
-  { "answers": ["ουρουγουάη"], "image": "images/maps/uruguay.png", "difficulty": "hard" },
-  { "answers": ["βιετνάμ"], "image": "images/maps/vietnam.jpg", "difficulty": "medium" }
+  { "answers": ["αλγερία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/algeria.png", "difficulty": "medium" },
+  { "answers": ["αργεντινή"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/argentina.png", "difficulty": "easy" },
+  { "answers": ["αρμενία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/armenia.png", "difficulty": "hard" },
+  { "answers": ["αυστραλία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/australia.jpg", "difficulty": "easy" },
+  { "answers": ["αυστρία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/austria.png", "difficulty": "medium" },
+  { "answers": ["αζερμπαϊτζάν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/azerbaijan.png", "difficulty": "hard" },
+  { "answers": ["βέλγιο"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/belgium.png", "difficulty": "medium" },
+  { "answers": ["βραζιλία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/brazil.png", "difficulty": "easy" },
+  { "answers": ["βουλγαρία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/bulgaria.png", "difficulty": "medium" },
+  { "answers": ["καμερούν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/cameroon.png", "difficulty": "hard" },
+  { "answers": ["καναδάς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/canada.png", "difficulty": "easy" },
+  { "answers": ["χιλή"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/chile.jpg", "difficulty": "easy" },
+  { "answers": ["κίνα"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/china.png", "difficulty": "easy" },
+  { "answers": ["κολομβία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/colombia.jpg", "difficulty": "medium" },
+  { "answers": ["κροατία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/croatia.png", "difficulty": "medium" },
+  { "answers": ["κύπρος"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/cyprus.png", "difficulty": "easy" },
+  { "answers": ["τσεχία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/czechia.png", "difficulty": "medium" },
+  { "answers": ["δανία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/denmark.png", "difficulty": "medium" },
+  { "answers": ["εκουαδόρ", "ισημερινός"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/ecuador.jpg", "difficulty": "hard" },
+  { "answers": ["αίγυπτος"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/egypt.png", "difficulty": "easy" },
+  { "answers": ["αιθιοπία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/ethiopia.png", "difficulty": "medium" },
+  { "answers": ["φινλανδία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/finland.png", "difficulty": "easy" },
+  { "answers": ["γαλλία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/france.png", "difficulty": "easy" },
+  { "answers": ["γεωργία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/georgia.png", "difficulty": "hard" },
+  { "answers": ["γερμανία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/germany.png", "difficulty": "easy" },
+  { "answers": ["γκάνα"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/ghana.png", "difficulty": "hard" },
+  { "answers": ["ελλάδα"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/greece.png", "difficulty": "easy" },
+  { "answers": ["ουγγαρία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/hungary.png", "difficulty": "medium" },
+  { "answers": ["ισλανδία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/iceland.png", "difficulty": "easy" },
+  { "answers": ["ινδία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/india.png", "difficulty": "easy" },
+  { "answers": ["ινδονησία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/indonesia.png", "difficulty": "medium" },
+  { "answers": ["ιράν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/iran.png", "difficulty": "medium" },
+  { "answers": ["ιράκ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/iraq.png", "difficulty": "medium" },
+  { "answers": ["ιρλανδία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/ireland.png", "difficulty": "easy" },
+  { "answers": ["ισραήλ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/israel.png", "difficulty": "medium" },
+  { "answers": ["ιταλία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/italy.png", "difficulty": "easy" },
+  { "answers": ["ιαπωνία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/japan.png", "difficulty": "easy" },
+  { "answers": ["ιορδανία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/jordan.png", "difficulty": "hard" },
+  { "answers": ["καζακστάν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/kazakhstan.png", "difficulty": "medium" },
+  { "answers": ["κένυα"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/kenya.png", "difficulty": "medium" },
+  { "answers": ["λίβανος"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/lebanon.png", "difficulty": "hard" },
+  { "answers": ["λίχτενσταϊν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/liechtenstein.png", "difficulty": "hard" },
+  { "answers": ["μαλαισία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/malaysia.jpg", "difficulty": "medium" },
+  { "answers": ["μάλτα"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/malta.png", "difficulty": "hard" },
+  { "answers": ["μεξικό"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/mexico.png", "difficulty": "easy" },
+  { "answers": ["μογγολία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/mongolia.png", "difficulty": "medium" },
+  { "answers": ["μαρόκο"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/morocco.jpg", "difficulty": "medium" },
+  { "answers": ["νεπάλ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/nepal.png", "difficulty": "hard" },
+  { "answers": ["ολλανδία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/netherlands.png", "difficulty": "easy" },
+  { "answers": ["νέα ζηλανδία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/new-zealand.jpg", "difficulty": "easy" },
+  { "answers": ["νιγηρία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/nigeria.png", "difficulty": "medium" },
+  { "answers": ["βόρεια κορέα"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/north-korea.png", "difficulty": "medium" },
+  { "answers": ["νορβηγία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/norway.png", "difficulty": "easy" },
+  { "answers": ["πακιστάν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/pakistan.png", "difficulty": "medium" },
+  { "answers": ["περού"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/peru.png", "difficulty": "medium" },
+  { "answers": ["φιλιππίνες"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/philippines.png", "difficulty": "medium" },
+  { "answers": ["πολωνία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/poland.png", "difficulty": "easy" },
+  { "answers": ["πορτογαλία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/portugal.png", "difficulty": "easy" },
+  { "answers": ["κατάρ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/qatar.png", "difficulty": "hard" },
+  { "answers": ["σαουδική αραβία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/saudi-arabia.png", "difficulty": "easy" },
+  { "answers": ["σενεγάλη"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/senegal.png", "difficulty": "hard" },
+  { "answers": ["σερβία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/serbia.png", "difficulty": "medium" },
+  { "answers": ["σιγκαπούρη"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/singapore.jpg", "difficulty": "hard" },
+  { "answers": ["σλοβακία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/slovakia.png", "difficulty": "medium" },
+  { "answers": ["σλοβενία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/slovenia.png", "difficulty": "hard" },
+  { "answers": ["νότια αφρική"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/south-africa.jpg", "difficulty": "easy" },
+  { "answers": ["ισπανία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/spain.png", "difficulty": "easy" },
+  { "answers": ["σουηδία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/sweden.png", "difficulty": "easy" },
+  { "answers": ["τατζικιστάν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/tajikistan.png", "difficulty": "hard" },
+  { "answers": ["τανζανία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/tanzania.png", "difficulty": "hard" },
+  { "answers": ["ταϊλάνδη"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/thailand.png", "difficulty": "medium" },
+  { "answers": ["τυνησία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/tunisia.png", "difficulty": "hard" },
+  { "answers": ["τουρκία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/turkey.png", "difficulty": "easy" },
+  { "answers": ["ουκρανία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/ukraine.png", "difficulty": "easy" },
+  { "answers": ["ηνωμένο βασίλειο", "αγγλία", "μεγάλη βρετανία"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/united-kingdom.jpg", "difficulty": "easy" },
+  { "answers": ["ηνωμένες πολιτείες", "ηπα", "αμερική"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/united-states.png", "difficulty": "easy" },
+  { "answers": ["ουρουγουάη"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/uruguay.png", "difficulty": "hard" },
+  { "answers": ["βιετνάμ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/maps/vietnam.jpg", "difficulty": "medium" }
 ],
 
  "basketball-clubs": [
         // --- NBA (30 Ομάδες) ---
-        { "answers": ["λόσ άντζελες λέικερς", "λέικερς"], "image": "images/basketball-clubs/los-angeles-lakers.png", "difficulty": "easy" },
-        { "answers": ["γκόλντεν στέιτ γουόριορς", "γουόριορς"], "image": "images/basketball-clubs/golden-state-warriors.png", "difficulty": "easy" },
-        { "answers": ["μπόστον σέλτικς", "σέλτικς"], "image": "images/basketball-clubs/boston-celtics.png", "difficulty": "easy" },
-        { "answers": ["σικάγο μπουλς", "μπουλς"], "image": "images/basketball-clubs/chicago-bulls.png", "difficulty": "easy" },
-        { "answers": ["μιλγουόκι μπακς", "μπακς"], "image": "images/basketball-clubs/milwaukee-bucks.png", "difficulty": "easy" },
-        { "answers": ["κλίβελαντ καβαλίερς", "καβαλίερς"], "image": "images/basketball-clubs/cleveland-cavaliers.png", "difficulty": "medium" },
-        { "answers": ["ντένβερ νάγκετς", "νάγκετς"], "image": "images/basketball-clubs/denver-nuggets.png", "difficulty": "easy" },
-        { "answers": ["οκλαχόμα σίτι θάντερ", "θάντερ"], "image": "images/basketball-clubs/oklahoma-city-thunder.png", "difficulty": "medium" },
-        { "answers": ["φοίνιξ σανς", "σανς"], "image": "images/basketball-clubs/phoenix-suns.png", "difficulty": "medium" },
-        { "answers": ["ντάλας μάβερικς", "μάβερικς"], "image": "images/basketball-clubs/dallas-mavericks.png", "difficulty": "easy" },
-        { "answers": ["μέμφις γκρίζλις", "γκρίζλις"], "image": "images/basketball-clubs/memphis-grizzlies.png", "difficulty": "medium" },
-        { "answers": ["μιάμι χιτ", "χιτ"], "image": "images/basketball-clubs/miami-heat.png", "difficulty": "easy" },
-        { "answers": ["φιλαδέλφεια 76ερς", "76ερς", "σίξερς"], "image": "images/basketball-clubs/philadelphia-76ers.png", "difficulty": "medium" },
-        { "answers": ["νιου γιορκ νικς", "νικς"], "image": "images/basketball-clubs/new-york-knicks.png", "difficulty": "easy" },
-        { "answers": ["σαν αντόνιο σπερς", "σπερς"], "image": "images/basketball-clubs/san-antonio-spurs.png", "difficulty": "easy" },
-        { "answers": ["σακραμέντο κινγκς", "κινγκς"], "image": "images/basketball-clubs/sacramento-kings.png", "difficulty": "medium" },
-        { "answers": ["πόρτλαντ τρέιλ μπλέιζερς", "μπλέιζερς"], "image": "images/basketball-clubs/portland-trail-blazers.png", "difficulty": "medium" },
-        { "answers": ["ιντιάνα πέισερς", "πέισερς"], "image": "images/basketball-clubs/indiana-pacers.png", "difficulty": "medium" },
-        { "answers": ["ορλάντο μάτζικ", "μάτζικ"], "image": "images/basketball-clubs/orlando-magic.png", "difficulty": "medium" },
-        { "answers": ["τορόντο ράπτορς", "ράπτορς"], "image": "images/basketball-clubs/toronto-raptors.png", "difficulty": "medium" },
-        { "answers": ["ολυμπιακός"], "image": "images/basketball-clubs/olympiacos.png", "difficulty": "easy" },
-        { "answers": ["παναθηναϊκός"], "image": "images/basketball-clubs/panathinaikos.png", "difficulty": "easy" },
-        { "answers": ["ρεάλ μαδρίτης"], "image": "images/basketball-clubs/real-madrid.png", "difficulty": "easy" },
-        { "answers": ["μπαρτσελόνα"], "image": "images/basketball-clubs/barcelona.png", "difficulty": "easy" },
-        { "answers": ["φενέρμπαχτσε"], "image": "images/basketball-clubs/fenerbahce.png", "difficulty": "easy" },
-        { "answers": ["ανατολού εφές", "εφές"], "image": "images/basketball-clubs/anadolu-efes.png", "difficulty": "medium" },
-        { "answers": ["μακάμπι τελ αβίβ", "μακάμπι"], "image": "images/basketball-clubs/maccabi-tel-aviv.png", "difficulty": "medium" },
-        { "answers": ["μονακό"], "image": "images/basketball-clubs/monaco.png", "difficulty": "medium" },
-        { "answers": ["παρτίζαν"], "image": "images/basketball-clubs/partizan.png", "difficulty": "medium" },
-        { "answers": ["ερυθρός αστέρας"], "image": "images/basketball-clubs/crvena-zvezda.png", "difficulty": "medium" },
-        { "answers": ["ζάλγκιρις"], "image": "images/basketball-clubs/zalgiris-kaunas.png", "difficulty": "medium" },
-        { "answers": ["βίρτους μπολόνια"], "image": "images/basketball-clubs/virtus-bologna.png", "difficulty": "medium" },
-        { "answers": ["μπασκόνια"], "image": "images/basketball-clubs/baskonia.png", "difficulty": "medium" },
-        { "answers": ["βιλερμπάν"], "image": "images/basketball-clubs/asvel.png", "difficulty": "hard" },
-        { "answers": ["άλμπα βερολίνου"], "image": "images/basketball-clubs/alba-berlin.png", "difficulty": "hard" },
-        { "answers": ["πάρις μπάσκετ"], "image": "images/basketball-clubs/paris-basketball.png", "difficulty": "medium" },
-        { "answers": ["βαλένθια"], "image": "images/basketball-clubs/valencia-basket.png", "difficulty": "medium" },
-        { "answers": ["μπάγερν μονάχου"], "image": "images/basketball-clubs/bayern-munich.png", "difficulty": "medium" },
-        { "answers": ["αρμάνι μιλάνο"], "image": "images/basketball-clubs/olimpia-milano.png", "difficulty": "medium" },
-        { "answers": ["τσσκα μόσχας", "τσσκα"], "image": "images/basketball-clubs/cska-moscow.png", "difficulty": "hard" }
+        { "answers": ["λόσ άντζελες λέικερς", "λέικερς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/los-angeles-lakers.png", "difficulty": "easy" },
+        { "answers": ["γκόλντεν στέιτ γουόριορς", "γουόριορς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/golden-state-warriors.png", "difficulty": "easy" },
+        { "answers": ["μπόστον σέλτικς", "σέλτικς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/boston-celtics.png", "difficulty": "easy" },
+        { "answers": ["σικάγο μπουλς", "μπουλς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/chicago-bulls.png", "difficulty": "easy" },
+        { "answers": ["μιλγουόκι μπακς", "μπακς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/milwaukee-bucks.png", "difficulty": "easy" },
+        { "answers": ["κλίβελαντ καβαλίερς", "καβαλίερς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/cleveland-cavaliers.png", "difficulty": "medium" },
+        { "answers": ["ντένβερ νάγκετς", "νάγκετς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/denver-nuggets.png", "difficulty": "easy" },
+        { "answers": ["οκλαχόμα σίτι θάντερ", "θάντερ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/oklahoma-city-thunder.png", "difficulty": "medium" },
+        { "answers": ["φοίνιξ σανς", "σανς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/phoenix-suns.png", "difficulty": "medium" },
+        { "answers": ["ντάλας μάβερικς", "μάβερικς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/dallas-mavericks.png", "difficulty": "easy" },
+        { "answers": ["μέμφις γκρίζλις", "γκρίζλις"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/memphis-grizzlies.png", "difficulty": "medium" },
+        { "answers": ["μιάμι χιτ", "χιτ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/miami-heat.png", "difficulty": "easy" },
+        { "answers": ["φιλαδέλφεια 76ερς", "76ερς", "σίξερς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/philadelphia-76ers.png", "difficulty": "medium" },
+        { "answers": ["νιου γιορκ νικς", "νικς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/new-york-knicks.png", "difficulty": "easy" },
+        { "answers": ["σαν αντόνιο σπερς", "σπερς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/san-antonio-spurs.png", "difficulty": "easy" },
+        { "answers": ["σακραμέντο κινγκς", "κινγκς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/sacramento-kings.png", "difficulty": "medium" },
+        { "answers": ["πόρτλαντ τρέιλ μπλέιζερς", "μπλέιζερς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/portland-trail-blazers.png", "difficulty": "medium" },
+        { "answers": ["ιντιάνα πέισερς", "πέισερς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/indiana-pacers.png", "difficulty": "medium" },
+        { "answers": ["ορλάντο μάτζικ", "μάτζικ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/orlando-magic.png", "difficulty": "medium" },
+        { "answers": ["τορόντο ράπτορς", "ράπτορς"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/toronto-raptors.png", "difficulty": "medium" },
+        { "answers": ["ολυμπιακός"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/olympiacos.png", "difficulty": "easy" },
+        { "answers": ["παναθηναϊκός"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/panathinaikos.png", "difficulty": "easy" },
+        { "answers": ["ρεάλ μαδρίτης"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/real-madrid.png", "difficulty": "easy" },
+        { "answers": ["μπαρτσελόνα"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/barcelona.png", "difficulty": "easy" },
+        { "answers": ["φενέρμπαχτσε"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/fenerbahce.png", "difficulty": "easy" },
+        { "answers": ["ανατολού εφές", "εφές"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/anadolu-efes.png", "difficulty": "medium" },
+        { "answers": ["μακάμπι τελ αβίβ", "μακάμπι"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/maccabi-tel-aviv.png", "difficulty": "medium" },
+        { "answers": ["μονακό"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/monaco.png", "difficulty": "medium" },
+        { "answers": ["παρτίζαν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/partizan.png", "difficulty": "medium" },
+        { "answers": ["ερυθρός αστέρας"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/crvena-zvezda.png", "difficulty": "medium" },
+        { "answers": ["ζάλγκιρις"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/zalgiris-kaunas.png", "difficulty": "medium" },
+        { "answers": ["βίρτους μπολόνια"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/virtus-bologna.png", "difficulty": "medium" },
+        { "answers": ["μπασκόνια"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/baskonia.png", "difficulty": "medium" },
+        { "answers": ["βιλερμπάν"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/asvel.png", "difficulty": "hard" },
+        { "answers": ["άλμπα βερολίνου"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/alba-berlin.png", "difficulty": "hard" },
+        { "answers": ["πάρις μπάσκετ"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/paris-basketball.png", "difficulty": "medium" },
+        { "answers": ["βαλένθια"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/valencia-basket.png", "difficulty": "medium" },
+        { "answers": ["μπάγερν μονάχου"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/bayern-munich.png", "difficulty": "medium" },
+        { "answers": ["αρμάνι μιλάνο"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/olimpia-milano.png", "difficulty": "medium" },
+        { "answers": ["τσσκα μόσχας", "τσσκα"], "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-clubs/cska-moscow.png", "difficulty": "hard" }
     ],
 
     actors: [
     {
         "answers": ["λεονάρντο ντι κάπριο", "ντι κάπριο", "leonardo dicaprio", "dicaprio"],
-        "image": "images/actors/leonardo-dicaprio.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/leonardo-dicaprio.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τομ κρουζ", "tom cruise"],
-        "image": "images/actors/tom-cruise.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/tom-cruise.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ντουέιν τζόνσον", "the rock", "ροκ", "dwayne johnson"],
-        "image": "images/actors/dwayne-johnson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/dwayne-johnson.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπραντ πιτ", "brad pitt"],
-        "image": "images/actors/brad-pitt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/brad-pitt.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζόνι ντεπ", "johnny depp"],
-        "image": "images/actors/johnny-depp.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/johnny-depp.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ρόμπερτ ντάουνι τζούνιορ", "robert downey jr", "robert downey junior"],
-        "image": "images/actors/robert-downey-jr.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/robert-downey-jr.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κιάνου ριβς", "keanu reeves"],
-        "image": "images/actors/keanu-reeves.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/keanu-reeves.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μόργκαν φρίμαν", "morgan freeman"],
-        "image": "images/actors/morgan-freeman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/morgan-freeman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γουίλ σμιθ", "will smith"],
-        "image": "images/actors/will-smith.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/will-smith.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζιμ κάρεϊ", "jim carrey"],
-        "image": "images/actors/jim-carrey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/jim-carrey.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["χιου τζάκμαν", "hugh jackman"],
-        "image": "images/actors/hugh-jackman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/hugh-jackman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κρίστιαν μπέιλ", "christian bale"],
-        "image": "images/actors/christian-bale.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/christian-bale.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ματ ντέιμον", "matt damon"],
-        "image": "images/actors/matt-damon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/matt-damon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπεν άφλεκ", "ben affleck"],
-        "image": "images/actors/ben-affleck.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/ben-affleck.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κρις εβανς", "chris evans"],
-        "image": "images/actors/chris-evans.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/chris-evans.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κρις χέμσγουορθ", "chris hemsworth"],
-        "image": "images/actors/chris-hemsworth.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/chris-hemsworth.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μαρκ ράφαλο", "mark ruffalo"],
-        "image": "images/actors/mark-ruffalo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/mark-ruffalo.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σάμιουελ λ. τζάκσον", "samuel l. jackson", "samuel l jackson"],
-        "image": "images/actors/samuel-l-jackson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/samuel-l-jackson.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["τομ χανκς", "tom hanks"],
-        "image": "images/actors/tom-hanks.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/tom-hanks.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αλ πατσίνο", "al pacino"],
-        "image": "images/actors/al-pacino.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/al-pacino.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ρόμπερτ ντε νίρο", "robert de niro"],
-        "image": "images/actors/robert-de-niro.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/robert-de-niro.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["άντονι χόπκινς", "anthony hopkins"],
-        "image": "images/actors/anthony-hopkins.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/anthony-hopkins.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["χοακίν φίνιξ", "joaquin phoenix"],
-        "image": "images/actors/joaquin-phoenix.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/joaquin-phoenix.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κίλιαν μέρφι", "cillian murphy"],
-        "image": "images/actors/cillian-murphy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/cillian-murphy.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ράιαν γκόσλινγκ", "ryan gosling"],
-        "image": "images/actors/ryan-gosling.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/ryan-gosling.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ράιαν ρέινολντς", "ryan reynolds"],
-        "image": "images/actors/ryan-reynolds.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/ryan-reynolds.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["όρλαντο μπλουμ", "orlando bloom"],
-        "image": "images/actors/orlando-bloom.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/orlando-bloom.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ιαν μακκέлен", "ian mckellen"],
-        "image": "images/actors/ian-mckellen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/ian-mckellen.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["βίγκο μόρτενσεν", "viggo mortensen"],
-        "image": "images/actors/viggo-mortensen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/viggo-mortensen.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ελάιτζα γουντ", "elijah wood"],
-        "image": "images/actors/elijah-wood.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/elijah-wood.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["άντριου γκάρφιλντ", "andrew garfield"],
-        "image": "images/actors/andrew-garfield.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/andrew-garfield.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["τόμπι μαγκουάιρ", "tobey maguire"],
-        "image": "images/actors/tobey-maguire.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/tobey-maguire.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τομ χόλαντ", "tom holland"],
-        "image": "images/actors/tom-holland.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/tom-holland.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["χένρι κάβιλ", "henry cavill"],
-        "image": "images/actors/henry-cavill.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/henry-cavill.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζέισον στέιθαμ", "jason statham"],
-        "image": "images/actors/jason-statham.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/jason-statham.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["άρνολντ σβαρτσενέγκερ", "arnold schwarzenegger"],
-        "image": "images/actors/arnold-schwarzenegger.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/arnold-schwarzenegger.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σιλβέστερ σταλόνε", "sylvester stallone"],
-        "image": "images/actors/sylvester-stallone.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/sylvester-stallone.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζάκι τσαν", "jackie chan"],
-        "image": "images/actors/jackie-chan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/jackie-chan.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζετ λι", "jet li"],
-        "image": "images/actors/jet-li.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/jet-li.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["νίκολας κέιτζ", "nicolas cage"],
-        "image": "images/actors/nicolas-cage.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/nicolas-cage.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ρασελ κρόου", "russell crowe"],
-        "image": "images/actors/russell-crowe.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/russell-crowe.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["έντουαρντ νόρτον", "edward norton"],
-        "image": "images/actors/edward-norton.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/edward-norton.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ρέιφ φάινς", "ralph fiennes"],
-        "image": "images/actors/ralph-fiennes.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/ralph-fiennes.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γκάρι όλντμαν", "gary oldman"],
-        "image": "images/actors/gary-oldman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/gary-oldman.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ντάνιελ ράντκλιφ", "daniel radcliffe"],
-        "image": "images/actors/daniel-radcliffe.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/daniel-radcliffe.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ρούπερτ γκριντ", "rupert grint"],
-        "image": "images/actors/rupert-grint.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/rupert-grint.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["έμα γουότσον", "emma watson"],
-        "image": "images/actors/emma-watson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/emma-watson.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["έμα στόουν", "emma stone"],
-        "image": "images/actors/emma-stone.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/emma-stone.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σκάρλετ γιόχανσον", "scarlett johansson"],
-        "image": "images/actors/scarlett-johansson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/scarlett-johansson.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζένιφερ λόρενς", "jennifer lawrence"],
-        "image": "images/actors/jennifer-lawrence.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/jennifer-lawrence.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μάργκοτ ρόμπι", "margot robbie"],
-        "image": "images/actors/margot-robbie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/margot-robbie.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γκαλ γκαντότ", "gal gadot"],
-        "image": "images/actors/gal-gadot.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/gal-gadot.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["νάταλι πόρτμαν", "natalie portman"],
-        "image": "images/actors/natalie-portman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/natalie-portman.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["αν χάθαγουεϊ", "anne hathaway"],
-        "image": "images/actors/anne-hathaway.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/anne-hathaway.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σαρλίζ θερόν", "charlize theron"],
-        "image": "images/actors/charlize-theron.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/charlize-theron.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["νικόλ κίντμαν", "nicole kidman"],
-        "image": "images/actors/nicole-kidman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/nicole-kidman.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κέιτ γουίνσλετ", "kate winslet"],
-        "image": "images/actors/kate-winslet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/kate-winslet.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μέριλ στριπ", "meryl streep"],
-        "image": "images/actors/meryl-streep.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/meryl-streep.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["τζούλια ρόμπερτς", "julia roberts"],
-        "image": "images/actors/julia-roberts.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/julia-roberts.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σάντρα μπούλοκ", "sandra bullock"],
-        "image": "images/actors/sandra-bullock.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/sandra-bullock.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ζεντάγια", "zendaya"],
-        "image": "images/actors/zendaya.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/zendaya.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["φλόρενς πιου", "florence pugh"],
-        "image": "images/actors/florence-pugh.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/florence-pugh.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μίλι μπόμπι μπράουν", "millie bobby brown"],
-        "image": "images/actors/millie-bobby-brown.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/millie-bobby-brown.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["άνια τέιλορ τζόι", "anya taylor-joy", "anya taylor joy"],
-        "image": "images/actors/anya-taylor-joy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/anya-taylor-joy.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πέδρο πασκάλ", "pedro pascal"],
-        "image": "images/actors/pedro-pascal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/pedro-pascal.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["όσκαρ άιζακ", "oscar isaac"],
-        "image": "images/actors/oscar-isaac.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/oscar-isaac.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["άνταμ ντράιβερ", "adam driver"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπένεντικτ κάμπερμπατς", "benedict cumberbatch"],
-        "image": "images/actors/benedict-cumberbatch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/benedict-cumberbatch.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μάικλ φασμπέντερ", "michael fassbender"],
-        "image": "images/actors/michael-fassbender.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/michael-fassbender.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ίντρις έλμπα", "idris elba"],
-        "image": "images/actors/idris-elba.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/idris-elba.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ντάνζελ ουάσινγκτον", "denzel washington"],
-        "image": "images/actors/denzel-washington.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/denzel-washington.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζέιμι φοξ", "jamie foxx"],
-        "image": "images/actors/jamie-foxx.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/jamie-foxx.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["χάρισον φορντ", "harrison ford"],
-        "image": "images/actors/harrison-ford.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/harrison-ford.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γιούαν μακγκρέγκορ", "ewan mcgregor"],
-        "image": "images/actors/ewan-mcgregor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/ewan-mcgregor.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λίαμ νίσον", "liam neeson"],
-        "image": "images/actors/liam-neeson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/liam-neeson.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τιμοτέ σαλαμέ", "timothee chalamet", "timothée chalamet"],
-        "image": "images/actors/timothee-chalamet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/timothee-chalamet.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["όστιν μπάτλερ", "austin butler"],
-        "image": "images/actors/austin-butler.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/austin-butler.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γκλεν πάουελ", "glen powell"],
-        "image": "images/actors/glen-powell.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/glen-powell.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["πολ μέσκαλ", "paul mescal"],
-        "image": "images/actors/paul-mescal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/paul-mescal.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κόλιν φάρελ", "colin farrell"],
-        "image": "images/actors/colin-farrell.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/colin-farrell.jpg",
         "difficulty": "medium"
     }
 ],
@@ -6013,402 +6013,402 @@ mythology: [
     "famous-cars": [
     {
         "answers": ["mercedes amg gt black series", "amg gt black series", "μερσεντές αμγκ γι τι μπλακ σιρις", "αμγκ γι τι μπλακ σιρις"],
-        "image": "images/famous-cars/mercedes-amg-gt-black-series.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-amg-gt-black-series.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bugatti chiron", "μπουγκάτι σιρόν"],
-        "image": "images/famous-cars/bugatti-chiron.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-chiron.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bugatti bolide", "μπουγκάτι μπολίντ"],
-        "image": "images/famous-cars/bugatti-bolide.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-bolide.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["koenigsegg jesko", "jesko", "κένιγκσεγκ γιέσκο", "γιέσκο"],
-        "image": "images/famous-cars/koenigsegg-jesko.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-jesko.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["koenigsegg jesko absolut", "jesko absolut", "κένιγκσεγκ γιέσκο απσολουτ", "γιέσκο απσολουτ"],
-        "image": "images/famous-cars/koenigsegg-jesko-absolut.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-jesko-absolut.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["koenigsegg regera", "κένιγκσεγκ ρεγκέρα"],
-        "image": "images/famous-cars/koenigsegg-regera.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-regera.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["koenigsegg agera rs", "κένιγκσεγκ αγέρα ρς"],
-        "image": "images/famous-cars/koenigsegg-agera-rs.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-agera-rs.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["hennessey venom f5", "χένεσιν βένομ ες 5", "χένεσιν βένομ φ5"],
-        "image": "images/famous-cars/hennessey-venom-f5.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/hennessey-venom-f5.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rimac nevera", "ρίμακ νεβέρα"],
-        "image": "images/famous-cars/rimac-nevera.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/rimac-nevera.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lamborghini aventador", "λαμποργκίνι αβενταντόρ"],
-        "image": "images/famous-cars/lamborghini-aventador.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-aventador.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lamborghini revuelto", "λαμποργκίνι ρεβουέλτο"],
-        "image": "images/famous-cars/lamborghini-revuelto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-revuelto.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lamborghini veneno", "λαμποργκίνι βενένο"],
-        "image": "images/famous-cars/lamborghini-veneno.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-veneno.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ferrari laferrari", "φερράρι λαφερράρι"],
-        "image": "images/famous-cars/ferrari-laferrari.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-laferrari.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ferrari f40", "φερράρι ες 40", "φερράρι φ40"],
-        "image": "images/famous-cars/ferrari-f40.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-f40.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ferrari enzo", "φερράρι ένζο"],
-        "image": "images/famous-cars/ferrari-enzo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-enzo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mclaren p1", "μακλάρεν πι 1"],
-        "image": "images/famous-cars/mclaren-p1.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-p1.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mclaren senna", "μακλάρεν σέννα"],
-        "image": "images/famous-cars/mclaren-senna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-senna.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mclaren speedtail", "μακλάρεν σπίττειλ"],
-        "image": "images/famous-cars/mclaren-speedtail.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-speedtail.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["aston martin valkyrie", "άستون μάρτιν βαλκίρι"],
-        "image": "images/famous-cars/aston-martin-valkyrie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/aston-martin-valkyrie.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["aston martin valkyrie amr pro", "άستون μάρτιν βαλκίρι αμρ προ"],
-        "image": "images/famous-cars/aston-martin-valkyrie-amr-pro.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/aston-martin-valkyrie-amr-pro.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["pagani huayra bc", "παγκάνι ουάιρα μπι σι"],
-        "image": "images/famous-cars/pagani-huayra-bc.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/pagani-huayra-bc.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pagani zonda r", "παγκάνι ζόντα αρ"],
-        "image": "images/famous-cars/pagani-zonda-r.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/pagani-zonda-r.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["apollo intensa emozione", "apollo ie", "απόλο ιντένσα εμοτσιονέ", "απόλο ι ε"],
-        "image": "images/famous-cars/apollo-intensa-emozione.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/apollo-intensa-emozione.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["porsche 911 gt3 rs", "πόρσε 911 γι τι 3 ρς"],
-        "image": "images/famous-cars/porsche-911-gt3-rs.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-911-gt3-rs.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["porsche taycan turbo gt", "πόρσε ταϊκάν τέρμπο γι τι"],
-        "image": "images/famous-cars/porsche-taycan-turbo-gt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-taycan-turbo-gt.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["porsche 918 spyder", "πόρσε 918 σπάιντερ"],
-        "image": "images/famous-cars/porsche-918-spyder.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-918-spyder.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bugatti veyron", "μπουγκάτι βεϊρόν"],
-        "image": "images/famous-cars/bugatti-veyron.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-veyron.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bugatti mistral", "μπουγκάτι μιστράλ"],
-        "image": "images/famous-cars/bugatti-mistral.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-mistral.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["chevrolet corvette zr1x", "σεβρολέ κορβέτ ζετ αρ 1 ες"],
-        "image": "images/famous-cars/chevrolet-corvette-zr1x.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/chevrolet-corvette-zr1x.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ford gt", "φορντ γι τι"],
-        "image": "images/famous-cars/ford-gt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ford-gt.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ford mustang shelby gt500", "φορντ μούστανγκ σέλμπι γι τι 500"],
-        "image": "images/famous-cars/ford-mustang-shelby-gt500.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ford-mustang-shelby-gt500.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["nissan gt-r", "nissan gtr", "gt-r", "gtr", "νισάν γι τι αρ", "νισάν γι τι αρ 35", "γι τι αρ"],
-        "image": "images/famous-cars/nissan-gtr-r35.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/nissan-gtr-r35.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["toyota supra mk4", "toyota supra", "supra mk4", "τογιότα σούπρα", "σούπρα μκ4"],
-        "image": "images/famous-cars/toyota-supra-mk4.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/toyota-supra-mk4.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mazda rx-7", "mazda rx7", "μάσντα ρεξ 7", "μάζντα ρεξ 7"],
-        "image": "images/famous-cars/mazda-rx7.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mazda-rx7.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["dodge challenger srt demon 170", "ντόντζ τσάλιντζερ ες αρ τι δαίμων 170"],
-        "image": "images/famous-cars/dodge-challenger-srt-demon-170.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/dodge-challenger-srt-demon-170.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bmw m4 competition", "μπι εμ νταμπλγιου εμ 4 κομπιτισιον", "μπμω εμ 4"],
-        "image": "images/famous-cars/bmw-m4-competition.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-m4-competition.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bmw m5 cs", "μπμω εμ 5 σι ες"],
-        "image": "images/famous-cars/bmw-m5-cs.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-m5-cs.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mercedes amg one", "μερσεντές αμγκ γουάν"],
-        "image": "images/famous-cars/mercedes-amg-one.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-amg-one.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mercedes benz 300 slr uhlenhaut coupe", "300 slr uhlenhaut coupe", "μερσεντές μπενζ 300 σλρ ουλενχαουτ κουπέ"],
-        "image": "images/famous-cars/mercedes-300-slr-uhlenhaut-coupe.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-300-slr-uhlenhaut-coupe.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mercedes vision avtr", "vision avtr", "μερσεντές βίζιον αβτρ"],
-        "image": "images/famous-cars/mercedes-vision-avtr.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-vision-avtr.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mercedes slr mclaren", "μερσεντές σλρ μακλάρεν"],
-        "image": "images/famous-cars/mercedes-slr-mclaren.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-slr-mclaren.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mercedes amg gt r", "μερσεντές αμγκ γι τι αρ"],
-        "image": "images/famous-cars/mercedes-amg-gt-r.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-amg-gt-r.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mercedes g63 amg", "g63 amg", "g wagon", "g-class", "τζι βαγκον", "τζι κλας", "μερσεντές τζι 63 αμγκ"],
-        "image": "images/famous-cars/mercedes-g63-amg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-g63-amg.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mercedes cls 63 amg", "μερσεντές σι ελ ες 63 αμγκ"],
-        "image": "images/famous-cars/mercedes-cls63-amg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-cls63-amg.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["bmw m3 gtr", "μπμω εμ 3 γι τι αρ"],
-        "image": "images/famous-cars/bmw-m3-gtr.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-m3-gtr.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bmw i8", "μπμω ι 8"],
-        "image": "images/famous-cars/bmw-i8.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-i8.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bmw m8 competition", "μπμω εμ 8 κομπιτισιον"],
-        "image": "images/famous-cars/bmw-m8-competition.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-m8-competition.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["audi r8", "άουντι αρ 8"],
-        "image": "images/famous-cars/audi-r8.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/audi-r8.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["audi rs6 avant", "άουντι αρ ες 6 αβάντ"],
-        "image": "images/famous-cars/audi-rs6-avant.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/audi-rs6-avant.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["audi rs7", "άουντι αρ ες 7"],
-        "image": "images/famous-cars/audi-rs7.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/audi-rs7.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lexus lfa", "λέξους λφα"],
-        "image": "images/famous-cars/lexus-lfa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lexus-lfa.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["honda nsx", "χόντα εν ες ιξ"],
-        "image": "images/famous-cars/honda-nsx.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/honda-nsx.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mitsubishi lancer evolution x", "lancer evo x", "evo x", "μιτσουμπίσι λάνσερ εβόλουσιον ιξ", "λάνσερ εβο 10", "εβο 10"],
-        "image": "images/famous-cars/mitsubishi-lancer-evo-x.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mitsubishi-lancer-evo-x.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["subaru impreza wrx sti", "wrx sti", "σουμπαρού ιμπρέζα νταμπλ αρ ιξ στι", "νταμπλ αρ ιξ στι"],
-        "image": "images/famous-cars/subaru-impreza-wrx-sti.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/subaru-impreza-wrx-sti.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["nissan silvia s15", "νισάν σίλβια σ 15"],
-        "image": "images/famous-cars/nissan-silvia-s15.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/nissan-silvia-s15.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["toyota ae86", "τογιότα αε 86"],
-        "image": "images/famous-cars/toyota-ae86.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/toyota-ae86.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["dodge viper acr", "ντόντζ βάιπερ ακιρ"],
-        "image": "images/famous-cars/dodge-viper-acr.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/dodge-viper-acr.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["chevrolet camaro zl1", "σεβρολέ καμάρο ζετ ελ 1"],
-        "image": "images/famous-cars/chevrolet-camaro-zl1v.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/chevrolet-camaro-zl1v.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["chevrolet corvette c8", "σεβρολέ κορβέτ σι 8"],
-        "image": "images/famous-cars/chevrolet-corvette-c8.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/chevrolet-corvette-c8.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ford mustang dark horse", "φορντ μούστανγκ δαρκ χορς"],
-        "image": "images/famous-cars/ford-mustang-dark-horse.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ford-mustang-dark-horse.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["aston martin db5", "άستون μάρτιν ντι βι 5"],
-        "image": "images/famous-cars/aston-martin-db5.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/aston-martin-db5.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["aston martin dbs superleggera", "άستون μάρτιν ντι βι ες σουπερλετζέρα"],
-        "image": "images/famous-cars/aston-martin-dbs-superleggera.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/aston-martin-dbs-superleggera.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ferrari sf90 stradale", "φερράρι ες φ 90 στρατάλε"],
-        "image": "images/famous-cars/ferrari-sf90-stradale.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-sf90-stradale.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ferrari 812 superfast", "φερράρι 812 σούπερφαστ"],
-        "image": "images/famous-cars/ferrari-812-superfast.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-812-superfast.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lamborghini huracan", "λαμποργκίνι ουρακαν"],
-        "image": "images/famous-cars/lamborghini-huracan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-huracan.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lamborghini sian", "λαμποργκίνι σιάν"],
-        "image": "images/famous-cars/lamborghini-sian.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-sian.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pagani utopia", "παγκάνι ουτόπια"],
-        "image": "images/famous-cars/pagani-utopia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/pagani-utopia.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["koenigsegg cc850", "κένιγκσεγκ σι σι 850"],
-        "image": "images/famous-cars/koenigsegg-cc850.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-cc850.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["koenigsegg gemera", "κένιγκσεγκ γεμέρα"],
-        "image": "images/famous-cars/koenigsegg-gemera.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-gemera.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bugatti tourbillon", "μπουγκάτι τουρμπιόν"],
-        "image": "images/famous-cars/bugatti-tourbillon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-tourbillon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mclaren 720s", "μακλάρεν 720 ες"],
-        "image": "images/famous-cars/mclaren-720s.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-720s.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mclaren 765lt", "μακλάρεν 765 λτ"],
-        "image": "images/famous-cars/mclaren-765lt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-765lt.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rolls royce phantom", "ρολς ρόις φάντομ"],
-        "image": "images/famous-cars/rolls-royce-phantom.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/rolls-royce-phantom.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rolls royce ghost", "ρολς ρόις γκωσ", "ρολς ρόις γκονστ"],
-        "image": "images/famous-cars/rolls-royce-ghost.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/rolls-royce-ghost.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bentley continental gt", "μπέντλεϊ κοντινένταλ γι τι"],
-        "image": "images/famous-cars/bentley-continental-gt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bentley-continental-gt.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["porsche carrera gt", "πόρσε καρέρα γι τι"],
-        "image": "images/famous-cars/porsche-carrera-gt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-carrera-gt.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["porsche 959", "πόρσε 959"],
-        "image": "images/famous-cars/porsche-959.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-959.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jaguar xj220", "τζάγκουαρ ες τζι 220"],
-        "image": "images/famous-cars/jaguar-xj220.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/jaguar-xj220.jpg",
         "difficulty": "hard"
     },
         {
         "answers": ["ssc tuatara", "εσ ες σι τουατάρα"],
-        "image": "images/famous-cars/ssc-tuatara.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ssc-tuatara.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["de tomaso p72", "ντε τομάσο πι 72"],
-        "image": "images/famous-cars/de-tomaso-p72.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/de-tomaso-p72.jpg",
         "difficulty": "hard"
     }
 ],
@@ -6416,402 +6416,402 @@ mythology: [
 "f1-drivers": [
     {
         "answers": ["lewis hamilton", "hamilton", "λύις χάμιλτον", "χάμιλτον"],
-        "image": "images/f1-drivers/lewis-hamilton.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/lewis-hamilton.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["max verstappen", "verstappen", "μαξ φερστάπεν", "φερστάπεν"],
-        "image": "images/f1-drivers/max-verstappen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/max-verstappen.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["charles leclerc", "leclerc", "σαρλ λεκλέρ", "λεκλέρ"],
-        "image": "images/f1-drivers/charles-leclerc.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/charles-leclerc.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lando norris", "norris", "λάντο νόρις", "νόρις"],
-        "image": "images/f1-drivers/lando-norris.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/lando-norris.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["oscar piastri", "piastri", "όσκαρ πιάστρι", "πιάστρι"],
-        "image": "images/f1-drivers/oscar-piastri.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/oscar-piastri.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["george russell", "russell", "τζόρτζ ρασέλ", "ρασέλ"],
-        "image": "images/f1-drivers/george-russell.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/george-russell.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["carlos sainz", "sainz", "κάρλος σάινθ", "σάινθ"],
-        "image": "images/f1-drivers/carlos-sainz.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/carlos-sainz.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["fernando alonso", "alonso", "φερνάντο αλόνσο", "αλόνσο"],
-        "image": "images/f1-drivers/fernando-alonso.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/fernando-alonso.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sebastian vettel", "vettel", "σεμπάστιαν φέτελ", "φέτελ"],
-        "image": "images/f1-drivers/sebastian-vettel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/sebastian-vettel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["michael schumacher", "schumacher", "μιχαήλ σουμάχερ", "σουμάχερ"],
-        "image": "images/f1-drivers/michael-schumacher.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/michael-schumacher.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ayrton senna", "senna", "αΐρτον σένα", "σένα"],
-        "image": "images/f1-drivers/ayrton-senna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/ayrton-senna.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["alain prost", "prost", "αλάν προστ", "προστ"],
-        "image": "images/f1-drivers/alain-prost.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/alain-prost.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["niki lauda", "lauda", "νίκι λάουντα", "λάουντα"],
-        "image": "images/f1-drivers/niki-lauda.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/niki-lauda.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jenson button", "button", "τζένσον μπάτον", "μπάτον"],
-        "image": "images/f1-drivers/jenson-button.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jenson-button.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["kimi raikkonen", "raikkonen", "kimi", "κίμι ραϊκόνεν", "ραϊκόνεν", "κίμι"],
-        "image": "images/f1-drivers/kimi-raikkonen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/kimi-raikkonen.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["nico rosberg", "rosberg", "νίκο ρόσμπεργκ", "ρόσμπεργκ"],
-        "image": "images/f1-drivers/nico-rosberg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/nico-rosberg.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["daniel ricciardo", "ricciardo", "ντάνιελ ρικιάρντο", "ρικιάρντο"],
-        "image": "images/f1-drivers/daniel-ricciardo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/daniel-ricciardo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sergio perez", "perez", "checo perez", "σέρτζιο πέρεζ", "πέρεζ", "τσέκο πέρεζ"],
-        "image": "images/f1-drivers/sergio-perez.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/sergio-perez.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["valtteri bottas", "bottas", "βάλτερι μπότας", "μπότας"],
-        "image": "images/f1-drivers/valtteri-bottas.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/valtteri-bottas.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["felipe massa", "massa", "φελίπε μάσα", "μάσα"],
-        "image": "images/f1-drivers/felipe-massa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/felipe-massa.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jacques villeneuve", "villeneuve", "ζακ βιλνέβ", "βιλνέβ"],
-        "image": "images/f1-drivers/jacques-villeneuve.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jacques-villeneuve.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mika hakkinen", "hakkinen", "μίκα χάκινεν", "χάκινεν"],
-        "image": "images/f1-drivers/mika-hakkinen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/mika-hakkinen.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["damon hill", "hill", "ντέιμον χιλ", "χιλ"],
-        "image": "images/f1-drivers/damon-hill.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/damon-hill.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["nelson piquet", "piquet", "νέλσον πικέ", "πικέ"],
-        "image": "images/f1-drivers/nelson-piquet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/nelson-piquet.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["nigel mansell", "mansell", "νάιτζελ μάνσελ", "μάνσελ"],
-        "image": "images/f1-drivers/nigel-mansell.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/nigel-mansell.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["emerson fittipaldi", "fittipaldi", "έμερσον φιτιπάλντι", "φιτιπάλντι"],
-        "image": "images/f1-drivers/emerson-fittipaldi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/emerson-fittipaldi.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jackie stewart", "stewart", "τζάκι στίουαρτ", "στίουαρτ"],
-        "image": "images/f1-drivers/jackie-stewart.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jackie-stewart.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jim clark", "clark", "τζιμ κλαρκ", "κλαρκ"],
-        "image": "images/f1-drivers/jim-clark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jim-clark.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["gilles villeneuve", "villeneuve", "ζιλ βιλνέβ", "βιλνέβ"],
-        "image": "images/f1-drivers/gilles-villeneuve.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/gilles-villeneuve.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ronnie peterson", "peterson", "ρόνι πέτερσον", "πέτερσον"],
-        "image": "images/f1-drivers/ronnie-peterson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/ronnie-peterson.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mark webber", "webber", "μαρκ γουέμπερ", "γουέμπερ"],
-        "image": "images/f1-drivers/mark-webber.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/mark-webber.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rubens barrichello", "barrichello", "ρούμπενς μπαρικέλο", "μπαρικέλο"],
-        "image": "images/f1-drivers/rubens-barrichello.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/rubens-barrichello.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["david coulthard", "coulthard", "ντέιβιντ κούλθαρντ", "κούλθαρντ"],
-        "image": "images/f1-drivers/david-coulthard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/david-coulthard.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ralf schumacher", "ραλφ σουμάχερ"],
-        "image": "images/f1-drivers/ralf-schumacher.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/ralf-schumacher.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["juan pablo montoya", "montoya", "χουάν πάμπλο μοντόγια", "μοντόγια"],
-        "image": "images/f1-drivers/juan-pablo-montoya.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/juan-pablo-montoya.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jarno trulli", "trulli", "γιάρνο τρούλι", "τρούλι"],
-        "image": "images/f1-drivers/jarno-trulli.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jarno-trulli.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["giancarlo fisichella", "fisichella", "τζιανκάρλο φυσικέλα", "φυσικέλα"],
-        "image": "images/f1-drivers/giancarlo-fisichella.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/giancarlo-fisichella.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["heikki kovalainen", "kovalainen", "χέικη κοβαλάινεν", "κοβαλάινεν"],
-        "image": "images/f1-drivers/heikki-kovalainen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/heikki-kovalainen.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["yuki tsunoda", "tsunoda", "γούκι τσουνόντα", "γιούκι τσουνόντα", "τσουνόντα"],
-        "image": "images/f1-drivers/yuki-tsunoda.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/yuki-tsunoda.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["alex albon", "albon", "άλεξ άλμπον", "άλμπον"],
-        "image": "images/f1-drivers/alex-albon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/alex-albon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["liam lawson", "lawson", "λίαμ λόουσον", "λόουσον"],
-        "image": "images/f1-drivers/liam-lawson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/liam-lawson.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["andrea kimi antonelli", "kimi antonelli", "antonelli", "αντρέα κίμι αντονέλι", "κίμι αντονέλι", "αντονέλι"],
-        "image": "images/f1-drivers/andrea-kimi-antonelli.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/andrea-kimi-antonelli.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["oliver bearman", "bearman", "όλιβερ μπίρμαν", "μπίρμαν"],
-        "image": "images/f1-drivers/oliver-bearman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/oliver-bearman.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["gabriel bortoleto", "bortoleto", "γκαμπριέλ μπορτολέτο", "μπορτολέτο"],
-        "image": "images/f1-drivers/gabriel-bortoleto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/gabriel-bortoleto.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["isack hadjar", "hadjar", "ισάκ χατζάρ", "χατζάρ"],
-        "image": "images/f1-drivers/isack-hadjar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/isack-hadjar.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["esteban ocon", "ocon", "εστεμπάν οκόν", "οκόν"],
-        "image": "images/f1-drivers/esteban-ocon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/esteban-ocon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pierre gasly", "gasly", "πιερ γκασλί", "γκασλί"],
-        "image": "images/f1-drivers/pierre-gasly.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/pierre-gasly.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lance stroll", "stroll", "λανς στρολ", "στρολ"],
-        "image": "images/f1-drivers/lance-stroll.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/lance-stroll.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["nico hulkenberg", "hulkenberg", "νίκο χούλκενμπεργκ", "χούλκενμπεργκ"],
-        "image": "images/f1-drivers/nico-hulkenberg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/nico-hulkenberg.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["kevin magnussen", "magnussen", "κέβιν μάγκνουσεν", "μάγκνουσεν"],
-        "image": "images/f1-drivers/kevin-magnussen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/kevin-magnussen.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["romain grosjean", "grosjean", "ρομέν γκροζάν", "γκροζάν"],
-        "image": "images/f1-drivers/romain-grosjean.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/romain-grosjean.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["pastor maldonado", "maldonado", "πάστορ μαλντονάδο", "μαλντονάδο"],
-        "image": "images/f1-drivers/pastor-maldonado.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/pastor-maldonado.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jean alesi", "alesi", "ζαν αλεζί", "αλεζί"],
-        "image": "images/f1-drivers/jean-alesi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jean-alesi.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["gerhard berger", "berger", "γκέραρντ μπέργκερ", "μπέργκερ"],
-        "image": "images/f1-drivers/gerhard-berger.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/gerhard-berger.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["rene arnoux", "arnoux", "ρενέ αρνού", "αρνού"],
-        "image": "images/f1-drivers/rene-arnoux.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/rene-arnoux.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["carlos reutemann", "reutemann", "κάρλος ρόιτεμαν", "ρόιτεμαν"],
-        "image": "images/f1-drivers/carlos-reutemann.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/carlos-reutemann.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["john surtees", "surtees", "τζον σόρτις", "σόρτις"],
-        "image": "images/f1-drivers/john-surtees.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/john-surtees.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["graham hill", "γκράχαμ χιλ"],
-        "image": "images/f1-drivers/graham-hill.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/graham-hill.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jochen rindt", "rindt", "γίοχεν ριντ", "ριντ"],
-        "image": "images/f1-drivers/jochen-rindt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jochen-rindt.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jody schekter", "scheckter", "ζόντι σέκτερ", "τζόντι σέκτερ", "σέκτερ"],
-        "image": "images/f1-drivers/jody-scheckter.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jody-scheckter.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["alan jones", "jones", "άλαν τζόουνς", "τζόουνς"],
-        "image": "images/f1-drivers/alan-jones.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/alan-jones.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["keke rosberg", "κέκε ρόσμπεργκ"],
-        "image": "images/f1-drivers/keke-rosberg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/keke-rosberg.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["alain prost", "prost", "αλάν προστ", "προστ"],
-        "image": "images/f1-drivers/alain-prost.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/alain-prost.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jacques laffite", "laffite", "ζακ λαφίτ", "λαφίτ"],
-        "image": "images/f1-drivers/jacques-laffite.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jacques-laffite.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["didier pironi", "pironi", "ντιντιέ πιρονί", "πιρονί"],
-        "image": "images/f1-drivers/didier-pironi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/didier-pironi.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["riccardo patrese", "patrese", "ρικάρντο πατρίζε", "πατρίζε"],
-        "image": "images/f1-drivers/riccardo-patrese.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/riccardo-patrese.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["eddie irvine", "irvine", "έντι ιρβάιν", "ιρβάιν"],
-        "image": "images/f1-drivers/eddie-irvine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/eddie-irvine.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["heinz harald frentzen", "frentzen", "χάιντς χάραλντ φρέντσεν", "φρέντσεν"],
-        "image": "images/f1-drivers/heinz-harald-frentzen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/heinz-harald-frentzen.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["felipe drugovich", "drugovich", "φελίπε ντρουγκόβιτς", "ντρουγκόβιτς"],
-        "image": "images/f1-drivers/felipe-drugovich.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/felipe-drugovich.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["theo pourchaire", "pourchaire", "τεό πουρσέρ", "πουρσέρ"],
-        "image": "images/f1-drivers/theo-pouchaire.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/theo-pouchaire.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["franco colapinto", "colapinto", "φράνκο κολαπίντο", "κολαπίντο"],
-        "image": "images/f1-drivers/franco-colapinto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/franco-colapinto.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jack doohan", "doohan", "τζακ ντούχαν", "ντούχαν"],
-        "image": "images/f1-drivers/jack-doohan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/jack-doohan.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["logan sargeant", "sargeant", "λόγκαν σάρτζεντ", "σάρτζεντ"],
-        "image": "images/f1-drivers/logan-sargeant.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/logan-sargeant.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["nyck de vries", "de vries", "νικ ντε φρις", "ντε φρις"],
-        "image": "images/f1-drivers/nyck-de-vries.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/nyck-de-vries.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["antonio giovinazzi", "giovinazzi", "αντόνιο τζοβινάτσι", "τζοβινάτσι"],
-        "image": "images/f1-drivers/antonio-giovinazzi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/antonio-giovinazzi.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["robert kubica", "kubica", "ρόμπερτ κουμπίτσα", "κουμπίτσα"],
-        "image": "images/f1-drivers/robert-kubica.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/robert-kubica.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["kamui kobayashi", "kobayashi", "καμούι κομπαγιάσι", "κομπαγιάσι"],
-        "image": "images/f1-drivers/kamui-kobayashi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/kamui-kobayashi.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["brendon hartley", "hartley", "πρέντον χάρτλεϊ", "μπρέντον χάρτλεϊ", "χάρτλεϊ"],
-        "image": "images/f1-drivers/brendon-hartley.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/brendon-hartley.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["stoffel vandoorne", "vandoorne", "στόφελ βανντόρν", "βανντόρν"],
-        "image": "images/f1-drivers/stoffel-vandoorne.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/stoffel-vandoorne.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["felipe nasr", "nasr", "φελίπε νασρ", "νασρ"],
-        "image": "images/f1-drivers/felipe-nasr.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/f1-drivers/felipe-nasr.jpg",
         "difficulty": "hard"
     }
 ],
@@ -6819,473 +6819,473 @@ mythology: [
 "car-logos": [
     {
         "answers": ["byd", "μπι και ντι"],
-        "image": "images/car-logos/byd.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/byd.png",
         "difficulty": "medium"
     },
     {
         "answers": ["geely", "τζιλι"],
-        "image": "images/car-logos/geely.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/geely.png",
         "difficulty": "hard"
     },
     {
         "answers": ["chery", "τσερι"],
-        "image": "images/car-logos/chery.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/chery.png",
         "difficulty": "hard"
     },
     {
         "answers": ["great wall", "gwm", "γκρέιτ γουόλ"],
-        "image": "images/car-logos/great-wall.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/great-wall.png",
         "difficulty": "hard"
     },
     {
         "answers": ["mg", "εμ τζι"],
-        "image": "images/car-logos/mg.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/mg.png",
         "difficulty": "medium"
     },
     {
         "answers": ["roewe", "ροεβέ"],
-        "image": "images/car-logos/roewe.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/roewe.png",
         "difficulty": "hard"
     },
     {
         "answers": ["haval", "χαβαλ"],
-        "image": "images/car-logos/haval.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/haval.png",
         "difficulty": "hard"
     },
     {
         "answers": ["li auto", "λι οτο"],
-        "image": "images/car-logos/li-auto.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/li-auto.png",
         "difficulty": "hard"
     },
     {
         "answers": ["zeekr", "ζικρ"],
-        "image": "images/car-logos/zeekr.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/zeekr.png",
         "difficulty": "medium"
     },
     {
         "answers": ["lotus", "λότεσ", "λότους"],
-        "image": "images/car-logos/lotus.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/lotus.png",
         "difficulty": "medium"
     },
     {
         "answers": ["pagani", "παγκάνι"],
-        "image": "images/car-logos/pagani.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/pagani.png",
         "difficulty": "medium"
     },
     {
         "answers": ["bugatti", "μπουγκάτι"],
-        "image": "images/car-logos/bugatti.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/bugatti.png",
         "difficulty": "easy"
     },
     {
         "answers": ["lamborghini", "λαμπεργκίνι"],
-        "image": "images/car-logos/lamborghini.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/lamborghini.png",
         "difficulty": "easy"
     },
     {
         "answers": ["mclaren", "μακλάρεν"],
-        "image": "images/car-logos/mclaren.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/mclaren.png",
         "difficulty": "easy"
     },
     {
         "answers": ["koenigsegg", "κένιγκσεγκ"],
-        "image": "images/car-logos/koenigsegg.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/koenigsegg.png",
         "difficulty": "medium"
     },
     {
         "answers": ["rimac", "ρίμακ"],
-        "image": "images/car-logos/rimac.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/rimac.png",
         "difficulty": "medium"
     },
     {
         "answers": ["smart", "σμαρτ"],
-        "image": "images/car-logos/smart.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/smart.png",
         "difficulty": "medium"
     },
     {
         "answers": ["alpine", "αλπίν"],
-        "image": "images/car-logos/alpine.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/alpine.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ds automobiles", "ds", "ντι ες"],
-        "image": "images/car-logos/ds.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/ds.png",
         "difficulty": "medium"
     },
     {
         "answers": ["ram", "ραμ"],
-        "image": "images/car-logos/ram.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/ram.png",
         "difficulty": "medium"
     },
     {
         "answers": ["toyota", "τογιότα"],
-        "image": "images/car-logos/toyota.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/toyota.png",
         "difficulty": "easy"
     },
     {
         "answers": ["honda", "χόντα"],
-        "image": "images/car-logos/honda.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/honda.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ford", "φορντ"],
-        "image": "images/car-logos/ford.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/ford.png",
         "difficulty": "easy"
     },
     {
         "answers": ["chevrolet", "σεβρολέτ"],
-        "image": "images/car-logos/chevrolet.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/chevrolet.png",
         "difficulty": "easy"
     },
     {
         "answers": ["bmw", "μπι εμ νταμπליו"],
-        "image": "images/car-logos/bmw.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/bmw.png",
         "difficulty": "easy"
     },
     {
         "answers": ["mercedes-benz", "mercedes", "μερσεντές", "μερτσέντες"],
-        "image": "images/car-logos/mercedes.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/mercedes.png",
         "difficulty": "easy"
     },
     {
         "answers": ["audi", "άουντι"],
-        "image": "images/car-logos/audi.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/audi.png",
         "difficulty": "easy"
     },
     {
         "answers": ["volkswagen", "vw", "φολκσβάγκεν"],
-        "image": "images/car-logos/volkswagen.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/volkswagen.png",
         "difficulty": "easy"
     },
     {
         "answers": ["porsche", "πόρσε"],
-        "image": "images/car-logos/porsche.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/porsche.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ferrari", "φεράρι"],
-        "image": "images/car-logos/ferrari.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/ferrari.png",
         "difficulty": "easy"
     },
     {
         "answers": ["nissan", "νισάν"],
-        "image": "images/car-logos/nissan.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/nissan.png",
         "difficulty": "easy"
     },
     {
         "answers": ["hyundai", "χουντάι", "χιουντάι"],
-        "image": "images/car-logos/hyundai.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/hyundai.png",
         "difficulty": "easy"
     },
     {
         "answers": ["kia", "κία"],
-        "image": "images/car-logos/kia.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/kia.png",
         "difficulty": "easy"
     },
     {
         "answers": ["mazda", "μάσντα", "μάζντα"],
-        "image": "images/car-logos/mazda.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/mazda.png",
         "difficulty": "medium"
     },
     {
         "answers": ["subaru", "σουμπάρου"],
-        "image": "images/car-logos/subaru.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/subaru.png",
         "difficulty": "medium"
     },
     {
         "answers": ["lexus", "λέξους"],
-        "image": "images/car-logos/lexus.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/lexus.png",
         "difficulty": "medium"
     },
     {
         "answers": ["tesla", "τέσλα"],
-        "image": "images/car-logos/tesla.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/tesla.png",
         "difficulty": "easy"
     },
     {
         "answers": ["volvo", "βόλβο"],
-        "image": "images/car-logos/volvo.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/volvo.png",
         "difficulty": "medium"
     },
     {
         "answers": ["peugeot", "πεζώ"],
-        "image": "images/car-logos/peugeot.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/peugeot.png",
         "difficulty": "medium"
     },
     {
         "answers": ["renault", "ρενό"],
-        "image": "images/car-logos/renault.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/renault.png",
         "difficulty": "medium"
     },
     {
         "answers": ["fiat", "φίατ"],
-        "image": "images/car-logos/fiat.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/fiat.png",
         "difficulty": "easy"
     },
     {
         "answers": ["alfa romeo", "άλφα ρόμεο"],
-        "image": "images/car-logos/alfa-romeo.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/alfa-romeo.png",
         "difficulty": "medium"
     },
     {
         "answers": ["maserati", "μαζεράτι"],
-        "image": "images/car-logos/maserati.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/maserati.png",
         "difficulty": "medium"
     },
     {
         "answers": ["jeep", "τζιπ", "tzip", "tzip", "τζιπι"],
-        "image": "images/car-logos/jeep.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/jeep.png",
         "difficulty": "easy"
     },
     {
         "answers": ["land rover", "λαντ ρόβερ"],
-        "image": "images/car-logos/land-rover.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/land-rover.png",
         "difficulty": "medium"
     },
     {
         "answers": ["jaguar", "τζάγουαρ"],
-        "image": "images/car-logos/jaguar.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/jaguar.png",
         "difficulty": "medium"
     },
     {
         "answers": ["mini", "μίνι"],
-        "image": "images/car-logos/mini.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/mini.png",
         "difficulty": "medium"
     },
     {
         "answers": ["skoda", "σκόντα", "σκοντα"],
-        "image": "images/car-logos/skoda.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/skoda.png",
         "difficulty": "medium"
     },
     {
         "answers": ["seat", "σέατ"],
-        "image": "images/car-logos/seat.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/seat.png",
         "difficulty": "medium"
     },
     {
         "answers": ["citroen", "σιτροέν"],
-        "image": "images/car-logos/citroen.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/citroen.png",
         "difficulty": "medium"
     },
     {
         "answers": ["opel", "όπελ"],
-        "image": "images/car-logos/opel.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/opel.png",
         "difficulty": "medium"
     },
     {
         "answers": ["mitsubishi", "μιτσουμπίσι"],
-        "image": "images/car-logos/mitsubishi.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/mitsubishi.png",
         "difficulty": "medium"
     },
     {
         "answers": ["suzuki", "σουζούκι"],
-        "image": "images/car-logos/suzuki.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/suzuki.png",
         "difficulty": "medium"
     },
     {
         "answers": ["infiniti", "ινφινίτι"],
-        "image": "images/car-logos/infiniti.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/infiniti.png",
         "difficulty": "hard"
     },
     {
         "answers": ["acura", "ακούρα"],
-        "image": "images/car-logos/acura.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/acura.png",
         "difficulty": "hard"
     },
     {
         "answers": ["genesis", "τζένεσις"],
-        "image": "images/car-logos/genesis.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/genesis.png",
         "difficulty": "hard"
     },
     {
         "answers": ["cadillac", "καντίλακ"],
-        "image": "images/car-logos/cadillac.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/cadillac.png",
         "difficulty": "medium"
     },
     {
         "answers": ["lincoln", "λίνκολν"],
-        "image": "images/car-logos/lincoln.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/lincoln.png",
         "difficulty": "hard"
     },
     {
         "answers": ["buick", "μπιούικ"],
-        "image": "images/car-logos/buick.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/buick.png",
         "difficulty": "hard"
     },
     {
         "answers": ["gmc", "τζι εμ σι"],
-        "image": "images/car-logos/gmc.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/gmc.png",
         "difficulty": "medium"
     },
     {
         "answers": ["dodge", "ντόντζ"],
-        "image": "images/car-logos/dodge.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/dodge.png",
         "difficulty": "medium"
     },
     {
         "answers": ["chrysler", "κράισλερ"],
-        "image": "images/car-logos/chrysler.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/chrysler.png",
         "difficulty": "medium"
     },
     {
         "answers": ["polestar", "πόλσταρ"],
-        "image": "images/car-logos/polestar.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/polestar.png",
         "difficulty": "hard"
     },
     {
         "answers": ["nio", "νίο"],
-        "image": "images/car-logos/nio.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/nio.png",
         "difficulty": "hard"
     },
     {
         "answers": ["xpeng", "ξπενγκ"],
-        "image": "images/car-logos/xpeng.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/xpeng.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ora", "όρα"],
-        "image": "images/car-logos/ora.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/ora.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ssangyong", "kg mobility", "σανγκγιονγκ"],
-        "image": "images/car-logos/ssangyong.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/ssangyong.png",
         "difficulty": "hard"
     },
     {
         "answers": ["daihatsu", "νταϊχάτσου"],
-        "image": "images/car-logos/daihatsu.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/daihatsu.png",
         "difficulty": "hard"
     },
     {
         "answers": ["isuzu", "ισούζου"],
-        "image": "images/car-logos/isuzu.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/isuzu.png",
         "difficulty": "medium"
     },
     {
         "answers": ["bentley", "μπέντλεϊ"],
-        "image": "images/car-logos/bentley.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/bentley.png",
         "difficulty": "medium"
     },
     {
         "answers": ["rolls royce", "ρολς ρόις"],
-        "image": "images/car-logos/rolls-royce.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/rolls-royce.png",
         "difficulty": "medium"
     },
     {
         "answers": ["aston martin", "άστον μάρτιν"],
-        "image": "images/car-logos/aston-martin.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/aston-martin.png",
         "difficulty": "medium"
     },
     {
         "answers": ["caterham", "κάτερχαμ"],
-        "image": "images/car-logos/caterham.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/caterham.png",
         "difficulty": "hard"
     },
     {
         "answers": ["morgan", "μόργκαν"],
-        "image": "images/car-logos/morgan.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/morgan.png",
         "difficulty": "hard"
     },
     {
         "answers": ["abarth", "άμπαρθ"],
-        "image": "images/car-logos/abarth.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/abarth.png",
         "difficulty": "medium"
     },
     {
         "answers": ["cupra", "κούπρα"],
-        "image": "images/car-logos/cupra.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/cupra.png",
         "difficulty": "medium"
     },
     {
         "answers": ["lancia", "λάντσια"],
-        "image": "images/car-logos/lancia.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/lancia.png",
         "difficulty": "hard"
     },
     {
         "answers": ["saab", "σάαμπ"],
-        "image": "images/car-logos/saab.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/saab.png",
         "difficulty": "medium"
     },
     {
         "answers": ["vinfast", "βίνφαστ"],
-        "image": "images/car-logos/vinfast.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/vinfast.png",
         "difficulty": "hard"
     },
     {
         "answers": ["buggy", "πάγκι", "μπαγκί"],
-        "image": "images/car-logos/buggy.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/buggy.png",
         "difficulty": "hard"
     }
     ,
     {
         "answers": ["apollo", "άπολλο", "άπολο"],
-        "image": "images/car-logos/apollo.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/apollo.png",
         "difficulty": "hard"
     },
     {
         "answers": ["artega", "άρτεγκα"],
-        "image": "images/car-logos/artega.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/artega.png",
         "difficulty": "hard"
     },
     {
         "answers": ["de tomaso", "de-tomaso", "ντε τόμασο", "ντε τομάσο"],
-        "image": "images/car-logos/de-tomaso.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/de-tomaso.png",
         "difficulty": "hard"
     },
     {
         "answers": ["gumpert", "γκάμπερτ"],
-        "image": "images/car-logos/gumpert.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/gumpert.png",
         "difficulty": "hard"
     },
     {
         "answers": ["hennessey", "hennesey", "χένεσσι", "χενέσι"],
-        "image": "images/car-logos/hennesey.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/hennesey.png",
         "difficulty": "hard"
     },
     {
         "answers": ["isdera", "ίσδερα"],
-        "image": "images/car-logos/isdera.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/isdera.png",
         "difficulty": "hard"
     },
     {
         "answers": ["lucid", "λούσιντ"],
-        "image": "images/car-logos/lucid.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/lucid.png",
         "difficulty": "medium"
     },
     {
         "answers": ["maybach", "μάιμπαχ", "μαϊμπαχ"],
-        "image": "images/car-logos/maybach.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/maybach.png",
         "difficulty": "hard"
     },
     {
         "answers": ["pininfarina", "πινινφαρρίνα", "πινινφαρίνα"],
-        "image": "images/car-logos/pininfarina.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/pininfarina.png",
         "difficulty": "hard"
     },
     {
         "answers": ["range rover", "range-rover", "ρέιντζ ρόβερ", "ρέιντζ-ρόβερ"],
-        "image": "images/car-logos/range-rover.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/range-rover.png",
         "difficulty": "medium"
     },
     {
         "answers": ["rivian", "ρίβιαν"],
-        "image": "images/car-logos/rivian.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/rivian.png",
         "difficulty": "hard"
     },
     {
         "answers": ["ssc", "εσ-εσ-σι"],
-        "image": "images/car-logos/ssc.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/ssc.png",
         "difficulty": "hard"
     },
     {
         "answers": ["spyker", "σπάικερ"],
-        "image": "images/car-logos/spyker.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/spyker.png",
         "difficulty": "hard"
     },
     {
         "answers": ["vauxhall", "βοξχολ", "βοξχαλ"],
-        "image": "images/car-logos/vauxhall.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/car-logos/vauxhall.png",
         "difficulty": "medium"
     }
 ],
@@ -7293,402 +7293,402 @@ mythology: [
 "football-stadium": [
     {
         "answers": ["bayer leverkusen", "leverkusen", "μπαγερ λεβερκουζεν", "λεβερκουζεν"],
-        "image": "images/football-stadium/bayer-leverkusen.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/bayer-leverkusen.png",
         "difficulty": "medium"
     },
     {
         "answers": ["rb leipzig", "leipzig", "ρμπ λειψια", "λειψια"],
-        "image": "images/football-stadium/rb-leipzig.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/rb-leipzig.png",
         "difficulty": "medium"
     },
     {
         "answers": ["eintracht frankfurt", "frankfurt", "αιντραχτ φρανκφουρτης", "φρανκφουρτη"],
-        "image": "images/football-stadium/eintracht-frankfurt.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/eintracht-frankfurt.png",
         "difficulty": "medium"
     },
     {
         "answers": ["everton", "εβερτον"],
-        "image": "images/football-stadium/everton.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/everton.png",
         "difficulty": "medium"
     },
     {
         "answers": ["newcastle united", "newcastle", "νιουκαστλ"],
-        "image": "images/football-stadium/newcastle.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/newcastle.png",
         "difficulty": "medium"
     },
     {
         "answers": ["aston villa", "villa", "αστον βιλα", "βιλα"],
-        "image": "images/football-stadium/aston-villa.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/aston-villa.png",
         "difficulty": "medium"
     },
     {
         "answers": ["west ham united", "west ham", "γουεστ χαμ"],
-        "image": "images/football-stadium/west-ham.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/west-ham.png",
         "difficulty": "medium"
     },
     {
         "answers": ["leeds united", "leeds", "λιντς"],
-        "image": "images/football-stadium/leeds.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/leeds.png",
         "difficulty": "medium"
     },
     {
         "answers": ["nottingham forest", "forest", "νοτιγχαμ φορεστ", "φορεστ"],
-        "image": "images/football-stadium/nottingham-forest.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/nottingham-forest.png",
         "difficulty": "hard"
     },
     {
         "answers": ["feyenoord", "φεγενορντ"],
-        "image": "images/football-stadium/feyenoord.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/feyenoord.png",
         "difficulty": "medium"
     },
     {
         "answers": ["az alkmaar", "az", "αζ αλκμααρ"],
-        "image": "images/football-stadium/az-alkmaar.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/az-alkmaar.png",
         "difficulty": "hard"
     },
     {
         "answers": ["torino", "τορινο"],
-        "image": "images/football-stadium/torino.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/torino.png",
         "difficulty": "hard"
     },
     {
         "answers": ["sampdoria", "σαμπντορια"],
-        "image": "images/football-stadium/sampdoria.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/sampdoria.png",
         "difficulty": "hard"
     },
     {
         "answers": ["genoa", "τζενοα"],
-        "image": "images/football-stadium/genoa.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/genoa.png",
         "difficulty": "hard"
     },
     {
         "answers": ["parma", "παρμα"],
-        "image": "images/football-stadium/parma.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/parma.png",
         "difficulty": "medium"
     },
     {
         "answers": ["nice", "ogc nice", "νις"],
-        "image": "images/football-stadium/nice.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/nice.png",
         "difficulty": "hard"
     },
     {
         "answers": ["rennes", "stade rennais", "ρεν"],
-        "image": "images/football-stadium/rennes.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/rennes.png",
         "difficulty": "hard"
     },
     {
         "answers": ["aris thessaloniki", "aris", "αρης", "αρης θεσσαλονικης"],
-        "image": "images/football-stadium/aris.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/aris.png",
         "difficulty": "medium"
     },
     {
         "answers": ["independiente", "ιντεπεντιεντε"],
-        "image": "images/football-stadium/independiente.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/independiente.png",
         "difficulty": "hard"
     },
     {
         "answers": ["penarol", "peñarol", "πενιαρολ"],
-        "image": "images/football-stadium/penarol.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/penarol.png",
         "difficulty": "hard"
     },
     {
         "answers": ["nacional", "νασιοναλ"],
-        "image": "images/football-stadium/nacional.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/nacional.png",
         "difficulty": "hard"
     },
     {
         "answers": ["colo colo", "colo-colo", "κολο κολο"],
-        "image": "images/football-stadium/colo-colo.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/colo-colo.png",
         "difficulty": "hard"
     },
     {
         "answers": ["al ahly", "αλ αχλι"],
-        "image": "images/football-stadium/al-ahly.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/al-ahly.png",
         "difficulty": "hard"
     },
     {
         "answers": ["zamalek", "ζαμαλεκ"],
-        "image": "images/football-stadium/zamalek.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/zamalek.png",
         "difficulty": "hard"
     },
     {
         "answers": ["urawa red diamonds", "urawa reds", "ουραβα ριντ διαμοντς"],
-        "image": "images/football-stadium/urawa-reds.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/urawa-reds.png",
         "difficulty": "hard"
     },
     {
         "answers": ["real madrid", "ρεαλ μαδριτης"],
-        "image": "images/football-stadium/real-madrid.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/real-madrid.png",
         "difficulty": "easy"
     },
     {
         "answers": ["barcelona", "μπαρτσελονα"],
-        "image": "images/football-stadium/barcelona.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/barcelona.png",
         "difficulty": "easy"
     },
     {
         "answers": ["manchester united", "man utd", "μαντσεστερ γιουναιτεντ"],
-        "image": "images/football-stadium/manchester-united.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/manchester-united.png",
         "difficulty": "easy"
     },
     {
         "answers": ["manchester city", "man city", "μαντσεστερ σιτι"],
-        "image": "images/football-stadium/manchester-city.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/manchester-city.png",
         "difficulty": "easy"
     },
     {
         "answers": ["liverpool", "λιβερπουλ"],
-        "image": "images/football-stadium/liverpool.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/liverpool.png",
         "difficulty": "easy"
     },
     {
         "answers": ["arsenal", "αρσεναλ"],
-        "image": "images/football-stadium/arsenal.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/arsenal.png",
         "difficulty": "easy"
     },
     {
         "answers": ["chelsea", "τσελσι"],
-        "image": "images/football-stadium/chelsea.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/chelsea.png",
         "difficulty": "easy"
     },
     {
         "answers": ["bayern munich", "μπαγερν μοναχου"],
-        "image": "images/football-stadium/bayern-munich.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/bayern-munich.png",
         "difficulty": "easy"
     },
     {
         "answers": ["borussia dortmund", "dortmund", "ντορτμουντ"],
-        "image": "images/football-stadium/dortmund.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/dortmund.png",
         "difficulty": "easy"
     },
     {
         "answers": ["juventus", "γιουβεντους"],
-        "image": "images/football-stadium/juventus.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/juventus.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ac milan", "milan", "μιλαν"],
-        "image": "images/football-stadium/ac-milan.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/ac-milan.png",
         "difficulty": "easy"
     },
     {
         "answers": ["inter milan", "inter", "ιντερ"],
-        "image": "images/football-stadium/inter-milan.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/inter-milan.png",
         "difficulty": "easy"
     },
     {
         "answers": ["paris saint germain", "psg", "παρισ σεν ζερμεν"],
-        "image": "images/football-stadium/psg.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/psg.png",
         "difficulty": "easy"
     },
     {
         "answers": ["ajax", "αγιαξ"],
-        "image": "images/football-stadium/ajax.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/ajax.png",
         "difficulty": "easy"
     },
     {
         "answers": ["porto", "πορτο"],
-        "image": "images/football-stadium/porto.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/porto.png",
         "difficulty": "medium"
     },
     {
         "answers": ["benfica", "μπενφικα"],
-        "image": "images/football-stadium/benfica.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/benfica.png",
         "difficulty": "medium"
     },
     {
         "answers": ["sporting cp", "σπορτινγκ λισαβονας"],
-        "image": "images/football-stadium/sporting.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/sporting.png",
         "difficulty": "medium"
     },
     {
         "answers": ["atletico madrid", "ατλετικο μαδριτης"],
-        "image": "images/football-stadium/atletico-madrid.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/atletico-madrid.png",
         "difficulty": "medium"
     },
     {
         "answers": ["tottenham hotspur", "tottenham", "τοτεναμ"],
-        "image": "images/football-stadium/tottenham.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/tottenham.png",
         "difficulty": "medium"
     },
     {
         "answers": ["napoli", "ναπολι"],
-        "image": "images/football-stadium/napoli.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/napoli.png",
         "difficulty": "medium"
     },
     {
         "answers": ["roma", "ρομα"],
-        "image": "images/football-stadium/roma.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/roma.png",
         "difficulty": "medium"
     },
     {
         "answers": ["lazio", "λατσιο"],
-        "image": "images/football-stadium/lazio.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/lazio.png",
         "difficulty": "medium"
     },
     {
         "answers": ["olympiacos", "ολυμπιακος"],
-        "image": "images/football-stadium/olympiacos.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/olympiacos.png",
         "difficulty": "easy"
     },
     {
         "answers": ["panathinaikos", "παναθηναικος"],
-        "image": "images/football-stadium/panathinaikos.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/panathinaikos.png",
         "difficulty": "easy"
     },
     {
         "answers": ["aek", "αεκ"],
-        "image": "images/football-stadium/aek.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/aek.png",
         "difficulty": "easy"
     },
     {
         "answers": ["paok", "ΠΑΟΚ", "παοκ"],
-        "image": "images/football-stadium/paok.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/paok.png",
         "difficulty": "easy"
     },
     {
         "answers": ["galatasaray", "γαλατασαραϊ"],
-        "image": "images/football-stadium/galatasaray.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/galatasaray.png",
         "difficulty": "medium"
     },
     {
         "answers": ["fenerbahce", "φενερμπαχτσε"],
-        "image": "images/football-stadium/fenerbahce.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/fenerbahce.png",
         "difficulty": "medium"
     },
     {
         "answers": ["besiktas", "μπεσικτας"],
-        "image": "images/football-stadium/besiktas.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/besiktas.png",
         "difficulty": "medium"
     },
     {
         "answers": ["celtic", "σελτικ"],
-        "image": "images/football-stadium/celtic.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/celtic.png",
         "difficulty": "medium"
     },
     {
         "answers": ["rangers", "ρειντζερς"],
-        "image": "images/football-stadium/rangers.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/rangers.png",
         "difficulty": "medium"
     },
     {
         "answers": ["sevilla", "σεβιλλη"],
-        "image": "images/football-stadium/sevilla.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/sevilla.png",
         "difficulty": "medium"
     },
     {
         "answers": ["valencia", "βαλενθια"],
-        "image": "images/football-stadium/valencia.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/valencia.png",
         "difficulty": "medium"
     },
     {
         "answers": ["villarreal", "βιγιαρεαλ"],
-        "image": "images/football-stadium/villarreal.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/villarreal.png",
         "difficulty": "hard"
     },
     {
         "answers": ["real sociedad", "ρεαλ σοσιεδαδ"],
-        "image": "images/football-stadium/real-sociedad.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/real-sociedad.png",
         "difficulty": "hard"
     },
     {
         "answers": ["athletic bilbao", "ατλετικ μπιλμπαο"],
-        "image": "images/football-stadium/athletic-bilbao.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/athletic-bilbao.png",
         "difficulty": "medium"
     },
     {
         "answers": ["psv eindhoven", "psv", "πσβ"],
-        "image": "images/football-stadium/psv.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/psv.png",
         "difficulty": "medium"
     },
     {
         "answers": ["flamengo", "φλαμενγκο"],
-        "image": "images/football-stadium/flamengo.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/flamengo.png",
         "difficulty": "medium"
     },
     {
         "answers": ["palmeiras", "παλμειρας"],
-        "image": "images/football-stadium/palmeiras.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/palmeiras.png",
         "difficulty": "medium"
     },
     {
         "answers": ["santos", "σαντος"],
-        "image": "images/football-stadium/santos.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/santos.png",
         "difficulty": "medium"
     },
     {
         "answers": ["sao paulo", "σαο παουλο"],
-        "image": "images/football-stadium/sao-paulo.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/sao-paulo.png",
         "difficulty": "medium"
     },
     {
         "answers": ["boca juniors", "μποκα τζουνιορς"],
-        "image": "images/football-stadium/boca-juniors.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/boca-juniors.png",
         "difficulty": "easy"
     },
     {
         "answers": ["river plate", "ριβερ πλειτ"],
-        "image": "images/football-stadium/river-plate.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/river-plate.png",
         "difficulty": "easy"
     },
     {
         "answers": ["marseille", "ολιμπικ μαρσειγ"],
-        "image": "images/football-stadium/marseille.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/marseille.png",
         "difficulty": "medium"
     },
     {
         "answers": ["lyon", "λιων"],
-        "image": "images/football-stadium/lyon.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/lyon.png",
         "difficulty": "medium"
     },
     {
         "answers": ["monaco", "μονακο"],
-        "image": "images/football-stadium/monaco.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/monaco.png",
         "difficulty": "medium"
     },
     {
         "answers": ["shakhtar donetsk", "σαχταρ ντονετσκ"],
-        "image": "images/football-stadium/shakhtar.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/shakhtar.png",
         "difficulty": "hard"
     },
     {
         "answers": ["dynamo kyiv", "δυναμο κιβου"],
-        "image": "images/football-stadium/dynamo-kyiv.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/dynamo-kyiv.png",
         "difficulty": "hard"
     },
     {
         "answers": ["red star belgrade", "crvena zvezda", "ερυθρος αστερας"],
-        "image": "images/football-stadium/red-star.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/red-star.png",
         "difficulty": "hard"
     },
     {
         "answers": ["partizan", "παρτιζαν"],
-        "image": "images/football-stadium/partizan.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/partizan.png",
         "difficulty": "hard"
     },
     {
         "answers": ["dinamo zagreb", "δυναμο ζαγρεμπ"],
-        "image": "images/football-stadium/dinamo-zagreb.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/dinamo-zagreb.png",
         "difficulty": "hard"
     },
     {
         "answers": ["copenhagen", "κοπεγχαγη"],
-        "image": "images/football-stadium/copenhagen.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/copenhagen.png",
         "difficulty": "hard"
     },
     {
         "answers": ["salzburg", "σαλτσμπουργκ"],
-        "image": "images/football-stadium/salzburg.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/salzburg.png",
         "difficulty": "hard"
     },
     {
         "answers": ["basel", "βασιλεια"],
-        "image": "images/football-stadium/basel.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/basel.png",
         "difficulty": "hard"
     },
     {
         "answers": ["club brugge", "μπρυζ"],
-        "image": "images/football-stadium/club-brugge.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/football-stadium/club-brugge.png",
         "difficulty": "hard"
     }
 ],
@@ -7697,799 +7697,799 @@ mythology: [
 "country-flags": [
     {
         "answers": ["αλβανία", "albania"],
-        "image": "images/country-flags/albania.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/albania.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αλγερία", "algeria"],
-        "image": "images/country-flags/algeria.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/algeria.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ανδόρα", "andorra"],
-        "image": "images/country-flags/andorra.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/andorra.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["αργεντινή", "argentina"],
-        "image": "images/country-flags/argentina.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/argentina.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αυστραλία", "australia"],
-        "image": "images/country-flags/australia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/australia.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αυστρία", "austria"],
-        "image": "images/country-flags/austria.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/austria.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπανγκλαντές", "μπαγκλαντές", "bangladesh"],
-        "image": "images/country-flags/bangladesh.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/bangladesh.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["βέλγιο", "belgium"],
-        "image": "images/country-flags/belgium.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/belgium.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["βοσνία και ερζεγοβίνη", "βοσνία", "bosnia and herzegovina", "bosnia"],
-        "image": "images/country-flags/bosnia-and-herzegovina.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/bosnia-and-herzegovina.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["βραζιλία", "brazil"],
-        "image": "images/country-flags/brazil.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/brazil.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["βουλγαρία", "bulgaria"],
-        "image": "images/country-flags/bulgaria.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/bulgaria.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["καναδάς", "canada"],
-        "image": "images/country-flags/canada.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/canada.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["χιλή", "chile"],
-        "image": "images/country-flags/chile.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/chile.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κίνα", "china"],
-        "image": "images/country-flags/china.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/china.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κολομβία", "colombia"],
-        "image": "images/country-flags/colombia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/colombia.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κροατία", "croatia"],
-        "image": "images/country-flags/croatia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/croatia.jpg",
         "difficulty": "easy"
     },
         {
         "answers": ["τσεχία", "czech republic", "czechia"],
-        "image": "images/country-flags/czech-republic.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/czech-republic.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["δανία", "denmark"],
-        "image": "images/country-flags/denmark.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/denmark.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ισημερινός", "ecuador"],
-        "image": "images/country-flags/ecuador.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/ecuador.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["αίγυπτος", "egypt"],
-        "image": "images/country-flags/egypt.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/egypt.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["εσθονία", "estonia"],
-        "image": "images/country-flags/estonia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/estonia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["φινλανδία", "finland"],
-        "image": "images/country-flags/finland.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/finland.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γαλλία", "france"],
-        "image": "images/country-flags/france.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/france.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γερμανία", "germany"],
-        "image": "images/country-flags/germany.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/germany.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γκάνα", "ghana"],
-        "image": "images/country-flags/ghana.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/ghana.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ελλάδα", "greece"],
-        "image": "images/country-flags/greece.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/greece.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ουγγαρία", "hungary"],
-        "image": "images/country-flags/hungary.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/hungary.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ισλανδία", "iceland"],
-        "image": "images/country-flags/iceland.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/iceland.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ινδία", "india"],
-        "image": "images/country-flags/india.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/india.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ινδονησία", "indonesia"],
-        "image": "images/country-flags/indonesia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/indonesia.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ιρλανδία", "ireland"],
-        "image": "images/country-flags/ireland.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/ireland.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ιταλία", "italy"],
-        "image": "images/country-flags/italy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/italy.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ιαπωνία", "japan"],
-        "image": "images/country-flags/japan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/japan.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["καζακστάν", "kazakhstan"],
-        "image": "images/country-flags/kazakhstan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/kazakhstan.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κένυα", "kenya"],
-        "image": "images/country-flags/kenya.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/kenya.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λετονία", "latvia"],
-        "image": "images/country-flags/latvia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/latvia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λίχτενσταϊν", "liechtenstein"],
-        "image": "images/country-flags/liechtenstein.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/liechtenstein.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["λιθουανία", "lithuania"],
-        "image": "images/country-flags/lithuania.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/lithuania.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λουξεμβούργο", "luxembourg"],
-        "image": "images/country-flags/luxembourg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/luxembourg.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μαλαισία", "malaysia"],
-        "image": "images/country-flags/malaysia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/malaysia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μεξικό", "mexico"],
-        "image": "images/country-flags/mexico.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/mexico.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μονακό", "monaco"],
-        "image": "images/country-flags/monaco.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/monaco.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μαυροβούνιο", "montenegro"],
-        "image": "images/country-flags/montenegro.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/montenegro.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μαρόκο", "morocco"],
-        "image": "images/country-flags/morocco.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/morocco.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ολλανδία", "netherlands"],
-        "image": "images/country-flags/netherlands.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/netherlands.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["νέα ζηλανδία", "new zealand"],
-        "image": "images/country-flags/new-zealand.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/new-zealand.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["νιγηρία", "nigeria"],
-        "image": "images/country-flags/nigeria.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/nigeria.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["βόρεια μακεδονία", "north macedonia"],
-        "image": "images/country-flags/north-macedonia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/north-macedonia.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["νορβηγία", "norway"],
-        "image": "images/country-flags/norway.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/norway.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πακιστάν", "pakistan"],
-        "image": "images/country-flags/pakistan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/pakistan.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["περού", "peru"],
-        "image": "images/country-flags/peru.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/peru.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["φιλιππίνες", "philippines"],
-        "image": "images/country-flags/philippines.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/philippines.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πολωνία", "poland"],
-        "image": "images/country-flags/poland.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/poland.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πορτογαλία", "portugal"],
-        "image": "images/country-flags/portugal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/portugal.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κατάρ", "qatar"],
-        "image": "images/country-flags/qatar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/qatar.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ρουμανία", "romania"],
-        "image": "images/country-flags/romania.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/romania.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["άγιος μαρίνος", "san marino"],
-        "image": "images/country-flags/san-marino.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/san-marino.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["σαουδική αραβία", "saudi arabia"],
-        "image": "images/country-flags/saudi-arabia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/saudi-arabia.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σερβία", "serbia"],
-        "image": "images/country-flags/serbia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/serbia.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σλοβακία", "slovakia"],
-        "image": "images/country-flags/slovakia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/slovakia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σλοβενία", "slovenia"],
-        "image": "images/country-flags/slovenia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/slovenia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["νότια αφρική", "south africa"],
-        "image": "images/country-flags/south-africa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/south-africa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["νότια κορέα", "south korea"],
-        "image": "images/country-flags/south-korea.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/south-korea.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ισπανία", "spain"],
-        "image": "images/country-flags/spain.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/spain.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σρι λάνκα", "sri lanka"],
-        "image": "images/country-flags/sri-lanka.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/sri-lanka.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σουηδία", "sweden"],
-        "image": "images/country-flags/sweden.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/sweden.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ελβετία", "switzerland"],
-        "image": "images/country-flags/switzerland.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/switzerland.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ταϊλάνδη", "thailand"],
-        "image": "images/country-flags/thailand.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/thailand.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τυνησία", "tunisia"],
-        "image": "images/country-flags/tunisia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/tunisia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["τουρκία", "turkey"],
-        "image": "images/country-flags/turkey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/turkey.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ουκρανία", "ukraine"],
-        "image": "images/country-flags/ukraine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/ukraine.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ηνωμένα αραβικά εμιράτα", "united arab emirates", "uae"],
-        "image": "images/country-flags/united-arab-emirates.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/united-arab-emirates.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ηνωμένο βασίλειο", "αγγλία", "uk", "united kingdom"],
-        "image": "images/country-flags/united-kingdom.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/united-kingdom.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ουρουγουάη", "uruguay"],
-        "image": "images/country-flags/uruguay.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/uruguay.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ηνωμένες πολιτείες", "αμερική", "usa", "united states"],
-        "image": "images/country-flags/usa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/usa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ουζμπεκιστάν", "uzbekistan"],
-        "image": "images/country-flags/uzbekistan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/uzbekistan.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["βατικανό", "vatican", "vatican city"],
-        "image": "images/country-flags/vatican.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/vatican.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["βενεζουέλα", "venezuela"],
-        "image": "images/country-flags/venezuela.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/venezuela.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["βιετνάμ", "vietnam"],
-        "image": "images/country-flags/vietnam.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/country-flags/vietnam.jpg",
         "difficulty": "easy"
     }
 ],
 movies: [
     {
         "answers": ["alien", "άλιεν", "ο επιβάτης του διαστήματος"],
-        "image": "images/movies/alien.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/alien.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["avatar", "αβατάρ"],
-        "image": "images/movies/avatar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/avatar.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["avengers endgame", "avengers: endgame", "εκδικητές η τελευταία πράξη", "εκδικητές endgame"],
-        "image": "images/movies/avengers-endgame.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/avengers-endgame.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["avengers infinity war", "avengers: infinity war", "εκδικητές ο πόλεμος της αιωνιότητας", "infinity war"],
-        "image": "images/movies/avengers-infinity-war.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/avengers-infinity-war.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["barbie", "μπάρμπι"],
-        "image": "images/movies/barbie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/barbie.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["batman begins", "μπάτμαν αρχίζει", "batman: η αρχή"],
-        "image": "images/movies/batman-begins.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/batman-begins.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["black panther", "μαύρος πάνθηρας"],
-        "image": "images/movies/black-panther.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/black-panther.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["black widow", "μαύρη χήρα"],
-        "image": "images/movies/black-widow.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/black-widow.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["braveheart", "γενναία καρδιά"],
-        "image": "images/movies/braveheart.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/braveheart.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["captain america civil war", "captain america: civil war", "εμφύλιος πόλεμος"],
-        "image": "images/movies/captain-america-civil-war.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/captain-america-civil-war.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["captain marvel", "κάπταιν μάρβελ"],
-        "image": "images/movies/captain-marvel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/captain-marvel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["cars", "αμάξια"],
-        "image": "images/movies/cars.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/cars.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["cast away", "ο ναυαγός", "ναυαγός"],
-        "image": "images/movies/cast-away.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/cast-away.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["coco", "κόκο"],
-        "image": "images/movies/coco.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/coco.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["deadpool", "ντεντπουλ"],
-        "image": "images/movies/deadpool.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/deadpool.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["despicable me", "εγω ο απαισιότατος", "εγώ ο απαισιότατος"],
-        "image": "images/movies/despicable-me.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/despicable-me.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["doctor strange", "δόκτωρ στρέιντζ"],
-        "image": "images/movies/doctor-strange.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/doctor-strange.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["dune", "διούν"],
-        "image": "images/movies/dune.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/dune.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["encanto", "ενκάντο"],
-        "image": "images/movies/encanto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/encanto.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["fight club", "φαίτ κλαμπ"],
-        "image": "images/movies/fight-club.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/fight-club.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["finding nemo", "ψάχνοντας τον νέμο", "nemo"],
-        "image": "images/movies/finding-nemo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/finding-nemo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["forrest gump", "φόρεστ γκαμπ"],
-        "image": "images/movies/forrest-gump.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/forrest-gump.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["frozen", "ψυχρά και ανάποδα"],
-        "image": "images/movies/frozen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/frozen.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["gladiator", "ο μονομάχος", "μονομάχος"],
-        "image": "images/movies/gladiator.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/gladiator.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["godzilla", "γκοτζίλα"],
-        "image": "images/movies/godzilla.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/godzilla.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["guardians of the galaxy", "οι φύλακες του γαλαξία", "guardians of the galaxy"],
-        "image": "images/movies/guardians-of-the-galaxy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/guardians-of-the-galaxy.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["harry potter", "χάρι πότερ"],
-        "image": "images/movies/harry-potter.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/harry-potter.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ice age", "η εποχή των παγετώνων"],
-        "image": "images/movies/ice-age.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/ice-age.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["inception", "ινσέψιον"],
-        "image": "images/movies/inception.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/inception.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["inside out", "τα μυαλά που κουβαλάς"],
-        "image": "images/movies/inside-out.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/inside-out.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["interstellar", "ιντερστέλαρ"],
-        "image": "images/movies/interstellar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/interstellar.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["iron man", "άιρον μαν"],
-        "image": "images/movies/iron-man.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/iron-man.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jaws", "τα σαγόνια του καρχαρία"],
-        "image": "images/movies/jaws.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/jaws.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["john wick", "τζον γουίκ"],
-        "image": "images/movies/john-wick.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/john-wick.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["joker", "τζόκερ"],
-        "image": "images/movies/joker.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/joker.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jurassic park", "τζουράσικ παρκ"],
-        "image": "images/movies/jurassic-park.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/jurassic-park.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["king kong", "κινγκ κονγκ"],
-        "image": "images/movies/king-kong.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/king-kong.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["kung fu panda", "κουνγκ φου πάνδα"],
-        "image": "images/movies/kung-fu-panda.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/kung-fu-panda.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["la la land", "λα λα λαντ"],
-        "image": "images/movies/la-la-land.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/la-la-land.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["logan", "λόγκαν"],
-        "image": "images/movies/logan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/logan.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["madagascar", "μαδαγασκάρη"],
-        "image": "images/movies/madagascar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/madagascar.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["minions", "μινιόνς"],
-        "image": "images/movies/minions.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/minions.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mission impossible", "επικίνδυνη αποστολή", "mission: impossible"],
-        "image": "images/movies/mission-impossible.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/mission-impossible.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["moana", "μοάνα"],
-        "image": "images/movies/moana.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/moana.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["oppenheimer", "οπενχάιμερ"],
-        "image": "images/movies/oppenheimer.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/oppenheimer.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pacific rim", "παθίφικ ριμ"],
-        "image": "images/movies/pacific-rim.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/pacific-rim.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["parasite", "παράσιτα"],
-        "image": "images/movies/parasite.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/parasite.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pirates of the caribbean", "οι πειρατές της καραϊβικής", "πειρατές της καραϊβικής"],
-        "image": "images/movies/pirates-of-the-caribbean.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/pirates-of-the-caribbean.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["predator", "ο κυνηγός", "κυνηγός"],
-        "image": "images/movies/predator.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/predator.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pulp fiction", "παλπ φίκσιον"],
-        "image": "images/movies/pulp-fiction.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/pulp-fiction.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rambo", "ράμπο"],
-        "image": "images/movies/rambo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/rambo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rocky", "ρόκυ", "ρόκι"],
-        "image": "images/movies/rocky.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/rocky.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["saving private ryan", "η διάσωση του στρατιώτη ράιαν", "ο στρατιώτης ράιαν"],
-        "image": "images/movies/saving-private-ryan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/saving-private-ryan.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["scarface", "ο σημαδεμένος", "σημαδεμένος"],
-        "image": "images/movies/scarface.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/scarface.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["shrek", "σρεκ"],
-        "image": "images/movies/shrek.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/shrek.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["spider-man no way home", "spider-man: no way home", "spiderman no way home"],
-        "image": "images/movies/spider-man-no-way-home.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/spider-man-no-way-home.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["star wars", "πόλεμος των άστρων"],
-        "image": "images/movies/star-wars.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/star-wars.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["terminator 2", "εξολοθρευτής 2", "terminator 2: judgment day"],
-        "image": "images/movies/terminator-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/terminator-2.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the batman", "ο μπάτμαν"],
-        "image": "images/movies/the-batman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-batman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the dark knight", "ο σκοτεινός ιππότης", "σκοτεινός ιππότης"],
-        "image": "images/movies/the-dark-knight.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-dark-knight.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the godfather", "ο νονός", "νονός"],
-        "image": "images/movies/the-godfather.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-godfather.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the green mile", "το πράσινο μίλι", "πράσινο μίλι"],
-        "image": "images/movies/the-green-mile.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-green-mile.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the hobbit", "χόμπιτ", "hobbit"],
-        "image": "images/movies/the-hobbit.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-hobbit.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the incredibles", "οι απίθανοι"],
-        "image": "images/movies/the-incredibles.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-incredibles.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the lion king", "ο βασιλιάς των λιονταριών", "lion king"],
-        "image": "images/movies/the-lion-king.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-lion-king.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the lord of the rings", "ο άρχοντας των δαχτυλιδιών", "lord of the rings"],
-        "image": "images/movies/the-lord-of-the-rings.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-lord-of-the-rings.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the matrix", "μήτριξ", "matrix"],
-        "image": "images/movies/the-matrix.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-matrix.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the shawshank redemption", "τελευταία έξοδος ριτα χέιγουορθ", "τελευταία έξοδος: ρίτα χέιγουορθ"],
-        "image": "images/movies/the-shawshank-redemption.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-shawshank-redemption.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the silence of the lambs", "η σιωπή των αμνών", "σιωπή των αμνών"],
-        "image": "images/movies/the-silence-of-the-lambs.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-silence-of-the-lambs.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the wolf of wall street", "ο λύκος της γουόλ στριτ", "ο λύκος της wall street"],
-        "image": "images/movies/the-wolf-of-wall-street.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/the-wolf-of-wall-street.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["thor ragnarok", "thor: ragnarok", "θορ ράγκναροκ"],
-        "image": "images/movies/thor-ragnarok.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/thor-ragnarok.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["titanic", "τιτανικός"],
-        "image": "images/movies/titanic.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/titanic.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["top gun maverick", "top gun: maverick", "τοπ γκαν μέβερικ"],
-        "image": "images/movies/top-gun-maverick.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/top-gun-maverick.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["top gun", "τοπ γκαν"],
-        "image": "images/movies/top-gun.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/top-gun.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["toy story", "τόι στόρι"],
-        "image": "images/movies/toy-story.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/toy-story.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["transformers", "τρανσφόρμερς"],
-        "image": "images/movies/transformers.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/transformers.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["up", "ψηλά στον ουρανό"],
-        "image": "images/movies/up.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/up.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["venom", "βένομ"],
-        "image": "images/movies/venom.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/venom.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["whiplash", "whiplash"],
-        "image": "images/movies/whiplash.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/whiplash.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["zootopia", "ζωούπολη"],
-        "image": "images/movies/zootopia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/movies/zootopia.jpg",
         "difficulty": "easy"
     }
 ],
@@ -8497,402 +8497,402 @@ movies: [
 "video-games": [
     {
         "answers": ["a way out", "έι γουέι άουτ"],
-        "image": "images/video-games/a-way-out.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/a-way-out.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["age of empires 2", "age of empires ii", "έιτζ οφ εμπάιερς 2"],
-        "image": "images/video-games/age-of-empires-2.png",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/age-of-empires-2.png",
         "difficulty": "medium"
     },
     {
         "answers": ["among us", "αμόνγκ ας", "αμονγκ ασ"],
-        "image": "images/video-games/among-us.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/among-us.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["animal crossing new horizons", "animal crossing", "άνιμαλ κρόσινγκ"],
-        "image": "images/video-games/animal-crossing-new-horizons.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/animal-crossing-new-horizons.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["assassins creed", "assassin's creed", "ασασινς κριντ"],
-        "image": "images/video-games/assasins-creed.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/assasins-creed.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["black myth wukong", "wukong", "μπλακ μιθ γουκόνγκ", "γουκόνγκ"],
-        "image": "images/video-games/black-myth-wukong.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/black-myth-wukong.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bloodborne", "μπλαντμπορν", "μπλαντμπόρν"],
-        "image": "images/video-games/bloodborne.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/bloodborne.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["brawl stars", "μπροουλ σταρς", "μπρολ σταρς"],
-        "image": "images/video-games/brawl-stars.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/brawl-stars.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["breath of the wild", "zelda breath of the wild", "μπρεθ οφ δε γουάιλντ"],
-        "image": "images/video-games/breath-of-the-wild.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/breath-of-the-wild.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["call of duty", "κολ οφ ντιούτι", "κολ οφ ντιουτι", "cod"],
-        "image": "images/video-games/call-of-duty.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/call-of-duty.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["celeste", "σελέστ"],
-        "image": "images/video-games/celeste.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/celeste.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["civilization 6", "civilization vi", "σιβιλάιζεσον 6"],
-        "image": "images/video-games/civilization-6.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/civilization-6.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["clair obscur expedition 33", "expedition 33", "κλερ ομπσκούρ"],
-        "image": "images/video-games/clair-obscur-expedition-33.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/clair-obscur-expedition-33.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["clash of clans", "κλας οφ κλανς"],
-        "image": "images/video-games/clash-of-clans.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/clash-of-clans.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["clash royale", "κλας ρογιάλ", "κλας ρογιαλ"],
-        "image": "images/video-games/clash-royal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/clash-royal.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["counter strike 2", "cs2", "κάουντερ στράικ 2", "καουντερ στραικ 2"],
-        "image": "images/video-games/counter-strike-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/counter-strike-2.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["cuphead", "κάπχεντ"],
-        "image": "images/video-games/cuphead.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/cuphead.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cyberpunk 2077", "cyberpunk", "σάιμπερπανκ 2077", "κυμπερπανκ 2077"],
-        "image": "images/video-games/cyberpunk-2077.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/cyberpunk-2077.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["dark souls", "νταρκ σουλς"],
-        "image": "images/video-games/dark-souls.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/dark-souls.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["death stranding", "ντεθ στράντινγκ"],
-        "image": "images/video-games/death-stranding.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/death-stranding.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["diablo 4", "diablo iv", "ντιαμπλο 4"],
-        "image": "images/video-games/diablo-4.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/diablo-4.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["doom eternal", "ντουμ ιτέρναλ"],
-        "image": "images/video-games/doom-eternal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/doom-eternal.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["dota 2", "ντότα 2", "ντοτα 2"],
-        "image": "images/video-games/dota-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/dota-2.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["efootball", "ιφούτμπολ", "ιφουτμπολ", "pes"],
-        "image": "images/video-games/efootball.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/efootball.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["elden ring", "έλντεν ρινγκ", "ελντεν ρινγκ"],
-        "image": "images/video-games/elden-ring.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/elden-ring.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["escape from tarkov", "tarkov", "ταρκόφ"],
-        "image": "images/video-games/escape-from-tarkov.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/escape-from-tarkov.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["fall guys", "φολ γκάις", "φολ γκαις"],
-        "image": "images/video-games/fall-guys.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/fall-guys.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["fallout 4", "φόλαουτ 4"],
-        "image": "images/video-games/fallout-4.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/fallout-4.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["far cry 3", "φαρ κράι 3"],
-        "image": "images/video-games/far-cry-3.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/far-cry-3.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ea sports fc 25", "fc 25", "φίφα 25", "φιφα 25"],
-        "image": "images/video-games/fc-25.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/fc-25.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ea sports fc 26", "fc 26", "φίφα 26", "φιφα 26"],
-        "image": "images/video-games/fc-26.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/fc-26.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["fortnite", "φόρτναϊτ", "φορτναϊτ"],
-        "image": "images/video-games/fortnite.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/fortnite.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["forza horizon 5", "φόρτσα χοράιζον 5"],
-        "image": "images/video-games/forza-horizon-5.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/forza-horizon-5.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ghost of tsushima", "γκόστ οφ τσουσίμα"],
-        "image": "images/video-games/ghost-of-tsushima.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/ghost-of-tsushima.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["god of war", "γκόντ οφ γουόρ", "γκοτ οφ γουορ"],
-        "image": "images/video-games/god-of-war.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/god-of-war.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["gran turismo 7", "γκραν τουρίσμο 7"],
-        "image": "images/video-games/gran-turismo-7.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/gran-turismo-7.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["grand theft auto v", "gta v", "gta 5", "γκτα 5"],
-        "image": "images/video-games/gta-v.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/gta-v.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["hades", "χέιντις", "άδης"],
-        "image": "images/video-games/hades.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/hades.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["half life 2", "half-life 2", "χαλφ λάιφ 2"],
-        "image": "images/video-games/half-life-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/half-life-2.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["halo", "χέιλο"],
-        "image": "images/video-games/halo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/halo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["hay day", "χέι ντέι"],
-        "image": "images/video-games/hay-day.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/hay-day.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["hollow knight", "χόλοου νάιτ"],
-        "image": "images/video-games/hollow-knight.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/hollow-knight.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["horizon forbidden west", "horizon", "χοράιζον"],
-        "image": "images/video-games/horizon-fobidden-west.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/horizon-fobidden-west.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["it takes two", "ιτ τέικς του"],
-        "image": "images/video-games/it-takes-two.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/it-takes-two.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["league of legends", "lol", "λιγκ οφ λέτζεντς", "λιγκ οφ λετζεντς", "λολ"],
-        "image": "images/video-games/league-of-legends.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/league-of-legends.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["left 4 dead 2", "left for dead 2", "λεφτ 4 ντεντ 2"],
-        "image": "images/video-games/left-4-dead-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/left-4-dead-2.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mario kart 8 deluxe", "mario kart 8", "μάριο καρτ 8"],
-        "image": "images/video-games/mario-cart-8-deluxe.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/mario-cart-8-deluxe.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["minecraft", "μάινκραφτ", "μαϊνκραφτ"],
-        "image": "images/video-games/minecraft.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/minecraft.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["need for speed", "nfs", "νιντ φορ σπιντ"],
-        "image": "images/video-games/need-for-speed.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/need-for-speed.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ori and the blind forest", "ori", "όρι"],
-        "image": "images/video-games/ori-and-the-blind-forest.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/ori-and-the-blind-forest.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ori and the will of the wisps", "ori 2", "όρι 2"],
-        "image": "images/video-games/ori-and-the-will-of-wisps.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/ori-and-the-will-of-wisps.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["palworld", "πάλγουορλντ"],
-        "image": "images/video-games/palworld.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/palworld.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pokemon legends arceus", "pokemon arceus", "πόκεμον άρκεους"],
-        "image": "images/video-games/pokemon-legends-arceus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/pokemon-legends-arceus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pokemon scarlet", "πόκεμον σκάρλετ"],
-        "image": "images/video-games/pokemon-scarlet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/pokemon-scarlet.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pokemon violet", "πόκεμον βάιολετ"],
-        "image": "images/video-games/pokemon-violet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/pokemon-violet.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["portal 2", "πόρταλ 2"],
-        "image": "images/video-games/portal-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/portal-2.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rainbow six siege", "rainbow six", "ρέινμπου σιξ σίζ"],
-        "image": "images/video-games/rainbow-six-siege.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/rainbow-six-siege.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["red dead redemption 2", "rdr2", "ρεντ ντεντ ριντέμπσον 2"],
-        "image": "images/video-games/read-dead-redemption-2.heic",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/read-dead-redemption-2.heic",
         "difficulty": "easy"
     },
     {
         "answers": ["resident evil 4", "ρέζιντεντ ίβιλ 4"],
-        "image": "images/video-games/resident-evil-4.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/resident-evil-4.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["roblox", "ρόμπλοξ", "ρομπλοξ"],
-        "image": "images/video-games/roblox.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/roblox.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rocket league", "ρόκετ λιγκ", "ροκετ λιγκ"],
-        "image": "images/video-games/rocket-league.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/rocket-league.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sekiro", "σεκίρο", "σεκιρο"],
-        "image": "images/video-games/sekiro.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/sekiro.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["silent hill 2", "σάιλεντ χιλ 2"],
-        "image": "images/video-games/silent-hill-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/silent-hill-2.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["skyrim", "the elder scrolls v skyrim", "σκάιριμ"],
-        "image": "images/video-games/skyrim.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/skyrim.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["split fiction", "σπλιτ φίκσιον"],
-        "image": "images/video-games/split-fiction.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/split-fiction.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["starcraft 2", "starcraft ii", "στάρκραφτ 2"],
-        "image": "images/video-games/starcraft-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/starcraft-2.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["stardew valley", "στάρντιου βάλει", "νταρντιου βαλει"],
-        "image": "images/video-games/stardew-valley.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/stardew-valley.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["subnautica", "σαμπνότικα", "σαμπναουτικα"],
-        "image": "images/video-games/subnautica.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/subnautica.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["super mario bros wonder", "super mario wonder", "μάριο γουόντερ"],
-        "image": "images/video-games/super-mario-bros-wonder.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/super-mario-bros-wonder.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["super mario odyssey", "μάριο όντισι"],
-        "image": "images/video-games/super-mario-odyssey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/super-mario-odyssey.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["team fortress 2", "tf2", "τιμ φόρτρες 2"],
-        "image": "images/video-games/team-fortress-2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/team-fortress-2.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tears of the kingdom", "zelda tears of the kingdom", "τίαρς οφ δε κίνγκντομ"],
-        "image": "images/video-games/tears-of-the-kingdom.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/tears-of-the-kingdom.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["terraria", "τεράρια", "τεραρια"],
-        "image": "images/video-games/terraria.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/terraria.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the sims 4", "sims 4", "σιμς 4"],
-        "image": "images/video-games/the-sims-4.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/the-sims-4.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the witcher 3", "witcher 3", "γουίτσερ 3"],
-        "image": "images/video-games/the-witcher-3.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/the-witcher-3.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["valorant", "βαλοράντ", "βαλοραντ"],
-        "image": "images/video-games/valorant.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/valorant.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["war thunder", "γουόρ θάντερ"],
-        "image": "images/video-games/war-thunder.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/war-thunder.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["watch dogs", "γουότς ντογκς"],
-        "image": "images/video-games/watch-dogs.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/watch-dogs.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["world of tanks", "γουόρλντ οφ τανκς"],
-        "image": "images/video-games/world-of-tanks.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/world-of-tanks.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["world of warcraft", "wow", "γουόρλντ οφ γουόρκραφτ"],
-        "image": "images/video-games/world-of-warcraft.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/video-games/world-of-warcraft.jpg",
         "difficulty": "easy"
     }
 ],
@@ -8900,402 +8900,402 @@ movies: [
 "basketball-players": [
         {
             "answers": ["mike james", "james"],
-            "image": "images/basketball-players/mike-james.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/mike-james.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["domantas sabonis", "sabonis"],
-            "image": "images/basketball-players/domantas-sabonis.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/domantas-sabonis.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["dirk nowitzki", "nowitzki"],
-            "image": "images/basketball-players/dirk-nowitzki.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/dirk-nowitzki.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["yao ming", "ming"],
-            "image": "images/basketball-players/yao-ming.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/yao-ming.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["manu ginobili", "ginobili"],
-            "image": "images/basketball-players/manu-ginobili.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/manu-ginobili.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["alec peters", "peters"],
-            "image": "images/basketball-players/alec-peters.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/alec-peters.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["jayson tatum", "tatum"],
-            "image": "images/basketball-players/jayson-tatum.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/jayson-tatum.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["oscar schmidt", "schmidt"],
-            "image": "images/basketball-players/oscar-schmidt.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/oscar-schmidt.jpg",
             "difficulty": "hard"
         },
         {
             "answers": ["allen iverson", "iverson"],
-            "image": "images/basketball-players/allen-iverson.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/allen-iverson.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["jimmy butler", "butler"],
-            "image": "images/basketball-players/jimmy-butler.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/jimmy-butler.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["paolo banchero", "banchero"],
-            "image": "images/basketball-players/paolo-banchero.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/paolo-banchero.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["anthony davis", "davis"],
-            "image": "images/basketball-players/anthony-davis.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/anthony-davis.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["joel embiid", "embiid"],
-            "image": "images/basketball-players/joel-embiid.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/joel-embiid.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["pau gasol", "gasol"],
-            "image": "images/basketball-players/pau-gasol.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/pau-gasol.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["anthony edwards", "edwards"],
-            "image": "images/basketball-players/anthony-edwards.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/anthony-edwards.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["jrue holiday", "holiday"],
-            "image": "images/basketball-players/jrue-holiday.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/jrue-holiday.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["paul george", "george"],
-            "image": "images/basketball-players/paul-george.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/paul-george.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["anthony parker", "parker"],
-            "image": "images/basketball-players/anthony-parker.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/anthony-parker.jpg",
             "difficulty": "hard"
         },
         {
             "answers": ["kareem abdul-jabbar", "kareem abdul jabbar", "abdul-jabbar", "jabbar"],
-            "image": "images/basketball-players/kareem-abdul-jabbar.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/kareem-abdul-jabbar.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["ramunas siskauskas", "siskauskas"],
-            "image": "images/basketball-players/ramunas-siskauskas.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/ramunas-siskauskas.jpg",
             "difficulty": "hard"
         },
         {
             "answers": ["bill russell", "russell"],
-            "image": "images/basketball-players/bill-russell.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/bill-russell.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["kawhi leonard", "leonard"],
-            "image": "images/basketball-players/kawhi-leonard.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/kawhi-leonard.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["russell westbrook", "westbrook"],
-            "image": "images/basketball-players/russell-westbrook.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/russell-westbrook.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["bradley beal", "beal"],
-            "image": "images/basketball-players/bradley-beal.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/bradley-beal.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["kendrick nunn", "nunn"],
-            "image": "images/basketball-players/kendrick-nunn.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/kendrick-nunn.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["sarunas jasikevicius", "jasikevicius"],
-            "image": "images/basketball-players/sarunas-jasikevicius.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/sarunas-jasikevicius.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["carmelo anthony", "anthony"],
-            "image": "images/basketball-players/carmelo-anthony.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/carmelo-anthony.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["kevin durant", "durant"],
-            "image": "images/basketball-players/kevin-durant.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/kevin-durant.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["sasha vezenkov", "vezenkov"],
-            "image": "images/basketball-players/sasha-vezenkov.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/sasha-vezenkov.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["charles barkley", "barkley"],
-            "image": "images/basketball-players/charles-barkley.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/charles-barkley.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["klay thompson", "thompson"],
-            "image": "images/basketball-players/klay-thompson.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/klay-thompson.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["scottie pippen", "pippen"],
-            "image": "images/basketball-players/scottie-pippen.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/scottie-pippen.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["chet holmgren", "holmgren"],
-            "image": "images/basketball-players/chet-holmgren.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/chet-holmgren.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["kobe bryant", "bryant"],
-            "image": "images/basketball-players/kobe-bryant.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/kobe-bryant.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["sergio llull", "llull"],
-            "image": "images/basketball-players/sergio-llull.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/sergio-llull.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["damian lillard", "lillard"],
-            "image": "images/basketball-players/damian-lillard.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/damian-lillard.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["kostas sloukas", "sloukas"],
-            "image": "images/basketball-players/kostas-sloukas.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/kostas-sloukas.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["shai gilgeous-alexander", "shai gilgeous alexander", "shai"],
-            "image": "images/basketball-players/shai-gilgeous-alexander.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/shai-gilgeous-alexander.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["deaaron fox", "de'aaron fox", "fox"],
-            "image": "images/basketball-players/deaaron-fox.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/deaaron-fox.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["kyrie irving", "irving"],
-            "image": "images/basketball-players/kyrie-irving.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/kyrie-irving.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["shane larkin", "larkin"],
-            "image": "images/basketball-players/shane-larkin.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/shane-larkin.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["dejan bodiroga", "bodiroga"],
-            "image": "images/basketball-players/dejan-bodiroga.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/dejan-bodiroga.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["lamelo ball", "ball"],
-            "image": "images/basketball-players/lamelo-ball.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/lamelo-ball.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["shaquielle mckissic", "shaquielle mckissic", "mckissic"],
-            "image": "images/basketball-players/shaquielle-mckissic.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/shaquielle-mckissic.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["demar derozan", "derozan"],
-            "image": "images/basketball-players/demar-derozan.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/demar-derozan.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["larry bird", "bird"],
-            "image": "images/basketball-players/larry-bird.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/larry-bird.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["shaquille o'neal", "shaquille oneal", "o'neal", "oneal", "shaq"],
-            "image": "images/basketball-players/shaquille-oneal.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/shaquille-oneal.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["devin booker", "booker"],
-            "image": "images/basketball-players/devin-booker.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/devin-booker.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["lebron james", "james"],
-            "image": "images/basketball-players/lebron-james.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/lebron-james.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["stephen curry", "curry"],
-            "image": "images/basketball-players/stephen-curry.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/stephen-curry.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["dimitris diamantidis", "diamantidis"],
-            "image": "images/basketball-players/dimitris-diamantidis.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/dimitris-diamantidis.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["luka doncic", "doncic"],
-            "image": "images/basketball-players/luka-doncic.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/luka-doncic.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["thomas walkup", "walkup"],
-            "image": "images/basketball-players/thomas-walkup.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/thomas-walkup.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["draymond green", "green"],
-            "image": "images/basketball-players/draymond-green.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/draymond-green.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["magic johnson", "johnson"],
-            "image": "images/basketball-players/magic-johnson.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/magic-johnson.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["tim duncan", "duncan"],
-            "image": "images/basketball-players/tim-duncan.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/tim-duncan.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["dwyane wade", "wade"],
-            "image": "images/basketball-players/dwyane-wade.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/dwyane-wade.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["mathias lessort", "lessort"],
-            "image": "images/basketball-players/mathias-lessort.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/mathias-lessort.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["tony parker", "parker"],
-            "image": "images/basketball-players/tony-parker.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/tony-parker.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["facundo campazzo", "campazzo"],
-            "image": "images/basketball-players/facundo-campazzo.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/facundo-campazzo.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["michael jordan", "jordan"],
-            "image": "images/basketball-players/michael-jordan.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/michael-jordan.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["trae young", "young"],
-            "image": "images/basketball-players/trae-young.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/trae-young.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["giannis antetokounmpo", "antetokounmpo"],
-            "image": "images/basketball-players/giannis-antetokounmpo.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/giannis-antetokounmpo.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["milos teodosic", "teodosic"],
-            "image": "images/basketball-players/milos-teodosic.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/milos-teodosic.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["tyrese haliburton", "haliburton"],
-            "image": "images/basketball-players/tyrese-haliburton.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/tyrese-haliburton.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["giorgos printezis", "printezis"],
-            "image": "images/basketball-players/giorgos-printezis.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/giorgos-printezis.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["nando de colo", "de colo"],
-            "image": "images/basketball-players/nando-de-colo.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/nando-de-colo.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["vassilis spanoulis", "spanoulis"],
-            "image": "images/basketball-players/vassilis-spanoulis.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/vassilis-spanoulis.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["hakeem olajuwon", "olajuwon"],
-            "image": "images/basketball-players/hakeem-olajuwon.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/hakeem-olajuwon.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["nikola jokic", "jokic"],
-            "image": "images/basketball-players/nikola-jokic.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/nikola-jokic.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["victor wembanyama", "wembanyama", "wemby"],
-            "image": "images/basketball-players/victor-wembanyama.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/victor-wembanyama.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["ja morant", "morant"],
-            "image": "images/basketball-players/ja-morant.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/ja-morant.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["nikola milutinov", "milutinov"],
-            "image": "images/basketball-players/nikola-milutinov.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/nikola-milutinov.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["walter tavares", "eddy tavares", "tavares"],
-            "image": "images/basketball-players/walter-tavares.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/walter-tavares.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["james harden", "harden"],
-            "image": "images/basketball-players/james-harden.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/james-harden.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["nikola mirotic", "mirotic"],
-            "image": "images/basketball-players/nikola-mirotic.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/nikola-mirotic.jpg",
             "difficulty": "medium"
         },
         {
             "answers": ["wilt chamberlain", "chamberlain"],
-            "image": "images/basketball-players/wilt-chamberlain.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/wilt-chamberlain.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["jaylen brown", "brown"],
-            "image": "images/basketball-players/jaylen-brown.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/jaylen-brown.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["nikos galis", "galis"],
-            "image": "images/basketball-players/nikos-galis.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/nikos-galis.jpg",
             "difficulty": "easy"
         },
         {
             "answers": ["zion williamson", "williamson"],
-            "image": "images/basketball-players/zion-williamson.jpg",
+            "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/basketball-players/zion-williamson.jpg",
             "difficulty": "easy"
         }
     ],
@@ -9303,297 +9303,297 @@ movies: [
    brands: [
     {
         "answers": ["amazon", "αμαζον"],
-        "image": "images/brands/amazon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/amazon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["amd", "εϊ εμ ντι", "αμντ"],
-        "image": "images/brands/amd.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/amd.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["anta", "αντα"],
-        "image": "images/brands/anta.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/anta.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["apple", "απλ", "μπαπλ", "απλαι"],
-        "image": "images/brands/apple.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/apple.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["armani", "αρμανι", "αρμάνι"],
-        "image": "images/brands/armani.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/armani.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["asics", "ασικς"],
-        "image": "images/brands/asics.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/asics.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["balenciaga", "μπαλενσιαγκα", "μπαλεντσιαγκα"],
-        "image": "images/brands/balenciaga.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/balenciaga.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["blizzard", "μπλιζαρντ"],
-        "image": "images/brands/blizzard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/blizzard.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["burberry", "μπερμπερι"],
-        "image": "images/brands/burberry.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/burberry.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["burger king", "μπεργκερ κινγκ"],
-        "image": "images/brands/burger-king.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/burger-king.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["calvin klein", "καλβιν κλαιν", "ck"],
-        "image": "images/brands/calvin-klein.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/calvin-klein.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["cartier", "καρτιε"],
-        "image": "images/brands/cartier.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/cartier.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["chanel", "σανελ"],
-        "image": "images/brands/chanel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/chanel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["coca cola", "coca-cola", "κοκα κολα", "κοκακολα", "κοκα"],
-        "image": "images/brands/coca-cola.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/coca-cola.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["converse", "κονβερς", "σταρακια"],
-        "image": "images/brands/converse.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/converse.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["dior", "ντιορ"],
-        "image": "images/brands/dior.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/dior.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["dolce and gabbana", "dolce & gabbana", "d&g", "ντολτσε και γκαμπανα", "ντολτσε γκαμπάνα", "ντολτσε"],
-        "image": "images/brands/dolce-gabbana.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/dolce-gabbana.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["dominos", "domino's", "ντομινος", "ντομινο"],
-        "image": "images/brands/dominos.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/dominos.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["fendi", "φεντι"],
-        "image": "images/brands/fendi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/fendi.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["givenchy", "ζιβανσι"],
-        "image": "images/brands/givenchy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/givenchy.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["google", "γκουγκλ"],
-        "image": "images/brands/google.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/google.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["gucci", "γκουτσι", "γκούτσι", "γουτσι"],
-        "image": "images/brands/gucci.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/gucci.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["huawei", "χουαγουει"],
-        "image": "images/brands/huawei.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/huawei.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["instagram", "ινσταγκραμ", "ινστα"],
-        "image": "images/brands/instagram.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/instagram.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lacoste", "λακοστ"],
-        "image": "images/brands/lacoste.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/lacoste.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["louis vuitton", "louis-vuitton", "λουι βιτον", "λουί βιτον", "lv"],
-        "image": "images/brands/louis-vuitton.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/louis-vuitton.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mcdonalds", "mcdonald's", "μακντοναλντς", "μακ"],
-        "image": "images/brands/mcdonalds.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/mcdonalds.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["microsoft", "μαικροσοφτ"],
-        "image": "images/brands/microsoft.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/microsoft.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["moncler", "μονκλερ"],
-        "image": "images/brands/moncler.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/moncler.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["monster energy", "monster", "μονστερ"],
-        "image": "images/brands/monster.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/monster.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mastercard", "master card", "μαστερκαρντ", "μάστερκαρντ", "μαστερ καρντ"],
-        "image": "images/brands/mastercard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/mastercard.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["netflix", "νετφλιξ"],
-        "image": "images/brands/netflix.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/netflix.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["new balance", "νιου μπαλανς"],
-        "image": "images/brands/new-balance.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/new-balance.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["nike", "ναικ", "νικε", "νικι"],
-        "image": "images/brands/nike.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/nike.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["nvidia", "ενβιντια"],
-        "image": "images/brands/nvidia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/nvidia.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["off white", "off-white", "οφ γουαιτ", "οφγουαιτ", "οφ γουάιτ"],
-        "image": "images/brands/off-white.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/off-white.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["oneplus", "ουανπλας"],
-        "image": "images/brands/oneplus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/oneplus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pepsi", "πεπσι", "πεψι"],
-        "image": "images/brands/pepsi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/pepsi.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pizza hut", "πιτσα χατ"],
-        "image": "images/brands/pizza-hut.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/pizza-hut.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["playstation", "πλειστεισον", "πλέισσον", "ps"],
-        "image": "images/brands/playstation.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/playstation.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["puma", "πουμα"],
-        "image": "images/brands/puma.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/puma.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ralph lauren", "polo", "ραλφ λορεν", "πολο"],
-        "image": "images/brands/ralph-lauren.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/ralph-lauren.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["red bull", "red-bull", "ρεντ μπουλ"],
-        "image": "images/brands/red-bull.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/red-bull.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["reebok", "ριμποκ"],
-        "image": "images/brands/reebok.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/reebok.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rockstar games", "rockstar", "ροκσταρ"],
-        "image": "images/brands/rockstar-games.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/rockstar-games.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rolex", "ρολεξ"],
-        "image": "images/brands/rolex.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/rolex.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["spotify", "σποτιφαι", "σποτιφάι", "σποτίφαι"],
-        "image": "images/brands/spotify.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/spotify.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["starbucks", "σταρμπακς", "σκαρμπακς"],
-        "image": "images/brands/starbucks.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/starbucks.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["steam", "στιμ"],
-        "image": "images/brands/steam.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/steam.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["tiktok", "τικτοκ", "τικ τοκ"],
-        "image": "images/brands/tiktok.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/tiktok.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["tommy hilfiger", "tommy-hilfiger", "τομι χιλφιγκερ", "χιλφιγκερ"],
-        "image": "images/brands/tommy-hilfiger.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/tommy-hilfiger.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["twitch", "τουιτς"],
-        "image": "images/brands/twitch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/twitch.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ubisoft", "γιουμπισοφτ"],
-        "image": "images/brands/ubisoft.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/ubisoft.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["under armour", "αντερ αρμουρ"],
-        "image": "images/brands/under-armour.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/under-armour.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["valentino", "βαλεντινο"],
-        "image": "images/brands/valentino.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/valentino.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["vans", "βανς"],
-        "image": "images/brands/vans.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/vans.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["xbox", "εξμποξ"],
-        "image": "images/brands/xbox.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/xbox.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["xiaomi", "σιαομι", "ξιαομι"],
-        "image": "images/brands/xiaomi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/xiaomi.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["youtube", "γιουτιουμπ", "γιουτιούμπ"],
-        "image": "images/brands/youtube.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/brands/youtube.jpg",
         "difficulty": "easy"
     }
 ],
@@ -9601,402 +9601,402 @@ movies: [
 "famous-people": [
     {
         "answers": ["albert einstein", "einstein", "αλμπερτ αινσταιν", "αινσταιν"],
-        "image": "images/famous-people/albert-einstein.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/albert-einstein.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["isaac newton", "newton", "ισαακ νευτων", "νευτων"],
-        "image": "images/famous-people/isaac-newton.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/isaac-newton.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["nikola tesla", "tesla", "νικολα τεσλα", "τεσλα"],
-        "image": "images/famous-people/nikola-tesla.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/nikola-tesla.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["stephen hawking", "hawking", "στιβεν χοκινγκ", "χοκινγκ"],
-        "image": "images/famous-people/stephen-hawking.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/stephen-hawking.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["marie curie", "curie", "μαρι κιουρι", "κιουρι"],
-        "image": "images/famous-people/marie-curie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/marie-curie.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["galileo galilei", "galilei", "γαλιλαιος", "γαλιλεο γαλιλεϊ"],
-        "image": "images/famous-people/galileo-galilei.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/galileo-galilei.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["charles darwin", "darwin", "καρολος δαρβινος", "δαρβινος"],
-        "image": "images/famous-people/charles-darwin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/charles-darwin.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["leonardo da vinci", "da vinci", "λεοναρντο ντα βιντσι", "ντα βιντσι"],
-        "image": "images/famous-people/leonardo-da-vinci.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/leonardo-da-vinci.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["elon musk", "musk", "ελον μασκ", "μασκ"],
-        "image": "images/famous-people/elon-musk.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/elon-musk.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bill gates", "gates", "μπιλ γเกητς", "γκειτς"],
-        "image": "images/famous-people/bill-gates.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/bill-gates.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["steve jobs", "jobs", "στιβ τζομπς", "τζομπς"],
-        "image": "images/famous-people/steve-jobs.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/steve-jobs.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mark zuckerberg", "zuckerberg", "μαρκ ζουκερμπεργκ", "ζουκερμπεργκ"],
-        "image": "images/famous-people/mark-zuckerberg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/mark-zuckerberg.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jeff bezos", "bezos", "τζεφ μπεζος", "μπεζος"],
-        "image": "images/famous-people/jeff-bezos.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/jeff-bezos.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["warren buffett", "buffett", "γουορεν μπαφετ", "μπαφετ"],
-        "image": "images/famous-people/warren-buffett.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/warren-buffett.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tim cook", "cook", "τιμ κουκ", "κουκ"],
-        "image": "images/famous-people/tim-cook.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/tim-cook.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["barack obama", "obama", "μπαρακ ομπαμα", "ομπαμα"],
-        "image": "images/famous-people/barack-obama.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/barack-obama.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["donald trump", "trump", "ντοναλντ τραμπ", "τραμπ"],
-        "image": "images/famous-people/donald-trump.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/donald-trump.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["joe biden", "biden", "ζο μπαϊντεν", "μπαιντεν"],
-        "image": "images/famous-people/joe-biden.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/joe-biden.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["vladimir putin", "putin", "βλαντιμιρ πουτιν", "πουτιν"],
-        "image": "images/famous-people/vladimir-putin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/vladimir-putin.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["volodymyr zelenskyy", "zelenskyy", "βολοντιμιρ ζελενσκι", "ζελενσκι"],
-        "image": "images/famous-people/volodymyr-zelenskyy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/volodymyr-zelenskyy.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["queen elizabeth ii", "queen elizabeth", "elizabeth", "βασιλισσα ελισαβετ", "ελισαβετ"],
-        "image": "images/famous-people/queen-elizabeth-ii.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/queen-elizabeth-ii.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["king charles iii", "king charles", "charles", "βασιλιας καρολος", "καρολος γ"],
-        "image": "images/famous-people/king-charles-iii.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/king-charles-iii.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mahatma gandhi", "gandhi", "μαχατμα γκαντι", "γκαντι"],
-        "image": "images/famous-people/mahatma-gandhi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/mahatma-gandhi.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["nelson mandela", "mandela", "νελσον μαντελα", "μαντελα"],
-        "image": "images/famous-people/nelson-mandela.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/nelson-mandela.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["martin luther king jr", "martin luther king", "μαρτιν λουθερ κινγκ"],
-        "image": "images/famous-people/martin-luther-king-jr.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/martin-luther-king-jr.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["napoleon bonaparte", "napoleon", "ναπολεων", "ναπολεων βοναπαρτης"],
-        "image": "images/famous-people/napoleon-bonaparte.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/napoleon-bonaparte.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["julius caesar", "caesar", "ιουλιος καισαρας", "καισαρας"],
-        "image": "images/famous-people/julius-caesar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/julius-caesar.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cleopatra", "κλεοπατρα"],
-        "image": "images/famous-people/cleopatra.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/cleopatra.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["christopher columbus", "columbus", "χριστοφορος κολωμβος", "κολωμβος"],
-        "image": "images/famous-people/christopher-columbus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/christopher-columbus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["neil armstrong", "armstrong", "νειλ αρμστρονγκ", "αρμστρονγκ"],
-        "image": "images/famous-people/neil-armstrong.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/neil-armstrong.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["buzz aldrin", "aldrin", "μπαζ αλντριν", "αλντριν"],
-        "image": "images/famous-people/buzz-aldrin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/buzz-aldrin.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["yuri gagarin", "gagarin", "γιουρι γγκαγκαριν", "γαγκαριν"],
-        "image": "images/famous-people/yuri-gagarin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/yuri-gagarin.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mrbeast", "μιντιμπιστ", "μιρμπιστ"],
-        "image": "images/famous-people/mrbeast.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/mrbeast.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ksi", "κσι"],
-        "image": "images/famous-people/ksi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/ksi.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["logan paul", "paul", "λογκαν ποουλ", "ποουλ"],
-        "image": "images/famous-people/logan-paul.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/logan-paul.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jake paul", "paul", "ζεικ ποουλ"],
-        "image": "images/famous-people/jake-paul.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/jake-paul.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["khaby lame", "lame", "χαμπι λεϊμ", "λεϊμ"],
-        "image": "images/famous-people/khaby-lame.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/khaby-lame.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["kim kardashian", "kardashian", "κιμ καρδασιαν", "καρδασιαν"],
-        "image": "images/famous-people/kim-kardashian.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/kim-kardashian.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["princess diana", "diana", "πριγκιπισσα διανα", "διανα"],
-        "image": "images/famous-people/princess-diana.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/princess-diana.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mother teresa", "teresa", "μητερα τερεζα", "τερεζα"],
-        "image": "images/famous-people/mother-teresa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/mother-teresa.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sigmund freud", "freud", "σιγκμουντ φρονιντ", "φροιντ"],
-        "image": "images/famous-people/sigmund-freud.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/sigmund-freud.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pablo picasso", "picasso", "παμπλο πικασο", "πικασο"],
-        "image": "images/famous-people/pablo-picasso.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/pablo-picasso.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["vincent van gogh", "van gogh", "βινσεντ βαν γκογκ", "βαν γκογκ"],
-        "image": "images/famous-people/vincent-van-gogh.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/vincent-van-gogh.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["wolfgang amadeus mozart", "mozart", "μοτσαρτ"],
-        "image": "images/famous-people/wolfgang-amadeus-mozart.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/wolfgang-amadeus-mozart.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ludwig van beethoven", "beethoven", "μπετοβεν"],
-        "image": "images/famous-people/ludwig-van-beethoven.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/ludwig-van-beethoven.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["william shakespeare", "shakespeare", "ουιλλιαμ σαιξπηρ", "σαιξπηρ"],
-        "image": "images/famous-people/william-shakespeare.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/william-shakespeare.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["johannes gutenberg", "gutenberg", "γουτεμβεργιος", "γουτεμβεργκ"],
-        "image": "images/famous-people/johannes-gutenberg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/johannes-gutenberg.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ferdinand magellan", "magellan", "φερδινανδος μαγελλανος", "μαγελλανος"],
-        "image": "images/famous-people/ferdinand-magellan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/ferdinand-magellan.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["marco polo", "polo", "μαρκο πολο"],
-        "image": "images/famous-people/marco-polo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/marco-polo.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["thomas edison", "edison", "τομας εντισον", "εντισον"],
-        "image": "images/famous-people/thomas-edison.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/thomas-edison.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["alexander graham bell", "bell", "αλεξαντερ γκραιαμ μπελ", "μπελ"],
-        "image": "images/famous-people/alexander-graham-bell.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/alexander-graham-bell.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["wright brothers", "wright", "αδελφοι ραϊτ", "ραιτ"],
-        "image": "images/famous-people/wright-brothers.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/wright-brothers.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["alan turing", "turing", "αλαν τινουρινγκ", "τουρινγκ"],
-        "image": "images/famous-people/alan-turing.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/alan-turing.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["edward snowden", "snowden", "εντβαρντ σνουντεν", "σνουντεν"],
-        "image": "images/famous-people/edward-snowden.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/edward-snowden.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["julian assange", "assange", "τζουλιαν ασανζ", "ασανζ"],
-        "image": "images/famous-people/julian-assange.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/julian-assange.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["george washington", "washington", "γεςργιος ουασιγκτον", "ουασιγκτον"],
-        "image": "images/famous-people/george-washington.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/george-washington.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["abraham lincoln", "lincoln", "αβρααμ λινκολν", "λινκολν"],
-        "image": "images/famous-people/abraham-lincoln.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/abraham-lincoln.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["john f kennedy", "kennedy", "τζον φ κενεντι", "κενεντι"],
-        "image": "images/famous-people/john-f-kennedy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/john-f-kennedy.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["winston churchill", "churchill", "γουινστον τσερτσιλ", "τσερτσιλ"],
-        "image": "images/famous-people/winston-churchill.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/winston-churchill.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["margaret thatcher", "thatcher", "μαργκαρετ θατσερ", "θατσερ"],
-        "image": "images/famous-people/margaret-thatcher.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/margaret-thatcher.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pope francis", "francis", "παπας φραγκισκος", "φραγκισκος"],
-        "image": "images/famous-people/pope-francis.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/pope-francis.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["dalai lama", "lama", "δαλαι λαμα"],
-        "image": "images/famous-people/dalai-lama.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/dalai-lama.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["osama bin laden", "bin laden", "οσαμα μπιν λαντεν", "μπιν λαντεν"],
-        "image": "images/famous-people/osama-bin-laden.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/osama-bin-laden.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["che guevara", "guevara", "τσε γκεβαρα", "γκεβαρα"],
-        "image": "images/famous-people/che-guevara.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/che-guevara.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["julian alvarez", "alvarez", "χουλιαν αλβαρες", "αλβαρες"],
-        "image": "images/famous-people/julian-alvarez.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/julian-alvarez.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["andrew tate", "tate", "αντριου τεϊτ", "τεϊτ"],
-        "image": "images/famous-people/andrew-tate.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/andrew-tate.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["greta thunberg", "thunberg", "γκρετα τουνμπεργκ", "τουνμπεργκ"],
-        "image": "images/famous-people/greta-thunberg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/greta-thunberg.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["markiplier", "μαρκιπλιερ"],
-        "image": "images/famous-people/markiplier.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/markiplier.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pewdiepie", "πουντιπι", "πουντιπνται"],
-        "image": "images/famous-people/pewdiepie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/pewdiepie.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ishowspeed", "speed", "αι σω σπιντ", "σπιντ"],
-        "image": "images/famous-people/ishowspeed.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/ishowspeed.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["kai cenat", "cenat", "και σενατ", "σενατ"],
-        "image": "images/famous-people/kai-cenat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/kai-cenat.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["xqc"],
-        "image": "images/famous-people/xqc.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/xqc.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["charli damelio", "damelio", "τσαρλι δαμελιο", "δαμελιο"],
-        "image": "images/famous-people/charli-damelio.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/charli-damelio.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["addison rae", "rae", "αντισον ρει", "ρει"],
-        "image": "images/famous-people/addison-rae.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/addison-rae.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["george soros", "soros", "τζορτζ σορος", "σορος"],
-        "image": "images/famous-people/george-soros.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/george-soros.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["bernard arnault", "arnault", "μπερναρ αρνο", "αρνο"],
-        "image": "images/famous-people/bernard-arnault.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/bernard-arnault.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sam altman", "altman", "σαμ αλτμαν", "αλτμαν"],
-        "image": "images/famous-people/sam-altman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/sam-altman.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jensen huang", "huang", "τζενσεν χουανγκ", "χουανγκ"],
-        "image": "images/famous-people/jensen-huang.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/jensen-huang.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["larry page", "page", "λαρι πειτζ", "πειτζ"],
-        "image": "images/famous-people/larry-page.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/larry-page.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sergey brin", "brin", "σεργκεϊ μπριν", "μπριν"],
-        "image": "images/famous-people/sergey-brin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-people/sergey-brin.jpg",
         "difficulty": "hard"
     }
 ],
@@ -10005,402 +10005,402 @@ movies: [
 singers:[
     {
         "answers": ["michael jackson", "jackson", "μιχαηλ τζακσον", "τζακσον"],
-        "image": "images/singers/michael-jackson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/michael-jackson.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["elvis presley", "presley", "ελβις πρισλεϊ", "πρισλεϊ"],
-        "image": "images/singers/elvis-presley.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/elvis-presley.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["freddie mercury", "mercury", "φρεντι μερκουρι", "μερκουρι"],
-        "image": "images/singers/freddie-mercury.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/freddie-mercury.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["madonna", "μαντονι", "μαντονά"],
-        "image": "images/singers/madonna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/madonna.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["adele", "αντελ"],
-        "image": "images/singers/adele.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/adele.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["taylor swift", "swift", "τειλορ σουιφτ", "σουιφτ"],
-        "image": "images/singers/taylor-swift.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/taylor-swift.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ed sheeran", "sheeran", "εντ σιραν", "σιραν"],
-        "image": "images/singers/ed-sheeran.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/ed-sheeran.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["justin bieber", "bieber", "τζαστιν μπιμπερ", "μπιμπερ"],
-        "image": "images/singers/justin-bieber.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/justin-bieber.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bruno mars", "mars", "μπρουνο μαρς", "μαρς"],
-        "image": "images/singers/bruno-mars.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/bruno-mars.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the weeknd", "weeknd", "ζα γουικεντ", "γουικεντ"],
-        "image": "images/singers/the-weeknd.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/the-weeknd.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["billie eilish", "eilish", "μπιλι αιλις", "αιλις"],
-        "image": "images/singers/billie-eilish.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/billie-eilish.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["dua lipa", "lipa", "ντουα λιπα", "λιπα"],
-        "image": "images/singers/dua-lipa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/dua-lipa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ariana grande", "grande", "αριανα γκραντε", "γκραντε"],
-        "image": "images/singers/ariana-grande.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/ariana-grande.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["selena gomez", "gomez", "σελενα γκομεζ", "γκομεζ"],
-        "image": "images/singers/selena-gomez.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/selena-gomez.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rihanna", "ριχανά", "ριχαννα"],
-        "image": "images/singers/rihanna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/rihanna.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["beyonce", "μπεγιονσε"],
-        "image": "images/singers/beyonce.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/beyonce.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lady gaga", "gaga", "λειντι γκαγκα", "γκαγκα"],
-        "image": "images/singers/lady-gaga.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/lady-gaga.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["katy perry", "perry", "κεϊτι περυ", "περυ"],
-        "image": "images/singers/katy-perry.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/katy-perry.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["shakira", "σακιρα"],
-        "image": "images/singers/shakira.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/shakira.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sia", "σια"],
-        "image": "images/singers/sia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/sia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["post malone", "malone", "ποστ μαλον", "μαλον"],
-        "image": "images/singers/post-malone.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/post-malone.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["drake", "ντρεϊκ"],
-        "image": "images/singers/drake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/drake.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["eminem", "εμινεν"],
-        "image": "images/singers/eminem.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/eminem.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["kendrick lamar", "lamar", "κεντρικ λαμαρ", "λαμαρ"],
-        "image": "images/singers/kendrick-lamar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/kendrick-lamar.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["travis scott", "scott", "τραβις σκοτ", "σκοτ"],
-        "image": "images/singers/travis-scott.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/travis-scott.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["21 savage", "savage", "τουεντι γουαν σαβιτζ", "σαβιτζ"],
-        "image": "images/singers/21-savage.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/21-savage.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["future", "φιουτσερ"],
-        "image": "images/singers/future.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/future.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lil wayne", "wayne", "λιλ γουεϊν", "γουεϊν"],
-        "image": "images/singers/lil-wayne.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/lil-wayne.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["snoop dogg", "snoop", "σνουπ δογκ", "σνουπ"],
-        "image": "images/singers/snoop-dogg.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/snoop-dogg.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ice cube", "αις κιουμπ"],
-        "image": "images/singers/ice-cube.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/ice-cube.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["50 cent", "φιφτι σεντ"],
-        "image": "images/singers/50-cent.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/50-cent.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["usher", "ασερ"],
-        "image": "images/singers/usher.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/usher.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["chris brown", "brown", "κρισ μπραουν", "μπραουν"],
-        "image": "images/singers/chris-brown.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/chris-brown.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pitbull", "πιτμπουλ"],
-        "image": "images/singers/pitbull.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/pitbull.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jennifer lopez", "lopez", "τζενιφερ λοπεζ", "λοπεζ"],
-        "image": "images/singers/jennifer-lopez.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/jennifer-lopez.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["enrique iglesias", "iglesias", "ενρικε ιγκλεσιας", "ιγκλεσιας"],
-        "image": "images/singers/enrique-iglesias.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/enrique-iglesias.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["charlie puth", "puth", "τσαρλι πουθ", "πουθ"],
-        "image": "images/singers/charlie-puth.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/charlie-puth.jpg",
         "difficulty": "medium"
     },
     {
     "answers": ["shawn mendes", "mendes", "σον μεντες", "μεντες"],
-    "image": "images/singers/shawn-mendes.jpg",
+    "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/shawn-mendes.jpg",
     "difficulty": "medium"
 },
     {
         "answers": ["olivia rodrigo", "rodrigo", "ολιβια ροδριγκο", "ροδριγκο"],
-        "image": "images/singers/olivia-rodrigo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/olivia-rodrigo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["sabrina carpenter", "carpenter", "σαμπρινα καρπεντερ", "καρπεντερ"],
-        "image": "images/singers/sabrina-carpenter.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/sabrina-carpenter.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["harry styles", "styles", "χαρι σταιλς", "σταιλς"],
-        "image": "images/singers/harry-styles.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/harry-styles.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["zayn malik", "zayn", "malik", "ζειν μαλικ", "ζειν", "μαλικ"],
-        "image": "images/singers/zayn-malik.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/zayn-malik.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["louis tomlinson", "tomlinson", "λουις τομλινσον", "τομλινσον"],
-        "image": "images/singers/louis-tomlinson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/louis-tomlinson.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["niall horan", "horan", "νιαλ χοραν", "χοραν"],
-        "image": "images/singers/niall-horan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/niall-horan.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["liam payne", "payne", "λιαμ πεϊν", "πεϊν"],
-        "image": "images/singers/liam-payne.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/liam-payne.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["camila cabello", "cabello", "καμιλα καμπεγιο", "καμπεγιο"],
-        "image": "images/singers/camila-cabello.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/camila-cabello.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["halsey", "χολσι"],
-        "image": "images/singers/halsey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/halsey.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["doja cat", "ντοτζα κατ"],
-        "image": "images/singers/doja-cat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/doja-cat.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lizzo", "λιζο"],
-        "image": "images/singers/lizzo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/lizzo.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ava max", "αβα μαξ"],
-        "image": "images/singers/ava-max.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/ava-max.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bebe rexha", "rexha", "μπεμπε ρεξα", "ρεξα"],
-        "image": "images/singers/bebe-rexha.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/bebe-rexha.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["alan walker", "walker", "αλαν γουοκερ", "γουοκερ"],
-        "image": "images/singers/alan-walker.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/alan-walker.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["avicii", "αβιτσι"],
-        "image": "images/singers/avicii.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/avicii.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["david guetta", "guetta", "ντεβιντ γκετα", "γκετα"],
-        "image": "images/singers/david-guetta.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/david-guetta.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["martin garrix", "garrix", "μαρτιν γκαρικς", "γκαρικς"],
-        "image": "images/singers/martin-garrix.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/martin-garrix.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["marshmello", "μαρσμελο"],
-        "image": "images/singers/marshmello.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/marshmello.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["calvin harris", "harris", "καλβιν χαρρις", "χαρρις"],
-        "image": "images/singers/calvin-harris.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/calvin-harris.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["steve aoki", "aoki", "στιβ αοκι", "αοκι"],
-        "image": "images/singers/steve-aoki.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/steve-aoki.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["dj snake", "snake", "ντι τζει σνεικ", "σνεικ"],
-        "image": "images/singers/dj-snake.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/dj-snake.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tiesto", "τιεστο"],
-        "image": "images/singers/tiesto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/tiesto.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bono", "μπονο"],
-        "image": "images/singers/bono.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/bono.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sting", "στινγκ"],
-        "image": "images/singers/sting.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/sting.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["phil collins", "collins", "φιλ κολινς", "κολινς"],
-        "image": "images/singers/phil-collins.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/phil-collins.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["george michael", "michael", "τζορτζ μιχαηλ", "μιχαηλ"],
-        "image": "images/singers/george-michael.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/george-michael.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["whitney houston", "houston", "γουιτνι χουστον", "χουστον"],
-        "image": "images/singers/whitney-houston.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/whitney-houston.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["celine dion", "dion", "σελιν ντιον", "ντιον"],
-        "image": "images/singers/celine-dion.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/celine-dion.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mariah carey", "carey", "μαραια καρεϊ", "καρεϊ"],
-        "image": "images/singers/mariah-carey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/mariah-carey.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["janet jackson", "janet", "jackson", "τζανετ τζακσον", "τζανετ"],
-        "image": "images/singers/janet-jackson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/janet-jackson.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["prince", "πρινς"],
-        "image": "images/singers/prince.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/prince.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bob marley", "marley", "μπομπ μαρλεϊ", "μαρλεϊ"],
-        "image": "images/singers/bob-marley.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/bob-marley.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["john lennon", "lennon", "τζον λεννον", "λεννον"],
-        "image": "images/singers/john-lennon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/john-lennon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["paul mccartney", "mccartney", "πολ μακαρτνι", "μακαρτνι"],
-        "image": "images/singers/paul-mccartney.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/paul-mccartney.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ozzy osbourne", "osbourne", "οζι οσμπορν", "οσμπορν"],
-        "image": "images/singers/ozzy-osbourne.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/ozzy-osbourne.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["kurt cobain", "cobain", "κουρτ κομπεϊν", "κομπεϊν"],
-        "image": "images/singers/kurt-cobain.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/kurt-cobain.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["chester bennington", "bennington", "τσεστερ μπενινγκτον", "μπενινγκτον"],
-        "image": "images/singers/chester-bennington.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/chester-bennington.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["amy winehouse", "winehouse", "εμι γουαϊνχαους", "γουαϊνχαους"],
-        "image": "images/singers/amy-winehouse.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/amy-winehouse.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tina turner", "turner", "τινα τερνερ", "τερνερ"],
-        "image": "images/singers/tina-turner.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/tina-turner.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["rod stewart", "stewart", "ροντ στιουαρτ", "στιουαρτ"],
-        "image": "images/singers/rod-stewart.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/rod-stewart.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["seal", "σιλ"],
-        "image": "images/singers/seal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/seal.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["lenny kravitz", "kravitz", "λενι κραβιτς", "κραβιτς"],
-        "image": "images/singers/lenny-kravitz.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/singers/lenny-kravitz.jpg",
         "difficulty": "medium"
     }
 ],
@@ -10408,453 +10408,453 @@ singers:[
 "star-wars": [
     {
         "answers": ["luke skywalker", "skywalker", "λουκ σκαϊγουοκερ", "σκαϊγουοκερ"],
-        "image": "images/star-wars/luke-skywalker.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/luke-skywalker.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["darth vader", "vader", "νταρθ βειντερ", "νταρτ βειντερ", "βειντερ"],
-        "image": "images/star-wars/darth-vader.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/darth-vader.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["anakin skywalker", "anakin", "ανακιν σκαϊγουοκερ", "ανακιν"],
-        "image": "images/star-wars/anakin-skywalker.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/anakin-skywalker.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["obi wan kenobi", "obi wan", "kenobi", "ομπι-γουαν κενομπι", "ομπι γουαν", "κενομπι"],
-        "image": "images/star-wars/obi-wan-kenobi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/obi-wan-kenobi.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["yoda", "γιοντα"],
-        "image": "images/star-wars/yoda.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/yoda.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["emperor palpatine", "palpatine", "darth sidious", "sidious", "αυτοκρατορας παλπατιν", "παλπατιν", "νταρθ σιντιους", "σιντιους"],
-        "image": "images/star-wars/palpatine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/palpatine.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["han solo", "solo", "χαν σολo", "σολo"],
-        "image": "images/star-wars/han-solo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/han-solo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["princess leia", "leia organa", "leia", "πριγκιπισσα λεια", "λεια οργανα", "λεια"],
-        "image": "images/star-wars/princess-leia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/princess-leia.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["chewbacca", "chewbacca", "τσεουμπακα", "τσεουι"],
-        "image": "images/star-wars/chewbacca.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/chewbacca.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["r2 d2", "r2d2", "αρ2ντι2", "αρ-ντι-ντι-του"],
-        "image": "images/star-wars/r2-d2.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/r2-d2.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["c3po", "c 3po", "c3 po", "σι-θρι-πι-ο"],
-        "image": "images/star-wars/c3po.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/c3po.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bb8", "bb 8", "μπι-μπι-8"],
-        "image": "images/star-wars/bb8.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/bb8.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["rey", "ρει"],
-        "image": "images/star-wars/rey.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/rey.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["kylo ren", "kylo", "καϊλο ρεν", "καϊλο"],
-        "image": "images/star-wars/kylo-ren.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/kylo-ren.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["darth maul", "maul", "νταρθ μολ", "μολ"],
-        "image": "images/star-wars/darth-maul.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/darth-maul.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["general grievous", "grievous", "στρατηγος γκριβους", "γκριβους"],
-        "image": "images/star-wars/general-grievous.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/general-grievous.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["boba fett", "boba", "μπομπα φετ", "μπομπα"],
-        "image": "images/star-wars/boba-fett.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/boba-fett.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the mandalorian", "din djarin", "mandalorian", "μανταλοριανος", "ντιν ττζαριν"],
-        "image": "images/star-wars/the-mandalorian.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/the-mandalorian.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["grogu", "baby yoda", "γκρογκου", "μπεμπη γιοντα"],
-        "image": "images/star-wars/grogu.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/grogu.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jabba the hutt", "jabba", "ζαμπα ο χατ", "ζαμπα"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["stormtrooper", "στορμτρουπερ"],
-        "image": "images/star-wars/stormtrooper.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/stormtrooper.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["finn", "φιν"],
-        "image": "images/star-wars/finn.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/finn.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["poe dameron", "poe", "ποε νταμερον", "ποε"],
-        "image": "images/star-wars/poe-dameron.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/poe-dameron.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["padme amidala", "padme", "παντμε αμινταλα", "παντμε"],
-        "image": "images/star-wars/padme-amidala.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/padme-amidala.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mace windu", "windu", "μεϊς γουιντου", "γουιντου"],
-        "image": "images/star-wars/mace-windu.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/mace-windu.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["qui gon jinn", "qui gon", "κουι-γκον τζιν", "κονι γκον"],
-        "image": "images/star-wars/qui-gon-jinn.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/qui-gon-jinn.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["count dooku", "dooku", "κομης ντουκου", "ντουκου"],
-        "image": "images/star-wars/count-dooku.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/count-dooku.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jango fett", "jango", "τζανγκο φετ", "τζανγκο"],
-        "image": "images/star-wars/jango-fett.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/jango-fett.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ahsoka tano", "ahsoka", "αζοκα τανο", "αζοκα"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["captain rex", "rex", "λοχαγος ρεξ", "ρεξ"],
-        "image": "images/star-wars/captain-rex.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/captain-rex.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["commander cody", "cody", "διοικητης κοιντι", "κοιντι", "κοουντι"],
-        "image": "images/star-wars/commander-cody.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/commander-cody.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["clone trooper", "κλωνος στρατιωτης", "κλωνος"],
-        "image": "images/star-wars/clone-trooper.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/clone-trooper.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["royal guard", "imperial royal guard", "βασιλικη φρουρα"],
-        "image": "images/star-wars/royal-guard.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/royal-guard.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["lando calrissian", "lando", "λαντο καλρισιαν", "λαντο"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["admiral ackbar", "ackbar", "ναυαρχος ακμπαρ", "ακμπαρ"],
-        "image": "images/star-wars/admiral-ackbar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/admiral-ackbar.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["moff gideon", "gideon", "μοφ γκιντεον", "γκιντεον"],
-        "image": "images/star-wars/moff-gideon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/moff-gideon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["wicket", "γουικετ"],
-        "image": "images/star-wars/wicket.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/wicket.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cad bane", "καντ μπεϊν"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["asajj ventress", "ventress", "ασατζ βεντρες", "βεντρες"],
-        "image": "images/star-wars/asajj-ventress.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/asajj-ventress.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["grand admiral thrawn", "thrawn", "μεγας ναυαρχος θρον", "θρον"],
-        "image": "images/star-wars/grand-admiral-thrawn.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/grand-admiral-thrawn.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ezra bridger", "ezra", "εζρα μπριτζερ", "εζρα"],
-        "image": "images/star-wars/ezra-bridger.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/ezra-bridger.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sabine wren", "sabine", "σαμπιν ρεν", "σαμπιν"],
-        "image": "images/star-wars/sabine-wren.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/sabine-wren.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["kanan jarrus", "kanan", "καναν τζαρους", "καναν"],
-        "image": "images/star-wars/kanan-jarrus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/kanan-jarrus.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["hera syndulla", "hera", "ηρα συντουλα", "ηρα"],
-        "image": "images/star-wars/hera-syndulla.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/hera-syndulla.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["chopper", "c1 10p", "c1-10p", "τσοπερ"],
-        "image": "images/star-wars/chopper.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/chopper.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["director krennic", "krennic", "διευθυντης κρενικ", "κρενικ"],
-        "image": "images/star-wars/director-krennic.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/director-krennic.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ig11", "ig-11", "αι-τζι-11"],
-        "image": "images/star-wars/ig-11.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/ig-11.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["captain phasma", "phasma", "λοχαγος φασμα", "φασμα"],
-        "image": "images/star-wars/captain-phasma.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/captain-phasma.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["nute gunray", "gunray", "νουτ γκανρει", "γκανρει"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["wat tambor", "tambor", "γουατ ταμπορ", "ταμπορ"],
-        "image": "images/star-wars/wat-tambor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/wat-tambor.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["plo koon", "πλο κουν"],
-        "image": "images/star-wars/plo-koon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/plo-koon.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["kit fisto", "κιτ φιστο"],
-        "image": "images/star-wars/kit-fisto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/kit-fisto.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ki adi mundi", "ki-adi-mundi", "κι-αντι-μουντι"],
-        "image": "images/star-wars/ki-adi-mundi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/ki-adi-mundi.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["shaak ti", "σαακ τι"],
-        "image": "images/star-wars/shaak-ti.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/shaak-ti.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["savage opress", "opress", "σαβατζ οπρες", "οπρες"],
-        "image": "images/star-wars/savage-opress.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/savage-opress.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mother talzin", "talzin", "μητερα ταλζιν", "ταλζιν"],
-        "image": "images/star-wars/mother-talzin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/mother-talzin.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["bail organa", "bail", "μπελ οργανα", "μπελ"],
-        "image": "images/star-wars/bail-organa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/bail-organa.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["millennium falcon", "μιλενιουμ φαλκον"],
-        "image": "images/star-wars/millennium-falcon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/millennium-falcon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["x wing", "x-wing", "εξ-γουινγκ"],
-        "image": "images/star-wars/x-wing.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/x-wing.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["tie fighter", "tie", "ται φαϊτερ"],
-        "image": "images/star-wars/tie-fighter.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/tie-fighter.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["death star", "αστρος του θανατου"],
-        "image": "images/star-wars/death-star.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/death-star.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["at at", "at-at", "ατ-ατ"],
-        "image": "images/star-wars/at-at.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/at-at.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["at st", "at-st", "ατ-στ"],
-        "image": "images/star-wars/at-st.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/at-st.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["star destroyer", "imperial star destroyer", "αστρικος καταστροφεας"],
-        "image": "images/star-wars/star-destroyer.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/star-destroyer.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["slave i", "slave 1", "σλειβ 1"],
-        "image": "images/star-wars/slave-1.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/slave-1.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["executor", "εξεκουτορ"],
-        "image": "images/star-wars/executor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/executor.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["lambda shuttle", "imperial shuttle", "σατλ λαμδα"],
-        "image": "images/star-wars/lambda-shuttle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/lambda-shuttle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["landspeeder", "λαντ-σπιτερ"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["podracer", "ποντ-ρεισερ"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["death watch", "ντιθ γουοτς"],
-        "image": "images/star-wars/death-watch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/death-watch.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["darksaber", "σκοτεινο σπαθι", "νταρκσεϊμπερ"],
-        "image": "images/star-wars/darksaber.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/darksaber.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["grogu pod", "grogu pram", "pram", "καροτσι γκρογκου"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["mustafar", "μουσταφαρ"],
-        "image": "images/star-wars/mustafar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/mustafar.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["endor", "εντορ"],
-        "image": "images/star-wars/endor.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/endor.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tattooine", "tatooine", "τατουιν"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["coruscant", "κορουσκαντ"],
-        "image": "images/actors/adam-driver.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/actors/adam-driver.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["kamino", "καμινο"],
-        "image": "images/star-wars/kamino.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/kamino.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mustafar duel", "μονομαχια στο μουσταφαρ"],
-        "image": "images/star-wars/mustafar-duel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/mustafar-duel.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jedi temple", "ναος των τζεντι"],
-        "image": "images/star-wars/jedi-temple.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/jedi-temple.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["order 66", "ταγμα 66", "εντολη 66"],
-        "image": "images/star-wars/order-66.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/order-66.jpg",
         "difficulty": "hard"
     }
     ,
     {
         "answers": ["ant man", "ant-man", "άντ-μαν"],
-        "image": "images/star-wars/ant-man.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/ant-man.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ahsoka tano", "ashoka tano", "ασοκα τανο", "άσοκα τάνο"],
-        "image": "images/star-wars/ashoka-tano.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/ashoka-tano.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cad bane", "cad banne", "καντ μπειν", "καντ μπαην"],
-        "image": "images/star-wars/cad-banne.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/cad-banne.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["coruscant", "corusant", "κορουσκαντ", "κορουσταν"],
-        "image": "images/star-wars/corusant.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/corusant.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jabba the hutt", "jabba the hat", "τζαμπα χατ", "τζάμπα"],
-        "image": "images/star-wars/jabba-the-hat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/jabba-the-hat.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jar jar binks", "jar-jar binks", "τζαρ τζαρ μπιγκς"],
-        "image": "images/star-wars/jar-jar-binks.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/jar-jar-binks.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lando calrissian", "lando calriccian", "λαντο καλιρισιαν", "λαντο"],
-        "image": "images/star-wars/lando-calriccian.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/lando-calriccian.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["nute gunray", "nyte gunray", "νιουτ γκανρει", "νιτε γουνρει"],
-        "image": "images/star-wars/nyte-gunray.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/nyte-gunray.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["sebulba", "σεμπουλμπα"],
-        "image": "images/star-wars/sebulba.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/sebulba.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tatooine", "tattooine", "τατουιν"],
-        "image": "images/star-wars/tattooine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/star-wars/tattooine.jpg",
         "difficulty": "easy"
     }
 ],
@@ -10862,403 +10862,403 @@ singers:[
 horror: [
     {
         "answers": ["michael myers", "michael", "μαικλ μαγιερς", "μαικλ"],
-        "image": "images/horror/michael-myers.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/michael-myers.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jason voorhees", "jason", "τζησον βουρχις", "τζησον"],
-        "image": "images/horror/jason-voorhees.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/jason-voorhees.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["freddy krueger", "freddy", "φρεντι κρουγκερ", "φρεντι"],
-        "image": "images/horror/freddy-krueger.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/freddy-krueger.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ghostface", "ghost face", "γκοστφειντ"],
-        "image": "images/horror/ghostface.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/ghostface.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["chucky", "charles lee ray", "τσακι", "τσαρλς λι ρει"],
-        "image": "images/horror/chucky.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/chucky.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pennywise", "πενιγουαϊζ"],
-        "image": "images/horror/pennywise.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/pennywise.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["leatherface", "leather face", "λεδερφειντ"],
-        "image": "images/horror/leatherface.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/leatherface.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jigsaw", "john kramer", "τζιγκσο", "τζον κραιμερ"],
-        "image": "images/horror/jigsaw.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/jigsaw.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["billy", "billy the puppet", "μπιλι", "η μαριονετα"],
-        "image": "images/horror/billy-the-puppet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/billy-the-puppet.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pinhead", "pin head", "hellraiser", "πινχεντ"],
-        "image": "images/horror/pinhead.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/pinhead.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["annabelle", "annabelle doll", "αναμπελ"],
-        "image": "images/horror/annabelle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/annabelle.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["valak", "the nun", "nun", "βαλακ", "η καλογρια"],
-        "image": "images/horror/valak.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/valak.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["samara", "samara morgan", "σαμαρα", "σαμαρα μοργκαν"],
-        "image": "images/horror/samara-morgan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/samara-morgan.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["candyman", "candy man", "καντιμαν"],
-        "image": "images/horror/candyman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/candyman.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["hannibal lecter", "hannibal", "χανιμπαλ λεκτερ", "χανιμπαλ"],
-        "image": "images/horror/hannibal-lecter.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/hannibal-lecter.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["art the clown", "art", "αρτ ο κλαουν", "αρτ"],
-        "image": "images/horror/art-the-clown.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/art-the-clown.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["freddy fazbear", "freddy", "φρεντι φαζμπερ"],
-        "image": "images/horror/freddy-fazbear.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/freddy-fazbear.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["bonnie", "μπονι"],
-        "image": "images/horror/bonnie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/bonnie.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["chica", "τσικα"],
-        "image": "images/horror/chica.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/chica.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["foxy", "φοξι"],
-        "image": "images/horror/foxy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/foxy.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["huggy wuggy", "huggy", "χαγκι βαγκι", "χαγκι"],
-        "image": "images/horror/huggy-wuggy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/huggy-wuggy.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["slender man", "slenderman", "σλεντερμαν"],
-        "image": "images/horror/slender-man.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/slender-man.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["siren head", "σειρεν χεντ"],
-        "image": "images/horror/siren-head.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/siren-head.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["pyramid head", "πυραμινδοκεφαλος"],
-        "image": "images/horror/pyramid-head.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/pyramid-head.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mr x", "mr. x", "tyrant", "μιζτερ χ", "τυραννος"],
-        "image": "images/horror/mr-x.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/mr-x.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["lady dimitrescu", "dimitrescu", "κυρια δημητρεσκου", "δημητρεσκου"],
-        "image": "images/horror/lady-dimitrescu.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/lady-dimitrescu.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["alien", "xenomorph", "αλλοδαπος", "ξενομορφος"],
-        "image": "images/horror/xenomorph.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/xenomorph.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["predator", "πρενιτορ"],
-        "image": "images/horror/predator.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/predator.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["demogorgon", "δημογοργονας"],
-        "image": "images/horror/demogorgon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/demogorgon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["vecna", "βεκνα"],
-        "image": "images/horror/vecna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/vecna.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["m3gan", "megan", "μεγκαν"],
-        "image": "images/horror/m3gan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/m3gan.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["jeff the killer", "jeff", "τζεφ ο δολοφονος", "τζεφ"],
-        "image": "images/horror/jeff-the-killer.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/jeff-the-killer.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["norman bates", "norman", "νορμαν μπεϊτς", "νορμαν"],
-        "image": "images/horror/norman-bates.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/norman-bates.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["esther", "εστερ"],
-        "image": "images/horror/esther.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/esther.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["springtrap", "σπρινγκτραπ"],
-        "image": "images/horror/springtrap.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/springtrap.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["golden freddy", "χρυσος φρεντι"],
-        "image": "images/horror/golden-freddy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/golden-freddy.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["puppet", "marionette", "the puppet", "μαριονετα"],
-        "image": "images/horror/puppet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/puppet.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["circus baby", "baby", "σιρκασ μπεμπη"],
-        "image": "images/horror/circus-baby.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/circus-baby.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["glamrock freddy", "γλαμροκ φρεντι"],
-        "image": "images/horror/glamrock-freddy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/glamrock-freddy.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["mommy long legs", "mommy", "μαμα μακρυποδαρη"],
-        "image": "images/horror/mommy-long-legs.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/mommy-long-legs.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["catnap", "cat nap", "κατναπ"],
-        "image": "images/horror/catnap.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/catnap.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bendy", "μπεντι"],
-        "image": "images/horror/bendy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/bendy.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ink demon", "the ink demon", "δαίμονας με μελανι"],
-        "image": "images/horror/ink-demon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/ink-demon.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["jack baker", "τζακ μπεικερ"],
-        "image": "images/horror/jack-baker.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/jack-baker.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the creeper", "creeper", "jeepers creepers", "κριπερ"],
-        "image": "images/horror/the-creeper.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/the-creeper.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the babadook", "babadook", "μπαμπατουκ"],
-        "image": "images/horror/the-babadook.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/the-babadook.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["longlegs", "λονγκλεγκς"],
-        "image": "images/horror/longlegs.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/longlegs.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["tiffany", "tiffany valentine", "τιφανι"],
-        "image": "images/horror/tiffany-valentine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/tiffany-valentine.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ryuk", "ριουκ"],
-        "image": "images/horror/ryuk.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/ryuk.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["robert the doll", "robert", "ρομπερτ η κουκλα"],
-        "image": "images/horror/robert-the-doll.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/robert-the-doll.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["kayako", "kayako saeki", "καγιακο"],
-        "image": "images/horror/kayako-saeki.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/kayako-saeki.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["roxanne wolf", "roxanne", "roxy", "ροξαν γουλφ", "ροξι"],
-        "image": "images/horror/roxanne-wolf.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/roxanne-wolf.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["montgomery gator", "monty", "μοντγκομερι γκεϊτορ", "μοντι"],
-        "image": "images/horror/montgomery-gator.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/montgomery-gator.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["pumpkinhead", "παμπκινχεντ"],
-        "image": "images/horror/pumpkinhead.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/pumpkinhead.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["the thing", "το πραγμα"],
-        "image": "images/horror/1-the-thing.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/1-the-thing.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["the bride", "bride", "η νυφη"],
-        "image": "images/horror/the-bride.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/the-bride.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["the ferryman", "ferryman", "ο πορθμεας"],
-        "image": "images/horror/the-ferryman.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/the-ferryman.jpg",
         "difficulty": "hard"
     },
     // --- 23 NEW ADDITIONS TO REACH 80 ---
     {
         "answers": ["count dracula", "dracula", "δρακουλας", "κομης δρακουλας"],
-        "image": "images/horror/dracula.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/dracula.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["frankenstein", "frankenstein's monster", "φρανκενσταϊν"],
-        "image": "images/horror/frankenstein.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/frankenstein.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["the mummy", "mummy", "η μουμια", "μουμια"],
-        "image": "images/horror/mummy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/mummy.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["nemesis", "νεμεσις"],
-        "image": "images/horror/nemesis.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/nemesis.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["sadako", "sadako yamamura", "σαδακο"],
-        "image": "images/horror/sadako.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/sadako.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["brundlefly", "the fly", "η μυγα"],
-        "image": "images/horror/brundlefly.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/brundlefly.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["pale man", "ο ωχρος αντρας", "παλε μαν"],
-        "image": "images/horror/pale-man.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/pale-man.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["xenomorph queen", "alien queen", "βασιλισσα ξενομορφο"],
-        "image": "images/horror/xenomorph-queen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/xenomorph-queen.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["the tall man", "tall man", "ο ψηλος αντρας"],
-        "image": "images/horror/the-tall-man.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/the-tall-man.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["jack torrance", "τζακ τορανς"],
-        "image": "images/horror/jack-torrance.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/jack-torrance.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["gorgon", "medusa", "μεδουσα", "γοργονα"],
-        "image": "images/horror/medusa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/medusa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["mangler", "the mangler", "μανγκλερ"],
-        "image": "images/horror/mangler.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/mangler.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["paimon", "king paimon", "παιμον"],
-        "image": "images/horror/paimon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/paimon.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["bughuul", "mr boogie", "μπουγκουλ"],
-        "image": "images/horror/bughuul.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/bughuul.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["crooked man", "the crooked man", "κρουκεντ μαν"],
-        "image": "images/horror/crooked-man.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/crooked-man.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["toshio", "toshio saeki", "τοσιο"],
-        "image": "images/horror/toshio.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/toshio.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["chatterer", "τσατερερ"],
-        "image": "images/horror/chatterer.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/chatterer.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["clicker", "κλικερ"],
-        "image": "images/horror/clicker.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/clicker.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["bloater", "μπλοατερ"],
-        "image": "images/horror/bloater.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/bloater.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["dogday", "dog day", "ντογκντει"],
-        "image": "images/horror/dogday.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/dogday.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["smiling critters", "σμαϊλινγκ κριτερς"],
-        "image": "images/horror/smiling-critters.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/smiling-critters.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["boxppy boo", "boxboo", "μποξι μπου"],
-        "image": "images/horror/boxboo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/boxboo.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["baldi", "baldi's basics", "μπαλντι"],
-        "image": "images/horror/baldi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/horror/baldi.jpg",
         "difficulty": "medium"
     }
 ],
@@ -11268,617 +11268,617 @@ disney:
 [
     {
         "answers": ["μάικι μάους", "μάικι", "mickey mouse", "mickey", "ποντικός μάικι"],
-        "image": "images/disney/mickey-mouse.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mickey-mouse.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μίνι μάους", "μίνι", "minnie mouse", "minnie", "ποντικίνα μίνι"],
-        "image": "images/disney/minnie-mouse.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/minnie-mouse.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ντόναλντ πάπιας", "ντόναλντ", "donald duck", "donald", "παπιοντόναλντ"],
-        "image": "images/disney/donald-duck.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/donald-duck.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ντεϊζι ντακ", "ντεϊζι", "daisy duck", "daisy", "παπιοντεϊζι"],
-        "image": "images/disney/daisy-duck.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/daisy-duck.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γκούφι", "goofy", "γκούφυ", "σκύλος γκούφι", "ο γκούφι"],
-        "image": "images/disney/goofy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/goofy.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πλούτο", "pluto", "σκύλος πλούτο", "ο πλούτο", "πλουτο"],
-        "image": "images/disney/pluto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/pluto.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["στιτς", "stitch", "εξωγήινος στιτς", "ο στιτς", "εξωγήινος 626"],
-        "image": "images/disney/stitch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/stitch.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["λίλο", "lilo", "λίλο πελεκί", "η λίλο", "lilo pelekai"],
-        "image": "images/disney/lilo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/lilo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σίμπα", "simba", "λιονταράκι σίμπα", "βασιλιάς σίμπα", "ο σίμπα"],
-        "image": "images/disney/simba.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/simba.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μουφάσα", "mufasa", "βασιλιάς μουφάσα", "ο μουφάσα", "πατέρας σίμπα"],
-        "image": "images/disney/mufasa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mufasa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σκαρ", "scar", "κακός σκαρ", "θείος σκαρ", "ο σκαρ"],
-        "image": "images/disney/scar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/scar.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τιμόν", "timon", "τιμόν και πούμπα", "ηχολόγος τιμόν", "ο τιμόν"],
-        "image": "images/disney/timon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/timon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πούμπα", "pumbaa", "pumba", "αγριογούρουνο πούμπα", "ο πούμπα"],
-        "image": "images/disney/pumbaa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/pumbaa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["έλσα", "elsa", "βασίλισσα έλσα", "η έλσα", "πριγκίπισσα έλσα"],
-        "image": "images/disney/elsa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/elsa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["άννα", "anna", "πριγκίπισσα άννα", "η άννα", "anna of arendelle"],
-        "image": "images/disney/anna.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/anna.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["όλαφ", "olaf", "χιονάνθρωπος όλαφ", "ο όλαφ", "olaf the snowman"],
-        "image": "images/disney/olaf.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/olaf.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κρίστοφ", "kristoff", "ο κρίστοφ", "kristoff bjorgman", "φίλος της άννας"],
-        "image": "images/disney/kristoff.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/kristoff.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σβεν", "sven", "τάρανδος σβεν", "ο σβεν", "sven the reindeer"],
-        "image": "images/disney/sven.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/sven.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μοάνα", "moana", "vaiana", "πριγκίπισσα μοάνα", "η μοάνα"],
-        "image": "images/disney/moana.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/moana.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μάουι", "maui", "ημίθεος μάουι", "ο μάουι", "demigod maui"],
-        "image": "images/disney/maui.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/maui.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αριέλ", "ariel", "μικρή γοργόνα", "η αριέλ", "princess ariel"],
-        "image": "images/disney/ariel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/ariel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["φλόντερ", "flounder", "ψάρι φλόντερ", "ο φλόντερ", "φλάντερ"],
-        "image": "images/disney/flounder.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/flounder.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σεβαστιαν", "sebastian", "κάβουρας σεβαστιαν", "ο σεβαστιαν", "καβούρας"],
-        "image": "images/disney/sebastian.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/sebastian.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ούρσουλα", "ursula", "κακιά ούρσουλα", "η ούρσουλα", "μαγική ούρσουλα"],
-        "image": "images/disney/ursula.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/ursula.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αλαντίν", "aladdin", "ο αλαντίν", "prince ali"],
-        "image": "images/disney/aladdin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/aladdin.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζίνι", "genie", "λύχνος τζίνι", "ο τζίνι", "genie of the lamp"],
-        "image": "images/disney/genie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/genie.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γιασμίν", "jasmine", "πριγκίπισσα γιασμίν", "η γιασμίν", "princess jasmine"],
-        "image": "images/disney/jasmine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/jasmine.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζαφάρ", "jafar", "βεζίρης τζαφάρ", "ο τζαφάρ", "evil jafar"],
-        "image": "images/disney/jafar.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/jafar.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ηρακλής", "hercules", "ο ηρακλής", "herkules", "young hercules"],
-        "image": "images/disney/hercules.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/hercules.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αδης", "hades", "θεός άδης", "ο άδης", "lord hades"],
-        "image": "images/disney/hades.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/hades.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πήτερ παν", "peter pan", "ο πήτερ παν", "peter", "the boy who wouldn't grow up"],
-        "image": "images/disney/peter-pan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/peter-pan.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κάπτεν χουκ", "captain hook", "hook", "καπετάνιος χουκ", "ο χουκ"],
-        "image": "images/disney/captain-hook.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/captain-hook.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τινκερμπελ", "tinker bell", "tinkerbell", "νεράιδα τίνκερμπελ", "η τίνκερμπελ"],
-        "image": "images/disney/tinker-bell.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/tinker-bell.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γουίνι το αρκουδάκι", "winnie the pooh", "pooh", "winnie", "αρκουδάκι γουίνι"],
-        "image": "images/disney/winnie-the-pooh.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/winnie-the-pooh.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τίγρης", "tigger", "ο τίγρης", "tigger the tiger", "τιγράκι"],
-        "image": "images/disney/tigger.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/tigger.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πίδγλετ", "piglet", "γουρουνάκι πίδγλετ", "ο πίδγλετ", "piglet the pig"],
-        "image": "images/disney/piglet.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/piglet.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ινιόρ", "eeyore", "γαϊδουράκι ινιόρ", "ο ινιόρ", "eeyore the donkey"],
-        "image": "images/disney/eeyore.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/eeyore.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπας λάιτγιουρ", "buzz lightyear", "buzz", "μπας", "διαστημικός φρουρός μπας"],
-        "image": "images/disney/buzz-lightyear.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/buzz-lightyear.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γούντι", "woody", "σερίφης γούντι", "ο γούντι", "sheriff woody"],
-        "image": "images/disney/woody.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/woody.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κεραυνός μακουίν", "lightning mcqueen", "mcqueen", "κεραυνός", "αγωνιστικό μακουίν"],
-        "image": "images/disney/lightning-mcqueen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/lightning-mcqueen.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπαρμπά σουβλάκος", "mater", "tow mater", "ματέρ", "γερανός ματέρ"],
-        "image": "images/disney/mater.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mater.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σάλεϊ", "sulley", "james p. sullivan", "τζέιμς σάλιβαν", "τερατάκι σάλεϊ"],
-        "image": "images/disney/sulley.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/sulley.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μάικ βαζόφσκι", "mike wazowski", "mike", "μάικ", "πράσινο τερατάκι μάικ"],
-        "image": "images/disney/mike-wazowski.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mike-wazowski.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["νέμο", "nemo", "ψαράκι νέμο", "ο νέμο", "finding nemo"],
-        "image": "images/disney/nemo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/nemo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ντόρι", "dory", "ψάρι ντόρι", "η ντόρι", "dory the fish"],
-        "image": "images/disney/dory.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/dory.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γουόλι", "wall-e", "walle", "ρομπότ γουόλι", "ο γουόλι"],
-        "image": "images/disney/wall-e.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/wall-e.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ηύα", "eve", "eva", "ρομπότ ηύα", "η ηύα"],
-        "image": "images/disney/eve.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/eve.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πεντάμορφη", "belle", "μπεντ", "πριγκίπισσα μπελ", "η μπελ"],
-        "image": "images/disney/belle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/belle.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τέρας", "beast", "the beast", "το τέρας", "prince adam"],
-        "image": "images/disney/beast.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/beast.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["χιονάτη", "snow white", "η χιονάτη", "princess snow white", "σνόου γουάιτ"],
-        "image": "images/disney/snow-white.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/snow-white.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σταχτοπούτα", "cinderella", "η σταχτοπούτα", "cindy", "princes cinderella"],
-        "image": "images/disney/cinderella.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/cinderella.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πινόκιο", "pinocchio", "ξύλινος πινόκιο", "ο πινόκιο", "little wooden boy"],
-        "image": "images/disney/pinocchio.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/pinocchio.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τζιμίνι κρίκετ", "jiminy cricket", "jiminy", "γρύλος τζιμίνι", "ο τζιμίνι"],
-        "image": "images/disney/jiminy-cricket.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/jiminy-cricket.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αλίκη", "alice", "αλίκη στη χώρα των θαυμάτων", "η αλίκη", "alice in wonderland"],
-        "image": "images/disney/alice.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/alice.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γάτος τσεσάιρ", "cheshire cat", "cheshire", "χαμογελαστός γάτος", "ο γάτος τσεσάιρ"],
-        "image": "images/disney/cheshire-cat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/cheshire-cat.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπέιμαξ", "baymax", "ρομπότ μπέιμαξ", "ο μπέιμαξ", "big hero 6 baymax"],
-        "image": "images/disney/baymax.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/baymax.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μιράμπελ", "mirabel", "μιράμπελ μάντριγκαλ", "η μιράμπελ", "encanto mirabel"],
-        "image": "images/disney/mirabel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mirabel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τιάνα", "tiana", "πριγκίπισσα τιάνα", "η τιάνα", "princess tiana"],
-        "image": "images/disney/tiana.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/tiana.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ραλφ", "ralph", "wreck-it ralph", "καταστροφέας ραλφ", "ο ραλφ"],
-        "image": "images/disney/ralph.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/ralph.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γαστὼν", "gaston", "κακός γαστών", "ο γαστών", "gaston legume"],
-        "image": "images/disney/gaston.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/gaston.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λυμιέρ", "lumiere", "κηροπήγιο λυμιέρ", "ο λυμιέρ", "lumiere the candelabra"],
-        "image": "images/disney/lumiere.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/lumiere.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κόγσγουορθ", "cogsworth", "ρολόι κόγσγουορθ", "ο κόγσγουορθ", "cogsworth the clock"],
-        "image": "images/disney/cogsworth.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/cogsworth.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ραπουνζέλ", "rapunzel", "πριγκίπισσα ραπουνζέλ", "η ραπουνζέλ", "tangled rapunzel"],
-        "image": "images/disney/rapunzel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/rapunzel.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["φλιν ράιντερ", "flynn rider", "flynn", "eugene fitzherbert", "eugene"],
-        "image": "images/disney/flynn-rider.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/flynn-rider.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πασκάλ", "pascal", "χαμαιλέοντας πασκάλ", "ο πασκάλ", "pascal the chameleon"],
-        "image": "images/disney/pascal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/pascal.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μάξιμους", "maximus", "άλογο μάξιμους", "ο μάξιμους", "maximus the horse"],
-        "image": "images/disney/maximus.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/maximus.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μερίντα", "merida", "πριγκίπισσα μερίντα", "η μερίντα", "brave merida"],
-        "image": "images/disney/merida.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/merida.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ποκαχόντας", "pocahontas", "ινδιάνα ποκαχόντας", "η ποκαχόντας", "princess pocahontas"],
-        "image": "images/disney/pocahontas.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/pocahontas.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μουλάν", "mulan", "πολεμίστρια μουσάν", "η μουσάν", "fa mulan"],
-        "image": "images/disney/mulan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mulan.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μούσου", "mushu", "δράκος μούσου", "ο μούσου", "mushu the dragon"],
-        "image": "images/disney/mushu.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mushu.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ταρζάν", "tarzan", "ο ταρζάν", "lord of the jungle", "tarzan of the apes"],
-        "image": "images/disney/tarzan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/tarzan.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["τζέιν", "jane", "jane porter", "η τζέιν", "lady jane"],
-        "image": "images/disney/jane.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/jane.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπαλού", "baloo", "αρκούδος μπαλού", "ο μπαλού", "baloo the bear"],
-        "image": "images/disney/baloo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/baloo.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπαγκήρα", "bagheera", "πάνθηρας μπαγκήρα", "ο μπαγκήρα", "bagheera the panther"],
-        "image": "images/disney/bagheera.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/bagheera.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κινγκ λούις", "king louie", "βασιλιάς λούις", "ο κινγκ λούις", "king louie the orangutan"],
-        "image": "images/disney/king-louie.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/king-louie.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ντάμπο", "dumbo", "ελεφαντάκι ντάμπο", "ο ντάμπο", "dumbo the elephant"],
-        "image": "images/disney/dumbo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/dumbo.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπάμπι", "bambi", "ελαφάκι μπάμπι", "ο μπάμπι", "bambi the deer"],
-        "image": "images/disney/bambi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/bambi.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["θάμππερ", "thumper", "λαγός θάμππερ", "ο θάμππερ", "thumper the rabbit"],
-        "image": "images/disney/thumper.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/thumper.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λάιντι", "lady", "σκυλίτσα λάιντι", "η λάιντι", "lady and the tramp"],
-        "image": "images/disney/lady.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/lady.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σάλεϊ καρέρα", "sally carrera", "sally", "αυτοκίνητο σάλεϊ", "η σάλεϊ"],
-        "image": "images/disney/sally-carrera.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/sally-carrera.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ντοκ χάτσον", "doc hudson", "doc", "δάσκαλος ντοκ", "ο ντοκ χάτσον"],
-        "image": "images/disney/doc-hudson.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/doc-hudson.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["τσικ χικς", "chick hicks", "chick", "αντίπαλος τσικ", "ο τσικ χικς"],
-        "image": "images/disney/chick-hicks.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/chick-hicks.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κρουέλα ντε βιλ", "cruella de vil", "cruella", "κακιά κρουέλα", "η κρουέλα"],
-        "image": "images/disney/cruella-de-vil.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/cruella-de-vil.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["νεράιδα νονά", "fairy godmother", "godmother", "καλή νεράιδα", "η νεράιδα νονά"],
-        "image": "images/disney/fairy-godmother.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/fairy-godmother.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κακιά βασίλισσα", "the evil queen", "evil queen", "queen grimhilde", "grimhilde"],
-        "image": "images/disney/evil-queen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/evil-queen.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μαλέφισεντ", "maleficent", "κακιά μαλέφισεντ", "η μαλέφισεντ", "mistress of all evil"],
-        "image": "images/disney/maleficent.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/maleficent.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["αυρόρα", "aurora", "sleeping beauty", "ωραία κοιμωμένη", "η αυρόρα"],
-        "image": "images/disney/aurora.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/aurora.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πρίγκιπας φίλιππος", "prince phillip", "phillip", "ο φίλιππος", "prince philip"],
-        "image": "images/disney/prince-phillip.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/prince-phillip.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["βανέλοπε", "vanellope", "vanellope von schweetz", "η βανέλοπε", "princess vanellope"],
-        "image": "images/disney/vanellope.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/vanellope.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["δρ φαμσιλιέ", "dr facilier", "facilier", "doctor facilier", "shadow man"],
-        "image": "images/disney/dr-facilier.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/dr-facilier.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κούσκο", "kuzco", "αυτοκράτορας κούσκο", "ο κούσκο", "emperor kuzco"],
-        "image": "images/disney/kuzco.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/kuzco.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ύζμα", "yzma", "κακιά ύζμα", "η ύζμα", "yzma the sorceress"],
-        "image": "images/disney/yzma.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/yzma.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κρονκ", "kronk", "βοηθός κρονκ", "ο κρονκ", "kronk pepikrankenitz"],
-        "image": "images/disney/kronk.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/kronk.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["καρλ φρέντρικσεν", "carl fredricksen", "carl", "παππούς καρλ", "ο καρλ"],
-        "image": "images/disney/carl-fredricksen.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/carl-fredricksen.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ράσσελ", "russell", "πρόσκοπος ράσσελ", "ο ράσσελ", "russell the wilderness explorer"],
-        "image": "images/disney/russell.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/russell.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["νταγκ", "dug", "σκύλος νταγκ", "ο νταγκ", "dug the dog"],
-        "image": "images/disney/dug.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/dug.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κεβίν", "kevin", "πουλί κεβίν", "η κεβίν", "kevin the bird"],
-        "image": "images/disney/kevin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/kevin.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ρεμί", "remy", "ποντικός ρεμί", "ο ρεμί", "remy the chef"],
-        "image": "images/disney/remy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/remy.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["μητέρα γκόθελ", "mother gothel", "gothel", "κακιά γκόθελ", "η γκόθελ"],
-        "image": "images/disney/mother-gothel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mother-gothel.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ρεξ", "rex", "δεινόσαυρος ρεξ", "ο ρεξ", "rex the dinosaur"],
-        "image": "images/disney/rex.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/rex.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["φόρκι", "forky", "πιρούνι φόρκι", "ο φόρκι", "forky the spork"],
-        "image": "images/disney/forky.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/forky.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λότσο", "lotso", "αρκουδάκι λότσο", "ο λότσο", "lotso huggin bear"],
-        "image": "images/disney/lotso.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/lotso.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κρας", "crush", "χελώνα κρας", "ο κρας", "crush the turtle"],
-        "image": "images/disney/crush.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/crush.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπού", "boo", "κοριτσάκι μπού", "η μπού", "boo from monsters inc"],
-        "image": "images/disney/boo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/boo.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ράνταλ", "randall", "randall boggs", "σαύρα ράνταλ", "ο ράνταλ"],
-        "image": "images/disney/randall.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/randall.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κύριος απίθανος", "mr incredible", "mister incredible", "μπαμπάς απίθανος", "ο κύριος απίθανος"],
-        "image": "images/disney/mr-incredible.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/mr-incredible.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ελαστικρίνα", "elastigirl", "helen parr", "ελένη παρ", "η ελαστικρίνα"],
-        "image": "images/disney/elastigirl.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/elastigirl.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ζακ ζακ", "jack-jack", "jack jack", "μωρό ζακ ζακ", "ο ζακ ζακ"],
-        "image": "images/disney/jack-jack.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/jack-jack.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["χαρά", "joy", "συναίσθημα χαρά", "η χαρά", "joy from inside out"],
-        "image": "images/disney/joy.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/joy.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["λύπη", "sadness", "συναίσθημα λύπη", "η λύπη", "sadness from inside out"],
-        "image": "images/disney/sadness.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/sadness.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["άγχος", "anxiety", "συναίσθημα άγχος", "το άγχος", "anxiety from inside out"],
-        "image": "images/disney/anxiety.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/anxiety.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μιγκέλ", "miguel", "miguel rivera", "ο μιγκέλ", "miguel from coco"],
-        "image": "images/disney/miguel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/miguel.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["έκτορ", "hector", "hector rivera", "ο έκτορ", "hector from coco"],
-        "image": "images/disney/hector.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/hector.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["έμπερ", "ember", "ember lumen", "η έμπερ", "ember from elemental"],
-        "image": "images/disney/ember.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/ember.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γουέιντ", "wade", "wade ripple", "ο γουέιντ", "wade from elemental"],
-        "image": "images/disney/wade.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/wade.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["λούκα", "luca", "luca paguro", "ο λούκα", "luca the sea monster"],
-        "image": "images/disney/luca.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/luca.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αλμπέρτο", "alberto", "alberto scorfano", "ο αλμπέρτο", "alberto from luca"],
-        "image": "images/disney/alberto.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/alberto.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["λουίτζι", "luigi", "αυτοκίνητο λουίτζι", "ο λουίτζι", "luigi from cars"],
-        "image": "images/disney/luigi.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/luigi.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γκουίντο", "guido", "μικρό αυτοκίνητο γκουίντο", "ο γκουίντο", "guido from cars"],
-        "image": "images/disney/guido.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/guido.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ραμόν", "ramone", "βαμμένος ραμόν", "ο ραμόν", "ramone from cars"],
-        "image": "images/disney/ramone.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/ramone.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σερίφης", "sheriff", "αστυνομικός σερίφης", "ο σερίφης", "sheriff from cars"],
-        "image": "images/disney/sheriff.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/sheriff.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["φλο", "flo", "βενζινάδικο φλο", "η φλο", "flo from cars"],
-        "image": "images/disney/flo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/flo.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ο βασιλιάς", "the king", "king", "striwe dinoco", "ο τσικ και ο βασιλιάς"],
-        "image": "images/disney/the-king.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/disney/the-king.jpg",
         "difficulty": "hard"
     }
 ],
@@ -11886,404 +11886,405 @@ disney:
 monuments: [
     {
         "answers": ["πύργος του άιφελ", "άιφελ", "eiffel tower", "eiffel", "πύργος άιφελ στο παρίσι", "ο πύργος του άιφελ"],
-        "image": "images/monuments/eiffel-tower.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/eiffel-tower.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κάστρο του μπραν", "bran castle", "κάστρο του δράκουλα", "dracula's castle", "castelul bran"],
-        "image": "images/monuments/bran-castle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/bran-castle.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπουρτζ αζαντί", "azadi tower", "πύργος αζαντί", "azadi tower tehran", "borj-e azadi"],
-        "image": "images/monuments/azadi-tower.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/azadi-tower.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["πύργος του ηρακλή", "tower of hercules", "torre de hercules", "ο φάρος του ηρακλή", "tower of hercules spain"],
-        "image": "images/monuments/tower-of-hercules.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/tower-of-hercules.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["άγαλμα της ελευθερίας", "statue of liberty", "lady liberty", "άγαλμα ελευθερίας", "η κυρία της ελευθερίας"],
-        "image": "images/monuments/statue-of-liberty.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/statue-of-liberty.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπιγκ μπεν", "big ben", "πύργος του ρολογιού μπιγκ μπεν", "ο μπιγκ μπεν", "elizabeth tower"],
-        "image": "images/monuments/big-ben.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/big-ben.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κολοσσαίο", "colosseum", "ρωμαϊκό κολοσσαίο", "flavian amphitheatre", "το κολοσσαίο"],
-        "image": "images/monuments/colosseum.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/colosseum.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κεκλιμένος πύργος της πίζας", "πύργος της πίζας", "leaning tower of pisa", "tower of pisa", "ο πύργος της πίζας"],
-        "image": "images/monuments/leaning-tower-of-pisa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/leaning-tower-of-pisa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μεγάλη πυραμίδα της γκίζας", "πυραμίδα της γκίζας", "great pyramid of giza", "pyramid of giza", "πυραμίδα του χέοπα"],
-        "image": "images/monuments/great-pyramid-of-giza.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/great-pyramid-of-giza.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["σφίγγα", "μεγάλη σφίγγα", "great sphinx", "sphinx", "η μεγάλη σφίγγα της γκίζας"],
-        "image": "images/monuments/sphinx.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/sphinx.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["ταζ μαχάλ", "taj mahal", "το ταζ μαχάλ", "μαυσωλείο ταζ μαχάλ", "taj"],
-        "image": "images/monuments/taj-mahal.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/taj-mahal.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["όπερα του σίδνεϊ", "sydney opera house", "sydney opera", "το θέατρο του σίδνεϊ", "κτίριο όπερας σίδνεϊ"],
-        "image": "images/monuments/sydney-opera-house.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/sydney-opera-house.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["χριστός λυτρωτής", "christ the redeemer", "cristo redentor", "άγαλμα χριστός λυτρωτής", "ο χριστός του ριό"],
-        "image": "images/monuments/christ-the-redeemer.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/christ-the-redeemer.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["αψίδα του θριάμβου", "arc de triomphe", "αψίδα θριάμβου παρισιού", "arc de triomphe de l'étoile", "η αψίδα του θριάμβου"],
-        "image": "images/monuments/arc-de-triomphe.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/arc-de-triomphe.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["όρος ράσμορ", "mount rushmore", "mt rushmore", "μνημείο όρος ράσμορ", "οι πρόεδροι στο όρος ράσμορ"],
-        "image": "images/monuments/mount-rushmore.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/mount-rushmore.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πύλη του βρανδεμβούργου", "brandenburg gate", "brandenburger tor", "η πύλη του βρανδεμβούργου", "βρανδεμβούργο"],
-        "image": "images/monuments/brandenburg-gate.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/brandenburg-gate.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["στόουνχεντζ", "stonehenge", "αρχαίο στόουνχεντζ", "οι λίθοι του στόουνχεντζ", "stone henge"],
-        "image": "images/monuments/stonehenge.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/stonehenge.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μάτσου πίτσου", "machu picchu", "η πόλη μάτσου πίτσου", "inča city machu picchu", "αρχαία πόλη μάτσου πίτσου"],
-        "image": "images/monuments/machu-picchu.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/machu-picchu.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["παρθενώνας", "parthenon", "ο παρθενώνας", "temple of parthenon", "ναός του παρθενώνα"],
-        "image": "images/monuments/parthenon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/parthenon.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["γέφυρα γκόλντεν γκέιτ", "golden gate bridge", "golden gate", "η κόκκινη γέφυρα γκόλντεν γκέιτ", "γέφυρα του σαν φρανσίσκο"],
-        "image": "images/monuments/golden-gate-bridge.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/golden-gate-bridge.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["μπουρτζ χαλίφα", "burj khalifa", "burj", "ο πύργος μπουρτζ χαλίφα", "ψηλότερος πύργος στο ντουμπάι"],
-        "image": "images/monuments/burj-khalifa.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/burj-khalifa.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["τάουερ μπριτζ", "tower bridge", "γέφυρα του Λονδίνου", "η γέφυρα τάουερ μπριτζ", "tower bridge london"],
-        "image": "images/monuments/tower-bridge.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/tower-bridge.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["πυραμίδα του λούβρου", "louvre pyramid", "glass pyramid louvre", "η πυραμίδα του λούβρου", "pyramide du louvre"],
-        "image": "images/monuments/louvre-pyramid.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/louvre-pyramid.jpg",
         "difficulty": "easy"
     },
     {
         "answers": ["κάστρο νοϊσβανστάιν", "neuschwanstein castle", "neuschwanstein", "το παραμυθένιο κάστρο νοϊσβανστάιν", "schloss neuschwanstein"],
-        "image": "images/monuments/neuschwanstein-castle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/neuschwanstein-castle.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ανγκόρ βατ", "angkor wat", "ναός ανγκόρ βατ", "angkor", "το συγκρότημα ανγκόρ βατ"],
-        "image": "images/monuments/angkor-wat.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/angkor-wat.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πέτρα", "petra", "η αρχαία πόλη πέτρα", "petra jordan", "η ροδίνη πόλη πέτρα"],
-        "image": "images/monuments/petra.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/petra.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["τσιτσέν ιτζά", "chichen itza", "πυραμίδα τσιτσέν ιτζά", "chichén itzá", "αρχαία πόλη τσιτσέν ιτζά"],
-        "image": "images/monuments/chichen-itza.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/chichen-itza.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μοάι", "αγάλματα μοάι", "moai", "easter island statues", "τα αγάλματα του νησιού του Πάσχα"],
-        "image": "images/monuments/moai.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/moai.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κρήνη ντι τρέβι", "fontana di trevi", "trevi fountain", "συντριβάνι ντι τρέβι", "η κρήνη της ρώμης"],
-        "image": "images/monuments/trevi-fountain.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/trevi-fountain.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πάνθεον", "pantheon", "το πάνθεον της ρώμης", "roman pantheon", "panteon"],
-        "image": "images/monuments/pantheon.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/pantheon.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σακρέ κερ", "sacre coeur", "sacré-cœur", "βασιλική σακρέ κερ", "sacre-coeur paris"],
-        "image": "images/monuments/sacre-coeur.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/sacre-coeur.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["σαγραδα φαμίλια", "sagrada familia", "basilica sagrada familia", "ναός σαγραδα φαμίλια", "η εκκλησία του γκαουντί"],
-        "image": "images/monuments/sagrada-familia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/sagrada-familia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["απαγορευμένη πόλη", "forbidden city", "the forbidden city", "ο τόπος των αυτοκρατόρων", "απαγορευμένη πόλη πεκίνου"],
-        "image": "images/monuments/forbidden-city.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/forbidden-city.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κρεμλίνο", "kremlin", "moscow kremlin", "το κρεμλίνο της μόσχας", "moskovskij kreml'"],
-        "image": "images/monuments/kremlin.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/kremlin.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπλε τζαμί", "blue mosque", "sultan ahmed mosque", "το μπλε τζαμί της Κωνσταντινούπολης", "sultanahmet camii"],
-        "image": "images/monuments/blue-mosque.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/blue-mosque.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["αγία σοφία", "hagia sophia", "ayasofya", "ναός της αγίας σοφίας", "η αγία σοφία στην κωνσταντινούπολη"],
-        "image": "images/monuments/hagia-sophia.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/hagia-sophia.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μνημείο λίνκολν", "lincoln memorial", "abraham lincoln memorial", "το μνημείο του αβραάμ λίνκολν", "lincoln memorial washington"],
-        "image": "images/monuments/lincoln-memorial.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/lincoln-memorial.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["cn tower", "πύργος cn", "cn tower toronto", "ο πύργος cn στον καναδά", "canadian national tower"],
-        "image": "images/monuments/cn-tower.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/cn-tower.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πύργος του τόκιο", "tokyo tower", "tokyo tower japan", "ο πύργος του τόκιο", "tokyo sky tower"],
-        "image": "images/monuments/tokyo-tower.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/tokyo-tower.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["marina bay sands", "μαρίνα μπέι σάντς", "το ξενοδοχείο marina bay sands", "marina bay sands singapore", "κτίριο marina bay sands"],
-        "image": "images/monuments/marina-bay-sands.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/marina-bay-sands.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ατόμιουμ", "atomium", "το άτομο στις Βρυξέλλες", "atomium brussels", "ατόμιουμ βελγίου"],
-        "image": "images/monuments/atomium.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/atomium.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["αλάμπρα", "alhambra", "το παλάτι αλάμπρα", "palacio de la alhambra", "alhambra granada"],
-        "image": "images/monuments/alhambra.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/alhambra.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ακρόπολη", "ακρόπολη αθηνών", "acropolis", "acropolis of athens", "ο ιερός βράχος της ακρόπολης"],
-        "image": "images/monuments/acropolis.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/acropolis.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["βορομπουντούρ", "borobudur", "ναός βορομπουντούρ", "candi borobudur", "βουδιστικός ναός βορομπουντούρ"],
-        "image": "images/monuments/borobudur.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/borobudur.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ναοί του μπαγκάν", "bagan temples", "bagan", "οι ναοί του bagan", "pagan temples myanmar"],
-        "image": "images/monuments/bagan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/bagan.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ναός του ουρανού", "temple of heaven", "tiantan", "ο ναός του ουρανού στο πεκίνο", "imperial vault of heaven"],
-        "image": "images/monuments/temple-of-heaven.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/temple-of-heaven.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["μον σεν μισέλ", "mont saint-michel", "mont-saint-michel", "το νησί μον σεν μισέλ", "mont saint michel abbey"],
-        "image": "images/monuments/mont-saint-michel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/mont-saint-michel.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κάστρο χιμέτζι", "himeji castle", "himeji-jo", "το λευκό κάστρο χιμέτζι", "himeji jō"],
-        "image": "images/monuments/himeji-castle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/himeji-castle.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["μεγάλο τζαμί σεΐχη ζαγιέντ", "sheikh zayed grand mosque", "sheikh zayed mosque", "το τζαμί σεΐχη ζαγιέντ", "abu dhabi grand mosque"],
-        "image": "images/monuments/sheikh-zayed-grand-mosque.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/sheikh-zayed-grand-mosque.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["παλάτι του γουέστμινστερ", "palace of westminster", "houses of parliament", "το κοινοβούλιο του Λονδίνου", "westminster palace"],
-        "image": "images/monuments/palace-of-westminster.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/palace-of-westminster.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["πραμπανάν", "prambanan", "ναός πραμπανάν", "candi prambanan", "hindu temple prambanan"],
-        "image": "images/monuments/prambanan.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/prambanan.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["μοναστήρι της ρίλα", "rila monastery", "rilski manastir", "το μοναστήρι της ρίλα στη βουλγαρία", "holy mother of god monastery"],
-        "image": "images/monuments/rila-monastery.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/rila-monastery.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κάστρο σαντ' άντζελο", "castel sant'angelo", "mausoleum of hadrian", "το κάστρο σαντ άντζελο", "castel sant angelo rome"],
-        "image": "images/monuments/castel-santangelo.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/castel-santangelo.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["καθεδρικός της νοτρ νταμ", "notre dame", "notre-dame cathedral", "παναγία των παρισίων", "cathedrale de notre dame de paris"],
-        "image": "images/monuments/notre-dame.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/notre-dame.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["empire state building", "εμπάιαρ στέιτ", "ο ουρανοξύστης empire state", "empire state building new york", "εμπάιαρ στέιτ μπίλντινγκ"],
-        "image": "images/monuments/empire-state-building.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/empire-state-building.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["one world trade center", "world trade center", "freedom tower", "πύργος ελευθερίας νεας υόρκης", "one wtc"],
-        "image": "images/monuments/one-world-trade-center.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/one-world-trade-center.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γέφυρα του μπρούκλιν", "brooklyn bridge", "η γέφυρα του μπρούκλιν", "brooklyn bridge new york", "η κρεμαστή γέφυρα μπρούκλιν"],
-        "image": "images/monuments/brooklyn-bridge.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/brooklyn-bridge.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["gateway arch", "η αψίδα του σαιντ λούις", "st louis arch", "the gateway arch missouri", "gateway arch st louis"],
-        "image": "images/monuments/gateway-arch.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/gateway-arch.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["space needle", "σπεισ νιντλ", "ο πύργος space needle στο σιάτλ", "space needle seattle", "ο πύργος με τη βελόνα"],
-        "image": "images/monuments/space-needle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/space-needle.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["καθεδρικός του αγίου βασιλείου", "st basil's cathedral", "saint basil's cathedral", "ναός αγίου βασιλείου μόσχας", "ο καθεδρικός ναός στην κόκκινη πλατεία"],
-        "image": "images/monuments/st-basils-cathedral.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/st-basils-cathedral.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μπουρτζ αλ αράμπ", "burj al arab", "το ξενοδοχείο ιστίο", "burj al arab dubai", "ο πύργος των αράβων"],
-        "image": "images/monuments/burj-al-arab.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/burj-al-arab.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["ναός του λωτού", "lotus temple", "lotus temple delhi", "ο ναός σε σχήμα λουλουδιού", "bahai lotus temple"],
-        "image": "images/monuments/lotus-temple.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/lotus-temple.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["δίδυμοι πύργοι", "petronas twin towers", "petronas towers", "οι πύργοι πετρόνας", "peteornas towers kuala lumpur"],
-        "image": "images/monuments/petronas-towers.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/petronas-towers.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πύργος της κουάλα λουμπούρ", "kl tower", "kuala lumpur tower", "menara kuala lumpur", "ο πύργος kl"],
-        "image": "images/monuments/kl-tower.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/kl-tower.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["παλάτι γκιονγκμποκ", "gyeongbokgung palace", "gyeongbokgung", "το βασιλικό παλάτι γκιονγκμποκ", "gyeongbokgung seoul"],
-        "image": "images/monuments/gyeongbokgung-palace.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/gyeongbokgung-palace.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πύργος της σεούλ", "n seoul tower", "namsan tower", "ο πύργος n seoul", "seoul tower"],
-        "image": "images/monuments/n-seoul-tower.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/n-seoul-tower.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["φουσίμι ινάρι", "fushimi inari", "fushimi inari taisha", "ιερό φουσίμι ινάρι με τις κόκκινες πύλες", "fushimi inari shrine"],
-        "image": "images/monuments/fushimi-inari.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/fushimi-inari.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κινκακού τζι", "golden pavilion", "kinkaku-ji", "ο χρυσός ναός στο κιότο", "temple of the golden pavilion"],
-        "image": "images/monuments/kinkaku-ji.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/kinkaku-ji.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["ιερό ιτσουκουσίμα", "itsukushima shrine", "miyajima shrine", "το πλωτό ιερό ιτσουκουσίμα", "itsukushima jinja"],
-        "image": "images/monuments/itsukushima-shrine.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/itsukushima-shrine.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["καθεδρικός του μιλάνου", "duomo di milano", "milan cathedral", "ντουόμο του μιλάνου", "il duomo milan"],
-        "image": "images/monuments/milan-cathedral.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/milan-cathedral.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["καθεδρικός της φλωρεντίας", "florence cathedral", "cattedrale di santa maria del fiore", "το ντουόμο της φλωρεντίας", "duomo di firenze"],
-        "image": "images/monuments/florence-cathedral.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/florence-cathedral.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["βασιλική του αγίου πέτρου", "st peter's basilica", "basilica di san pietro", "η βασιλική του αγίου πέτρου στο βατικανό", "saint peter's basilica"],
-        "image": "images/monuments/st-peters-basilica.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/st-peters-basilica.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["καπέλα σιστίνα", "sistine chapel", "capella sistina", "η σιστινα", "sistine chapel vatican"],
-        "image": "images/monuments/sistine-chapel.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/sistine-chapel.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γέφυρα του καρόλου", "charles bridge", "karlův můst", "η ιστορική γέφυρα του καρόλου στην πράγα", "prague charles bridge"],
-        "image": "images/monuments/charles-bridge.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/charles-bridge.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["κάστρο της πράγας", "prague castle", "pražský hrad", "το κάστρο της πράγας στην τσεχία", "hradcany castle"],
-        "image": "images/monuments/prague-castle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/prague-castle.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["πύργος του μπελέμ", "belem tower", "torre de belem", "ο πύργος του μπελέμ στη λισαβόνα", "tower of belem"],
-        "image": "images/monuments/belem-tower.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/belem-tower.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["μοναστήρι των ιερονυμιτών", "jeronimos monastery", "mosteiro dos jeronimos", "το μοναστήρι των ιερωνυμιτών στη λισαβόνα", "jerónimos monastery"],
-        "image": "images/monuments/jeronimos-monastery.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/jeronimos-monastery.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["κάστρο του εδιμβούργου", "edinburgh castle", "edinburgh castle scotland", "το κάστρο του εδιμβούργου στη σκωτία", "castle of edinburgh"],
-        "image": "images/monuments/edinburgh-castle.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/edinburgh-castle.jpg",
         "difficulty": "medium"
     },
     {
         "answers": ["γίγαντας του δρόμου", "giant's causeway", "giants causeway", "το μονοπάτι του γίγαντα", "the giant's causeway northern ireland"],
-        "image": "images/monuments/giants-causeway.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/giants-causeway.jpg",
         "difficulty": "hard"
     },
     {
         "answers": ["παλάτι πένα", "pena palace", "palacio da pena", "το πολύχρωμο παλάτι πένα στην πορτογαλία", "pena national palace"],
-        "image": "images/monuments/pena-palace.jpg",
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/monuments/pena-palace.jpg",
         "difficulty": "medium"
     }
 ],
 
 };
+
