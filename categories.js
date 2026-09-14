@@ -6011,404 +6011,405 @@ mythology: [
 ],
 
   "famous-cars": [
+  "famous-cars": [
     {
-        "answers": ["amg gt black series", "gt black series", "αμγκ γι τι μπλακ σιρις", "γι τι μπλακ σιρις"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-amg-gt-black-series.jpg",
+        "answers": ["mercedes amg gt black series", "amg gt black series", "μερσεντές αμγκ γι τι μπλακ σιρις", "αμγκ γι τι μπλακ σιρις"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-amg-gt-black-series.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["chiron", "σιρόν"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bugatti-chiron.jpg",
+        "answers": ["bugatti chiron", "μπουγκάτι σιρόν"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-chiron.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["bolide", "μπολίντ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bugatti-bolide.jpg",
+        "answers": ["bugatti bolide", "μπουγκάτι μπολίντ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-bolide.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["jesko", "γιέσκο"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/koenigsegg-jesko.jpg",
+        "answers": ["koenigsegg jesko", "jesko", "κένιγκσεγκ γιέσκο", "γιέσκο"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-jesko.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["jesko absolut", "γιέσκο απσολουτ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/koenigsegg-jesko-absolut.jpg",
+        "answers": ["koenigsegg jesko absolut", "jesko absolut", "κένιγκσεγκ γιέσκο απσολουτ", "γιέσκο απσολουτ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-jesko-absolut.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["regera", "ρεγκέρα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/koenigsegg-regera.jpg",
+        "answers": ["koenigsegg regera", "κένιγκσεγκ ρεγκέρα"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-regera.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["agera rs", "αγέρα ρς"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/koenigsegg-agera-rs.jpg",
+        "answers": ["koenigsegg agera rs", "κένιγκσεγκ αγέρα ρς"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-agera-rs.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["venom f5", "βένομ ες 5", "βένομ φ5"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/hennessey-venom-f5.jpg",
+        "answers": ["hennessey venom f5", "χένεσιν βένομ ες 5", "χένεσιν βένομ φ5"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/hennessey-venom-f5.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["nevera", "νεβέρα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/rimac-nevera.jpg",
+        "answers": ["rimac nevera", "ρίμακ νεβέρα"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/rimac-nevera.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["aventador", "αβενταντόρ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/lamborghini-aventador.jpg",
+        "answers": ["lamborghini aventador", "λαμποργκίνι αβενταντόρ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-aventador.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["revuelto", "ρεβουέλτο"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/lamborghini-revuelto.jpg",
+        "answers": ["lamborghini revuelto", "λαμποργκίνι ρεβουέλτο"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-revuelto.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["veneno", "βενένο"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/lamborghini-veneno.jpg",
+        "answers": ["lamborghini veneno", "λαμποργκίνι βενένο"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-veneno.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["laferrari", "λαφερράρι"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ferrari-laferrari.jpg",
+        "answers": ["ferrari laferrari", "φερράρι λαφερράρι"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-laferrari.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["f40", "ες 40", "φ40"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ferrari-f40.jpg",
+        "answers": ["ferrari f40", "φερράρι ες 40", "φερράρι φ40"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-f40.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["enzo", "ένζο"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ferrari-enzo.jpg",
+        "answers": ["ferrari enzo", "φερράρι ένζο"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-enzo.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["p1", "πι 1"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mclaren-p1.jpg",
+        "answers": ["mclaren p1", "μακλάρεν πι 1"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-p1.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["senna", "σέννα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mclaren-senna.jpg",
+        "answers": ["mclaren senna", "μακλάρεν σέννα"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-senna.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["speedtail", "σπίττειλ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mclaren-speedtail.jpg",
+        "answers": ["mclaren speedtail", "μακλάρεν σπίττειλ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-speedtail.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["valkyrie", "βαλκίρι"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/aston-martin-valkyrie.jpg",
+        "answers": ["aston martin valkyrie", "άستون μάρτιν βαλκίρι"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/aston-martin-valkyrie.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["valkyrie amr pro", "βαλκίρι αμρ προ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/aston-martin-valkyrie-amr-pro.jpg",
+        "answers": ["aston martin valkyrie amr pro", "άستون μάρτιν βαλκίρι αμρ προ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/aston-martin-valkyrie-amr-pro.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["huayra bc", "huayra", "ουάιρα μπι σι", "ουάιρα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/pagani-huayra-bc.jpg",
+        "answers": ["pagani huayra bc", "παγκάνι ουάιρα μπι σι"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/pagani-huayra-bc.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["zonda r", "zonda", "ζόντα αρ", "ζόντα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/pagani-zonda-r.jpg",
+        "answers": ["pagani zonda r", "παγκάνι ζόντα αρ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/pagani-zonda-r.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["intensa emozione", "ie", "ιντένσα εμοτσιονέ", "ι ε"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/apollo-intensa-emozione.jpg",
+        "answers": ["apollo intensa emozione", "apollo ie", "απόλο ιντένσα εμοτσιονέ", "απόλο ι ε"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/apollo-intensa-emozione.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["911 gt3 rs", "gt3 rs", "911 γι τι 3 ρς", "γι τι 3 ρς"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/porsche-911-gt3-rs.jpg",
+        "answers": ["porsche 911 gt3 rs", "πόρσε 911 γι τι 3 ρς"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-911-gt3-rs.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["taycan turbo gt", "taycan", "ταϊκάν τέρμπο γι τι", "ταϊκάν"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/porsche-taycan-turbo-gt.jpg",
+        "answers": ["porsche taycan turbo gt", "πόρσε ταϊκάν τέρμπο γι τι"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-taycan-turbo-gt.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["918 spyder", "918", "918 σπάιντερ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/porsche-918-spyder.jpg",
+        "answers": ["porsche 918 spyder", "πόρσε 918 σπάιντερ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-918-spyder.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["veyron", "βεϊρόν"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bugatti-veyron.jpg",
+        "answers": ["bugatti veyron", "μπουγκάτι βεϊρόν"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-veyron.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["mistral", "μιστράλ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bugatti-mistral.jpg",
+        "answers": ["bugatti mistral", "μπουγκάτι μιστράλ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-mistral.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["corvette zr1x", "zr1x", "κορβέτ ζετ αρ 1 ες"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/chevrolet-corvette-zr1x.jpg",
+        "answers": ["chevrolet corvette zr1x", "σεβρολέ κορβέτ ζετ αρ 1 ες"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/chevrolet-corvette-zr1x.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["gt", "γι τι"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ford-gt.jpg",
+        "answers": ["ford gt", "φορντ γι τι"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ford-gt.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["mustang shelby gt500", "shelby gt500", "gt500", "μούστανγκ σέλμπι γι τι 500", "σέλμπι γι τι 500"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ford-mustang-shelby-gt500.jpg",
+        "answers": ["ford mustang shelby gt500", "φορντ μούστανγκ σέλμπι γι τι 500"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ford-mustang-shelby-gt500.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["gt-r", "gtr", "r35", "γι τι αρ", "γι τι αρ 35"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/nissan-gtr-r35.jpg",
+        "answers": ["nissan gt-r", "nissan gtr", "gt-r", "gtr", "νισάν γι τι αρ", "νισάν γι τι αρ 35", "γι τι αρ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/nissan-gtr-r35.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["supra mk4", "supra", "σούπρα μκ4", "σούπρα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/toyota-supra-mk4.jpg",
+        "answers": ["toyota supra mk4", "toyota supra", "supra mk4", "τογιότα σούπρα", "σούπρα μκ4"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/toyota-supra-mk4.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["rx-7", "rx7", "ρεξ 7"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mazda-rx7.jpg",
+        "answers": ["mazda rx-7", "mazda rx7", "μάσντα ρεξ 7", "μάζντα ρεξ 7"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mazda-rx7.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["challenger srt demon 170", "srt demon 170", "demon 170", "τσάλιντζερ ες αρ τι δαίμων 170", "τσάλιντζερ ντίμον"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/dodge-challenger-srt-demon-170.jpg",
+        "answers": ["dodge challenger srt demon 170", "ντόντζ τσάλιντζερ ες αρ τι δαίμων 170"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/dodge-challenger-srt-demon-170.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["m4 competition", "m4", "εμ 4 κομπιτισιον", "εμ 4"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bmw-m4-competition.jpg",
+        "answers": ["bmw m4 competition", "μπι εμ νταμπλγιου εμ 4 κομπιτισιον", "μπμω εμ 4"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-m4-competition.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["m5 cs", "m5", "εμ 5 σι ες", "εμ 5"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bmw-m5-cs.jpg",
+        "answers": ["bmw m5 cs", "μπμω εμ 5 σι ες"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-m5-cs.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["amg one", "αμγκ γουάν"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-amg-one.jpg",
+        "answers": ["mercedes amg one", "μερσεντές αμγκ γουάν"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-amg-one.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["300 slr uhlenhaut coupe", "300 slr", "300 σλρ ουλενχαουτ κουπέ", "300 σλρ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-300-slr-uhlenhaut-coupe.jpg",
+        "answers": ["mercedes benz 300 slr uhlenhaut coupe", "300 slr uhlenhaut coupe", "μερσεντές μπενζ 300 σλρ ουλενχαουτ κουπέ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-300-slr-uhlenhaut-coupe.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["vision avtr", "avtr", "βίζιον αβτρ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-vision-avtr.jpg",
+        "answers": ["mercedes vision avtr", "vision avtr", "μερσεντές βίζιον αβτρ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-vision-avtr.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["slr mclaren", "slr", "σλρ μακλάρεν", "σλρ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-slr-mclaren.jpg",
+        "answers": ["mercedes slr mclaren", "μερσεντές σλρ μακλάρεν"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-slr-mclaren.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["amg gt r", "gt r", "αμγκ γι τι αρ", "γι τι αρ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-amg-gt-r.jpg",
+        "answers": ["mercedes amg gt r", "μερσεντές αμγκ γι τι αρ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-amg-gt-r.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["g63 amg", "g63", "g wagon", "g-class", "τζι βαγκον", "τζι κλας", "τζι 63 amg", "τζι 63"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-g63-amg.jpg",
+        "answers": ["mercedes g63 amg", "g63 amg", "g wagon", "g-class", "τζι βαγκον", "τζι κλας", "μερσεντές τζι 63 αμγκ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-g63-amg.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["cls 63 amg", "cls 63", "σι ελ ες 63 αμγκ", "σι ελ ες 63"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-cls63-amg.jpg",
+        "answers": ["mercedes cls 63 amg", "μερσεντές σι ελ ες 63 αμγκ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-cls63-amg.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["m3 gtr", "m3", "εμ 3 γι τι αρ", "εμ 3"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bmw-m3-gtr.jpg",
+        "answers": ["bmw m3 gtr", "μπμω εμ 3 γι τι αρ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-m3-gtr.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["i8", "ι 8"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bmw-i8.jpg",
+        "answers": ["bmw i8", "μπμω ι 8"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-i8.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["m8 competition", "m8", "εμ 8 κομπιτισιον", "εμ 8"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bmw-m8-competition.jpg",
+        "answers": ["bmw m8 competition", "μπμω εμ 8 κομπιτισιον"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bmw-m8-competition.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["r8", "αρ 8"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/audi-r8.jpg",
+        "answers": ["audi r8", "άουντι αρ 8"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/audi-r8.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["rs6 avant", "rs6", "αρ ες 6 αβάντ", "αρ ες 6"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/audi-rs6-avant.jpg",
+        "answers": ["audi rs6 avant", "άουντι αρ ες 6 αβάντ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/audi-rs6-avant.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["rs7", "αρ ες 7"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/audi-rs7.jpg",
+        "answers": ["audi rs7", "άουντι αρ ες 7"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/audi-rs7.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["lfa", "λφα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/lexus-lfa.jpg",
+        "answers": ["lexus lfa", "λέξους λφα"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lexus-lfa.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["nsx", "εν ες ιξ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/honda-nsx.jpg",
+        "answers": ["honda nsx", "χόντα εν ες ιξ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/honda-nsx.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["lancer evolution x", "lancer evo x", "evo x", "lancer evo", "λάνσερ εβόλουσιον ιξ", "λάνσερ εβο 10", "εβο 10"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mitsubishi-lancer-evo-x.jpg",
+        "answers": ["mitsubishi lancer evolution x", "lancer evo x", "evo x", "μιτσουμπίσι λάνσερ εβόλουσιον ιξ", "λάνσερ εβο 10", "εβο 10"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mitsubishi-lancer-evo-x.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["impreza wrx sti", "wrx sti", "impreza wrx", "ιμπρέζα νταμπλ αρ ιξ στι", "νταμπλ αρ ιξ στι"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/subaru-impreza-wrx-sti.jpg",
+        "answers": ["subaru impreza wrx sti", "wrx sti", "σουμπαρού ιμπρέζα νταμπλ αρ ιξ στι", "νταμπλ αρ ιξ στι"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/subaru-impreza-wrx-sti.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["silvia s15", "s15", "σίλβια σ 15", "σ 15"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/nissan-silvia-s15.jpg",
+        "answers": ["nissan silvia s15", "νισάν σίλβια σ 15"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/nissan-silvia-s15.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["ae86", "αε 86"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/toyota-ae86.jpg",
+        "answers": ["toyota ae86", "τογιότα αε 86"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/toyota-ae86.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["viper acr", "viper", "βάιπερ ακιρ", "βάιπερ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/dodge-viper-acr.jpg",
+        "answers": ["dodge viper acr", "ντόντζ βάιπερ ακιρ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/dodge-viper-acr.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["camaro zl1", "camaro", "καμάρο ζετ ελ 1", "καμάρο"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/chevrolet-camaro-zl1v.jpg",
+        "answers": ["chevrolet camaro zl1", "σεβρολέ καμάρο ζετ ελ 1"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/chevrolet-camaro-zl1v.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["corvette c8", "c8", "κορβέτ σι 8", "σι 8"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/chevrolet-corvette-c8.jpg",
+        "answers": ["chevrolet corvette c8", "σεβρολέ κορβέτ σι 8"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/chevrolet-corvette-c8.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["mustang dark horse", "dark horse", "μούστανγκ δαρκ χορς", "δαρκ χορς"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ford-mustang-dark-horse.jpg",
+        "answers": ["ford mustang dark horse", "φορντ μούστανγκ δαρκ χορς"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ford-mustang-dark-horse.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["db5", "ντι βι 5"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/aston-martin-db5.jpg",
+        "answers": ["aston martin db5", "άستون μάρτιν ντι βι 5"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/aston-martin-db5.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["dbs superleggera", "superleggera", "ντι βι ες σουπερλετζέρα", "σουπερλετζέρα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/aston-martin-dbs-superleggera.jpg",
+        "answers": ["aston martin dbs superleggera", "άستون μάρτιν ντι βι ες σουπερλετζέρα"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/aston-martin-dbs-superleggera.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["sf90 stradale", "sf90", "ες φ 90 στρατάλε", "ες φ 90"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ferrari-sf90-stradale.jpg",
+        "answers": ["ferrari sf90 stradale", "φερράρι ες φ 90 στρατάλε"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-sf90-stradale.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["812 superfast", "812", "812 σούπερφαστ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ferrari-812-superfast.jpg",
+        "answers": ["ferrari 812 superfast", "φερράρι 812 σούπερφαστ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ferrari-812-superfast.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["huracan", "ουρακαν"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/lamborghini-huracan.jpg",
+        "answers": ["lamborghini huracan", "λαμποργκίνι ουρακαν"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-huracan.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["sian", "σιάν"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/lamborghini-sian.jpg",
+        "answers": ["lamborghini sian", "λαμποργκίνι σιάν"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/lamborghini-sian.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["utopia", "ουτόπια"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/pagani-utopia.jpg",
+        "answers": ["pagani utopia", "παγκάνι ουτόπια"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/pagani-utopia.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["cc850", "σι σι 850"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/koenigsegg-cc850.jpg",
+        "answers": ["koenigsegg cc850", "κένιγκσεγκ σι σι 850"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-cc850.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["gemera", "γεμέρα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/koenigsegg-gemera.jpg",
+        "answers": ["koenigsegg gemera", "κένιγκσεγκ γεμέρα"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/koenigsegg-gemera.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["tourbillon", "τουρμπιόν"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bugatti-tourbillon.jpg",
+        "answers": ["bugatti tourbillon", "μπουγκάτι τουρμπιόν"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bugatti-tourbillon.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["720s", "720 ες"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mclaren-720s.jpg",
+        "answers": ["mclaren 720s", "μακλάρεν 720 ες"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-720s.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["765lt", "765 λτ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mclaren-765lt.jpg",
+        "answers": ["mclaren 765lt", "μακλάρεν 765 λτ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mclaren-765lt.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["phantom", "φάντομ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/rolls-royce-phantom.jpg",
+        "answers": ["rolls royce phantom", "ρολς ρόις φάντομ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/rolls-royce-phantom.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["ghost", "γκωσ", "γκονστ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/rolls-royce-ghost.jpg",
+        "answers": ["rolls royce ghost", "ρολς ρόις γκωσ", "ρολς ρόις γκονστ"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/rolls-royce-ghost.jpg",
         "difficulty": "easy"
     },
     {
-        "answers": ["continental gt", "continental", "κοντινένταλ γι τι", "κοντινένταλ"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/bentley-continental-gt.jpg",
+        "answers": ["bentley continental gt", "μπέντλεϊ κοντινένταλ γι τι"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/bentley-continental-gt.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["carrera gt", "καρέρα γι τι"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/porsche-carrera-gt.jpg",
+        "answers": ["porsche carrera gt", "πόρσε καρέρα γι τι"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-carrera-gt.jpg",
         "difficulty": "medium"
     },
     {
-        "answers": ["959"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/porsche-959.jpg",
+        "answers": ["porsche 959", "πόρσε 959"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/porsche-959.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["xj220", "ες τζι 220"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/jaguar-xj220.jpg",
+        "answers": ["jaguar xj220", "τζάγκουαρ ες τζι 220"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/jaguar-xj220.jpg",
+        "difficulty": "hard"
+    },
+        {
+        "answers": ["ssc tuatara", "εσ ες σι τουατάρα"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/ssc-tuatara.jpg",
         "difficulty": "hard"
     },
     {
-        "answers": ["tuatara", "τουατάρα"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/ssc-tuatara.jpg",
-        "difficulty": "hard"
-    },
-    {
-        "answers": ["p72", "πι 72"],
-        "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/de-tomaso-p72.jpg",
+        "answers": ["de tomaso p72", "ντε τομάσο πι 72"],
+        "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/de-tomaso-p72.jpg",
         "difficulty": "hard"
     }
 ],
