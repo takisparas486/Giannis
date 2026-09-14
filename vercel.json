@@ -1,13 +1,8 @@
 {
-  "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(style.*\\.css|.*\\.css|.*\\.js|.*\\.png|.*\\.jpg)",
-      "dest": "/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "server/index.js"
+      "source": "/api/(.*)",
+      "destination": "/server/index.js"
     }
   ]
 }
