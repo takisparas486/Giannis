@@ -628,7 +628,64 @@ function populateChallengeSelectors() {
     try { buildCustomFromSelect(initialChallengerSelect); } catch (e) { /* ignore */ }
     try { buildCustomFromSelect(initialOpponentSelect); } catch (e) { /* ignore */ }
 }
+function triggerVersusIntro(player1, player2, onCompleteCallback) {
+    const overlay = document.getElementById('versusOverlay');
+    const p1Name = document.getElementById('vsPlayer1Name');
+    const p2Name = document.getElementById('vsPlayer2Name');
 
+    const p1 = player1 || "PLAYER 1";
+    const p2 = player2 || "PLAYER 2";
+
+    // 1. Ενημέρωση Ονομάτων
+    p1Name.textContent = p1;
+    p2Name.textContent = p2;
+
+    // 2. Εμφάνιση Overlay & Animation
+    overlay.classList.add('active');
+
+    // Screen Shake effect
+    setTimeout(() => {
+        overlay.classList.add('screen-shake');
+    }, 300);
+
+    // Συνάρτηση ολοκλήρωσης (κλείνει το overlay και ξεκινά το παιχνίδι)
+    let hasFinished = false;
+    const finishIntro = () => {
+        if (hasFinished) return; // Αποφυγή διπλής εκτέλεσης
+        hasFinished = true;
+
+        overlay.classList.remove('active', 'screen-shake');
+        if (typeof onCompleteCallback === 'function') {
+            onCompleteCallback(); // Εμφανίζει τις εικόνες & ξεκινά το match
+        }
+    };
+
+    // 3. Web Speech API (Voice Announcer)
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+
+        const textToSpeak = `Welcome to PIC DUEL! Tonight's Main Event: ${p1} versus ${p2}! Let the battle begin!`;
+        const utterance = new SpeechSynthesisUtterance(textToSpeak);
+        
+        utterance.rate = 1.05;
+        utterance.pitch = 0.95;
+        utterance.lang = 'en-US';
+
+        // 💥 Μόλις ΤΕΛΕΙΩΣΕΙ η ομιλία, ΤΟΤΕ πάει στις εικόνες!
+        utterance.onend = finishIntro;
+        
+        // Σε περίπτωση σφάλματος στη φωνή, συνεχίζει κανονικά
+        utterance.onerror = finishIntro;
+
+        window.speechSynthesis.speak(utterance);
+
+        // Safety Fallback: Αν η φωνή κολλήσει, προχωράει αναγκαστικά μετά από 8 δευτερόλεπτα
+        setTimeout(finishIntro, 8000);
+    } else {
+        // Αν ο browser δεν υποστηρίζει Speech Synthesis, περιμένει 4.5 δευτερόλεπτα
+        setTimeout(finishIntro, 4500);
+    }
+}
 function populateCategorySelect() {
     if (!categories) return;
 
@@ -664,7 +721,6 @@ function populateCategorySelect() {
             
             fillSelect(selectField, savedValue);
 
-            // 🎯 Η ΔΙΟΡΘΩΣΗ: Διαβάζουμε το index ΔΥΝΑΜΙΚΑ από το e.target τη στιγμή του change!
             selectField.onchange = function(e) {
                 const currentPlayerIdx = e.target.dataset.playerIndex;
                 if (tournamentPlayers[currentPlayerIdx]) {
@@ -673,7 +729,7 @@ function populateCategorySelect() {
                 }
             };
 
-            try { buildCustomFromSelect(selectField); } catch (e) { /* ignore */ }
+            // ❌ ΑΦΑΙΡΕΘΗΚΕ ΤΟ buildCustomFromSelect(selectField) ΠΟΥ ΧΑΛΟΥΣΕ ΤΟ UI
         });
     }
 
@@ -717,24 +773,28 @@ function startTournamentMode() {
     clearTimeout(tournamentPauseTimer);
     renderTournamentBracket();
     
-    // 🎯 Η ΜΕΓΑΛΗ ΑΛΛΑΓΗ ΕΔΩ: 
-    // Παίρνουμε ΠΡΩΤΑ την κατηγορία του Αντιπάλου (selectedOpponent), 
-    // όπως λέει ο κανόνας του παιχνιδιού σου!
     const categoryKey = selectedOpponent.category || selectedChallenger.category || getRandomCategoryKey();
     
-    // Δημιουργία του πρώτου match
     tournamentCurrentMatch = {
-        player1: selectedChallenger.name,
-        player2: selectedOpponent.name,
-        categoryKey,
-        challenger: selectedChallenger,
-        opponent: selectedOpponent
-    };
-    
-    beginMatch(tournamentCurrentMatch.player1, tournamentCurrentMatch.player2, tournamentCurrentMatch.categoryKey);
+    player1: selectedChallenger.name,
+    player2: selectedOpponent.name,
+    categoryKey,
+    challenger: selectedChallenger,
+    opponent: selectedOpponent
+};
+
+// 1. Εμφάνιση Intro
+triggerVersusIntro(
+    tournamentCurrentMatch.player1, 
+    tournamentCurrentMatch.player2, 
+    function() {
+        // 2. Μόλις ΤΕΛΕΙΩΣΕΙ το intro, φορτώνουν οι εικόνες και η πίστα!
+        beginMatch(tournamentCurrentMatch.player1, tournamentCurrentMatch.player2, tournamentCurrentMatch.categoryKey);
+    }
+);
+
     return true;
 }
-
 function startNextTournamentMatch() {
     clearTimeout(tournamentAutoAdvanceTimeout);
     clearTimeout(tournamentPauseTimer);
@@ -751,7 +811,7 @@ function startNextTournamentMatch() {
     }
 
     const opponent = tournamentOpponentQueue.shift();
-const categoryKey = opponent.category || currentChallenger.category || getRandomCategoryKey();
+    const categoryKey = opponent.category || currentChallenger.category || getRandomCategoryKey();
     const match = {
         player1: currentChallenger.name,
         player2: opponent.name,
@@ -762,7 +822,21 @@ const categoryKey = opponent.category || currentChallenger.category || getRandom
 
     tournamentCurrentMatch = match;
     renderTournamentBracket();
-    beginMatch(match.player1, match.player2, match.categoryKey);
+
+    // 1. Κρύβουμε το container του παιχνιδιού πριν ξεκινήσει το Intro
+    const gameScreen = document.getElementById("gameScreen") || document.getElementById("gameContainer");
+    if (gameScreen) {
+        gameScreen.style.display = "none";
+    }
+
+    // 2. Εκτελούμε το Versus Intro
+    triggerVersusIntro(match.player1, match.player2, function() {
+        // 3. ΜΟΛΙΣ ΤΕΛΕΙΩΣΕΙ (μετά το "Let the battle begin"):
+        if (gameScreen) {
+            gameScreen.style.display = "block"; // Εμφανίζουμε το UI
+        }
+        beginMatch(match.player1, match.player2, match.categoryKey); // Φορτώνουμε τις εικόνες
+    });
 }
 
 function renderTournamentBracket(showRoadToFinal = false) {
@@ -1323,6 +1397,78 @@ function stopBrowserSpeechRecognition() {
     browserSpeechRecognition = null;
     usingBrowserSpeechFallback = false;
     setMicStatus('off');
+}
+
+// Multi-Step Wizard Navigation Handler
+function goToTswStep(stepNumber) {
+    // Hide all step sections
+    document.querySelectorAll('.tsw-step-content').forEach(step => {
+        step.classList.remove('tsw-step-active');
+    });
+
+    // Update Step Header Indicators
+    document.querySelectorAll('.tsw-step-pill').forEach(pill => {
+        pill.classList.remove('active');
+        if (parseInt(pill.dataset.step) <= stepNumber) {
+            pill.classList.add('active');
+        }
+    });
+
+    // Display active step content
+    const activeStep = document.getElementById(`tswStep${stepNumber}`);
+    if (activeStep) {
+        activeStep.classList.add('tsw-step-active');
+    }
+}
+
+// Switch between Manual and Random Challenger selection modes
+function setChallengerMode(mode) {
+    const manualBtn = document.getElementById('tswModeManualBtn');
+    const randomBtn = document.getElementById('tswModeRandomBtn');
+    const manualPanel = document.getElementById('tswManualPanel');
+    const randomPanel = document.getElementById('tswRandomPanel');
+
+    if (mode === 'manual') {
+        manualBtn.classList.add('active');
+        randomBtn.classList.remove('active');
+        manualPanel.classList.remove('tsw-hidden');
+        randomPanel.classList.add('tsw-hidden');
+    } else {
+        randomBtn.classList.add('active');
+        manualBtn.classList.remove('active');
+        randomPanel.classList.remove('tsw-hidden');
+        manualPanel.classList.add('tsw-hidden');
+    }
+}
+
+// Randomly pick Challenger and Opponent from available select choices
+function triggerRandomChallenger() {
+    const challengerSelect = document.getElementById('initialChallengerSelect');
+    const opponentSelect = document.getElementById('initialOpponentSelect');
+
+    if (!challengerSelect || challengerSelect.options.length < 2) return;
+
+    // Pick random index for Challenger
+    const challengerIndex = Math.floor(Math.random() * challengerSelect.options.length);
+    challengerSelect.selectedIndex = challengerIndex;
+    challengerSelect.dispatchEvent(new Event('change'));
+
+    // Pick random index for Opponent (excluding chosen Challenger)
+    let opponentIndex;
+    do {
+        opponentIndex = Math.floor(Math.random() * opponentSelect.options.length);
+    } while (opponentIndex === challengerIndex);
+
+    opponentSelect.selectedIndex = opponentIndex;
+    opponentSelect.dispatchEvent(new Event('change'));
+
+    // Render results in UI
+    document.getElementById('tswRandomChallengerName').textContent = 
+        challengerSelect.options[challengerSelect.selectedIndex].text;
+    document.getElementById('tswRandomOpponentName').textContent = 
+        opponentSelect.options[opponentSelect.selectedIndex].text;
+
+    document.getElementById('tswRandomResult').classList.remove('tsw-hidden');
 }
 function handleRemoteTranscript(transcript, isFinal = false) {
     logDebug(`Transcript received: ${transcript}`);
