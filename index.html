@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="opponent-selector.css?v=20260911">
     <link rel="stylesheet" href="tournament-setup.css?v=20260911">
     <link rel="stylesheet" href="tournament-setup-override.css?v=20260911">
+    <link rel="stylesheet" href="tournament-wizard.css?v=20260913">
+    
 </head>
 <body>
 
@@ -36,116 +38,241 @@
 <!-- ===================================== -->
 <!-- MAIN MENU (TOURNAMENT SETUP) -->
 <!-- ===================================== -->
+<!-- ===================================== -->
+<!-- MAIN MENU (MULTI-STEP TOURNAMENT SETUP) -->
+<!-- ===================================== -->
 <section id="menuScreen" class="screen">
     <div class="menuContainer">
+        
         <div class="floor-tv-logo-mini">
             <span class="logo-main">PIC DUEL</span>
         </div>
-        
-        <p class="menuNote">Διαχειριστείτε το ταμπλό. Επιλέξτε τον αρχικό Challenger και τον Αντίπαλό του για να ξεκινήσει η πρώτη μεγάλη μάχη.</p>
 
-        <div class="modeNote">
-            <p><strong>ΚΑΝΟΝΑΣ ΜΟΝΟΜΑΧΙΑΣ:</strong> Ο Challenger παίζει πάντα στην αγαπημένη κατηγορία του Αντιπάλου που επιλέγει. Αν ο Challenger νικήσει, παραμένει Challenger. Αν χάσει, ο Αντίπαλος γίνεται ο νέος Challenger!</p>
+        <!-- MULTI-STEP TOURNAMENT CONTAINER -->
+        <div class="tsw-container">
+
+            <!-- WIZARD STEP INDICATOR HEADER -->
+            <div class="tsw-stepper">
+                <div class="tsw-step-pill active" data-step="1">
+                    <span class="tsw-step-num">1</span>
+                    <span class="tsw-step-text">Κανόνες</span>
+                </div>
+                <div class="tsw-step-pill" data-step="2">
+                    <span class="tsw-step-num">2</span>
+                    <span class="tsw-step-text">Παίκτες</span>
+                </div>
+                <div class="tsw-step-pill" data-step="3">
+                    <span class="tsw-step-num">3</span>
+                    <span class="tsw-step-text">Challenger</span>
+                </div>
+                <div class="tsw-step-pill" data-step="4">
+                    <span class="tsw-step-num">4</span>
+                    <span class="tsw-step-text">Ρυθμίσεις</span>
+                </div>
+            </div>
+
+            <!-- STEP 1: RULES & OVERVIEW -->
+            <div id="tswStep1" class="tsw-step-content tsw-step-active">
+                <div class="tsw-card">
+                    <div class="tsw-card-header">
+                        <h2 class="tsw-title">ΚΑΝΟΝΕΣ ΤΟΥΡΝΟΥΑ PIC DUEL</h2>
+                        <p class="tsw-subtitle">Διαβάστε τους κανόνες διεξαγωγής του παιχνιδιού πριν ξεκινήσετε</p>
+                    </div>
+
+                    <div class="tsw-rules-grid">
+                        <div class="tsw-rule-box">
+                            <div class="tsw-rule-icon">⚔️</div>
+                            <h4>Ο Κανόνας της Μονομαχίας</h4>
+                            <p>Ο <strong>Challenger</strong> αγωνίζεται πάντα στην αγαπημένη κατηγορία του <strong>Αντιπάλου</strong> που επιλέγει.</p>
+                        </div>
+
+                        <div class="tsw-rule-box">
+                            <div class="tsw-rule-icon">👑</div>
+                            <h4>Διατήρηση Τίτλου</h4>
+                            <p>Αν ο Challenger νικήσει, παραμένει Challenger και επιλέγει τον επόμενο αντίπαλο στο ταμπλό.</p>
+                        </div>
+
+                        <div class="tsw-rule-box">
+                            <div class="tsw-rule-icon">🔄</div>
+                            <h4>Ανατροπές & Εκδικητικότητα</h4>
+                            <p>Αν ο Challenger χάσει, εξαλείφεται και ο Αντίπαλος γίνεται ο <strong>νέος Challenger</strong>!</p>
+                        </div>
+
+                        <div class="tsw-rule-box">
+                            <div class="tsw-rule-icon">🏆</div>
+                            <h4>Τελικός Νικητής</h4>
+                            <p>Ο παίκτης που θα καταφέρει να εξαλείψει όλους τους αντιπάλους κατακτά ολόκληρο το ταμπλό!</p>
+                        </div>
+                    </div>
+
+                    <div class="tsw-actions-row right-align">
+                        <button type="button" class="tsw-btn tsw-btn-next" onclick="goToTswStep(2)">Συνέχεια: Παίκτες &rarr;</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STEP 2: PLAYER COUNT & REGISTRATION -->
+<div id="tswStep2" class="tsw-step-content">
+    <div class="tsw-card">
+        <div class="tsw-card-header">
+            <h2 class="tsw-title">ΠΑΙΚΤΕΣ & ΚΑΤΗΓΟΡΙΕΣ</h2>
+            <p class="tsw-subtitle">Επιλέξτε το πλήθος των παικτών και καταχωρίστε τα ονόματά τους</p>
         </div>
 
-        <!-- NEW MODERN CARD DESIGN -->
-        <section id="tournamentSection" class="ts-card">
-            
-            <header class="ts-header">
-                <h3 class="ts-title">Ρυθμιση Αρχικης Μονομαχιας</h3>
-                <p class="ts-subtitle">Επιλέξτε τους πρώτους μονομάχους και παραμετροποιήστε το τουρνουά</p>
-            </header>
-
-            <!-- Hidden Selector preserved for JS compatibility -->
-            <div class="native-hidden" style="display:none;">
-                <select id="categorySelect"></select>
+        <div class="tsw-form-group">
+            <label for="tournamentPlayerCount" class="tsw-label">Αριθμός Παικτών στο Ταμπλό</label>
+            <div class="tsw-select-wrapper">
+                <select id="tournamentPlayerCount" class="tsw-select">
+                    <option value="2">2 ΠΑΙΚΤΕΣ</option>
+                    <option value="3">3 ΠΑΙΚΤΕΣ</option>
+                    <option value="4">4 ΠΑΙΚΤΕΣ</option>
+                    <option value="5">5 ΠΑΙΚΤΕΣ</option>
+                    <option value="6">6 ΠΑΙΚΤΕΣ</option>
+                    <option value="7">7 ΠΑΙΚΤΕΣ</option>
+                    <option value="8" selected>8 ΠΑΙΚΤΕΣ</option>
+                    <option value="9">9 ΠΑΙΚΤΕΣ</option>
+                    <option value="10">10 ΠΑΙΚΤΕΣ</option>
+                    <option value="11">11 ΠΑΙΚΤΕΣ</option>
+                    <option value="12">12 ΠΑΙΚΤΕΣ</option>
+                    <option value="13">13 ΠΑΙΚΤΕΣ</option>
+                    <option value="14">14 ΠΑΙΚΤΕΣ</option>
+                    <option value="15">15 ΠΑΙΚΤΕΣ</option>
+                </select>
             </div>
+        </div>
 
-            <!-- Initial Matchup Grid -->
-            <div class="ts-duo-grid">
-                <div class="ts-field-group">
-                    <label for="initialChallengerSelect" class="ts-label ts-label-red">Αρχικος Challenger (Κοκκινος)</label>
-                    <div class="ts-select-wrapper ts-wrapper-red">
-                        <select id="initialChallengerSelect" class="ts-select"></select>
+        <!-- ΛΙΣΤΑ ΜΟΝΟΜΑΧΩΝ (Δυναμικό container για το JS) -->
+        <div class="tsw-players-section">
+            <h3 class="tsw-subtitle-small">Λίστα Μονομάχων & Αγαπημένες Κατηγορίες</h3>
+            <div id="tournamentPlayerInputs" class="tsw-players-scroll-container"></div>
+        </div>
+
+        <div class="tsw-actions-row">
+            <button type="button" class="tsw-btn tsw-btn-prev" onclick="goToTswStep(1)">&larr; Πίσω</button>
+            <button type="button" class="tsw-btn tsw-btn-next" onclick="goToTswStep(3)">Συνέχεια: Challenger &rarr;</button>
+        </div>
+    </div>
+</div>
+
+            <!-- STEP 3: CHALLENGER SELECTION SYSTEM -->
+            <div id="tswStep3" class="tsw-step-content">
+                <div class="tsw-card">
+                    <div class="tsw-card-header">
+                        <h2 class="tsw-title">ΕΠΙΛΟΓΗ ΑΡΧΙΚΟΥ CHALLENGER</h2>
+                        <p class="tsw-subtitle">Επιλέξτε χειροκίνητα τους πρώτους μονομάχους ή αφήστε το σύστημα να επιλέξει τυχαία</p>
                     </div>
-                </div>
 
-                <div class="ts-field-group">
-                    <label for="initialOpponentSelect" class="ts-label ts-label-blue">Αντιπαλος (Μπλε - Κατηγορια του)</label>
-                    <div class="ts-select-wrapper ts-wrapper-blue">
-                        <select id="initialOpponentSelect" class="ts-select"></select>
+                    <!-- SELECTION MODE TOGGLE BUTTONS -->
+                    <div class="tsw-mode-selector">
+                        <button type="button" id="tswModeManualBtn" class="tsw-mode-btn active" onclick="setChallengerMode('manual')">
+                            🎯 Χειροκίνητη Επιλογή
+                        </button>
+                        <button type="button" id="tswModeRandomBtn" class="tsw-mode-btn" onclick="setChallengerMode('random')">
+                            🎲 Τυχαία Κλήρωση (Random Pick)
+                        </button>
                     </div>
-                </div>
-            </div>
 
-            <!-- Player Count Selection -->
-            <div class="ts-field-group" style="margin-bottom: 20px;">
-                <label for="tournamentPlayerCount" class="ts-label">Αριθμος Παικτων στο Ταμπλο</label>
-                <div class="ts-select-wrapper">
-                    <select id="tournamentPlayerCount" class="ts-select">
-                        <option value="2">2 ΠΑΙΚΤΕΣ</option>
-                        <option value="3">3 ΠΑΙΚΤΕΣ</option>
-                        <option value="4">4 ΠΑΙΚΤΕΣ</option>
-                        <option value="5">5 ΠΑΙΚΤΕΣ</option>
-                        <option value="6">6 ΠΑΙΚΤΕΣ</option>
-                        <option value="7">7 ΠΑΙΚΤΕΣ</option>
-                        <option value="8" selected>8 ΠΑΙΚΤΕΣ</option>
-                        <option value="9">9 ΠΑΙΚΤΕΣ</option>
-                        <option value="10">10 ΠΑΙΚΤΕΣ</option>
-                        <option value="11">11 ΠΑΙΚΤΕΣ</option>
-                        <option value="12">12 ΠΑΙΚΤΕΣ</option>
-                        <option value="13">13 ΠΑΙΚΤΕΣ</option>
-                        <option value="14">14 ΠΑΙΚΤΕΣ</option>
-                        <option value="15">15 ΠΑΙΚΤΕΣ</option>
-                    </select>
-                </div>
-            </div>
+                    <!-- MANUAL SELECTION PANEL -->
+                    <div id="tswManualPanel" class="tsw-duo-panel">
+                        <div class="tsw-duo-grid">
+                            <div class="tsw-field-group">
+                                <label for="initialChallengerSelect" class="tsw-label tsw-label-red">Αρχικός Challenger (Κόκκινος)</label>
+                                <div class="tsw-select-wrapper tsw-wrapper-red">
+                                    <select id="initialChallengerSelect" class="tsw-select"></select>
+                                </div>
+                            </div>
 
-            <!-- Players & Categories Title -->
-            <div class="ts-section-title">Λιστα Μονομαχων & Αγαπημενες Κατηγοριες</div>
-            
-            <!-- Dynamic Players Container -->
-            <div id="tournamentPlayerInputs" class="ts-player-inputs-container"></div>
-
-            <!-- Extras (Difficulty & Timer) -->
-            <div class="ts-extras-grid">
-                
-                <div class="ts-field-group">
-                    <span class="ts-label">Επιπεδο Δυσκολιας</span>
-                    <div class="ts-checkbox-group">
-                        <div class="ts-chip-checkbox">
-                            <input id="easyDifficulty" type="checkbox" checked>
-                            <label for="easyDifficulty" class="ts-chip-label">Εύκολο</label>
-                        </div>
-                        <div class="ts-chip-checkbox">
-                            <input id="mediumDifficulty" type="checkbox" checked>
-                            <label for="mediumDifficulty" class="ts-chip-label">Μέτριο</label>
-                        </div>
-                        <div class="ts-chip-checkbox">
-                            <input id="hardDifficulty" type="checkbox" checked>
-                            <label for="hardDifficulty" class="ts-chip-label">Δύσκολο</label>
+                            <div class="tsw-field-group">
+                                <label for="initialOpponentSelect" class="tsw-label tsw-label-blue">Αντίπαλος (Μπλε - Κατηγορία του)</label>
+                                <div class="tsw-select-wrapper tsw-wrapper-blue">
+                                    <select id="initialOpponentSelect" class="tsw-select"></select>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="ts-field-group">
-                    <label for="timeSelect" class="ts-label">Χρονος Μονομαχιας (Deck)</label>
-                    <div class="ts-select-wrapper">
-                        <select id="timeSelect" class="ts-select">
-                            <option value="30">30 Δευτερόλεπτα</option>
-                            <option value="45">45 Δευτερόλεπτα</option>
-                            <option value="60" selected>60 Δευτερόλεπτα</option>
-                            <option value="90">90 Δευτερόλεπτα</option>
-                        </select>
+                    <!-- RANDOM PICK SELECTION PANEL -->
+                    <div id="tswRandomPanel" class="tsw-random-panel tsw-hidden">
+                        <div class="tsw-random-box">
+                            <div class="tsw-dice-icon">🎲</div>
+                            <p>Πατήστε το κουμπί για τυχαία επιλογή αρχικού Challenger και πρώτου Αντιπάλου.</p>
+                            <button type="button" class="tsw-btn tsw-btn-random" onclick="triggerRandomChallenger()">ΚΛΗΡΩΣΗ ΜΟΝΟΜΑΧΩΝ</button>
+                        </div>
+                        <div id="tswRandomResult" class="tsw-random-result tsw-hidden">
+                            <div class="tsw-res-badge red">
+                                <span>CHALLENGER</span>
+                                <strong id="tswRandomChallengerName">-</strong>
+                            </div>
+                            <div class="tsw-vs-circle">VS</div>
+                            <div class="tsw-res-badge blue">
+                                <span>ΑΝΤΙΠΑΛΟΣ</span>
+                                <strong id="tswRandomOpponentName">-</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hidden Selector preserved for JS compatibility -->
+                    <div class="native-hidden" style="display:none;">
+                        <select id="categorySelect"></select>
+                    </div>
+
+                    <div class="tsw-actions-row">
+                        <button type="button" class="tsw-btn tsw-btn-prev" onclick="goToTswStep(2)">&larr; Πίσω</button>
+                        <button type="button" class="tsw-btn tsw-btn-next" onclick="goToTswStep(4)">Συνέχεια: Ρυθμίσεις &rarr;</button>
                     </div>
                 </div>
-
             </div>
 
-            <div id="tournamentBracketMenu" class="tournamentBracket hidden"></div>
-        </section>
+            <!-- STEP 4: TIMER, DIFFICULTY & START -->
+            <div id="tswStep4" class="tsw-step-content">
+                <div class="tsw-card">
+                    <div class="tsw-card-header">
+                        <h2 class="tsw-title">ΠΑΡΑΜΕΤΡΟΠΟΙΗΣΗ ΜΑΧΗΣ</h2>
+                        <p class="tsw-subtitle">Ρυθμίστε τη δυσκολία, τη διάρκεια του χρόνου και ξεκινήστε το τουρνουά</p>
+                    </div>
 
-        <button id="startGameButton">ΕΝΑΡΞΗ ΜΟΝΟΜΑΧΙΑΣ</button>
+                    <div class="tsw-extras-grid">
+                        <div class="tsw-field-group">
+                            <span class="tsw-label">Επίπεδο Δυσκολίας</span>
+                            <div class="tsw-checkbox-group">
+                                <div class="tsw-chip-checkbox">
+                                    <input id="easyDifficulty" type="checkbox" checked>
+                                    <label for="easyDifficulty" class="tsw-chip-label">Εύκολο</label>
+                                </div>
+                                <div class="tsw-chip-checkbox">
+                                    <input id="mediumDifficulty" type="checkbox" checked>
+                                    <label for="mediumDifficulty" class="tsw-chip-label">Μέτριο</label>
+                                </div>
+                                <div class="tsw-chip-checkbox">
+                                    <input id="hardDifficulty" type="checkbox" checked>
+                                    <label for="hardDifficulty" class="tsw-chip-label">Δύσκολο</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tsw-field-group">
+                            <label for="timeSelect" class="tsw-label">Χρόνος Μονομαχίας (Deck)</label>
+                            <div class="tsw-select-wrapper">
+                                <select id="timeSelect" class="tsw-select">
+                                    <option value="30">30 Δευτερόλεπτα</option>
+                                    <option value="45">45 Δευτερόλεπτα</option>
+                                    <option value="60" selected>60 Δευτερόλεπτα</option>
+                                    <option value="90">90 Δευτερόλεπτα</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="tournamentBracketMenu" class="tournamentBracket hidden"></div>
+
+                    <div class="tsw-actions-row">
+                        <button type="button" class="tsw-btn tsw-btn-prev" onclick="goToTswStep(3)">&larr; Πίσω</button>
+                        <button id="startGameButton" class="tsw-btn tsw-btn-start">🚀 ΕΝΑΡΞΗ ΜΟΝΟΜΑΧΙΑΣ</button>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- /tsw-container -->
     </div>
 </section>
 
@@ -370,7 +497,45 @@
 <audio id="passSound" preload="auto"></audio>
 <audio id="victorySound" preload="auto"></audio>
 <audio id="confettiSound" preload="auto"></audio>
+<!-- ===================================== -->
+<!-- CATEGORY SELECTION MODAL POPUP -->
+<!-- ===================================== -->
+<div id="tswCategoryModalOverlay" class="tsw-cat-modal-overlay">
+    <div class="tsw-cat-modal">
+        <div class="tsw-cat-modal-header">
+            <h3 class="tsw-cat-modal-title">Επιλογή Αγαπημένης Κατηγορίας</h3>
+            <button type="button" class="tsw-cat-close-btn" onclick="closeCategoryModal()">✕</button>
+        </div>
+        <div id="tswCategoryModalGrid" class="tsw-cat-grid">
+            <!-- Παράγεται δυναμικά από το categories.js μέσω JS -->
+        </div>
+    </div>
+</div>
+<!-- VERSUS HYPE OVERLAY (TEKKEN STYLE) -->
+<div id="versusOverlay" class="tsw-versus-overlay">
+    <div class="tsw-versus-container">
+        <!-- Player 1 (Left) -->
+        <div class="tsw-fighter tsw-fighter-left">
+            <div class="tsw-fighter-card">
+                <span class="tsw-fighter-role">CHALLENGER</span>
+                <h2 id="vsPlayer1Name">ALEX</h2>
+            </div>
+        </div>
 
+        <!-- VS Badge Center -->
+        <div class="tsw-vs-badge-wrap">
+            <div class="tsw-vs-element">VS</div>
+        </div>
+
+        <!-- Player 2 (Right) -->
+        <div class="tsw-fighter tsw-fighter-right">
+            <div class="tsw-fighter-card">
+                <span class="tsw-fighter-role">DEFENDER</span>
+                <h2 id="vsPlayer2Name">NICK</h2>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="categories.js"></script>
 <script src="game.js"></script>
 </body>
