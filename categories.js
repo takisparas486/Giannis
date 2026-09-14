@@ -6011,7 +6011,6 @@ mythology: [
 ],
 
   "famous-cars": [
-  "famous-cars": [
     {
         "answers": ["mercedes amg gt black series", "amg gt black series", "μερσεντές αμγκ γι τι μπλακ σιρις", "αμγκ γι τι μπλακ σιρις"],
         "image": "https://pub-b349995ce9a048a6abc4ae794d3337eb.r2.dev/famous-cars/mercedes-amg-gt-black-series.jpg",
