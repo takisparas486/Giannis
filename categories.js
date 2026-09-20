@@ -5,7 +5,7 @@
 
 window.categories = {
 
-elements: [
+Στοιχεία: [
     {
         "answers": ["υδρογόνο", "hydrogen", "το υδρογόνο", "στοιχείο υδρογόνο"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/elements/hydrogen.png",
@@ -597,10 +597,1282 @@ elements: [
         "difficulty": "hard"
     }
 ],
+"Σχολικά Αντικείμενα": [
+  {
+    "answers": ["μολύβι", "pencil", "το μολύβι", "molivi"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/pencil.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["ξυλομπογιές", "colored pencils", "coloured pencils", "ξυλομπογιά", "οι ξυλομπογιές", "xilomposies", "ksilomposies"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/colored-pencils.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["στυλό", "ballpoint pen", "pen", "το στυλό", "στυλός", "stilo"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/ballpoint-pen.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["πέννα", "fountain pen", "πένα", "η πέννα", "η πένα", "penna", "pena"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/fountain-pen.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["γόμα", "eraser", "σβηστήρα", "σβήστρα", "η γόμα", "η σβήστρα", "goma", "svistra"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/eraser.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["ξύστρα", "pencil sharpener", "sharpener", "η ξύστρα", "xystra", "ksistra"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/pencil-sharpener.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["χάρακας", "ruler", "ο χάρακας", "χαρακας", "charakas", "harakas"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/ruler.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["μοιρογνωμόνιο", "protractor", "το μοιρογνωμόνιο", "μοιρογνωμονιο", "mirognomonio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/protractor.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["γνώμονας", "set square", "triangle ruler", "ο γνώμονας", "τριγωνικός χάρακας", "γνωμονας", "gnomonas"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/set-square.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["διαβήτης", "compass", "ο διαβήτης", "διαβητης", "diavitis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/compass.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["ψαλίδι", "scissors", "το ψαλίδι", "ψαλιδι", "psalidi"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/scissors.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κόλλα στικ", "glue stick", "sticky glue", "η κόλλα στικ", "κολλα στικ", "glue-stick", "kolla stick", "kolla stik"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/glue-stick.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["υγρή κόλλα", "liquid glue", "η υγρή κόλλα", "υγρα κολλα", "ygri kolla"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/liquid-glue.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["χαρτάκια σημειώσεων", "sticky notes", "post-it", "post it", "αυτοκόλλητα χαρτάκια", "sticky-notes", "hartakia simeioseon"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/sticky-notes.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["υπογραμμιστής", "highlighter", "μαρκαδόρος υπογράμμισης", "ο υπογραμμιστής", "ypogrammistis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/highlighter.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["μαρκαδόροι", "markers set", "markers", "οι μαρκαδόροι", "σετ μαρκαδόροι", "markadoroi"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/markers-set.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["τετράδιο", "notebook", "το τετράδιο", "τετραδιο", "tetradio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/notebook.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["τετράδιο σημειώσεων", "composition book", "composition notebook", "το τετράδιο σημειώσεων", "tetradio simeioseon"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/composition-book.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ντοσιέ", "binder", "ring binder", "το ντοσιέ", "ντοσιε με κρίκους", "klaser", "κλασέρ", "ntosie"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/binder.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["συνδετήρας", "paperclip", "paper clip", "ο συνδετήρας", "συνδετηρας", "syndetiras", "sindetiras"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/paperclip.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κλιπ εγγράφων", "binder clip", "binder-clip", "μεγάλος συνδετήρας", "klip eggrafon"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/binder-clip.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["συρραπτικό", "stapler", "το συρραπτικό", "συρραπτικο", "syrraptiko", "sirraptiko"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/stapler.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["αποσυρραπτικό", "staple remover", "το αποσυρραπτικό", "αποσυρραπτικο", "aposyrraptiko"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/staple-remover.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["βάση ταινίας", "tape dispenser", "σελοτέιπ", "βάση για σελοτέιπ", "tape-dispenser", "basi tainias"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/tape-dispenser.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["διορθωτική ταινία", "correction tape", "διορθωτικό", "blanko", "μπλάνκο", "diorthotiki tainia"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/correction-tape.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["τσάντα", "backpack", "σχολική τσάντα", "σακίδιο", "η τσάντα", "το σακίδιο", "tsanta", "sakidio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/backpack.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κασετίνα", "pencil case", "pencil-case", "η κασετίνα", "κασετινα", "kasetina"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/pencil-case.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["αριθμομηχανή", "calculator", "κομπιουτεράκι", "η αριθμομηχανή", "το κομπιουτεράκι", "arithmomichani", "kompiouteraki"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/calculator.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["άβακας", "abacus", "ο άβακας", "αβακας", "avakas"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/abacus.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["σχολικό βιβλίο", "textbook", "βιβλίο", "το βιβλίο", "βιβλιο", "scholiko vivlio", "vivlio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/textbook.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["λεξικό", "dictionary", "το λεξικό", "λεξικο", "lexiko"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/dictionary.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["υδρόγειος σφαίρα", "globe", "υδρόγειος", "η υδρόγειος", "ydrogeios sfaira", "ydrogeios"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/globe.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["χάρτης τοίχου", "wall map", "χάρτης", "ο χάρτης", "chartis toichou", "chartis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/wall-map.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["μαυροπίνακας", "blackboard", "πίνακας", "ο μαυροπίνακας", "mavropinakas"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/blackboard.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["άσπρος πίνακας", "whiteboard", "λευκοπίνακας", "ασπροπίνακας", "ο άσπρος πίνακας", "whiteboard", "aspros pinakas"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/whiteboard.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κιμωλία", "chalk", "η κιμωλία", "κιμωλιες", "κιμωλίες", "kimolia"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/chalk.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["σπόγγος πίνακα", "chalkboard eraser", "σφουγγάρι πίνακα", "σπόγγος", "σφουγγαρι πινακα", "sfouggari pinaka"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/chalkboard-eraser.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["μαρκαδόροι πίνακα", "whiteboard markers", "μαρκαδόρος πίνακα", "markadoroi pinaka"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/whiteboard-markers.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["φαγητοδοχείο", "lunch box", "lunchbox", "μπολ φαγητού", "δοχείο φαγητού", "fagito docheio", "lunch-box"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/lunch-box.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["παγούρι", "water bottle", "παγούρι νερού", "μπουκάλι νερού", "το παγούρι", "pagouri"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/water-bottle.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["παλέτα ζωγραφικής", "paints palette", "paint palette", "παλέτα", "η παλέτα", "paleta zografikis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/paints-palette.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["πινέλα ζωγραφικής", "paint brushes", "πινέλα", "πινέλο", "τα πινέλα", "pinela zografikis", "pinela"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/paint-brushes.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["ακρυλικά χρώματα", "acrylic paints", "ακρυλικά", "ακρυλικες μπογιες", "akrylika chromata"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/acrylic-paints.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["πλαστελίνη", "modeling clay", "playdough", "clay", "η πλαστελίνη", "plastelini"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/modeling-clay.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κηρομπογιές", "crayons", "κηρομπογιά", "οι κηρομπογιές", "kiromposies", "kirompogies"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/crayons.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["μπλοκ ζωγραφικής", "sketchbook", "μπλοκ σχεδίου", "το μπλοκ ζωγραφικής", "blok zografikis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/sketchbook.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["θρανίο", "desk", "school desk", "το θρανίο", "γραφείο", "thranio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/desk.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["μικροσκόπιο", "microscope", "το μικροσκόπιο", "μικροσκοπιο", "mikroskopio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/microscope.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["δοκιμαστικοί σωλήνες", "test tubes", "δοκιμαστικός σωλήνας", "δοκιμαστικοι σωληνες", "dokimastikoi solines"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/test-tubes.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["φιάλη εργαστηρίου", "flask", "κωνική φιάλη", "φιάλη", "η φιάλη", "fiali"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/flask.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["μεγεθυντικός φακός", "magnifying glass", "μεγεθυντικός", "φακός", "ο μεγεθυντικός φακός", "megethyntikos fakos"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/magnifying-glass.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["πορτατίφ", "desk lamp", "λάμπα γραφείου", "φωτιστικό γραφείου", "lampa grafeiou", "portatif"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/desk-lamp.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["διατρητής", "hole puncher", "περφορατέρ", "διατρητής χαρτιού", "diatritis", "perforater"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/hole-puncher.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["πινέζες", "push pins", "πινέζα", "οι πινέζες", "pinezes"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/push-pins.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κλιπμπόρντ", "clipboard", "πινακίδα με κλιπ", "clip board", "klipmpornt"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/clipboard.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["φάκελος", "folder", "φάκελος αρχειοθέτησης", "ο φάκελος", "fakelos"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/folder.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["καρτέλες ευρετηρίου", "index cards", "καρτέλες", "karteles evretiriou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/index-cards.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["κάρτες εκμάθησης", "flashcards", "flash cards", "κάρτες μνήμης", "kartes ekmathisis", "flashcards"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/flashcards.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ξυπνητήρι", "alarm clock", "το ξυπνητήρι", "ξυπνητηρι", "xypnitiri", "ksipnitiri"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/alarm-clock.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["σχολικό λεωφορείο", "school bus", "σχολικό", "το σχολικό λεωφορείο", "scholiko leoforeio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/school-bus.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κουδούνι σχολείου", "school bell", "κουδούνι", "το κουδούνι", "koudouni scholoiou", "koudouni"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/school-bell.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["δίπλωμα", "diploma", "πτυχίο", "το δίπλωμα", "diploma", "ptychio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/diploma.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["καπέλο αποφοίτησης", "graduation cap", "καπέλο αποφοίτων", "kapelo apofoitisis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/graduation-cap.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["τρόπαιο", "trophy", "κύπελλο", "το τρόπαιο", "tropaio", "kypello"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/trophy.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κορδέλα βραβείου", "award ribbon", "βραβείο κορδέλα", "κορδέλα", "kordela vraveiou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/award-ribbon.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["χρυσό αστέρι", "gold star sticker", "αυτοκόλλητο αστέρι", "χρυσό αστεράκι", "chryso asteri"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/gold-star-sticker.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["σελιδοδείκτης", "bookmark", "ο σελιδοδείκτης", "σελιδοδεικτης", "selidodeiktis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/bookmark.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["αναλόγιο βιβλίου", "book stand", "βάση βιβλίου", "στήριγμα βιβλίου", "analogio vivliou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/book-stand.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["βιβλιοθήκη", "bookshelf", "ραφιέρα βιβλίων", "η βιβλιοθήκη", "vivliothiki"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/bookshelf.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["οργανωτής γραφείου", "desk organizer", "θήκη γραφείου", "organotis grafeiou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/desk-organizer.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["σετ γεωμετρίας", "geometry set", "γεωμετρικά όργανα", "σετ γεωμετρικών οργάνων", "set geometrias"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/geometry-set.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ποδιά ζωγραφικής", "paint apron", "ποδιά", "η ποδιά ζωγραφικής", "podia zografikis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/paint-apron.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["γυαλιά προστασίας", "safety goggles", "προστατευτικά γυαλιά", "gyalia prostasias"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/safety-goggles.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["περιοδικός πίνακας", "period table chart", "periodic table", "περιοδικός πίνακας στοιχείων", "periodikos pinakas"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/period-table-chart.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["μοντέλο DNA", "dna model", "έλικα DNA", "DNA", "montelo dna"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/dna-model.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["σκελετός", "human skeleton model", "μοντέλο σκελετού", "ανθρώπινος σκελετός", "skeletos"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/human-skeleton-model.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["διαπασών", "tuning fork", "το διαπασών", "diapason"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/tuning-fork.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["μαγνήτης", "bar magnet", "ραβδόμορφος μαγνήτης", "ο μαγνήτης", "magnitis"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/bar-magnet.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["πρίσμα", "prism", "οπτικό πρίσμα", "το πρίσμα", "prisma"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/prism.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["χρονόμετρο", "stopwatch", "το χρονόμετρο", "χρονομετρο", "chronometro"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/school/stopwatch.png",
+    "difficulty": "easy"
+  }
+],
+Έπιπλα: [
+  {
+    "answers": ["καναπές", "sofa", "couch", "ο καναπές", "kanapes"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/sofa.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["πολυθρόνα", "armchair", "η πολυθρόνα", "polythrona"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/armchair.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["τραπεζάκι σαλονιού", "coffee table", "τραπεζάκι", "το τραπεζάκι σαλονιού", "trapezaki saloniou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/coffee-table.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["βιβλιοθήκη", "bookcase", "bookshelf", "η βιβλιοθήκη", "vivliothiki"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/bookcase.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["ένθετα τραπέζια", "nesting tables", "βοηθητικά τραπέζια", "nested tables", "entheta trapezia"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/nesting-tables.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["καναπές κρεβάτι", "sofa bed", "καναπές-κρεβάτι", "kanapes krevati"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/sofa-bed.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["πλαϊνό τραπεζάκι", "side table", "end table", "βοηθητικό τραπεζάκι", "plaino trapezaki"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/side-table.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["βιτρίνα", "display cabinet", "η βιτρίνα", "vitrina"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/display-cabinet.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["τραπέζι κονσόλα", "console table", "κονσόλα", "η κονσόλα", "trapezi konsola", "konsola"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/console-table.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["τραπεζαρία", "dining table", "τραπέζι φαγητού", "το τραπέζι", "trapezaria"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/dining-table.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["σκαμπό μπαρ", "bar stool", "σκαμπό", "το σκαμπό", "skampo bar", "skampo"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/bar-stool.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["πάγκος", "bench", "παγκάκι", "ο πάγκος", "pagkos"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/bench.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["τραπεζάκι μπαρ", "bar cart", "τρόλεϊ μπαρ", "trolei bar"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/bar-cart.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["κομοδίνο", "nightstand", "bedside table", "το κομοδίνο", "komodino"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/nightstand.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["τουαλέτα ομορφιάς", "dressing table", "vanity", "έπιπλο τουαλέτα", "toualeta omorfias"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/dressing-table.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["κουκέτα", "bunk bed", "η κουκέτα", "kouketa"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/bunk-bed.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["κεφαλάρι", "headboard", "κεφαλάρι κρεβατιού", "το κεφαλάρι", "kefalari"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/headboard.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["σπαστό κρεβάτι", "folding bed", "ράντζο", "το ράντζο", "spasto krevati", "rantzo"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/folding-bed.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["πάγκος κρεβατιού", "bedroom bench", "end of bed bench", "pagkos krevatiou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/bedroom-bench.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["καρέκλα gaming", "gaming chair", "gaming καρέκλα", "karekla gaming"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/gaming-chair.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["ράφια τοίχου", "floating shelves", "ράφια", "πλωτά ράφια", "rafia toichou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/floating-shelves.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["καλόγερος", "coat rack", "κρεμάστρα", "ο καλόγερος", "kalogeros", "kremastra"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/coat-rack.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["καρέκλα βεράντας", "patio chair", "καρέκλα κήπου", "karekla verantas", "karekla kipou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/patio-chair.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["τραπέζι πικ νικ", "picnic table", "τραπέζι πικνίκ", "trapezi pik nik"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/picnic-table.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["ομπρέλα κήπου", "patio umbrella", "ομπρέλα βεράντας", "umbrela kipou"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/umbrella.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["μπαούλο παιχνιδιών", "toy chest", "κουτί παιχνιδιών", "mpaoulo paichnidion"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/toy-chest.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["νησίδα κουζίνας", "kitchen island", "νησίδα", "η νησίδα", "nisida kouzinas"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/kitchen-island.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ντουλάπι τροφοθήκη", "pantry cabinet", "τροφοθήκη", "ntoulapi trofothiki"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/pantry-cabinet.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["ράφι σκάλα", "ladder shelf", "βιβλιοθήκη σκάλα", "rafi skala"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/ladder-shelf.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["κλειδοθήκη", "key cabinet", "κουτί για κλειδιά", "η κλειδοθήκη", "kleidothiki"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/key-cabinet.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["πτυσσόμενο τραπέζι", "folding table", "σπαστό τραπέζι", "ptyssomeno trapezi"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/folding-table.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["σκαλοπάτι σκαμπό", "step stool", "σκαμπό σκάλα", "σκαλοπάτι", "skalopati skampo"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/step-stool.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["έπιπλο κοσμημάτων", "jewelry armoire", "κοσμηματοθήκη έπιπλο", "epidlo kosmimaton"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/jewelry-armoire.png",
+    "difficulty": "hard"
+  },
+  {
+    "answers": ["ονυχτήριο γάτας", "cat tree", "ονυχοδρόμιο", "cat tower", "onychodromio"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/cat-tree.png",
+    "difficulty": "easy"
+  },
+  {
+    "answers": ["σέζλονγκ", "chaise longue", "ανάκλιντρο", "chaise lounge", "anaklintro", "sezlong"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/chaise-longue.png",
+    "difficulty": "medium"
+  },
+  {
+    "answers": ["φουτόν", "futon", "στρώμα φουτόν", "futon"],
+    "image": "https://broad-cloud-2097.takisparas32.workers.dev/furniture/futon.png",
+    "difficulty": "hard"
+  }
+],
+"Φρούτα και Λαχανικά": [
+{
+"answers": ["μήλο", "apple", "milo", "το μήλο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/apple.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μπανάνα", "banana", "mpanana", "η μπανάνα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/banana.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πορτοκάλι", "orange", "portokali", "το πορτοκάλι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/orange.png",
+"difficulty": "easy"
+},
+{
+"answers": ["καρπούζι", "watermelon", "karpouzi", "το καρπούζι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/watermelon.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ροδάκινο", "peach", "rodakino", "το ροδάκινο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/peach.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κεράσι", "cherry", "kerasi", "το κεράσι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/cherry.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ανανάς", "pineapple", "ananas", "ο ανανάς"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/pineapple.png",
+"difficulty": "medium"
+},
+{
+"answers": ["αχλάδι", "pear", "achladi", "axladi", "το αχλάδι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/pear.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ακτινίδιο", "kiwi", "aktinidio", "το ακτινίδιο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/kiwi.png",
+"difficulty": "medium"
+},
+{
+"answers": ["ρόδι", "pomegranate", "rodi", "το ρόδι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/pomegranate.png",
+"difficulty": "medium"
+},
+{
+"answers": ["σύκο", "fig", "syko", "το σύκο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/fig.png",
+"difficulty": "medium"
+},
+{
+"answers": ["βερίκοκο", "apricot", "verikoko", "το βερίκοκο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/apricot.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πεπόνι", "melon", "peponi", "το πεπόνι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/melon.png",
+"difficulty": "easy"
+},
+{
+"answers": ["αβοκάντο", "avocado", "avokanto", "το αβοκάντο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/avocado.png",
+"difficulty": "medium"
+},
+{
+"answers": ["σμέουρο", "raspberry", "smeouro", "το σμέουρο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/raspberry.png",
+"difficulty": "hard"
+},
+{
+"answers": ["βατόμουρο", "blackberry", "vatomouro", "το βατόμουρο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/blackberry.png",
+"difficulty": "medium"
+},
+{
+"answers": ["μύρτιλο", "blueberry", "myrtilo", "mourtilo", "το μύρτιλο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/blueberry.png",
+"difficulty": "hard"
+},
+{
+"answers": ["λάιμ", "lime", "laim", "το λάιμ"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/lime.png",
+"difficulty": "medium"
+},
+{
+"answers": ["καρύδα", "coconut", "karyda", "η καρύδα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/coconut.png",
+"difficulty": "medium"
+},
+{
+"answers": ["φρούτο του πάθους", "passion fruit", "frouto tou pathous", "passionfruit", "το φρούτο του πάθους"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/passion-fruit.png",
+"difficulty": "hard"
+},
+{
+"answers": ["φρούτο του δράκου", "dragon fruit", "frouto tou drakou", "dragonfruit", "pitaya", "το φρούτο του δράκου"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/dragon-fruit.png",
+"difficulty": "hard"
+},
+{
+"answers": ["λίτσι", "lychee", "litsi", "το λίτσι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/lychee.png",
+"difficulty": "hard"
+},
+{
+"answers": ["λωτός", "persimmon", "lotos", "ο λωτός"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/persimmon.png",
+"difficulty": "hard"
+},
+{
+"answers": ["κυδώνι", "quince", "kydoni", "το κυδώνι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/quince.png",
+"difficulty": "medium"
+},
+{
+"answers": ["μανταρίνι", "tangerine", "mandarin", "mantarini", "το μανταρίνι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/tangerine.png",
+"difficulty": "easy"
+},
+{
+"answers": ["γκουάβα", "guava", "gkouava", "η γκουάβα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/guava.png",
+"difficulty": "hard"
+},
+{
+"answers": ["καραμπόλα", "star fruit", "starfruit", "karampola", "η καραμπόλα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/star-fruit.png",
+"difficulty": "hard"
+},
+{
+"answers": ["κράνμπερι", "cranberry", "kranmperi", "cranberries", "το κράνμπερι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/cranberry.png",
+"difficulty": "medium"
+},
+{
+"answers": ["χουρμάς", "date", "dates", "chourmas", "ο χουρμάς"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/date-fruit.png",
+"difficulty": "medium"
+},
+{
+"answers": ["μούρο", "mulberry", "mouro", "το μούρο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/mulberry.png",
+"difficulty": "medium"
+},
+{
+"answers": ["φραγκόσυκο", "prickly pear", "fragkosyko", "το φραγκόσυκο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/prickly-pear.png",
+"difficulty": "medium"
+},
+{
+"answers": ["ντομάτα", "tomato", "ntomata", "η ντομάτα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/tomato.png",
+"difficulty": "easy"
+},
+{
+"answers": ["αγγούρι", "cucumber", "aggouri", "το αγγούρι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/cucumber.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πατάτα", "potato", "patata", "η πατάτα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/potato.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κρεμμύδι", "onion", "kremmydi", "το κρεμμύδι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/onion.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σκόρδο", "garlic", "skordo", "το σκόρδο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/garlic.png",
+"difficulty": "easy"
+},
+{
+"answers": ["καρότο", "carrot", "karoto", "το καρότο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/carrot.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μπρόκολο", "broccoli", "mprokolo", "το μπρόκολο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/broccoli.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κουνουπίδι", "cauliflower", "kounoupidi", "το κουνουπίδι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/cauliflower.png",
+"difficulty": "medium"
+},
+{
+"answers": ["μελιτζάνα", "eggplant", "aubergine", "melitzana", "η μελιτζάνα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/eggplant.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κολοκυθάκι", "zucchini", "courgette", "kolokythaki", "το κολοκυθάκι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/zucchini.png",
+"difficulty": "medium"
+},
+{
+"answers": ["μαρούλι", "lettuce", "marouli", "το μαρούλι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/lettuce.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σπανάκι", "spinach", "spanaki", "το σπανάκι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/spinach.png",
+"difficulty": "medium"
+},
+{
+"answers": ["λάχανο", "cabbage", "lachano", "laxano", "το λάχανο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/cabbage.png",
+"difficulty": "medium"
+},
+{
+"answers": ["κόκκινο λάχανο", "red cabbage", "kokkino lachano", "το κόκκινο λάχανο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/red-cabbage.png",
+"difficulty": "medium"
+},
+{
+"answers": ["κολοκύθα", "pumpkin", "kolokytha", "η κολοκύθα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/pumpkin.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μανιτάρι", "mushroom", "manitari", "το μανιτάρι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/mushroom.png",
+"difficulty": "easy"
+},
+{
+"answers": ["καλαμπόκι", "corn", "kalampoki", "το καλαμπόκι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/corn.png",
+"difficulty": "easy"
+},
+{
+"answers": ["φασολάκια", "green beans", "fasolakia", "τα φασολάκια"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/green-beans.png",
+"difficulty": "medium"
+},
+{
+"answers": ["ραπάνι", "radish", "rapani", "το ραπάνι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/radish.png",
+"difficulty": "medium"
+},
+{
+"answers": ["παντζάρι", "beetroot", "pantzari", "το παντζάρι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/beetroot.png",
+"difficulty": "medium"
+},
+{
+"answers": ["σπαράγγι", "asparagus", "sparaggi", "το σπαράγγι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/asparagus.png",
+"difficulty": "medium"
+},
+{
+"answers": ["αγκινάρα", "artichoke", "agkinara", "η αγκινάρα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/artichoke.png",
+"difficulty": "medium"
+},
+{
+"answers": ["πράσο", "leek", "praso", "το πράσο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/leek.png",
+"difficulty": "medium"
+},
+{
+"answers": ["φρέσκο κρεμμυδάκι", "spring onion", "scallion", "fresko kremmydaki", "το φρέσκο κρεμμυδάκι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/spring-onion.png",
+"difficulty": "medium"
+},
+{
+"answers": ["γλυκοπατάτα", "sweet potato", "glykopatata", "η γλυκοπατάτα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/sweet-potato.png",
+"difficulty": "medium"
+},
+{
+"answers": ["πιπεριά τσίλι", "chili pepper", "chili", "piperia tsili", "η πιπεριά τσίλι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/chili-pepper.png",
+"difficulty": "easy"
+},
+{
+"answers": ["τζίντζερ", "ginger", "πιπερόριζα", "tzintzer", "piperoriza", "το τζίντζερ"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/ginger.png",
+"difficulty": "medium"
+},
+{
+"answers": ["μάραθος", "fennel", "φινόκιο", "marathos", "finokio", "ο μάραθος"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/fennel.png",
+"difficulty": "hard"
+},
+{
+"answers": ["γογγύλι", "turnip", "gongyli", "το γογγύλι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/turnip.png",
+"difficulty": "hard"
+},
+{
+"answers": ["μαϊντανός", "parsley", "maintanos", "ο μαϊντανός"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/parsley.png",
+"difficulty": "medium"
+},
+{
+"answers": ["άνηθος", "dill", "anithos", "ο άνηθος"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/dill.png",
+"difficulty": "medium"
+},
+{
+"answers": ["βασιλικός", "basil", "vasilikos", "ο βασιλικός"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/basil.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μέντα", "mint", "δυόσμος", "menta", "dyosmos", "η μέντα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/mint.png",
+"difficulty": "easy"
+},
+{
+"answers": ["λαχανάκια βρυξελλών", "brussels sprouts", "lachanakia bryxellon", "τα λαχανάκια βρυξελλών"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/brussels-sprouts.png",
+"difficulty": "medium"
+},
+{
+"answers": ["κέιλ", "kale", "keil", "το κέιλ"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/kale.png",
+"difficulty": "hard"
+},
+{
+"answers": ["αγριορέφανο", "horseradish", "agriorefano", "το αγριορέφανο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/fruits_veggies/horseradish.png",
+"difficulty": "hard"
+}
+],
+"Ημερήσια Αντικείμενα": [
+{
+"answers": ["κούπα", "mug", "koupa", "η κούπα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/mug.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πιάτο", "plate", "piato", "το πιάτο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/plate.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πιρούνι", "fork", "pirouni", "το πιρούνι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/fork.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μαχαίρι", "knife", "machairi", "maxairi", "το μαχαίρι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/knife.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ποτήρι", "glass", "potiri", "το ποτήρι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/glass.png",
+"difficulty": "easy"
+},
+{
+"answers": ["τηγάνι", "frying pan", "pan", "tygani", "tigani", "το τηγάνι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/frying-pan.png",
+"difficulty": "easy"
+},
+{
+"answers": ["βραστήρας", "kettle", "vrastiras", "ο βραστήρας"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/kettle.png",
+"difficulty": "medium"
+},
+{
+"answers": ["φρυγανιέρα", "toaster", "fryganiera", "η φρυγανιέρα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/toaster.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σφουγγάρι", "sponge", "sfouggari", "το σφουγγάρι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/sponge.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σκούπα", "broom", "skoupa", "η σκούπα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/broom.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κάδος σκουπιδιών", "trash can", "bin", "kados skoupidion", "ο κάδος σκουπιδιών"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/trash-can.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κουβάς", "bucket", "kouvas", "ο κουβάς"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/bucket.png",
+"difficulty": "easy"
+},
+{
+"answers": ["παγούρι", "water bottle", "bottle", "pagouri", "το παγούρι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/water-bottle.png",
+"difficulty": "easy"
+},
+{
+"answers": ["θερμός", "thermos", "thermos flask", "thermos", "ο θερμός"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/thermos.png",
+"difficulty": "medium"
+},
+{
+"answers": ["ρολόι", "clock", "roloi", "το ρολόι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/clock.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μαξιλάρι", "pillow", "maxilari", "μαξιλaρι", "το μαξιλάρι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/pillow.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κουβέρτα", "blanket", "kouverta", "η κουβέρτα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/blanket.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σίδερο", "iron", "sidero", "το σίδερο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/iron.png",
+"difficulty": "easy"
+},
+{
+"answers": ["οδοντόβουρτσα", "toothbrush", "odontovourtsa", "η οδοντόβουρτσα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/toothbrush.png",
+"difficulty": "easy"
+},
+{
+"answers": ["οδοντόκρεμα", "toothpaste", "odontokrema", "η οδοντόκρεμα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/toothpaste.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σαμπουάν", "shampoo", "sampouan", "το σαμπουάν"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/shampoo.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πετσέτα", "towel", "petseta", "η πετσέτα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/towel.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κτένα", "comb", "χτένα", "ktena", "chtena", "η κτένα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/comb.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πιστολάκι μαλλιών", "hair dryer", "pistolaki mallion", "το πιστολάκι μαλλιών"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/hair-dryer.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ψαλίδι", "scissors", "psalidi", "το ψαλίδι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/scissors.png",
+"difficulty": "easy"
+},
+{
+"answers": ["άρωμα", "perfume", "aroma", "το άρωμα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/perfume.png",
+"difficulty": "easy"
+},
+{
+"answers": ["νυχοκόπτης", "nail clipper", "nychokoptis", "ο νυχοκόπτης"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/nail-clipper.png",
+"difficulty": "medium"
+},
+{
+"answers": ["καθρέφτης", "mirror", "kathreftis", "ο καθρέφτης"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/mirror.png",
+"difficulty": "easy"
+},
+{
+"answers": ["χαρτομάντηλα", "tissue box", "tissues", "chartomantila", "τα χαρτομάντηλα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/tissue-box.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ομπρέλα", "umbrella", "omprela", "η ομπρέλα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/umbrella.png",
+"difficulty": "easy"
+},
+{
+"answers": ["γυαλιά ηλίου", "sunglasses", "gyalia iliou", "τα γυαλιά ηλίου"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/sunglasses.png",
+"difficulty": "easy"
+},
+{
+"answers": ["γυαλιά", "glasses", "gyalia", "τα γυαλιά"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/glasses.png",
+"difficulty": "easy"
+},
+{
+"answers": ["τσάντα", "backpack", "tsanta", "η τσάντα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/backpack.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πορτοφόλι", "wallet", "portofoli", "το πορτοφόλι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/wallet.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κλειδιά", "keys", "kleidia", "τα κλειδιά"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/keys.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ρολόι χεριού", "watch", "roloi xeriou", "το ρολόι χεριού"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/watch.png",
+"difficulty": "easy"
+},
+{
+"answers": ["λάπτοπ", "laptop", "laptop", "το λάπτοπ"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/laptop.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ακουστικά", "headphones", "akoustika", "τα ακουστικά"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/headphones.png",
+"difficulty": "easy"
+},
+{
+"answers": ["φορτιστής", "charger", "fortistis", "ο φορτιστής"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/charger.png",
+"difficulty": "easy"
+},
+{
+"answers": ["power bank", "powerbank", "παουερ μπανκ"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/power-bank.png",
+"difficulty": "medium"
+},
+{
+"answers": ["στικάκι", "usb flash drive", "usb", "stikaki", "το στικάκι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/usb-flash-drive.png",
+"difficulty": "medium"
+},
+{
+"answers": ["τηλεχειριστήριο", "remote control", "telecheiristirio", "τηλεκοντρόλ", "το τηλεχειριστήριο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/remote-control.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πορτατίφ", "desk lamp", "lamp", "portatif", "το πορτατίφ"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/desk-lamp.png",
+"difficulty": "medium"
+},
+{
+"answers": ["αριθμομηχανή", "calculator", "arithmomichani", "κομπιουτεράκι", "η αριθμομηχανή"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/calculator.png",
+"difficulty": "medium"
+},
+{
+"answers": ["τετράδιο", "notebook", "tetradio", "το τετράδιο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/notebook.png",
+"difficulty": "easy"
+},
+{
+"answers": ["στυλό", "pen", "stylo", "το στυλό"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/pen.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μολύβι", "pencil", "molyvi", "το μολύβι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/pencil.png",
+"difficulty": "easy"
+},
+{
+"answers": ["συρραπτικό", "stapler", "syrraptiko", "το συρραπτικό"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/stapler.png",
+"difficulty": "medium"
+},
+{
+"answers": ["συνδετήρας", "paper clip", "syndetiras", "ο συνδετήρας"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/paper-clip.png",
+"difficulty": "easy"
+},
+{
+"answers": ["χαρτάκια σημειώσεων", "sticky notes", "post it", "chartakia simeioseon", "τα χαρτάκια σημειώσεων"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/sticky-notes.png",
+"difficulty": "medium"
+},
+{
+"answers": ["βιβλίο", "book", "vivlio", "το βιβλίο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/book.png",
+"difficulty": "easy"
+},
+{
+"answers": ["ημερολόγιο", "calendar", "imerologio", "το ημερολόγιο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/calendar.png",
+"difficulty": "easy"
+},
+{
+"answers": ["φάκελος", "envelope", "fakelos", "ο φάκελος"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/envelope.png",
+"difficulty": "easy"
+},
+{
+"answers": ["φακός", "flashlight", "fakos", "ο φακός"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/flashlight.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μπαταρία", "battery", "mpataria", "η μπαταρία"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/battery.png",
+"difficulty": "easy"
+},
+{
+"answers": ["αναπτήρας", "lighter", "anaptiras", "ο αναπτήρας"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/lighter.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σπίρτα", "matches", "spirta", "τα σπίρτα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/matches.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κερί", "candle", "keri", "το κερί"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/candle.png",
+"difficulty": "easy"
+},
+{
+"answers": ["λουκέτο", "padlock", "louketo", "το λουκέτο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/padlock.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σελοτέιπ", "tape", "seloteip", "το σελοτέιπ"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/tape.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σφυρί", "hammer", "sfyri", "το σφυρί"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/hammer.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κατσαβίδι", "screwdriver", "katsavidi", "το κατσαβίδι"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/screwdriver.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μετροταινία", "measuring tape", "metrotainia", "η μετροταινία"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/measuring-tape.png",
+"difficulty": "medium"
+},
+{
+"answers": ["λάμπα", "light bulb", "bulb", "lampa", "η λάμπα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/light-bulb.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μάσκα προστασίας", "face mask", "maska prostasias", "η μάσκα προστασίας"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/face-mask.png",
+"difficulty": "easy"
+},
+{
+"answers": ["κέρμα", "coin", "kerma", "το κέρμα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/coin.png",
+"difficulty": "easy"
+},
+{
+"answers": ["πιστωτική κάρτα", "credit card", "pistotiki karta", "η πιστωτική κάρτα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/credit-card.png",
+"difficulty": "easy"
+},
+{
+"answers": ["σφυρίχτρα", "whistle", "sfyrichtra", "η σφυρίχτρα"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/whistle.png",
+"difficulty": "easy"
+},
+{
+"answers": ["μεγεθυντικός φακός", "magnifying glass", "megethyntikos fakos", "ο μεγεθυντικός φακός"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/magnifying-glass.png",
+"difficulty": "medium"
+},
+{
+"answers": ["γραμματόσημο", "stamp", "grammatosimo", "το γραμματόσημο"],
+"image": "https://broad-cloud-2097.takisparas32.workers.dev/daily_objects/stamp.png",
+"difficulty": "medium"
+}
+],
 
 
-
-pokemon: [
+"Pokemon": [
     {
         "answers": ["πικατσού", "pikachu"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/pokemon/pikachu.png",
@@ -998,7 +2270,7 @@ pokemon: [
     }
 ],
 
-mythology: [
+"Μυθολογία": [
 
 {
     answers: ["δίας", "ζευς", "zeus", "dias", "zevs"],
@@ -1607,7 +2879,7 @@ mythology: [
 ],
 
 
-    capitals: [
+    "Πρωτεύουσες": [
 
 {
     answers: ["αθήνα", "athens"],
@@ -2194,14 +3466,14 @@ mythology: [
 
 {
     answers: ["αβάνα", "havana"],
-    image: "https://broad-cloud-2097.takisparas32.workers.dev//cuba.png",
+    image: "https://broad-cloud-2097.takisparas32.workers.dev/country-flags/cuba.jpg",
     difficulty: "medium"
 },
 
 
 
 ],
-"superheroes": [
+"Superheroes": [
     {
         "answers": ["σπάιντερ-μαν", "spider-man", "σπάιντερμαν"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/superheroes/spiderman.jpg",
@@ -2609,7 +3881,7 @@ mythology: [
     }
 ],
       
- animals: [
+ "Ζώα": [
     {
         "answers": ["lion", "λιοντάρι"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/animals/lion.jpg",
@@ -3011,8 +4283,629 @@ mythology: [
         "difficulty": "hard"
     }
 ],
+"Φαγητά & Γλυκά": [
+    { answers: ["ντόνατ", "donut", "donuts"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/donut.png", difficulty: "easy" },
+    { answers: ["κάπκεϊκ", "cupcake", "cupcakes"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cupcake.png", difficulty: "easy" },
+    { answers: ["παγωτό", "ice cream", "pagoto"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/ice-cream-cone.png", difficulty: "easy" },
+    { answers: ["κρουασάν", "croissant"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/croissant.png", difficulty: "easy" },
+    { answers: ["πάνκεϊκς", "pancakes", "pancake", "τηγανίτες"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/pancakes.png", difficulty: "easy" },
+    { answers: ["βάφλα", "waffle", "waffles", "βαφλα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/waffles.png", difficulty: "easy" },
+    { answers: ["τσίζκεϊκ", "cheesecake"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cheesecake.png", difficulty: "easy" },
+    { answers: ["σοκολάτα", "chocolate", "sokolata"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/chocolate-bar.png", difficulty: "easy" },
+    { answers: ["μακαρόν", "macaron", "macarons"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/macarons.png", difficulty: "easy" },
+    { answers: ["μηλόπιτα", "apple pie", "milopita"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/apple-pie.png", difficulty: "easy" },
+    { answers: ["μάφιν", "muffin", "muffins"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/muffin.png", difficulty: "easy" },
+    { answers: ["μπράουνι", "brownie", "brownies"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/brownie.png", difficulty: "easy" },
+    { answers: ["πόπκορν", "popcorn", "ποπ κορν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/popcorn.png", difficulty: "easy" },
+    { answers: ["γλειφιτζούρι", "lollipop", "glefitzouri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/lollipop.png", difficulty: "easy" },
+    { answers: ["ζελεδάκια", "gummy bears", "zeledakia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/gummy-bears.png", difficulty: "easy" },
+    { answers: ["μαλλί της γριάς", "cotton candy", "malli tis grias"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cotton-candy.png", difficulty: "easy" },
+    { answers: ["τσούρος", "churros", "churro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/churros.png", difficulty: "medium" },
+    { answers: ["πρέτζελ", "pretzel", "pretzels"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/pretzel.png", difficulty: "easy" },
+    { answers: ["μπισκότο", "cookie", "cookies", "mpiskoto"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cookie.png", difficulty: "easy" },
+    { answers: ["τούρτα", "tourta", "cake", "birthday cake"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/birthday-cake.png", difficulty: "easy" },
+    { answers: ["πίτσα", "pizza", "pitsa"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/pizza-slice.png", difficulty: "easy" },
+    { answers: ["μπέργκερ", "burger", "hamburger", "mperger"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/hamburger.png", difficulty: "easy" },
+    { answers: ["πατάτες τηγανητές", "french fries", "fries", "patates"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/french-fries.png", difficulty: "easy" },
+    { answers: ["χοτ ντογκ", "hot dog", "hotdog"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/hot-dog.png", difficulty: "easy" },
+    { answers: ["τάκο", "taco", "tacos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/taco.png", difficulty: "easy" },
+    { answers: ["μπουρίτο", "burrito", "mpourito"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/burrito.png", difficulty: "easy" },
+    { answers: ["σάντουιτς", "sandwich", "santouits", "κλαμπ σάντουιτς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/sandwich.png", difficulty: "easy" },
+    { answers: ["σούσι", "sushi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/sushi.png", difficulty: "easy" },
+    { answers: ["ράμεν", "ramen", "σουπα ραμεν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/ramen.png", difficulty: "medium" },
+    { answers: ["τηγανητό κοτόπουλο", "fried chicken", "kotopoulo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/fried-chicken.png", difficulty: "easy" },
+    { answers: ["νάτσος", "nachos", "nacho"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/nachos.png", difficulty: "easy" },
+    { answers: ["ντάμπλινγκς", "dim sum", "dumplings", "dimsum"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/dim-sum.png", difficulty: "medium" },
+    { answers: ["παέγια", "paella", "παεγια"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/paella.png", difficulty: "medium" },
+    { answers: ["κεμπάπ", "kebab", "γύρος", "doner"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/kebab.png", difficulty: "easy" },
+    { answers: ["σπαγγέτι", "spaghetti", "μακαρονάδα", "pasta"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/spaghetti.png", difficulty: "easy" },
+    { answers: ["λαζάνια", "lasagna", "lazania"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/lasagna.png", difficulty: "easy" },
+    { answers: ["μπριζόλα", "steak", "mprizola"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/steak.png", difficulty: "easy" },
+    { answers: ["παϊδάκια", "bbq ribs", "ribs", "παιδακια"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/bbq-ribs.png", difficulty: "easy" },
+    { answers: ["ομελέτα", "omelette", "omelet", "omeleta"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/omelette.png", difficulty: "easy" },
+    { answers: ["σούπα", "soup", "soupa"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/soup.png", difficulty: "easy" },
+    { answers: ["εσπρέσο", "espresso", "καφές", "kafes"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/espresso.png", difficulty: "easy" },
+    { answers: ["μπαμπλ τι", "bubble tea", "boba", "boba tea"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/bubble-tea.png", difficulty: "medium" },
+    { answers: ["σμούθι", "smoothie", "smoothies"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/smoothie.png", difficulty: "easy" },
+    { answers: ["αναψυκτικό", "soda", "soda can", "anapsyktiko"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/soda-can.png", difficulty: "easy" },
+    { answers: ["μιλκσέικ", "milkshake", "milk shake"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/milkshake.png", difficulty: "easy" },
+    { answers: ["κοκτέιλ", "cocktail", "mojito", "kokteil"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cocktail.png", difficulty: "easy" },
+    { answers: ["μπύρα", "beer", "mpira", "μπιρα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/beer-mug.png", difficulty: "easy" },
+    { answers: ["κρασί", "wine", "krasi", "κόκκινο κρασί"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/wine-glass.png", difficulty: "easy" },
+    { answers: ["σαμπάνια", "champagne", "sampania"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/champagne.png", difficulty: "easy" },
+    { answers: ["χυμός πορτοκάλι", "orange juice", "zymos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/orange-juice.png", difficulty: "easy" },
+    { answers: ["νερό καρύδας", "coconut drink", "coconut"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/coconut-drink.png", difficulty: "medium" },
+    { answers: ["λεμονάδα", "lemonade", "lemonada"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/lemonade.png", difficulty: "easy" },
+    { answers: ["κρύος καφές", "iced coffee", "freddo", "iced latte"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/iced-coffee.png", difficulty: "easy" },
+    { answers: ["ζεστή σοκολάτα", "hot chocolate"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/hot-chocolate.png", difficulty: "easy" },
+    { answers: ["πράσινο τσάι", "green tea", "τσάι", "tsai"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/green-tea.png", difficulty: "easy" },
+    { answers: ["ουίσκι", "whiskey", "ouiski"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/whiskey.png", difficulty: "easy" },
+    { answers: ["ενεργειακό ποτό", "energy drink", "red bull"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/energy-drink.png", difficulty: "easy" },
+    { answers: ["γάλα", "milk", "gala", "κουτί γάλα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/milk-carton.png", difficulty: "easy" },
+    { answers: ["καπουτσίνο", "cappuccino"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cappuccino.png", difficulty: "easy" },
+    { answers: ["μηλίτης", "cider", "apple cider"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cider.png", difficulty: "medium" },
+    { answers: ["τυρί", "cheese", "tyri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cheese-block.png", difficulty: "easy" },
+    { answers: ["τοστ αβοκάντο", "avocado toast"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/avocado-toast.png", difficulty: "medium" },
+    { answers: ["σαλάτα", "salad", "salata"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/salad-bowl.png", difficulty: "easy" },
+    { answers: ["μπέιγκελ", "bagel", "bagels"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/bagel.png", difficulty: "easy" },
+    { answers: ["χούμους", "hummus", "choumous"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/hummus.png", difficulty: "medium" },
+    { answers: ["κάσιους", "cashews", "cashew"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/cashews.png", difficulty: "medium" },
+    { answers: ["πιτσάκι", "pizzetta", "mini pizza"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/pizzetta.png", difficulty: "easy" },
+    { answers: ["σπρινγκ ρολς", "spring rolls", "spring roll"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/spring-rolls.png", difficulty: "medium" },
+    { answers: ["φαλάφελ", "falafel"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/falafel.png", difficulty: "medium" },
+    { answers: ["γκουακαμόλε", "guacamole"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/guacamole.png", difficulty: "medium" },
+    { answers: ["πατατάκια", "potato chips", "chips", "patatakia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/potato-chips.png", difficulty: "easy" },
+    { answers: ["ποπ ταρτ", "pop tart", "poptart"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/pop-tart.png", difficulty: "hard" },
+    { answers: ["ξηροί καρποί", "trail mix", "nuts"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/trail-mix.png", difficulty: "medium" },
+    { answers: ["μπάρα δημητριακών", "granola bar", "cereal bar"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/granola-bar.png", difficulty: "easy" },
+    { answers: ["χοιρινή μπριζόλα", "pork chop", "pork chops"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/pork-chops.png", difficulty: "easy" },
+    { answers: ["γαρίδα", "shrimp", "prawn", "garida"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/shrimp.png", difficulty: "easy" },
+    { answers: ["σολομός", "salmon", "salmon steak"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/salmon-steak.png", difficulty: "easy" },
+    { answers: ["τοστ", "toast", "φρυγανισμένο ψωμί"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/toast.png", difficulty: "easy" },
+    { answers: ["βραστό αυγό", "boiled egg", "αυγό", "avgo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/boiled-egg.png", difficulty: "easy" },
+    { answers: ["φοντύ", "fondue", "fondue pot"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/food_desserts/fondue.png", difficulty: "medium" }
+],
+"Μουσικά Όργανα": [
+    { answers: ["ακουστική κιθάρα", "acoustic guitar", "κιθάρα", "kithara"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/acoustic-guitar.png", difficulty: "easy" },
+    { answers: ["ηλεκτρική κιθάρα", "electric guitar"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/electric-guitar.png", difficulty: "easy" },
+    { answers: ["μπάσο", "bass guitar", "bass"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/bass-guitar.png", difficulty: "easy" },
+    { answers: ["βιολί", "violin", "bioli"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/violin.png", difficulty: "easy" },
+    { answers: ["βιολοντσέλο", "cello", "βιολοντσελο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/cello.png", difficulty: "medium" },
+    { answers: ["κοντραμπάσο", "double bass", "kontrampaso"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/double-bass.png", difficulty: "medium" },
+    { answers: ["άρπα", "harp", "arpa"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/harp.png", difficulty: "easy" },
+    { answers: ["γιουκαλίλι", "ukulele"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/ukulele.png", difficulty: "easy" },
+    { answers: ["μπάντζο", "banjo", "mpantzo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/banjo.png", difficulty: "easy" },
+    { answers: ["μαντολίνο", "mandolin", "mantolino"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/mandolin.png", difficulty: "medium" },
+    { answers: ["μπουζούκι", "bouzouki", "mpouzouki"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/bouzouki.png", difficulty: "easy" },
+    { answers: ["λαούτο", "lute", "laouto"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/lute.png", difficulty: "medium" },
+    { answers: ["σιτάρ", "sitar"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/sitar.png", difficulty: "hard" },
+    { answers: ["μπαλαλάικα", "balalaika"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/balalaika.png", difficulty: "hard" },
+    { answers: ["λύρα", "lyre", "lyra"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/lyre.png", difficulty: "medium" },
+    { answers: ["σαντούρι", "zither", "santouri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/zither.png", difficulty: "hard" },
+    { answers: ["γκουζένγκ", "guzheng"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/guzheng.png", difficulty: "hard" },
+    { answers: ["βιόλα", "viola"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/viola.png", difficulty: "hard" },
+    { answers: ["σαμισέν", "shamisen"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/shamisen.png", difficulty: "hard" },
+    { answers: ["κόρα", "kora"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/kora.png", difficulty: "hard" },
+    { answers: ["πιάνο", "piano", "grand piano"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/grand-piano.png", difficulty: "easy" },
+    { answers: ["όρθιο πιάνο", "upright piano", "πιάνο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/upright-piano.png", difficulty: "easy" },
+    { answers: ["συνθεσάιζερ", "synthesizer", "αρμόνιο", "keyboard"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/synthesizer.png", difficulty: "easy" },
+    { answers: ["ακορντεόν", "accordion", "akorndeon"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/accordion.png", difficulty: "easy" },
+    { answers: ["φλάουτο", "flute", "flayouto"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/flute.png", difficulty: "easy" },
+    { answers: ["φλογέρα", "recorder", "flogera"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/recorder.png", difficulty: "easy" },
+    { answers: ["κλαρινέτο", "clarinet", "klarineto", "κλαρίνο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/clarinet.png", difficulty: "easy" },
+    { answers: ["σαξόφωνο", "saxophone", "sax"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/saxophone.png", difficulty: "easy" },
+    { answers: ["τρομπέτα", "trumpet", "trompeta"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/trumpet.png", difficulty: "easy" },
+    { answers: ["τρομπόνι", "trombone", "tromponi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/trombone.png", difficulty: "medium" },
+    { answers: ["γαλλικό κόρνο", "french horn", "κόρνο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/french-horn.png", difficulty: "hard" },
+    { answers: ["τούμπα", "tuba"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/tuba.png", difficulty: "medium" },
+    { answers: ["φυσαρμόνικα", "harmonica", "fysarmonika"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/harmonica.png", difficulty: "easy" },
+    { answers: ["γκάιντα", "bagpipes", "gkainta"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/bagpipes.png", difficulty: "easy" },
+    { answers: ["αυλός του πανός", "pan flute", "panflute"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/pan-flute.png", difficulty: "medium" },
+    { answers: ["όμποε", "oboe"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/oboe.png", difficulty: "hard" },
+    { answers: ["φαγκότο", "bassoon", "fagoto"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/bassoon.png", difficulty: "hard" },
+    { answers: ["ντιτζεριντού", "didgeridoo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/didgeridoo.png", difficulty: "hard" },
+    { answers: ["εκκλησιαστικό όργανο", "pipe organ", "organ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/pipe-organ.png", difficulty: "medium" },
+    { answers: ["μελόντικα", "melodica"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/melodica.png", difficulty: "hard" },
+    { answers: ["ντραμς", "drum set", "drums", "ntrams"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/drum-set.png", difficulty: "easy" },
+    { answers: ["ταμπούρλο", "snare drum", "tampourlo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/snare-drum.png", difficulty: "medium" },
+    { answers: ["μπότα", "bass drum", "mpota"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/bass-drum.png", difficulty: "medium" },
+    { answers: ["μπόνγκος", "bongo", "bongos", "mpongkos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/bongo.png", difficulty: "easy" },
+    { answers: ["κόνγκα", "conga", "congas"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/conga.png", difficulty: "hard" },
+    { answers: ["τζέμπε", "djembe"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/djembe.png", difficulty: "hard" },
+    { answers: ["ντέφι", "tambourine", "ntefi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/tambourine.png", difficulty: "easy" },
+    { answers: ["ξυλόφωνο", "xylophone", "ksylofono"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/xylophone.png", difficulty: "easy" },
+    { answers: ["μαρίμπα", "marimba"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/marimba.png", difficulty: "hard" },
+    { answers: ["γκλόκενσπιλ", "glockenspiel"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/glockenspiel.png", difficulty: "hard" },
+    { answers: ["τρίγωνο", "triangle"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/triangle.png", difficulty: "easy" },
+    { answers: ["πιάτα", "cymbals", "piata"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/cymbals.png", difficulty: "easy" },
+    { answers: ["μαράκες", "maracas", "marakes"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/maracas.png", difficulty: "easy" },
+    { answers: ["γκόνγκ", "gong"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/gong.png", difficulty: "easy" },
+    { answers: ["καστανιέτες", "castanets", "kastanietes"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/castanets.png", difficulty: "medium" },
+    { answers: ["τύμπανα ορχήστρας", "timpani"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/timpani.png", difficulty: "hard" },
+    { answers: ["στηλ ντραμ", "steel drum", "steelpan"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/steel-drum.png", difficulty: "hard" },
+    { answers: ["καλίμπα", "kalimba"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/kalimba.png", difficulty: "hard" },
+    { answers: ["χανγκ ντραμ", "hang drum", "handpan"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/hang-drum.png", difficulty: "hard" },
+    { answers: ["σωληνωτές καμπάνες", "tubular bells"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/tabular-bells.png", difficulty: "hard" },
+    { answers: ["θέρεμιν", "theremin"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/theremin.png", difficulty: "hard" },
+    { answers: ["πικ απ", "turntable", "pik ap"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/turntable.png", difficulty: "medium" },
+    { answers: ["κουδούνα", "cowbell"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/cowbell.png", difficulty: "medium" },
+    { answers: ["νταούλι", "daouli"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/tambour.png", difficulty: "medium" },
+    { answers: ["γκουίρο", "guiro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/guiro.png", difficulty: "hard" },
+    { answers: ["καμπάσα", "cabasa"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/cabasa.png", difficulty: "hard" },
+    { answers: ["αγκόγκο", "agogo", "agogo bells"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/agogo.png", difficulty: "hard" },
+    { answers: ["βιμπρασλάπ", "vibraslap"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/vibraslap.png", difficulty: "hard" },
+    { answers: ["κλάβες", "claves"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/claves.png", difficulty: "hard" },
+    { answers: ["βροχόπτωμα", "rainstick"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/rainstick.png", difficulty: "hard" },
+    { answers: ["κουδουνάκια", "sleigh bells"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/sleigh-bells.png", difficulty: "medium" },
+    { answers: ["καμπανέλες", "wind chimes"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/wind-chimes.png", difficulty: "medium" },
+    { answers: ["θιβετιανό μπολ", "singing bowl"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/singing-bowl.png", difficulty: "hard" },
+    { answers: ["τάμπλα", "tabla"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/tabla.png", difficulty: "hard" },
+    { answers: ["μποδράν", "bodhran"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/bodhran.png", difficulty: "hard" },
+    { answers: ["καχόν", "cajon"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/cajon.png", difficulty: "medium" },
+    { answers: ["καζού", "kazoo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/kazoo.png", difficulty: "medium" },
+    { answers: ["στοματική λύρα", "jaw harp"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/jaw-harp.png", difficulty: "hard" },
+    { answers: ["οκαρίνα", "ocarina"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/ocarina.png", difficulty: "hard" },
+    { answers: ["σοφάρ", "shofar"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/musical_instruments/shofar.png", difficulty: "hard" }
+],
+"Μεταφορικά Μέσα": [
+    { answers: ["αυτοκίνητο", "car", "autokinito"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/car.png", difficulty: "easy" },
+    { answers: ["φορτηγό", "truck", "fortigo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/truck.png", difficulty: "easy" },
+    { answers: ["λεωφορείο", "bus", "leoforeio"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/bus.png", difficulty: "easy" },
+    { answers: ["μοτοσυκλέτα", "motorcycle", "μηχανή", "mixani"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/motorcycle.png", difficulty: "easy" },
+    { answers: ["ποδήλατο", "bicycle", "bike", "podilato"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/bicycle.png", difficulty: "easy" },
+    { answers: ["πατίνι", "scooter", "patini"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/scooter.png", difficulty: "easy" },
+    { answers: ["ηλεκτρικό πατίνι", "electric scooter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/electric-scooter.png", difficulty: "easy" },
+    { answers: ["ταξί", "taxi", "cab"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/taxi.png", difficulty: "easy" },
+    { answers: ["ασθενοφόρο", "ambulance", "asthenoforo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/ambulance.png", difficulty: "easy" },
+    { answers: ["πυροσβεστικό", "fire truck", "pyrosvestiko"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/fire-truck.png", difficulty: "easy" },
+    { answers: ["περιπολικό", "police car", "peripoliko"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/police-car.png", difficulty: "easy" },
+    { answers: ["βαν", "van", "vanette"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/van.png", difficulty: "easy" },
+    { answers: ["τροχόσπιτο", "rv", "camper", "trochospito"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/rv.png", difficulty: "easy" },
+    { answers: ["τρακτέρ", "tractor", "trakter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/tractor.png", difficulty: "easy" },
+    { answers: ["σκουπιδιάρικο", "garbage truck"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/garbage-truck.png", difficulty: "medium" },
+    { answers: ["μπετονιέρα", "concrete mixer", "mpetoniera"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/concrete-mixer.png", difficulty: "medium" },
+    { answers: ["εκσκαφέας", "excavator", "τσάπα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/excavator.png", difficulty: "medium" },
+    { answers: ["μπουλντόζα", "bulldozer", "mpouldoza"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/bulldozer.png", difficulty: "medium" },
+    { answers: ["περονοφόρο", "forklift", "κλαρκ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/forklift.png", difficulty: "medium" },
+    { answers: ["γουρούνα", "atv", "quad"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/atv.png", difficulty: "medium" },
+    { answers: ["τρένο", "train", "treno"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/train.png", difficulty: "easy" },
+    { answers: ["μετρό", "subway", "metro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/subway.png", difficulty: "easy" },
+    { answers: ["τραμ", "tram", "streetcar"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/tram.png", difficulty: "easy" },
+    { answers: ["τρένο υψηλής ταχύτητας", "bullet train", "shinkansen"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/bullet-train.png", difficulty: "medium" },
+    { answers: ["μονορέιλ", "monorail"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/monorail.png", difficulty: "hard" },
+    { answers: ["τελεφερίκ", "cable car", "gondola"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/cable-car.png", difficulty: "medium" },
+    { answers: ["τελεφερίκ βουνού", "funicular"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/funicular.png", difficulty: "hard" },
+    { answers: ["ατμομηχανή", "steam train", "locomotive"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/steam-train.png", difficulty: "medium" },
+    { answers: ["μαγκλέβ", "maglev train"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/maglev.png", difficulty: "hard" },
+    { answers: ["δρεζίνα", "handcar"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/handcar.png", difficulty: "hard" },
+    { answers: ["αεροπλάνο", "airplane", "plane", "aeroplano"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/airplane.png", difficulty: "easy" },
+    { answers: ["ελικόπτερο", "helicopter", "elikoptero"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/helicopter.png", difficulty: "easy" },
+    { answers: ["αερόστατο", "hot air balloon", "aerostato"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/hot-air-balloon.png", difficulty: "easy" },
+    { answers: ["πύραυλος", "rocket", "pyravlos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/rocket.png", difficulty: "easy" },
+    { answers: ["ιδιωτικό τζετ", "private jet", "jet"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/private-jet.png", difficulty: "easy" },
+    { answers: ["υδροπλάνο", "seaplane"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/seaplane.png", difficulty: "medium" },
+    { answers: ["ανεμόπτερο", "glider"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/glider.png", difficulty: "hard" },
+    { answers: ["παραπέντε", "paraglider", "paragliding"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/paraglider.png", difficulty: "medium" },
+    { answers: ["πήγασος", "airship", "zeppelin", "ζεπελιν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/airship.png", difficulty: "hard" },
+    { answers: ["ντρόουν", "drone"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/drone.png", difficulty: "easy" },
+    { answers: ["πλοίο", "ship", "ploio", "καράβι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/ship.png", difficulty: "easy" },
+    { answers: ["κρουαζιερόπλοιο", "cruise ship"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/cruise-ship.png", difficulty: "easy" },
+    { answers: ["κοτερο", "yacht", "γιοτ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/yacht.png", difficulty: "easy" },
+    { answers: ["ιστιοφόρο", "sailboat", "istioforo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/sailboat.png", difficulty: "easy" },
+    { answers: ["υποβρύχιο", "submarine", "ypovrychio"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/submarine.png", difficulty: "easy" },
+    { answers: ["τζετ σκι", "jet ski", "jetski"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/jet-ski.png", difficulty: "easy" },
+    { answers: ["ταχύπλοο", "speedboat", "tachyploo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/speedboat.png", difficulty: "easy" },
+    { answers: ["βάρκα", "rowboat", "varka"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/rowboat.png", difficulty: "easy" },
+    { answers: ["καγιάκ", "kayak"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/kayak.png", difficulty: "medium" },
+    { answers: ["κανό", "canoe"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/canoe.png", difficulty: "medium" },
+    { answers: ["φεριμπότ", "ferry", "ferryboat"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/ferry.png", difficulty: "easy" },
+    { answers: ["αερόστρωμνο", "hovercraft"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/hovercraft.png", difficulty: "hard" },
+    { answers: ["αεροπλανοφόρο", "aircraft carrier"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/aircraft-carrier.png", difficulty: "medium" },
+    { answers: ["ρυμουλκό", "tugboat"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/tugboat.png", difficulty: "hard" },
+    { answers: ["φορτηγό πλοίο", "cargo ship", "container ship"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/cargo-ship.png", difficulty: "medium" },
+    { answers: ["γόνδολα", "gondola"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/gondola-boat.png", difficulty: "medium" },
+    { answers: ["σχεδία", "raft"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/raft.png", difficulty: "easy" },
+    { answers: ["καταμαράν", "catamaran"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/catamaran.png", difficulty: "medium" },
+    { answers: ["παγοθραυστικό", "icebreaker"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/icebreaker.png", difficulty: "hard" },
+    { answers: ["βαθυσκάφος", "bathyscaphe"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/bathyscaphe.png", difficulty: "hard" },
+    { answers: ["άμαξα", "carriage", "horse carriage"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/carriage.png", difficulty: "easy" },
+    { answers: ["έλκηθρο", "sleigh", "sled"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/sleigh.png", difficulty: "easy" },
+    { answers: ["ρίκσο", "rickshaw"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/rickshaw.png", difficulty: "hard" },
+    { answers: ["τουκ τουκ", "tuk tuk"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/tuk-tuk.png", difficulty: "medium" },
+    { answers: ["σεγκγουέι", "segway"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/segway.png", difficulty: "medium" },
+    { answers: ["χόβερμπορντ", "hoverboard"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/hoverboard.png", difficulty: "easy" },
+    { answers: ["μονόκυκλο", "unicycle"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/unicycle.png", difficulty: "medium" },
+    { answers: ["τάντεμ", "tandem bicycle"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/tandem-bike.png", difficulty: "hard" },
+    { answers: ["σνόουμομπιλ", "snowmobile"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/snowmobile.png", difficulty: "medium" },
+    { answers: ["διαστημικό λεωφορείο", "space shuttle"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/space-shuttle.png", difficulty: "medium" },
+    { answers: ["σεληνιακό όχημα", "lunar rover"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/lunar-rover.png", difficulty: "hard" },
+    { answers: ["τζιπ", "jeep", "4x4"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/jeep.png", difficulty: "easy" },
+    { answers: ["λιμουζίνα", "limousine", "limo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/limousine.png", difficulty: "easy" },
+    { answers: ["αγωνιστικό αυτοκίνητο", "race car", "formula 1"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/race-car.png", difficulty: "easy" },
+    { answers: ["γοργόνα", "go kart", "kart"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/go-kart.png", difficulty: "medium" },
+    { answers: ["μονότροχο", "monowheel"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/monowheel.png", difficulty: "hard" },
+    { answers: ["τζετ πακ", "jetpack"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/jetpack.png", difficulty: "hard" },
+    { answers: ["διπλάνο", "biplane"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/biplane.png", difficulty: "hard" },
+    { answers: ["τανκ", "tank", "άρμα μάχης"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/tank.png", difficulty: "easy" },
+    { answers: ["αμαξίδιο", "wheelchair"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/transportation/wheelchair.png", difficulty: "easy" }
+],
+"Επαγγέλματα": [
+    { answers: ["γιατρός", "doctor", "giatros"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/doctor.png", difficulty: "easy" },
+    { answers: ["νοσοκόμα", "nurse", "nosokoma"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/nurse.png", difficulty: "easy" },
+    { answers: ["πυροσβέστης", "firefighter", "pyrosvestis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/firefighter.png", difficulty: "easy" },
+    { answers: ["αστυνομικός", "police officer", "astynomikos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/police-officer.png", difficulty: "easy" },
+    { answers: ["δάσκαλος", "teacher", "daskalos", "καθηγητής"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/teacher.png", difficulty: "easy" },
+    { answers: ["μάγειρας", "chef", "cook", "mageiras"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/chef.png", difficulty: "easy" },
+    { answers: ["πιλότος", "pilot", "pilotos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/pilot.png", difficulty: "easy" },
+    { answers: ["αερονοσός", "flight attendant", "stewardess"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/flight-attendant.png", difficulty: "easy" },
+    { answers: ["αρχιτέκτονας", "architect"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/architect.png", difficulty: "medium" },
+    { answers: ["μηχανικός", "engineer", "michanikos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/engineer.png", difficulty: "medium" },
+    { answers: ["προγραμματιστής", "developer", "programmer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/programmer.png", difficulty: "medium" },
+    { answers: ["δικηγόρος", "lawyer", "dikigoros"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/lawyer.png", difficulty: "easy" },
+    { answers: ["δικαστής", "judge", "dikastis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/judge.png", difficulty: "easy" },
+    { answers: ["δημοσιογράφος", "journalist", "reporter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/journalist.png", difficulty: "medium" },
+    { answers: ["φωτογράφος", "photographer", "fotografos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/photographer.png", difficulty: "easy" },
+    { answers: ["ζωγράφος", "painter", "artist", "zografos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/painter.png", difficulty: "easy" },
+    { answers: ["μουσικός", "musician", "mousikos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/musician.png", difficulty: "easy" },
+    { answers: ["τραγουδιστής", "singer", "tragoudistis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/singer.png", difficulty: "easy" },
+    { answers: ["ηθοποιός", "actor", "actress", "ithopoios"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/actor.png", difficulty: "easy" },
+    { answers: ["χορευτής", "dancer", "choreographer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/dancer.png", difficulty: "easy" },
+    { answers: ["αγρότης", "farmer", "agrotis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/farmer.png", difficulty: "easy" },
+    { answers: ["ψαράς", "fisherman", "psaras"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/fisherman.png", difficulty: "easy" },
+    { answers: ["κτηνίατρος", "vet", "veterinarian"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/vet.png", difficulty: "easy" },
+    { answers: ["οδοντίατρος", "dentist", "odontiatros"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/dentist.png", difficulty: "easy" },
+    { answers: ["φαρμακοποιός", "pharmacist", "farmakopoios"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/pharmacist.png", difficulty: "easy" },
+    { answers: ["κομμωτής", "hairdresser", "barber", "κομμώτρια"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/hairdresser.png", difficulty: "easy" },
+    { answers: ["μακιγιέρ", "makeup artist"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/makeup-artist.png", difficulty: "medium" },
+    { answers: ["μοντέλο", "model"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/model.png", difficulty: "easy" },
+    { answers: ["σχεδιαστής μόδας", "fashion designer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/fashion-designer.png", difficulty: "medium" },
+    { answers: ["ράφτης", "tailor", "raftis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/tailor.png", difficulty: "medium" },
+    { answers: ["μηχανικός αυτοκινήτων", "mechanic"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/mechanic.png", difficulty: "easy" },
+    { answers: ["ηλεκτρολόγος", "electrician"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/electrician.png", difficulty: "easy" },
+    { answers: ["υδραυλικός", "plumber", "ydravlikos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/plumber.png", difficulty: "easy" },
+    { answers: ["ξυλουργός", "carpenter", "ksylourgos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/carpenter.png", difficulty: "medium" },
+    { answers: ["χτίστης", "construction worker", "builder"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/construction-worker.png", difficulty: "easy" },
+    { answers: ["ελαιοχρωματιστής", "painter worker", "μπογιατζής"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/house-painter.png", difficulty: "medium" },
+    { answers: ["σιδεράς", "blacksmith", "sideras"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/blacksmith.png", difficulty: "hard" },
+    { answers: ["συγκολλητής", "welder"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/welder.png", difficulty: "hard" },
+    { answers: ["ταχυδρόμος", "postman", "mail carrier"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/postman.png", difficulty: "easy" },
+    { answers: ["ντελίβερι", "delivery driver", "courier"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/delivery-driver.png", difficulty: "easy" },
+    { answers: ["αστροναύτης", "astronaut", "astronaftis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/astronaut.png", difficulty: "easy" },
+    { answers: ["επιστήμονας", "scientist", "epistimonas"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/scientist.png", difficulty: "easy" },
+    { answers: ["χημικός", "chemist"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/chemist.png", difficulty: "medium" },
+    { answers: ["αρχαιολόγος", "archaeologist"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/archaeologist.png", difficulty: "hard" },
+    { answers: ["ανιχνευτής", "detective", "investigator"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/detective.png", difficulty: "easy" },
+    { answers: ["κατάσκοπος", "spy", "agent"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/spy.png", difficulty: "easy" },
+    { answers: ["στρατιώτης", "soldier", "stratiotis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/soldier.png", difficulty: "easy" },
+    { answers: ["ναυαγοσώστης", "lifeguard"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/lifeguard.png", difficulty: "easy" },
+    { answers: ["γυμναστής", "fitness trainer", "gym trainer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/fitness-trainer.png", difficulty: "easy" },
+    { answers: ["προπονητής", "coach", "proponitis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/coach.png", difficulty: "easy" },
+    { answers: ["ταμίας", "cashier", "tamias"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/cashier.png", difficulty: "easy" },
+    { answers: ["σερβιτόρος", "waiter", "waitress", "servitoros"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/waiter.png", difficulty: "easy" },
+    { answers: ["μπαρίστα", "barista"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/barista.png", difficulty: "easy" },
+    { answers: ["μπάρμαν", "bartender", "barman"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/bartender.png", difficulty: "easy" },
+    { answers: ["αρτοποιός", "baker", "φούρναρης"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/baker.png", difficulty: "easy" },
+    { answers: ["ζαχαροπλάστης", "pastry chef"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/pastry-chef.png", difficulty: "medium" },
+    { answers: ["κρεοπώλης", "butcher", "χασάπης"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/butcher.png", difficulty: "easy" },
+    { answers: ["ανθοπώλης", "florist"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/florist.png", difficulty: "medium" },
+    { answers: ["κηπουρός", "gardener", "kipouros"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/gardener.png", difficulty: "easy" },
+    { answers: ["καθαριστής", "cleaner", "janitor"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/cleaner.png", difficulty: "easy" },
+    { answers: ["θυρωρός", "doorman", "concierge"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/doorman.png", difficulty: "medium" },
+    { answers: ["σεκιούριτι", "security guard", "security"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/security-guard.png", difficulty: "easy" },
+    { answers: ["βοσκός", "shepherd", "voskos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/shepherd.png", difficulty: "easy" },
+    { answers: ["μελισσοκόμος", "beekeeper"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/beekeeper.png", difficulty: "hard" },
+    { answers: ["υλοτόμος", "lumberjack", "ξυλοκόπος"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/lumberjack.png", difficulty: "medium" },
+    { answers: ["ανθρακωρύχος", "miner"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/miner.png", difficulty: "hard" },
+    { answers: ["δυτής", "diver", "scuba diver"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/diver.png", difficulty: "medium" },
+    { answers: ["ναυτικός", "sailor", "naftikos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/sailor.png", difficulty: "easy" },
+    { answers: ["καπετάνιος", "captain"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/captain.png", difficulty: "easy" },
+    { answers: ["οδηγός ταξί", "taxi driver"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/taxi-driver.png", difficulty: "easy" },
+    { answers: ["μάγος", "magician", "magos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/magician.png", difficulty: "easy" },
+    { answers: ["κλόουν", "clown", "kloun"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/clown.png", difficulty: "easy" },
+    { answers: ["ακροβάτης", "acrobat"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/acrobat.png", difficulty: "medium" },
+    { answers: ["θηριοδαμαστής", "lion tamer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/lion-tamer.png", difficulty: "hard" },
+    { answers: ["κουκλοπαίχτης", "puppeteer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/puppeteer.png", difficulty: "hard" },
+    { answers: ["μετεωρολόγος", "meteorologist"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/meteorologist.png", difficulty: "hard" },
+    { answers: ["αστρονόμος", "astronomer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/astronomer.png", difficulty: "hard" },
+    { answers: ["παλαιοντολόγος", "paleontologist"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/paleontologist.png", difficulty: "hard" },
+    { answers: ["βιολόγος", "biologist"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/biologist.png", difficulty: "medium" },
+    { answers: ["γεωλόγος", "geologist"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/professions/geologist.png", difficulty: "hard" }
+],
+"Cartoons & Anime": [
+    { "answers": ["all might", "ολ μαϊτ", "almight"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/All%20Might.jpg", "difficulty": "medium" },
+    { "answers": ["astro boy", "αστρο μποι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Astro%20Boy.jpg", "difficulty": "medium" },
+    { "answers": ["bart simpson", "μπαρτ σιμπσον", "bart"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Bart%20Simpson.jpg", "difficulty": "easy" },
+    { "answers": ["beast boy", "μπιστ μποι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Beast%20Boy.jpg", "difficulty": "medium" },
+    { "answers": ["ben 10", "μπεν 10", "ben ten"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Ben%2010.jpg", "difficulty": "easy" },
+    { "answers": ["bowser", "μπαουζερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Bowser.jpg", "difficulty": "easy" },
+    { "answers": ["bugs bunny", "μπαγκς μπανι", "bugs"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Bugs%20Bunny.jpg", "difficulty": "easy" },
+    { "answers": ["courage the cowardly dog", "θαρραλεος ο αστεος σκυλος", "courage", "θαρραλεος"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Courage%20the%20Cowardly%20Dog.jpg", "difficulty": "easy" },
+    { "answers": ["daffy duck", "νταφι ντακ", "daffy"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Daffy%20Duck.jpg", "difficulty": "easy" },
+    { "answers": ["danny phantom", "ντανι φαντομ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Danny%20Phantom.jpg", "difficulty": "medium" },
+    { "answers": ["deku", "ντεκου", "midoriya"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Deku.jpg", "difficulty": "medium" },
+    { "answers": ["minion", "μινιον", "despicable me minion"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Despicable%20Me%20Minion.jpg", "difficulty": "easy" },
+    { "answers": ["dexter", "ντεξτερ", "dexter laboratory"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Dexter%20Laboratory.jpg", "difficulty": "easy" },
+    { "answers": ["donkey", "γαιδαρος", "gaidaros", "shrek donkey"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Donkey.jpg", "difficulty": "easy" },
+    { "answers": ["eren yeager", "ερεν", "eren"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Eren%20Yeager.jpg", "difficulty": "medium" },
+    { "answers": ["ferb", "φερμπ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Ferb.jpg", "difficulty": "easy" },
+    { "answers": ["finn", "φιν", "finn the human"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Finn%20the%20Human.jpg", "difficulty": "easy" },
+    { "answers": ["fiona", "φιονα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Fiona.jpg", "difficulty": "easy" },
+    { "answers": ["gojo satoru", "γκοτζο", "gojo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Gojo%20Satoru.jpg", "difficulty": "medium" },
+    { "answers": ["goku", "γκοκου"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Goku.jpg", "difficulty": "easy" },
+    { "answers": ["dipper", "ντιπερ", "gravity falls dipper"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Gravity%20Falls%20Dipper.jpg", "difficulty": "medium" },
+    { "answers": ["gru", "γκρου"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Gru.jpg", "difficulty": "easy" },
+    { "answers": ["homer simpson", "χομερ σιμπσον", "homer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Homer%20Simpson.jpg", "difficulty": "easy" },
+    { "answers": ["inspector gadget", "αστυνομος ακανθας", "gadget", "inspector"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Inspector%20Gadget.jpg", "difficulty": "easy" },
+    { "answers": ["jake", "τζεικ", "jake the dog"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Jake%20the%20Dog.jpg", "difficulty": "easy" },
+    { "answers": ["jerry", "τζερι", "jerry mouse"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Jerry%20Mouse.jpg", "difficulty": "easy" },
+    { "answers": ["johnny bravo", "τζονι μπραβο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Johnny%20Bravo.jpg", "difficulty": "easy" },
+    { "answers": ["kim possible", "κιμ ποσιμπλ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Kim%20Possible.jpg", "difficulty": "easy" },
+    { "answers": ["knuckles", "νακλς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Knuckles.jpg", "difficulty": "easy" },
+    { "answers": ["l", "lawliet", "ελ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/L%20Lawliet.jpg", "difficulty": "medium" },
+    { "answers": ["levi", "λεβαι", "levi ackerman"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Levi%20Ackerman.jpg", "difficulty": "medium" },
+    { "answers": ["link", "λινκ", "zelda link"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Link%20Zelda.jpg", "difficulty": "easy" },
+    { "answers": ["luffy", "λουφυ", "monkey d luffy"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Luffy.jpg", "difficulty": "easy" },
+    { "answers": ["luigi", "λουιτζι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Luigi.jpg", "difficulty": "easy" },
+    { "answers": ["megaman", "μεγκαμαν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Megaman.jpg", "difficulty": "medium" },
+    { "answers": ["megamind", "μεγκαμαιντ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Megamind.jpg", "difficulty": "easy" },
+    { "answers": ["mordecai", "μορντεκαϊ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Mordecai.jpg", "difficulty": "easy" },
+    { "answers": ["naruto", "ναρουτο", "naruto uzumaki"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Naruto%20Uzumaki.jpg", "difficulty": "easy" },
+    { "answers": ["nezuko", "νεζουκο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Nezuko.jpg", "difficulty": "medium" },
+    { "answers": ["pac-man", "pacman", "πακμαν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Pac-Man.jpg", "difficulty": "easy" },
+    { "answers": ["patrick", "πατρικ", "patrick star"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Patrick%20Star.jpg", "difficulty": "easy" },
+    { "answers": ["peter griffin", "πιτερ γκριφιν", "peter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Peter%20Griffin.jpg", "difficulty": "easy" },
+    { "answers": ["pink panther", "ροζ πανθηρας", "roz panthiras"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Pink%20Panther.jpg", "difficulty": "easy" },
+    { "answers": ["po", "πο", "kung fu panda"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Po%20Kung%20Fu%20Panda.jpg", "difficulty": "easy" },
+    { "answers": ["powerpuff girls", "παουερπαφ γκερλς", "powerpuff"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Powerpuff%20Girls.jpg", "difficulty": "easy" },
+    { "answers": ["zelda", "πριγκιπισσα ζελντα", "princess zelda"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Princess%20Zelda.jpg", "difficulty": "easy" },
+    { "answers": ["raven", "ρειβεν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Raven%20Teen%20Titans.jpg", "difficulty": "medium" },
+    { "answers": ["rick", "ρικ", "rick sanchez"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Rick%20Sanchez.jpg", "difficulty": "easy" },
+    { "answers": ["rigby", "ριγκμπι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Rigby.jpg", "difficulty": "easy" },
+    { "answers": ["road runner", "ροντ ρανερ", "μπιπ μπιπ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Road%20Runner.jpg", "difficulty": "easy" },
+    { "answers": ["robin", "ρομπιν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Robin%20Teen%20Titans.jpg", "difficulty": "easy" },
+    { "answers": ["saitama", "σαϊταμα", "one punch man"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Saitama.jpg", "difficulty": "easy" },
+    { "answers": ["samurai jack", "σαμουραι τζακ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Samurai%20Jack.jpg", "difficulty": "medium" },
+    { "answers": ["sasuke", "σασουκε", "sasuke uchiha"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Sasuke%20Uchiha.jpg", "difficulty": "easy" },
+    { "answers": ["scooby-doo", "σκουμπι ντου", "scooby doo", "scooby"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Scooby-Doo.jpg", "difficulty": "easy" },
+    { "answers": ["shaggy", "σαγκι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Shaggy.jpg", "difficulty": "easy" },
+    { "answers": ["shrek", "σρεκ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Shrek.jpg", "difficulty": "easy" },
+    { "answers": ["snoopy", "σνουπι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Snoopy.jpg", "difficulty": "easy" },
+    { "answers": ["spongebob", "μπομπ σφουγγαρακης", "spongebob squarepants", "μπόμπης"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/SpongeBob%20SquarePants.jpg", "difficulty": "easy" },
+    { "answers": ["squidward", "καλαμαρης", "kalamaris"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Squidward.jpg", "difficulty": "easy" },
+    { "answers": ["starfire", "σταρφαϊρ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Starfire.jpg", "difficulty": "medium" },
+    { "answers": ["steven universe", "στιβεν γιουνιβερς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Steven%20Universe.jpg", "difficulty": "medium" },
+    { "answers": ["mario", "μαριο", "super mario"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Super%20Mario.jpg", "difficulty": "easy" },
+    { "answers": ["tails", "τειλς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Tails.jpg", "difficulty": "easy" },
+    { "answers": ["tanjiro", "ταντζιρο", "tanjiro kamado"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Tanjiro%20Kamado.jpg", "difficulty": "medium" },
+    { "answers": ["tom", "τομ", "tom cat"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Tom%20Cat.jpg", "difficulty": "easy" },
+    { "answers": ["vegeta", "βετζετα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Vegeta.jpg", "difficulty": "easy" },
+    { "answers": ["wile e coyote", "κογιοτ", "coyote"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Wile%20E%20Coyote.jpg", "difficulty": "easy" },
+    { "answers": ["zoro", "ζορο", "roronoa zoro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/cartoons-anime/Zoro.jpg", "difficulty": "easy" }
+],
+"Ηχοι": [
+  { "answers": ["αεροπλάνο", "airplane", "aeroplano", "αεροπλανο"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/airplane-flyby.m4a", "difficulty": "easy" },
+  { "answers": ["ξυπνητήρι", "alarm clock", "ksypnitiri"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/alarm-clock.m4a", "difficulty": "easy" },
+  { "answers": ["ασθενοφόρο", "σειρήνα ασθενοφόρου", "ambulance", "asthanoforo"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/ambulance-siren.m4a", "difficulty": "easy" },
+  { "answers": ["χειροκρότημα", "applause", "clapping", "chirokrotima"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/applause-clapping.m4a", "difficulty": "easy" },
+  { "answers": ["χιονοστιβάδα", "avalanche", "chionostivada"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/avalanche.m4a", "difficulty": "hard" },
+  { "answers": ["μέλισσα", "bee", "melissa"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/bee-buzzing.m4a", "difficulty": "easy" },
+  { "answers": ["κουδούνι ποδηλάτου", "κουδούνι", "bicycle bell", "koudouni"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/bicycle-bell.m4a", "difficulty": "easy" },
+  { "answers": ["νερό που κοχλάζει", "κοχλασμός", "bubbling water"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/bubbling-water.m4a", "difficulty": "medium" },
+  { "answers": ["φωτογραφική μηχανή", "κλικ μηχανής", "camera shutter", "fotografiki"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/camera-shutter.m4a", "difficulty": "easy" },
+  { "answers": ["τρακάρισμα", "τροχαίο", "car crash", "trakarisma"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/car-crash.m4a", "difficulty": "easy" },
+  { "answers": ["κόρνα αυτοκινήτου", "κόρνα", "car horn", "korna"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/car-horn.m4a", "difficulty": "easy" },
+  { "answers": ["στριγγλισμα ελαστικών", "φρενάρισμα", "car skid"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/car-skid.m4a", "difficulty": "medium" },
+  { "answers": ["ταμειακή μηχανή", "ταμείο", "cash register", "tamieaki"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/cash-register.m4a", "difficulty": "easy" },
+  { "answers": ["γάτα", "γατάκι", "cat", "gata", "νιάου"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/cat-meow.m4a", "difficulty": "easy" },
+  { "answers": ["βήχας", "coughing", "vichas"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/coughing.m4a", "difficulty": "easy" },
+  { "answers": ["αγελάδα", "cow", "agelada", "μούγκρισμα"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/cow-moo.m4a", "difficulty": "easy" },
+  { "answers": ["φωτιά", "τζάκι", "crackling fire", "fotia", "tzaki"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/crackling-fire.m4a", "difficulty": "easy" },
+  { "answers": ["τσιζόνια", "γρύλος", "crickets", "grylos"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/crickets-night.m4a", "difficulty": "easy" },
+  { "answers": ["κοράκι", "crow", "koraki"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/crow-cawing.m4a", "difficulty": "medium" },
+  { "answers": ["σκύλος", "σκυλί", "dog", "skylos", "γάβγισμα"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/dog-barking.m4a", "difficulty": "easy" },
+  { "answers": ["δελφίνι", "dolphin", "delfini"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/dolphin-clicking.m4a", "difficulty": "hard" },
+  { "answers": ["γάιδαρος", "donkey", "gaidaros"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/donkey-braying.m4a", "difficulty": "easy" },
+  { "answers": ["τρίξιμο πόρτας", "πόρτα", "door creak", "porta"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/door-creak.m4a", "difficulty": "medium" },
+  { "answers": ["κουδούνι πόρτας", "κουδούνι", "doorbell", "koudouni"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/doorbell.m4a", "difficulty": "easy" },
+  { "answers": ["πάπια", "duck", "papia"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/duck-quack.m4a", "difficulty": "easy" },
+  { "answers": ["σεισμός", "earthquake", "seismos"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/earthquake.m4a", "difficulty": "hard" },
+  { "answers": ["ελέφαντας", "elephant", "elefantas"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/elephant-trumpet.m4a", "difficulty": "easy" },
+  { "answers": ["πυροσβεστικό", "σειρήνα πυροσβεστικής", "fire truck"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/fire-truck-siren.m4a", "difficulty": "easy" },
+  { "answers": ["βήματα στο χιόνι", "βήματα", "footsteps snow"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/footsteps-snow.m4a", "difficulty": "hard" },
+  { "answers": ["βήματα σε ξύλο", "βήματα", "footsteps wood"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/footsteps-wood.m4a", "difficulty": "medium" },
+  { "answers": ["βάτραχος", "frog", "vatrachos"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/frog-croaking.m4a", "difficulty": "easy" },
+  { "answers": ["γκέιζερ", "geyser"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/geyser-eruption.m4a", "difficulty": "hard" },
+  { "answers": ["σπάσιμο γυαλιού", "γυαλί που σπάει", "glass breaking"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/glass-breaking.m4a", "difficulty": "easy" },
+  { "answers": ["σφυρί", "σφυρί και καρφί", "hammer"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/hammer-nail.m4a", "difficulty": "medium" },
+  { "answers": ["ελικόπτερο", "helicopter", "elikoptero"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/helicopter-rotor.m4a", "difficulty": "easy" },
+  { "answers": ["άλογο", "horse", "alogo", "χρεμέτισμα"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/horse-neigh.m4a", "difficulty": "easy" },
+  { "answers": ["τζετ", "μαχητικό αεροπλάνο", "jet engine"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/jet-engine.m4a", "difficulty": "medium" },
+  { "answers": ["γέλιο", "laughter", "gelio"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/laughter.m4a", "difficulty": "easy" },
+  { "answers": ["λιοντάρι", "lion", "liontari", "βρυχηθμός"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/lion-roar.m4a", "difficulty": "easy" },
+  { "answers": ["φούρνος μικροκυμάτων", "microwave"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/microwave-beep.m4a", "difficulty": "medium" },
+  { "answers": ["μαϊμού", "monkey", "maimou"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/monkey-screaming.m4a", "difficulty": "easy" },
+  { "answers": ["μοτοσικλέτα", "μηχανή", "motorcycle"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/motorcycle-revving.m4a", "difficulty": "easy" },
+  { "answers": ["κουκουβάγια", "owl", "koukouvagia"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/owl-hooting.m4a", "difficulty": "medium" },
+  { "answers": ["γουρούνι", "pig", "gourouni"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/pig-oink.m4a", "difficulty": "easy" },
+  { "answers": ["περιπολικό", "σειρήνα αστυνομίας", "police siren"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/police-siren.m4a", "difficulty": "easy" },
+  { "answers": ["αγωνιστικό αυτοκίνητο", "race car"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/race-car-pass.m4a", "difficulty": "medium" },
+  { "answers": ["κόκορας", "rooster", "kokoras"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/rooster-crowing.m4a", "difficulty": "easy" },
+  { "answers": ["ψαλίδι", "scissors", "psalidi"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/scissors-cutting.m4a", "difficulty": "medium" },
+  { "answers": ["μηχανάκι", "scooter horn", "skouter"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/scooter-horn.m4a", "difficulty": "medium" },
+  { "answers": ["πρόβατο", "sheep", "provato", "μπέε"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/sheep-baa.m4a", "difficulty": "easy" },
+  { "answers": ["κόρνα πλοίου", "πλοίο", "ship horn", "ploio"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/ship-horn.m4a", "difficulty": "medium" },
+  { "answers": ["φίδι", "snake", "fidi"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/snake-hissing.m4a", "difficulty": "easy" },
+  { "answers": ["φτέρνισμα", "sneezing", "fternisma"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/sneezing.m4a", "difficulty": "easy" },
+  { "answers": ["ροχαλητό", "snoring", "rochalito"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/snoring.m4a", "difficulty": "easy" },
+  { "answers": ["ατμοκίνητο τρένο", "ατμομηχανή", "steam train"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/steam-train.m4a", "difficulty": "medium" },
+  { "answers": ["δυνατός άνεμος", "αέρας", "strong wind", "aeras"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/strong-wind.m4a", "difficulty": "easy" },
+  { "answers": ["μετρό", "subway", "metro"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/subway-train.m4a", "difficulty": "medium" },
+  { "answers": ["τηλέφωνο", "κουδούνισμα τηλεφώνου", "telephone ring"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/telephone-ring.m4a", "difficulty": "easy" },
+  { "answers": ["καταιγίδα", "κεραυνός", "thunderstorm", "kataigida"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/thunderstorm.m4a", "difficulty": "easy" },
+  { "answers": ["ανεμοστρόβιλος", "tornado"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/tornado-wind.m4a", "difficulty": "hard" },
+  { "answers": ["τρακτέρ", "tractor", "trakter"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/tractor-engine.m4a", "difficulty": "medium" },
+  { "answers": ["τρένο", "κόρνα τρένου", "train horn", "treno"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/train-horn.m4a", "difficulty": "easy" },
+  { "answers": ["φορτηγό", "κόρνα φορτηγού", "truck horn"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/truck-horn.m4a", "difficulty": "easy" },
+  { "answers": ["ηφαίστειο", "έκρηξη ηφαιστείου", "volcano"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/volcano-eruption.m4a", "difficulty": "hard" },
+  { "answers": ["περπάτημα σε φύλλα", "ξερά φύλλα", "walking leaves"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/walking-leaves.m4a", "difficulty": "hard" },
+  { "answers": ["πλατσούρισμα", "νερό", "water splash"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/water-splash.m4a", "difficulty": "medium" },
+  { "answers": ["ρυάκι", "τρεχούμενο νερό", "water stream"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/water-stream.m4a", "difficulty": "medium" },
+  { "answers": ["μενταγιόν ανέμου", "μουσικά καμπανάκια", "wind chimes"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/wind-chimes.m4a", "difficulty": "hard" },
+  { "answers": ["λύκος", "ουρλιαχτό λύκου", "wolf howl", "lykos"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/wolf-howl.m4a", "difficulty": "easy" },
+  { "answers": ["φερμουάρ", "zipper", "fermouar"], "audio": "https://broad-cloud-2097.takisparas32.workers.dev/sounds/zipper-opening.m4a", "difficulty": "medium" }
+],
+"Σήματα ΚΟΚ": [
+    // --- ΠΙΝΑΚΙΔΕΣ ΑΝΑΓΓΕΛΙΑΣ ΚΙΝΔΥΝΟΥ (Κ) ---
+    { answers: ["επικίνδυνη αριστερή στροφή", "k1", "k-1", "dangerous left turn"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k1-dangerous-left-turn.png", difficulty: "easy" },
+    { answers: ["διπλή στροφή δεξιά", "k4", "k-4", "double turn right"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k4-double-turn-first-right.png", difficulty: "medium" },
+    { answers: ["απότομη κατηφόρα", "επικίνδυνη κατηφόρα", "k5", "k-5", "steep descent"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k5-steep-descent.png", difficulty: "medium" },
+    { answers: ["απότομη ανηφόρα", "επικίνδυνη ανηφόρα", "k6", "k-6", "steep ascent"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k6-steep-ascent.png", difficulty: "medium" },
+    { answers: ["στενώσεις δρόμου", "στένωση οδοστρώματος", "k7", "k-7", "road narrows"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k7-road-narrows-both-sides.png", difficulty: "easy" },
+    { answers: ["στένωση δεξιά", "στένωση οδοστρώματος δεξιά", "k8", "k-8", "road narrows right"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k8-road-narrows-right.png", difficulty: "medium" },
+    { answers: ["κινητή γέφυρα", "k9", "k-9", "opening bridge"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k9-opening-bridge.png", difficulty: "hard" },
+    { answers: ["ανώμαλο οδόστρωμα", "σαμαράκια", "k11", "k-11", "uneven road"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k11-hump-bridge-uneven-road.png", difficulty: "easy" },
+    { answers: ["ολισθηρό οδόστρωμα", "ολισθηρός δρόμος", "k12", "k-12", "slippery road"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k12-slippery-road.png", difficulty: "easy" },
+    { answers: ["εκτινασσόμενα χαλίκια", "k13", "k-13", "loose chippings"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k13-loose-chippings.png", difficulty: "hard" },
+    { answers: ["πτώση βράχων", "k14", "k-14", "falling rocks"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k14-falling-rocks.png", difficulty: "easy" },
+    { answers: ["παιδιά", "προσοχή παιδιά", "k16", "k-16", "children crossing"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k16-children-crossing.png", difficulty: "easy" },
+    { answers: ["ζώα", "κοπάδια", "k18", "k-18", "cattle"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k18-cattle-animals.png", difficulty: "medium" },
+    { answers: ["άγρια ζώα", "k19", "k-19", "wild animals"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k19-wild-animals.png", difficulty: "easy" },
+    { answers: ["προσοχή φωτεινοί σηματοδότες", "k21", "k-21", "traffic signals warning"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k21-traffic-signals.png", difficulty: "easy" },
+    { answers: ["χαμηλές πτήσεις", "k22", "k-22", "low flying aircraft"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k22-low-flying-aircraft.png", difficulty: "medium" },
+    { answers: ["ισχυρός άνεμος", "πλευρικοί άνεμοι", "k23", "k-23", "crosswinds"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/k23-crosswinds.png", difficulty: "hard" },
 
-    birds: [
+    // --- ΡΥΘΜΙΣΤΙΚΕΣ ΠΙΝΑΚΙΔΕΣ (Ρ) ---
+    { answers: ["stop", "στοπ", "r1", "r-1"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r1-stop-sign.png", difficulty: "easy" },
+    { answers: ["παραχώρηση προτεραιότητας", "υποχρεωτική παραχώρηση προτεραιότητας", "r2", "r-2", "yield", "give way"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r2-give-way-yield.png", difficulty: "easy" },
+    { answers: ["οδός προτεραιότητας", "r3", "r-3", "priority road"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r3-priority-road.png", difficulty: "medium" },
+    { answers: ["απαγορεύεται η είσοδος", "απαγορευτικό", "r5", "r-5", "no entry"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r5-no-entry.png", difficulty: "easy" },
+    { answers: ["κλειστό για όλα τα οχήματα", "απαγόρευση κυκλοφορίας", "r6", "r-6", "no vehicles"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r6-no-vehicles-both-ways.png", difficulty: "medium" },
+    { answers: ["απαγορεύονται τα μηχανοκίνητα οχήματα", "r7", "r-7", "no motor vehicles"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r7-no-motor-vehicles.png", difficulty: "medium" },
+    { answers: ["απαγορεύονται οι μοτοσυκλέτες", "r8", "r-8", "no motorcycles"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r8-no-motorcycles.png", difficulty: "easy" },
+    { answers: ["απαγορεύονται οι πεζοί", "r10", "r-10", "no pedestrians"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r10-no-pedestrians.png", difficulty: "easy" },
+    { answers: ["απαγορεύονται τα φορτηγά", "r11", "r-11", "no trucks"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r11-no-trucks.png", difficulty: "easy" },
+    { answers: ["απαγορεύεται η στροφή αριστερά", "r12", "r-12", "no left turn"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r12-no-left-turn.png", difficulty: "easy" },
+    { answers: ["απαγορεύεται η στροφή δεξιά", "r13", "r-13", "no right turn"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r13-no-right-turn.png", difficulty: "easy" },
+    { answers: ["απαγορεύεται το προσπέρασμα", "r15", "r-15", "no overtaking"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r15-no-overtaking.png", difficulty: "easy" },
+    { answers: ["όριο ταχύτητας 30", "r16", "r-16", "speed limit 30"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r16-speed-limit-30.png", difficulty: "easy" },
+    { answers: ["όριο ταχύτητας 50", "r17", "r-17", "speed limit 50"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r17-speed-limit-50.png", difficulty: "easy" },
+    { answers: ["όριο ταχύτητας 100", "r19", "r-19", "speed limit 100"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r19-speed-limit-100.png", difficulty: "easy" },
+    { answers: ["απαγορεύεται το κορνάρισμα", "απαγόρευση ηχητικών σημάτων", "r20", "r-20", "no honking"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r20-no-honking-horns.png", difficulty: "medium" },
+    { answers: ["απαγορεύεται η στάθμευση", "απαγόρευση παρκαρίσματος", "r22", "r-22", "no parking"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r22-no-parking.png", difficulty: "easy" },
+    { answers: ["υποχρεωτική πορεία ευθεία", "μόνο ευθεία", "r23", "r-23", "proceed straight"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r23-proceed-straight-only.png", difficulty: "easy" },
+    { answers: ["υποχρεωτική πορεία αριστερά", "r24", "r-24", "turn left mandatory"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r24-turn-left-ahead.png", difficulty: "easy" },
+    { answers: ["υποχρεωτική πορεία δεξιά", "r25", "r-25", "turn right mandatory"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r25-turn-right-ahead.png", difficulty: "easy" },
+    { answers: ["κυκλική υποχρεωτική διαδρομή", "κυκλικός κόμβος", "r26", "r-26", "roundabout mandatory"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r26-roundabout-mandatory.png", difficulty: "easy" },
+    { answers: ["υποχρεωτικό πέρασμα από δεξιά", "περάστε από δεξιά", "r27", "r-27", "keep right"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r27-pass-on-this-side-right.png", difficulty: "medium" },
+    { answers: ["ελάχιστη υποχρεωτική ταχύτητα 30", "ελάχιστη ταχύτητα 30", "r28", "r-28", "minimum speed 30"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r28-minimum-speed-limit-30.png", difficulty: "hard" },
+    { answers: ["ποδηλατόδρομος", "υποχρεωτική διαδρομή ποδηλάτων", "r29", "r-29", "cycle path"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r29-compulsory-cycle-path.png", difficulty: "easy" },
+    { answers: ["πεζόδρομος", "υποχρεωτική διαδρομή πεζών", "r30", "r-30", "footpath"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/r30-compulsory-footpath.png", difficulty: "easy" },
+
+    // --- ΠΛΗΡΟΦΟΡΙΑΚΕΣ ΠΙΝΑΚΙΔΕΣ (Π) ---
+    { answers: ["μονόδρομος", "p2", "p-2", "one way street"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p2-one-way-street.png", difficulty: "easy" },
+    { answers: ["αυτοκινητόδρομος", "p4", "p-4", "motorway"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p4-motorway-highway.png", difficulty: "medium" },
+    { answers: ["τέλος αυτοκινητόδρομου", "p5", "p-5", "end of motorway"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p5-end-of-motorway.png", difficulty: "medium" },
+    { answers: ["στάση λεωφορείου", "p7", "p-7", "bus stop"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p7-bus-stop.png", difficulty: "easy" },
+    { answers: ["χώρος στάθμευσης", "πάρκινγκ", "p8", "p-8", "parking area"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p8-parking-area.png", difficulty: "easy" },
+    { answers: ["βενζινάδικο", "πρατήριο καυσίμων", "p10", "p-10", "gas station"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p10-gas-station.png", difficulty: "easy" },
+    { answers: ["συνεργείο αυτοκινήτων", "p11", "p-11", "car repair"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p11-car-repair-workshop.png", difficulty: "easy" },
+    { answers: ["εστιατόριο", "p13", "p-13", "restaurant"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p13-restaurant.png", difficulty: "easy" },
+    { answers: ["ξενοδοχείο", "p14", "p-14", "hotel"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p14-hotel-motel.png", difficulty: "easy" },
+    { answers: ["περιοχή κατοικίας", "p16", "p-16", "residential area"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p16-residential-area.png", difficulty: "medium" },
+    { answers: ["τέλος περιοχής κατοικίας", "p17", "p-17", "end of residential area"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p17-end-of-residential-area.png", difficulty: "medium" },
+    { answers: ["τούνελ", "σήραγγα", "p18", "p-18", "tunnel"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p18-tunnel.png", difficulty: "easy" },
+    { answers: ["αεροδρόμιο", "p19", "p-19", "airport"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p19-airport.png", difficulty: "easy" },
+    { answers: ["κάμπινγκ", "κατασκήνωση", "p20", "p-20", "camping"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/p20-camp-site.png", difficulty: "easy" },
+
+    // --- ΠΡΟΣΘΕΤΕΣ ΠΙΝΑΚΙΔΕΣ & ΦΑΝΑΡΙΑ (Πρ) ---
+    { answers: ["απόσταση", "μήκος τμήματος", "pr1", "pr-1", "distance plate"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/pr1-distance-plate.png", difficulty: "hard" },
+    { answers: ["κόκκινο φανάρι", "red traffic light"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/pr4-traffic-light-red.png", difficulty: "easy" },
+    { answers: ["πράσινο φανάρι", "green traffic light"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/road_signs/pr5-traffic-light-green.png", difficulty: "easy" }
+],
+"Μεταφορικά Μέσα": [
+    { answers: ["αεροστρωμνο", "airboat"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/airboat.png", difficulty: "hard" },
+    { answers: ["ασθενοφορο", "ambulance", "asthenoforo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/ambulance.png", difficulty: "easy" },
+    { answers: ["γουρουνα", "atv", "quad", "gourouna"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/atv.png", difficulty: "medium" },
+    { answers: ["μαρμαραδικη φορτηγιδα", "barge", "μπαρζα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/barge.png", difficulty: "hard" },
+    { answers: ["ποδηλατο", "bicycle", "bike", "podilato"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/bicycle.png", difficulty: "easy" },
+    { answers: ["διπλανο", "biplane", "diplano"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/biplane.png", difficulty: "hard" },
+    { answers: ["πηγασος", "blimp", "αεροστατο", "ζεπελιν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/blimp.png", difficulty: "hard" },
+    { answers: ["μπουλντοζα", "bulldozer", "mpouldoza"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/bulldozer.png", difficulty: "medium" },
+    { answers: ["τελεφερικ", "cable car", "teleferik"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/cable-car.png", difficulty: "medium" },
+    { answers: ["κανο", "canoe", "kano"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/canoe.png", difficulty: "medium" },
+    { answers: ["φορτηγο αεροπλανο", "cargo plane"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/cargo-plane.png", difficulty: "medium" },
+    { answers: ["φορτηγο πλοιο", "cargo ship", "container ship"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/cargo-ship.png", difficulty: "medium" },
+    { answers: ["καταμαραν", "catamaran"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/catamaran.png", difficulty: "medium" },
+    { answers: ["αστικο λεωφορειο", "city bus", "λεωφορειο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/city-bus.png", difficulty: "easy" },
+    { answers: ["εμπορικο αεροπλανο", "commercial airplane", "αεροπλανο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/commercial-airplane.png", difficulty: "easy" },
+    { answers: ["καμπριο", "convertible", "kabrio"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/convertible.png", difficulty: "easy" },
+    { answers: ["κρουαζιεροπλοιο", "cruise ship"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/cruise-ship.png", difficulty: "easy" },
+    { answers: ["διωροφο λεωφορειο", "double decker"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/double-decker.png", difficulty: "medium" },
+    { answers: ["ντροουν", "drone"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/drone.png", difficulty: "easy" },
+    { answers: ["ηλεκτρικο πατινι", "electric scooter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/electric-scooter.png", difficulty: "easy" },
+    { answers: ["εκσκαφεας", "excavator", "τσαπα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/excavator.png", difficulty: "medium" },
+    { answers: ["φεριμποτ", "ferry", "ferryboat"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/ferry.png", difficulty: "easy" },
+    { answers: ["πυροσβεστικο", "fire truck", "pyrosvestiko"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/fire-truck.png", difficulty: "easy" },
+    { answers: ["ψαροκαϊκο", "fishing boat", "καϊκι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/fishing-boat.png", difficulty: "medium" },
+    { answers: ["περονοφορο", "forklift", "κλαρκ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/forklift.png", difficulty: "medium" },
+    { answers: ["σκουπιδιαρικο", "garbage truck"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/garbage-truck.png", difficulty: "medium" },
+    { answers: ["ανεμοπτερο", "glider"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/glider.png", difficulty: "hard" },
+    { answers: ["αμαξιδιο γκολφ", "golf cart"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/golf-cart.png", difficulty: "medium" },
+    { answers: ["γονδολα", "gondola"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/gondola.png", difficulty: "medium" },
+    { answers: ["αετοπλανο", "hang glider"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/hang-glider.png", difficulty: "hard" },
+    { answers: ["ελικοπτερο", "helicopter", "elikoptero"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/helicopter.png", difficulty: "easy" },
+    { answers: ["τρενο υψηλης ταχυτητας", "high speed train", "bullet train"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/high-speed-train.png", difficulty: "medium" },
+    { answers: ["αμαξα", "horse carriage", "carriage"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/horse-carriage.png", difficulty: "easy" },
+    { answers: ["αεροστατο", "hot air balloon", "aerostato"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/hot-air-balloon.png", difficulty: "easy" },
+    { answers: ["αεροστρωμνο", "hovercraft"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/hovercraft.png", difficulty: "hard" },
+    { answers: ["υδροπτερυγο", "hydrofoil", "δελφινι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/hydrofoil.png", difficulty: "hard" },
+    { answers: ["μαχητικο αεροπλανο", "jet fighter", "μαχητικο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/jet-fighter.png", difficulty: "medium" },
+    { answers: ["τζετ σκι", "jet ski", "jetski"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/jet-ski.png", difficulty: "easy" },
+    { answers: ["καγιακ", "kayak"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/kayak.png", difficulty: "medium" },
+    { answers: ["ναυαγοσωστικη λεμβος", "lifeboat"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/lifeboat.png", difficulty: "medium" },
+    { answers: ["λιμουζινα", "limousine", "limo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/limousine.png", difficulty: "easy" },
+    { answers: ["σεληνιακο οχημα", "lunar rover"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/lunar-rover.png", difficulty: "hard" },
+    { answers: ["οχημα αρει", "mars rover"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/mars-rover.png", difficulty: "hard" },
+    { answers: ["μονστερ τρακ", "monster truck"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/monster-truck.png", difficulty: "medium" },
+    { answers: ["μοτοσυκλετα", "motorcycle", "μηχανη"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/motorcycle.png", difficulty: "easy" },
+    { answers: ["πετρελαιοφορο", "oil tanker", "δεξαμενοπλοιο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/oil-tanker.png", difficulty: "hard" },
+    { answers: ["τροχηλατο ατμοπλοιο", "paddle steamer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/paddle-steamer.png", difficulty: "hard" },
+    { answers: ["παραπεντε", "paraglider", "paragliding"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/paraglider.png", difficulty: "medium" },
+    { answers: ["αγροτικο", "pickup truck", "αγροτικο αυτοκινητο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/pickup-truck.png", difficulty: "easy" },
+    { answers: ["πειρατικο καραβι", "pirate ship"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/pirate-ship.png", difficulty: "easy" },
+    { answers: ["περιπολικο", "police car", "peripoliko"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/police-car.png", difficulty: "easy" },
+    { answers: ["ελικοφορο αεροπλανο", "propeller plane"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/propeller-plane.png", difficulty: "medium" },
+    { answers: ["σχεδια", "raft"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/raft.png", difficulty: "easy" },
+    { answers: ["ρικσο", "rickshaw"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/rickshaw.png", difficulty: "hard" },
+    { answers: ["πυραυλος", "rocket", "pyravlos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/rocket.png", difficulty: "easy" },
+    { answers: ["βαρκα", "rowboat", "varka"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/rowboat.png", difficulty: "easy" },
+    { answers: ["ιστιοφορο", "sailboat", "istioforo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/sailboat.png", difficulty: "easy" },
+    { answers: ["δορυφορος", "satellite"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/satellite.png", difficulty: "medium" },
+    { answers: ["σχολικο λεωφορειο", "school bus"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/school-bus.png", difficulty: "easy" },
+    { answers: ["πατινι", "scooter", "patini"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/scooter.png", difficulty: "easy" },
+    { answers: ["υδροπλανο", "seaplane"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/seaplane.png", difficulty: "medium" },
+    { answers: ["κουπε αυτοκινητο", "sedan car", "αυτοκινητο", "car"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/sedan-car.png", difficulty: "easy" },
+    { answers: ["σεγκγουει", "segway"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/segway.png", difficulty: "medium" },
+    { answers: ["νταλικα", "semi truck", "φορτηγο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/semi-truck.png", difficulty: "easy" },
+    { answers: ["σνοουμομπιλ", "snowmobile"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/snowmobile.png", difficulty: "medium" },
+    { answers: ["διαστημικο λεωφορειο", "space shuttle"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/space-shuttle.png", difficulty: "medium" },
+    { answers: ["ταχυπλοο", "speed boat", "tachyploo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/speed-boat.png", difficulty: "easy" },
+    { answers: ["αγωνιστικο αυτοκινητο", "sports car", "σπορ αυτοκινητο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/sports-car.png", difficulty: "easy" },
+    { answers: ["αορατο βομβαρδιστικο", "stealth bomber"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/stealth-bomber.png", difficulty: "hard" },
+    { answers: ["ατμομηχανη", "steam train", "τρενο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/steam-train.png", difficulty: "medium" },
+    { answers: ["υποβρυχιο", "submarine", "ypovrychio"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/submarine.png", difficulty: "easy" },
+    { answers: ["μετρο", "subway", "metro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/subway.png", difficulty: "easy" },
+    { answers: ["τζιπ", "suv", "jeep"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/suv.png", difficulty: "easy" },
+    { answers: ["τρακτερ", "tractor", "trakter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/tractor.png", difficulty: "easy" },
+    { answers: ["τραμ", "tram"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/tram.png", difficulty: "easy" },
+    { answers: ["ρυμουλκο", "tugboat"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/tugboat.png", difficulty: "hard" },
+    { answers: ["αταυτοποιητο ιπταμενο αντικειμενο", "ufo", "ατι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/ufo.png", difficulty: "easy" },
+    { answers: ["μονοκυκλο", "unicycle"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/unicycle.png", difficulty: "medium" },
+    { answers: ["ιστιοσανιδα", "windsurfer", "γουιντσερφινγκ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/windsurfer.png", difficulty: "hard" },
+    { answers: ["κοτερο", "yacht", "γιοτ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/vehicles/yacht.png", difficulty: "easy" }
+],
+
+    "Πτηνά": [
     {
         "answers": ["eagle", "αετός"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/birds/eagle.jpg",
@@ -3410,7 +5303,7 @@ mythology: [
     }
 ],
 
-    "snakes-reptiles-amphibians": [
+    "Φίδια - Ερπετά - Αμφίβια": [
     {
         "answers": ["king cobra", "βασιλική κόμπρα"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/snakes-reptiles-amphibians/king-cobra.jpg",
@@ -3807,7 +5700,7 @@ mythology: [
         "difficulty": "hard"
     }
 ],
-    "sea-animals": [
+    "Θαλάσσια Ζώα": [
     {
         "answers": ["great white shark", "μεγάλος λευκός καρχαρίας"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/sea-animals/great-white-shark.jpg",
@@ -4225,7 +6118,7 @@ mythology: [
     }
 ],
 
-    dinosaurs: [
+    "Δεινόσαυροι": [
     {
         "answers": ["tyrannosaurus rex", "τυραννόσαυρος ρεξ"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/dinosaurs/tyrannosaurus-rex.jpg",
@@ -4628,7 +6521,7 @@ mythology: [
     }
 ],
 
-    "football-players": [
+    "Παίχτες Ποδοσφαίρου": [
         {
             answers: ["λιονέλ μέσι", "μέσι"],
             image: "https://broad-cloud-2097.takisparas32.workers.dev/football-players/lionel-messi.jpg",
@@ -5079,7 +6972,7 @@ mythology: [
         }
 
     ],
-    "football-clubs": [
+    "Ποδοσφαιρικές Ομάδες": [
   {
     "answers": ["αεκ", "aek", "aek athens", "αεκ αθηνων"],
     "image": "https://broad-cloud-2097.takisparas32.workers.dev/football-clubs/aek.png",
@@ -5481,8 +7374,89 @@ mythology: [
     "difficulty": "hard"
   }
 ],
+"Ράτσες Σκύλων": [
+    { "answers": ["affenpinscher", "αφενπινσερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Affenpinscher.jpg", "difficulty": "hard" },
+    { "answers": ["afghan hound", "αφγανικος λαγωνικος", "αφγανικο λαγωνικο", "afghan"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Afghan%20Hound.jpg", "difficulty": "medium" },
+    { "answers": ["airedale terrier", "αιρεντεϊλ τερριε"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Airedale%20Terrier.jpg", "difficulty": "hard" },
+    { "answers": ["akita", "ακιτα", "akita inu"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Akita.jpg", "difficulty": "easy" },
+    { "answers": ["alaskan malamute", "αλασκαν μαλαμουτ", "malamute", "μαλαμουτ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Alaskan%20Malamute.jpg", "difficulty": "medium" },
+    { "answers": ["american eskimo dog", "αμερικανικο εσκιμω"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/American%20Eskimo%20Dog.jpg", "difficulty": "hard" },
+    { "answers": ["anatolian shepherd", "ποιμενικος ανατολης", "κανγκαλ", "kangal"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Anatolian%20Shepherd.jpg", "difficulty": "medium" },
+    { "answers": ["australian shepherd", "αυστραλιανος ποιμενικος"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Australian%20Shepherd.jpg", "difficulty": "medium" },
+    { "answers": ["basenji", "μπασεντζι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Basenji.jpg", "difficulty": "hard" },
+    { "answers": ["basset hound", "μπασε χουντ", "basset", "μπασε"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Basset%20Hound.jpg", "difficulty": "easy" },
+    { "answers": ["beagle", "μπιγκλ", "μπιγκλς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Beagle.jpg", "difficulty": "easy" },
+    { "answers": ["belgian malinois", "μαλινουα", "malinois", "βελγικος ποιμενικος"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Belgian%20Malinois.jpg", "difficulty": "medium" },
+    { "answers": ["bernese mountain dog", "μπερνιζ", "bernese"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Bernese%20Mountain%20Dog.jpg", "difficulty": "medium" },
+    { "answers": ["bichon frise", "μπισον φριζε", "bichon"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Bichon%20Frise.jpg", "difficulty": "medium" },
+    { "answers": ["bloodhound", "μπλαντχουντ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Bloodhound.jpg", "difficulty": "medium" },
+    { "answers": ["border collie", "μπορντερ κολεϊ", "border collie", "collie"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Border%20Collie.jpg", "difficulty": "easy" },
+    { "answers": ["borzoi", "μπορζοϊ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Borzoi.jpg", "difficulty": "medium" },
+    { "answers": ["boston terrier", "μποστον τερριε"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Boston%20Terrier.jpg", "difficulty": "medium" },
+    { "answers": ["boxer", "μποξερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Boxer.jpg", "difficulty": "easy" },
+    { "answers": ["brittany spaniel", "μπρετον", "brittany"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Brittany%20Spaniel.jpg", "difficulty": "medium" },
+    { "answers": ["brussels griffon", "γκριφον βρυξελλων", "griffon"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Brussels%20Griffon.jpg", "difficulty": "hard" },
+    { "answers": ["bull terrier", "μπουλ τερριε"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Bull%20Terrier.jpg", "difficulty": "easy" },
+    { "answers": ["bullmastiff", "μπουλμαστιφ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Bullmastiff.jpg", "difficulty": "medium" },
+    { "answers": ["cane corso", "κανε κορσο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Cane%20Corso.jpg", "difficulty": "easy" },
+    { "answers": ["cardigan welsh corgi", "κοργκι", "corgi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Cardigan%20Welsh%20Corgi.jpg", "difficulty": "easy" },
+    { "answers": ["cavalier king charles spaniel", "καβαλιερ", "cavalier"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Cavalier%20King%20Charles%20Spaniel.jpg", "difficulty": "easy" },
+    { "answers": ["chesapeake bay retriever", "τσεσαπικ ρετριβερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Chesapeake%20Bay%20Retriever.jpg", "difficulty": "hard" },
+    { "answers": ["chihuahua", "τσιουαουα", "chihuahua"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Chihuahua.jpg", "difficulty": "easy" },
+    { "answers": ["chow chow", "τσαου τσαου", "chowchow"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Chow%20Chow.jpg", "difficulty": "easy" },
+    { "answers": ["cocker spaniel", "κοκερ σπανιελ", "cocker"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Cocker%20Spaniel.jpg", "difficulty": "easy" },
+    { "answers": ["corgi", "κοργκι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Corgi.jpg", "difficulty": "easy" },
+    { "answers": ["dachshund", "ντακσχουντ", "λουκανικοσκυλο", "loukanikoskylo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Dachshund.jpg", "difficulty": "easy" },
+    { "answers": ["doberman pinscher", "ντομπερμαν", "doberman"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Doberman%20Pinscher.jpg", "difficulty": "easy" },
+    { "answers": ["english bulldog", "αγγλικο μπουλντογκ", "bulldog"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/English%20Bulldog.jpg", "difficulty": "easy" },
+    { "answers": ["english setter", "αγγλικο σεττερ", "setter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/English%20Setter.jpg", "difficulty": "medium" },
+    { "answers": ["english springer spaniel", "σπρινγκερ σπανιελ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/English%20Springer%20Spaniel.jpg", "difficulty": "medium" },
+    { "answers": ["french bulldog", "γαλλικο μπουλντογκ", "frenchie"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/French%20Bulldog.jpg", "difficulty": "easy" },
+    { "answers": ["german shepherd", "γερμανικος ποιμενικος", "λυκοσκυλο", "lykoskylo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/German%20Shepherd.jpg", "difficulty": "easy" },
+    { "answers": ["giant schnauzer", "γιγας σναουτσερ", "schnauzer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Giant%20Schnauzer.jpg", "difficulty": "medium" },
+    { "answers": ["golden retriever", "γκολντεν ρετριβερ", "golden"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Golden%20Retriever.jpg", "difficulty": "easy" },
+    { "answers": ["gordon setter", "γκορντον σεττερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Gordon%20Setter.jpg", "difficulty": "hard" },
+    { "answers": ["great dane", "μολοσσος", "μεγαλος δανος", "dane"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Great%20Dane.jpg", "difficulty": "easy" },
+    { "answers": ["havanese", "χαβανεζ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Havanese.jpg", "difficulty": "hard" },
+    { "answers": ["irish setter", "ιρλανδικο σεττερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Irish%20Setter.jpg", "difficulty": "medium" },
+    { "answers": ["italian greyhound", "ιταλικο λαγωνικο", "greyhound"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Italian%20Greyhound.jpg", "difficulty": "medium" },
+    { "answers": ["jack russell terrier", "τζακ ρασελ", "jack russell"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Jack%20Russell%20Terrier.jpg", "difficulty": "easy" },
+    { "answers": ["komondor", "κομοντορ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Komondor.jpg", "difficulty": "hard" },
+    { "answers": ["labrador retriever", "λαβραντορ", "labrador"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Labrador%20Retriever.jpg", "difficulty": "easy" },
+    { "answers": ["leonberger", "λεονμπεργκερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Leonberger.jpg", "difficulty": "hard" },
+    { "answers": ["lhasa apso", "λασα απσο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Lhasa%20Apso.jpg", "difficulty": "hard" },
+    { "answers": ["loeches dog", "λοετσες"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Loeches%20Dog.jpg", "difficulty": "hard" },
+    { "answers": ["maltese", "μαλτεζ", "maltese"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Maltese.jpg", "difficulty": "easy" },
+    { "answers": ["miniature pinscher", "μινι πινσερ", "pinscher"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Miniature%20Pinscher.jpg", "difficulty": "medium" },
+    { "answers": ["neapolitan mastiff", "ναπολιτανικο μαστιφ", "mastiff"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Neapolitan%20Mastiff.jpg", "difficulty": "medium" },
+    { "answers": ["newfoundland", "σκυλος νεας γης", "newfoundland"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Newfoundland.jpg", "difficulty": "medium" },
+    { "answers": ["norwegian elkhound", "νορβηγικο ελκχουντ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Norwegian%20Elkhound.jpg", "difficulty": "hard" },
+    { "answers": ["old english sheepdog", "παλιος αγγλικος ποιμενικος", "sheepdog"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Old%20English%20Sheepdog.jpg", "difficulty": "medium" },
+    { "answers": ["papillon", "παπιγιον"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Papillon.jpg", "difficulty": "medium" },
+    { "answers": ["pekingese", "πεκινουα", "pekingese"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Pekingese.jpg", "difficulty": "easy" },
+    { "answers": ["pomeranian", "πομερανιαν", "pomeranian"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Pomeranian.jpg", "difficulty": "easy" },
+    { "answers": ["poodle", "κανις", "poodle", "kanis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Poodle.jpg", "difficulty": "easy" },
+    { "answers": ["portuguese water dog", "πορτογαλικος σκυλος νερου"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Portuguese%20Water%20Dog.jpg", "difficulty": "hard" },
+    { "answers": ["pug", "παγκ", "pug"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Pug.jpg", "difficulty": "easy" },
+    { "answers": ["rhodesian ridgeback", "ροδεσιανος ριτζμπακ", "ridgeback"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Rhodesian%20Ridgeback.jpg", "difficulty": "hard" },
+    { "answers": ["rottweiler", "ροτβαϊλερ", "rottweiler"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Rottweiler.jpg", "difficulty": "easy" },
+    { "answers": ["saluki", "σαλουκι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Saluki.jpg", "difficulty": "hard" },
+    { "answers": ["samoyed", "σαμογιεντ", "samoyed"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Samoyed.jpg", "difficulty": "easy" },
+    { "answers": ["scottish terrier", "σκωτσεζικο τερριε"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Scottish%20Terrier.jpg", "difficulty": "medium" },
+    { "answers": ["shar pei", "σαρ πεϊ", "sharpei"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Shar%20Pei.jpg", "difficulty": "easy" },
+    { "answers": ["shiba inu", "σιμπα ινου", "shiba"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Shiba%20Inu.jpg", "difficulty": "easy" },
+    { "answers": ["shih tzu", "σι τσου", "shihtzu"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Shih%20Tzu.jpg", "difficulty": "easy" },
+    { "answers": ["siberian husky", "χασκι", "husky", "siberian husky"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Siberian%20Husky.jpg", "difficulty": "easy" },
+    { "answers": ["silky terrier", "σιλκι τερριε"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Silky%20Terrier.jpg", "difficulty": "hard" },
+    { "answers": ["st. bernard", "αγιου βερναρδου", "saint bernard", "st bernard"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/St.%20Bernard.jpg", "difficulty": "easy" },
+    { "answers": ["staffordshire bull terrier", "σταφορντσαϊρ", "staffy"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Staffordshire%20Bull%20Terrier.jpg", "difficulty": "medium" },
+    { "answers": ["tibetan mastiff", "θιβετιανο μαστιφ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Tibetan%20Mastiff.jpg", "difficulty": "medium" },
+    { "answers": ["vizsla", "βιζλα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Vizsla.jpg", "difficulty": "hard" },
+    { "answers": ["weimaraner", "βαϊμαρανερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Weimaraner.jpg", "difficulty": "medium" },
+    { "answers": ["whippet", "ουιπετ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/dog-breeds/Whippet.jpg", "difficulty": "medium" }
+],
 
-"maps": [
+"Χάρτες": [
   { "answers": ["αλγερία"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/maps/algeria.png", "difficulty": "medium" },
   { "answers": ["αργεντινή"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/maps/argentina.png", "difficulty": "easy" },
   { "answers": ["αρμενία"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/maps/armenia.png", "difficulty": "hard" },
@@ -5562,17 +7536,94 @@ mythology: [
   { "answers": ["ουρουγουάη"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/maps/uruguay.png", "difficulty": "hard" },
   { "answers": ["βιετνάμ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/maps/vietnam.jpg", "difficulty": "medium" }
 ],
+"Εργαλεία & Επαγγέλματα": [
+    { "answers": ["allen wrench", "αλεν", "κλειδι αλεν", "allen key", "allen"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Allen%20Wrench.jpg", "difficulty": "easy" },
+    { "answers": ["angle grinder", "τροχος", "γωνιακος τροχος", "grinder"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Angle%20Grinder.jpg", "difficulty": "medium" },
+    { "answers": ["anvil", "ακμονι", "ακμονας", "akmoni"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Anvil.jpg", "difficulty": "medium" },
+    { "answers": ["axe", "τζακουρι", "τσεκουρι", "tsekouri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Axe.jpg", "difficulty": "easy" },
+    { "answers": ["bolt cutter", "κοφτης αλυσιδας", "ψαλιδι δομικων πλεγματων", "bolt cutter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Bolt%20Cutter.jpg", "difficulty": "medium" },
+    { "answers": ["caliper", "παχυμετρο", "paxymetro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Caliper.jpg", "difficulty": "medium" },
+    { "answers": ["caulking gun", "πιστολι σιλικονης", "pistoli silikonis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Caulking%20Gun.jpg", "difficulty": "easy" },
+    { "answers": ["chainsaw", "αλυσοπριονο", "alysopriono"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Chainsaw.jpg", "difficulty": "easy" },
+    { "answers": ["chisel", "σκαρπελο", "σμcontext", "skarpolo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Chisel.jpg", "difficulty": "medium" },
+    { "answers": ["clamp", "σφιγκτηρας", "σφιχτηρας", "σφιγκτηρας c", "clamp"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Clamp.jpg", "difficulty": "medium" },
+    { "answers": ["compressor", "κομπρεσερ αερος", "κομπρεσερ", "compressor"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Compressor.jpg", "difficulty": "medium" },
+    { "answers": ["concrete mixer", "μπετονιερα", "betoniera"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Concrete%20Mixer.jpg", "difficulty": "easy" },
+    { "answers": ["crimper", "πρεσα ακροδεκτων", "πρεσα καλωδιων", "crimper"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Crimper.jpg", "difficulty": "hard" },
+    { "answers": ["crowbar", "λοστος", "lostos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Crowbar.jpg", "difficulty": "easy" },
+    { "answers": ["ear protection", "ωτοασπιδες", "otoaspides"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Ear%20Protection.jpg", "difficulty": "easy" },
+    { "answers": ["electric drill", "δραπανο", "ηλεκτρικο δραπανο", "drapano"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Electric%20Drill.jpg", "difficulty": "easy" },
+    { "answers": ["flashlight", "φακος", "fakoi", "fakos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Flashlight.jpg", "difficulty": "easy" },
+    { "answers": ["garden hose", "λαστιχο ποτισματος", "λαστιχο", "lasticho"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Garden%20Hose.jpg", "difficulty": "easy" },
+    { "answers": ["generator", "γεννητρια", "gennitria"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Generator.jpg", "difficulty": "easy" },
+    { "answers": ["glass cutter", "διαμαντι τζαμιων", "κοφτης τζαμιων", "glass cutter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Glass%20Cutter.jpg", "difficulty": "hard" },
+    { "answers": ["hammer", "σφυρι", "sfyri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Hammer.jpg", "difficulty": "easy" },
+    { "answers": ["handsaw", "πριονοχερου", "πριονι", "prioni"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Handsaw.jpg", "difficulty": "easy" },
+    { "answers": ["hoe", "τσαπα", "tsapa"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Hoe.jpg", "difficulty": "medium" },
+    { "answers": ["jackhammer", "κομπρεσερ", "κομπρεσερ εδαφους", "jackhammer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Jackhammer.jpg", "difficulty": "easy" },
+    { "answers": ["ladder", "σκαλα", "skala"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Ladder.jpg", "difficulty": "easy" },
+    { "answers": ["lawnmower", "μηχανη γκαζον", "χλοοκοπτικο", "lawnmower"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Lawnmower.jpg", "difficulty": "easy" },
+    { "answers": ["leaf blower", "φυσητηρας φυλλων", "φυσητηρας", "leaf blower"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Leaf%20Blower.jpg", "difficulty": "easy" },
+    { "answers": ["level tool", "αλφαδι", "alfadi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Level%20Tool.jpg", "difficulty": "easy" },
+    { "answers": ["micrometer", "μικρομετρο", "mikrometro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Micrometer.jpg", "difficulty": "hard" },
+    { "answers": ["mortar mixer", "αναδευτηρας", "αναδευτηρας κονιαματος", "mixer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Mortar%20Mixer.jpg", "difficulty": "medium" },
+    { "answers": ["multimeter", "πολυμετρο", "polymetro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Multimeter.jpg", "difficulty": "medium" },
+    { "answers": ["nail gun", "καρφωτικο", "πιστολι καρφιων", "nail gun"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Nail%20Gun.jpg", "difficulty": "medium" },
+    { "answers": ["paint roller", "ρολο βαψιματος", "ρολο", "rolo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Paint%20Roller.jpg", "difficulty": "easy" },
+    { "answers": ["paintbrush", "πινελο", "pinelo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Paintbrush.jpg", "difficulty": "easy" },
+    { "answers": ["pickaxe", "κασμας", "αξινα", "kasmas"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Pickaxe.jpg", "difficulty": "easy" },
+    { "answers": ["pipe cutter", "κοφτης σωληνων", "pipe cutter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Pipe%20Cutter.jpg", "difficulty": "medium" },
+    { "answers": ["pipe wrench", "καβουρας", "σωληνοκαβουρας", "kavouras"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Pipe%20Wrench.jpg", "difficulty": "easy" },
+    { "answers": ["pliers", "πενσα", "pensa"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Pliers.jpg", "difficulty": "easy" },
+    { "answers": ["plumb bob", "ζυγι", "βαριδι ζυγιου", "ζυγι χτιστη", "plumb bob"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Plumb%20Bob.jpg", "difficulty": "hard" },
+    { "answers": ["plumber wrench", "γαλλικο κλειδι", "γαλλικο", "plumber wrench"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Plumber%20Wrench.jpg", "difficulty": "medium" },
+    { "answers": ["plunger", "βεντουζα αποφραξης", "βεντουζα", "ventouza"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Plunger.jpg", "difficulty": "easy" },
+    { "answers": ["pressure washer", "πιεστικο μηχανημα", "πλυστικο πιεστικο", "πιεστικο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Pressure%20Washer.jpg", "difficulty": "medium" },
+    { "answers": ["pruning shears", "κλαδευτηρι", "kladevtiri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Pruning%20Shears.jpg", "difficulty": "easy" },
+    { "answers": ["rake", "τσουγκρανα", "tsougkrana"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Rake.jpg", "difficulty": "easy" },
+    { "answers": ["respirator mask", "μασκα προστασιας", "μασκα αεριων", "respirator"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Respirator%20Mask.jpg", "difficulty": "medium" },
+    { "answers": ["riveter", "πριτσιναδορος", "pritsinadoros"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Riveter.jpg", "difficulty": "hard" },
+    { "answers": ["safety glasses", "γυαλια προστασιας", "προστατευτικα γυαλια"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Safety%20Glasses.jpg", "difficulty": "easy" },
+    { "answers": ["safety helmet", "κρανος", "κρανος ασφαλειας", "kranos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Safety%20Helmet.jpg", "difficulty": "easy" },
+    { "answers": ["sander", "τριβειο", "tribeio"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Sander.jpg", "difficulty": "medium" },
+    { "answers": ["sawhorse", "καβαλετο", "καβαλετο κοπης", "kavaleto"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Sawhorse.jpg", "difficulty": "medium" },
+    { "answers": ["scaffolding", "σκαλωσια", "skalosia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Scaffolding.jpg", "difficulty": "easy" },
+    { "answers": ["scraper", "ξυστρα", "ξυστρα μπογιας", "xystra"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Scraper.jpg", "difficulty": "medium" },
+    { "answers": ["shovel", "φτυαρι", "ftyari"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Shovel.jpg", "difficulty": "easy" },
+    { "answers": ["sledgehammer", "βαριοπουλα", "βαρια", "variopoula"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Sledgehammer.jpg", "difficulty": "easy" },
+    { "answers": ["soldering iron", "κολλητηρι", "kollitiri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Soldering%20Iron.jpg", "difficulty": "medium" },
+    { "answers": ["soldering torch", "καμινετο", "φλογιστρο", "flogistro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Soldering%20Torch.jpg", "difficulty": "medium" },
+    { "answers": ["staple gun", "συρραπτικο", "πιστολι συρραπτικο", "staple gun"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Staple%20Gun.jpg", "difficulty": "medium" },
+    { "answers": ["stud finder", "ανιχνευτης τοιχου", "ανιχνευτης μεταλλων", "stud finder"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Stud%20Finder.jpg", "difficulty": "hard" },
+    { "answers": ["tape measure", "μετροταινια", "μετρο", "metro"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Tape%20Measure.jpg", "difficulty": "easy" },
+    { "answers": ["tile cutter", "κοφτης πλακιδιων", "tile cutter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Tile%20Cutter.jpg", "difficulty": "medium" },
+    { "answers": ["tool belt", "ζωνη εργαλειων", "zoni ergaleion"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Tool%20Belt.jpg", "difficulty": "easy" },
+    { "answers": ["toolbox", "εργαλειοθηκη", "ergaleiothiki"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Toolbox.jpg", "difficulty": "easy" },
+    { "answers": ["trowel", "μυστρι", "mystri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Trowel.jpg", "difficulty": "easy" },
+    { "answers": ["vise", "μεγγενη", "meggeni"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Vise.jpg", "difficulty": "medium" },
+    { "answers": ["voltage tester", "δοκιμαστικο κατσαβιδι", "δοκιμαστικο", "voltage tester"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Voltage%20Tester.jpg", "difficulty": "easy" },
+    { "answers": ["water sprinkler", "εκτοξευτηρας νερου", "μπεκ ποτισματος", "sprinkler"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Water%20Sprinkler.jpg", "difficulty": "easy" },
+    { "answers": ["welding machine", "ηλεκτροκολληση", "μηχανη ηλεκτροκολλησης", "welder"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Welding%20Machine.jpg", "difficulty": "easy" },
+    { "answers": ["wheelbarrow", "καροτσι οικοδομης", "καροτσι", "karotsi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Wheelbarrow.jpg", "difficulty": "easy" },
+    { "answers": ["wire cutter", "κοφτης καλωδιων", "κοφτης", "koftis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Wire%20Cutter.jpg", "difficulty": "medium" },
+    { "answers": ["wire stripper", "απογυμνωτης καλωδιων", "wire stripper"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Wire%20Stripper.jpg", "difficulty": "hard" },
+    { "answers": ["work gloves", "γαντια εργασιας", "γαντια", "gantia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Work%20Gloves.jpg", "difficulty": "easy" },
+    { "answers": ["work light", "προβολεας εργασιας", "προβολεας", "work light"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Work%20Light.jpg", "difficulty": "medium" },
+    { "answers": ["workbench", "παγκος εργασιας", "pagkos ergasias"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Workbench.jpg", "difficulty": "easy" },
+    { "answers": ["wrench", "γερμανικο κλειδι", "κλειδι", "kleidi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/jobs-tools/Wrench.jpg", "difficulty": "easy" }
+],
 
- "basketball-clubs": [
+
+ "Ομάδες Μπάσκετ": [
         // --- NBA (30 Ομάδες) ---
         { "answers": ["λόσ άντζελες λέικερς", "λέικερς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/los-angeles-lakers.png", "difficulty": "easy" },
         { "answers": ["γκόλντεν στέιτ γουόριορς", "γουόριορς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/golden-state-warriors.png", "difficulty": "easy" },
         { "answers": ["μπόστον σέλτικς", "σέλτικς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/boston-celtics.png", "difficulty": "easy" },
-        { "answers": ["σικάγο μπουλς", "μπουλς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/chicago-bulls.png", "difficulty": "easy" },
+        { "answers": ["σικάγο μπουλς", "μπουλς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/chicago-bulls.jpg", "difficulty": "easy" },
         { "answers": ["μιλγουόκι μπακς", "μπακς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/milwaukee-bucks.png", "difficulty": "easy" },
-        { "answers": ["κλίβελαντ καβαλίερς", "καβαλίερς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/cleveland-cavaliers.png", "difficulty": "medium" },
+        { "answers": ["κλίβελαντ καβαλίερς", "καβαλίερς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/cleveland-cavaliers.jpg", "difficulty": "medium" },
         { "answers": ["ντένβερ νάγκετς", "νάγκετς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/denver-nuggets.png", "difficulty": "easy" },
-        { "answers": ["οκλαχόμα σίτι θάντερ", "θάντερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/oklahoma-city-thunder.png", "difficulty": "medium" },
+        { "answers": ["οκλαχόμα σίτι θάντερ", "θάντερ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/oklahoma-city-thunder.jpg", "difficulty": "medium" },
         { "answers": ["φοίνιξ σανς", "σανς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/phoenix-suns.png", "difficulty": "medium" },
         { "answers": ["ντάλας μάβερικς", "μάβερικς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/dallas-mavericks.png", "difficulty": "easy" },
         { "answers": ["μέμφις γκρίζλις", "γκρίζλις"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/memphis-grizzlies.png", "difficulty": "medium" },
@@ -5583,21 +7634,21 @@ mythology: [
         { "answers": ["σακραμέντο κινγκς", "κινγκς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/sacramento-kings.png", "difficulty": "medium" },
         { "answers": ["πόρτλαντ τρέιλ μπλέιζερς", "μπλέιζερς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/portland-trail-blazers.png", "difficulty": "medium" },
         { "answers": ["ιντιάνα πέισερς", "πέισερς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/indiana-pacers.png", "difficulty": "medium" },
-        { "answers": ["ορλάντο μάτζικ", "μάτζικ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/orlando-magic.png", "difficulty": "medium" },
+        { "answers": ["ορλάντο μάτζικ", "μάτζικ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/orlando-magic.jpg", "difficulty": "medium" },
         { "answers": ["τορόντο ράπτορς", "ράπτορς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/toronto-raptors.png", "difficulty": "medium" },
         { "answers": ["ολυμπιακός"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/olympiacos.png", "difficulty": "easy" },
         { "answers": ["παναθηναϊκός"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/panathinaikos.png", "difficulty": "easy" },
         { "answers": ["ρεάλ μαδρίτης"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/real-madrid.png", "difficulty": "easy" },
-        { "answers": ["μπαρτσελόνα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/barcelona.png", "difficulty": "easy" },
+        { "answers": ["μπαρτσελόνα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/barcelona.jpg", "difficulty": "easy" },
         { "answers": ["φενέρμπαχτσε"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/fenerbahce.png", "difficulty": "easy" },
         { "answers": ["ανατολού εφές", "εφές"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/anadolu-efes.png", "difficulty": "medium" },
-        { "answers": ["μακάμπι τελ αβίβ", "μακάμπι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/maccabi-tel-aviv.png", "difficulty": "medium" },
+        { "answers": ["μακάμπι τελ αβίβ", "μακάμπι"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/maccabi-tel-aviv.jpg", "difficulty": "medium" },
         { "answers": ["μονακό"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/monaco.png", "difficulty": "medium" },
         { "answers": ["παρτίζαν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/partizan.png", "difficulty": "medium" },
         { "answers": ["ερυθρός αστέρας"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/crvena-zvezda.png", "difficulty": "medium" },
         { "answers": ["ζάλγκιρις"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/zalgiris-kaunas.png", "difficulty": "medium" },
-        { "answers": ["βίρτους μπολόνια"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/virtus-bologna.png", "difficulty": "medium" },
-        { "answers": ["μπασκόνια"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/baskonia.png", "difficulty": "medium" },
+        { "answers": ["βίρτους μπολόνια"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/virtus-bologna.jpg", "difficulty": "medium" },
+        { "answers": ["μπασκόνια"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/baskonia.jpgs", "difficulty": "medium" },
         { "answers": ["βιλερμπάν"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/asvel.png", "difficulty": "hard" },
         { "answers": ["άλμπα βερολίνου"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/alba-berlin.png", "difficulty": "hard" },
         { "answers": ["πάρις μπάσκετ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/paris-basketball.png", "difficulty": "medium" },
@@ -5607,7 +7658,7 @@ mythology: [
         { "answers": ["τσσκα μόσχας", "τσσκα"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-clubs/cska-moscow.png", "difficulty": "hard" }
     ],
 
-    actors: [
+    "Ηθοποιοί": [
     {
         "answers": ["λεονάρντο ντι κάπριο", "ντι κάπριο", "leonardo dicaprio", "dicaprio"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/actors/leonardo-dicaprio.jpg",
@@ -6010,7 +8061,7 @@ mythology: [
     }
 ],
 
-"famous-cars": [
+"Διάσημα Αυτοκίνητα": [
     {
         "answers": ["amg gt black series", "αμγκ γι τι μπλακ σιρις"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-cars/mercedes-amg-gt-black-series.jpg",
@@ -6413,7 +8464,7 @@ mythology: [
     }
 ],
 
-"f1-drivers": [
+"Οδηγοί F1": [
     {
         "answers": ["lewis hamilton", "hamilton", "λύις χάμιλτον", "χάμιλτον"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/f1-drivers/lewis-hamilton.jpg",
@@ -6816,7 +8867,7 @@ mythology: [
     }
 ],
 
-"car-logos": [
+"Αυτοκίνητα Λογότυπα": [
     {
         "answers": ["byd", "μπι και ντι"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/car-logos/byd.png",
@@ -7290,7 +9341,7 @@ mythology: [
     }
 ],
 
-"football-stadium": [
+"Ποδοσφαιρικά Στάδια": [
     {
         "answers": ["bayer leverkusen", "leverkusen", "μπαγερ λεβερκουζεν", "λεβερκουζεν"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/football-stadium/bayer-leverkusen.png",
@@ -7692,9 +9743,88 @@ mythology: [
         "difficulty": "hard"
     }
 ],
+"Διάστημα & Πλανήτες": [
+    { "answers": ["γαλαξιας της ανδρομεδας", "ανδρομεδα", "andromeda galaxy", "andromeda"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Andromeda%20Galaxy.jpg", "difficulty": "easy" },
+    { "answers": ["σεληνακατος", "απολλων", "apollo lunar lander", "lunar lander"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Apollo%20Lunar%20Lander.jpg", "difficulty": "medium" },
+    { "answers": ["ζωνη αστεροειδων", "αστεροειδεις", "asteroid belt"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Asteroid%20Belt.jpg", "difficulty": "medium" },
+    { "answers": ["αστροναυτης", "διαστημικος περιπατος", "astronaut", "spacewalk"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Astronaut%20Spacewalk.jpg", "difficulty": "easy" },
+    { "answers": ["μπετελγκεζ", "betelgeuse"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Betelgeuse.jpg", "difficulty": "hard" },
+    { "answers": ["μεγαλη εκρηξη", "big bang"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Big%20Bang%20Concept.jpg", "difficulty": "medium" },
+    { "answers": ["μαυρη τρυπα", "black hole"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Black%20Hole.jpg", "difficulty": "easy" },
+    { "answers": ["μπλε υπεργιγαντας", "blue supergiant"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Blue%20Supergiant.jpg", "difficulty": "hard" },
+    { "answers": ["κασινι", "cassini", "cassini spacecraft"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Cassini%20Spacecraft.jpg", "difficulty": "hard" },
+    { "answers": ["κομητης του χαλεη", "κομητης χαλεη", "comet halley", "halley"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Comet%20Halley.jpg", "difficulty": "medium" },
+    { "answers": ["νεφελωμα καβουρας", "νεφελωμα του καβουρα", "crab nebula"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Crab%20Nebula.jpg", "difficulty": "hard" },
+    { "answers": ["βαθυ διαστημα", "deep field"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Deep%20Field%20Space.jpg", "difficulty": "medium" },
+    { "answers": ["δειμος", "deimos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Deimos%20Moon%20Mars.jpg", "difficulty": "hard" },
+    { "answers": ["γη", "gi", "earth", "planet earth"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Earth%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["εγκελαδος", "enceladus"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Enceladus%20Moon%20Saturn.jpg", "difficulty": "hard" },
+    { "answers": ["ευρωπη", "europa"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Europa%20Moon%20Jupiter.jpg", "difficulty": "hard" },
+    { "answers": ["εξωπλανητης", "exoplanet"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Exoplanet.jpg", "difficulty": "medium" },
+    { "answers": ["falcon 9", "φαλκον 9", "spacex falcon 9"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Falcon%209%20Rocket.jpg", "difficulty": "medium" },
+    { "answers": ["γανυμηδης", "ganymede"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Ganymede%20Moon%20Jupiter.jpg", "difficulty": "hard" },
+    { "answers": ["βαρυτικα κυματα", "gravitational waves"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Gravitational%20Waves.jpg", "difficulty": "hard" },
+    { "answers": ["τηλεσκοπιο χαμπλ", "χαμπλ", "hubble", "hubble space telescope"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Hubble%20Space%20Telescope.jpg", "difficulty": "easy" },
+    { "answers": ["διεθνης διαστημικος σταθμος", "iss", "international space station"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/International%20Space%20Station.jpg", "difficulty": "easy" },
+    { "answers": ["ιω", "io"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Io%20Moon%20Jupiter.jpg", "difficulty": "hard" },
+    { "answers": ["κατοπτρο james webb", "james webb mirror", "χρυσο κατοπτρο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/James%20Webb%20Gold%20Mirror.jpg", "difficulty": "medium" },
+    { "answers": ["τηλεσκοπιο james webb", "james webb", "τζεημς γουεμπ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/James%20Webb%20Space%20Telescope.jpg", "difficulty": "easy" },
+    { "answers": ["διας", "dias", "jupiter"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Jupiter%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["ζωνη του κοιπερ", "ζωνη κοιπερ", "kuiper belt"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Kuiper%20Belt.jpg", "difficulty": "hard" },
+    { "answers": ["μεγα νεφος του μαγγελλανου", "μεγαλο νεφος μαγγελλανου", "large magellanic cloud"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Large%20Magellanic%20Cloud.jpg", "difficulty": "hard" },
+    { "answers": ["πλατφορμα εκτοξευσης", "βαση εκτοξευσης", "launch pad"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Launch%20Pad%20Rocket.jpg", "difficulty": "medium" },
+    { "answers": ["εκλειψη σεληνης", "lunar eclipse"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Lunar%20Eclipse.jpg", "difficulty": "easy" },
+    { "answers": ["σεληνιακο οχημα", "lunar rover", "moon rover"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Lunar%20Rover.jpg", "difficulty": "medium" },
+    { "answers": ["curiosity", "κιουριοσιτι", "rover curiosity"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Mars%20Rover%20Curiosity.jpg", "difficulty": "medium" },
+    { "answers": ["perseverance", "περσιβιερανς", "rover perseverance"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Mars%20Rover%20Perseverance.jpg", "difficulty": "medium" },
+    { "answers": ["αρης", "aris", "mars"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Mars%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["ερμης", "ermis", "mercury"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Mercury%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["βροχη μετεωριτων", "πεφταστερια", "meteor shower"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Meteor%20Shower.jpg", "difficulty": "easy" },
+    { "answers": ["γαλαξιας", "milky way", "galaxias"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Milky%20Way%20Galaxy.jpg", "difficulty": "easy" },
+    { "answers": ["κεντρο ελεγχου", "mission control"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Mission%20Control.jpg", "difficulty": "medium" },
+    { "answers": ["φεγγαρι", "σεληνη", "feggari", "selini", "moon"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Moon%20satellite.jpg", "difficulty": "easy" },
+    { "answers": ["νεφελωμα του ωριωνα", "ωριωνας", "orion nebula"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Nebula%20Orion.jpg", "difficulty": "medium" },
+    { "answers": ["ποσειδωνας", "neptune"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Neptune%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["αστερας νετρονιων", "neutron star"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Neutron%20Star.jpg", "difficulty": "hard" },
+    { "answers": ["new horizons", "νιου χοραϊζονς"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/New%20Horizons%20Spacecraft.jpg", "difficulty": "hard" },
+    { "answers": ["βορειο σελας", "σελας", "aurora", "northern lights"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Northern%20Lights%20Aurora.jpg", "difficulty": "easy" },
+    { "answers": ["αστεροσκοπειο", "observatory"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Observatory%20Dome.jpg", "difficulty": "easy" },
+    { "answers": ["νεφος του οορτ", "νεφος οορτ", "oort cloud"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Oort%20Cloud.jpg", "difficulty": "hard" },
+    { "answers": ["φοβος", "phobos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Phobos%20Moon%20Mars.jpg", "difficulty": "hard" },
+    { "answers": ["πυλωνες της δημιουργιας", "pillars of creation"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Pillars%20of%20Creation.jpg", "difficulty": "medium" },
+    { "answers": ["πλουτωνας", "pluto"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Pluto%20dwarf%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["εγγυτατος του κενταυρου", "proxima centauri"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Proxima%20Centauri.jpg", "difficulty": "hard" },
+    { "answers": ["παλσαρ", "pulsar"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Pulsar.jpg", "difficulty": "hard" },
+    { "answers": ["κβειζαρ", "quasar"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Quasar.jpg", "difficulty": "hard" },
+    { "answers": ["ραδιοτηλεσκοπιο", "radio telescope"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Radio%20Telescope%20Dish.jpg", "difficulty": "medium" },
+    { "answers": ["κοκκινος γιγαντας", "red giant"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Red%20Giant%20Star.jpg", "difficulty": "medium" },
+    { "answers": ["δακτυλιοειδες νεφελωμα", "ring nebula"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Ring%20Nebula.jpg", "difficulty": "hard" },
+    { "answers": ["saturn v", "σατουρν 5", "πυραυλος saturn v"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Saturn%20V%20Rocket.jpg", "difficulty": "medium" },
+    { "answers": ["κρονος", "kronos", "saturn"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Saturn%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["μικρο νεφος του μαγγελλανου", "μικρο νεφος μαγγελλανου", "small magellanic cloud"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Small%20Magellanic%20Cloud.jpg", "difficulty": "hard" },
+    { "answers": ["ηλιακη εκλειψη", "εκλειψη ηλιου", "solar eclipse"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Solar%20Eclipse.jpg", "difficulty": "easy" },
+    { "answers": ["ηλιακη αναλαμπη", "solar flare"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Solar%20Flare.jpg", "difficulty": "medium" },
+    { "answers": ["ηλιακοι συλλεκτες", "ηλιακα πανελ", "solar panels"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Solar%20Panels%20Space.jpg", "difficulty": "easy" },
+    { "answers": ["γαλαξιας σομπρερο", "sombrero galaxy"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Sombrero%20Galaxy.jpg", "difficulty": "medium" },
+    { "answers": ["διαστημικη καψουλα", "space capsule"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Space%20Capsule.jpg", "difficulty": "medium" },
+    { "answers": ["διαστημικα σκουπιδια", "space debris"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Space%20Debris.jpg", "difficulty": "medium" },
+    { "answers": ["στολη αστροναυτη", "διαστημικη στολη", "space suit"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Space%20Suit.jpg", "difficulty": "easy" },
+    { "answers": ["σπουτνικ", "sputnik"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Sputnik%20Satellite.jpg", "difficulty": "medium" },
+    { "answers": ["starship", "σταρσιπ", "spacex starship"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Starship%20SpaceX.jpg", "difficulty": "medium" },
+    { "answers": ["ηλιος", "helios", "sun"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Sun%20star.jpg", "difficulty": "easy" },
+    { "answers": ["υπερκαινοφανης", "σουπερνοβα", "supernova"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Supernova%20Explosion.jpg", "difficulty": "medium" },
+    { "answers": ["τιτανας", "titan"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Titan%20Moon%20Saturn.jpg", "difficulty": "medium" },
+    { "answers": ["γαλαξιας του τριγωνου", "triangulum galaxy"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Triangulum%20Galaxy.jpg", "difficulty": "hard" },
+    { "answers": ["ουρανος", "ouranos", "uranus"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Uranus%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["αφροδιτη", "afroditi", "venus"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Venus%20planet.jpg", "difficulty": "easy" },
+    { "answers": ["βογιατζερ 1", "voyager 1"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Voyager%201%20Spacecraft.jpg", "difficulty": "medium" },
+    { "answers": ["γαλαξιας της δίνης", "whirlpool galaxy"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Whirlpool%20Galaxy.jpg", "difficulty": "hard" },
+    { "answers": ["λευκος νανος", "white dwarf"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/White%20Dwarf%20Star.jpg", "difficulty": "medium" },
+    { "answers": ["σκουληκοτρυπα", "wormhole"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/space-planets/Wormhole%20Space.jpg", "difficulty": "easy" }
+],
 
 
-"country-flags": [
+"Σημαίες Χωρών": [
     {
         "answers": ["αλβανία", "albania"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/country-flags/albania.jpg",
@@ -8091,7 +10221,7 @@ mythology: [
         "difficulty": "easy"
     }
 ],
-movies: [
+"Ταινίες": [
     {
         "answers": ["alien", "άλιεν", "ο επιβάτης του διαστήματος"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/movies/alien.jpg",
@@ -8494,7 +10624,7 @@ movies: [
     }
 ],
 
-"video-games": [
+"Βίντεο Παιχνίδια": [
     {
         "answers": ["a way out", "έι γουέι άουτ"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/video-games/a-way-out.jpg",
@@ -8896,8 +11026,86 @@ movies: [
         "difficulty": "easy"
     }
 ],
+"Αθλήματα": [
+    { "answers": ["αμερικανικο ποδοσφαιρο", "american football", "αμερικανικο"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/American%20Football.jpg", "difficulty": "easy" },
+    { "answers": ["στιβος", "κλασικος αθλητισμος", "stivos", "athletics"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Athletics.jpg", "difficulty": "easy" },
+    { "answers": ["μπαντμιντον", "αντισφαιριση με φτερο", "badminton"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Badminton.jpg", "difficulty": "easy" },
+    { "answers": ["μπεϊζμπολ", "baseball", "μπεϊζ μπολ"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Baseball.jpg", "difficulty": "easy" },
+    { "answers": ["μπασκετ", "καλαθοσφαιριση", "basket", "basketball"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Basketball.jpg", "difficulty": "easy" },
+    { "answers": ["μπιλιαρδο", "μπιλιαρδο", "billiards", "pool"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Billiards.jpg", "difficulty": "easy" },
+    { "answers": ["μπομπσλεϊ", "bobsleigh", "bobsled"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Bobsleigh.jpg", "difficulty": "hard" },
+    { "answers": ["σωματικη διαπλαση", "μποντιμπιλντινγκ", "bodybuilding"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Bodybuilding.jpg", "difficulty": "easy" },
+    { "answers": ["μποουλινγκ", "bowling"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Bowling.jpg", "difficulty": "easy" },
+    { "answers": ["πυγμαχια", "μποξ", "boxing", "pygmachia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Boxing.jpg", "difficulty": "easy" },
+    { "answers": ["ταυρομαχια", "ταυρομαχια σε ταυρο", "bullriding", "bull riding"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Bullriding.jpg", "difficulty": "medium" },
+    { "answers": ["κανοε καγιακ", "κανο", "canoeing", "kayak"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Canoeing.jpg", "difficulty": "easy" },
+    { "answers": ["καποειρα", "capoeira"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Capoeira.jpg", "difficulty": "medium" },
+    { "answers": ["κρικετ", "cricket"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Cricket.jpg", "difficulty": "easy" },
+    { "answers": ["κροσφιτ", "crossfit"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Crossfit.jpg", "difficulty": "medium" },
+    { "answers": ["κερλινγκ", "curling"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Curling.jpg", "difficulty": "hard" },
+    { "answers": ["ποδηλασια", "podilasia", "cycling"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Cycling.jpg", "difficulty": "easy" },
+    { "answers": ["βελακια", "νταρτς", "darts"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Darts.jpg", "difficulty": "easy" },
+    { "answers": ["δισκοβολια", "discus throw", "diskovolia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Discus%20Throw.jpg", "difficulty": "easy" },
+    { "answers": ["ιππασια", "ippasia", "equestrian"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Equestrian.jpg", "difficulty": "easy" },
+    { "answers": ["ξιφασκια", "xifaskia", "fencing"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Fencing.jpg", "difficulty": "easy" },
+    { "answers": ["χοκεϊ επι χορτου", "field hockey", "χοκει χορτου"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Field%20Hockey.jpg", "difficulty": "medium" },
+    { "answers": ["καλλιτεχνικο πατιναζ", "figure skating"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Figure%20Skating.jpg", "difficulty": "easy" },
+    { "answers": ["ποδοσφαιρο", "podosfairo", "football", "soccer"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Football.jpg", "difficulty": "easy" },
+    { "answers": ["φορμουλα 1", "f1", "formula 1", "formula one"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Formula%201.jpg", "difficulty": "easy" },
+    { "answers": ["γκολφ", "golf"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Golf.jpg", "difficulty": "easy" },
+    { "answers": ["γυμναστικη", "ενorgani gymnastiki", "gymnastics"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Gymnastics.jpg", "difficulty": "easy" },
+    { "answers": ["σφυροβολια", "hammer throw", "sfyrovolia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Hammer%20Throw.jpg", "difficulty": "medium" },
+    { "answers": ["χειροσφαιριση", "χαντμπολ", "handball"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Handball.jpg", "difficulty": "easy" },
+    { "answers": ["αλμα εις υψος", "αλμα σε υψος", "high jump"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/High%20Jump.jpg", "difficulty": "easy" },
+    { "answers": ["χοκεϊ επι παγου", "χοκει παγου", "ice hockey"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Ice%20Hockey.jpg", "difficulty": "easy" },
+    { "answers": ["ακοντισμος", "javelin throw", "akontismos"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Javelin%20Throw.jpg", "difficulty": "easy" },
+    { "answers": ["τζουντο", "judo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Judo.jpg", "difficulty": "easy" },
+    { "answers": ["καρατε", "karate"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Karate.jpg", "difficulty": "easy" },
+    { "answers": ["κικ μποξινγκ", "κικ μποξ", "kickboxing"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Kickboxing.jpg", "difficulty": "easy" },
+    { "answers": ["καϊτσέρφινγκ", "καϊτ σερφινγκ", "kitesurfing"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Kitesurfing.jpg", "difficulty": "medium" },
+    { "answers": ["λακρος", "lacrosse"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Lacrosse.jpg", "difficulty": "hard" },
+    { "answers": ["αλμα εις μηκος", "αλμα σε μηκος", "long jump"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Long%20Jump.jpg", "difficulty": "easy" },
+    { "answers": ["λουτζ", "ελκηθρο", "luge"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Luge.jpg", "difficulty": "hard" },
+    { "answers": ["μαραθωνιος", "marathon"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Marathon.jpg", "difficulty": "easy" },
+    { "answers": ["μοτοκρος", "motocross"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Motocross.jpg", "difficulty": "easy" },
+    { "answers": ["ορειβασια", "oreivasia", "mountaineering"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Mountaineering.jpg", "difficulty": "easy" },
+    { "answers": ["μουαι ται", "muay thai"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Muay%20Thai.jpg", "difficulty": "medium" },
+    { "answers": ["προσανατολισμος", "orientering", "orienteering"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Orientering.jpg", "difficulty": "hard" },
+    { "answers": ["παντελ", "padle tennis", "padel"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Padle%20Tennis.jpg", "difficulty": "easy" },
+    { "answers": ["παραπεντε", "αλεξιπτωτο πλαγιας", "paragliding"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Paragliding.jpg", "difficulty": "easy" },
+    { "answers": ["παρκουρ", "parkour"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Parkour.jpg", "difficulty": "easy" },
+    { "answers": ["πενταθλο", "μοντερνο πενταθλο", "pentathlon"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Pentathlon.jpg", "difficulty": "hard" },
+    { "answers": ["πικλμπολ", "pickleball"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Pickleball.jpg", "difficulty": "medium" },
+    { "answers": ["αλμα επι κοντω", "pole vault"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Pole%20Vault.jpg", "difficulty": "easy" },
+    { "answers": ["πολο", "polo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Polo.jpg", "difficulty": "medium" },
+    { "answers": ["ρακετμπολ", "racquetball"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Racquetball.jpg", "difficulty": "hard" },
+    { "answers": ["αναρριχηση", "rock climbing", "anarrichisi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Rock%20Climbing.jpg", "difficulty": "easy" },
+    { "answers": ["κωπηλασια", "rowing", "kopilasia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Rowing.jpg", "difficulty": "easy" },
+    { "answers": ["ραγκμπι", "rugby"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Rugby.jpg", "difficulty": "easy" },
+    { "answers": ["ιστιοπλοϊα", "sailing", "istioploia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Sailing.jpg", "difficulty": "easy" },
+    { "answers": ["καταδυσεις", "αυτοκαταδυση", "scuba diving"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Scuba%20Diving.jpg", "difficulty": "easy" },
+    { "answers": ["σεπακ τακραου", "sepak takraw"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Sepak%20Takraw.jpg", "difficulty": "hard" },
+    { "answers": ["σφαιροβολια", "shot put", "sfairovolia"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Shot%20Put.jpg", "difficulty": "easy" },
+    { "answers": ["σκεϊτμπορντινγκ", "σκεϊτ", "skateboarding", "skate"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Skateboarding.jpg", "difficulty": "easy" },
+    { "answers": ["σκι", "skiing", "ski"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Skiing.jpg", "difficulty": "easy" },
+    { "answers": ["πτωσει με αλεξιπτωτο", "ελεύθερη πτώση", "skydiving"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Skydiving.jpg", "difficulty": "easy" },
+    { "answers": ["σνοουμπορντ", "snowboarding", "snowboard"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Snowboarding.jpg", "difficulty": "easy" },
+    { "answers": ["πατιναζ ταχυτητας", "speed skating"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Speed%20Skating.jpg", "difficulty": "medium" },
+    { "answers": ["σκουος", "squash"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Squash.jpg", "difficulty": "medium" },
+    { "answers": ["σερφινγκ", "σερφ", "surfing", "surf"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Surfing.jpg", "difficulty": "easy" },
+    { "answers": ["κολυμβηση", "κολυμπι", "swimming", "kolymvisi"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Swimming.jpg", "difficulty": "easy" },
+    { "answers": ["πιγκ πογκ", "επιτραπεζια αντισφαιριση", "table tennis", "ping pong"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Table%20Tennis.jpg", "difficulty": "easy" },
+    { "answers": ["ταεκβοντο", "taekwondo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Taekwondo.jpg", "difficulty": "easy" },
+    { "answers": ["τενις", "αντισφαιριση", "tennis"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Tennis.jpg", "difficulty": "easy" },
+    { "answers": ["αλτιμεϊτ φρισμπι", "φρισμπι", "ultimate frisbee", "frisbee"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Ultimate%20Frisbee.jpg", "difficulty": "medium" },
+    { "answers": ["βολεϊ", "πετοσφαιριση", "volleyball", "volley"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Volleyball.jpg", "difficulty": "easy" },
+    { "answers": ["πολο με νερο", "υδατοσφαιριση", "water polo"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Water%20Polo.jpg", "difficulty": "easy" },
+    { "answers": ["αρση βαρων", "weightlifting"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Weightlifting.jpg", "difficulty": "easy" },
+    { "answers": ["ιστιοσανιδα", "γουιντσερφινγκ", "windsurfing"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Windsurfing.jpg", "difficulty": "easy" },
+    { "answers": ["παλη", "pali", "wrestling"], "image": "https://broad-cloud-2097.takisparas32.workers.dev/sports/Wrestling.jpg", "difficulty": "easy" }
+],
 
-"basketball-players": [
+"Παίχτες Μπάσκετ": [
         {
             "answers": ["mike james", "james"],
             "image": "https://broad-cloud-2097.takisparas32.workers.dev/basketball-players/mike-james.jpg",
@@ -9300,7 +11508,7 @@ movies: [
         }
     ],
 
-   brands: [
+   "Μάρκες": [
     {
         "answers": ["amazon", "αμαζον"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/brands/amazon.jpg",
@@ -9598,7 +11806,7 @@ movies: [
     }
 ],
 
-"famous-people": [
+"Διάσημοι Άνθρωποι": [
     {
         "answers": ["albert einstein", "einstein", "αλμπερτ αινσταιν", "αινσταιν"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/famous-people/albert-einstein.jpg",
@@ -10002,7 +12210,7 @@ movies: [
 ],
 
 
-singers:[
+"Τραγουδιστές":[
     {
         "answers": ["michael jackson", "jackson", "μιχαηλ τζακσον", "τζακσον"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/singers/michael-jackson.jpg",
@@ -10405,7 +12613,7 @@ singers:[
     }
 ],
 
-"star-wars": [
+"Star Wars": [
     {
         "answers": ["luke skywalker", "skywalker", "λουκ σκαϊγουοκερ", "σκαϊγουοκερ"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/star-wars/luke-skywalker.jpg",
@@ -10859,7 +13067,7 @@ singers:[
     }
 ],
 
-horror: [
+"Horror": [
     {
         "answers": ["michael myers", "michael", "μαικλ μαγιερς", "μαικλ"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/horror/michael-myers.jpg",
@@ -11263,7 +13471,7 @@ horror: [
     }
 ],
 
-disney: 
+"Disney": 
 
 [
     {
@@ -11883,7 +14091,7 @@ disney:
     }
 ],
 
-monuments: [
+"Μνημεία": [
     {
         "answers": ["πύργος του άιφελ", "άιφελ", "eiffel tower", "eiffel", "πύργος άιφελ στο παρίσι", "ο πύργος του άιφελ"],
         "image": "https://broad-cloud-2097.takisparas32.workers.dev/monuments/eiffel-tower.jpg",

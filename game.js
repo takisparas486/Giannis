@@ -59,92 +59,116 @@ function updatePreviewTexts() {
 }
 
 // Custom dropdown builder: mirrors a <select> with a styled list and keeps the select value in sync
+// Βελτιωμένη συνάρτηση δημιουργίας Interactive Dropdowns
 function buildCustomFromSelect(selectEl) {
     if (!selectEl) return;
-    // mark native select hidden
-    selectEl.classList.add('native-hidden');
 
-    const id = selectEl.id || selectEl.dataset.customId || `select_${Math.random().toString(36).slice(2,8)}`;
-    selectEl.dataset.customId = id;
-    const existing = document.querySelector(`.custom-for-${id}`);
-    if (existing) existing.remove();
-
+    // Δημιουργία Wrapper
     const wrapper = document.createElement('div');
-    wrapper.className = `custom-select custom-for-${id}`;
+    wrapper.className = 'custom-select-wrapper';
+    
+    const customSelect = document.createElement('div');
+    customSelect.className = 'custom-select';
+    
+    // Trigger / Selected Option View
+    const trigger = document.createElement('div');
+    trigger.className = 'custom-select-trigger';
+    
+    const selectedText = document.createElement('span');
+    selectedText.className = 'selected-text';
+    selectedText.textContent = selectEl.options[selectEl.selectedIndex]?.text || 'Επιλέξτε...';
+    
+    const arrow = document.createElement('div');
+    arrow.className = 'custom-select-arrow';
+    arrow.innerHTML = '&#9662;'; // Βελάκι
 
-    const toggle = document.createElement('div');
-    toggle.className = 'custom-select__toggle';
-    toggle.tabIndex = 0;
-    toggle.setAttribute('role','button');
-    toggle.setAttribute('aria-haspopup','listbox');
+    trigger.appendChild(selectedText);
+    trigger.appendChild(arrow);
+    customSelect.appendChild(trigger);
 
-    const labelSpan = document.createElement('span');
-    // prefer the selected option's visible text for label
-    const selIndex = selectEl.selectedIndex >= 0 ? selectEl.selectedIndex : 0;
-    labelSpan.textContent = (selectEl.options[selIndex] && selectEl.options[selIndex].textContent) || selectEl.value || '';
-    toggle.appendChild(labelSpan);
+    // Options Container
+    const optionsContainer = document.createElement('div');
+    optionsContainer.className = 'custom-options';
 
-    const list = document.createElement('div');
-    list.className = 'custom-select__list';
-    list.style.display = 'none';
-
-    Array.from(selectEl.options).forEach(opt => {
-        const item = document.createElement('div');
-        item.className = 'custom-select__item';
-        item.textContent = opt.textContent;
-        item.dataset.value = opt.value;
-        if (opt.value === selectEl.value) item.classList.add('active');
-        
-        item.addEventListener('click', () => {
-            // Αφαίρεση active από τα άλλα αδερφά custom στοιχεία[cite: 1]
-            const siblings = list.querySelectorAll('.custom-select__item');
-            siblings.forEach(sib => sib.classList.remove('active'));
-            
-            // Προσθήκη active στο τρέχον στοιχείο[cite: 1]
-            item.classList.add('active');
-            
-            // Ενημέρωση του native select και του dataset για ασφάλεια[cite: 1]
-            selectEl.value = opt.value;
-            selectEl.dataset.selectedValue = opt.value;
-            
-            // Ενημέρωση του label[cite: 1]
-            labelSpan.textContent = opt.textContent;
-            
-            // Κλείσιμο λίστας[cite: 1]
-            list.style.display = 'none';
-            
-            // Dispatch event για να το καταλάβει το υπόλοιπο σύστημα[cite: 1]
-            selectEl.dispatchEvent(new Event('change', { bubbles: true }));
+    // (Προαιρετικό) Πεδίο Αναζήτησης για ευκολία αν υπάρχουν πολλές κατηγορίες
+    if (selectEl.options.length > 6) {
+        const searchBox = document.createElement('input');
+        searchBox.type = 'text';
+        searchBox.className = 'custom-select-search';
+        searchBox.placeholder = '🔍 Αναζήτηση κατηγορίας...';
+        searchBox.addEventListener('click', (e) => e.stopPropagation());
+        searchBox.addEventListener('input', (e) => {
+            const term = e.target.value.toLowerCase();
+            const items = optionsContainer.querySelectorAll('.custom-option');
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(term) ? 'flex' : 'none';
+            });
         });
-        list.appendChild(item);
+        optionsContainer.appendChild(searchBox);
+    }
+
+    // Δημιουργία Options List
+    Array.from(selectEl.options).forEach((opt) => {
+        const optionDiv = document.createElement('div');
+        optionDiv.className = 'custom-option';
+        if (opt.selected) optionDiv.classList.add('selected');
+        
+        // Data attribute για εύκολη αναγνώριση
+        optionDiv.dataset.value = opt.value;
+        
+        // Label με Icon (αν υπάρχει emoji/icon στο text)
+        optionDiv.innerHTML = `<span>${opt.text}</span>`;
+
+        // Event: Επιλογή Category
+        optionDiv.addEventListener('click', (e) => {
+            e.stopPropagation();
+            
+            // Ενημέρωση του πρωτότυπου select
+            selectEl.value = opt.value;
+            selectEl.dispatchEvent(new Event('change', { bubbles: true }));
+
+            // Ενημέρωση UI
+            selectedText.textContent = opt.text;
+            optionsContainer.querySelectorAll('.custom-option').forEach(el => el.classList.remove('selected'));
+            optionDiv.classList.add('selected');
+            
+            // Κλείσιμο dropdown
+            customSelect.classList.remove('open');
+        });
+
+        optionsContainer.appendChild(optionDiv);
     });
 
-    toggle.addEventListener('click', (e) => {
+    customSelect.appendChild(optionsContainer);
+    
+    // Toggle Dropdown
+    trigger.addEventListener('click', (e) => {
         e.stopPropagation();
-        list.style.display = list.style.display === 'none' ? 'block' : 'none';
-    });
-
-    // close on outside click
-    document.addEventListener('click', (e) => {
-        if (!wrapper.contains(e.target)) {
-            list.style.display = 'none';
+        // Κλείσιμο άλλων ανοιχτών dropdowns
+        document.querySelectorAll('.custom-select.open').forEach(el => {
+            if (el !== customSelect) el.classList.remove('open');
+        });
+        customSelect.classList.toggle('open');
+        
+        // Focus στο search αν υπάρχει
+        const searchInput = optionsContainer.querySelector('.custom-select-search');
+        if (customSelect.classList.contains('open') && searchInput) {
+            setTimeout(() => searchInput.focus(), 100);
         }
     });
 
-    wrapper.appendChild(toggle);
-    wrapper.appendChild(list);
-
-    // insert after the select's parent (keeps layout similar)
-    if (selectEl.parentNode) {
-        selectEl.parentNode.appendChild(wrapper);
-    }
-
-    // update preview when underlying native select changes
-    selectEl.addEventListener('change', () => {
-        try { labelSpan.textContent = selectEl.options[selectEl.selectedIndex]?.textContent || selectEl.value; } catch(e){}
-        try { updatePreviewTexts(); } catch(e){}
-    });
+    // Αντικατάσταση στο DOM
+    selectEl.style.display = 'none';
+    selectEl.parentNode.insertBefore(wrapper, selectEl);
+    wrapper.appendChild(selectEl);
+    wrapper.appendChild(customSelect);
 }
+
+// Global Event για κλείσιμο όταν κάνουμε click έξω
+document.addEventListener('click', () => {
+    document.querySelectorAll('.custom-select.open').forEach(el => el.classList.remove('open'));
+});
 
 /* Αντικατάστησε τις παλιές συναρτήσεις με αυτές */
 function initCustomSelects() {
@@ -497,7 +521,7 @@ function renderTournamentInputs() {
     if (tournamentPlayers.length === 0) {
         tournamentPlayers = Array.from({ length: count }, (_, i) => ({
             name: `Player ${i + 1}`,
-            category: categorySelect?.value || "animals"
+            category: categorySelect?.value || "Ζώα"
         }));
     }
 
@@ -625,8 +649,58 @@ function populateChallengeSelectors() {
 
     try { updatePreviewTexts(); } catch (e) { console.warn('preview update failed', e); }
 
-    try { buildCustomFromSelect(initialChallengerSelect); } catch (e) { /* ignore */ }
-    try { buildCustomFromSelect(initialOpponentSelect); } catch (e) { /* ignore */ }
+    // try { buildCustomFromSelect(initialChallengerSelect); } catch (e) { /* ignore */ }
+    // try { buildCustomFromSelect(initialOpponentSelect); } catch (e) { /* ignore */ }
+}
+// document.getElementById('tswGoToOpponentStepBtn')?.addEventListener('click', () => {
+//     // Κρύβει το Step 3 και εμφανίζει το Step 4
+//     document.getElementById('tswStep3')?.classList.add('tsw-hidden');
+//     document.getElementById('tswStep4')?.classList.remove('tsw-hidden');
+    
+//     // Ενημερώνει τη λίστα αντιπάλων αποκλείοντας τον Challenger
+//     if (typeof updateOpponentDropdown === 'function') {
+//         updateOpponentDropdown();
+//     }
+// });
+function prepareOpponentStep() {
+    let challengerName = selectedChallengerName || 
+        document.getElementById('tswRandomChallengerName')?.textContent.trim();
+    
+    if (!challengerName || challengerName === "---") {
+        alert("Παρακαλώ κάντε roll για να αναδείξετε έναν Challenger πρώτα!");
+        return;
+    }
+
+    const activeNameEl = document.getElementById('tswActiveChallengerName');
+    if (activeNameEl) {
+        activeNameEl.textContent = challengerName;
+    }
+
+    populateOpponentDropdown(challengerName);
+    goToTswStep(4);
+}
+
+function populateOpponentDropdown(challengerName) {
+    if (!initialOpponentSelect || !tournamentPlayerInputs) return;
+
+    const rows = Array.from(tournamentPlayerInputs.querySelectorAll(".playerRow"));
+    const players = rows.map(row => {
+        const input = row.querySelector("input[type='text']");
+        return input ? input.value.trim() : "";
+    }).filter(name => name && name !== challengerName);
+
+    initialOpponentSelect.innerHTML = "";
+
+    players.forEach(name => {
+        const option = document.createElement("option");
+        option.value = name;
+        option.textContent = name;
+        initialOpponentSelect.appendChild(option);
+    });
+
+    if (players.length > 0) {
+        initialOpponentSelect.value = players[0];
+    }
 }
 function triggerVersusIntro(player1, player2, onCompleteCallback) {
     const overlay = document.getElementById('versusOverlay');
@@ -687,9 +761,11 @@ function triggerVersusIntro(player1, player2, onCompleteCallback) {
     }
 }
 function populateCategorySelect() {
+    console.log("DEBUG - Categories object:", categories);
     if (!categories) return;
 
     const categoryKeys = Object.keys(categories);
+    console.log("DEBUG - Category keys:", categoryKeys);
     if (categoryKeys.length === 0) return;
 
     const fillSelect = (selectElement, value) => {
@@ -699,10 +775,11 @@ function populateCategorySelect() {
         categoryKeys.forEach(key => {
             const option = document.createElement("option");
             option.value = key;
-            option.textContent = key
-                .split("-")
-                .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-                .join(" ");
+
+            const categoryData = categories[key];
+            const greekName = (categoryData && categoryData.name) || key.split("-").map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
+
+            option.textContent = greekName;
             selectElement.appendChild(option);
         });
 
@@ -715,6 +792,8 @@ function populateCategorySelect() {
 
     if (tournamentPlayerInputs) {
         const selectFields = tournamentPlayerInputs.querySelectorAll("select");
+        console.log("DEBUG - Found player select fields:", selectFields.length);
+        
         selectFields.forEach(selectField => {
             const idx = selectField.dataset.playerIndex;
             const savedValue = tournamentPlayers[idx] ? tournamentPlayers[idx].category : categorySelect?.value;
@@ -725,22 +804,15 @@ function populateCategorySelect() {
                 const currentPlayerIdx = e.target.dataset.playerIndex;
                 if (tournamentPlayers[currentPlayerIdx]) {
                     tournamentPlayers[currentPlayerIdx].category = e.target.value;
-                    console.log(`🎯 ΕΝΗΜΕΡΩΘΗΚΕ: Ο Player ${Number(currentPlayerIdx) + 1} (index ${currentPlayerIdx}) έχει πλέον κατηγορία: ${e.target.value}`);
                 }
             };
-
-            // ❌ ΑΦΑΙΡΕΘΗΚΕ ΤΟ buildCustomFromSelect(selectField) ΠΟΥ ΧΑΛΟΥΣΕ ΤΟ UI
         });
-    }
-
-    if (categorySelect && categorySelect.options.length > 0 && !categorySelect.value) {
-        categorySelect.selectedIndex = 0;
     }
 }
 
 function getRandomCategoryKey() {
     const availableKeys = Object.keys(categories || {});
-    if (availableKeys.length === 0) return "animals";
+    if (availableKeys.length === 0) return "Ζώα";
     return availableKeys[Math.floor(Math.random() * availableKeys.length)];
 }
 
@@ -756,87 +828,72 @@ function startTournamentMode() {
         return false;
     }
 
-    const challengerName = initialChallengerSelect?.value;
+    // 1. Προτεραιότητα στο selectedChallengerName (Random Roll) -> μετά στο select DOM
+    const challengerName = selectedChallengerName || 
+        document.getElementById('tswRandomChallengerName')?.textContent.trim() || 
+        initialChallengerSelect?.value;
+
     const opponentName = initialOpponentSelect?.value;
 
-    const selectedChallenger = players.find(p => p.name === challengerName) || players[Math.floor(Math.random() * players.length)];
-    const selectedOpponent = players.find(p => p.name === opponentName && p.name !== selectedChallenger.name)
-        || players.find(p => p.name !== selectedChallenger.name);
+    // 2. Εύρεση Challenger με βάση το όνομα (χωρίς να ξανακάνει random!)
+    let selectedChallenger = players.find(p => p.name === challengerName);
+    
+    // Αν για κάποιο λόγο δεν βρεθεί, παίρνει τον πρώτο παίκτη της λίστας αντί για νέο random
+    if (!selectedChallenger) {
+        console.warn("⚠️ Challenger not matched by name. Falling back to first player.");
+        selectedChallenger = players[0];
+    }
 
+    // 3. Εύρεση Opponent
+    let selectedOpponent = players.find(p => p.name === opponentName && p.name !== selectedChallenger.name);
+    
+    // Αν δεν έχει επιλεγεί αντίπαλος, παίρνει τον πρώτο διαθέσιμο που ΔΕΝ είναι ο Challenger
+    if (!selectedOpponent) {
+        selectedOpponent = players.find(p => p.name !== selectedChallenger.name);
+    }
+
+    // -----------------------------------------------------------------
+    // CONSOLE LOG: Επιβεβαίωση τελικού Matchup
+    // -----------------------------------------------------------------
+    // Διορθωμένα console.log (χωρίς μπερδεμένα %c)
+console.group("%c🚀 TOURNAMENT MATCH STARTING", "color: #10b981; font-weight: bold; font-size: 12px;");
+console.log("🔴 Challenger:", selectedChallenger.name);
+console.log("🔵 Opponent:", selectedOpponent.name);
+console.groupEnd();
+
+    // 4. Ενημέρωση State & Queue
     currentChallenger = selectedChallenger;
     const remainingOpponents = players.filter(p => p.name !== selectedChallenger.name && p.name !== selectedOpponent.name);
     tournamentOpponentQueue = [selectedOpponent, ...shuffleArray(remainingOpponents)];
     tournamentPlayers = players;
     tournamentCurrentMatch = null;
     tournamentPaused = false;
+    
     clearTimeout(tournamentAutoAdvanceTimeout);
     clearTimeout(tournamentPauseTimer);
+    
     renderTournamentBracket();
     
     const categoryKey = selectedOpponent.category || selectedChallenger.category || getRandomCategoryKey();
     
     tournamentCurrentMatch = {
-    player1: selectedChallenger.name,
-    player2: selectedOpponent.name,
-    categoryKey,
-    challenger: selectedChallenger,
-    opponent: selectedOpponent
-};
-
-// 1. Εμφάνιση Intro
-triggerVersusIntro(
-    tournamentCurrentMatch.player1, 
-    tournamentCurrentMatch.player2, 
-    function() {
-        // 2. Μόλις ΤΕΛΕΙΩΣΕΙ το intro, φορτώνουν οι εικόνες και η πίστα!
-        beginMatch(tournamentCurrentMatch.player1, tournamentCurrentMatch.player2, tournamentCurrentMatch.categoryKey);
-    }
-);
-
-    return true;
-}
-function startNextTournamentMatch() {
-    clearTimeout(tournamentAutoAdvanceTimeout);
-    clearTimeout(tournamentPauseTimer);
-    tournamentPaused = false;
-
-    if (!currentChallenger) {
-        finishTournament("Winner");
-        return;
-    }
-
-    if (tournamentOpponentQueue.length === 0) {
-        finishTournament(currentChallenger.name);
-        return;
-    }
-
-    const opponent = tournamentOpponentQueue.shift();
-    const categoryKey = opponent.category || currentChallenger.category || getRandomCategoryKey();
-    const match = {
-        player1: currentChallenger.name,
-        player2: opponent.name,
+        player1: selectedChallenger.name,
+        player2: selectedOpponent.name,
         categoryKey,
-        challenger: currentChallenger,
-        opponent
+        challenger: selectedChallenger,
+        opponent: selectedOpponent
     };
 
-    tournamentCurrentMatch = match;
-    renderTournamentBracket();
-
-    // 1. Κρύβουμε το container του παιχνιδιού πριν ξεκινήσει το Intro
-    const gameScreen = document.getElementById("gameScreen") || document.getElementById("gameContainer");
-    if (gameScreen) {
-        gameScreen.style.display = "none";
-    }
-
-    // 2. Εκτελούμε το Versus Intro
-    triggerVersusIntro(match.player1, match.player2, function() {
-        // 3. ΜΟΛΙΣ ΤΕΛΕΙΩΣΕΙ (μετά το "Let the battle begin"):
-        if (gameScreen) {
-            gameScreen.style.display = "block"; // Εμφανίζουμε το UI
+    // 5. Εμφάνιση Intro & Έναρξη Match
+    triggerVersusIntro(
+        tournamentCurrentMatch.player1, 
+        tournamentCurrentMatch.player2, 
+        function() {
+            beginMatch(tournamentCurrentMatch.player1, tournamentCurrentMatch.player2, tournamentCurrentMatch.categoryKey);
         }
-        beginMatch(match.player1, match.player2, match.categoryKey); // Φορτώνουμε τις εικόνες
-    });
+    );
+
+    return true;
 }
 
 function renderTournamentBracket(showRoadToFinal = false) {
@@ -914,28 +971,40 @@ function finishTournament(champion = "Winner") {
 }
 
 function beginMatch(player1NameText, player2NameText, categoryKey) {
-    player1Name.textContent = player1NameText;
-    player2Name.textContent = player2NameText;
+    if (player1Name) player1Name.textContent = player1NameText;
+    if (player2Name) player2Name.textContent = player2NameText;
 
-    player1Time = Number(timeSelect.value);
-    player2Time = Number(timeSelect.value);
+    // 🎯 ΔΙΟΡΘΩΣΗ: Απευθείας ανάγνωση από το #tswTimeSelect του Step 5 με fallback
+    const timeSelectEl = document.getElementById("tswTimeSelect") || timeSelect;
+    const selectedTime = timeSelectEl && timeSelectEl.value ? Number(timeSelectEl.value) : 60;
 
-    player1Timer.textContent = player1Time;
-    player2Timer.textContent = player2Time;
+    player1Time = selectedTime;
+    player2Time = selectedTime;
+
+    if (player1Timer) player1Timer.textContent = player1Time;
+    if (player2Timer) player2Timer.textContent = player2Time;
 
     currentPlayer = 1;
 
-    currentCategory.textContent = categoryKey
-        .split("-")
-        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-        .join(" ");
+    if (currentCategory && categoryKey) {
+        currentCategory.textContent = categoryKey
+            .split("-")
+            .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+            .join(" ");
+    }
 
-    currentImages = [...categories[categoryKey]];
+    if (categories && categories[categoryKey]) {
+        currentImages = [...categories[categoryKey]];
+    } else {
+        currentImages = [];
+    }
 
     showScreen(gameScreen);
 
     ensureAudio();
-    audioContext.resume().catch(() => {});
+    if (audioContext && typeof audioContext.resume === "function") {
+        audioContext.resume().catch(() => {});
+    }
 
     updatePlayerLights();
 
@@ -947,7 +1016,6 @@ function beginMatch(player1NameText, player2NameText, categoryKey) {
     logDebug("Game started. Audio resumed. Αναμονή για φωνητική εισαγωγή.");
     startSpeechRecognition();
 }
-
 /*=========================================
             LOAD NEXT IMAGE
 =========================================*/
@@ -963,13 +1031,20 @@ function loadNextImage() {
         answerCaption.textContent = "";
     }
 
+    // 🎯 ΔΙΟΡΘΩΣΗ: Ασφαλής ανάγνωση των checkboxes με Optional Chaining (?.checked)
     const selectedDifficulties = [];
-    if (easyCheckbox.checked) selectedDifficulties.push("easy");
-    if (mediumCheckbox.checked) selectedDifficulties.push("medium");
-    if (hardCheckbox.checked) selectedDifficulties.push("hard");
+    if (typeof easyCheckbox !== "undefined" && easyCheckbox?.checked) selectedDifficulties.push("easy");
+    if (typeof mediumCheckbox !== "undefined" && mediumCheckbox?.checked) selectedDifficulties.push("medium");
+    if (typeof hardCheckbox !== "undefined" && hardCheckbox?.checked) selectedDifficulties.push("hard");
+
+    // Αν δεν είναι τσεκαρισμένο κανένα ή αν τα elements είναι null (π.χ. σε Tournament Mode),
+    // φορτώνουμε όλες τις διαθέσιμες δυσκολίες ως fallback.
+    const activeDifficulties = selectedDifficulties.length > 0 
+        ? selectedDifficulties 
+        : ["easy", "medium", "hard"];
 
     const availableImages = currentImages.filter(image =>
-        selectedDifficulties.includes(image.difficulty)
+        activeDifficulties.includes(image.difficulty)
     );
 
     if (availableImages.length === 0) {
@@ -980,10 +1055,56 @@ function loadNextImage() {
     const randomIndex = Math.floor(Math.random() * availableImages.length);
     currentImage = availableImages[randomIndex];
 
-    // Show the next image immediately without the extra transition delay.
-    gameImage.src = currentImage.image;
-    gameImage.classList.remove("imageHidden");
-    gameImage.classList.add("imageVisible");
+    // Εμφάνιση της νέας εικόνας
+    // Diacheirisi Eikonas h Ihou
+if (currentImage.audio) {
+    if (gameImage) {
+        gameImage.src = "https://img.icons8.com/isometric/500/speaker.png";
+        gameImage.classList.remove("imageHidden");
+        gameImage.classList.add("imageVisible");
+    }
+
+    // Stamatame ton proigoumemo iho kai katharizoyme to timer an yparxei
+    if (window.currentAudioTrack) {
+        window.currentAudioTrack.pause();
+        window.currentAudioTrack.onended = null;
+    }
+    if (window.audioReplayTimer) {
+        clearTimeout(window.audioReplayTimer);
+    }
+
+    // Dimiourgia neou ihou
+    window.currentAudioTrack = new Audio(currentImage.audio);
+    
+    // Otan teleionei o ihos (meta apo 3-4 sec):
+    window.currentAudioTrack.onended = function() {
+        // Perimenei 2000ms (2 deyterolepta) kai ksanarkizei automata
+        window.audioReplayTimer = setTimeout(() => {
+            if (window.currentAudioTrack) {
+                window.currentAudioTrack.currentTime = 0;
+                window.currentAudioTrack.play().catch(e => console.log("Audio play error:", e));
+            }
+        }, 2000); // Mporeite na allaksete to 2000 se osos millisecond thelete
+    };
+
+    // Ekkinisi ihou gia proty fora
+    window.currentAudioTrack.play().catch(e => console.log("Audio play error:", e));
+
+} else if (currentImage.image) {
+    if (gameImage) {
+        gameImage.src = currentImage.image;
+        gameImage.classList.remove("imageHidden");
+        gameImage.classList.add("imageVisible");
+    }
+
+    // Katharismos ihoy an perasame se eikona
+    if (window.audioReplayTimer) clearTimeout(window.audioReplayTimer);
+    if (window.currentAudioTrack) {
+        window.currentAudioTrack.pause();
+        window.currentAudioTrack.onended = null;
+        window.currentAudioTrack = null;
+    }
+}
 
     const imageFrame = document.querySelector(".imageFrame");
     if (imageFrame) {
@@ -1388,7 +1509,88 @@ document.getElementById('quitButton')?.addEventListener('click', () => {
         if (menuMusic) menuMusic.play().catch(() => {});
     }
 });
+// Μεταβλητή για να κρατάμε το ενεργό timeout ώστε να μην επικαλύπτονται
+let currentAudioElement = null;
+let currentTimeoutId = null;
+let hasPlayedForCurrentQuestion = false; // "Κλειδαριά" για να μην ξαναπαίξει αυτόματα
 
+// Κοινή εικόνα ήχου
+const COMMON_SOUND_IMAGE = "https://cdn-icons-png.flaticon.com/512/3204/3204070.png";
+
+function playQuestionAudio(audioUrl, isUserReplay = false) {
+    const soundImg = document.getElementById('soundImage');
+    const gameImg = document.getElementById('gameImage');
+
+    // Αν έχει ήδη παίξει για αυτή την ερώτηση και ΔΕΝ πατήθηκε/ειπώθηκε το "ΞΑΝΑ", σταματάμε!
+    if (hasPlayedForCurrentQuestion && !isUserReplay) {
+        return; 
+    }
+
+    // 1. Καθαρισμός προηγούμενου ήχου & timer
+    if (currentAudioElement) {
+        currentAudioElement.pause();
+        currentAudioElement.onplaying = null;
+        currentAudioElement.src = "";
+    }
+    if (currentTimeoutId) {
+        clearTimeout(currentTimeoutId);
+        currentTimeoutId = null;
+    }
+
+    // Κλειδώνουμε ώστε να μην ξανακαλεστεί αυτόματα
+    hasPlayedForCurrentQuestion = true;
+
+    // 2. Δημιουργία Audio
+    const audio = new Audio();
+    audio.src = audioUrl;
+    audio.loop = false; // Απενεργοποίηση loop του browser
+    audio.currentTime = 0;
+    currentAudioElement = audio;
+
+    // 3. Μόλις ξεκινήσει η αναπαραγωγή
+    audio.onplaying = function() {
+        // Εμφάνιση κοινής εικόνας ήχου
+        if (gameImg) gameImg.style.display = "none";
+        if (soundImg) {
+            soundImg.src = COMMON_SOUND_IMAGE;
+            soundImg.style.display = "block";
+        }
+
+        // Αυστηρό κόψιμο στα 2000ms (2 δευτερόλεπτα)
+        currentTimeoutId = setTimeout(() => {
+            audio.pause();
+            audio.currentTime = 0;
+
+            // Επαναφορά εικόνας
+            if (soundImg) soundImg.style.display = "none";
+            if (gameImg) gameImg.style.display = "block";
+        }, 2000);
+    };
+
+    audio.play().catch(error => console.error("Σφάλμα play:", error));
+}
+
+// ⚠️ ΠΡΟΣΟΧΗ: Όταν αλλάζει η ερώτηση/εικόνα στο παιχνίδι σου, 
+// πρέπει να μηδενίζεις το flag καλώντας αυτή τη συνάρτηση:
+function resetQuestionAudio() {
+    hasPlayedForCurrentQuestion = false;
+    if (currentAudioElement) {
+        currentAudioElement.pause();
+        currentAudioElement.currentTime = 0;
+    }
+    if (currentTimeoutId) {
+        clearTimeout(currentTimeoutId);
+    }
+}
+
+function repeatCurrentSound() {
+    if (currentPlayingAudio) {
+        playSoundWithLimit(currentPlayingAudio, 2000);
+    } else {
+        // Αν δεν υπάρχει αρχείο ήχου, ξανανοίγουμε το μικρόφωνο
+        startSpeechRecognition();
+    }
+}
 function stopBrowserSpeechRecognition() {
     if (!browserSpeechRecognition) return;
     try {
@@ -1401,26 +1603,39 @@ function stopBrowserSpeechRecognition() {
 
 // Multi-Step Wizard Navigation Handler
 function goToTswStep(stepNumber) {
-    // Hide all step sections
+    // Απόκρυψη όλων των steps
     document.querySelectorAll('.tsw-step-content').forEach(step => {
         step.classList.remove('tsw-step-active');
+        step.classList.add('tsw-hidden');
     });
 
-    // Update Step Header Indicators
+    // Ενημέρωση των Step Pills στην κορυφή & Αυτόματο Scroll
     document.querySelectorAll('.tsw-step-pill').forEach(pill => {
+        const currentPillStep = parseInt(pill.dataset.step, 10);
+        
         pill.classList.remove('active');
-        if (parseInt(pill.dataset.step) <= stepNumber) {
+        
+        if (currentPillStep <= stepNumber) {
             pill.classList.add('active');
+        }
+
+        // Αυτόματο κεντράρισμα του τρέχοντος ενεργού pill
+        if (currentPillStep === stepNumber) {
+            pill.scrollIntoView({
+                behavior: 'smooth',
+                block: 'nearest',
+                inline: 'center'
+            });
         }
     });
 
-    // Display active step content
+    // Εμφάνιση του ενεργού step
     const activeStep = document.getElementById(`tswStep${stepNumber}`);
     if (activeStep) {
+        activeStep.classList.remove('tsw-hidden');
         activeStep.classList.add('tsw-step-active');
     }
 }
-
 // Switch between Manual and Random Challenger selection modes
 function setChallengerMode(mode) {
     const manualBtn = document.getElementById('tswModeManualBtn');
@@ -1428,47 +1643,69 @@ function setChallengerMode(mode) {
     const manualPanel = document.getElementById('tswManualPanel');
     const randomPanel = document.getElementById('tswRandomPanel');
 
+    // Ασφαλής έλεγχος αν υπάρχουν τα στοιχεία πριν την αλλαγή classList
     if (mode === 'manual') {
-        manualBtn.classList.add('active');
-        randomBtn.classList.remove('active');
-        manualPanel.classList.remove('tsw-hidden');
-        randomPanel.classList.add('tsw-hidden');
+        if (manualBtn) manualBtn.classList.add('active');
+        if (randomBtn) randomBtn.classList.remove('active');
+        if (manualPanel) manualPanel.classList.remove('tsw-hidden');
+        if (randomPanel) randomPanel.classList.add('tsw-hidden');
     } else {
-        randomBtn.classList.add('active');
-        manualBtn.classList.remove('active');
-        randomPanel.classList.remove('tsw-hidden');
-        manualPanel.classList.add('tsw-hidden');
+        if (randomBtn) randomBtn.classList.add('active');
+        if (manualBtn) manualBtn.classList.remove('active');
+        if (randomPanel) randomPanel.classList.remove('tsw-hidden');
+        if (manualPanel) manualPanel.classList.add('tsw-hidden');
     }
 }
 
 // Randomly pick Challenger and Opponent from available select choices
+// Αποκλειστικό Roll Challenger (Χωρίς manual mode)
+// Global μεταβλητή για να κρατάμε τον Challenger (αν δεν υπάρχει ήδη)
+let selectedChallengerName = "";
+
 function triggerRandomChallenger() {
-    const challengerSelect = document.getElementById('initialChallengerSelect');
-    const opponentSelect = document.getElementById('initialOpponentSelect');
+    const players = collectTournamentPlayers();
 
-    if (!challengerSelect || challengerSelect.options.length < 2) return;
+    if (players.length < 2) {
+        alert("Παρακαλώ συμπληρώστε τους παίκτες στο Βήμα 2.");
+        return;
+    }
 
-    // Pick random index for Challenger
-    const challengerIndex = Math.floor(Math.random() * challengerSelect.options.length);
-    challengerSelect.selectedIndex = challengerIndex;
-    challengerSelect.dispatchEvent(new Event('change'));
+    const randomIndex = Math.floor(Math.random() * players.length);
+    const selectedPlayer = players[randomIndex];
 
-    // Pick random index for Opponent (excluding chosen Challenger)
-    let opponentIndex;
-    do {
-        opponentIndex = Math.floor(Math.random() * opponentSelect.options.length);
-    } while (opponentIndex === challengerIndex);
+    // 1. Αποθήκευση του ονόματος στη global μεταβλητή
+    selectedChallengerName = selectedPlayer.name;
 
-    opponentSelect.selectedIndex = opponentIndex;
-    opponentSelect.dispatchEvent(new Event('change'));
+    // 2. CONSOLE LOG
+    console.group("%c⚔️ PIC DUEL - RANDOM CHALLENGER SELECTED", "color: #ff0055; font-weight: bold; font-size: 12px;");
+    console.log(`%c🎲 Roll Index: %c${randomIndex}`, "color: #94a3b8;", "color: #38bdf8; font-weight: bold;");
+    console.log(`%c👤 Name: %c${selectedPlayer.name}`, "color: #94a3b8;", "color: #10b981; font-weight: bold;");
+    console.log(`%c🏷️ Category: %c${selectedPlayer.category || 'N/A'}`, "color: #94a3b8;", "color: #facc15; font-weight: bold;");
+    console.log("%c---------------------------------------", "color: rgba(255,255,255,0.2);");
+    console.groupEnd();
 
-    // Render results in UI
-    document.getElementById('tswRandomChallengerName').textContent = 
-        challengerSelect.options[challengerSelect.selectedIndex].text;
-    document.getElementById('tswRandomOpponentName').textContent = 
-        opponentSelect.options[opponentSelect.selectedIndex].text;
+    // 3. Ενημέρωση του UI Card (Result Box)
+    const challengerNameEl = document.getElementById('tswRandomChallengerName');
+    if (challengerNameEl) {
+        challengerNameEl.textContent = selectedChallengerName;
+    }
 
-    document.getElementById('tswRandomResult').classList.remove('tsw-hidden');
+    const resultBox = document.getElementById('tswRandomResult');
+    if (resultBox) {
+        resultBox.classList.remove('tsw-hidden');
+    }
+
+    // 4. FIX: Επιβολή της τιμής και στο Select Element (για να μην διαβάζεται λάθος παίκτης μετά)
+    const initialChallengerSelect = document.getElementById('initialChallengerSelect');
+    if (initialChallengerSelect) {
+        // Αν δεν υπάρχει η επιλογή στο dropdown, τη δημιουργούμε/ενημερώνουμε
+        let optionExists = Array.from(initialChallengerSelect.options).some(opt => opt.value === selectedChallengerName);
+        if (!optionExists) {
+            initialChallengerSelect.innerHTML = `<option value="${selectedChallengerName}" selected>${selectedChallengerName}</option>`;
+        } else {
+            initialChallengerSelect.value = selectedChallengerName;
+        }
+    }
 }
 function handleRemoteTranscript(transcript, isFinal = false) {
     logDebug(`Transcript received: ${transcript}`);
@@ -2112,6 +2349,14 @@ function handlePass() {
         player2Stats.pass++;
         player2Stats.streak = 0;
     }
+    if (window.audioReplayTimer) {
+    clearTimeout(window.audioReplayTimer);
+}
+if (window.currentAudioTrack) {
+    window.currentAudioTrack.pause();
+    window.currentAudioTrack.onended = null;
+    window.currentAudioTrack = null;
+}
 
     if (gameScreen) {
         gameScreen.classList.add("frozen");
@@ -2334,6 +2579,14 @@ function finishGame(winnerPlayer) {
             playSound("victory");
             return;
         }
+        if (window.audioReplayTimer) {
+    clearTimeout(window.audioReplayTimer);
+}
+if (window.currentAudioTrack) {
+    window.currentAudioTrack.pause();
+    window.currentAudioTrack.onended = null;
+    window.currentAudioTrack = null;
+}
 
         // Ο νικητής συνεχίζει ως challenger για το επόμενο ματς
         currentChallenger = { name: winnerNameText, category: categorySelect?.value || "animals" };
@@ -2354,6 +2607,59 @@ function finishGame(winnerPlayer) {
         continueToMenu();
     }, 5000);
 }
+// Συνάρτηση για αναπαραγωγή ήχου/εκφώνησης με ανώτατο όριο 2 δευτερόλεπτα
+function playSoundWithLimit(audioElement, durationMs = 2000) {
+    if (!audioElement) return;
+
+    // Επανεκκίνηση ήχου από την αρχή
+    audioElement.currentTime = 0;
+    
+    // Έναρξη αναπαραγωγής
+    audioElement.play().then(() => {
+        // Μετά από 2 δευτερόλεπτα, σταματάμε τον ήχο
+        setTimeout(() => {
+            audioElement.pause();
+            audioElement.currentTime = 0;
+
+            // Μόλις ολοκληρωθούν τα 2 δευτερόλεπτα, ενεργοποιούμε το μικρόφωνο
+            startSpeechRecognition();
+        }, durationMs);
+    }).catch(err => {
+        console.warn("Σφάλμα αναπαραγωγής ήχου:", err);
+        // Αν αποτύχει ο ήχος, ανοιγουμε αμέσως το μικρόφωνο
+        startSpeechRecognition();
+    });
+}
+function playFeedbackSound(isCorrect, onAudioEnd) {
+    // 1. Κλείνουμε το μικρόφωνο για να μην ακούσει τον ήχο
+    pauseVoiceRecognition();
+
+    const audioPath = isCorrect ? "sounds/correct.mp3" : "sounds/wrong.mp3";
+    const audio = new Audio(audioPath);
+    let handled = false;
+
+    const stopAndResume = () => {
+        if (!handled) {
+            handled = true;
+            audio.pause();
+            audio.currentTime = 0; // Επαναφορά ήχου
+            resumeVoiceRecognition(); // Άνοιγμα μικροφώνου για την επόμενη ερώτηση
+            if (onAudioEnd) onAudioEnd();
+        }
+    };
+
+    // Αν ο ήχος τελειώσει νωρίτερα από 2 δευτερόλεπτα
+    audio.onended = stopAndResume;
+    audio.onerror = stopAndResume;
+
+    // Aυστηρό όριο: Κλείσιμο ήχου στα 2 δευτερόλεπτα (2000ms)
+    setTimeout(stopAndResume, 2000);
+
+    audio.play().catch(err => {
+        console.log("Audio play error:", err);
+        stopAndResume();
+    });
+}
 function showOpponentSelectionScreen(challenger, availableOpponents, defeatedPlayerName) {
     showScreen(winnerScreen);
     
@@ -2365,7 +2671,6 @@ function showOpponentSelectionScreen(challenger, availableOpponents, defeatedPla
         winnerDescription.innerHTML = `Ο/Η <strong>${defeatedPlayerName}</strong> αποκλείστηκε. Διάλεξε ποιος παίκτης θα μονομαχήσει στη συνέχεια:`;
     }
 
-    // Δημιουργία δυναμικού grid με κάρτες αντιπάλων μέσα στο winnerContainer (ή δίπλα στο κουμπί)
     const winnerContainer = document.querySelector(".winnerContainer");
     let cardsGrid = document.getElementById("opponentCardsGrid");
     
@@ -2373,7 +2678,6 @@ function showOpponentSelectionScreen(challenger, availableOpponents, defeatedPla
         cardsGrid = document.createElement("div");
         cardsGrid.id = "opponentCardsGrid";
         cardsGrid.className = "opponent-cards-grid";
-        // Τοποθετούμε το grid πριν από το κουμπί συνέχισης
         if (continueButton && continueButton.parentNode) {
             continueButton.parentNode.insertBefore(cardsGrid, continueButton);
         } else {
@@ -2406,24 +2710,78 @@ function showOpponentSelectionScreen(challenger, availableOpponents, defeatedPla
         card.appendChild(nameEl);
         card.appendChild(catEl);
 
-        // Όταν ο παίκτης κάνει κλικ σε μια κάρτα αντιπάλου
+        // 🎯 ΔΙΟΡΘΩΣΗ: Αποθήκευση και ενημέρωση του Select & Queue κατά το κλικ
         card.addEventListener("click", () => {
             cardsGrid.innerHTML = ""; // Καθαρισμός καρτών
-            // Φέρνουμε τον επιλεγμένο αντίπαλο πρώτο στην ουρά
+
+            // 1. Ενημέρωση του πρωτότυπου Select Element
+            if (initialOpponentSelect) {
+                initialOpponentSelect.value = opponent.name;
+                initialOpponentSelect.dispatchEvent(new Event('change', { bubbles: true }));
+            }
+
+            // 2. Τοποθέτηση του επιλεγμένου αντιπάλου στην αρχή της ουράς
             tournamentOpponentQueue = [opponent, ...availableOpponents.filter(o => o.name !== opponent.name)];
+
+            // 3. Εκκίνηση του επόμενου ματς
             startNextTournamentMatch();
         });
 
         cardsGrid.appendChild(card);
     });
 
-    // Απόκρυψη ή μετατροπή του continueButton σε κουμπί επιστροφής/ακύρωσης αν χρειάζεται
     if (continueButton) {
         continueButton.textContent = "ΤΕΡΜΑΤΙΣΜΟΣ / ΑΡΧΙΚΗ";
         continueButton.onclick = (e) => continueToMenu(e);
     }
 }
 
+function startNextTournamentMatch() {
+    clearTimeout(tournamentAutoAdvanceTimeout);
+    clearTimeout(tournamentPauseTimer);
+    tournamentPaused = false;
+
+    if (!currentChallenger) {
+        finishTournament("Winner");
+        return;
+    }
+
+    if (tournamentOpponentQueue.length === 0) {
+        finishTournament(currentChallenger.name);
+        return;
+    }
+
+    // Παίρνουμε τον επιλεγμένο αντίπαλο από την κορυφή της ουράς
+    const opponent = tournamentOpponentQueue.shift();
+    
+    // 🎯 ΔΙΟΡΘΩΣΗ: Προτεραιότητα στην κατηγορία του ΑΝΤΙΠΑΛΟΥ (όπως ορίζουν οι κανόνες)
+    const categoryKey = opponent.category || currentChallenger.category || getRandomCategoryKey();
+    
+    const match = {
+        player1: currentChallenger.name,
+        player2: opponent.name,
+        categoryKey,
+        challenger: currentChallenger,
+        opponent
+    };
+
+    tournamentCurrentMatch = match;
+    renderTournamentBracket();
+
+    // 1. Κρύβουμε προσωρινά την οθόνη του παιχνιδιού
+    const gameScreenEl = document.getElementById("gameScreen") || document.getElementById("gameContainer");
+    if (gameScreenEl) {
+        gameScreenEl.style.display = "none";
+    }
+
+    // 2. Εκτελούμε το Versus Intro
+    triggerVersusIntro(match.player1, match.player2, function() {
+        if (gameScreenEl) {
+            gameScreenEl.style.display = "block";
+        }
+        beginMatch(match.player1, match.player2, match.categoryKey);
+    });
+}
 function continueToMenu(event) {
     if (event) {
         event.preventDefault();
@@ -2484,6 +2842,14 @@ function resetGameState() {
     if (imageFrame) {
         imageFrame.classList.remove("changeAnim");
     }
+    if (window.audioReplayTimer) {
+    clearTimeout(window.audioReplayTimer);
+}
+if (window.currentAudioTrack) {
+    window.currentAudioTrack.pause();
+    window.currentAudioTrack.onended = null;
+    window.currentAudioTrack = null;
+}
 
     logDebug("Επιστροφή στο μενού για νέο παιχνίδι.");
 }
@@ -2577,12 +2943,43 @@ function createPlayerRow(index, categoriesList) {
 
   return card;
 }
-
 function startGame() {
     if (!easyCheckbox.checked && !mediumCheckbox.checked && !hardCheckbox.checked) {
         alert("Επίλεξε τουλάχιστον μία δυσκολία.");
         return;
     }
+
+    // 1. Σωστή ανάκτηση Challenger
+    // Ελέγχουμε global μεταβλητές, μετά το κείμενο του DOM, και σιγουρευόμαστε ότι δεν είναι "---"
+    let challengerName = selectedChallengerName;
+    
+    if (!challengerName || challengerName === "---") {
+        const domName = document.getElementById('tswRandomChallengerName')?.textContent.trim();
+        if (domName && domName !== "---") {
+            challengerName = domName;
+        }
+    }
+
+    const opponentSelectEl = document.getElementById('initialOpponentSelect');
+    const opponentName = opponentSelectEl?.value;
+
+    // Έλεγχος εγκυρότητας
+    if (!challengerName || challengerName === "---" || !opponentName || opponentName === "---") {
+        alert("Παρακαλώ ολοκληρώστε την επιλογή Challenger και Αντιπάλου!");
+        return;
+    }
+
+    // 2. Ενημέρωση των Selects για το Tournament Mode
+    if (initialChallengerSelect) {
+        initialChallengerSelect.innerHTML = `<option value="${challengerName}" selected>${challengerName}</option>`;
+        initialChallengerSelect.value = challengerName;
+    }
+    
+    if (initialOpponentSelect) {
+        initialOpponentSelect.value = opponentName;
+    }
+
+    // 3. Εκτέλεση της αρχικής συνάρτησης
     if (!startTournamentMode()) {
         return;
     }

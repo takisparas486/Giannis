@@ -1,0 +1,1015 @@
+﻿/* ==================================================== */
+/* EXTREME CYBERPUNK STYLING FOR STEPS 3, 4 & 5          */
+/* ==================================================== */
+
+/* Κεντρικό Container Card (Βήματα 3, 4 & 5) */
+.ext-step-card {
+    background: radial-gradient(circle at top, rgba(30, 27, 75, 0.95), rgba(15, 23, 42, 0.98)) !important;
+    border: 2px solid rgba(168, 85, 247, 0.5) !important;
+    border-radius: 24px !important;
+    box-shadow: 0 0 40px rgba(168, 85, 247, 0.3), inset 0 0 20px rgba(236, 72, 153, 0.15) !important;
+    padding: 28px !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+}
+
+/* Τίτλος & Υπότιτλος */
+.ext-step-title {
+    font-size: 1.8rem !important;
+    font-weight: 900 !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    background: linear-gradient(135deg, #38bdf8 0%, #a855f7 50%, #ec4899 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.5) !important;
+    margin: 0 0 6px 0 !important;
+}
+
+.ext-step-subtitle {
+    font-size: 0.85rem !important;
+    color: #94a3b8 !important;
+    text-align: center !important;
+    margin-bottom: 24px !important;
+}
+
+/* ---------------- STEP 3: ROLL PANEL ---------------- */
+.ext-roll-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+    background: rgba(15, 23, 42, 0.75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 18px !important;
+    padding: 24px !important;
+    margin-bottom: 24px !important;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Roll Button */
+.ext-btn-roll {
+    width: 100% !important;
+    max-width: 320px !important;
+    background: linear-gradient(135deg, #ff0055 0%, #7600bc 100%) !important;
+    color: #ffffff !important;
+    border: 2px solid #ff4694 !important;
+    border-radius: 16px !important;
+    padding: 16px 24px !important;
+    font-size: 1.2rem !important;
+    font-weight: 900 !important;
+    letter-spacing: 1px !important;
+    cursor: pointer !important;
+    box-shadow: 0 0 25px rgba(255, 0, 85, 0.5) !important;
+    transition: all 0.3s ease !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+}
+
+.ext-btn-roll:hover {
+    transform: scale(1.04) !important;
+    box-shadow: 0 0 35px rgba(255, 0, 85, 0.8) !important;
+    border-color: #ffffff !important;
+}
+
+/* Selected Challenger Card Result (Step 3) */
+.ext-roll-result-card {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    background: rgba(250, 204, 21, 0.08) !important;
+    border: 2px solid rgba(250, 204, 21, 0.4) !important;
+    border-radius: 16px !important;
+    padding: 16px !important;
+    text-align: center !important;
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.2) !important;
+    animation: neonGlow 2s infinite ease-in-out !important;
+}
+
+.ext-roll-result-badge {
+    font-size: 0.75rem !important;
+    font-weight: 800 !important;
+    color: #facc15 !important;
+    letter-spacing: 1px !important;
+    margin-bottom: 6px !important;
+}
+
+.ext-roll-result-name {
+    font-size: 1.6rem !important;
+    font-weight: 900 !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 15px rgba(250, 204, 21, 0.8) !important;
+}
+
+@keyframes neonGlow {
+    0%, 100% { box-shadow: 0 0 15px rgba(250, 204, 21, 0.2); }
+    50% { box-shadow: 0 0 30px rgba(250, 204, 21, 0.5); }
+}
+
+/* ---------------- STEP 4: CHALLENGE BOX ---------------- */
+.ext-challenge-box {
+    background: rgba(15, 23, 42, 0.75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 18px !important;
+    padding: 20px !important;
+    margin-bottom: 24px !important;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6) !important;
+}
+
+.ext-challenger-badge {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: rgba(250, 204, 21, 0.08) !important;
+    border: 1px solid rgba(250, 204, 21, 0.3) !important;
+    border-radius: 14px !important;
+    padding: 12px !important;
+}
+
+.ext-challenger-label {
+    font-size: 0.75rem !important;
+    font-weight: 800 !important;
+    letter-spacing: 1px !important;
+    color: #facc15 !important;
+}
+
+.ext-challenger-name {
+    font-size: 1.5rem !important;
+    font-weight: 900 !important;
+    color: #ffffff !important;
+    text-shadow: 0 0 12px rgba(250, 204, 21, 0.6) !important;
+}
+
+.ext-vs-badge {
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    font-weight: 900 !important;
+    color: #ec4899 !important;
+    text-shadow: 0 0 10px #ec4899 !important;
+    margin: 12px 0 !important;
+}
+
+.ext-opponent-label {
+    display: block !important;
+    font-size: 0.85rem !important;
+    font-weight: 800 !important;
+    color: #38bdf8 !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 8px !important;
+    text-transform: uppercase !important;
+}
+
+/* ---------------- STEP 5: SETTINGS & START ---------------- */
+.ext-settings-box {
+    background: rgba(15, 23, 42, 0.75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 18px !important;
+    padding: 20px !important;
+    margin-bottom: 24px !important;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 18px !important;
+}
+
+.ext-setting-group {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+}
+
+.ext-setting-label {
+    font-size: 0.8rem !important;
+    font-weight: 800 !important;
+    color: #38bdf8 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+}
+
+/* Custom Cyberpunk Checkboxes (Δυσκολία) */
+.ext-checkbox-group {
+    display: flex !important;
+    align-items: center !important;
+    gap: 16px !important;
+    flex-wrap: wrap !important;
+    padding: 6px 0 !important;
+}
+
+.ext-checkbox-item {
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    cursor: pointer !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    user-select: none !important;
+}
+
+.ext-checkbox-item input[type="checkbox"] {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    width: 20px !important;
+    height: 20px !important;
+    border: 2px solid #a855f7 !important;
+    border-radius: 6px !important;
+    background: #0f172a !important;
+    cursor: pointer !important;
+    position: relative !important;
+    transition: all 0.2s ease !important;
+}
+
+.ext-checkbox-item input[type="checkbox"]:checked {
+    background: #a855f7 !important;
+    border-color: #ec4899 !important;
+    box-shadow: 0 0 10px rgba(236, 72, 153, 0.8) !important;
+}
+
+.ext-checkbox-item input[type="checkbox"]:checked::after {
+    content: "✓" !important;
+    position: absolute !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    font-weight: 900 !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+/* Start Match Button (ΕΝΑΡΞΗ ΜΟΝΟΜΑΧΙΑΣ) */
+.ext-btn-start-match {
+    width: 100% !important;
+    background: linear-gradient(135deg, #facc15 0%, #f59e0b 50%, #d97706 100%) !important;
+    color: #0f172a !important;
+    border: 2px solid #fef08a !important;
+    border-radius: 16px !important;
+    font-size: 1.25rem !important;
+    font-weight: 900 !important;
+    letter-spacing: 1.5px !important;
+    padding: 16px 24px !important;
+    cursor: pointer !important;
+    box-shadow: 0 0 25px rgba(250, 204, 21, 0.5) !important;
+    transition: all 0.3s ease !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 12px !important;
+    text-transform: uppercase !important;
+    margin-top: 10px !important;
+}
+
+.ext-btn-start-match:hover {
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 0 40px rgba(250, 204, 21, 0.85) !important;
+    background: linear-gradient(135deg, #fef08a 0%, #facc15 100%) !important;
+}
+
+/* Common Dropdowns (Steps 4 & 5) */
+.ext-select-dropdown {
+    width: 100% !important;
+    min-height: 52px !important;
+    background: #0f172a !important;
+    color: #38bdf8 !important;
+    font-size: 1.15rem !important;
+    font-weight: 800 !important;
+    border: 2px solid #a855f7 !important;
+    border-radius: 14px !important;
+    padding: 10px 18px !important;
+    box-shadow: 0 0 18px rgba(168, 85, 247, 0.3) !important;
+    outline: none !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    box-sizing: border-box !important;
+}
+
+.ext-select-dropdown:hover, 
+.ext-select-dropdown:focus {
+    border-color: #ec4899 !important;
+    box-shadow: 0 0 25px rgba(236, 72, 153, 0.6) !important;
+    color: #ffffff !important;
+}
+
+.ext-select-dropdown option {
+    background: #0f172a !important;
+    color: #ffffff !important;
+}
+
+/* ---------------- ACTION BUTTONS (STEPS 3, 4 & 5) ---------------- */
+.ext-actions-row {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.ext-btn-prev {
+    flex: 1 !important;
+    max-width: 200px !important;
+    background: rgba(51, 65, 85, 0.8) !important;
+    color: #cbd5e1 !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+    padding: 14px 20px !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+}
+
+.ext-btn-prev:hover {
+    background: rgba(71, 85, 105, 1) !important;
+    color: #ffffff !important;
+}
+
+.ext-btn-next {
+    flex: 2 !important;
+    background: linear-gradient(135deg, #4f46e5 0%, #9333ea 50%, #db2777 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-weight: 900 !important;
+    font-size: 1.05rem !important;
+    padding: 14px 20px !important;
+    box-shadow: 0 8px 20px rgba(147, 51, 234, 0.4) !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    text-align: center !important;
+    box-sizing: border-box !important;
+}
+
+.ext-btn-next:hover {
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 12px 28px rgba(219, 39, 119, 0.6) !important;
+}
+
+/* ==================================================== */
+/* FULL RESPONSIVE MEDIA QUERIES (MOBILE & TABLET)      */
+/* ==================================================== */
+
+/* Μικρά & Μεσαία Κινητά (Κάτω από 576px) */
+@media screen and (max-width: 576px) {
+    .ext-step-card {
+        padding: 18px 14px !important;
+        border-radius: 18px !important;
+    }
+
+    .ext-step-title {
+        font-size: 1.35rem !important;
+    }
+
+    .ext-step-subtitle {
+        font-size: 0.78rem !important;
+        margin-bottom: 16px !important;
+    }
+
+    .ext-actions-row {
+        flex-direction: column-reverse !important;
+        gap: 12px !important;
+    }
+
+    .ext-btn-prev,
+    .ext-btn-next,
+    .ext-btn-start-match {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 15px 12px !important;
+        font-size: 1rem !important;
+    }
+
+    .ext-btn-roll {
+        max-width: 100% !important;
+        font-size: 1.05rem !important;
+        padding: 14px 16px !important;
+    }
+
+    .ext-challenger-name,
+    .ext-roll-result-name {
+        font-size: 1.25rem !important;
+    }
+
+    .ext-select-dropdown {
+        font-size: 0.95rem !important;
+        padding: 8px 12px !important;
+    }
+
+    .ext-checkbox-group {
+        gap: 10px !important;
+    }
+}
+
+/* Tablets (577px έως 768px) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .ext-step-card {
+        padding: 22px !important;
+    }
+
+    .ext-btn-prev {
+        font-size: 0.95rem !important;
+        padding: 12px 16px !important;
+    }
+
+    .ext-btn-next {
+        font-size: 1rem !important;
+        padding: 12px 18px !important;
+    }
+}
+/* ---------------- STEP 1: RULES GRID ---------------- */
+.ext-rules-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px !important;
+    margin-bottom: 24px !important;
+}
+
+.ext-rule-box {
+    background: rgba(15, 23, 42, 0.75) !important;
+    border: 1px solid rgba(168, 85, 247, 0.3) !important;
+    border-radius: 16px !important;
+    padding: 16px !important;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.6) !important;
+    transition: all 0.3s ease !important;
+}
+
+.ext-rule-box:hover {
+    border-color: #ec4899 !important;
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.3), inset 0 0 15px rgba(0, 0, 0, 0.6) !important;
+    transform: translateY(-2px) !important;
+}
+
+.ext-rule-icon {
+    font-size: 1.8rem !important;
+    margin-bottom: 8px !important;
+    filter: drop-shadow(0 0 10px rgba(168, 85, 247, 0.8)) !important;
+}
+
+.ext-rule-box h4 {
+    color: #38bdf8 !important;
+    font-size: 1rem !important;
+    font-weight: 800 !important;
+    margin: 0 0 6px 0 !important;
+    letter-spacing: 0.5px !important;
+}
+
+.ext-rule-box p {
+    color: #cbd5e1 !important;
+    font-size: 0.82rem !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+}
+
+.ext-rule-box strong {
+    color: #ffffff !important;
+}
+
+/* ---------------- STEP 2: PLAYERS SETUP ---------------- */
+.ext-players-box {
+    background: rgba(15, 23, 42, 0.75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 18px !important;
+    padding: 20px !important;
+    margin-bottom: 24px !important;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 18px !important;
+}
+
+.ext-players-section {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
+
+.ext-players-subtitle {
+    font-size: 0.85rem !important;
+    font-weight: 800 !important;
+    color: #a855f7 !important;
+    letter-spacing: 0.5px !important;
+    margin: 0 !important;
+    text-transform: uppercase !important;
+}
+
+.ext-players-scroll-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    max-height: 280px !important;
+    overflow-y: auto !important;
+    padding-right: 6px !important;
+}
+
+/* Cyberpunk Scrollbar */
+.ext-players-scroll-container::-webkit-scrollbar {
+    width: 6px !important;
+}
+
+.ext-players-scroll-container::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.5) !important;
+    border-radius: 10px !important;
+}
+
+.ext-players-scroll-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #a855f7 0%, #ec4899 100%) !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px rgba(236, 72, 153, 0.8) !important;
+}
+
+/* Responsive adjustments για τα Grid των κανόνων */
+@media screen and (max-width: 576px) {
+    .ext-rules-grid {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+    }
+
+    .ext-rule-box {
+        padding: 14px !important;
+    }
+
+    .ext-rule-box h4 {
+        font-size: 0.95rem !important;
+    }
+
+    .ext-rule-box p {
+        font-size: 0.78rem !important;
+    }
+}
+/* ==================================================== */
+/* FULL RESPONSIVE STEPPER WITH AUTO SCROLL             */
+/* ==================================================== */
+
+.tsw-stepper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important; /* Αλλάζει σε flex-start για να δουλεύει σωστά το scroll */
+    gap: 8px !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    margin: 0 auto 20px auto !important;
+    padding: 6px !important;
+    background: rgba(15, 23, 42, 0.8) !important;
+    border: 1px solid rgba(168, 85, 247, 0.3) !important;
+    border-radius: 50px !important;
+    box-sizing: border-box !important;
+    
+    /* Smooth Scroll & Snap Properties */
+    overflow-x: auto !important;
+    scroll-behavior: smooth !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important; /* Firefox */
+}
+
+/* Κρύβει τη μπάρα scroll σε Chrome / Safari / Edge */
+.tsw-stepper::-webkit-scrollbar {
+    display: none !important;
+}
+
+.tsw-step-pill {
+    flex: 0 0 auto !important; /* Εμποδίζει τη συμπίεση των κουμπιών */
+    scroll-snap-align: center !important; /* Κεντράρει το active pill κατά το scroll */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    padding: 8px 14px !important;
+    border-radius: 30px !important;
+    background: transparent !important;
+    color: #94a3b8 !important;
+    transition: all 0.3s ease !important;
+    white-space: nowrap !important;
+}
+
+.tsw-step-pill.active {
+    background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 15px rgba(236, 72, 153, 0.5) !important;
+}
+
+.tsw-step-num {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 22px !important;
+    height: 22px !important;
+    border-radius: 50% !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+    font-size: 0.8rem !important;
+    font-weight: 900 !important;
+}
+
+.tsw-step-pill.active .tsw-step-num {
+    background: #ffffff !important;
+    color: #0f172a !important;
+}
+
+.tsw-step-text {
+    font-size: 0.82rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* MOBILE ADJUSTMENTS */
+@media screen and (max-width: 576px) {
+    .tsw-stepper {
+        padding: 4px !important;
+        border-radius: 16px !important;
+    }
+
+    .tsw-step-pill {
+        padding: 6px 10px !important;
+    }
+
+    .tsw-step-text {
+        display: none !important;
+    }
+
+    .tsw-step-pill.active .tsw-step-text {
+        display: inline !important;
+    }
+}
+/* ==================================================== */
+/* ADVANCED RESPONSIVENESS & UI ENHANCEMENTS            */
+/* ==================================================== */
+
+/* --- 1. GLASSMORPHISM & SMOOTH APPEARANCE --- */
+.ext-step-card {
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    animation: cardFadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+@keyframes cardFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* --- 2. ACCESSIBILITY & TOUCH TARGET OPTIMIZATIONS --- */
+/* Ensures comfortable tap zones on smartphones */
+.ext-btn-prev,
+.ext-btn-next,
+.ext-btn-roll,
+.ext-btn-start-match,
+.tsw-step-pill,
+.ext-select-dropdown {
+    min-height: 48px !important;
+    touch-action: manipulation !important;
+}
+
+/* Enhanced Focus States for Keyboard Navigation & Accessibility */
+.ext-select-dropdown:focus-visible,
+.ext-btn-roll:focus-visible,
+.ext-btn-start-match:focus-visible,
+.ext-btn-next:focus-visible,
+.ext-btn-prev:focus-visible {
+    outline: 2px solid #ec4899 !important;
+    outline-offset: 3px !important;
+    box-shadow: 0 0 20px rgba(236, 72, 153, 0.8) !important;
+}
+
+/* --- 3. DYNAMIC INTERACTION STATES --- */
+.ext-btn-prev:active,
+.ext-btn-next:active,
+.ext-btn-roll:active,
+.ext-btn-start-match:active {
+    transform: scale(0.97) !important;
+}
+
+.ext-rule-box {
+    will-change: transform, box-shadow;
+}
+
+/* --- 4. ADVANCED MOBILE RESPONSIVENESS --- */
+
+/* Extremely Small Displays (e.g., Foldables, iPhone SE, under 380px) */
+@media screen and (max-width: 380px) {
+    .ext-step-card {
+        padding: 14px 10px !important;
+        border-radius: 14px !important;
+    }
+
+    .ext-step-title {
+        font-size: 1.15rem !important;
+        letter-spacing: 0.8px !important;
+    }
+
+    .ext-step-subtitle {
+        font-size: 0.72rem !important;
+    }
+
+    .ext-challenger-name,
+    .ext-roll-result-name {
+        font-size: 1.1rem !important;
+    }
+
+    .ext-btn-roll,
+    .ext-btn-start-match {
+        font-size: 0.95rem !important;
+        padding: 12px 10px !important;
+    }
+
+    .ext-checkbox-group {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 8px !important;
+    }
+}
+
+/* Tablet & Landscape Optimizations (577px to 992px) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .ext-step-card {
+        max-width: 90% !important;
+    }
+
+    .ext-rules-grid {
+        gap: 14px !important;
+    }
+}
+
+/* Landscape Mode for Small Mobile Devices */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .ext-step-card {
+        padding: 12px 18px !important;
+    }
+
+    .ext-step-subtitle {
+        margin-bottom: 12px !important;
+    }
+
+    .ext-players-scroll-container {
+        max-height: 140px !important;
+    }
+
+    .ext-rules-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+    }
+
+    .ext-rule-box {
+        padding: 8px 12px !important;
+    }
+}
+
+/* --- 5. HIGH-DPI & DARK MODE ADAPTATIONS --- */
+@media (prefers-reduced-motion: reduce) {
+    .ext-step-card,
+    .ext-roll-result-card,
+    .ext-btn-roll,
+    .ext-btn-start-match,
+    .ext-btn-next,
+    .ext-btn-prev,
+    .ext-rule-box {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+/* ==================================================== */
+/* MINI TV LOGO STYLING (FULL RESPONSIVE)               */
+/* ==================================================== */
+
+.floor-tv-logo-mini {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin: 0 auto 16px auto !important;
+    padding: 10px 0 !important;
+    text-align: center !important;
+}
+
+.floor-tv-logo-mini .logo-main {
+    font-size: clamp(1.6rem, 5vw, 2.5rem) !important; /* Αυτόματη αυξομείωση μεγέθους */
+    font-weight: 900 !important;
+    letter-spacing: 3px !important;
+    text-transform: uppercase !important;
+    background: linear-gradient(135deg, #00f2fe 0%, #4facfe 25%, #a855f7 60%, #ec4899 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.6)) 
+            drop-shadow(0 0 25px rgba(236, 72, 153, 0.4)) !important;
+    animation: tvLogoGlow 3s infinite ease-in-out !important;
+    user-select: none !important;
+    line-height: 1.1 !important;
+}
+
+/* Neon Glow Animation */
+@keyframes tvLogoGlow {
+    0%, 100% {
+        filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.5)) 
+                drop-shadow(0 0 18px rgba(168, 85, 247, 0.4));
+    }
+    50% {
+        filter: drop-shadow(0 0 15px rgba(236, 72, 153, 0.8)) 
+                drop-shadow(0 0 30px rgba(250, 204, 21, 0.6));
+    }
+}
+
+/* Mobile Adjustments */
+@media screen and (max-width: 576px) {
+    .floor-tv-logo-mini {
+        margin-bottom: 10px !important;
+        padding: 5px 0 !important;
+    }
+
+    .floor-tv-logo-mini .logo-main {
+        letter-spacing: 1.5px !important;
+    }
+}
+/* ==================================================== */
+/* DEVELOPER CREDITS FOOTER STYLING                     */
+/* ==================================================== */
+
+.ext-dev-footer {
+    width: 100% !important;
+    display: flex !important;
+    justify-content me: center !important;
+    align-items: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 10px !important;
+    box-sizing: border-box !important;
+}
+
+.ext-dev-badge {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    padding: 8px 16px !important;
+    background: rgba(15, 23, 42, 0.75) !important;
+    border: 1px solid rgba(168, 85, 247, 0.4) !important;
+    border-radius: 30px !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(168, 85, 247, 0.15) !important;
+    transition: all 0.3s ease !important;
+    cursor: default !important;
+    user-select: none !important;
+}
+
+.ext-dev-badge:hover {
+    border-color: #ec4899 !important;
+    box-shadow: 0 0 25px rgba(236, 72, 153, 0.5), inset 0 0 15px rgba(56, 189, 248, 0.25) !important;
+    transform: translateY(-2px) scale(1.02) !important;
+}
+
+.ext-dev-icon {
+    font-size: 0.9rem !important;
+    filter: drop-shadow(0 0 6px #facc15) !important;
+}
+
+.ext-dev-label {
+    font-size: 0.68rem !important;
+    font-weight: 800 !important;
+    color: #94a3b8 !important;
+    letter-spacing: 1.5px !important;
+}
+
+.ext-dev-name {
+    font-size: 0.82rem !important;
+    font-weight: 900 !important;
+    letter-spacing: 1.5px !important;
+    background: linear-gradient(135deg, #38bdf8 0%, #a855f7 50%, #ec4899 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 0 0 12px rgba(168, 85, 247, 0.5) !important;
+}
+
+/* Πράσινο LED Status Dot ("System Active") */
+.ext-dev-status {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 50% !important;
+    background: #10b981 !important;
+    box-shadow: 0 0 8px #10b981 !important;
+    animation: devPulse 2s infinite ease-in-out !important;
+}
+
+@keyframes devPulse {
+    0%, 100% { opacity: 0.4; transform: scale(0.9); }
+    50% { opacity: 1; transform: scale(1.2); }
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 576px) {
+    .ext-dev-footer {
+        margin: 16px 0 12px 0 !important;
+    }
+    
+    .ext-dev-badge {
+        padding: 6px 12px !important;
+        gap: 6px !important;
+    }
+
+    .ext-dev-label {
+        font-size: 0.6rem !important;
+    }
+
+    .ext-dev-name {
+        font-size: 0.75rem !important;
+    }
+}
+/* ==================================================== */
+/* FIX OPPONENT GRID & CATEGORY VISIBILITY ON MOBILE    */
+/* ==================================================== */
+
+/* 1. Εξασφάλιση Responsive Grid */
+.pd-opp-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)) !important;
+    gap: 12px !important;
+    width: 100% !important;
+    padding: 8px !important;
+    box-sizing: border-box !important;
+}
+
+/* 2. Δομή Κάρτας Αντιπάλου */
+.pd-opp-card {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    min-width: 0 !important; /* Εμποδίζει το σπάσιμο του text overflow */
+    padding: 12px !important;
+    box-sizing: border-box !important;
+}
+
+/* 3. Κατηγορία Παικτών (Εξασφάλιση Ορατότητας) */
+.pd-opp-card .pd-opp-category,
+.pd-opp-card .player-category,
+.pd-opp-card [class*="category"] {
+    display: block !important; /* Ακυρώνει τυχόν display:none */
+    visibility: visible !important;
+    opacity: 1 !important;
+    font-size: clamp(0.75rem, 2.8vw, 0.9rem) !important;
+    font-weight: 700 !important;
+    color: #38bdf8 !important;
+    margin-top: 4px !important;
+    word-break: break-word !important; /* Σπάει τις μεγάλες λέξεις για να μην κόβονται */
+    white-space: normal !important; /* Επιτρέπει την αλλαγή γραμμής */
+    text-align: center !important;
+}
+
+/* 4. Προσαρμογή για πολύ μικρές οθόνες (Mobile Breakpoint) */
+@media screen and (max-width: 576px) {
+    .pd-opp-grid {
+        grid-template-columns: 1fr !important; /* 1 κάρτα ανά σειρά στα κινητά */
+        gap: 10px !important;
+    }
+
+    .pd-opp-modal {
+        padding: 12px !important;
+        max-height: 90vh !important;
+        overflow-y: auto !important; /* Προσθέτει scroll αν δεν χωράει η λίστα */
+    }
+
+    .pd-opp-card {
+        padding: 10px !important;
+    }
+
+    .pd-opp-card .pd-opp-category,
+    .pd-opp-card .player-category,
+    .pd-opp-card [class*="category"] {
+        font-size: 0.8rem !important;
+        line-height: 1.2 !important;
+    }
+}
+/* ΠΑΝΙΣΧΥΡΟ FIX ΓΙΑ ΚΑΤΗΓΟΡΙΕΣ ΣΤΗΝ ΕΠΙΛΟΓΗ ΑΝΤΙΠΑΛΟΥ */
+#opponentSelectorScreen *, 
+#opponentSelectorModal *, 
+.opponent-selector * {
+    /* Εξασφαλίζει ότι κανένα παιδί μέσα στο modal δεν είναι κρυμμένο */
+    box-sizing: border-box !important;
+}
+
+/* Εμφάνιση όλων των κειμένων/span/div μέσα στις κάρτες αντιπάλων */
+#opponentSelectorScreen .card *,
+#opponentSelectorScreen [class*="card"] *,
+.pd-opp-card * {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Στυλ για την κατηγορία */
+[class*="category"], 
+[class*="katigoria"],
+.player-cat,
+.pd-opp-cat {
+    display: block !important;
+    color: #ffcc00 !important; /* Έντονο κίτρινο για να ξεχωρίζει */
+    font-size: 14px !important;
+    font-weight: bold !important;
+    margin-top: 4px !important;
+    text-align: center !important;
+}

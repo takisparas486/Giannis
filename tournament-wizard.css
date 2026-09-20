@@ -735,7 +735,34 @@ html, body {
     padding: 0 10px !important;
     outline: none !important;
 }
+#tournamentPlayerInputs,
+#tournamentSection .ts-player-inputs-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    margin-bottom: 18px !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 4px 0 0 !important;
+    max-height: 340px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important; /* Stops horizontal scrolling */
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
 
+#tournamentPlayerInputs .playerRow {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 10px !important;
+    background: rgba(255, 255, 255, 0.015) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 12px !important;
+    padding: 10px 12px !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+}
 .playerCategorySelect {
     flex: 1 1 55% !important;
     min-width: 0 !important;
@@ -929,69 +956,1341 @@ html, body {
         font-size: 2.4rem;
     }
 }
+.custom-select-wrapper {
+    position: relative;
+    user-select: none;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.custom-select {
+    position: relative;
+    font-family: inherit;
+}
+
+.custom-select-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.custom-select-trigger:hover {
+    border-color: #4a90e2;
+    transform: translateY(-1px);
+}
+
+.custom-select.open .custom-select-trigger {
+    border-color: #4a90e2;
+    border-radius: 12px 12px 0 0;
+}
+
+.custom-select-arrow {
+    transition: transform 0.3s ease;
+    font-size: 12px;
+    color: #666;
+}
+
+.custom-select.open .custom-select-arrow {
+    transform: rotate(180deg);
+}
+
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border: 2px solid #4a90e2;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: 240px;
+    overflow-y: auto;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.custom-select.open .custom-options {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+.custom-select-search {
+    width: 90%;
+    margin: 8px auto;
+    display: block;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.custom-option {
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+    display: flex;
+    align-items: center;
+}
+
+.custom-option:hover {
+    background: #f0f7ff;
+    color: #4a90e2;
+}
+
+.custom-option.selected {
+    background: #e6f0fa;
+    font-weight: bold;
+    color: #4a90e2;
+}
 /* ==========================================================================
-   MOBILE BUTTONS & LAYOUT FIXES
+   FULLY RESPONSIVE BUTTONS & CONTAINER LAYOUT FIXES
    ========================================================================== */
 
+/* 1. Global Responsive Buttons */
+button,
+.tsw-btn,
+.pd-opp-btn-confirm,
+.pause-btn,
+.quit-btn {
+    box-sizing: border-box !important;
+    max-width: 100% !important;
+    white-space: normal !important; /* Allows text to wrap on small screens */
+    word-break: break-word !important;
+    text-align: center !important;
+    min-height: 48px !important; /* Touch target minimum */
+    padding: 10px 16px !important;
+    font-size: clamp(0.75rem, 2.5vw, 1rem) !important; /* Scalable typography */
+}
+
+/* Flex containers for button groups */
+.tsw-actions-row,
+.statisticsButtons,
+.hud-controls {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+/* Ensure buttons share space evenly on mobile */
+.tsw-actions-row .tsw-btn,
+.statisticsButtons button {
+    flex: 1 1 auto !important;
+    min-width: 120px !important;
+}
+
+/* Step 1 right alignment adaptation */
+.tsw-actions-row.right-align {
+    justify-content: flex-end !important;
+}
+
+
+/* 2. Fix Double Scrollbars & Expand Layout Width */
+
+/* Expand main wizard container width */
+#menuScreen .menuContainer,
+.tsw-container,
+.tsw-card {
+    width: 100% !important;
+    max-width: 900px !important; /* Expanded width for cleaner display */
+    box-sizing: border-box !important;
+}
+
+/* Fix category list container (Remove side scrollbar completely) */
+.tsw-players-scroll-container,
+#tournamentPlayerInputs {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important; /* Kills horizontal scrollbar */
+    overflow-y: auto !important;   /* Retains vertical scrollbar */
+    padding-right: 6px !important;  /* Prevents scrollbar overlap */
+}
+
+/* Adjust Player Rows for seamless category placement */
+#tournamentPlayerInputs .playerRow {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Make inputs and buttons inside player rows expand naturally */
+#tournamentPlayerInputs .playerRow input,
+#tournamentPlayerInputs .playerRow button,
+#tournamentPlayerInputs .playerRow select {
+    flex: 1 1 180px !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+
+/* 3. Mobile Responsive Adjustments (Screens under 640px) */
 @media (max-width: 640px) {
-    /* Διόρθωση των Containers για να χωράνε στην οθόνη */
-    .tsw-card {
-        padding: 16px 12px !important;
-        border-radius: 16px !important;
-    }
-
-    /* Ευέλικτη διάταξη κουμπιών πλοήγησης (Πίσω / Συνέχεια) */
-    .tsw-actions-row {
-        flex-direction: column-reverse !important;
-        gap: 10px !important;
+    .tsw-actions-row .tsw-btn {
         width: 100% !important;
+        flex: 1 1 100% !important;
     }
 
-    .tsw-actions-row.right-align {
+    #tournamentPlayerInputs .playerRow {
         flex-direction: column !important;
+        align-items: stretch !important;
     }
 
-    /* Προσαρμογή μεγέθους κουμπιών */
-    .tsw-btn {
+    #tournamentPlayerInputs .playerRow input,
+    #tournamentPlayerInputs .playerRow button,
+    #tournamentPlayerInputs .playerRow select {
         width: 100% !important;
-        padding: 12px 16px !important;
-        font-size: 0.88rem !important;
-        box-sizing: border-box !important;
-        text-align: center !important;
-        justify-content: center !important;
+        flex: 1 1 100% !important;
+    }
+}
+/* ===================================== */
+/* STEP 3: RANDOM ROLL & WINNER CARD UI  */
+/* ===================================== */
+
+.tsw-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+/* Roll Button */
+.tsw-btn-roll {
+    width: 100%;
+    max-width: 320px;
+    padding: 16px 24px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #ffffff;
+    background: linear-gradient(135deg, #ff0055, #ff5000);
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 8px 25px rgba(255, 0, 85, 0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tsw-btn-roll:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(255, 0, 85, 0.6);
+}
+
+.tsw-btn-roll:active {
+    transform: translateY(1px);
+}
+
+.tsw-roll-icon {
+    font-size: 1.4rem;
+}
+
+/* Winner Display Card */
+.tsw-result-card {
+    width: 100%;
+    max-width: 360px;
+    padding: 24px 16px;
+    background: linear-gradient(135deg, rgba(255, 204, 0, 0.12), rgba(255, 0, 85, 0.08));
+    border: 2px solid #ffc837;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 200, 55, 0.25), inset 0 0 15px rgba(255, 200, 55, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-sizing: border-box;
+}
+
+.tsw-result-badge {
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    color: #ffc837;
+    background: rgba(255, 200, 55, 0.15);
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 200, 55, 0.3);
+    margin-bottom: 12px;
+}
+
+.tsw-result-avatar {
+    font-size: 2.5rem;
+    line-height: 1;
+    margin-bottom: 8px;
+    filter: drop-shadow(0 0 10px rgba(255, 200, 55, 0.6));
+}
+
+.tsw-result-name {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+    word-break: break-word;
+}
+
+/* Utility Hidden Class */
+.tsw-hidden {
+    display: none !important;
+}
+
+/* Entrance Animation */
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.85) translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Mobile Responsiveness Improvements */
+@media (max-width: 480px) {
+    .tsw-btn-roll {
+        font-size: 1rem;
+        padding: 14px 20px;
+    }
+    
+    .tsw-result-card {
+        padding: 18px 12px;
     }
 
-    /* Διορθώσεις για τα κουμπιά επιλογής Mode (Step 3) */
-    .tsw-mode-selector {
-        flex-direction: column !important;
+    .tsw-result-name {
+        font-size: 1.3rem;
+    }
+
+    .tsw-result-avatar {
+        font-size: 2rem;
+    }
+}
+/* ==================================================== */
+/* NEXT OPPONENT SELECTION MODAL / SCREEN (FIXED)       */
+/* ==================================================== */
+
+/* Κεντρικό Container της Οθόνης Επιλογής */
+.opponent-select-screen, 
+#opponentSelectModal, 
+.opponent-selection-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    padding: 20px 16px !important;
+    box-sizing: border-box !important;
+    max-height: 90vh !important;
+    overflow-y: auto !important; /* Scrollbar για ολόκληρη την οθόνη αν χρειαστεί */
+}
+
+/* Κείμενα Τίτλου & Περιγραφής */
+.opponent-select-screen h1,
+.opponent-select-screen h2 {
+    font-size: clamp(1.2rem, 4vw, 1.8rem) !important;
+    text-align: center !important;
+    margin: 10px 0 !important;
+    line-height: 1.3 !important;
+}
+
+.opponent-select-screen p {
+    text-align: center !important;
+    font-size: clamp(0.85rem, 3vw, 1rem) !important;
+    margin-bottom: 20px !important;
+    line-height: 1.4 !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* Grid / List των Διαθέσιμων Παικτών */
+.opponent-cards-grid,
+#nextOpponentList,
+.players-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+    gap: 12px !important;
+    width: 100% !important;
+    max-height: 50vh !important; /* Αποτρέπει το ξεχείλισμα της λίστας */
+    overflow-y: auto !important; /* Εσωτερικό scroll για τους παίκτες */
+    overflow-x: hidden !important;
+    padding: 8px 4px !important;
+    box-sizing: border-box !important;
+}
+
+/* Scrollbar styling */
+.opponent-cards-grid::-webkit-scrollbar {
+    width: 6px;
+}
+.opponent-cards-grid::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+/* Κάρτα Μεμονωμένου Παίκτη */
+.player-select-card,
+.opponent-card {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 14px !important;
+    padding: 10px 14px !important;
+    cursor: pointer !important;
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease !important;
+    box-sizing: border-box !important;
+    min-height: 58px !important;
+    width: 100% !important;
+}
+
+.player-select-card:hover,
+.opponent-card:hover {
+    transform: translateY(-2px) !important;
+    border-color: #ff4a6a !important;
+    background: rgba(255, 74, 106, 0.15) !important;
+}
+
+/* Avatar / Icon Παίκτη */
+.player-card-avatar {
+    width: 38px !important;
+    height: 38px !important;
+    background: #ff0055 !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+    border-radius: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 1.1rem !important;
+    flex-shrink: 0 !important;
+}
+
+/* Όνομα Παίκτη - Διόρθωση να μην σπάει σε 2 γραμμές */
+.player-card-name {
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    white-space: nowrap !important; /* Απαγορεύει την αλλαγή γραμμής (π.χ. Player 3) */
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin: 0 10px !important;
+    flex-grow: 1 !important;
+}
+
+/* Badge Κατηγορίας (Animals, Sports κλπ) */
+.player-card-category {
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: #00d2ff !important;
+    padding: 6px 10px !important;
+    border-radius: 20px !important;
+    white-space: nowrap !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    flex-shrink: 0 !important;
+}
+
+/* Bottom Action Button */
+.opponent-select-screen .btn-secondary,
+.opponent-select-screen button:last-child {
+    margin-top: 20px !important;
+    width: 100% !important;
+    max-width: 300px !important;
+    padding: 12px 20px !important;
+    font-size: 0.9rem !important;
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+    .opponent-cards-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+/* ==================================================== */
+/* NEXT OPPONENT SELECTION MODAL / SCREEN (ENHANCED)    */
+/* ==================================================== */
+
+/* Κεντρικό Container της Οθόνης Επιλογής */
+.opponent-select-screen, 
+#opponentSelectModal, 
+.opponent-selection-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: 100% !important;
+    max-width: 800px !important; /* Αυξημένο πλάτος για μεγάλες οθόνες */
+    margin: 0 auto !important;
+    padding: 24px 20px !important;
+    box-sizing: border-box !important;
+    max-height: 90vh !important;
+    overflow-y: auto !important;
+}
+
+/* ---------------------------------------------------- */
+/* LOG / BADGE ΑΡΧΙΚΟΥ CHALLENGER                       */
+/* ---------------------------------------------------- */
+.initial-challenger-log {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    background: rgba(56, 189, 248, 0.12) !important;
+    border: 1px solid rgba(56, 189, 248, 0.3) !important;
+    border-radius: 30px !important;
+    padding: 8px 18px !important;
+    margin-bottom: 16px !important;
+    font-size: 0.9rem !important;
+    color: #e2e8f0 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.initial-challenger-log strong {
+    color: #38bdf8 !important;
+    font-size: 1rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* Κείμενα Τίτλου & Περιγραφής */
+.opponent-select-screen h1,
+.opponent-select-screen h2 {
+    font-size: clamp(1.4rem, 4vw, 2.2rem) !important;
+    text-align: center !important;
+    margin: 6px 0 10px 0 !important;
+    line-height: 1.2 !important;
+}
+
+.opponent-select-screen p {
+    text-align: center !important;
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem) !important;
+    margin-bottom: 24px !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* ---------------------------------------------------- */
+/* GRID ΔΙΑΘΕΣΙΜΩΝ ΠΑΙΚΤΩΝ (MEΓΑΛΥΤΕΡΑ CARDS)          */
+/* ---------------------------------------------------- */
+.opponent-cards-grid,
+#nextOpponentList,
+.players-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; /* Αυξημένο ελάχιστο πλάτος */
+    gap: 16px !important;
+    width: 100% !important;
+    max-height: 55vh !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding: 10px 6px !important;
+    box-sizing: border-box !important;
+}
+
+/* Scrollbar styling */
+.opponent-cards-grid::-webkit-scrollbar {
+    width: 6px;
+}
+.opponent-cards-grid::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+/* Κάρτα Μεμονωμένου Παίκτη (Ενισχυμένα Sizes) */
+.player-select-card,
+.opponent-card {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1.5px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 16px !important;
+    padding: 16px 20px !important; /* Αυξημένο padding */
+    cursor: pointer !important;
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease !important;
+    box-sizing: border-box !important;
+    min-height: 75px !important; /* Αυξημένο ύψος κάρτας */
+    width: 100% !important;
+}
+
+.player-select-card:hover,
+.opponent-card:hover {
+    transform: translateY(-3px) !important;
+    border-color: #ff4a6a !important;
+    background: rgba(255, 74, 106, 0.18) !important;
+    box-shadow: 0 8px 24px rgba(255, 74, 106, 0.25) !important;
+}
+
+/* Avatar / Icon Παίκτη */
+.player-card-avatar {
+    width: 46px !important; /* Μεγαλύτερο Avatar */
+    height: 46px !important;
+    background: linear-gradient(135deg, #ff0055, #ff5000) !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+    border-radius: 12px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 1.3rem !important;
+    flex-shrink: 0 !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Όνομα Παίκτη */
+.player-card-name {
+    font-size: 1.15rem !important; /* Μεγαλύτερη γραμματοσειρά */
+    font-weight: 800 !important;
+    color: #ffffff !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin: 0 12px !important;
+    flex-grow: 1 !important;
+}
+
+/* Badge Κατηγορίας */
+.player-card-category {
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    background: rgba(0, 210, 255, 0.15) !important;
+    border: 1px solid rgba(0, 210, 255, 0.4) !important;
+    color: #00d2ff !important;
+    padding: 8px 14px !important;
+    border-radius: 20px !important;
+    white-space: nowrap !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    flex-shrink: 0 !important;
+}
+
+/* Bottom Action Button */
+.opponent-select-screen .btn-secondary,
+.opponent-select-screen button:last-child {
+    margin-top: 24px !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    padding: 14px 24px !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+}
+
+/* ---------------------------------------------------- */
+/* MOBILE RESPONSIVE FIXES (ΚΑΤΗΓΟΡΙΑ ΟΡΑΤΗ ΠΑΝΤΑ)       */
+/* ---------------------------------------------------- */
+@media (max-width: 580px) {
+    .opponent-cards-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .player-select-card,
+    .opponent-card {
+        padding: 12px 14px !important;
+        min-height: auto !important;
+    }
+
+    /* Στα κινητά η κάρτα σπάει σε 2 σειρές αν δεν χωράει, για να φαίνεται ΚΑΙ η κατηγορία */
+    .player-select-card {
+        flex-wrap: wrap !important;
         gap: 8px !important;
     }
 
-    .tsw-mode-btn {
-        width: 100% !important;
-        padding: 10px 12px !important;
-        font-size: 0.85rem !important;
+    .player-card-name {
+        font-size: 1rem !important;
+        margin: 0 8px !important;
     }
 
-    /* Διορθώσεις για τα Checkboxes δυσκολίας (Step 4) */
-    .tsw-checkbox-group {
-        flex-direction: column !important;
-        height: auto !important;
-        gap: 8px !important;
+    .player-card-category {
+        font-size: 0.78rem !important;
+        padding: 4px 10px !important;
+        margin-left: auto !important; /* Στοίχιση δεξιά */
+    }
+}
+/* ==================================================== */
+/* NEXT OPPONENT SELECTION - FIXED HEIGHT & MOBILE CAT  */
+/* ==================================================== */
+
+/* Container της Λίστας - Μεγαλύτερο Ύψος & Σωστό Scroll */
+.opponent-cards-grid,
+#nextOpponentList,
+.players-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+    width: 100% !important;
+    min-height: 280px !important; /* Αυξημένο ελάχιστο ύψος */
+    max-height: 60vh !important;  /* Χωράει περισσότερους παίκτες */
+    overflow-y: auto !important;  /* Κάθετο scrollbar */
+    overflow-x: hidden !important;
+    padding: 8px 6px !important;
+    box-sizing: border-box !important;
+}
+
+/* Κάρτα Παίκτη */
+.player-select-card,
+.opponent-card,
+#nextOpponentList > div {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 14px !important;
+    padding: 10px 14px !important;
+    min-height: 60px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    gap: 8px !important;
+}
+
+/* Avatar Παίκτη */
+.player-select-card img,
+.player-select-card .avatar,
+.opponent-card .player-avatar,
+.player-card-avatar {
+    width: 38px !important;
+    height: 38px !important;
+    flex-shrink: 0 !important;
+}
+
+/* Όνομα Παίκτη */
+.player-select-card .player-name,
+.opponent-card .player-name,
+.player-card-name {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+    flex: 1 1 auto !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin: 0 6px !important;
+}
+
+/* Badge Κατηγορίας - Εμφάνιση ΠΑΝΤΑ (Και σε Mobile) */
+.player-select-card .category,
+.player-select-card .player-category,
+.opponent-card .category-badge,
+.player-card-category {
+    display: inline-flex !important; /* Επιβολή εμφάνισης */
+    visibility: visible !important;
+    opacity: 1 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.78rem !important;
+    font-weight: 700 !important;
+    background: rgba(0, 210, 255, 0.15) !important;
+    border: 1px solid rgba(0, 210, 255, 0.3) !important;
+    color: #00d2ff !important;
+    padding: 5px 10px !important;
+    border-radius: 20px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+}
+
+/* ---------------------------------------------------- */
+/* MOBILE ADAPTATION (Προσαρμογή για μικρές οθόνες)      */
+/* ---------------------------------------------------- */
+@media (max-width: 480px) {
+    .opponent-cards-grid,
+    #nextOpponentList {
+        max-height: 50vh !important; /* Καταλαμβάνει τη μισή οθόνη του κινητού */
     }
 
-    .tsw-chip-label {
-        padding: 10px !important;
+    .player-select-card,
+    .opponent-card {
+        padding: 8px 10px !important;
+        min-height: 54px !important;
     }
 
-    /* Διόρθωση αποτελεσμάτων τυχαίας επιλογής */
-    .tsw-random-result {
-        flex-direction: column !important;
-        gap: 8px !important;
+    .player-select-card .player-name,
+    .player-card-name {
+        font-size: 0.9rem !important;
     }
 
-    .tsw-res-badge {
-        width: 100% !important;
-        box-sizing: border-box !important;
+    .player-select-card .category,
+    .player-card-category {
+        font-size: 0.7rem !important;
+        padding: 4px 8px !important;
+    }
+}
+/* ==================================================== */
+/* OVERRIDE FIX FOR OPPONENT SELECTION SCREEN           */
+/* ==================================================== */
+
+/* Επαναφορά του Grid σε Column Layout */
+.opponent-cards-grid,
+#nextOpponentList,
+.players-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100% !important;
+    min-height: 320px !important;
+    max-height: 60vh !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding: 8px !important;
+    box-sizing: border-box !important;
+}
+
+/* Διόρθωση Κάρτας Παίκτη (Μία γραμμή - Όλα ορατά) */
+.player-select-card,
+.opponent-card,
+#nextOpponentList > div {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    min-height: 65px !important;
+    height: auto !important;
+    padding: 10px 16px !important;
+    gap: 12px !important;
+    box-sizing: border-box !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 14px !important;
+}
+
+/* Όνομα Παίκτη */
+.player-select-card .player-name,
+.opponent-card .player-name,
+.player-card-name {
+    flex: 1 1 auto !important;
+    margin: 0 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    color: #ffffff !important;
+}
+
+/* Εμφάνιση Badge Κατηγορίας (Πάντα ορατό στα δεξιά) */
+.player-select-card .category,
+.player-select-card .player-category,
+.opponent-card .category-badge,
+.player-card-category {
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+    padding: 5px 12px !important;
+    background: rgba(56, 189, 248, 0.15) !important;
+    border: 1px solid rgba(56, 189, 248, 0.4) !important;
+    color: #38bdf8 !important;
+    border-radius: 20px !important;
+    font-size: 0.8rem !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+}
+
+/* Hover Effect */
+.player-select-card:hover,
+.opponent-card:hover {
+    border-color: #ec4899 !important;
+    background: rgba(236, 72, 153, 0.15) !important;
+}
+/* ==================================================== */
+/* EXTREME GAMING/NEON OPPONENT SELECTION SCREEN        */
+/* ==================================================== */
+
+/* Κεντρικό Container με Cyber-Grid & Glass Effect */
+.opponent-select-screen, 
+#opponentSelectModal, 
+.opponent-selection-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 850px !important;
+    margin: 0 auto !important;
+    padding: 30px 24px !important;
+    box-sizing: border-box !important;
+    background: radial-gradient(circle at 50% 0%, rgba(236, 72, 153, 0.15), transparent 70%),
+                rgba(15, 23, 42, 0.75) !important;
+    backdrop-filter: blur(20px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 24px !important;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8), 
+                0 0 40px rgba(236, 72, 153, 0.15) !important;
+}
+
+/* Badge Αρχικού Challenger με Neon Pulse */
+.initial-challenger-log {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    background: rgba(56, 189, 248, 0.1) !important;
+    border: 1px solid rgba(56, 189, 248, 0.4) !important;
+    border-radius: 50px !important;
+    padding: 8px 22px !important;
+    margin-bottom: 20px !important;
+    font-size: 0.9rem !important;
+    color: #e2e8f0 !important;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.2) !important;
+    animation: challengerPulse 2s infinite ease-in-out !important;
+}
+
+.initial-challenger-log strong {
+    color: #38bdf8 !important;
+    font-size: 1.05rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    text-shadow: 0 0 8px rgba(56, 189, 248, 0.6) !important;
+}
+
+@keyframes challengerPulse {
+    0%, 100% { box-shadow: 0 0 12px rgba(56, 189, 248, 0.2); }
+    50% { box-shadow: 0 0 22px rgba(56, 189, 248, 0.5); }
+}
+
+/* Τίτλος Οθόνης με Gradient & Text Glow */
+.opponent-select-screen h1,
+.opponent-select-screen h2 {
+    font-size: clamp(1.6rem, 5vw, 2.4rem) !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #ec4899 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.5) !important;
+    margin: 0 0 12px 0 !important;
+}
+
+/* Scrollable Grid Παικτών */
+.opponent-cards-grid,
+#nextOpponentList,
+.players-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+    width: 100% !important;
+    max-height: 52vh !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding: 10px 8px !important;
+    box-sizing: border-box !important;
+}
+
+/* Custom Cyber Scrollbar */
+.opponent-cards-grid::-webkit-scrollbar {
+    width: 6px !important;
+}
+.opponent-cards-grid::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-radius: 10px !important;
+}
+.opponent-cards-grid::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #38bdf8, #ec4899) !important;
+    border-radius: 10px !important;
+}
+
+/* Extreme Gaming Player Card */
+.player-select-card,
+.opponent-card,
+#nextOpponentList > div {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    min-height: 72px !important;
+    padding: 12px 20px !important;
+    gap: 16px !important;
+    box-sizing: border-box !important;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 16px !important;
+    cursor: pointer !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+    overflow: hidden !important;
+}
+
+/* Left Accent Indicator (Bar) */
+.player-select-card::before,
+.opponent-card::before,
+#nextOpponentList > div::before {
+    content: '' !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 4px !important;
+    background: linear-gradient(180deg, #38bdf8, #ec4899) !important;
+    opacity: 0.4 !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Hover Effect: Glow & Slide */
+.player-select-card:hover,
+.opponent-card:hover,
+#nextOpponentList > div:hover {
+    transform: translateX(6px) scale(1.01) !important;
+    background: linear-gradient(90deg, rgba(236, 72, 153, 0.2) 0%, rgba(15, 23, 42, 0.6) 100%) !important;
+    border-color: rgba(236, 72, 153, 0.6) !important;
+    box-shadow: 0 10px 25px rgba(236, 72, 153, 0.25), 0 0 15px rgba(236, 72, 153, 0.2) !important;
+}
+
+.player-select-card:hover::before,
+.opponent-card:hover::before,
+#nextOpponentList > div:hover::before {
+    opacity: 1 !important;
+    width: 6px !important;
+    box-shadow: 0 0 12px #ec4899 !important;
+}
+
+/* Avatar Παικτη */
+.player-select-card img,
+.player-select-card .avatar,
+.opponent-card .player-avatar,
+.player-card-avatar {
+    width: 46px !important;
+    height: 46px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, #ec4899, #8b5cf6) !important;
+    color: #ffffff !important;
+    font-weight: 900 !important;
+    font-size: 1.2rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3) !important;
+    flex-shrink: 0 !important;
+}
+
+/* Όνομα Παίκτη */
+.player-select-card .player-name,
+.opponent-card .player-name,
+.player-card-name {
+    flex: 1 1 auto !important;
+    font-size: 1.15rem !important;
+    font-weight: 800 !important;
+    color: #ffffff !important;
+    letter-spacing: 0.5px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin: 0 !important;
+}
+
+/* Neon Badge Κατηγορίας */
+.player-select-card .category,
+.player-select-card .player-category,
+.opponent-card .category-badge,
+.player-card-category {
+    display: inline-flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.8rem !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    color: #38bdf8 !important;
+    background: rgba(56, 189, 248, 0.12) !important;
+    border: 1px solid rgba(56, 189, 248, 0.4) !important;
+    padding: 6px 14px !important;
+    border-radius: 30px !important;
+    white-space: nowrap !important;
+    flex-shrink: 0 !important;
+    backdrop-filter: blur(4px) !important;
+}
+
+.player-select-card:hover .player-card-category,
+.opponent-card:hover .category-badge {
+    color: #ffffff !important;
+    background: rgba(236, 72, 153, 0.3) !important;
+    border-color: #ec4899 !important;
+    box-shadow: 0 0 10px rgba(236, 72, 153, 0.4) !important;
+}
+/* ==================================================== */
+/* EXTREME GAMING CSS FOR OPPONENT SELECT (STEP 4)      */
+/* ==================================================== */
+
+/* 1. Το Κεντρικό Εξωτερικό Container (PIC DUEL) */
+.setup-step-container, 
+#step4, 
+.step-container {
+    background: rgba(15, 23, 42, 0.85) !important;
+    backdrop-filter: blur(25px) saturate(200%) !important;
+    border: 1px solid rgba(139, 92, 246, 0.3) !important;
+    box-shadow: 0 0 50px rgba(139, 92, 246, 0.2), 
+                inset 0 0 20px rgba(236, 72, 153, 0.1) !important;
+    border-radius: 28px !important;
+    padding: 30px !important;
+}
+
+/* 2. Τα Στρογγυλά Κουμπιά Βημάτων (1 2 3 4 5) */
+.step-indicator, 
+.wizard-steps > div,
+.step-pill {
+    background: rgba(30, 41, 59, 0.8) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #94a3b8 !important;
+    font-weight: 800 !important;
+    box-shadow: none !important;
+}
+
+/* Το Ενεργό Βήμα (π.χ. το 4) */
+.step-indicator.active, 
+.wizard-steps > div.active,
+.step-pill.active {
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%) !important;
+    color: #ffffff !important;
+    border-color: #c084fc !important;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.6) !important;
+    transform: scale(1.1) !important;
+}
+
+/* 3. Το Εσωτερικό Κάρτα (ΕΠΙΛΟΓΗ ΑΝΤΙΠΑΛΟΥ) */
+.inner-step-card, 
+.opponent-card-wrapper {
+    background: linear-gradient(180deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 20px !important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    padding: 24px !important;
+}
+
+/* 4. Τίτλοι & Neon Text */
+.inner-step-card h2, 
+.inner-step-card h3 {
+    background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-weight: 900 !important;
+    text-shadow: 0 0 15px rgba(56, 189, 248, 0.4) !important;
+    letter-spacing: 1px !important;
+}
+
+/* 5. Extreme Styling στο Select Dropdown (Player 4) */
+#initialOpponentSelect, 
+select.opponent-dropdown {
+    width: 100% !important;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%) !important;
+    color: #38bdf8 !important;
+    font-size: 1.1rem !important;
+    font-weight: 800 !important;
+    border: 2px solid #a855f7 !important;
+    border-radius: 14px !important;
+    padding: 14px 18px !important;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.3) !important;
+    outline: none !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+#initialOpponentSelect:focus, 
+#initialOpponentSelect:hover {
+    border-color: #ec4899 !important;
+    box-shadow: 0 0 25px rgba(236, 72, 153, 0.5) !important;
+    color: #ffffff !important;
+}
+
+#initialOpponentSelect option {
+    background-color: #0f172a !important;
+    color: #ffffff !important;
+    padding: 10px !important;
+}
+
+/* 6. Glow Κουμπιά (Πίσω & Συνέχεια) */
+.btn-secondary, 
+button:contains("Πίσω") {
+    background: rgba(51, 65, 85, 0.8) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: #cbd5e1 !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn-secondary:hover {
+    background: rgba(71, 85, 105, 1) !important;
+    color: #ffffff !important;
+}
+
+/* Το Μπλε/Μοβ Κουμπί "Συνέχεια: Ρυθμίσεις" */
+.btn-primary, 
+button:contains("Συνέχεια") {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #d946ef 100%) !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+    border-radius: 14px !important;
+    padding: 16px !important;
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.5) !important;
+    transition: all 0.3s ease !important;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 15px 35px rgba(217, 70, 239, 0.6) !important;
+}
+/* ==================================================== */
+/* EXTREME NEON STYLING FOR STEP 4 (OPPONENT SELECT)   */
+/* ==================================================== */
+
+/* 1. Το container του Βήματος 4 */
+#tswStep4 .tsw-card {
+    background: radial-gradient(circle at top, rgba(30, 27, 75, 0.95), rgba(15, 23, 42, 0.98)) !important;
+    border: 1px solid rgba(168, 85, 247, 0.4) !important;
+    border-radius: 24px !important;
+    box-shadow: 0 0 35px rgba(168, 85, 247, 0.25), inset 0 0 15px rgba(236, 72, 153, 0.15) !important;
+    padding: 24px !important;
+}
+
+/* 2. Ο Τίτλος (ΕΠΙΛΟΓΗ ΑΝΤΙΠΑΛΟΥ) */
+#tswStep4 .tsw-title {
+    font-size: 1.6rem !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    background: linear-gradient(135deg, #38bdf8 0%, #a855f7 50%, #ec4899 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.5) !important;
+}
+
+/* 3. Το πλαίσιο της μονομαχίας (Challenge Display) */
+#tswStep4 .tsw-challenge-display {
+    background: rgba(15, 23, 42, 0.7) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 18px !important;
+    padding: 20px !important;
+    margin: 20px 0 !important;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* 4. Το Όνομα του Challenger */
+#tswStep4 #tswActiveChallengerName {
+    color: #facc15 !important;
+    font-weight: 900 !important;
+    font-size: 1.4rem !important;
+    text-shadow: 0 0 12px rgba(250, 204, 21, 0.6) !important;
+    text-transform: uppercase !important;
+}
+
+/* 5. Extreme Neon Styling στο Select Dropdown (#initialOpponentSelect) */
+#tswStep4 #initialOpponentSelect {
+    width: 100% !important;
+    min-height: 50px !important;
+    background: #0f172a !important;
+    color: #38bdf8 !important;
+    font-size: 1.1rem !important;
+    font-weight: 800 !important;
+    border: 2px solid #a855f7 !important;
+    border-radius: 14px !important;
+    padding: 10px 16px !important;
+    box-shadow: 0 0 18px rgba(168, 85, 247, 0.3) !important;
+    outline: none !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+}
+
+#tswStep4 #initialOpponentSelect:hover, 
+#tswStep4 #initialOpponentSelect:focus {
+    border-color: #ec4899 !important;
+    box-shadow: 0 0 25px rgba(236, 72, 153, 0.6) !important;
+    color: #ffffff !important;
+}
+
+#tswStep4 #initialOpponentSelect option {
+    background: #0f172a !important;
+    color: #ffffff !important;
+    font-size: 1rem !important;
+}
+
+/* 6. Τα Κουμπιά (Πίσω & Συνέχεια) */
+#tswStep4 .tsw-btn-prev {
+    background: rgba(51, 65, 85, 0.8) !important;
+    color: #cbd5e1 !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+}
+
+#tswStep4 .tsw-btn-next {
+    background: linear-gradient(135deg, #4f46e5 0%, #9333ea 50%, #db2777 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-weight: 900 !important;
+    box-shadow: 0 8px 20px rgba(147, 51, 234, 0.4) !important;
+    transition: all 0.3s ease !important;
+}
+
+#tswStep4 .tsw-btn-next:hover {
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 12px 28px rgba(219, 39, 119, 0.6) !important;
+}
+/* Καθαρή στοίχιση για τη λίστα παικτών και τα Dropdowns */
+#tournamentPlayerInputs .playerRow {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important; /* Ίσο πλάτος για όνομα & κατηγορία */
+    gap: 12px !important;
+    align-items: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Σωστό styling για το Dropdown Επιλογής Κατηγορίας */
+.playerCategorySelect {
+    width: 100% !important;
+    height: 44px !important;
+    background: #0f172a !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 10px !important;
+    padding: 0 12px !important;
+    font-size: 0.95rem !important;
+    outline: none !important;
+    appearance: auto !important; /* Επαναφορά της φυσικής βελόνας του dropdown */
+}
+
+/* Προσαρμογή για μικρές οθόνες (Mobile) */
+@media (max-width: 640px) {
+    #tournamentPlayerInputs .playerRow {
+        grid-template-columns: 1fr !important; /* Στοίχιση το ένα κάτω από το άλλο */
     }
 }

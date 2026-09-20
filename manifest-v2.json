@@ -1,0 +1,9 @@
+{
+  "name": "Pic Duel",
+  "short_name": "PicDuel",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#0f172a", 
+  "theme_color": "#0f172a",
+  "orientation": "portrait"
+}
